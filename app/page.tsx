@@ -62,7 +62,10 @@ export default function Home() {
   }
 
   function handleAskAiGlobal() {
-    openSheet({ category: activeCategory, dish: null });
+    // The floating button is the general chat entry point — it must stay
+    // scoped to the whole menu, not silently inherit whatever category tab
+    // happens to be open underneath it.
+    openSheet({ category: null, dish: null });
   }
 
   function handleAskAboutItem(item: MenuItem) {

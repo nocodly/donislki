@@ -13,6 +13,7 @@ type Props = {
 
 export function MenuItemCard({ item, language, onAskAi, compact }: Props) {
   const t = STRINGS[language];
+  const fromPrice = item.sizes?.[0]?.price ?? item.price;
 
   return (
     <article
@@ -23,11 +24,22 @@ export function MenuItemCard({ item, language, onAskAi, compact }: Props) {
       <div className="flex items-start justify-between gap-2">
         <h3 className="text-[15px] font-medium leading-snug text-ink">{item.name}</h3>
         <span className="shrink-0 text-[15px] font-medium text-accent">
-          {item.price.toFixed(2)}&nbsp;€
+          {item.sizes ? 'from ' : ''}
+          {fromPrice.toFixed(2)}&nbsp;€
         </span>
       </div>
 
       <p className="text-[13px] leading-snug text-muted">{item.description}</p>
+
+      {item.sizes && (
+        <div className="flex flex-wrap gap-x-3 gap-y-0.5 text-[12.5px] text-muted">
+          {item.sizes.map((size) => (
+            <span key={size.label}>
+              {size.label}: <span className="font-medium text-ink">{size.price.toFixed(2)}&nbsp;€</span>
+            </span>
+          ))}
+        </div>
+      )}
 
       {item.pairing && (
         <p className="text-[12.5px] text-ink">
