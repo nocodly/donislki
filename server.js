@@ -59,7 +59,7 @@ app.post(`${BASE_PATH}/api/chat`, async (req, res) => {
     }
 
     const data = await response.json();
-    const reply = data.content?.[0]?.text ?? '';
+    const reply = data.content?.find((block) => block.type === 'text')?.text ?? '';
     console.log('[chat] request completed');
     res.json({ reply });
   } catch (err) {
