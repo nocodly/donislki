@@ -8,6 +8,7 @@ type Strings = {
   chatTitle: string;
   discussing: string;
   askAboutThis: string;
+  askAboutDish: (dishName: string) => string;
   pairing: string;
   allergensLabel: string;
   allergensUnknown: string;
@@ -33,6 +34,7 @@ export const STRINGS: Record<Language, Strings> = {
     chatTitle: 'DonislKI',
     discussing: 'Discussing',
     askAboutThis: 'Ask AI about this',
+    askAboutDish: (dishName) => `Tell me about ${dishName}`,
     pairing: 'Best with',
     allergensLabel: 'Allergens',
     allergensUnknown: 'Please confirm with staff',
@@ -64,6 +66,7 @@ export const STRINGS: Record<Language, Strings> = {
     chatTitle: 'DonislKI',
     discussing: 'Thema',
     askAboutThis: 'KI dazu fragen',
+    askAboutDish: (dishName) => `Erzähl mir mehr über ${dishName}`,
     pairing: 'Passt gut zu',
     allergensLabel: 'Allergene',
     allergensUnknown: 'Bitte beim Personal nachfragen',
@@ -95,6 +98,7 @@ export const STRINGS: Record<Language, Strings> = {
     chatTitle: 'DonislKI',
     discussing: 'Обговорюємо',
     askAboutThis: 'Запитати AI про це',
+    askAboutDish: (dishName) => `Розкажи мені про ${dishName}`,
     pairing: 'Добре поєднується з',
     allergensLabel: 'Алергени',
     allergensUnknown: 'Уточніть в офіціанта',

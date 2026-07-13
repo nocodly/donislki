@@ -66,10 +66,12 @@ export default function Home() {
   }
 
   function handleAskAboutItem(item: MenuItem) {
-    openSheet({ category: item.category, dish: item.id });
+    const nextContext: ChatContext = { category: item.category, dish: item.id };
+    openSheet(nextContext);
+    handleSend(t.askAboutDish(item.name), nextContext);
   }
 
-  async function handleSend(text: string) {
+  async function handleSend(text: string, contextOverride?: ChatContext) {
     const userMessage: ChatMessage = { id: newId(), role: 'user', text };
     const history = [...messages, userMessage];
     setMessages(history);
@@ -83,7 +85,7 @@ export default function Home() {
           messages: history
             .filter((m) => m.id !== 'greeting')
             .map((m) => ({ role: m.role, content: m.text })),
-          context,
+          context: contextOverride ?? context,
           language,
         }),
       });
