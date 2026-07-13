@@ -3,7 +3,8 @@ const TRANSLATIONS = {
   uk: {
     subtitle: 'KI консультант',
     greeting: 'Grüß Gott! 👋 Я DonislKI — допоможу обрати страву чи напій із меню ресторану Donisl 🥨🍺. Що вам сьогодні до смаку?',
-    placeholder: 'Напр.: щось ситне і місцеве пиво до нього',
+    placeholder: 'Запитай DonislKi',
+    credit: 'Розроблено',
     typing: 'друкує…',
     errorApi: '😕 Вибачте, зараз не можу відповісти. Спробуйте ще раз за хвилину.',
     errorConnection: '📶 Проблема з підключенням. Перевірте інтернет і спробуйте ще раз.',
@@ -17,7 +18,8 @@ const TRANSLATIONS = {
   de: {
     subtitle: 'KI-Berater',
     greeting: 'Grüß Gott! 👋 Ich bin DonislKI — ich helfe Ihnen, ein Gericht oder Getränk aus der Speisekarte von Donisl zu wählen 🥨🍺. Worauf haben Sie heute Lust?',
-    placeholder: 'Z. B.: etwas Deftiges und ein passendes Bier dazu',
+    placeholder: 'Frag DonislKi',
+    credit: 'Entwickelt von',
     typing: 'schreibt…',
     errorApi: '😕 Entschuldigung, ich kann gerade nicht antworten. Bitte versuchen Sie es in einer Minute erneut.',
     errorConnection: '📶 Verbindungsproblem. Bitte Internet prüfen und erneut versuchen.',
@@ -31,7 +33,8 @@ const TRANSLATIONS = {
   en: {
     subtitle: 'AI Consultant',
     greeting: "Grüß Gott! 👋 I'm DonislKI — I'll help you pick a dish or drink from Donisl's menu 🥨🍺. What are you in the mood for today?",
-    placeholder: 'E.g.: something hearty with a local beer to match',
+    placeholder: 'Ask DonislKi',
+    credit: 'Developed by',
     typing: 'typing…',
     errorApi: "😕 Sorry, I can't respond right now. Please try again in a minute.",
     errorConnection: '📶 Connection problem. Check your internet and try again.',
@@ -45,7 +48,8 @@ const TRANSLATIONS = {
   it: {
     subtitle: 'Consulente KI',
     greeting: 'Grüß Gott! 👋 Sono DonislKI — ti aiuto a scegliere un piatto o una bevanda dal menù di Donisl 🥨🍺. Cosa ti va oggi?',
-    placeholder: 'Es.: qualcosa di sostanzioso con una birra locale in abbinamento',
+    placeholder: 'Chiedi a DonislKi',
+    credit: 'Sviluppato da',
     typing: 'sta scrivendo…',
     errorApi: '😕 Spiacente, al momento non posso rispondere. Riprova tra un minuto.',
     errorConnection: '📶 Problema di connessione. Controlla internet e riprova.',
@@ -59,7 +63,8 @@ const TRANSLATIONS = {
   fr: {
     subtitle: 'Consultant KI',
     greeting: "Grüß Gott ! 👋 Je suis DonislKI — je vous aide à choisir un plat ou une boisson du menu de Donisl 🥨🍺. Qu'est-ce qui vous ferait plaisir aujourd'hui ?",
-    placeholder: 'Ex. : quelque chose de copieux avec une bière locale assortie',
+    placeholder: 'Demande à DonislKi',
+    credit: 'Développé par',
     typing: 'écrit…',
     errorApi: "😕 Désolé, je ne peux pas répondre pour le moment. Réessayez dans une minute.",
     errorConnection: '📶 Problème de connexion. Vérifiez votre internet et réessayez.',
@@ -73,7 +78,8 @@ const TRANSLATIONS = {
   es: {
     subtitle: 'Consultor KI',
     greeting: 'Grüß Gott! 👋 Soy DonislKI — te ayudo a elegir un plato o una bebida del menú de Donisl 🥨🍺. ¿Qué se te antoja hoy?',
-    placeholder: 'Ej.: algo contundente con una cerveza local a juego',
+    placeholder: 'Pregunta a DonislKi',
+    credit: 'Desarrollado por',
     typing: 'escribiendo…',
     errorApi: '😕 Lo siento, ahora mismo no puedo responder. Inténtalo de nuevo en un minuto.',
     errorConnection: '📶 Problema de conexión. Comprueba tu internet e inténtalo de nuevo.',
@@ -99,6 +105,7 @@ function detectLang() {
 
 const lang = detectLang();
 const t = TRANSLATIONS[lang] || TRANSLATIONS.de;
+document.documentElement.lang = lang;
 
 /* ---------- DOM refs ---------- */
 const messagesEl = document.getElementById('messages');
@@ -108,9 +115,25 @@ const landingEl = document.getElementById('landing');
 const startBtn = document.getElementById('startBtn');
 const suggestionsEl = document.getElementById('suggestions');
 const subtitleEl = document.getElementById('subtitle');
+const creditEls = document.querySelectorAll('.credit-text');
 
 subtitleEl.textContent = t.subtitle;
 inputEl.placeholder = t.placeholder;
+creditEls.forEach((el) => { el.textContent = t.credit; });
+
+/* ---------- Keep layout pinned above the mobile keyboard ---------- */
+const appEl = document.querySelector('.app');
+function syncViewportHeight() {
+  const h = window.visualViewport ? window.visualViewport.height : window.innerHeight;
+  appEl.style.height = `${h}px`;
+}
+syncViewportHeight();
+if (window.visualViewport) {
+  window.visualViewport.addEventListener('resize', syncViewportHeight);
+  window.visualViewport.addEventListener('scroll', syncViewportHeight);
+} else {
+  window.addEventListener('resize', syncViewportHeight);
+}
 
 const chipButtons = suggestionsEl.querySelectorAll('.chip');
 chipButtons.forEach((btn, i) => {
@@ -135,8 +158,9 @@ const phrases = [
   'Pregúntame sobre el menú',
 ];
 
+const phraseLangOrder = ['uk', 'en', 'de', 'it', 'fr', 'es'];
 const typedTextEl = document.getElementById('typedText');
-let phraseIdx = 0;
+let phraseIdx = Math.max(0, phraseLangOrder.indexOf(lang));
 let charIdx = 0;
 let deleting = false;
 

@@ -21,6 +21,8 @@
   html, body {
     height: 100%;
     margin: 0;
+    overflow: hidden;
+    overscroll-behavior: none;
     background: var(--bg);
     color: var(--text);
     font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
@@ -309,7 +311,7 @@
     color: var(--text);
     border-radius: 12px;
     padding: 10px 12px;
-    font-size: 15px;
+    font-size: 16px;
     max-height: 100px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   }
@@ -341,7 +343,7 @@
       <p class="subtitle" id="subtitle">KI консультант</p>
       <button class="start-btn" id="startBtn"><span id="typedText"></span><span class="cursor">|</span></button>
       <div class="hint">München · Sommerkarte</div>
-      <div class="credit">Розроблено <a href="https://nocodly.com" target="_blank" rel="noopener">nocodly</a></div>
+      <div class="credit"><span class="credit-text">Developed by</span> <a href="https://nocodly.com" target="_blank" rel="noopener">nocodly</a></div>
     </div>
 
     <div id="chatScreen">
@@ -363,10 +365,10 @@
         <button class="chip" data-icon="🍰"></button>
       </div>
       <form id="form">
-        <textarea id="input" rows="1" placeholder="Напр.: щось ситне і місцеве пиво до нього"></textarea>
+        <textarea id="input" rows="1" placeholder="Ask DonislKi"></textarea>
         <button class="send" type="submit">➤</button>
       </form>
-      <div class="credit">Розроблено <a href="https://nocodly.com" target="_blank" rel="noopener">nocodly</a></div>
+      <div class="credit"><span class="credit-text">Developed by</span> <a href="https://nocodly.com" target="_blank" rel="noopener">nocodly</a></div>
     </div>
   </div>
   <script>window.BASE_PATH = "__BASE_PATH__";</script>
