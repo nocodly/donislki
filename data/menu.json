@@ -1,0 +1,251 @@
+{
+  "restaurant": "Donisl",
+  "city": "München",
+  "currency": "EUR",
+  "categories": [
+    {
+      "name": "Aperitif",
+      "items": [
+        { "name": "Aperol Spritz", "description": "0.2l", "price": 8.9, "tags": ["aperitif"] },
+        { "name": "Hugo", "description": "0.2l", "price": 8.9, "tags": ["aperitif"] },
+        { "name": "Campari Soda", "description": "0.2l", "price": 6.0, "tags": ["aperitif"] },
+        { "name": "Campari Orange", "description": "0.2l", "price": 8.4, "tags": ["aperitif"] },
+        { "name": "Sanbitter", "description": "0.2l, alcohol-free", "price": 8.0, "tags": ["aperitif", "non-alcoholic"] }
+      ]
+    },
+    {
+      "name": "Our Beers",
+      "items": [
+        { "name": "Münchner Hell", "description": "Bottom-fermented, delicately bitter hop note, slightly malty | 5.0% vol.", "sizes": [{ "label": "0.35l", "price": 4.6 }, { "label": "0.5l", "price": 5.2 }, { "label": "1.0l", "price": 10.4 }], "tags": ["beer"] },
+        { "name": "Light Alcohol-Free", "description": "Naturally cloudy, caramel & honey notes | <0.5% vol.", "price": 5.2, "tags": ["beer", "non-alcoholic"] },
+        { "name": "Münchner Radler", "description": "Munich Helles with fine lemonade, not too sweet", "price": 5.2, "tags": ["beer", "light"] },
+        { "name": "Münchner Dunkel", "description": "Delicately bitter, roasted malt, caramel & candied fruit | 5.0% vol.", "price": 6.1, "tags": ["beer", "hearty"] },
+        { "name": "Yeast White (Hefeweizen)", "description": "Top-fermented wheat beer, banana & honey notes", "price": 6.2, "tags": ["beer"] },
+        { "name": "Russn", "description": "Hefeweizen with delicate lemonade, not too sweet", "price": 6.2, "tags": ["beer", "light"] },
+        { "name": "Cola Wheat", "description": "Hefeweizen with Coca-Cola", "price": 6.2, "tags": ["beer"] },
+        { "name": "Paulaner non-alcoholic wheat beer", "description": "Gently dealcoholized after full maturation, keeps its aroma", "price": 6.2, "tags": ["beer", "non-alcoholic"] },
+        { "name": "Salvator", "description": "Strong beer (Starkbier), seasonal — available February/March", "price": 6.4, "unit": "0.5l", "tags": ["beer", "seasonal", "strong"] },
+        { "name": "Kellerbier", "description": "Seasonal — available June/July/August (Sommerzeit)", "price": 6.1, "unit": "0.5l", "tags": ["beer", "seasonal"] },
+        { "name": "Wiesnbier", "description": "Oktoberfest beer, seasonal — available September/October", "price": 6.4, "unit": "0.5l", "tags": ["beer", "seasonal"] }
+      ]
+    },
+    {
+      "name": "Appetizers",
+      "items": [
+        { "name": "Brotzeitbrettl", "description": "Farmer's smoked meats, bacon sausage, liverwurst, cold roast beef, O'gmachter, mountain cheese, horseradish, bread", "sizes": [{ "label": "2 Pers.", "price": 24.0 }, { "label": "4 Pers.", "price": 42.0 }], "tags": ["sharing"] },
+        { "name": "Donisl \"4erlei\"", "description": "Hummus, made cheese, salted butter, herbed sour cream — with a bread basket", "price": 11.0, "tags": ["vegetarian"] },
+        { "name": "Bavarian beef tartare", "description": "Truffle cream, baked organic egg", "sizes": [{ "label": "small", "price": 13.4 }, { "label": "large", "price": 21.9 }], "tags": [] },
+        { "name": "Lukewarm calf's head carpaccio", "description": "Pomegranate, horseradish, cucumber", "price": 20.9, "tags": [] },
+        { "name": "O'gmachter Kas", "description": "Creamy cheese, onion rings, radishes, lettuce, berry", "price": 13.6, "tags": ["vegetarian"] },
+        { "name": "Sausage salad from Regensburg", "description": "House dressing, onion rings, pickle, tomato, berry (+1.90 with strips of mountain cheese)", "price": 15.8, "tags": [] },
+        { "name": "Donisl Salad", "description": "Leafy greens, tomato, cucumber, house dressing, seeds, croutons", "sizes": [{ "label": "small", "price": 6.9 }, { "label": "large", "price": 11.9 }], "tags": ["vegetarian"] },
+        { "name": "Bread basket", "description": "", "price": 4.9, "tags": ["vegetarian"] },
+        { "name": "Brezn", "description": "Bavarian pretzel", "price": 2.4, "tags": ["vegetarian"] }
+      ]
+    },
+    {
+      "name": "Sausage Specialties",
+      "items": [
+        { "name": "White sausage (Kesselfrisch)", "description": "Two pieces, pretzel, mustard", "price": 10.6, "tags": [] },
+        { "name": "Piece of white sausage", "description": "", "price": 4.1, "tags": [] },
+        { "name": "Polish sausage", "description": "With pretzel and mustard", "price": 8.9, "tags": [] },
+        { "name": "Currywurst", "description": "With French fries", "price": 14.9, "tags": [] },
+        { "name": "Bratwurstreindl", "description": "Sauerkraut or potato salad — portion to share", "sizes": [{ "label": "4 Würstl", "price": 17.9 }, { "label": "8 Würstl", "price": 29.0 }, { "label": "16 Würstl", "price": 55.0 }], "tags": ["sharing"] }
+      ]
+    },
+    {
+      "name": "From the Soup Kettle",
+      "items": [
+        { "name": "Oxen consommé", "description": "Liver dumplings or pancake strips, vegetables, chives", "price": 7.9, "tags": [] },
+        { "name": "Velvet soup from bush tomato", "description": "Burrata-basil cream", "price": 9.9, "tags": ["vegan"] }
+      ]
+    },
+    {
+      "name": "Traditional Bavarian Cuisine",
+      "items": [
+        { "name": "Donisl roasting pan", "description": "Beef, duck, pork knuckle, pork sausages, red cabbage, potato dumplings, cheese spaetzle", "sizes": [{ "label": "2 Pers.", "price": 68.0 }, { "label": "4 Pers.", "price": 124.0 }], "tags": ["sharing", "signature"] },
+        { "name": "Roast pork", "description": "Pork from Bavarian breeding, shoulder, pork belly with crackling, natural gravy, potato dumplings, coleslaw", "sizes": [{ "label": "small", "price": 16.9 }, { "label": "large", "price": 19.9 }], "tags": ["hearty", "signature"] },
+        { "name": "1/2 crispy pork knuckle", "description": "Natural sauce, potato dumplings, coleslaw", "price": 23.9, "tags": ["hearty", "signature"] },
+        { "name": "Wiener Schnitzel", "description": "Bavarian straw-fed pork, French fries or potato-cucumber salad, cranberries", "sizes": [{ "label": "small", "price": 18.6 }, { "label": "large", "price": 22.9 }], "tags": ["classic"] },
+        { "name": "1/4 crispy Bavarian farm duck", "description": "Rosemary sauce, potato dumplings, red cabbage", "price": 23.5, "tags": ["hearty"] },
+        { "name": "Backhendl", "description": "Boneless chicken leg, French fries or potato-cucumber salad", "price": 21.9, "tags": [] },
+        { "name": "Duet of the Ox", "description": "Shoulder, cheek, red wine jus, baby spinach, creamy potatoes", "price": 29.6, "tags": ["hearty"] },
+        { "name": "Veal steak", "description": "Colorful peppercorn cream sauce, flamed kohlrabi, potato rösti", "price": 32.9, "tags": [] },
+        { "name": "Veal meatballs", "description": "Dressed vegetables, rosemary potatoes", "price": 19.9, "tags": [] }
+      ]
+    },
+    {
+      "name": "Donisl Power Bowl",
+      "items": [
+        { "name": "Donisl Power Bowl", "description": "Duftreis, avocado, edamame, chickpeas, carrots, tomato, cucumber, peanuts, orange-mint-lime dressing", "sizes": [{ "label": "with chicken", "price": 20.9 }, { "label": "with cured salmon", "price": 21.9 }, { "label": "with goat cheese", "price": 20.9 }], "tags": ["bowl", "signature"] }
+      ]
+    },
+    {
+      "name": "Vegetarian | Vegan",
+      "items": [
+        { "name": "Cheese sprats", "description": "Spätzle, cheese, onion rings", "sizes": [{ "label": "small", "price": 14.6 }, { "label": "large", "price": 17.6 }], "tags": ["vegetarian"] },
+        { "name": "Linguine with truffles", "description": "Pasta, baby spinach, winter truffle", "price": 22.9, "tags": ["vegan"] },
+        { "name": "Rahmschwammerl", "description": "Mushrooms, cream, pretzel dumplings", "price": 17.6, "tags": ["vegetarian"] }
+      ]
+    },
+    {
+      "name": "Extra Side Dishes",
+      "items": [
+        { "name": "Sauerkraut / Red cabbage / Bacon and cabbage salad / Creamy potatoes / Potato dumplings / Small roasted potatoes / Spätzle / French fries", "description": "each", "price": 5.6, "tags": [] },
+        { "name": "Vegetable side dish / Potato and cucumber salad", "description": "each", "price": 5.9, "tags": ["vegetarian"] }
+      ]
+    },
+    {
+      "name": "From the Grill",
+      "items": [
+        { "name": "Roast beef - rump steak", "description": "Murnau beef with red wine and onion jus, fried onions, käsespätzle", "price": 31.9, "tags": [] },
+        { "name": "Ribeye 300 grams", "description": "Fat cap from Murnau beef, café de paris sauce, grilled vegetables, potato gratin", "price": 39.9, "tags": [] },
+        { "name": "Donisl Deluxe Burger", "description": "200g Werdenfelser beef, cheddar cheese, lettuce, tomato, pickles, onions, homemade Donisl sauce (+3.90 with French fries)", "price": 18.9, "tags": [] },
+        { "name": "Icefish", "description": "Thyme, ratatouille vegetables, potato gratin", "price": 32.9, "tags": [] }
+      ]
+    },
+    {
+      "name": "For Children",
+      "items": [
+        { "name": "Potato dumplings", "description": "With pork roast gravy", "price": 5.6, "tags": [] },
+        { "name": "Kässpatzn", "description": "", "price": 7.9, "tags": ["vegetarian"] },
+        { "name": "2 Rostbratwürstl", "description": "With French fries or potato-cucumber salad", "price": 8.9, "tags": [] },
+        { "name": "Portion of French Fries", "description": "", "price": 5.6, "tags": ["vegetarian"] }
+      ]
+    },
+    {
+      "name": "Sweet Temptations",
+      "items": [
+        { "name": "Crème brûlée", "description": "Sorbet, berries", "price": 9.9, "tags": ["vegetarian"] },
+        { "name": "Large portion of Kaiserschmarrn", "description": "Raisins, butter, sugar, caramelized almonds, served with applesauce — ideal for sharing", "price": 15.6, "tags": ["vegetarian", "sharing", "signature"] },
+        { "name": "Kirschmichl", "description": "Served with custard", "price": 9.6, "tags": ["vegetarian"] },
+        { "name": "Apple strudel", "description": "Served with custard", "price": 9.6, "tags": ["vegetarian"] }
+      ]
+    },
+    {
+      "name": "Dessert Wine",
+      "items": [
+        { "name": "Rieslaner Auslese", "description": "Juliusspital Winery, Franconia, Germany", "price": 58.0, "unit": "0.5l", "tags": ["wine", "dessert-wine"] }
+      ]
+    },
+    {
+      "name": "High-Proof",
+      "items": [
+        { "name": "Nut (in a bottle)", "description": "2cl", "price": 4.0, "tags": ["spirit"] },
+        { "name": "Rüscherl", "description": "13cl", "price": 5.0, "tags": ["spirit"] },
+        { "name": "Hirschkuss", "description": "38% ABV, swing-top bottle, 4cl", "price": 7.0, "tags": ["spirit"] },
+        { "name": "Vodka RedBull", "description": "0.27l", "price": 9.5, "tags": ["spirit"] }
+      ]
+    },
+    {
+      "name": "Best Brandy",
+      "items": [
+        { "name": "Williams Christ pear", "description": "40% vol. Edelbrand — Sigi Herzog Distillate, 2cl", "price": 4.9, "tags": ["spirit"] },
+        { "name": "Farm fruit growers", "description": "Linster fine fruit distillery, aged 1 year in oak barrels, 2cl", "price": 4.6, "tags": ["spirit"] },
+        { "name": "Feiner Mirabell", "description": "Linster fine fruit distillery, ripe apricot flavor, 2cl", "price": 5.6, "tags": ["spirit"] },
+        { "name": "Enzian Gentian Brandy", "description": "Wilhelm Marx Fine Spirits Manufactory, 2cl", "price": 7.9, "tags": ["spirit"] },
+        { "name": "Raspberry pulp brandy", "description": "40% vol. Edelmanufaktur Wilhelm Marx, 2cl", "price": 7.9, "tags": ["spirit"] },
+        { "name": "Grappa from Chardonnay", "description": "Grandfather, 2cl", "price": 5.6, "tags": ["spirit"] }
+      ]
+    },
+    {
+      "name": "Wine from the Barrel",
+      "items": [
+        { "name": "Weissweinschorle", "description": "0.3l", "price": 6.0, "tags": ["wine"] },
+        { "name": "Pinot Gris", "description": "Hirschmüller Winery, D-Württemberg", "sizes": [{ "label": "0.1l", "price": 6.0 }, { "label": "0.2l", "price": 9.0 }], "tags": ["wine", "white"] },
+        { "name": "Primitivo Puglia IGT", "description": "Sir of the Faun, I-Ampulien", "sizes": [{ "label": "0.1l", "price": 6.0 }, { "label": "0.2l", "price": 9.0 }], "tags": ["wine", "red"] },
+        { "name": "Prodry Frizzante", "description": "Motelvini, Veneto, Italy, 0.1l", "price": 4.6, "tags": ["wine", "sparkling"] }
+      ]
+    },
+    {
+      "name": "Champagne & Sparkling Wines",
+      "items": [
+        { "name": "Paul Michel", "description": "Champagne Premier Cru, F-Champagne, 0.75l", "price": 120.0, "tags": ["champagne"] },
+        { "name": "Taittinger Prestige Rosé Brut", "description": "Champagne Taittinger, F-Champagne, 0.75l", "price": 145.0, "tags": ["champagne"] },
+        { "name": "Valdo Prosecco Superiore DOCG Gold Brand Sparkling Wine", "description": "Valdo, I-Veneto, 0.75l", "price": 39.0, "tags": ["sparkling"] },
+        { "name": "Winzersekt", "description": "Pfaffmann Winery, D-Palatinate, 0.75l", "price": 45.0, "tags": ["sparkling"] }
+      ]
+    },
+    {
+      "name": "White Wine",
+      "items": [
+        { "name": "Chardonnay", "description": "Hirschmüller Winery, Württemberg, Germany — intensely fruity aroma of passion fruit, mango, pineapple, kiwi", "price": 34.0, "unit": "0.75l", "tags": ["wine", "white"] },
+        { "name": "Chardonnay Mâcon-Igé La Cra", "description": "Domaine Fichet, F-Burgund — apple, pear, white peach, subtle minerality", "price": 69.0, "unit": "0.75l", "tags": ["wine", "white"] },
+        { "name": "Pinot Gris Tradition", "description": "Bott Freres Winery, Burgundy — apricot, Viennese apple, hazelnut, subtle smoke", "price": 39.0, "unit": "0.75l", "tags": ["wine", "white"] },
+        { "name": "Pinot Gris", "description": "Oetinger Winery, D-Rheingau — ripe pear, yellow apple, hint of almond", "price": 39.0, "unit": "0.75l", "tags": ["wine", "white"] },
+        { "name": "Pinot Gris Reserve Pauline", "description": "Pfaffmann Winery, D-Palatinate — pear, pineapple, nectarine, lemongrass, floral", "price": 56.0, "unit": "0.75l", "tags": ["wine", "white"] },
+        { "name": "Pinot Blanc Grand Reserve", "description": "Taubenschuss Winery, Austrian Wine Quarter — melon, hazelnut, hay, caramel", "price": 79.0, "unit": "0.75l", "tags": ["wine", "white"] },
+        { "name": "Trebbiano di Lugana", "description": "Zenato Winery, Veneto, Italy — fresh acidity, mineral, citrus, green apple, pear", "price": 39.0, "unit": "0.75l", "tags": ["wine", "white"] },
+        { "name": "Riesling Easy-White", "description": "NURGOTT, Oetinger Winery, D-Rheingau — lime, apple, white peach, ideal aperitif", "price": 33.0, "unit": "0.75l", "tags": ["wine", "white"] },
+        { "name": "Riesling Gottloos", "description": "Dr. Loosen Winery, D-Mosel — citrus, apple, elegant minerality", "price": 42.0, "unit": "0.75l", "tags": ["wine", "white"] },
+        { "name": "Riesling Ried Heiligenstein", "description": "Bründlmayerr Winery, Langenlois, Kamptal, Austria — fresh citrus, apple, herbal spice", "price": 98.0, "unit": "0.75l", "tags": ["wine", "white"] },
+        { "name": "Riesling Smoky Dry", "description": "Weingut Oetinger, D-Rheingau — smoky minerality, juicy apple, citrus", "price": 49.0, "unit": "0.75l", "tags": ["wine", "white"] },
+        { "name": "Riesling Refill \"Bright side of life\" 2024", "description": "Stahl Winery, Franconia, Germany — fruity, fresh, uncomplicated", "price": 29.0, "unit": "0.75l", "tags": ["wine", "white"] },
+        { "name": "Sauvignon Blanc", "description": "HERRGOTT, Chateau de la Chaise, F-Lore — gooseberry, green apple, exotic fruit", "price": 45.0, "unit": "0.75l", "tags": ["wine", "white"] },
+        { "name": "Sauvignon Blanc Reserve -S-", "description": "Taubenschuss Winery, Austrian Weinviertel — lime, gooseberry, exotic fruit", "price": 58.0, "unit": "0.75l", "tags": ["wine", "white"] },
+        { "name": "Silvaner Easy-White", "description": "NURGOTT, Weingut am Stein, D-Franken — green apple, pear, subtle herbs", "price": 32.0, "unit": "0.75l", "tags": ["wine", "white"] },
+        { "name": "Grüner Veltliner Ried Tenn DAC Reserve", "description": "Taubenschuss Winery, Austrian Wine Quarter — apple, white pepper, herbal spice", "price": 54.0, "unit": "0.75l", "tags": ["wine", "white"] }
+      ]
+    },
+    {
+      "name": "Large Bottles",
+      "items": [
+        { "name": "Riesling Gottloos", "description": "Dr. Loosen Winery, D-Mosel", "price": 168.0, "unit": "3.0l", "tags": ["wine", "white"] },
+        { "name": "Grüner Veltliner Ried Steinberg", "description": "Karl Fritsch Winery, Burgenland, Austria", "price": 120.0, "unit": "1.5l", "tags": ["wine", "white"] },
+        { "name": "Chardonnay Morillon Ried Flammberg", "description": "Lackner Tinnacher Winery, Southern Styria, Austria", "price": 160.0, "unit": "1.5l", "tags": ["wine", "white"] },
+        { "name": "Cuvée Adrian Sangiovese Grape 2021", "description": "Rotweincuvée, Toscana Rosso, T-Toskana", "price": 98.0, "unit": "1.5l", "tags": ["wine", "red"] }
+      ]
+    },
+    {
+      "name": "Red Wine",
+      "items": [
+        { "name": "Primitivo Puglia IGT", "description": "Barbanera Winery, Apulia, Italy — dark berries, cherry, subtle spice", "price": 34.0, "unit": "0.75l", "tags": ["wine", "red"] },
+        { "name": "Herrgott Cuvée", "description": "HERRGOTT, Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, D-Pfalz — cherries, red berries", "price": 38.0, "unit": "0.75l", "tags": ["wine", "red"] },
+        { "name": "Tuscany Red Cuvée", "description": "Duca di Salangane, Sangiovese/Cabernet/Canaiolo, I-Toscana — cherries, dark berries", "price": 29.0, "unit": "0.75l", "tags": ["wine", "red"] },
+        { "name": "Pinot Noir Ried Goldberg", "description": "Toni Hartl Winery, Burgenland, Austria — red berries, cherries, subtle spice", "price": 79.0, "unit": "0.75l", "tags": ["wine", "red"] },
+        { "name": "Merlot", "description": "NURGOTT, Chateau Gensac, Gascony — dark cherries, plums, spice", "price": 42.0, "unit": "0.75l", "tags": ["wine", "red"] },
+        { "name": "Brunello di Montalcino DOCG", "description": "Tenuta Corte Pavone Winery, Sangiovese, Tuscany — dark berry, cherry, chocolate", "price": 135.0, "unit": "0.75l", "tags": ["wine", "red"] },
+        { "name": "Black OX Cuvée", "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, D-Pfalz — dark berries, cherry, spice", "price": 39.0, "unit": "0.75l", "tags": ["wine", "red"] }
+      ]
+    },
+    {
+      "name": "Rosé Wine",
+      "items": [
+        { "name": "Rosé Lime & Stone", "description": "Unger Winery, Lake Neusiedl, Austria — red berries, strawberry, raspberry, citrus", "price": 36.0, "unit": "0.75l", "tags": ["wine", "rose"] },
+        { "name": "Torres Natureo alcohol-free", "description": "Miguel Torres, ES-Vilafranca del Pendés — citrus, apple, light", "price": 29.0, "unit": "0.75l", "tags": ["wine", "rose", "non-alcoholic"] }
+      ]
+    },
+    {
+      "name": "Alcohol-Free",
+      "items": [
+        { "name": "Paulaner Spezi", "description": "0.4l", "price": 4.9, "tags": ["non-alcoholic"] },
+        { "name": "Coca-Cola", "description": "0.4l", "price": 4.9, "tags": ["non-alcoholic"] },
+        { "name": "Coca-Cola Zero", "description": "0.4l", "price": 4.9, "tags": ["non-alcoholic"] },
+        { "name": "Paulaner Lemonade", "description": "0.33l", "price": 4.2, "tags": ["non-alcoholic"] },
+        { "name": "Paulaner Orange Lemonade", "description": "0.33l", "price": 4.2, "tags": ["non-alcoholic"] },
+        { "name": "Tonic", "description": "0.2l", "price": 4.9, "tags": ["non-alcoholic"] },
+        { "name": "Red Bull", "description": "0.25l", "price": 5.5, "tags": ["non-alcoholic"] },
+        { "name": "Bad Brambacher", "description": "Still or medium, 0.5l", "price": 4.8, "tags": ["non-alcoholic", "water"] },
+        { "name": "Table water", "description": "Still or sparkling", "sizes": [{ "label": "0.4l", "price": 4.2 }, { "label": "1.0l", "price": 6.9 }], "tags": ["non-alcoholic", "water"] },
+        { "name": "Apple spritzer", "description": "0.4l", "price": 4.9, "tags": ["non-alcoholic"] },
+        { "name": "Johannisbeerschorle", "description": "Blackcurrant spritzer, 0.4l", "price": 4.9, "tags": ["non-alcoholic"] },
+        { "name": "Maracujaschorle", "description": "Passion fruit spritzer, 0.4l", "price": 4.9, "tags": ["non-alcoholic"] },
+        { "name": "Wolfra orange juice", "description": "0.2l", "price": 4.5, "tags": ["non-alcoholic"] }
+      ]
+    },
+    {
+      "name": "Coffee & Hot Drinks",
+      "items": [
+        { "name": "Espresso", "description": "", "price": 3.0, "tags": ["coffee"] },
+        { "name": "Double espresso", "description": "", "price": 4.5, "tags": ["coffee"] },
+        { "name": "Espresso Macchiato", "description": "", "price": 3.7, "tags": ["coffee"] },
+        { "name": "Cappuccino", "description": "", "price": 4.7, "tags": ["coffee"] },
+        { "name": "Latte Macchiato", "description": "", "price": 4.7, "tags": ["coffee"] },
+        { "name": "Milchkaffee", "description": "Coffee with milk", "price": 4.7, "tags": ["coffee"] },
+        { "name": "Mug of coffee cream", "description": "Haferl Kaffee Creme", "price": 4.5, "tags": ["coffee"] },
+        { "name": "Drinking chocolate", "description": "With milk", "price": 4.6, "tags": ["hot-drink"] },
+        { "name": "Tea (Ronnefeldt)", "description": "Darjeeling, Mountain herbs, Sweet Berries, Green Dragon Lung Ching, Refreshing Mint, Fruity Camomile", "price": 4.8, "tags": ["hot-drink"] }
+      ]
+    }
+  ]
+}
