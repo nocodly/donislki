@@ -9,13 +9,13 @@ const TRANSLATIONS = {
     errorApi: '😕 Вибачте, зараз не можу відповісти. Спробуйте ще раз за хвилину.',
     errorConnection: '📶 Проблема з підключенням. Перевірте інтернет і спробуйте ще раз.',
     chips: [
-      { icon: '🍖', label: 'Традиційні страви', q: 'Покажи традиційні страви' },
+      { icon: '🍖', label: 'Традиційні', q: 'Покажи традиційні страви' },
       { icon: '🥗', label: 'Закуски', q: 'Що є із закусок?' },
-      { icon: '🌱', label: 'Вегетаріанські / веганські', q: 'Що є вегетаріанського чи веганського?' },
+      { icon: '🌱', label: 'Вег / веган', q: 'Що є вегетаріанського чи веганського?' },
       { icon: '🍰', label: 'Десерти', q: 'Що є на десерт?' },
       { icon: '🍺', label: 'Пиво', q: 'Яке пиво у вас є?' },
       { icon: '🍷', label: 'Вино', q: 'Яке вино у вас є?' },
-      { icon: '☕', label: 'Безалкогольні напої та кава', q: 'Які безалкогольні напої та кава є?' },
+      { icon: '☕', label: 'Напої й кава', q: 'Які безалкогольні напої та кава є?' },
     ],
   },
   de: {
@@ -27,13 +27,13 @@ const TRANSLATIONS = {
     errorApi: '😕 Entschuldigung, ich kann gerade nicht antworten. Bitte versuchen Sie es in einer Minute erneut.',
     errorConnection: '📶 Verbindungsproblem. Bitte Internet prüfen und erneut versuchen.',
     chips: [
-      { icon: '🍖', label: 'Traditionelle Gerichte', q: 'Zeig mir traditionelle Gerichte' },
+      { icon: '🍖', label: 'Traditionell', q: 'Zeig mir traditionelle Gerichte' },
       { icon: '🥗', label: 'Vorspeisen', q: 'Was gibt es an Vorspeisen?' },
-      { icon: '🌱', label: 'Vegetarisch / vegan', q: 'Was gibt es Vegetarisches oder Veganes?' },
+      { icon: '🌱', label: 'Vegi / vegan', q: 'Was gibt es Vegetarisches oder Veganes?' },
       { icon: '🍰', label: 'Desserts', q: 'Was gibt es zum Nachtisch?' },
       { icon: '🍺', label: 'Bier', q: 'Welche Biere gibt es?' },
       { icon: '🍷', label: 'Wein', q: 'Welche Weine gibt es?' },
-      { icon: '☕', label: 'Alkoholfrei & Kaffee', q: 'Welche alkoholfreien Getränke und Kaffee gibt es?' },
+      { icon: '☕', label: 'Getränke & Kaffee', q: 'Welche alkoholfreien Getränke und Kaffee gibt es?' },
     ],
   },
   en: {
@@ -45,13 +45,13 @@ const TRANSLATIONS = {
     errorApi: "😕 Sorry, I can't respond right now. Please try again in a minute.",
     errorConnection: '📶 Connection problem. Check your internet and try again.',
     chips: [
-      { icon: '🍖', label: 'Traditional dishes', q: 'Show me traditional dishes' },
+      { icon: '🍖', label: 'Traditional', q: 'Show me traditional dishes' },
       { icon: '🥗', label: 'Starters', q: 'What starters do you have?' },
-      { icon: '🌱', label: 'Vegetarian / vegan', q: 'What vegetarian or vegan options do you have?' },
+      { icon: '🌱', label: 'Veg / vegan', q: 'What vegetarian or vegan options do you have?' },
       { icon: '🍰', label: 'Desserts', q: 'What desserts do you have?' },
       { icon: '🍺', label: 'Beer', q: 'What beers do you have?' },
       { icon: '🍷', label: 'Wine', q: 'What wines do you have?' },
-      { icon: '☕', label: 'Soft drinks & coffee', q: 'What soft drinks and coffee do you have?' },
+      { icon: '☕', label: 'Drinks & coffee', q: 'What soft drinks and coffee do you have?' },
     ],
   },
   it: {
@@ -63,13 +63,13 @@ const TRANSLATIONS = {
     errorApi: '😕 Spiacente, al momento non posso rispondere. Riprova tra un minuto.',
     errorConnection: '📶 Problema di connessione. Controlla internet e riprova.',
     chips: [
-      { icon: '🍖', label: 'Piatti tradizionali', q: 'Mostrami i piatti tradizionali' },
+      { icon: '🍖', label: 'Tradizionali', q: 'Mostrami i piatti tradizionali' },
       { icon: '🥗', label: 'Antipasti', q: 'Quali antipasti avete?' },
-      { icon: '🌱', label: 'Vegetariano / vegano', q: 'Cosa avete di vegetariano o vegano?' },
+      { icon: '🌱', label: 'Veg / vegano', q: 'Cosa avete di vegetariano o vegano?' },
       { icon: '🍰', label: 'Dolci', q: 'Cosa avete per dessert?' },
       { icon: '🍺', label: 'Birra', q: 'Quali birre avete?' },
       { icon: '🍷', label: 'Vino', q: 'Quali vini avete?' },
-      { icon: '☕', label: 'Bevande analcoliche e caffè', q: 'Quali bevande analcoliche e caffè avete?' },
+      { icon: '☕', label: 'Bevande e caffè', q: 'Quali bevande analcoliche e caffè avete?' },
     ],
   },
   fr: {
@@ -81,13 +81,13 @@ const TRANSLATIONS = {
     errorApi: "😕 Désolé, je ne peux pas répondre pour le moment. Réessayez dans une minute.",
     errorConnection: '📶 Problème de connexion. Vérifiez votre internet et réessayez.',
     chips: [
-      { icon: '🍖', label: 'Plats traditionnels', q: 'Montrez-moi les plats traditionnels' },
+      { icon: '🍖', label: 'Traditionnel', q: 'Montrez-moi les plats traditionnels' },
       { icon: '🥗', label: 'Entrées', q: 'Quelles entrées avez-vous ?' },
-      { icon: '🌱', label: 'Végétarien / végan', q: "Qu'avez-vous de végétarien ou végan ?" },
+      { icon: '🌱', label: 'Vég / végan', q: "Qu'avez-vous de végétarien ou végan ?" },
       { icon: '🍰', label: 'Desserts', q: 'Qu\'avez-vous comme dessert ?' },
       { icon: '🍺', label: 'Bière', q: 'Quelles bières avez-vous ?' },
       { icon: '🍷', label: 'Vin', q: 'Quels vins avez-vous ?' },
-      { icon: '☕', label: 'Boissons sans alcool et café', q: 'Quelles boissons sans alcool et cafés avez-vous ?' },
+      { icon: '☕', label: 'Boissons & café', q: 'Quelles boissons sans alcool et cafés avez-vous ?' },
     ],
   },
   es: {
@@ -99,13 +99,13 @@ const TRANSLATIONS = {
     errorApi: '😕 Lo siento, ahora mismo no puedo responder. Inténtalo de nuevo en un minuto.',
     errorConnection: '📶 Problema de conexión. Comprueba tu internet e inténtalo de nuevo.',
     chips: [
-      { icon: '🍖', label: 'Platos tradicionales', q: 'Muéstrame los platos tradicionales' },
+      { icon: '🍖', label: 'Tradicionales', q: 'Muéstrame los platos tradicionales' },
       { icon: '🥗', label: 'Entrantes', q: '¿Qué entrantes tenéis?' },
-      { icon: '🌱', label: 'Vegetariano / vegano', q: '¿Qué opciones vegetarianas o veganas tenéis?' },
+      { icon: '🌱', label: 'Veg / vegano', q: '¿Qué opciones vegetarianas o veganas tenéis?' },
       { icon: '🍰', label: 'Postres', q: '¿Qué postres tenéis?' },
       { icon: '🍺', label: 'Cerveza', q: '¿Qué cervezas tenéis?' },
       { icon: '🍷', label: 'Vino', q: '¿Qué vinos tenéis?' },
-      { icon: '☕', label: 'Bebidas sin alcohol y café', q: '¿Qué bebidas sin alcohol y café tenéis?' },
+      { icon: '☕', label: 'Bebidas y café', q: '¿Qué bebidas sin alcohol y café tenéis?' },
     ],
   },
 };
@@ -139,11 +139,18 @@ subtitleEl.textContent = t.subtitle;
 inputEl.placeholder = t.placeholder;
 creditEls.forEach((el) => { el.textContent = t.credit; });
 
-/* ---------- Keep layout pinned above the mobile keyboard ---------- */
+/* ---------- Keep layout pinned above the mobile keyboard ----------
+   iOS Safari doesn't shrink the layout viewport when the keyboard opens —
+   only the visual viewport shrinks and can pan. .app is `position: fixed`,
+   so we drive both its height and top from visualViewport on every
+   resize/scroll to cancel that pan and keep the input above the keyboard. */
 const appEl = document.querySelector('.app');
 function syncViewportHeight() {
-  const h = window.visualViewport ? window.visualViewport.height : window.innerHeight;
+  const vv = window.visualViewport;
+  const h = vv ? vv.height : window.innerHeight;
   appEl.style.height = `${h}px`;
+  appEl.style.top = vv ? `${vv.offsetTop}px` : '0px';
+  window.scrollTo(0, 0);
 }
 syncViewportHeight();
 if (window.visualViewport) {
@@ -273,6 +280,13 @@ formEl.addEventListener('submit', (e) => {
   const text = inputEl.value.trim();
   inputEl.value = '';
   sendMessage(text);
+});
+
+inputEl.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter' && !e.shiftKey) {
+    e.preventDefault();
+    formEl.requestSubmit();
+  }
 });
 
 suggestionsEl.addEventListener('click', (e) => {
