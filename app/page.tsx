@@ -109,7 +109,7 @@ export default function Home() {
 
   return (
     <div className="min-h-[100dvh] bg-bg pb-24">
-      <RestaurantHeader language={language} onLanguageChange={setLanguage} />
+      <RestaurantHeader />
 
       <main className="mx-auto max-w-lg">
         <p className="px-4 pb-2 pt-4 text-[13.5px] text-muted">{t.welcome}</p>
