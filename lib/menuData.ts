@@ -13,7 +13,7 @@ export const menuItems: MenuItem[] = [
   // -- Traditional Bavarian Cuisine --
   {
     id: 'donisl-roasting-pan',
-    category: 'traditional',
+    categories: ['traditional'],
     name: 'Donisl roasting pan',
     description: 'Beef, duck, pork knuckle and sausages with red cabbage, potato dumplings and cheese spaetzle — for sharing.',
     price: 68,
@@ -29,7 +29,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'roast-pork',
-    category: 'traditional',
+    categories: ['traditional'],
     name: 'Schweinebraten (roast pork)',
     description: 'Bavarian pork shoulder and belly with crackling, natural gravy, potato dumplings and coleslaw.',
     price: 16.9,
@@ -45,7 +45,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'schweinshaxe',
-    category: 'traditional',
+    categories: ['traditional'],
     name: 'Schweinshaxe',
     description: 'Crispy roasted pork knuckle served with natural sauce, potato dumplings and coleslaw.',
     price: 23.9,
@@ -57,7 +57,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'wiener-schnitzel',
-    category: 'traditional',
+    categories: ['traditional'],
     name: 'Wiener Schnitzel',
     description: 'Bavarian straw-fed pork schnitzel with fries or potato-cucumber salad and cranberries.',
     price: 18.6,
@@ -73,7 +73,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'farm-duck',
-    category: 'traditional',
+    categories: ['traditional'],
     name: 'Crispy Bavarian farm duck (1/4)',
     description: 'Rosemary sauce, potato dumplings and red cabbage.',
     price: 23.5,
@@ -85,7 +85,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'backhendl',
-    category: 'traditional',
+    categories: ['traditional'],
     name: 'Backhendl',
     description: 'Boneless breaded chicken leg with French fries or potato-cucumber salad.',
     price: 21.9,
@@ -96,7 +96,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'duet-of-the-ox',
-    category: 'traditional',
+    categories: ['traditional'],
     name: 'Duet of the Ox',
     description: 'Shoulder and cheek of ox, red wine jus, baby spinach, creamy potatoes.',
     price: 29.6,
@@ -107,7 +107,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'veal-steak',
-    category: 'traditional',
+    categories: ['traditional'],
     name: 'Veal steak',
     description: 'Colorful peppercorn cream sauce, flamed kohlrabi, potato rösti.',
     price: 32.9,
@@ -118,7 +118,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'veal-meatballs',
-    category: 'traditional',
+    categories: ['traditional'],
     name: 'Veal meatballs',
     description: 'Dressed vegetables, rosemary potatoes.',
     price: 19.9,
@@ -130,18 +130,18 @@ export const menuItems: MenuItem[] = [
   // -- Sausage Specialties --
   {
     id: 'white-sausage',
-    category: 'traditional',
+    categories: ['traditional', 'sausages'],
     name: 'White sausage (Kesselfrisch)',
     description: 'Two pieces, served with pretzel and mustard.',
     price: 10.6,
     currency: 'EUR',
-    tags: [],
+    tags: ['signature'],
     allergens: [],
     available: true,
   },
   {
     id: 'white-sausage-piece',
-    category: 'traditional',
+    categories: ['traditional', 'sausages'],
     name: 'Piece of white sausage',
     description: 'A single white sausage.',
     price: 4.1,
@@ -152,7 +152,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'polish-sausage',
-    category: 'traditional',
+    categories: ['traditional', 'sausages'],
     name: 'Polish sausage',
     description: 'With pretzel and mustard.',
     price: 8.9,
@@ -163,7 +163,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'currywurst',
-    category: 'traditional',
+    categories: ['traditional', 'sausages'],
     name: 'Currywurst',
     description: 'Curry sausage served with French fries.',
     price: 14.9,
@@ -175,7 +175,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'bratwurstreindl',
-    category: 'traditional',
+    categories: ['traditional', 'sausages'],
     name: 'Bratwurstreindl',
     description: 'Pan of grilled sausages with sauerkraut or potato salad — a sharing portion.',
     price: 17.9,
@@ -193,7 +193,7 @@ export const menuItems: MenuItem[] = [
   // -- From the Grill --
   {
     id: 'rump-steak',
-    category: 'traditional',
+    categories: ['traditional'],
     name: 'Roast beef — rump steak',
     description: 'Murnau beef with red wine and onion jus, fried onions, käsespätzle.',
     price: 31.9,
@@ -204,7 +204,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'ribeye-300g',
-    category: 'traditional',
+    categories: ['traditional'],
     name: 'Ribeye 300 grams',
     description: 'Fat cap from Murnau beef, café de paris sauce, grilled vegetables, potato gratin.',
     price: 39.9,
@@ -215,7 +215,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'deluxe-burger',
-    category: 'traditional',
+    categories: ['traditional'],
     name: 'Donisl Deluxe Burger',
     description: '200g Werdenfelser beef, cheddar, lettuce, tomato, pickles, onions, homemade Donisl sauce.',
     price: 18.9,
@@ -227,7 +227,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'icefish',
-    category: 'traditional',
+    categories: ['traditional'],
     name: 'Icefish',
     description: 'Thyme, ratatouille vegetables, potato gratin.',
     price: 32.9,
@@ -241,7 +241,7 @@ export const menuItems: MenuItem[] = [
   // -- Appetizers --
   {
     id: 'brotzeitbrettl',
-    category: 'starters',
+    categories: ['starters'],
     name: 'Brotzeitbrettl',
     description: "Farmer's smoked meats, bacon sausage, liverwurst, cold roast beef, O'gmachter, mountain cheese, horseradish, bread.",
     price: 24,
@@ -256,7 +256,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'donisl-4erlei',
-    category: 'starters',
+    categories: ['starters'],
     name: 'Donisl "4erlei"',
     description: 'Hummus, made cheese, salted butter and herbed sour cream, served with a bread basket.',
     price: 11,
@@ -267,7 +267,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'beef-tartare',
-    category: 'starters',
+    categories: ['starters'],
     name: 'Bavarian beef tartare',
     description: 'Truffle cream, baked organic egg.',
     price: 13.4,
@@ -282,7 +282,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'calfs-head-carpaccio',
-    category: 'starters',
+    categories: ['starters'],
     name: "Lukewarm calf's head carpaccio",
     description: 'Pomegranate, horseradish, cucumber.',
     price: 20.9,
@@ -293,7 +293,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'ogmachter-kas',
-    category: 'starters',
+    categories: ['starters'],
     name: "O'gmachter Kas",
     description: 'Creamy cheese with onion rings, radishes, lettuce and berries.',
     price: 13.6,
@@ -304,7 +304,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'sausage-salad',
-    category: 'starters',
+    categories: ['starters'],
     name: 'Sausage salad from Regensburg',
     description: 'House dressing, onion rings, pickle, tomato, berry (+1.90 with strips of mountain cheese).',
     price: 15.8,
@@ -315,7 +315,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'donisl-salad',
-    category: 'starters',
+    categories: ['starters'],
     name: 'Donisl Salad',
     description: 'Leafy greens, tomato, cucumber, house dressing, seeds and croutons.',
     price: 6.9,
@@ -330,7 +330,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'bread-basket',
-    category: 'starters',
+    categories: ['starters'],
     name: 'Bread basket',
     description: 'Fresh bread basket.',
     price: 4.9,
@@ -341,7 +341,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'brezn',
-    category: 'starters',
+    categories: ['starters'],
     name: 'Brezn',
     description: 'Bavarian pretzel.',
     price: 2.4,
@@ -353,7 +353,7 @@ export const menuItems: MenuItem[] = [
   // -- From the Soup Kettle --
   {
     id: 'oxen-consomme',
-    category: 'starters',
+    categories: ['starters'],
     name: 'Oxen consommé',
     description: 'Clear beef broth with liver dumplings or pancake strips, vegetables and chives.',
     price: 7.9,
@@ -364,7 +364,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'tomato-soup',
-    category: 'starters',
+    categories: ['starters'],
     name: 'Velvet soup from bush tomato',
     description: 'Smooth tomato soup with a burrata-basil cream.',
     price: 9.9,
@@ -376,7 +376,7 @@ export const menuItems: MenuItem[] = [
   // -- Extra Side Dishes --
   {
     id: 'classic-sides',
-    category: 'starters',
+    categories: ['starters'],
     name: 'Classic side dish',
     description: 'Sauerkraut, red cabbage, bacon and cabbage salad, creamy potatoes, potato dumplings, small roasted potatoes, spätzle or French fries — each.',
     price: 5.6,
@@ -387,7 +387,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'vegetable-sides',
-    category: 'starters',
+    categories: ['starters'],
     name: 'Vegetable side dish',
     description: 'Vegetable side dish or potato and cucumber salad — each.',
     price: 5.9,
@@ -400,7 +400,7 @@ export const menuItems: MenuItem[] = [
   // ================= vegan =================
   {
     id: 'power-bowl',
-    category: 'vegan',
+    categories: ['vegan'],
     name: 'Donisl Power Bowl',
     description: 'Fragrant rice, avocado, edamame, chickpeas, carrots, tomato, cucumber, peanuts, orange-mint-lime dressing.',
     price: 20.9,
@@ -416,7 +416,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'kaesespaetzle',
-    category: 'vegan',
+    categories: ['vegan'],
     name: 'Käsespätzle',
     description: 'Cheese spätzle with onion rings.',
     price: 14.6,
@@ -432,7 +432,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'linguine-truffles',
-    category: 'vegan',
+    categories: ['vegan'],
     name: 'Linguine with truffles',
     description: 'Pasta with baby spinach and winter truffle.',
     price: 22.9,
@@ -443,7 +443,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'rahmschwammerl',
-    category: 'vegan',
+    categories: ['vegan'],
     name: 'Rahmschwammerl',
     description: 'Creamy mushrooms served with pretzel dumplings.',
     price: 17.6,
@@ -456,7 +456,7 @@ export const menuItems: MenuItem[] = [
   // ================= desserts =================
   {
     id: 'creme-brulee',
-    category: 'desserts',
+    categories: ['desserts'],
     name: 'Crème brûlée',
     description: 'Served with sorbet and berries.',
     price: 9.9,
@@ -468,7 +468,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'kaiserschmarrn',
-    category: 'desserts',
+    categories: ['desserts'],
     name: 'Kaiserschmarrn (large)',
     description: 'Raisins, butter, sugar and caramelized almonds, served with applesauce — ideal for sharing.',
     price: 15.6,
@@ -480,7 +480,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'kirschmichl',
-    category: 'desserts',
+    categories: ['desserts'],
     name: 'Kirschmichl',
     description: 'Warm cherry cake served with custard.',
     price: 9.6,
@@ -491,7 +491,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'apple-strudel',
-    category: 'desserts',
+    categories: ['desserts'],
     name: 'Apple strudel',
     description: 'Classic apple strudel served with custard.',
     price: 9.6,
@@ -505,7 +505,7 @@ export const menuItems: MenuItem[] = [
   // ================= beer =================
   {
     id: 'muenchner-hell',
-    category: 'beer',
+    categories: ['beer'],
     name: 'Münchner Hell',
     description: 'Bottom-fermented, delicately bitter hop note, slightly malty. 5.0% vol.',
     price: 4.6,
@@ -521,7 +521,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'beer-light-alcohol-free',
-    category: 'beer',
+    categories: ['beer'],
     name: 'Light Alcohol-Free',
     description: 'Naturally cloudy, caramel and honey notes. <0.5% vol.',
     price: 5.2,
@@ -532,7 +532,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'muenchner-radler',
-    category: 'beer',
+    categories: ['beer'],
     name: 'Münchner Radler',
     description: 'Munich Helles with fine lemonade, not too sweet.',
     price: 5.2,
@@ -543,7 +543,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'muenchner-dunkel',
-    category: 'beer',
+    categories: ['beer'],
     name: 'Münchner Dunkel',
     description: 'Delicately bitter, roasted malt with caramel and candied fruit notes. 5.0% vol.',
     price: 6.1,
@@ -554,7 +554,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'hefeweizen',
-    category: 'beer',
+    categories: ['beer'],
     name: 'Hefeweizen (Yeast White)',
     description: 'Top-fermented wheat beer with banana and honey notes.',
     price: 6.2,
@@ -565,7 +565,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'russn',
-    category: 'beer',
+    categories: ['beer'],
     name: 'Russn',
     description: 'Hefeweizen with delicate lemonade, not too sweet.',
     price: 6.2,
@@ -576,7 +576,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'cola-wheat',
-    category: 'beer',
+    categories: ['beer'],
     name: 'Cola Wheat',
     description: 'Hefeweizen with Coca-Cola.',
     price: 6.2,
@@ -587,7 +587,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'non-alcoholic-wheat',
-    category: 'beer',
+    categories: ['beer'],
     name: 'Paulaner alcohol-free wheat beer',
     description: 'Gently dealcoholized after full maturation, keeps its aroma.',
     price: 6.2,
@@ -598,7 +598,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'salvator',
-    category: 'beer',
+    categories: ['beer'],
     name: 'Salvator',
     description: 'Strong beer (Starkbier), seasonal — available February/March. 0.5l.',
     price: 6.4,
@@ -609,7 +609,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'kellerbier',
-    category: 'beer',
+    categories: ['beer'],
     name: 'Kellerbier',
     description: 'Seasonal — available June/July/August (Sommerzeit). 0.5l.',
     price: 6.1,
@@ -620,7 +620,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'wiesnbier',
-    category: 'beer',
+    categories: ['beer'],
     name: 'Wiesnbier',
     description: 'Oktoberfest beer, seasonal — available September/October. 0.5l.',
     price: 6.4,
@@ -634,7 +634,7 @@ export const menuItems: MenuItem[] = [
   // -- Wine from the Barrel (by the glass) --
   {
     id: 'weissweinschorle',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Weissweinschorle',
     description: 'White wine spritzer. 0.3l.',
     price: 6,
@@ -645,7 +645,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'pinot-gris-glass',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Pinot Gris (by the glass)',
     description: 'Hirschmüller Winery, Württemberg — light, easy-drinking.',
     price: 6,
@@ -660,7 +660,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'primitivo-glass',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Primitivo Puglia IGT (by the glass)',
     description: 'Sir of the Faun, Puglia — dark berries, cherry, subtle spice.',
     price: 6,
@@ -675,7 +675,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'prodry-frizzante',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Prodry Frizzante',
     description: 'Motelvini, Veneto, Italy. 0.1l.',
     price: 4.6,
@@ -687,7 +687,7 @@ export const menuItems: MenuItem[] = [
   // -- Champagne & Sparkling --
   {
     id: 'paul-michel-champagne',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Paul Michel',
     description: 'Champagne Premier Cru, Champagne, France. 0.75l bottle.',
     price: 120,
@@ -698,7 +698,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'taittinger-rose',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Taittinger Prestige Rosé Brut',
     description: 'Champagne Taittinger, France. 0.75l bottle.',
     price: 145,
@@ -709,7 +709,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'valdo-prosecco',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Valdo Prosecco Superiore DOCG',
     description: 'Valdo, Veneto — classic Italian sparkling wine. 0.75l bottle.',
     price: 39,
@@ -720,7 +720,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'winzersekt',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Winzersekt',
     description: 'Pfaffmann Winery, Palatinate, Germany. 0.75l bottle.',
     price: 45,
@@ -732,7 +732,7 @@ export const menuItems: MenuItem[] = [
   // -- White Wine --
   {
     id: 'chardonnay-bottle',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Chardonnay',
     description: 'Hirschmüller Winery, Württemberg — passion fruit, mango, pineapple. 0.75l bottle.',
     price: 34,
@@ -743,7 +743,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'chardonnay-macon-ige',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Chardonnay Mâcon-Igé La Cra',
     description: 'Domaine Fichet, Burgundy — apple, pear, white peach, subtle minerality. 0.75l bottle.',
     price: 69,
@@ -754,7 +754,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'pinot-gris-tradition',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Pinot Gris Tradition',
     description: 'Bott Frères Winery, Burgundy — apricot, Viennese apple, hazelnut, subtle smoke. 0.75l bottle.',
     price: 39,
@@ -765,7 +765,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'pinot-gris-oetinger',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Pinot Gris',
     description: 'Oetinger Winery, Rheingau — ripe pear, yellow apple, hint of almond. 0.75l bottle.',
     price: 39,
@@ -776,7 +776,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'pinot-gris-reserve-pauline',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Pinot Gris Reserve Pauline',
     description: 'Pfaffmann Winery, Palatinate — pear, pineapple, nectarine, lemongrass, floral. 0.75l bottle.',
     price: 56,
@@ -787,7 +787,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'pinot-blanc-grand-reserve',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Pinot Blanc Grand Reserve',
     description: 'Taubenschuss Winery, Austrian Weinviertel — melon, hazelnut, hay, caramel. 0.75l bottle.',
     price: 79,
@@ -798,7 +798,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'trebbiano-di-lugana',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Trebbiano di Lugana',
     description: 'Zenato Winery, Veneto, Italy — fresh acidity, mineral, citrus, green apple, pear. 0.75l bottle.',
     price: 39,
@@ -809,7 +809,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'riesling-easy-white',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Riesling Easy-White',
     description: 'Oetinger Winery, Rheingau — lime, apple, white peach, ideal aperitif. 0.75l bottle.',
     price: 33,
@@ -821,7 +821,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'riesling-gottloos',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Riesling Gottloos',
     description: 'Dr. Loosen Winery, Mosel — citrus, apple, elegant minerality. 0.75l bottle.',
     price: 42,
@@ -832,7 +832,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'riesling-heiligenstein',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Riesling Ried Heiligenstein',
     description: 'Bründlmayer Winery, Langenlois, Kamptal, Austria — fresh citrus, apple, herbal spice. 0.75l bottle.',
     price: 98,
@@ -843,7 +843,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'riesling-smoky-dry',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Riesling Smoky Dry',
     description: 'Weingut Oetinger, Rheingau — smoky minerality, juicy apple, citrus. 0.75l bottle.',
     price: 49,
@@ -854,7 +854,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'riesling-bright-side-of-life',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Riesling Refill "Bright side of life" 2024',
     description: 'Stahl Winery, Franconia, Germany — fruity, fresh, uncomplicated. 0.75l bottle.',
     price: 29,
@@ -865,7 +865,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'sauvignon-blanc',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Sauvignon Blanc',
     description: 'Chateau de la Chaise, Loire — gooseberry, green apple, exotic fruit. 0.75l bottle.',
     price: 45,
@@ -876,7 +876,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'sauvignon-blanc-reserve',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Sauvignon Blanc Reserve -S-',
     description: 'Taubenschuss Winery, Austrian Weinviertel — lime, gooseberry, exotic fruit. 0.75l bottle.',
     price: 58,
@@ -887,7 +887,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'silvaner-easy-white',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Silvaner Easy-White',
     description: 'Weingut am Stein, Franconia — green apple, pear, subtle herbs. 0.75l bottle.',
     price: 32,
@@ -898,7 +898,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'gruener-veltliner-tenn',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Grüner Veltliner Ried Tenn DAC Reserve',
     description: 'Taubenschuss Winery, Austrian Weinviertel — apple, white pepper, herbal spice. 0.75l bottle.',
     price: 54,
@@ -910,7 +910,7 @@ export const menuItems: MenuItem[] = [
   // -- Large Bottles --
   {
     id: 'riesling-gottloos-3l',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Riesling Gottloos (large bottle)',
     description: 'Dr. Loosen Winery, Mosel. 3.0l bottle.',
     price: 168,
@@ -921,7 +921,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'gruener-veltliner-steinberg',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Grüner Veltliner Ried Steinberg',
     description: 'Karl Fritsch Winery, Burgenland, Austria. 1.5l bottle.',
     price: 120,
@@ -932,7 +932,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'chardonnay-morillon',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Chardonnay Morillon Ried Flammberg',
     description: 'Lackner-Tinnacher Winery, Southern Styria, Austria. 1.5l bottle.',
     price: 160,
@@ -943,7 +943,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'cuvee-adrian-sangiovese',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Cuvée Adrian Sangiovese 2021',
     description: 'Red cuvée, Toscana Rosso, Tuscany. 1.5l bottle.',
     price: 98,
@@ -955,7 +955,7 @@ export const menuItems: MenuItem[] = [
   // -- Red Wine --
   {
     id: 'primitivo-bottle',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Primitivo Puglia IGT',
     description: 'Barbanera Winery, Apulia, Italy — dark berries, cherry, subtle spice. 0.75l bottle.',
     price: 34,
@@ -966,7 +966,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'herrgott-cuvee',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Herrgott Cuvée',
     description: 'Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Palatinate — cherries, red berries. 0.75l bottle.',
     price: 38,
@@ -977,7 +977,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'tuscany-red-cuvee',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Tuscany Red Cuvée',
     description: 'Duca di Salangane, Toscana — cherries, dark berries. 0.75l bottle.',
     price: 29,
@@ -988,7 +988,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'pinot-noir-goldberg',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Pinot Noir Ried Goldberg',
     description: 'Toni Hartl Winery, Burgenland — red berries, cherries, subtle spice. 0.75l bottle.',
     price: 79,
@@ -999,7 +999,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'merlot',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Merlot',
     description: 'Chateau Gensac, Gascony — dark cherries, plums, spice. 0.75l bottle.',
     price: 42,
@@ -1010,7 +1010,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'brunello-di-montalcino',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Brunello di Montalcino DOCG',
     description: 'Tenuta Corte Pavone Winery, Sangiovese, Tuscany — dark berry, cherry, chocolate. 0.75l bottle.',
     price: 135,
@@ -1021,7 +1021,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'black-ox-cuvee',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Black OX Cuvée',
     description: 'Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Palatinate — dark berries, cherry, spice. 0.75l bottle.',
     price: 39,
@@ -1033,7 +1033,7 @@ export const menuItems: MenuItem[] = [
   // -- Rosé Wine --
   {
     id: 'rose-lime-stone',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Rosé Lime & Stone',
     description: 'Unger Winery, Lake Neusiedl — red berries, strawberry, raspberry, citrus. 0.75l bottle.',
     price: 36,
@@ -1044,7 +1044,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'torres-natureo',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Torres Natureo (alcohol-free)',
     description: 'Miguel Torres, Vilafranca del Penedès — citrus, apple, light. 0.75l bottle.',
     price: 29,
@@ -1056,7 +1056,7 @@ export const menuItems: MenuItem[] = [
   // -- Dessert Wine --
   {
     id: 'rieslaner-auslese',
-    category: 'wine',
+    categories: ['wine'],
     name: 'Rieslaner Auslese',
     description: 'Juliusspital Winery, Franconia — dessert wine. 0.5l bottle.',
     price: 58,
@@ -1070,7 +1070,7 @@ export const menuItems: MenuItem[] = [
   // ================= aperitif =================
   {
     id: 'aperol-spritz',
-    category: 'aperitif',
+    categories: ['aperitif'],
     name: 'Aperol Spritz',
     description: 'Classic Italian aperitif. 0.2l.',
     price: 8.9,
@@ -1081,7 +1081,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'hugo',
-    category: 'aperitif',
+    categories: ['aperitif'],
     name: 'Hugo',
     description: 'Elderflower spritz. 0.2l.',
     price: 8.9,
@@ -1092,7 +1092,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'campari-soda',
-    category: 'aperitif',
+    categories: ['aperitif'],
     name: 'Campari Soda',
     description: '0.2l.',
     price: 6,
@@ -1103,7 +1103,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'campari-orange',
-    category: 'aperitif',
+    categories: ['aperitif'],
     name: 'Campari Orange',
     description: '0.2l.',
     price: 8.4,
@@ -1114,7 +1114,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'sanbitter',
-    category: 'aperitif',
+    categories: ['aperitif'],
     name: 'Sanbitter',
     description: 'Alcohol-free bitter aperitif. 0.2l.',
     price: 8,
@@ -1127,7 +1127,7 @@ export const menuItems: MenuItem[] = [
   // ================= spirits =================
   {
     id: 'nut-in-a-bottle',
-    category: 'spirits',
+    categories: ['spirits'],
     name: 'Nut (in a bottle)',
     description: '2cl.',
     price: 4,
@@ -1138,7 +1138,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'ruescherl',
-    category: 'spirits',
+    categories: ['spirits'],
     name: 'Rüscherl',
     description: '13cl.',
     price: 5,
@@ -1149,7 +1149,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'hirschkuss',
-    category: 'spirits',
+    categories: ['spirits'],
     name: 'Hirschkuss',
     description: '38% vol., swing-top bottle, 4cl.',
     price: 7,
@@ -1160,7 +1160,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'vodka-redbull',
-    category: 'spirits',
+    categories: ['spirits'],
     name: 'Vodka RedBull',
     description: '0.27l.',
     price: 9.5,
@@ -1171,7 +1171,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'williams-christ-pear',
-    category: 'spirits',
+    categories: ['spirits'],
     name: 'Williams Christ pear',
     description: '40% vol. Edelbrand, Sigi Herzog Distillate. 2cl.',
     price: 4.9,
@@ -1182,7 +1182,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'farm-fruit-growers',
-    category: 'spirits',
+    categories: ['spirits'],
     name: 'Farm fruit growers',
     description: 'Linster fine fruit distillery, aged 1 year in oak barrels. 2cl.',
     price: 4.6,
@@ -1193,7 +1193,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'feiner-mirabell',
-    category: 'spirits',
+    categories: ['spirits'],
     name: 'Feiner Mirabell',
     description: 'Linster fine fruit distillery, ripe apricot flavor. 2cl.',
     price: 5.6,
@@ -1204,7 +1204,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'enzian-gentian-brandy',
-    category: 'spirits',
+    categories: ['spirits'],
     name: 'Enzian Gentian Brandy',
     description: 'Wilhelm Marx Fine Spirits Manufactory. 2cl.',
     price: 7.9,
@@ -1215,7 +1215,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'raspberry-pulp-brandy',
-    category: 'spirits',
+    categories: ['spirits'],
     name: 'Raspberry pulp brandy',
     description: '40% vol. Edelmanufaktur Wilhelm Marx. 2cl.',
     price: 7.9,
@@ -1226,7 +1226,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'grappa-chardonnay',
-    category: 'spirits',
+    categories: ['spirits'],
     name: 'Grappa from Chardonnay',
     description: 'Grandfather. 2cl.',
     price: 5.6,
@@ -1239,7 +1239,7 @@ export const menuItems: MenuItem[] = [
   // ================= drinks (alcohol-free & coffee) =================
   {
     id: 'paulaner-spezi',
-    category: 'drinks',
+    categories: ['drinks'],
     name: 'Paulaner Spezi',
     description: '0.4l.',
     price: 4.9,
@@ -1250,7 +1250,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'coca-cola',
-    category: 'drinks',
+    categories: ['drinks'],
     name: 'Coca-Cola',
     description: '0.4l.',
     price: 4.9,
@@ -1261,7 +1261,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'coca-cola-zero',
-    category: 'drinks',
+    categories: ['drinks'],
     name: 'Coca-Cola Zero',
     description: '0.4l.',
     price: 4.9,
@@ -1272,7 +1272,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'paulaner-lemonade',
-    category: 'drinks',
+    categories: ['drinks'],
     name: 'Paulaner Lemonade',
     description: '0.33l.',
     price: 4.2,
@@ -1283,7 +1283,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'paulaner-orange-lemonade',
-    category: 'drinks',
+    categories: ['drinks'],
     name: 'Paulaner Orange Lemonade',
     description: '0.33l.',
     price: 4.2,
@@ -1294,7 +1294,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'tonic',
-    category: 'drinks',
+    categories: ['drinks'],
     name: 'Tonic',
     description: '0.2l.',
     price: 4.9,
@@ -1305,7 +1305,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'red-bull',
-    category: 'drinks',
+    categories: ['drinks'],
     name: 'Red Bull',
     description: '0.25l.',
     price: 5.5,
@@ -1316,7 +1316,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'bad-brambacher',
-    category: 'drinks',
+    categories: ['drinks'],
     name: 'Bad Brambacher',
     description: 'Still or medium. 0.5l.',
     price: 4.8,
@@ -1327,7 +1327,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'table-water',
-    category: 'drinks',
+    categories: ['drinks'],
     name: 'Table water',
     description: 'Still or sparkling.',
     price: 4.2,
@@ -1342,7 +1342,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'apple-spritzer',
-    category: 'drinks',
+    categories: ['drinks'],
     name: 'Apple spritzer',
     description: '0.4l.',
     price: 4.9,
@@ -1353,7 +1353,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'johannisbeerschorle',
-    category: 'drinks',
+    categories: ['drinks'],
     name: 'Johannisbeerschorle',
     description: 'Blackcurrant spritzer. 0.4l.',
     price: 4.9,
@@ -1364,7 +1364,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'maracujaschorle',
-    category: 'drinks',
+    categories: ['drinks'],
     name: 'Maracujaschorle',
     description: 'Passion fruit spritzer. 0.4l.',
     price: 4.9,
@@ -1375,7 +1375,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'wolfra-orange-juice',
-    category: 'drinks',
+    categories: ['drinks'],
     name: 'Wolfra orange juice',
     description: '0.2l.',
     price: 4.5,
@@ -1386,7 +1386,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'espresso',
-    category: 'drinks',
+    categories: ['drinks'],
     name: 'Espresso',
     description: '',
     price: 3,
@@ -1397,7 +1397,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'double-espresso',
-    category: 'drinks',
+    categories: ['drinks'],
     name: 'Double espresso',
     description: '',
     price: 4.5,
@@ -1408,7 +1408,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'espresso-macchiato',
-    category: 'drinks',
+    categories: ['drinks'],
     name: 'Espresso Macchiato',
     description: '',
     price: 3.7,
@@ -1419,7 +1419,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'cappuccino',
-    category: 'drinks',
+    categories: ['drinks'],
     name: 'Cappuccino',
     description: '',
     price: 4.7,
@@ -1430,7 +1430,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'latte-macchiato',
-    category: 'drinks',
+    categories: ['drinks'],
     name: 'Latte Macchiato',
     description: '',
     price: 4.7,
@@ -1441,7 +1441,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'milchkaffee',
-    category: 'drinks',
+    categories: ['drinks'],
     name: 'Milchkaffee',
     description: 'Coffee with milk.',
     price: 4.7,
@@ -1452,7 +1452,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'haferl-kaffee-creme',
-    category: 'drinks',
+    categories: ['drinks'],
     name: 'Mug of coffee cream',
     description: 'Haferl Kaffee Creme.',
     price: 4.5,
@@ -1463,7 +1463,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'drinking-chocolate',
-    category: 'drinks',
+    categories: ['drinks'],
     name: 'Drinking chocolate',
     description: 'With milk.',
     price: 4.6,
@@ -1474,7 +1474,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'tea-ronnefeldt',
-    category: 'drinks',
+    categories: ['drinks'],
     name: 'Tea (Ronnefeldt)',
     description: 'Darjeeling, Mountain herbs, Sweet Berries, Green Dragon Lung Ching, Refreshing Mint, or Fruity Camomile.',
     price: 4.8,
@@ -1487,7 +1487,7 @@ export const menuItems: MenuItem[] = [
   // ================= kids =================
   {
     id: 'kids-potato-dumplings',
-    category: 'kids',
+    categories: ['kids'],
     name: 'Potato dumplings',
     description: 'With pork roast gravy.',
     price: 5.6,
@@ -1498,7 +1498,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'kids-kaesspatzn',
-    category: 'kids',
+    categories: ['kids'],
     name: 'Kässpatzn',
     description: 'Cheese spätzle, kids portion.',
     price: 7.9,
@@ -1509,7 +1509,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'kids-rostbratwuerstl',
-    category: 'kids',
+    categories: ['kids'],
     name: '2 Rostbratwürstl',
     description: 'With French fries or potato-cucumber salad.',
     price: 8.9,
@@ -1520,7 +1520,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'kids-fries',
-    category: 'kids',
+    categories: ['kids'],
     name: 'Portion of French Fries',
     description: '',
     price: 5.6,
@@ -1531,21 +1531,23 @@ export const menuItems: MenuItem[] = [
   },
 ];
 
-export const categoryMeta: Record<MenuCategory, { label: string; icon: string }> = {
-  traditional: { label: 'Traditional', icon: 'UtensilsCrossed' },
-  starters: { label: 'Starters', icon: 'Salad' },
-  vegan: { label: 'Vegan', icon: 'Leaf' },
-  desserts: { label: 'Desserts', icon: 'Cake' },
-  beer: { label: 'Beer', icon: 'Beer' },
-  wine: { label: 'Wine', icon: 'Wine' },
-  aperitif: { label: 'Aperitif', icon: 'Martini' },
-  spirits: { label: 'Spirits', icon: 'FlaskConical' },
-  drinks: { label: 'Drinks & Coffee', icon: 'Coffee' },
-  kids: { label: 'Kids', icon: 'Baby' },
+export const categoryMeta: Record<MenuCategory, { icon: string }> = {
+  traditional: { icon: 'UtensilsCrossed' },
+  sausages: { icon: 'Ham' },
+  starters: { icon: 'Salad' },
+  vegan: { icon: 'Leaf' },
+  desserts: { icon: 'Cake' },
+  beer: { icon: 'Beer' },
+  wine: { icon: 'Wine' },
+  aperitif: { icon: 'Martini' },
+  spirits: { icon: 'FlaskConical' },
+  drinks: { icon: 'Coffee' },
+  kids: { icon: 'Baby' },
 };
 
 export const categoryOrder: MenuCategory[] = [
   'traditional',
+  'sausages',
   'starters',
   'vegan',
   'desserts',
@@ -1558,11 +1560,11 @@ export const categoryOrder: MenuCategory[] = [
 ];
 
 export function itemsByCategory(category: MenuCategory): MenuItem[] {
-  return menuItems.filter((item) => item.category === category && item.available);
+  return menuItems.filter((item) => item.categories.includes(category) && item.available);
 }
 
 export function findItem(id: string): MenuItem | undefined {
   return menuItems.find((item) => item.id === id);
 }
 
-export const featuredItemIds = ['schweinshaxe', 'kaiserschmarrn', 'muenchner-dunkel'];
+export const featuredItemIds = ['schweinshaxe', 'white-sausage', 'kaiserschmarrn', 'muenchner-dunkel'];

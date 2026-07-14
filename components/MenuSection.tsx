@@ -2,7 +2,7 @@
 
 import { itemsByCategory } from '@/lib/menuData';
 import type { Language, MenuCategory, MenuItem } from '@/lib/types';
-import { STRINGS } from '@/lib/i18n';
+import { getStrings } from '@/lib/i18n';
 import { MenuItemCard } from './MenuItemCard';
 
 type Props = {
@@ -12,7 +12,7 @@ type Props = {
 };
 
 export function MenuSection({ category, language, onAskAi }: Props) {
-  const t = STRINGS[language];
+  const t = getStrings(language);
   const items = itemsByCategory(category);
 
   return (

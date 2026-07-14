@@ -10,18 +10,8 @@ import { FloatingAiButton } from '@/components/FloatingAiButton';
 import { AiBottomSheet } from '@/components/AiBottomSheet';
 import { useVisualViewportHeight } from '@/hooks/useVisualViewportHeight';
 import { featuredItemIds, findItem } from '@/lib/menuData';
-import { STRINGS, LANGUAGES } from '@/lib/i18n';
+import { getStrings, formatAskAboutDish, detectLanguage } from '@/lib/i18n';
 import type { ChatContext, ChatMessage, Language, MenuCategory, MenuItem } from '@/lib/types';
-
-function detectLanguage(): Language {
-  if (typeof navigator === 'undefined') return 'en';
-  const candidates = navigator.languages?.length ? navigator.languages : [navigator.language];
-  for (const l of candidates) {
-    const primary = l?.split('-')[0]?.toLowerCase();
-    if (LANGUAGES.some((entry) => entry.code === primary)) return primary as Language;
-  }
-  return 'en';
-}
 
 function newId() {
   return typeof crypto !== 'undefined' && crypto.randomUUID
@@ -34,7 +24,7 @@ export default function Home() {
 
   const [language, setLanguage] = useState<Language>('en');
   useEffect(() => setLanguage(detectLanguage()), []);
-  const t = STRINGS[language];
+  const t = getStrings(language);
 
   const [activeCategory, setActiveCategory] = useState<MenuCategory | null>(null);
   const [sheetOpen, setSheetOpen] = useState(false);
@@ -69,9 +59,9 @@ export default function Home() {
   }
 
   function handleAskAboutItem(item: MenuItem) {
-    const nextContext: ChatContext = { category: item.category, dish: item.id };
+    const nextContext: ChatContext = { category: item.categories[0] ?? null, dish: item.id };
     openSheet(nextContext);
-    handleSend(t.askAboutDish(item.name), nextContext);
+    handleSend(formatAskAboutDish(t, item.name), nextContext);
   }
 
   async function handleSend(text: string, contextOverride?: ChatContext) {
@@ -93,15 +83,10 @@ export default function Home() {
         }),
       });
       const data = (await res.json()) as { reply?: string; error?: string };
-      const replyText = res.ok && data.reply
-        ? data.reply
-        : "I don't have that information in the current menu.";
+      const replyText = res.ok && data.reply ? data.reply : t.noInfo;
       setMessages((prev) => [...prev, { id: newId(), role: 'assistant', text: replyText }]);
     } catch {
-      setMessages((prev) => [
-        ...prev,
-        { id: newId(), role: 'assistant', text: "I don't have that information in the current menu." },
-      ]);
+      setMessages((prev) => [...prev, { id: newId(), role: 'assistant', text: t.noInfo }]);
     } finally {
       setIsTyping(false);
     }

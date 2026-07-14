@@ -2,7 +2,7 @@
 
 import { Sparkles } from 'lucide-react';
 import type { Language, MenuItem } from '@/lib/types';
-import { STRINGS } from '@/lib/i18n';
+import { getStrings, getTranslatedItemText } from '@/lib/i18n';
 
 type Props = {
   item: MenuItem;
@@ -12,7 +12,10 @@ type Props = {
 };
 
 export function MenuItemCard({ item, language, onAskAi, compact }: Props) {
-  const t = STRINGS[language];
+  const t = getStrings(language);
+  const translated = getTranslatedItemText(language, item.id);
+  const description = translated?.description ?? item.description;
+  const pairing = translated?.pairing ?? item.pairing;
   const fromPrice = item.sizes?.[0]?.price ?? item.price;
 
   return (
@@ -29,7 +32,7 @@ export function MenuItemCard({ item, language, onAskAi, compact }: Props) {
         </span>
       </div>
 
-      <p className="text-[13px] leading-snug text-muted">{item.description}</p>
+      <p className="text-[13px] leading-snug text-muted">{description}</p>
 
       {item.sizes && (
         <div className="flex flex-wrap gap-x-3 gap-y-0.5 text-[12.5px] text-muted">
@@ -41,9 +44,9 @@ export function MenuItemCard({ item, language, onAskAi, compact }: Props) {
         </div>
       )}
 
-      {item.pairing && (
+      {pairing && (
         <p className="text-[12.5px] text-ink">
-          <span className="text-muted">{t.pairing}:</span> {item.pairing}
+          <span className="text-muted">{t.pairing}:</span> {pairing}
         </p>
       )}
 
@@ -54,7 +57,7 @@ export function MenuItemCard({ item, language, onAskAi, compact }: Props) {
               key={tag}
               className="rounded-full bg-accent/10 px-2 py-0.5 text-[11px] font-medium text-accent-deep"
             >
-              {tag}
+              {t.tagLabels[tag] ?? tag}
             </span>
           ))}
           {item.allergens.length === 0 ? (

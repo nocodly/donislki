@@ -4,6 +4,7 @@ import {
   Cake,
   Coffee,
   FlaskConical,
+  Ham,
   Leaf,
   Martini,
   Salad,
@@ -14,6 +15,7 @@ import {
 
 export const CATEGORY_ICONS: Record<string, LucideIcon> = {
   UtensilsCrossed,
+  Ham,
   Salad,
   Leaf,
   Cake,

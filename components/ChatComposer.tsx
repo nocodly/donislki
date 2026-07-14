@@ -3,7 +3,7 @@
 import { useRef, type KeyboardEvent } from 'react';
 import { Send } from 'lucide-react';
 import type { Language } from '@/lib/types';
-import { STRINGS } from '@/lib/i18n';
+import { getStrings } from '@/lib/i18n';
 
 type Props = {
   language: Language;
@@ -14,7 +14,7 @@ type Props = {
 const MAX_ROWS = 4;
 
 export function ChatComposer({ language, disabled, onSend }: Props) {
-  const t = STRINGS[language];
+  const t = getStrings(language);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
   function submit() {

@@ -5,7 +5,7 @@ import { X } from 'lucide-react';
 import { useScrollLock } from '@/hooks/useScrollLock';
 import { findItem } from '@/lib/menuData';
 import type { ChatContext, ChatMessage, Language } from '@/lib/types';
-import { STRINGS } from '@/lib/i18n';
+import { getStrings } from '@/lib/i18n';
 import { ChatMessages } from './ChatMessages';
 import { QuickSuggestions } from './QuickSuggestions';
 import { ChatComposer } from './ChatComposer';
@@ -29,7 +29,7 @@ export function AiBottomSheet({
   isTyping,
   onSend,
 }: Props) {
-  const t = STRINGS[language];
+  const t = getStrings(language);
   useScrollLock(open);
 
   const sheetRef = useRef<HTMLDivElement>(null);

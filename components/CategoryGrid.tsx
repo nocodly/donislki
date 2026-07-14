@@ -3,7 +3,7 @@
 import { categoryMeta, categoryOrder, itemsByCategory } from '@/lib/menuData';
 import { CATEGORY_ICONS } from '@/lib/categoryIcons';
 import type { MenuCategory, Language } from '@/lib/types';
-import { STRINGS } from '@/lib/i18n';
+import { getStrings } from '@/lib/i18n';
 
 type Props = {
   activeCategory: MenuCategory | null;
@@ -12,7 +12,7 @@ type Props = {
 };
 
 export function CategoryGrid({ activeCategory, onSelect, language }: Props) {
-  const t = STRINGS[language];
+  const t = getStrings(language);
 
   return (
     <div className="grid grid-cols-3 gap-3">

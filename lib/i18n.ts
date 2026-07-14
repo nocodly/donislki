@@ -1,6 +1,6 @@
-import type { Language, MenuCategory } from './types';
+import type { Language, MenuCategory, SupportedLanguage } from './types';
 
-type Strings = {
+export type Strings = {
   welcome: string;
   categoriesTitle: string;
   featuredTitle: string;
@@ -8,130 +8,136 @@ type Strings = {
   chatTitle: string;
   discussing: string;
   askAboutThis: string;
-  askAboutDish: (dishName: string) => string;
+  /** Contains the literal token `{dish}`, replaced client-side with the dish name. */
+  askAboutDishTemplate: string;
   pairing: string;
   allergensLabel: string;
   allergensUnknown: string;
   composerPlaceholder: string;
   send: string;
   close: string;
+  noInfo: string;
   quickSuggestions: string[];
   categories: Record<MenuCategory, string>;
+  tagLabels: Record<string, string>;
 };
 
-export const LANGUAGES: { code: Language; label: string }[] = [
-  { code: 'en', label: 'EN' },
-  { code: 'de', label: 'DE' },
-  { code: 'uk', label: 'UA' },
-];
-
-export const STRINGS: Record<Language, Strings> = {
-  en: {
-    welcome: 'Browse the menu below, or ask our AI assistant for a recommendation.',
-    categoriesTitle: 'Menu',
-    featuredTitle: 'Featured',
-    askAi: 'Ask AI',
-    chatTitle: 'DonislKI',
-    discussing: 'Discussing',
-    askAboutThis: 'Ask AI about this',
-    askAboutDish: (dishName) => `Tell me about ${dishName}`,
-    pairing: 'Best with',
-    allergensLabel: 'Allergens',
-    allergensUnknown: 'Please confirm with staff',
-    composerPlaceholder: 'Ask about the menu…',
-    send: 'Send',
-    close: 'Close',
-    quickSuggestions: [
-      'What do you recommend?',
-      'Which drink matches this dish?',
-      'Show vegan options',
-      'What contains allergens?',
-      'Something light',
-      'Something traditional',
-    ],
-    categories: {
-      traditional: 'Traditional',
-      starters: 'Starters',
-      vegan: 'Vegan',
-      desserts: 'Desserts',
-      beer: 'Beer',
-      wine: 'Wine',
-      aperitif: 'Aperitif',
-      spirits: 'Spirits',
-      drinks: 'Drinks & Coffee',
-      kids: 'Kids',
-    },
+/**
+ * English is the single hand-written source of truth. Every other language
+ * is machine-translated once by scripts/generate-translations.mjs (an
+ * Anthropic API call, not typed by hand) into lib/generated/<lang>.json,
+ * committed as static files so the menu still renders instantly at runtime —
+ * no per-request translation call.
+ */
+export const BASE_STRINGS: Strings = {
+  welcome: 'Browse the menu below, or ask our AI assistant for a recommendation.',
+  categoriesTitle: 'Menu',
+  featuredTitle: 'Featured',
+  askAi: 'Ask AI',
+  chatTitle: 'DonislKI',
+  discussing: 'Discussing',
+  askAboutThis: 'Ask AI about this',
+  askAboutDishTemplate: 'Tell me about {dish}',
+  pairing: 'Best with',
+  allergensLabel: 'Allergens',
+  allergensUnknown: 'Please confirm with staff',
+  composerPlaceholder: 'Ask about the menu…',
+  send: 'Send',
+  close: 'Close',
+  noInfo: "I don't have that information in the current menu.",
+  quickSuggestions: [
+    'What do you recommend?',
+    'Which drink matches this dish?',
+    'Show vegan options',
+    'What contains allergens?',
+    'Something light',
+    'Something traditional',
+  ],
+  categories: {
+    traditional: 'Traditional',
+    sausages: 'Sausages',
+    starters: 'Starters',
+    vegan: 'Vegan',
+    desserts: 'Desserts',
+    beer: 'Beer',
+    wine: 'Wine',
+    aperitif: 'Aperitif',
+    spirits: 'Spirits',
+    drinks: 'Non-alcoholic drinks & coffee',
+    kids: 'Kids',
   },
-  de: {
-    welcome: 'Stöbern Sie in der Karte oder fragen Sie unseren KI-Assistenten um Rat.',
-    categoriesTitle: 'Speisekarte',
-    featuredTitle: 'Empfehlungen',
-    askAi: 'KI fragen',
-    chatTitle: 'DonislKI',
-    discussing: 'Thema',
-    askAboutThis: 'KI dazu fragen',
-    askAboutDish: (dishName) => `Erzähl mir mehr über ${dishName}`,
-    pairing: 'Passt gut zu',
-    allergensLabel: 'Allergene',
-    allergensUnknown: 'Bitte beim Personal nachfragen',
-    composerPlaceholder: 'Frage zur Speisekarte…',
-    send: 'Senden',
-    close: 'Schließen',
-    quickSuggestions: [
-      'Was empfehlen Sie?',
-      'Welches Getränk passt dazu?',
-      'Zeig vegane Optionen',
-      'Was enthält Allergene?',
-      'Etwas Leichtes',
-      'Etwas Traditionelles',
-    ],
-    categories: {
-      traditional: 'Traditionell',
-      starters: 'Vorspeisen',
-      vegan: 'Vegan',
-      desserts: 'Desserts',
-      beer: 'Bier',
-      wine: 'Wein',
-      aperitif: 'Aperitif',
-      spirits: 'Spirituosen',
-      drinks: 'Getränke & Kaffee',
-      kids: 'Kinder',
-    },
-  },
-  uk: {
-    welcome: 'Перегляньте меню нижче або запитайте нашого AI-асистента про рекомендацію.',
-    categoriesTitle: 'Меню',
-    featuredTitle: 'Рекомендуємо',
-    askAi: 'Запитати AI',
-    chatTitle: 'DonislKI',
-    discussing: 'Обговорюємо',
-    askAboutThis: 'Запитати AI про це',
-    askAboutDish: (dishName) => `Розкажи мені про ${dishName}`,
-    pairing: 'Добре поєднується з',
-    allergensLabel: 'Алергени',
-    allergensUnknown: 'Уточніть в офіціанта',
-    composerPlaceholder: 'Запитай про меню…',
-    send: 'Надіслати',
-    close: 'Закрити',
-    quickSuggestions: [
-      'Що порадите?',
-      'Який напій пасує до цієї страви?',
-      'Покажи веганські варіанти',
-      'Що містить алергени?',
-      'Щось легке',
-      'Щось традиційне',
-    ],
-    categories: {
-      traditional: 'Традиційні',
-      starters: 'Закуски',
-      vegan: 'Веганські',
-      desserts: 'Десерти',
-      beer: 'Пиво',
-      wine: 'Вино',
-      aperitif: 'Аперитиви',
-      spirits: 'Міцні напої',
-      drinks: 'Напої й кава',
-      kids: 'Дитяче',
-    },
+  tagLabels: {
+    sharing: 'sharing',
+    signature: 'signature',
+    hearty: 'hearty',
+    classic: 'classic',
+    light: 'light',
+    seasonal: 'seasonal',
+    strong: 'strong',
+    'non-alcoholic': 'non-alcoholic',
+    vegetarian: 'vegetarian',
+    vegan: 'vegan',
+    spirit: 'spirit',
+    water: 'water',
+    coffee: 'coffee',
+    'hot-drink': 'hot drink',
+    aperitif: 'aperitif',
+    bowl: 'bowl',
+    white: 'white',
+    red: 'red',
+    rose: 'rosé',
+    sparkling: 'sparkling',
+    'dessert-wine': 'dessert wine',
+    'by-glass': 'by the glass',
+    bottle: 'bottle',
   },
 };
+
+const SUPPORTED_LANGUAGES: SupportedLanguage[] = ['en', 'de', 'uk', 'it', 'fr', 'es'];
+
+export type TranslatedItemText = { description: string; pairing?: string };
+type GeneratedBundle = { strings: Strings; items: Record<string, TranslatedItemText> };
+
+// Statically imported so translated content ships as part of the build —
+// no runtime fetch/latency for the menu UI.
+import de from './generated/de.json';
+import uk from './generated/uk.json';
+import it from './generated/it.json';
+import fr from './generated/fr.json';
+import es from './generated/es.json';
+
+const GENERATED: Partial<Record<SupportedLanguage, GeneratedBundle>> = {
+  de: de as GeneratedBundle,
+  uk: uk as GeneratedBundle,
+  it: it as GeneratedBundle,
+  fr: fr as GeneratedBundle,
+  es: es as GeneratedBundle,
+};
+
+export function normalizeToSupported(language: Language): SupportedLanguage {
+  const primary = language.split('-')[0]?.toLowerCase();
+  return (SUPPORTED_LANGUAGES.find((l) => l === primary) ?? 'en') as SupportedLanguage;
+}
+
+export function getStrings(language: Language): Strings {
+  const supported = normalizeToSupported(language);
+  if (supported === 'en') return BASE_STRINGS;
+  const bundle = GENERATED[supported];
+  return bundle ? { ...BASE_STRINGS, ...bundle.strings } : BASE_STRINGS;
+}
+
+export function getTranslatedItemText(language: Language, itemId: string): TranslatedItemText | undefined {
+  const supported = normalizeToSupported(language);
+  if (supported === 'en') return undefined;
+  return GENERATED[supported]?.items[itemId];
+}
+
+export function formatAskAboutDish(strings: Strings, dishName: string): string {
+  return strings.askAboutDishTemplate.replace('{dish}', dishName);
+}
+
+export function detectLanguage(): Language {
+  if (typeof navigator === 'undefined') return 'en';
+  const candidates = navigator.languages?.length ? navigator.languages : [navigator.language];
+  return candidates[0] ?? 'en';
+}

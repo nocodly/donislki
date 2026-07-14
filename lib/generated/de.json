@@ -1,0 +1,468 @@
+{
+  "strings": {
+    "welcome": "Stöbern Sie in unserer Speisekarte oder fragen Sie unseren KI-Assistenten nach einer Empfehlung.",
+    "categoriesTitle": "Speisekarte",
+    "featuredTitle": "Empfehlungen",
+    "askAi": "KI fragen",
+    "chatTitle": "DonislKI",
+    "discussing": "Im Gespräch über",
+    "askAboutThis": "KI dazu fragen",
+    "askAboutDishTemplate": "Erzähl mir etwas über {dish}",
+    "pairing": "Passt gut zu",
+    "allergensLabel": "Allergene",
+    "allergensUnknown": "Bitte beim Personal erfragen",
+    "composerPlaceholder": "Frage zur Speisekarte…",
+    "send": "Senden",
+    "close": "Schließen",
+    "noInfo": "Dazu liegen mir in der aktuellen Speisekarte keine Informationen vor.",
+    "categories": {
+      "traditional": "Traditionell",
+      "sausages": "Wurstspezialitäten",
+      "starters": "Vorspeisen",
+      "vegan": "Vegan",
+      "desserts": "Desserts",
+      "beer": "Bier",
+      "wine": "Wein",
+      "aperitif": "Aperitif",
+      "spirits": "Spirituosen",
+      "drinks": "Alkoholfreie Getränke & Kaffee",
+      "kids": "Kinder"
+    },
+    "tagLabels": {
+      "sharing": "zum Teilen",
+      "signature": "Spezialität des Hauses",
+      "hearty": "deftig",
+      "classic": "klassisch",
+      "light": "leicht",
+      "seasonal": "saisonal",
+      "strong": "kräftig",
+      "non-alcoholic": "alkoholfrei",
+      "vegetarian": "vegetarisch",
+      "vegan": "vegan",
+      "spirit": "Spirituose",
+      "water": "Wasser",
+      "coffee": "Kaffee",
+      "hot-drink": "heißes Getränk",
+      "aperitif": "Aperitif",
+      "bowl": "Bowl",
+      "white": "Weißwein",
+      "red": "Rotwein",
+      "rose": "Rosé",
+      "sparkling": "Sekt",
+      "dessert-wine": "Dessertwein",
+      "by-glass": "glasweise",
+      "bottle": "Flasche"
+    },
+    "quickSuggestions": [
+      "Was empfehlen Sie?",
+      "Welches Getränk passt zu diesem Gericht?",
+      "Vegane Optionen zeigen",
+      "Was enthält Allergene?",
+      "Etwas Leichtes",
+      "Etwas Traditionelles"
+    ]
+  },
+  "items": {
+    "donisl-roasting-pan": {
+      "description": "Rind, Ente, Schweinshaxe und Würstl mit Rotkohl, Kartoffelknödel und Käsespätzle — zum Teilen.",
+      "pairing": "Münchner Dunkel"
+    },
+    "roast-pork": {
+      "description": "Bayerischer Schweinebraten aus Schulter und Bauch mit knuspriger Kruste, Bratensoße, Kartoffelknödel und Krautsalat.",
+      "pairing": "Münchner Dunkel"
+    },
+    "schweinshaxe": {
+      "description": "Knusprig gebratene Schweinshaxe mit Bratensoße, Kartoffelknödel und Krautsalat.",
+      "pairing": "Passt gut zu einem Dunklen."
+    },
+    "wiener-schnitzel": {
+      "description": "Bayerisches Schnitzel vom Strohschwein mit Pommes oder Kartoffel-Gurken-Salat und Preiselbeeren.",
+      "pairing": "Riesling Easy-White oder ein Radler"
+    },
+    "farm-duck": {
+      "description": "Rosmarinsoße, Kartoffelknödel und Rotkohl.",
+      "pairing": "Münchner Dunkel"
+    },
+    "backhendl": {
+      "description": "Knusprig paniertes Hähnchenschenkel-Filet mit Pommes frites oder Kartoffel-Gurken-Salat."
+    },
+    "duet-of-the-ox": {
+      "description": "Schulter und Backe vom Ochsen, Rotweinjus, Baby-Spinat, cremige Kartoffeln."
+    },
+    "veal-steak": {
+      "description": "Bunte Pfeffer-Rahmsoße, flambierter Kohlrabi, Kartoffelrösti."
+    },
+    "veal-meatballs": {
+      "description": "Angemachtes Gemüse, Rosmarinkartoffeln."
+    },
+    "white-sausage": {
+      "description": "Zwei Stück, serviert mit Brezn und süßem Senf."
+    },
+    "white-sausage-piece": {
+      "description": "Eine einzelne Weißwurst."
+    },
+    "polish-sausage": {
+      "description": "Mit Brezn und Senf."
+    },
+    "currywurst": {
+      "description": "Currywurst serviert mit Pommes frites.",
+      "pairing": "Hefeweizen"
+    },
+    "bratwurstreindl": {
+      "description": "Pfanne mit gegrillten Würstl, dazu Sauerkraut oder Kartoffelsalat — zum Teilen.",
+      "pairing": "Russn (leichtes Hefeweizen)"
+    },
+    "rump-steak": {
+      "description": "Murnauer Rind mit Rotwein-Zwiebeljus, Röstzwiebeln, Käsespätzle."
+    },
+    "ribeye-300g": {
+      "description": "Fettdeckel vom Murnauer Rind, Café-de-Paris-Soße, gegrilltes Gemüse, Kartoffelgratin."
+    },
+    "deluxe-burger": {
+      "description": "200g Werdenfelser Rind, Cheddar, Salat, Tomate, Essiggurken, Zwiebeln, hausgemachte Donisl-Soße.",
+      "pairing": "Münchner Hell"
+    },
+    "icefish": {
+      "description": "Thymian, Ratatouille-Gemüse, Kartoffelgratin."
+    },
+    "brotzeitbrettl": {
+      "description": "Bauernräuchermischung, Bacon-Würstl, Leberwurst, kalter Rostbraten, O'gmachter, Bergkäse, Meerrettich, Brot."
+    },
+    "donisl-4erlei": {
+      "description": "Hummus, O'gmachter Käse, gesalzene Butter und Kräuter-Sauerrahm, serviert mit einem Brotkorb."
+    },
+    "beef-tartare": {
+      "description": "Trüffelcreme, gebackenes Bio-Ei."
+    },
+    "calfs-head-carpaccio": {
+      "description": "Granatapfel, Meerrettich, Gurke."
+    },
+    "ogmachter-kas": {
+      "description": "Cremiger O'gmachter Käse mit Zwiebelringen, Radieschen, Salat und Beeren."
+    },
+    "sausage-salad": {
+      "description": "Haus-Dressing, Zwiebelringe, Essiggurke, Tomate, Beere (+1,90 mit Bergkäsestreifen)."
+    },
+    "donisl-salad": {
+      "description": "Blattsalate, Tomate, Gurke, Haus-Dressing, Kerne und Croutons."
+    },
+    "bread-basket": {
+      "description": "Frischer Brotkorb."
+    },
+    "brezn": {
+      "description": "Bayerische Brezn."
+    },
+    "oxen-consomme": {
+      "description": "Klare Rinderbrühe mit Leberknödel oder Flädle, Gemüse und Schnittlauch."
+    },
+    "tomato-soup": {
+      "description": "Feine Tomatensuppe mit einer Burrata-Basilikum-Creme."
+    },
+    "classic-sides": {
+      "description": "Sauerkraut, Rotkohl, Speck-Kraut-Salat, cremige Kartoffeln, Kartoffelknödel, kleine Bratkartoffeln, Spätzle oder Pommes frites — je Beilage."
+    },
+    "vegetable-sides": {
+      "description": "Gemüsebeilage oder Kartoffel-Gurken-Salat — je Beilage."
+    },
+    "power-bowl": {
+      "description": "Duftreis, Avocado, Edamame, Kichererbsen, Karotten, Tomate, Gurke, Erdnüsse, Orangen-Minz-Limetten-Dressing."
+    },
+    "kaesespaetzle": {
+      "description": "Käsespätzle mit Röstzwiebeln.",
+      "pairing": "Münchner Dunkel oder ein kräftiger Weißwein"
+    },
+    "linguine-truffles": {
+      "description": "Pasta mit Baby-Spinat und Wintertrüffel."
+    },
+    "rahmschwammerl": {
+      "description": "Cremige Rahmpilze serviert mit Semmelknödel."
+    },
+    "creme-brulee": {
+      "description": "Serviert mit Sorbet und Beeren.",
+      "pairing": "Rieslaner Auslese Dessertwein"
+    },
+    "kaiserschmarrn": {
+      "description": "Rosinen, Butter, Zucker und karamellisierte Mandeln, serviert mit Apfelmus — ideal zum Teilen.",
+      "pairing": "Rieslaner Auslese Dessertwein"
+    },
+    "kirschmichl": {
+      "description": "Warmer Kirschauflauf serviert mit Vanillesoße."
+    },
+    "apple-strudel": {
+      "description": "Klassischer Apfelstrudel serviert mit Vanillesoße.",
+      "pairing": "Milchkaffee"
+    },
+    "muenchner-hell": {
+      "description": "Untergäriges Bier mit feiner Hopfenbittere, leicht malzig. 5,0% vol."
+    },
+    "beer-light-alcohol-free": {
+      "description": "Naturtrüb, mit Karamell- und Honignoten. <0,5% vol."
+    },
+    "muenchner-radler": {
+      "description": "Münchner Hell mit feiner Limonade, nicht zu süß."
+    },
+    "muenchner-dunkel": {
+      "description": "Feine Bittere, Röstmalz mit Karamell- und Fruchtnoten. 5,0% vol."
+    },
+    "hefeweizen": {
+      "description": "Obergäriges Weizenbier mit Banane- und Honignoten."
+    },
+    "russn": {
+      "description": "Hefeweizen mit feiner Limonade, nicht zu süß."
+    },
+    "cola-wheat": {
+      "description": "Hefeweizen mit Coca-Cola."
+    },
+    "non-alcoholic-wheat": {
+      "description": "Schonend nach voller Reife entalkoholisiert, behält sein Aroma."
+    },
+    "salvator": {
+      "description": "Starkbier, saisonal — erhältlich im Februar/März. 0,5l."
+    },
+    "kellerbier": {
+      "description": "Saisonal — erhältlich im Juni/Juli/August (Sommerzeit). 0,5l."
+    },
+    "wiesnbier": {
+      "description": "Wiesnbier, saisonal — erhältlich im September/Oktober. 0,5l."
+    },
+    "weissweinschorle": {
+      "description": "Weißweinschorle. 0,3l."
+    },
+    "pinot-gris-glass": {
+      "description": "Weingut Hirschmüller, Württemberg — leicht, süffig."
+    },
+    "primitivo-glass": {
+      "description": "Sir of the Faun, Apulien — dunkle Beeren, Kirsche, feine Würze."
+    },
+    "prodry-frizzante": {
+      "description": "Motelvini, Venetien, Italien. 0,1l."
+    },
+    "paul-michel-champagne": {
+      "description": "Champagne Premier Cru, Champagne, Frankreich. 0,75l Flasche."
+    },
+    "taittinger-rose": {
+      "description": "Champagne Taittinger, Frankreich. 0,75l Flasche."
+    },
+    "valdo-prosecco": {
+      "description": "Valdo, Venetien — klassischer italienischer Sekt. 0,75l Flasche."
+    },
+    "winzersekt": {
+      "description": "Weingut Pfaffmann, Pfalz, Deutschland. 0,75l Flasche."
+    },
+    "chardonnay-bottle": {
+      "description": "Weingut Hirschmüller, Württemberg — Passionsfrucht, Mango, Ananas. 0,75l Flasche."
+    },
+    "chardonnay-macon-ige": {
+      "description": "Domaine Fichet, Burgund — Apfel, Birne, weißer Pfirsich, feine Mineralik. 0,75l Flasche."
+    },
+    "pinot-gris-tradition": {
+      "description": "Weingut Bott Frères, Burgund — Aprikose, Wiener Apfel, Haselnuss, feiner Rauch. 0,75l Flasche."
+    },
+    "pinot-gris-oetinger": {
+      "description": "Weingut Oetinger, Rheingau — reife Birne, gelber Apfel, Hauch von Mandel. 0,75l Flasche."
+    },
+    "pinot-gris-reserve-pauline": {
+      "description": "Weingut Pfaffmann, Pfalz — Birne, Ananas, Nektarine, Zitronengras, blumig. 0,75l Flasche."
+    },
+    "pinot-blanc-grand-reserve": {
+      "description": "Weingut Taubenschuss, Österreichisches Weinviertel — Melone, Haselnuss, Heu, Karamell. 0,75l Flasche."
+    },
+    "trebbiano-di-lugana": {
+      "description": "Weingut Zenato, Venetien, Italien — frische Säure, mineralisch, Zitrus, grüner Apfel, Birne. 0,75l Flasche."
+    },
+    "riesling-easy-white": {
+      "description": "Weingut Oetinger, Rheingau — Limette, Apfel, weißer Pfirsich, idealer Aperitif. 0,75l Flasche.",
+      "pairing": "Wiener Schnitzel"
+    },
+    "riesling-gottloos": {
+      "description": "Weingut Dr. Loosen, Mosel — Zitrus, Apfel, elegante Mineralik. 0,75l Flasche."
+    },
+    "riesling-heiligenstein": {
+      "description": "Weingut Bründlmayer, Langenlois, Kamptal, Österreich — frischer Zitrus, Apfel, Kräuterwürze. 0,75l Flasche."
+    },
+    "riesling-smoky-dry": {
+      "description": "Weingut Oetinger, Rheingau — rauchige Mineralik, saftiger Apfel, Zitrus. 0,75l Flasche."
+    },
+    "riesling-bright-side-of-life": {
+      "description": "Weingut Stahl, Franken, Deutschland — fruchtig, frisch, unkompliziert. 0,75l Flasche."
+    },
+    "sauvignon-blanc": {
+      "description": "Château de la Chaise, Loire — Stachelbeere, grüner Apfel, exotische Frucht. 0,75l Flasche."
+    },
+    "sauvignon-blanc-reserve": {
+      "description": "Weingut Taubenschuss, Österreichisches Weinviertel — Limette, Stachelbeere, exotische Frucht. 0,75l Flasche."
+    },
+    "silvaner-easy-white": {
+      "description": "Weingut am Stein, Franken — grüner Apfel, Birne, feine Kräuter. 0,75l Flasche."
+    },
+    "gruener-veltliner-tenn": {
+      "description": "Weingut Taubenschuss, Österreichisches Weinviertel — Apfel, weißer Pfeffer, Kräuterwürze. 0,75l Flasche."
+    },
+    "riesling-gottloos-3l": {
+      "description": "Weingut Dr. Loosen, Mosel. 3,0l Flasche."
+    },
+    "gruener-veltliner-steinberg": {
+      "description": "Weingut Karl Fritsch, Burgenland, Österreich. 1,5l Flasche."
+    },
+    "chardonnay-morillon": {
+      "description": "Weingut Lackner-Tinnacher, Südsteiermark, Österreich. 1,5l Flasche."
+    },
+    "cuvee-adrian-sangiovese": {
+      "description": "Rote Cuvée, Toscana Rosso, Toskana. 1,5l Flasche."
+    },
+    "primitivo-bottle": {
+      "description": "Weingut Barbanera, Apulien, Italien — dunkle Beeren, Kirsche, feine Würze. 0,75l Flasche."
+    },
+    "herrgott-cuvee": {
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz — Kirschen, rote Beeren. 0,75l Flasche."
+    },
+    "tuscany-red-cuvee": {
+      "description": "Duca di Salangane, Toscana — Kirschen, dunkle Beeren. 0,75l Flasche."
+    },
+    "pinot-noir-goldberg": {
+      "description": "Weingut Toni Hartl, Burgenland — rote Beeren, Kirschen, feine Würze. 0,75l Flasche."
+    },
+    "merlot": {
+      "description": "Château Gensac, Gascogne — dunkle Kirschen, Pflaumen, Würze. 0,75l Flasche."
+    },
+    "brunello-di-montalcino": {
+      "description": "Weingut Tenuta Corte Pavone, Sangiovese, Toskana — dunkle Beere, Kirsche, Schokolade. 0,75l Flasche."
+    },
+    "black-ox-cuvee": {
+      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Pfalz — dunkle Beeren, Kirsche, Würze. 0,75l Flasche."
+    },
+    "rose-lime-stone": {
+      "description": "Weingut Unger, Neusiedler See — rote Beeren, Erdbeere, Himbeere, Zitrus. 0,75l Flasche."
+    },
+    "torres-natureo": {
+      "description": "Miguel Torres, Vilafranca del Penedès — Zitrus, Apfel, leicht. 0,75l Flasche."
+    },
+    "rieslaner-auslese": {
+      "description": "Weingut Juliusspital, Franken — Dessertwein. 0,5l Flasche.",
+      "pairing": "Kaiserschmarrn oder Crème brûlée"
+    },
+    "aperol-spritz": {
+      "description": "Klassischer italienischer Aperitif. 0,2l."
+    },
+    "hugo": {
+      "description": "Holunderblüten-Spritz. 0,2l."
+    },
+    "campari-soda": {
+      "description": "0,2l."
+    },
+    "campari-orange": {
+      "description": "0,2l."
+    },
+    "sanbitter": {
+      "description": "Alkoholfreier Bitter-Aperitif. 0,2l."
+    },
+    "nut-in-a-bottle": {
+      "description": "2cl."
+    },
+    "ruescherl": {
+      "description": "13cl."
+    },
+    "hirschkuss": {
+      "description": "38% vol., Bügelverschlussflasche, 4cl."
+    },
+    "vodka-redbull": {
+      "description": "0,27l."
+    },
+    "williams-christ-pear": {
+      "description": "40% vol. Edelbrand, Sigi Herzog Destillat. 2cl."
+    },
+    "farm-fruit-growers": {
+      "description": "Linster Edelobstbrennerei, 1 Jahr im Eichenfass gereift. 2cl."
+    },
+    "feiner-mirabell": {
+      "description": "Linster Edelobstbrennerei, reifer Aprikosengeschmack. 2cl."
+    },
+    "enzian-gentian-brandy": {
+      "description": "Edelbrandmanufaktur Wilhelm Marx. 2cl."
+    },
+    "raspberry-pulp-brandy": {
+      "description": "40% vol. Edelmanufaktur Wilhelm Marx. 2cl."
+    },
+    "grappa-chardonnay": {
+      "description": "Grandfather. 2cl."
+    },
+    "paulaner-spezi": {
+      "description": "0,4l."
+    },
+    "coca-cola": {
+      "description": "0,4l."
+    },
+    "coca-cola-zero": {
+      "description": "0,4l."
+    },
+    "paulaner-lemonade": {
+      "description": "0,33l."
+    },
+    "paulaner-orange-lemonade": {
+      "description": "0,33l."
+    },
+    "tonic": {
+      "description": "0,2l."
+    },
+    "red-bull": {
+      "description": "0,25l."
+    },
+    "bad-brambacher": {
+      "description": "Still oder medium. 0,5l."
+    },
+    "table-water": {
+      "description": "Still oder mit Kohlensäure."
+    },
+    "apple-spritzer": {
+      "description": "0,4l."
+    },
+    "johannisbeerschorle": {
+      "description": "Johannisbeerschorle. 0,4l."
+    },
+    "maracujaschorle": {
+      "description": "Maracujaschorle. 0,4l."
+    },
+    "wolfra-orange-juice": {
+      "description": "0,2l."
+    },
+    "espresso": {
+      "description": ""
+    },
+    "double-espresso": {
+      "description": ""
+    },
+    "espresso-macchiato": {
+      "description": ""
+    },
+    "cappuccino": {
+      "description": ""
+    },
+    "latte-macchiato": {
+      "description": ""
+    },
+    "milchkaffee": {
+      "description": "Kaffee mit Milch."
+    },
+    "haferl-kaffee-creme": {
+      "description": "Haferl Kaffee Creme."
+    },
+    "drinking-chocolate": {
+      "description": "Mit Milch."
+    },
+    "tea-ronnefeldt": {
+      "description": "Darjeeling, Bergkräuter, Süße Beeren, Green Dragon Lung Ching, Erfrischende Minze oder Fruchtige Kamille."
+    },
+    "kids-potato-dumplings": {
+      "description": "Mit Schweinebratensoße."
+    },
+    "kids-kaesspatzn": {
+      "description": "Käsespätzle, Kinderportion."
+    },
+    "kids-rostbratwuerstl": {
+      "description": "Mit Pommes frites oder Kartoffel-Gurken-Salat."
+    },
+    "kids-fries": {
+      "description": ""
+    }
+  }
+}

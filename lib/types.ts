@@ -1,5 +1,6 @@
 export type MenuCategory =
   | 'traditional'
+  | 'sausages'
   | 'starters'
   | 'vegan'
   | 'desserts'
@@ -17,7 +18,8 @@ export type MenuItemSize = {
 
 export type MenuItem = {
   id: string;
-  category: MenuCategory;
+  /** An item can appear under more than one tab (e.g. Currywurst is both Traditional and Sausages). categories[0] is the primary one used for chat context. */
+  categories: MenuCategory[];
   name: string;
   description: string;
   /** Base/single price. For items with several pours or portions, see `sizes`. */
@@ -32,7 +34,18 @@ export type MenuItem = {
   available: boolean;
 };
 
-export type Language = 'en' | 'de' | 'uk';
+/**
+ * Languages the static UI (category labels, item descriptions, chips) has a
+ * pre-generated translation bundle for — see lib/generated/*.json, produced
+ * once by scripts/generate-translations.mjs (LLM-translated, not hand-typed).
+ * Detected phone locales outside this set fall back to 'en' for the UI
+ * chrome, but the AI chat itself is not limited to this list — see
+ * lib/systemPrompt.ts, which answers in whatever raw language code it's given.
+ */
+export type SupportedLanguage = 'en' | 'de' | 'uk' | 'it' | 'fr' | 'es';
+
+/** Free-form BCP-47-ish language code/tag, e.g. from navigator.language. */
+export type Language = string;
 
 export type ChatContext = {
   category: MenuCategory | null;
