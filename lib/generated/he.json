@@ -1,14 +1,15 @@
 {
   "strings": {
-    "welcome": "עיין בתפריט למטה, או שאל את עוזר ה-AI שלנו להמלצה.",
+    "welcome": "גלול את התפריט למטה, או בקש המלצה מהעוזר ה-AI שלנו.",
     "categoriesTitle": "תפריט",
     "featuredTitle": "מומלצים",
-    "askAi": "שאל AI",
+    "askAi": "שאל את ה-AI",
     "chatTitle": "DonislKI",
-    "discussing": "מדברים על",
-    "askAboutThis": "שאל את ה-AI על זה",
+    "discussing": "דנים ב־",
+    "askAboutThis": "שאל את ה‑AI על זה",
     "askAboutDishTemplate": "ספר לי על {dish}",
-    "pairing": "מתאים במיוחד עם",
+    "pairing": "מתאים עם",
+    "fromPricePrefix": "מ־ ",
     "allergensLabel": "אלרגנים",
     "allergensUnknown": "אנא אשר עם הצוות",
     "composerPlaceholder": "שאל על התפריט…",
@@ -16,21 +17,22 @@
     "close": "סגור",
     "noInfo": "אין לי את המידע הזה בתפריט הנוכחי.",
     "categories": {
-      "traditional": "מסורתי",
-      "sausages": "נקניקיות",
+      "weekly": "מבצעים של השבוע",
+      "traditional": "מינויים מסורתיים",
+      "sausages": "נקניקים ונקניקיות",
       "starters": "מנות פתיחה",
       "vegan": "צמחוני/טבעוני",
       "desserts": "קינוחים",
-      "beer": "בירה",
-      "wine": "יין",
+      "beer": "בירות",
+      "wine": "יינות",
       "aperitif": "אפריטיף",
-      "spirits": "משקאות חריפים",
-      "drinks": "משקאות ללא אלכוהול וקפה",
+      "spirits": "ליקרים וזיקוקים",
+      "drinks": "משקאות קלים וקפה",
       "kids": "ילדים"
     },
     "tagLabels": {
-      "sharing": "לשתף",
-      "signature": "חתימה",
+      "sharing": "לחלוקה",
+      "signature": "חתימה של המקום",
       "hearty": "מנחם",
       "classic": "קלאסי",
       "light": "קל",
@@ -51,138 +53,169 @@
       "sparkling": "מבעבע",
       "dessert-wine": "יין קינוח",
       "by-glass": "בכוס",
-      "bottle": "בבקבוק"
+      "bottle": "בבקבוק",
+      "lunch-special": "תפריט צהריים"
     },
     "quickSuggestions": [
       "מה אתה ממליץ?",
-      "איזה משקה מתאים למנה הזו?",
-      "הראה אופציות טבעוניות",
+      "איזה שתייה תתאים למנה הזו?",
+      "הראה אפשרויות טבעוניות",
       "מה מכיל אלרגנים?",
       "משהו קל",
       "משהו מסורתי"
     ]
   },
   "items": {
+    "chanterelle-soup": {
+      "description": "מרק שמפיניון קרימי עם כופתת בייקון טיפרולית."
+    },
+    "romaine-chanterelle-salad": {
+      "description": "לבבות חסה רומיין ברוטב ויניגרט פטל, בצל סגול, רדיקיו ושמפיניונים צלויים."
+    },
+    "veal-steak-chanterelle": {
+      "description": "סטייק עגל עם שמפיניונים, אפונה ותפוחי אדמה בקרם."
+    },
+    "chanterelle-linguine": {
+      "description": "לינגוויני עם שמפיניונים, שמנת, טימין וגבינת הר Bergkäse."
+    },
+    "chanterelle-cream": {
+      "description": "שמנת שמפיניונים עם טימין וכופתת בייגל."
+    },
+    "lunch-monday-asparagus-linguine": {
+      "description": "מנת צהריים יומית, מוגשת 12:00–15:30 כולל קפה. לינגוויני עם אספרגוס, קרם עירית, רוסט ביף ועגבנייה."
+    },
+    "lunch-tuesday-bratengroestl": {
+      "description": "מנת צהריים יומית, מוגשת 12:00–15:30 כולל קפה. תערובת צלויה עם כרוב לבן, כופתת תפוחי אדמה וביצה מטוגנת."
+    },
+    "lunch-wednesday-strindberg-steak": {
+      "description": "מנת צהריים יומית, מוגשת 12:00–15:30 כולל קפה. סטייק סינטה חזיר עם שעועית ירוקה וגרטן תפוחי אדמה."
+    },
+    "lunch-thursday-chicken-geschnetzeltes": {
+      "description": "מנת צהריים יומית, מוגשת 12:00–15:30 כולל קפה. עוף פרוס ברוטב פטריות עם ספצלה עשבי תיבול."
+    },
+    "lunch-friday-fish-fillet": {
+      "description": "מנת צהריים יומית, מוגשת 12:00–15:30 כולל קפה. פילה דג מטוגן היום עם רמולדה וסלט תפוחי אדמה ומלפפון."
+    },
     "donisl-roasting-pan": {
-      "description": "בקר, ברווז, חזרת חזיר ונקניקיות עם כרוב אדום, כנפחני תפוח-אדמה ו־Käsespätzle — להגשה לשיתוף.",
+      "description": "בקר, ברווז, נתח חזיר ונקניקיות עם כרוב אדום, כופתות תפוחי אדמה וקז'ספצלה — למשפחה/לחלוקה.",
       "pairing": "Münchner Dunkel"
     },
     "roast-pork": {
-      "description": "כתף וחזה חזיר בווארי עם קליפת חטיף, רוטב טבעי, כנפחני תפוח-אדמה וסלט כרוב.",
+      "description": "כתף וחזה חזיר בווארי עם קריספי, רוטב טבעי, כופתות תפוחי אדמה וסלט כרוב.",
       "pairing": "Münchner Dunkel"
     },
     "schweinshaxe": {
-      "description": "אגן חזיר צלוי פריך, מוגש עם רוטב טבעי, כנפחני תפוח-אדמה וסלט כרוב.",
+      "description": "ג'נטרי חזיר צלוי פריך, מוגש עם רוטב טבעי, כופתות תפוחי אדמה וסלט כרוב.",
       "pairing": "Best with Dunkel beer."
     },
     "wiener-schnitzel": {
-      "description": "שניצל חזיר בווארי (מאכל מזון חיטה) עם צ’יפס או סלט תפוח-אדמה ומלפפון ותותי יער.",
+      "description": "שניצל חזיר בווארי מזון בתזונה חיצונית, מוגש עם צ'יפס או סלט תפוחי אדמה ומלפפון וחמוציות.",
       "pairing": "Riesling Easy-White or a Radler"
     },
     "farm-duck": {
-      "description": "ברוטב רוזמרין, כנפחני תפוח-אדמה וכרוב אדום.",
+      "description": "ברווז עם רוטב רוזמרין, כופתות תפוחי אדמה וכרוב אדום.",
       "pairing": "Münchner Dunkel"
     },
     "backhendl": {
-      "description": "פרגית חזה בניקור ללא עצם בציפוי פריך עם צ’יפס או סלט תפוח-אדמה ומלפפון."
+      "description": "רבע עוף ללא עצם בציפוי פריך, מוגש עם צ'יפס או סלט תפוחי אדמה ומלפפון."
     },
     "duet-of-the-ox": {
-      "description": "כתף ולחי שור, רוטב יין אדום, תרד צעיר, פירה שמנתי."
+      "description": "כתף ולחי שור, מיץ יין אדום, תרד צעיר ותפוחי אדמה קרמיים."
     },
     "veal-steak": {
-      "description": "רוטב שמנת ופלפלים צבעוני, קולורבי בלהבה, רוטי תפוח-אדמה."
+      "description": "סטייק עגל ברוטב קרם פלפלים צבעוני, קולורבי בלהבה ורוטי תפוחי אדמה."
     },
     "veal-meatballs": {
-      "description": "ירקות מתובלים, תפוחי אדמה ברוזמרין."
+      "description": "קציצות עגל עם ירקות מתובלים ותפוחי אדמה ברוזמרין."
     },
     "white-sausage": {
-      "description": "שני פריטים, מוגשים עם בייגלה וחרדל."
+      "description": "שתי יחידות, מוגשות עם בייגל וחרדל."
     },
     "white-sausage-piece": {
-      "description": "נקניקית לבנה יחידה."
+      "description": "נקניקייה לבנה יחידה."
     },
     "polish-sausage": {
-      "description": "מוגש עם בייגלה וחרדל."
+      "description": "עם בייגל וחרדל."
     },
     "currywurst": {
-      "description": "נקניקיית קארי מוגשת עם צ’יפס.",
+      "description": "נקניקיית קארי מוגשת עם צ'יפס.",
       "pairing": "Hefeweizen wheat beer"
     },
     "bratwurstreindl": {
-      "description": "מחבת נקניקיות צליות עם כרוב כבוש או סלט תפוח-אדמה — מנה לשיתוף.",
+      "description": "מחבת נקניקיות על האש עם כרוב חמוץ או סלט תפוחי אדמה — מנה לשיתוף.",
       "pairing": "Russn (light Hefeweizen)"
     },
     "rump-steak": {
-      "description": "סטייק סנטר מחברת Murnau עם רוטב יין אדום ובצל, בצל מטוגן, käsespätzle."
+      "description": "סטייק Murnau בבישול יין אדום ורוטב בצל, בצל מטוגן וקז'ספצלה."
     },
     "ribeye-300g": {
-      "description": "חלק שומן מ־Murnau beef, רוטב Café de Paris, ירקות על הגריל, גראטן תפוח-אדמה."
+      "description": "נתח שומן מבקר Murnau, רוטב Café de Paris, ירקות בגריל וגרטן תפוחי אדמה."
     },
     "deluxe-burger": {
-      "description": "200 ג׳ בשר Werdenfelser, צ׳דר, חסה, עגבנייה, חמוצים, בצל, רוטב Donisl ביתי.",
+      "description": "המבורגר 200 גר' מבקר Werdenfelser, צ'דר, חסה, עגבנייה, חמוצים, בצל ורוטב Donisl ביתי.",
       "pairing": "Münchner Hell"
     },
     "icefish": {
-      "description": "טימין, ירקות רטטוי, גראטן תפוח-אדמה."
+      "description": "דג קר עם טימין, ירקות רטטוי וגרטן תפוחי אדמה."
     },
     "brotzeitbrettl": {
-      "description": "בשרים מעושנים של החווה, נקניקיית בייקון, מרק כבד, רוס בשר קר, O'gmachter, גבינת הרים, חזרת ולחם."
+      "description": "מבחר בשרים מעושנים של האיכר, נקניקיית בייקון, לבבות כבד, רוסט בקר קר, O'gmachter, גבינת הר, חזרת ולחם."
     },
     "donisl-4erlei": {
-      "description": "חומוס, גבינת בית, חמאה מלוחה ושמנת חמוצה עם עשבים, מוגש עם סלסלת לחם."
+      "description": "חומוס, גבינה ביתית, חמאה מומלחת ושמנת חמוצה עשבי תיבול, מוגש עם סלסלת לחם."
     },
     "beef-tartare": {
-      "description": "קרם פטריות כמהין, ביצת אורגנית אפויה."
+      "description": "טטר בקר עם קרם כמהין וביצה אורגנית אפויה."
     },
     "calfs-head-carpaccio": {
-      "description": "רימונים, חזרת, מלפפון."
+      "description": "קרפאצ'יו ראש עגל עם רימון, חזרת ומלפפון."
     },
     "ogmachter-kas": {
-      "description": "גבינה שמנתית עם טבעות בצל, צנוניות, חסה ופירות יער."
+      "description": "גבינה שמנתית עם טבעות בצל, רדיקיו, חסה ופירות יער."
     },
     "sausage-salad": {
-      "description": "רוטב ביתי, טבעות בצל, חמוץ, עגבנייה, פירות יער (+1.90 עם רצועות גבינת הרים)."
+      "description": "ברוטב הבית, טבעות בצל, חמוץ, עגבנייה ותות יער (עם רצועות גבינת הר +1.90)."
     },
     "donisl-salad": {
-      "description": "עלי חסה, עגבנייה, מלפפון, רוטב ביתי, גרעינים וקרוטונים."
+      "description": "עלים, עגבנייה, מלפפון, רוטב הבית, זרעים וקרוטונים."
     },
     "bread-basket": {
-      "description": "סל לחם טרי."
+      "description": "סלסלת לחם טרי."
     },
     "brezn": {
       "description": "בייגלה בווארי."
     },
     "oxen-consomme": {
-      "description": "מרק בקר צלול עם כופתאות כבד או רצועות חביתה, ירקות ובצל ירוק."
+      "description": "ציר בקר צלול עם כופתות כבד או רצועות פנקייק, ירקות ושמיר."
     },
     "tomato-soup": {
       "description": "מרק עגבניות חלק עם קרם בוראטה ובזיליקום."
     },
     "classic-sides": {
-      "description": "כרוב כבוש, כרוב אדום, סלט כרוב ובייקון, תפוחי אדמה שמנוני, כנפחני תפוח-אדמה, תפוחי אדמה קטנים צלויים, Spätzle או צ’יפס — לכל אחד."
+      "description": "כרוב חמוץ, כרוב אדום, סלט בייקון וכרוב, תפוחי אדמה שמנתיים, כופתות תפוחי אדמה, תפוחי אדמה קטנים צלויים, ספצלה או צ'יפס — כל אחד."
     },
     "vegetable-sides": {
-      "description": "תוספת ירקות או סלט תפוח-אדמה ומלפפון — לכל אחת."
+      "description": "תוספת ירקות או סלט תפוחי אדמה ומלפפון — כל אחד."
     },
     "power-bowl": {
-      "description": "אורז ריחני, אבוקדו, אדממה, חומוס, גזרים, עגבנייה, מלפפון, בוטנים, רוטב תפוז-נענע-ליים."
+      "description": "אורז ריחני, אבוקדו, אדממה, חומוס, גזר, עגבנייה, מלפפון, בוטנים, רוטב תפוז-נענע-לימון."
     },
     "kaesespaetzle": {
-      "description": "Käsespätzle עם טבעות בצל.",
+      "description": "קז'ספצלה עם טבעות בצל.",
       "pairing": "Münchner Dunkel or a full-bodied white wine"
     },
     "linguine-truffles": {
-      "description": "פסטה עם תרד צעיר ושלפי כמהין חורף."
+      "description": "פסטה עם תרד צעיר ושמנת פטריות חורף."
     },
     "rahmschwammerl": {
-      "description": "פטריות שמנתיות מוגשות עם כופתאות בייגלה."
+      "description": "פטריות בקרם מוגשות עם כופתות בייגל."
     },
     "creme-brulee": {
       "description": "מוגש עם סורבה ופירות יער.",
       "pairing": "Rieslaner Auslese dessert wine"
     },
     "kaiserschmarrn": {
-      "description": "צימוקים, חמאה, סוכר ושקדים מקורמלים, מוגש עם ריבת תפוחים — אידיאלי לשיתוף.",
+      "description": "קיסרשמארן עם צימוקים, חמאה, סוכר ושקדים חרוכים, מוגש עם רסק תפוחים — אידיאלי לחלוקה.",
       "pairing": "Rieslaner Auslese dessert wine"
     },
     "kirschmichl": {
@@ -193,252 +226,264 @@
       "pairing": "Milchkaffee"
     },
     "muenchner-hell": {
-      "description": "תסיסה תחתונה, נוטה למרירות עדינה, מעט מאלטית. 5.0% מול."
+      "description": "תסיסה תחתונה, נוטה למרירות עדינה עם נגיעת מאלט. 5.0% נפח."
     },
     "beer-light-alcohol-free": {
-      "description": "מטושטש באופן טבעי, ניחוחות סוכר ומלט. <0.5% מול."
+      "description": "מעונן באופן טבעי, נגיעות קרמל ודבש. <0.5% נפח."
     },
     "muenchner-radler": {
-      "description": "Helles מינכן עם לימונדה עדינה, לא מתוק מדי."
+      "description": "Münchner Helles עם לימונדה עדינה, לא מתוק מדי."
     },
     "muenchner-dunkel": {
-      "description": "מריר עדין, מאלט קלוי עם נגיעות קרמל ופירות מסוכרים. 5.0% מול."
+      "description": "מריר עדין, מאלט קלוי עם נגיעות קרמל ופירות מסוכרים. 5.0% נפח."
     },
     "hefeweizen": {
-      "description": "בירת חיטה תסוסת-על עם ניחוחות בננה ודבש."
+      "description": "בירת חיטה תסיסה עליונה עם ניחוחות בננה ודבש."
     },
     "russn": {
       "description": "Hefeweizen עם לימונדה עדינה, לא מתוק מדי."
     },
     "cola-wheat": {
-      "description": "Hefeweizen עם קוקה-קולה."
+      "description": "Hefeweizen עם קוקה־קולה."
     },
     "non-alcoholic-wheat": {
-      "description": "מוסס בעדינות אחרי תסיסה מלאה, שומר על הארומה."
+      "description": "דל־אלכוהול לאחר התסיסה המלאה, שומרת על הארומה."
     },
     "salvator": {
-      "description": "בירה חזקה (Starkbier), עונתית — זמינה בפברואר/מרץ. 0.5 ליטר."
+      "description": "בירה חזקה (Starkbier), עונתית — זמינה בפברואר/מרץ. 0.5ל'."
     },
     "kellerbier": {
-      "description": "עונתי — זמין ביוני/יולי/אוגוסט (קיץ). 0.5 ליטר."
+      "description": "עונתי — זמין יוני/יולי/אוגוסט (עונת הקיץ). 0.5ל'."
     },
     "wiesnbier": {
-      "description": "בירת אוקטוברפסט, עונתית — זמינה בספטמבר/אוקטובר. 0.5 ליטר."
+      "description": "בירת אוקטוברפסט, עונתית — זמינה בספטמבר/אוקטובר. 0.5ל'."
     },
     "weissweinschorle": {
-      "description": "שפריץ יין לבן. 0.3 ליטר."
+      "description": "שכרת יין לבן. 0.3ל'."
     },
     "pinot-gris-glass": {
-      "description": "מזקקת Hirschmüller, ווירטמברג — קל וקל לשתייה."
+      "description": "כרם Hirschmüller, וירטמברג — קל וקל לשתייה."
     },
     "primitivo-glass": {
-      "description": "Sir of the Faun, פוגליה — פירות יער כהים, דומדמניות, תבלין עדין."
+      "description": "Sir of the Faun, פוליה — פירות יער כהים, דובדבן ותבלין עדין."
     },
     "prodry-frizzante": {
-      "description": "Motelvini, ונציאו, איטליה. 0.1 ליטר."
+      "description": "Motelvini, Veneto, איטליה. 0.1ל'."
     },
     "paul-michel-champagne": {
-      "description": "שמפניה Premier Cru, שמפן, צרפת. בקבוק 0.75 ליטר."
+      "description": "שמפן Premier Cru, שאמפיין, צרפת. בקבוק 0.75ל'."
     },
     "taittinger-rose": {
-      "description": "שמפניה Taittinger, צרפת. בקבוק 0.75 ליטר."
+      "description": "שמפן Taittinger, צרפת. בקבוק 0.75ל'."
     },
     "valdo-prosecco": {
-      "description": "Valdo, ונציאו — יין מבעבע איטלקי קלאסי. בקבוק 0.75 ליטר."
+      "description": "Valdo, Veneto — פרוסקו איטלקי קלאסי. בקבוק 0.75ל'."
     },
     "winzersekt": {
-      "description": "מזקקת Pfaffmann, פאלאטינאט, גרמניה. בקבוק 0.75 ליטר."
+      "description": "יקב Pfaffmann, פאלטצ'. בקבוק 0.75ל'."
     },
     "chardonnay-bottle": {
-      "description": "מזקקת Hirschmüller, ווירטמברג — פסיפלורה, מנגו, אננס. בקבוק 0.75 ליטר."
+      "description": "יקב Hirschmüller, וירטמברג — פירות כמש ממש, פסיפלורה, מנגו ואננס. בקבוק 0.75ל'."
+    },
+    "chardonnay-glass": {
+      "description": "יקב Hirschmüller, וירטמברג. כוס 0.1ל'."
     },
     "chardonnay-macon-ige": {
-      "description": "Domaine Fichet, בורגונדי — תפוח, אגס, אפרסק לבן, מינרליות עדינה. בקבוק 0.75 ליטר."
+      "description": "Domaine Fichet, בורגון — תפוח, אגס, אפרסק לבן ומינרליות עדינה. בקבוק 0.75ל'."
     },
     "pinot-gris-tradition": {
-      "description": "Bott Frères, בורגונדי — משמש, תפוח וינאי, לוז, נגיעת עשן. בקבוק 0.75 ליטר."
+      "description": "יקב Bott Frères, בורגון — משמש, \"תפוח וינאי\", אגוז לוז וניחוח עישון עדין. בקבוק 0.75ל'."
     },
     "pinot-gris-oetinger": {
-      "description": "מזקקת Oetinger, Rheingau — אגס בשל, תפוח צהוב, ניחוח שקדים. בקבוק 0.75 ליטר."
+      "description": "יקב Oetinger, Rheingau — אגס בשלים, תפוח צהוב ונגיעה של שקדים. בקבוק 0.75ל'."
     },
     "pinot-gris-reserve-pauline": {
-      "description": "Pfaffmann, פאלאטינאט — אגס, אננס, נקטרינה, לימונגרס, פרחוני. בקבוק 0.75 ליטר."
+      "description": "יקב Pfaffmann, פאלטצ' — אגס, אננס, נקטרינה, לימון עשב ופרחוניות. בקבוק 0.75ל'."
     },
     "pinot-blanc-grand-reserve": {
-      "description": "Taubenschuss, אזור Weinviertel האוסטרי — מלון, לוז, חציר, קרמל. בקבוק 0.75 ליטר."
+      "description": "יקב Taubenschuss, Weinviertel האוסטרי — מלון, אגוז לוז, חציר וקרמל. בקבוק 0.75ל'."
     },
     "trebbiano-di-lugana": {
-      "description": "Zenato, ונציאו, איטליה — חומציות רעננה, מינרלי, הדרים, תפוח ירוק, אגס. בקבוק 0.75 ליטר."
+      "description": "יקב Zenato, Veneto, איטליה — חמצמצות רעננה, מינרלי, הדרים, תפוח ירוק ואגס. בקבוק 0.75ל'."
+    },
+    "lugana-glass": {
+      "description": "יקב Zenato, Veneto, איטליה. כוס 0.1ל'."
     },
     "riesling-easy-white": {
-      "description": "Oetinger, Rheingau — ליים, תפוח, אפרסק לבן, אפטיטיף אידיאלי. בקבוק 0.75 ליטר.",
+      "description": "יקב Oetinger, Rheingau — ליים, תפוח, אפרסק לבן, אפריטיף אידיאלי. בקבוק 0.75ל'.",
       "pairing": "Wiener Schnitzel"
     },
     "riesling-gottloos": {
-      "description": "Dr. Loosen, מוסל — הדרים, תפוח, מינרליות אלגנטית. בקבוק 0.75 ליטר."
+      "description": "יקב Dr. Loosen, Mosel — הדרים, תפוח ומינרליות אלגנטית. בקבוק 0.75ל'."
     },
     "riesling-heiligenstein": {
-      "description": "Bründlmayer, Langenlois, Kamptal, אוסטריה — הדרים רעננים, תפוח, תבלין עשבי. בקבוק 0.75 ליטר."
+      "description": "יקב Bründlmayer, Langenlois, Kamptal, אוסטריה — הדרים רעננים, תפוח ותבלין עשבי. בקבוק 0.75ל'."
     },
     "riesling-smoky-dry": {
-      "description": "Weingut Oetinger, Rheingau — מינרליות מעושנת, תפוח עסיסי, הדרים. בקבוק 0.75 ליטר."
+      "description": "Weingut Oetinger, Rheingau — מינרליות מעושנת, תפוח עסיסי והדרים. בקבוק 0.75ל'."
     },
     "riesling-bright-side-of-life": {
-      "description": "Stahl, פרנקוניה, גרמניה — פירותי, רענן, לא מסובך. בקבוק 0.75 ליטר."
+      "description": "יקב Stahl, פרנקוניה, גרמניה — פירותי, רענן וללא סיבוכים. בקבוק 0.75ל'."
+    },
+    "riesling-nachschlag-glass": {
+      "description": "יקב Stahl, פרנקוניה, גרמניה. כוס 0.1ל'."
     },
     "sauvignon-blanc": {
-      "description": "Chateau de la Chaise, הלואר — גוזברי, תפוח ירוק, פירות אקזוטיים. בקבוק 0.75 ליטר."
+      "description": "Chateau de la Chaise, Loire — גוזברי, תפוח ירוק ופירות אקזוטיים. בקבוק 0.75ל'."
     },
     "sauvignon-blanc-reserve": {
-      "description": "Taubenschuss, Weinviertel האוסטרי — ליים, גוזברי, פירות אקזוטיים. בקבוק 0.75 ליטר."
+      "description": "Taubenschuss, Weinviertel — ליים, גוזברי ופירות אקזוטיים. בקבוק 0.75ל'."
     },
     "silvaner-easy-white": {
-      "description": "Weingut am Stein, פרנקוניה — תפוח ירוק, אגס, עשבי תיבול עדינים. בקבוק 0.75 ליטר."
+      "description": "Weingut am Stein, פרנקוניה — תפוח ירוק, אגס ועשבי תיבול עדינים. בקבוק 0.75ל'."
     },
     "gruener-veltliner-tenn": {
-      "description": "Taubenschuss, Weinviertel האוסטרי — תפוח, פלפל לבן, תבלין עשבי. בקבוק 0.75 ליטר."
+      "description": "Taubenschuss, Weinviertel — תפוח, פלפל לבן ותבלין עשבי. בקבוק 0.75ל'."
     },
     "riesling-gottloos-3l": {
-      "description": "Dr. Loosen, מוסל. בקבוק 3.0 ליטר."
+      "description": "יקב Dr. Loosen, Mosel. בקבוק 3.0ל'."
     },
     "gruener-veltliner-steinberg": {
-      "description": "Karl Fritsch, בורגנלנד, אוסטריה. בקבוק 1.5 ליטר."
+      "description": "יקב Karl Fritsch, Burgenland, אוסטריה. בקבוק 1.5ל'."
     },
     "chardonnay-morillon": {
-      "description": "Lackner-Tinnacher, סטיריה הדרומית, אוסטריה. בקבוק 1.5 ליטר."
+      "description": "יקב Lackner-Tinnacher, Southern Styria, אוסטריה. בקבוק 1.5ל'."
     },
     "cuvee-adrian-sangiovese": {
-      "description": "קובנה אדום, Toscana Rosso, טוסקנה. בקבוק 1.5 ליטר."
+      "description": "קוווה אדום, Toscana Rosso, טוסקנה. בקבוק 1.5ל'."
     },
     "primitivo-bottle": {
-      "description": "Barbanera, אפוליה, איטליה — פירות יער כהים, דומדמניות, תבלין עדין. בקבוק 0.75 ליטר."
+      "description": "יקב Barbanera, אפוליה, איטליה — פירות יער כהים, דובדבן ותבלין עדין. בקבוק 0.75ל'."
     },
     "herrgott-cuvee": {
-      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, פאלאטינאט — דובדבנים, פירות אדומים. בקבוק 0.75 ליטר."
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, פאלטצ' — דובדבנים ופירות יער אדומים. בקבוק 0.75ל'."
+    },
+    "herrgott-cuvee-glass": {
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, פאלטצ'. כוס 0.1ל'."
     },
     "tuscany-red-cuvee": {
-      "description": "Duca di Salangane, טוסקנה — דובדבנים, פירות יער כהים. בקבוק 0.75 ליטר."
+      "description": "Duca di Salangane, טוסקנה — דובדבנים ופירות יער כהים. בקבוק 0.75ל'."
     },
     "pinot-noir-goldberg": {
-      "description": "Toni Hartl, בורגנלנד — פירות אדומים, דובדבנים, נגיעת תבלין. בקבוק 0.75 ליטר."
+      "description": "יקב Toni Hartl, Burgenland — פירות יער אדומים, דובדבן ותבלין עדין. בקבוק 0.75ל'."
     },
     "merlot": {
-      "description": "Chateau Gensac, גסקוני — דובדבנים כהים, שזיפים, תבלין. בקבוק 0.75 ליטר."
+      "description": "Chateau Gensac, גסקון — דובדבנים כהים, שזיפים ותבלין. בקבוק 0.75ל'."
     },
     "brunello-di-montalcino": {
-      "description": "Tenuta Corte Pavone, Sangiovese, טוסקנה — פירות יער כהים, דובדבן, שוקולד. בקבוק 0.75 ליטר."
+      "description": "Tenuta Corte Pavone, Sangiovese, טוסקנה — פרי יער כהה, דובדבן ושוקולד. בקבוק 0.75ל'."
     },
     "black-ox-cuvee": {
-      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, פאלאטינאט — פירות יער כהים, דובדבן, תבלין. בקבוק 0.75 ליטר."
+      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, פאלטצ' — פירות יער כהים, דובדבן ותבלין. בקבוק 0.75ל'."
     },
     "rose-lime-stone": {
-      "description": "Unger, אגם נויסידל — פירות אדומים, תות, פטל, הדרים. בקבוק 0.75 ליטר."
+      "description": "יקב Unger, אגם Neusiedl — פירות יער אדומים, תות ופטל, הדרים. בקבוק 0.75ל'."
     },
     "torres-natureo": {
-      "description": "Miguel Torres, Vilafranca del Penedès — הדרים, תפוח, קל. בקבוק 0.75 ליטר."
+      "description": "Miguel Torres, Vilafranca del Penedès — הדרים, תפוח וקלילות. בקבוק 0.75ל'."
     },
     "rieslaner-auslese": {
-      "description": "Juliusspital, פרנקוניה — יין קינוח. בקבוק 0.5 ליטר.",
+      "description": "Juliusspital, פרנקוניה — יין קינוח. בקבוק 0.5ל'.",
       "pairing": "Kaiserschmarrn or Crème brûlée"
     },
     "aperol-spritz": {
-      "description": "אפריטיף איטלקי קלאסי. 0.2 ליטר."
+      "description": "אפריטיף איטלקי קלאסי. 0.2ל'."
     },
     "hugo": {
-      "description": "ספריץ פריחת סמבוק. 0.2 ליטר."
+      "description": "ספיצ' עם פריחת הדובדבן. 0.2ל'."
     },
     "campari-soda": {
-      "description": "0.2 ליטר."
+      "description": "0.2ל'."
     },
     "campari-orange": {
-      "description": "0.2 ליטר."
+      "description": "0.2ל'."
     },
     "sanbitter": {
-      "description": "אפריטיף מר ללא אלכוהול. 0.2 ליטר."
+      "description": "אפריטיף מר ללא אלכוהול. 0.2ל'."
     },
     "nut-in-a-bottle": {
-      "description": "2 קל."
+      "description": "2cl."
     },
     "ruescherl": {
-      "description": "13 קל."
+      "description": "13cl."
     },
     "hirschkuss": {
-      "description": "38% מול, בקבוק עם פקק עליון, 4 קל."
+      "description": "38% נפח, בקבוק פתיחה עם פקק מתנדנד, 4cl."
     },
     "vodka-redbull": {
-      "description": "0.27 ליטר."
+      "description": "0.27ל'."
     },
     "williams-christ-pear": {
-      "description": "40% מול. Edelbrand, זיקוק Sigi Herzog. 2 קל."
+      "description": "40% נפח. Edelbrand, זיקוק Sigi Herzog. 2cl."
     },
     "farm-fruit-growers": {
-      "description": "דיסטילריית פרי Linster, מיושן שנה בחביות עץ אלון. 2 קל."
+      "description": "דיסטילריית פרי Linster, מבושל שנה בחביות אלון. 2cl."
     },
     "feiner-mirabell": {
-      "description": "דיסטילריית Linster, טעם שזיף מצוי בשל. 2 קל."
+      "description": "דיסטילריית Linster, טעם משמש בשל. 2cl."
     },
     "enzian-gentian-brandy": {
-      "description": "מפעל משקאות משובחים Wilhelm Marx. 2 קל."
+      "description": "Wilhelm Marx Fine Spirits Manufactory. 2cl."
     },
     "raspberry-pulp-brandy": {
-      "description": "40% מול. יצרן Wilhelm Marx. 2 קל."
+      "description": "40% נפח. Edelmanufaktur Wilhelm Marx. 2cl."
     },
     "grappa-chardonnay": {
-      "description": "סבא. 2 קל."
+      "description": "Grappa 'Grandfather'. 2cl."
     },
     "paulaner-spezi": {
-      "description": "0.4 ליטר."
+      "description": "0.4ל'."
     },
     "coca-cola": {
-      "description": "0.4 ליטר."
+      "description": "0.4ל'."
     },
     "coca-cola-zero": {
-      "description": "0.4 ליטר."
+      "description": "0.4ל'."
     },
     "paulaner-lemonade": {
-      "description": "0.33 ליטר."
+      "description": "0.33ל'."
     },
     "paulaner-orange-lemonade": {
-      "description": "0.33 ליטר."
+      "description": "0.33ל'."
     },
     "tonic": {
-      "description": "0.2 ליטר."
+      "description": "0.2ל'."
     },
     "red-bull": {
-      "description": "0.25 ליטר."
+      "description": "0.25ל'."
     },
     "bad-brambacher": {
-      "description": "מינרלית סטיל או מוגזת. 0.5 ליטר."
+      "description": "מינרלית או ללא גז. 0.5ל'."
     },
     "table-water": {
-      "description": "מנענע או מוגז."
+      "description": "ללא גז או גז."
     },
     "apple-spritzer": {
-      "description": "0.4 ליטר."
+      "description": "0.4ל'."
     },
     "johannisbeerschorle": {
-      "description": "שפריץ קרנברי שחור. 0.4 ליטר."
+      "description": "שכרת קרמבולה שחורה. 0.4ל'."
     },
     "maracujaschorle": {
-      "description": "שפריץ פסיפלורה. 0.4 ליטר."
+      "description": "שכרת פרי התשוקה. 0.4ל'."
     },
     "wolfra-orange-juice": {
-      "description": "0.2 ליטר."
+      "description": "0.2ל'."
     },
     "espresso": {
-      "description": ""
+      "description": "אספרסו קצר ועוצמתי."
     },
     "double-espresso": {
-      "description": ""
+      "description": "אספרסו כפול."
     },
     "espresso-macchiato": {
-      "description": ""
+      "description": "אספרסו עם מעט חלב מוקצף."
     },
     "cappuccino": {
-      "description": ""
+      "description": "קפוצ'ינו עם חלב מוקצף."
     },
     "latte-macchiato": {
-      "description": ""
+      "description": "לתי מאקיאטו — שכבות חלב וקפה."
     },
     "milchkaffee": {
       "description": "קפה עם חלב."
@@ -447,22 +492,22 @@
       "description": "Haferl Kaffee Creme."
     },
     "drinking-chocolate": {
-      "description": "עם חלב."
+      "description": "שוקולד חם עם חלב."
     },
     "tea-ronnefeldt": {
-      "description": "Darjeeling, עשבי הרים, פירות יער מתוקים, תה ירוק Dragon Lung Ching, מנטה מרעננת, או קמומיל פירותי."
+      "description": "Darjeeling, Mountain herbs, Sweet Berries, Green Dragon Lung Ching, Refreshing Mint, or Fruity Camomile."
     },
     "kids-potato-dumplings": {
-      "description": "עם רוטב מהבשר."
+      "description": "עם רוטב רוסט חזיר."
     },
     "kids-kaesspatzn": {
-      "description": "Käsespätzle במנה לילדים."
+      "description": "קז'ספצלה במנה לילדים."
     },
     "kids-rostbratwuerstl": {
-      "description": "מוגש עם צ’יפס או סלט תפוח-אדמה ומלפפון."
+      "description": "עם צ'יפס או סלט תפוחי אדמה ומלפפון."
     },
     "kids-fries": {
-      "description": ""
+      "description": "צ'יפס לילדים."
     }
   }
 }

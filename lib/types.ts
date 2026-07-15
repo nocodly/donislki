@@ -1,4 +1,5 @@
 export type MenuCategory =
+  | 'weekly'
   | 'traditional'
   | 'sausages'
   | 'starters'

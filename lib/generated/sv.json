@@ -1,21 +1,23 @@
 {
   "strings": {
-    "welcome": "Bläddra i menyn nedan eller fråga vår AI-assistent om en rekommendation.",
+    "welcome": "Bläddra i menyn nedan eller fråga vår AI-assistent om rekommendationer.",
     "categoriesTitle": "Meny",
-    "featuredTitle": "Utvalda",
+    "featuredTitle": "Rekommenderat",
     "askAi": "Fråga AI",
     "chatTitle": "DonislKI",
     "discussing": "Diskuterar",
-    "askAboutThis": "Fråga AI om det här",
+    "askAboutThis": "Fråga AI om detta",
     "askAboutDishTemplate": "Berätta om {dish}",
     "pairing": "Passar bra med",
+    "fromPricePrefix": "från ",
     "allergensLabel": "Allergener",
-    "allergensUnknown": "Vänligen kontrollera med personalen",
+    "allergensUnknown": "Vänligen fråga personalen",
     "composerPlaceholder": "Fråga om menyn…",
     "send": "Skicka",
     "close": "Stäng",
-    "noInfo": "Den informationen finns inte i den här menyn.",
+    "noInfo": "Den informationen finns inte i den aktuella menyn.",
     "categories": {
+      "weekly": "Veckans special",
       "traditional": "Traditionellt",
       "sausages": "Korvar",
       "starters": "Förrätter",
@@ -23,22 +25,22 @@
       "desserts": "Desserter",
       "beer": "Öl",
       "wine": "Vin",
-      "aperitif": "Aperitif",
+      "aperitif": "Aperitifer",
       "spirits": "Sprit",
       "drinks": "Alkoholfritt & kaffe",
       "kids": "Barn"
     },
     "tagLabels": {
-      "sharing": "delning",
+      "sharing": "att dela",
       "signature": "signatur",
       "hearty": "rejält",
       "classic": "klassiker",
       "light": "lätt",
-      "seasonal": "säsongsbetonat",
+      "seasonal": "säsongsbetonad",
       "strong": "starkt",
       "non-alcoholic": "alkoholfritt",
-      "vegetarian": "vegetariskt",
-      "vegan": "veganskt",
+      "vegetarian": "vegetarisk",
+      "vegan": "vegan",
       "spirit": "sprit",
       "water": "vatten",
       "coffee": "kaffe",
@@ -50,11 +52,12 @@
       "rose": "rosé",
       "sparkling": "mousserande",
       "dessert-wine": "dessertvin",
-      "by-glass": "glasvis",
-      "bottle": "flaska"
+      "by-glass": "per glas",
+      "bottle": "flaska",
+      "lunch-special": "luncherbjudande"
     },
     "quickSuggestions": [
-      "Vad rekommenderar du?",
+      "Vad rekommenderar ni?",
       "Vilken dryck passar till den här rätten?",
       "Visa veganska alternativ",
       "Vad innehåller allergener?",
@@ -63,28 +66,58 @@
     ]
   },
   "items": {
+    "chanterelle-soup": {
+      "description": "Krämig kantarellsoppa med en tyrolsk bacondumpling."
+    },
+    "romaine-chanterelle-salad": {
+      "description": "Romansallatshjärtan med hallonvinaigrette, rödlök, rädisor och rostade kantareller."
+    },
+    "veal-steak-chanterelle": {
+      "description": "Kalvstek med kantareller, ärtor och krämig potatis."
+    },
+    "chanterelle-linguine": {
+      "description": "Linguine med kantareller, grädde, timjan och Bergkäse."
+    },
+    "chanterelle-cream": {
+      "description": "Krämiga kantareller med timjan och en pretzeldumpling."
+    },
+    "lunch-monday-asparagus-linguine": {
+      "description": "Veckans luncherbjudande, serveras 12:00–15:30 inklusive kaffe. Linguine med sparris, gräddig gräslök, rostbiff och tomat."
+    },
+    "lunch-tuesday-bratengroestl": {
+      "description": "Veckans luncherbjudande, serveras 12:00–15:30 inklusive kaffe. Blandad rost med vitkål, potatisdumpling och ett stekt ägg."
+    },
+    "lunch-wednesday-strindberg-steak": {
+      "description": "Veckans luncherbjudande, serveras 12:00–15:30 inklusive kaffe. Fläskkotlett med gröna bönor och potatisgratäng."
+    },
+    "lunch-thursday-chicken-geschnetzeltes": {
+      "description": "Veckans luncherbjudande, serveras 12:00–15:30 inklusive kaffe. Strimlad kyckling i svampsås med örtiga spätzle."
+    },
+    "lunch-friday-fish-fillet": {
+      "description": "Veckans luncherbjudande, serveras 12:00–15:30 inklusive kaffe. Panerad dagens fångst med remoulad och potatis- gurksallad."
+    },
     "donisl-roasting-pan": {
-      "description": "Nötkött, ankbröst, fläskknä och korvar med rödkål, potatisknödel och käsespätzle — för att dela.",
+      "description": "Nötkött, ankbröst, fläskknä och korvar med rödkål, potatisdumpling och käsespätzle — för att dela.",
       "pairing": "Münchner Dunkel"
     },
     "roast-pork": {
-      "description": "Bayersk fläskkarré och sidfläsk med svål, sky, potatisknödel och coleslaw.",
+      "description": "Bayersk fläskstek och sidfläsk med knaprig svål, sky, potatisdumplings och kålsallad.",
       "pairing": "Münchner Dunkel"
     },
     "schweinshaxe": {
-      "description": "Krispigt rostad fläskknä serveras med egen sky, potatisknödel och coleslaw.",
-      "pairing": "Passar bäst med en Dunkel-öl."
+      "description": "Krispig fläskknä serverad med sky, potatisdumplings och kålsallad.",
+      "pairing": "Best with Dunkel beer."
     },
     "wiener-schnitzel": {
-      "description": "Bayerskt varköttspanerad schnitzel med pommes eller potatis- och gurksallad samt tranbär.",
-      "pairing": "Riesling Easy-White eller en Radler"
+      "description": "Bayerskt stråfött fläskschnitzel med pommes eller potatis- gurksallad och lingon.",
+      "pairing": "Riesling Easy-White or a Radler"
     },
     "farm-duck": {
-      "description": "Rosmarinsås, potatisknödel och rödkål.",
+      "description": "Anka med rosmarinsås, potatisdumplings och rödkål.",
       "pairing": "Münchner Dunkel"
     },
     "backhendl": {
-      "description": "Benfri panerad kycklingklubba med pommes eller potatis- och gurksallad."
+      "description": "Benfri panerad kycklingklubba med pommes eller potatis- gurksallad."
     },
     "duet-of-the-ox": {
       "description": "Bog och kind av oxe, rödvinsjus, babyspenat, krämig potatis."
@@ -93,46 +126,46 @@
       "description": "Färgstark peppargräddsås, flamberad kålrot, potatisrösti."
     },
     "veal-meatballs": {
-      "description": "Kryddade grönsaker, rosmarinsstekta potatisar."
+      "description": "Kryddade grönsaker, rosmarinpotatis."
     },
     "white-sausage": {
       "description": "Två stycken, serveras med pretzel och senap."
     },
     "white-sausage-piece": {
-      "description": "En enstaka Weißwurst."
+      "description": "En ensam Weißwurst."
     },
     "polish-sausage": {
-      "description": "Med pretzel och senap."
+      "description": "Serveras med pretzel och senap."
     },
     "currywurst": {
       "description": "Currywurst serverad med pommes.",
-      "pairing": "Hefeweizen veteöl"
+      "pairing": "Hefeweizen wheat beer"
     },
     "bratwurstreindl": {
-      "description": "Stekpanna med grillade korvar med surkål eller potatissallad — delningsportion.",
-      "pairing": "Russn (lätt Hefeweizen)"
+      "description": "Stekpanna med grillade korvar med surkål eller potatissallad — en portion för att dela.",
+      "pairing": "Russn (light Hefeweizen)"
     },
     "rump-steak": {
-      "description": "Murnau-biff med rödvin- och lökjus, friterad lök, käsespätzle."
+      "description": "Rumpstek från Murnau med rödvin- och lökjus, friterad lök, käsespätzle."
     },
     "ribeye-300g": {
-      "description": "Fettrand från Murnau-biff, Café de Paris-sås, grillade grönsaker, potatisgratäng."
+      "description": "Fettrand från Murnau-nötkött, Café de Paris-sås, grillade grönsaker, potatisgratäng."
     },
     "deluxe-burger": {
-      "description": "200g Werdenfelser-nötkött, cheddar, sallad, tomat, inläggningar, lök, hemmagjord Donisl-sås.",
+      "description": "200g Werdenfelser-nötkött, cheddar, sallad, tomat, pickles, lök, hemgjord Donisl-sås.",
       "pairing": "Münchner Hell"
     },
     "icefish": {
       "description": "Timjan, ratatouillegrönsaker, potatisgratäng."
     },
     "brotzeitbrettl": {
-      "description": "Bondens rökta charkuterier, baconkorv, leverpastej, kall rostbiff, O'gmachter, bergsost, pepparrot, bröd."
+      "description": "Bondens rökt kött, baconkorv, leverkorv, kall rostbiff, O'gmachter, bergost, pepparrot, bröd."
     },
     "donisl-4erlei": {
-      "description": "Hummus, färskost, saltat smör och örtkryddad gräddfil, serveras med brödkorg."
+      "description": "Hummus, hemgjord ost, saltat smör och örtkryddad crème fraiche, serveras med brödkorg."
     },
     "beef-tartare": {
-      "description": "Tryffelkräm, ugnsbakat ekologiskt ägg."
+      "description": "Tryffelkräm, bakat ekologiskt ägg."
     },
     "calfs-head-carpaccio": {
       "description": "Granatäpple, pepparrot, gurka."
@@ -141,71 +174,71 @@
       "description": "Krämig ost med lökringar, rädisor, sallad och bär."
     },
     "sausage-salad": {
-      "description": "Husets dressing, lökringar, inläggning, tomat, bär (+1,90 med strimlor av bergsost)."
+      "description": "Husets dressing, lökringar, inlagd gurka, tomat, bär (+1,90 med strimlor av bergost)."
     },
     "donisl-salad": {
-      "description": "Salladsblad, tomat, gurka, husets dressing, frön och krutonger."
+      "description": "Bladsallad, tomat, gurka, husets dressing, frön och krutonger."
     },
     "bread-basket": {
-      "description": "Färskt brödkorg."
+      "description": "Färsk brödkorg."
     },
     "brezn": {
-      "description": "Bayersk pretzel."
+      "description": "Bayerisk pretzel."
     },
     "oxen-consomme": {
       "description": "Klar oxbuljong med leverknödel eller pannkaksstrimlor, grönsaker och gräslök."
     },
     "tomato-soup": {
-      "description": "Slät tomatsoppa med burrata- och basilikakräm."
+      "description": "Slät tomatsoppa med burrata-basilikakräm."
     },
     "classic-sides": {
-      "description": "Surkål, rödkål, bacon- och kålssallad, krämig potatis, potatisknödel, små rostade potatisar, spätzle eller pommes — per portion."
+      "description": "Surkål, rödkål, bacon- och kålssallad, krämig potatis, potatisdumplings, små rostad potatis, spätzle eller pommes — per portion."
     },
     "vegetable-sides": {
-      "description": "Grönsaks-tillbehör eller potatis- och gurksallad — per portion."
+      "description": "Grönsaksillbehör eller potatis- och gurksallad — per portion."
     },
     "power-bowl": {
-      "description": "Doftande ris, avokado, edamame, kikärtor, morötter, tomat, gurka, jordnötter, apelsin-mynta-lime-dressing."
+      "description": "Aromris, avokado, edamame, kikärtor, morötter, tomat, gurka, jordnötter, apelsin- mynta- lime-dressing."
     },
     "kaesespaetzle": {
       "description": "Käsespätzle med lökringar.",
-      "pairing": "Münchner Dunkel eller ett fylligt vitt vin"
+      "pairing": "Münchner Dunkel or a full-bodied white wine"
     },
     "linguine-truffles": {
       "description": "Pasta med babyspenat och vintertryffel."
     },
     "rahmschwammerl": {
-      "description": "Krämiga svampar serverade med pretzelknödel."
+      "description": "Krämiga svampar serverade med pretzeldumplings."
     },
     "creme-brulee": {
       "description": "Serveras med sorbet och bär.",
-      "pairing": "Rieslaner Auslese dessertvin"
+      "pairing": "Rieslaner Auslese dessert wine"
     },
     "kaiserschmarrn": {
-      "description": "Russin, smör, socker och karamelliserade mandlar, serveras med äppelsås — perfekt att dela.",
-      "pairing": "Rieslaner Auslese dessertvin"
+      "description": "Kaiserschmarrn med russin, smör, socker och karamelliserade mandlar, serveras med äppelmos — perfekt att dela.",
+      "pairing": "Rieslaner Auslese dessert wine"
     },
     "kirschmichl": {
       "description": "Varm körtskaka serverad med vaniljsås."
     },
     "apple-strudel": {
-      "description": "Klassisk apfelstrudel serverad med vaniljsås.",
+      "description": "Klassisk äppelpaj serverad med vaniljsås.",
       "pairing": "Milchkaffee"
     },
     "muenchner-hell": {
-      "description": "Bottenjäst, diskret besk humleton, lätt maltig. 5,0% vol."
+      "description": "Undergärd, lätt bitter humleton, lätt maltig. 5,0% vol."
     },
     "beer-light-alcohol-free": {
-      "description": "Naturligt grumlig, toner av karamell och honung. <0,5% vol."
+      "description": "Naturligt grumlig, karamell- och honungsnoter. <0,5% vol."
     },
     "muenchner-radler": {
-      "description": "Münchner Helles med fin lemonad, inte för söt."
+      "description": "Munich Helles med fin lemonad, inte för söt."
     },
     "muenchner-dunkel": {
-      "description": "Diskret beska, rostade malttoner med karamell- och kandade fruktnoter. 5,0% vol."
+      "description": "Lätt bitter, rostat malt med karamell- och kandade fruktnoter. 5,0% vol."
     },
     "hefeweizen": {
-      "description": "Overjäst veteöl med banan- och honungstoner."
+      "description": "Överjäst veteöl med banan- och honungsnoter."
     },
     "russn": {
       "description": "Hefeweizen med fin lemonad, inte för söt."
@@ -214,19 +247,19 @@
       "description": "Hefeweizen med Coca-Cola."
     },
     "non-alcoholic-wheat": {
-      "description": "Mildt avalkoholiserad efter full lagring, behåller sin arom."
+      "description": "Mildt avalkoholiserad efter full mognad, behåller sin arom."
     },
     "salvator": {
-      "description": "Starköl (Starkbier), säsongsöl — finns februari/mars. 0,5l."
+      "description": "Starkt öl (Starkbier), säsongsöl — tillgänglig februari/mars. 0,5l."
     },
     "kellerbier": {
-      "description": "Säsongsöl — finns juni/juli/augusti (sommartid). 0,5l."
+      "description": "Säsongsöl — tillgänglig juni/juli/augusti (sommartid). 0,5l."
     },
     "wiesnbier": {
-      "description": "Oktoberfestöl, säsongsöl — finns september/oktober. 0,5l."
+      "description": "Oktoberfestöl, säsongsöl — tillgänglig september/oktober. 0,5l."
     },
     "weissweinschorle": {
-      "description": "Vitt vin-spritzer. 0,3l."
+      "description": "Vitt vin med mineralvatten. 0,3l."
     },
     "pinot-gris-glass": {
       "description": "Hirschmüller, Württemberg — lätt och lättdrucken."
@@ -238,123 +271,135 @@
       "description": "Motelvini, Veneto, Italien. 0,1l."
     },
     "paul-michel-champagne": {
-      "description": "Champagne Premier Cru, Champagne, Frankrike. 0.75l flaska."
+      "description": "Champagne Premier Cru, Champagne, Frankrike. 0,75l flaska."
     },
     "taittinger-rose": {
-      "description": "Champagne Taittinger, Frankrike. 0.75l flaska."
+      "description": "Champagne Taittinger, Frankrike. 0,75l flaska."
     },
     "valdo-prosecco": {
-      "description": "Valdo, Veneto — klassisk italiensk prosecco. 0.75l flaska."
+      "description": "Valdo, Veneto — klassisk italiensk mousserande. 0,75l flaska."
     },
     "winzersekt": {
-      "description": "Pfaffmann, Pfalz, Tyskland. 0.75l flaska."
+      "description": "Pfaffmann, Pfalz, Tyskland. 0,75l flaska."
     },
     "chardonnay-bottle": {
-      "description": "Hirschmüller, Württemberg — passionsfrukt, mango, ananas. 0.75l flaska."
+      "description": "Hirschmüller, Württemberg — passionsfrukt, mango, ananas. 0,75l flaska."
+    },
+    "chardonnay-glass": {
+      "description": "Hirschmüller, Württemberg. 0,1l."
     },
     "chardonnay-macon-ige": {
-      "description": "Domaine Fichet, Bourgogne — äpple, päron, vit persika, subtil mineralitet. 0.75l flaska."
+      "description": "Domaine Fichet, Bourgogne — äpple, päron, vit persika, subtil mineralitet. 0,75l flaska."
     },
     "pinot-gris-tradition": {
-      "description": "Bott Frères, Bourgogne — aprikos, äpple, hasselnöt, lätt rök. 0.75l flaska."
+      "description": "Bott Frères, Bourgogne — aprikos, äpple, hasselnöt, lätt rökighet. 0,75l flaska."
     },
     "pinot-gris-oetinger": {
-      "description": "Oetinger, Rheingau — mogen päron, gul äpple, ton av mandel. 0.75l flaska."
+      "description": "Oetinger, Rheingau — mogen päron, gul äpple, hint av mandel. 0,75l flaska."
     },
     "pinot-gris-reserve-pauline": {
-      "description": "Pfaffmann, Pfalz — päron, ananas, nektarin, citrongräs, blommig. 0.75l flaska."
+      "description": "Pfaffmann, Pfalz — päron, ananas, nektarin, citrongräs, blommig. 0,75l flaska."
     },
     "pinot-blanc-grand-reserve": {
-      "description": "Taubenschuss, österrikiska Weinviertel — melon, hasselnöt, hö, karamell. 0.75l flaska."
+      "description": "Taubenschuss, Österrike — melon, hasselnöt, hö, karamell. 0,75l flaska."
     },
     "trebbiano-di-lugana": {
-      "description": "Zenato, Veneto, Italien — frisk syra, mineralitet, citrus, grönt äpple, päron. 0.75l flaska."
+      "description": "Zenato, Veneto, Italien — frisk syra, mineral, citrus, grönt äpple, päron. 0,75l flaska."
+    },
+    "lugana-glass": {
+      "description": "Zenato, Veneto, Italien. 0,1l."
     },
     "riesling-easy-white": {
-      "description": "Oetinger, Rheingau — lime, äpple, vit persika, idealisk som aperitif. 0.75l flaska.",
+      "description": "Oetinger, Rheingau — lime, äpple, vit persika, idealisk som aperitif. 0,75l flaska.",
       "pairing": "Wiener Schnitzel"
     },
     "riesling-gottloos": {
-      "description": "Dr. Loosen, Mosel — citrus, äpple, elegant mineralitet. 0.75l flaska."
+      "description": "Dr. Loosen, Mosel — citrus, äpple, elegant mineralitet. 0,75l flaska."
     },
     "riesling-heiligenstein": {
-      "description": "Bründlmayer, Langenlois, Kamptal, Österrike — frisk citrus, äpple, örtig krydda. 0.75l flaska."
+      "description": "Bründlmayer, Langenlois, Kamptal, Österrike — frisk citrus, äpple, örtig krydda. 0,75l flaska."
     },
     "riesling-smoky-dry": {
-      "description": "Weingut Oetinger, Rheingau — rökig mineralitet, saftigt äpple, citrus. 0.75l flaska."
+      "description": "Weingut Oetinger, Rheingau — rökig mineralitet, saftigt äpple, citrus. 0,75l flaska."
     },
     "riesling-bright-side-of-life": {
-      "description": "Stahl, Franken — fruktig, frisk, okomplicerad. 0.75l flaska."
+      "description": "Stahl, Franken — fruktig, frisk, okomplicerad. 0,75l flaska."
+    },
+    "riesling-nachschlag-glass": {
+      "description": "Stahl, Franken. 0,1l."
     },
     "sauvignon-blanc": {
-      "description": "Chateau de la Chaise, Loire — krusbär, grönt äpple, exotisk frukt. 0.75l flaska."
+      "description": "Chateau de la Chaise, Loire — krusbär, grönt äpple, exotisk frukt. 0,75l flaska."
     },
     "sauvignon-blanc-reserve": {
-      "description": "Taubenschuss, Weinviertel — lime, krusbär, exotisk frukt. 0.75l flaska."
+      "description": "Taubenschuss, Österrike — lime, krusbär, exotisk frukt. 0,75l flaska."
     },
     "silvaner-easy-white": {
-      "description": "Weingut am Stein, Franken — grönt äpple, päron, subtila örter. 0.75l flaska."
+      "description": "Weingut am Stein, Franken — grönt äpple, päron, subtila örter. 0,75l flaska."
     },
     "gruener-veltliner-tenn": {
-      "description": "Taubenschuss, Weinviertel — äpple, vitpeppar, örtig krydda. 0.75l flaska."
+      "description": "Taubenschuss, Österrike — äpple, vitpeppar, örtiga kryddor. 0,75l flaska."
     },
     "riesling-gottloos-3l": {
-      "description": "Dr. Loosen, Mosel. 3.0l flaska."
+      "description": "Dr. Loosen, Mosel. 3,0l flaska."
     },
     "gruener-veltliner-steinberg": {
-      "description": "Karl Fritsch, Burgenland, Österrike. 1.5l flaska."
+      "description": "Karl Fritsch, Burgenland, Österrike. 1,5l flaska."
     },
     "chardonnay-morillon": {
-      "description": "Lackner-Tinnacher, Südsteiermark, Österrike. 1.5l flaska."
+      "description": "Lackner-Tinnacher, Südsteiermark, Österrike. 1,5l flaska."
     },
     "cuvee-adrian-sangiovese": {
-      "description": "Röd cuvée, Toscana Rosso, Toscana. 1.5l flaska."
+      "description": "Röd cuvée, Toscana Rosso, Toscana. 1,5l flaska."
     },
     "primitivo-bottle": {
-      "description": "Barbanera, Apulien, Italien — mörka bär, körsbär, subtil krydda. 0.75l flaska."
+      "description": "Barbanera, Apulien, Italien — mörka bär, körsbär, subtil krydda. 0,75l flaska."
     },
     "herrgott-cuvee": {
-      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz — körsbär, röda bär. 0.75l flaska."
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz — körsbär, röda bär. 0,75l flaska."
+    },
+    "herrgott-cuvee-glass": {
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz. 0,1l."
     },
     "tuscany-red-cuvee": {
-      "description": "Duca di Salangane, Toscana — körsbär, mörka bär. 0.75l flaska."
+      "description": "Duca di Salangane, Toscana — körsbär, mörka bär. 0,75l flaska."
     },
     "pinot-noir-goldberg": {
-      "description": "Toni Hartl, Burgenland — röda bär, körsbär, subtil krydda. 0.75l flaska."
+      "description": "Toni Hartl, Burgenland — röda bär, körsbär, subtil krydda. 0,75l flaska."
     },
     "merlot": {
-      "description": "Chateau Gensac, Gascogne — mörka körsbär, plommon, krydda. 0.75l flaska."
+      "description": "Chateau Gensac, Gascogne — mörka körsbär, plommon, krydda. 0,75l flaska."
     },
     "brunello-di-montalcino": {
-      "description": "Tenuta Corte Pavone, Sangiovese, Toscana — mörka bär, körsbär, choklad. 0.75l flaska."
+      "description": "Tenuta Corte Pavone, Sangiovese, Toscana — mörka bär, körsbär, choklad. 0,75l flaska."
     },
     "black-ox-cuvee": {
-      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Pfalz — mörka bär, körsbär, krydda. 0.75l flaska."
+      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Pfalz — mörka bär, körsbär, krydda. 0,75l flaska."
     },
     "rose-lime-stone": {
-      "description": "Unger, Neusiedler See — röda bär, jordgubbe, hallon, citrus. 0.75l flaska."
+      "description": "Unger, Neusiedlersee — röda bär, jordgubbe, hallon, citrus. 0,75l flaska."
     },
     "torres-natureo": {
-      "description": "Miguel Torres, Vilafranca del Penedès — citrus, äpple, lätt. 0.75l flaska."
+      "description": "Miguel Torres, Vilafranca del Penedès — citrus, äpple, lätt. 0,75l flaska."
     },
     "rieslaner-auslese": {
-      "description": "Juliusspital, Franken — dessertvin. 0.5l flaska.",
-      "pairing": "Kaiserschmarrn eller Crème brûlée"
+      "description": "Juliusspital, Franken — dessertvin. 0,5l flaska.",
+      "pairing": "Kaiserschmarrn or Crème brûlée"
     },
     "aperol-spritz": {
-      "description": "Klassisk italiensk aperitif. 0.2l."
+      "description": "Klassisk italiensk aperitif. 0,2l."
     },
     "hugo": {
-      "description": "Fläder-spritz. 0.2l."
+      "description": "Hugo med fläder. 0,2l."
     },
     "campari-soda": {
-      "description": "0.2l."
+      "description": "0,2l."
     },
     "campari-orange": {
-      "description": "0.2l."
+      "description": "0,2l."
     },
     "sanbitter": {
-      "description": "Alkoholfri bitteraperitif. 0.2l."
+      "description": "Alkoholfri bitteraperitif. 0,2l."
     },
     "nut-in-a-bottle": {
       "description": "2cl."
@@ -363,67 +408,67 @@
       "description": "13cl."
     },
     "hirschkuss": {
-      "description": "38% vol., patentkorkflaska, 4cl."
+      "description": "38% vol., patentkork, 4cl."
     },
     "vodka-redbull": {
-      "description": "0.27l."
+      "description": "0,27l."
     },
     "williams-christ-pear": {
       "description": "40% vol. Edelbrand, Sigi Herzog. 2cl."
     },
     "farm-fruit-growers": {
-      "description": "Linster finfrukt-destilleri, lagrad 1 år på ekfat. 2cl."
+      "description": "Linster fruktdestilleri, lagrad 1 år på ekfat. 2cl."
     },
     "feiner-mirabell": {
-      "description": "Linster finfrukt-destilleri, mogen aprikos-smak. 2cl."
+      "description": "Linster, mogen aprikosdoft. 2cl."
     },
     "enzian-gentian-brandy": {
-      "description": "Wilhelm Marx Fine Spirits Manufactory. 2cl."
+      "description": "Wilhelm Marx Fine Spirits. 2cl."
     },
     "raspberry-pulp-brandy": {
-      "description": "40% vol. Edelmanufaktur Wilhelm Marx. 2cl."
+      "description": "40% vol. Wilhelm Marx Edelmanufaktur. 2cl."
     },
     "grappa-chardonnay": {
-      "description": "Grandfather. 2cl."
+      "description": "Farfar. 2cl."
     },
     "paulaner-spezi": {
-      "description": "0.4l."
+      "description": "0,4l."
     },
     "coca-cola": {
-      "description": "0.4l."
+      "description": "0,4l."
     },
     "coca-cola-zero": {
-      "description": "0.4l."
+      "description": "0,4l."
     },
     "paulaner-lemonade": {
-      "description": "0.33l."
+      "description": "0,33l."
     },
     "paulaner-orange-lemonade": {
-      "description": "0.33l."
+      "description": "0,33l."
     },
     "tonic": {
-      "description": "0.2l."
+      "description": "0,2l."
     },
     "red-bull": {
-      "description": "0.25l."
+      "description": "0,25l."
     },
     "bad-brambacher": {
-      "description": "Stilla eller lätt kolsyrat. 0.5l."
+      "description": "Stilla eller medium. 0,5l."
     },
     "table-water": {
       "description": "Stilla eller kolsyrat."
     },
     "apple-spritzer": {
-      "description": "0.4l."
+      "description": "0,4l."
     },
     "johannisbeerschorle": {
-      "description": "Svartvinbärsspritzer. 0.4l."
+      "description": "Svartvinbärsspritzer. 0,4l."
     },
     "maracujaschorle": {
-      "description": "Passionsfrukt-spritzer. 0.4l."
+      "description": "Passionsfruktsspritzer. 0,4l."
     },
     "wolfra-orange-juice": {
-      "description": "0.2l."
+      "description": "0,2l."
     },
     "espresso": {
       "description": ""
@@ -459,7 +504,7 @@
       "description": "Käsespätzle, barnportion."
     },
     "kids-rostbratwuerstl": {
-      "description": "Med pommes eller potatis- och gurksallad."
+      "description": "Med pommes eller potatis- gurksallad."
     },
     "kids-fries": {
       "description": ""

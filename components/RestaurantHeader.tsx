@@ -14,6 +14,14 @@ export function RestaurantHeader() {
           priority
         />
         <p className="truncate text-xs text-muted">{restaurant.subtitle}</p>
+        <a
+          href="https://nocodly.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="ms-auto shrink-0 text-[11px] text-muted hover:text-ink hover:underline"
+        >
+          Created by nocodly.com
+        </a>
       </div>
     </header>
   );

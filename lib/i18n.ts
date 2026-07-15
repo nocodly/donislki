@@ -11,6 +11,8 @@ export type Strings = {
   /** Contains the literal token `{dish}`, replaced client-side with the dish name. */
   askAboutDishTemplate: string;
   pairing: string;
+  /** Prefix shown before the lowest price of a multi-size item, e.g. "from 6.50 €". */
+  fromPricePrefix: string;
   allergensLabel: string;
   allergensUnknown: string;
   composerPlaceholder: string;
@@ -39,6 +41,7 @@ export const BASE_STRINGS: Strings = {
   askAboutThis: 'Ask AI about this',
   askAboutDishTemplate: 'Tell me about {dish}',
   pairing: 'Best with',
+  fromPricePrefix: 'from ',
   allergensLabel: 'Allergens',
   allergensUnknown: 'Please confirm with staff',
   composerPlaceholder: 'Ask about the menu…',
@@ -54,6 +57,7 @@ export const BASE_STRINGS: Strings = {
     'Something traditional',
   ],
   categories: {
+    weekly: 'Weekly specials',
     traditional: 'Traditional',
     sausages: 'Sausages',
     starters: 'Starters',
@@ -90,6 +94,7 @@ export const BASE_STRINGS: Strings = {
     'dessert-wine': 'dessert wine',
     'by-glass': 'by the glass',
     bottle: 'bottle',
+    'lunch-special': 'lunch special',
   },
 };
 

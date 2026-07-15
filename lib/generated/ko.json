@@ -1,24 +1,26 @@
 {
   "strings": {
-    "welcome": "아래 메뉴를 둘러보거나 AI 도우미에게 추천을 물어보세요.",
+    "welcome": "아래 메뉴를 둘러보시거나 AI 도우미에게 추천을 요청하세요.",
     "categoriesTitle": "메뉴",
     "featuredTitle": "추천",
-    "askAi": "AI에게 물어보기",
+    "askAi": "AI에게 묻기",
     "chatTitle": "DonislKI",
     "discussing": "대화 중",
-    "askAboutThis": "이 항목에 대해 AI에게 물어보기",
+    "askAboutThis": "이 항목에 대해 AI에게 묻기",
     "askAboutDishTemplate": "{dish}에 대해 알려줘",
     "pairing": "어울리는 음료",
-    "allergensLabel": "알레르기 유발 성분",
-    "allergensUnknown": "직원에게 확인해주세요",
+    "fromPricePrefix": "부터 ",
+    "allergensLabel": "알레르기 성분",
+    "allergensUnknown": "직원에게 확인해 주세요",
     "composerPlaceholder": "메뉴에 대해 물어보세요…",
     "send": "전송",
     "close": "닫기",
     "noInfo": "현재 메뉴에는 해당 정보가 없습니다.",
     "categories": {
+      "weekly": "주간 스페셜",
       "traditional": "전통 요리",
       "sausages": "소시지류",
-      "starters": "전채/전식",
+      "starters": "전채",
       "vegan": "비건",
       "desserts": "디저트",
       "beer": "맥주",
@@ -29,15 +31,15 @@
       "kids": "어린이 메뉴"
     },
     "tagLabels": {
-      "sharing": "공유용",
+      "sharing": "여럿이 나눔",
       "signature": "시그니처",
       "hearty": "든든한",
       "classic": "클래식",
       "light": "가벼운",
-      "seasonal": "시즌 한정",
+      "seasonal": "제철",
       "strong": "도수 높음",
       "non-alcoholic": "무알코올",
-      "vegetarian": "채식(락토·오보)",
+      "vegetarian": "채식",
       "vegan": "비건",
       "spirit": "증류주",
       "water": "생수",
@@ -51,170 +53,201 @@
       "sparkling": "스파클링",
       "dessert-wine": "디저트 와인",
       "by-glass": "글라스",
-      "bottle": "병"
+      "bottle": "병",
+      "lunch-special": "런치 스페셜"
     },
     "quickSuggestions": [
-      "추천 메뉴 알려줘",
-      "어떤 음료가 이 요리와 어울리나?",
+      "추천해 줄래요?",
+      "이 요리와 어울리는 음료는?",
       "비건 옵션 보여줘",
-      "무엇에 알레르기가 있나?",
-      "가벼운 거로",
-      "전통 요리 추천"
+      "알레르기 유발 성분은 무엇인가요?",
+      "가벼운 메뉴로 추천해줘",
+      "전통 음식으로 추천해줘"
     ]
   },
   "items": {
+    "chanterelle-soup": {
+      "description": "리조또식 크리미한 밤버섯 수프에 티롤식 베이컨 만두를 곁들였습니다."
+    },
+    "romaine-chanterelle-salad": {
+      "description": "로메인 심지에 라즈베리 비네그레트, 적양파, 무, 구운 밤버섯을 올렸습니다."
+    },
+    "veal-steak-chanterelle": {
+      "description": "어린 송아지 스테이크에 밤버섯, 완두콩과 크림 매시 포테이토를 곁들였습니다."
+    },
+    "chanterelle-linguine": {
+      "description": "밤버섯, 크림, 타임과 Bergkäse 치즈를 얹은 링귀니."
+    },
+    "chanterelle-cream": {
+      "description": "타임을 넣은 크리미한 밤버섯과 프레첼 만두."
+    },
+    "lunch-monday-asparagus-linguine": {
+      "description": "주중 런치 스페셜(12:00–15:30), 커피 포함. 아스파라거스와 차이브 크림, 로스트 비프와 토마토를 곁들인 링귀니."
+    },
+    "lunch-tuesday-bratengroestl": {
+      "description": "주중 런치 스페셜(12:00–15:30), 커피 포함. 양배추와 감자 만두, 계란 프라이를 얹은 혼합 로스트 요리."
+    },
+    "lunch-wednesday-strindberg-steak": {
+      "description": "주중 런치 스페셜(12:00–15:30), 커피 포함. 그린빈과 포테이토 그라탱을 곁들인 돼지 등심 스테이크."
+    },
+    "lunch-thursday-chicken-geschnetzeltes": {
+      "description": "주중 런치 스페셜(12:00–15:30), 커피 포함. 버섯 소스의 얇게 썬 닭고기와 허브 Spätzle."
+    },
+    "lunch-friday-fish-fillet": {
+      "description": "주중 런치 스페셜(12:00–15:30), 커피 포함. 당일 잡은 생선 튀김에 레몰라드 소스와 감자-오이 샐러드."
+    },
     "donisl-roasting-pan": {
-      "description": "소고기, 오리, 돼지 무릎과 소시지에 적양배추, 감자 덤플링과 치즈 스파츨레를 곁들인 모둠 요리 — 여럿이 나눠 먹기 좋습니다.",
-      "pairing": "Münchner Dunkel"
+      "description": "쇠고기, 오리, 돼지고기 무릎살과 소시지에 적양배추, 감자 만두, Käsespätzle를 곁들인 모둠 구이 — 함께 나눠 먹기 좋습니다.",
+      "pairing": "Münchner Dunkel와 잘 어울립니다."
     },
     "roast-pork": {
-      "description": "바이에른식 돼지 어깨와 삼겹구이, 바삭한 껍질, 천연 그레이비, 감자 덤플링과 코울슬로.",
-      "pairing": "Münchner Dunkel"
+      "description": "바이에른식 돼지고기 어깨와 삼겹살(크래클 포함), 자연 소스, 감자 만두와 코울슬로.",
+      "pairing": "Münchner Dunkel와 잘 어울립니다."
     },
     "schweinshaxe": {
-      "description": "겉이 바삭한 돼지 정강이 구이, 천연 소스, 감자 덤플링과 코울슬로를 곁들였습니다.",
+      "description": "겉은 바삭하게 구운 돼지 무릎살에 자연 소스, 감자 만두와 코울슬로를 곁들였습니다.",
       "pairing": "Dunkel 맥주와 잘 어울립니다."
     },
     "wiener-schnitzel": {
-      "description": "바이에른식 밀짚사료로 키운 돼지고기 빈(슈니첼), 감자튀김 또는 감자-오이 샐러드와 크랜베리 제공.",
-      "pairing": "Riesling Easy-White 또는 라들러"
+      "description": "바이에른 지역 밀 사육 돼지고기 빈정의 슈니첼로, 감자튀김 또는 감자-오이 샐러드와 크랜베리를 곁들입니다.",
+      "pairing": "Riesling Easy-White 또는 Radler와 어울립니다."
     },
     "farm-duck": {
-      "description": "로즈마리 소스, 감자 덤플링과 적양배추 제공.",
-      "pairing": "Münchner Dunkel"
+      "description": "로즈마리 소스, 감자 만두와 적양배추를 곁들였습니다.",
+      "pairing": "Münchner Dunkel와 잘 어울립니다."
     },
     "backhendl": {
-      "description": "뼈 없는 닭다리살에 빵가루 입혀 바삭하게 튀긴 요리, 감자튀김 또는 감자-오이 샐러드와 함께 제공."
+      "description": "뼈 제거한 빵가루 치킨 다리, 감자튀김 또는 감자-오이 샐러드와 함께 제공됩니다."
     },
     "duet-of-the-ox": {
-      "description": "우둔살과 볼살, 레드와인 주스, 어린 시금치, 크리미한 감자."
+      "description": "우둔살과 볼살, 레드와인 주스, 어린 시금치와 크리미 포테이토."
     },
     "veal-steak": {
-      "description": "컬러풀 페퍼콘 크림 소스, 플람된 콜라비, 감자 뢰스티."
+      "description": "컬러풀한 후추 크림 소스, 플람드한 콜라비와 포테이토 뢰스티."
     },
     "veal-meatballs": {
-      "description": "야채 드레싱과 로즈마리 감자."
+      "description": "드레싱한 야채와 로즈마리 포테이토."
     },
     "white-sausage": {
-      "description": "흰 소시지 두 개, 프레첼과 겨자와 함께 제공."
+      "description": "두 개 제공, 프레첼과 겨자를 곁들입니다."
     },
     "white-sausage-piece": {
-      "description": "흰 소시지 한 조각."
+      "description": "화이트 소시지 한 조각."
     },
     "polish-sausage": {
-      "description": "프레첼과 겨자를 곁들인 폴란드식 소시지."
+      "description": "프레첼과 겨자를 곁들여 제공합니다."
     },
     "currywurst": {
-      "description": "커리 소시지, 감자튀김과 함께 제공.",
-      "pairing": "Hefeweizen 밀맥주"
+      "description": "카레 소시지와 감자튀김 제공.",
+      "pairing": "Hefeweizen과 어울립니다."
     },
     "bratwurstreindl": {
-      "description": "구운 소시지 팬, 사우어크라우트 또는 감자샐러드 선택 — 나눠 먹기 좋은 양.",
-      "pairing": "Russn (라이트 Hefeweizen)"
+      "description": "구운 소시지 팬에 제공, 사우어크라우트 또는 감자 샐러드 — 나눠 먹기 좋은 분량.",
+      "pairing": "Russn (라이트 Hefeweizen)와 어울립니다."
     },
     "rump-steak": {
-      "description": "Murnau 소고기, 레드와인·양파 주스, 튀긴 양파, käsespätzle."
+      "description": "Murnau 소고기, 레드와인 어니언 주스, 프라이드 어니언과 Käsespätzle."
     },
     "ribeye-300g": {
-      "description": "Murnau 소고기 지방층이 있는 리베아이, 카페 드 파리 소스, 구운 채소, 감자 그라탱."
+      "description": "Murnau 소고기 립아이(지방캡), Café de Paris 소스, 구운 채소와 포테이토 그라탱."
     },
     "deluxe-burger": {
-      "description": "200g Werdenfelser 소고기, 체다치즈, 양상추, 토마토, 피클, 양파, 수제 Donisl 소스.",
-      "pairing": "Münchner Hell"
+      "description": "200g Werdenfelser 소고기, 체더, 양상추, 토마토, 피클, 양파, 수제 Donisl 소스.",
+      "pairing": "Münchner Hell와 잘 어울립니다."
     },
     "icefish": {
-      "description": "타임, 라따뚜이 야채, 감자 그라탱."
+      "description": "타임, 라타투이 야채와 포테이토 그라탱."
     },
     "brotzeitbrettl": {
-      "description": "농부식 훈제육, 베이컨 소시지, 레버부어스트, 차가운 로스트비프, O'gmachter(전통 반찬), 산치즈, 생와사비, 빵."
+      "description": "농부식 훈연 육류, 베이컨 소시지, 리버부르스트, 차가운 로스트 비프, O'gmachter, 산치즈, 홀스래디시, 빵."
     },
     "donisl-4erlei": {
-      "description": "후무스, 수제 치즈, 소금 버터, 허브 사워크림을 바구니 빵과 함께 제공."
+      "description": "후무스, 수제 치즈, 소금 버터와 허브 사워크림, 빵 바구니와 함께 제공."
     },
     "beef-tartare": {
-      "description": "트러플 크림, 구운 유기농 달걀."
+      "description": "트러플 크림과 구운 유기농 달걀."
     },
     "calfs-head-carpaccio": {
-      "description": "석류, 와사비(무), 오이."
+      "description": "석류, 홀스래디시, 오이."
     },
     "ogmachter-kas": {
-      "description": "어니언 링과 함께한 크리미 치즈, 무, 상추, 베리류."
+      "description": "양파링, 무, 상추와 베리를 곁들인 크리미 치즈."
     },
     "sausage-salad": {
-      "description": "하우스 드레싱, 어니언 링, 피클, 토마토, 베리 (산치즈 스트립 추가 시 +1.90)"
+      "description": "하우스 드레싱, 양파링, 피클, 토마토, 베리 (Käsestreifen 추가 시 +1.90)."
     },
     "donisl-salad": {
       "description": "잎채소, 토마토, 오이, 하우스 드레싱, 씨앗과 크루통."
     },
     "bread-basket": {
-      "description": "갓 구운 빵 바구니."
+      "description": "신선한 빵 바구니."
     },
     "brezn": {
-      "description": "바이에른 프레첼."
+      "description": "바이에른식 프레첼."
     },
     "oxen-consomme": {
-      "description": "맑은 소고기 육수에 간(혹은 팬케이크 스트립) 만두, 야채와 차이브."
+      "description": "간 소시지 또는 팬케이크 스트립, 야채와 차이브를 넣은 맑은 소고기 육수."
     },
     "tomato-soup": {
-      "description": "부드러운 토마토 수프와 부라타-바질 크림."
+      "description": "부드러운 토마토 수프에 부라타-바질 크림을 얹었습니다."
     },
     "classic-sides": {
-      "description": "사우어크라우트, 적양배추, 베이컨 양배추 샐러드, 크리미 감자, 감자 덤플링, 작은 구운 감자, 스파츨레 또는 감자튀김 — 각각 별도 주문."
+      "description": "사우어크라우트, 적양배추, 베이컨 양배추샐러드, 크리미 포테이토, 감자 만두, 구운 작은 감자, Spätzle 또는 감자튀김 — 각각 선택 가능."
     },
     "vegetable-sides": {
-      "description": "야채 반찬 또는 감자-오이 샐러드 — 각각 별도 주문."
+      "description": "야채 사이드 또는 감자-오이 샐러드 — 각각 선택 가능."
     },
     "power-bowl": {
-      "description": "향긋한 밥, 아보카도, 에다마메, 병아리콩, 당근, 토마토, 오이, 땅콩, 오렌지-민트-라임 드레싱."
+      "description": "향긋한 밥, 아보카도, 에다마메, 병아리콩, 당근, 토마토, 오이, 땅콩과 오렌지-민트-라임 드레싱."
     },
     "kaesespaetzle": {
-      "description": "치즈 스파츨레와 어니언 링.",
-      "pairing": "Münchner Dunkel 또는 풀바디 화이트 와인"
+      "description": "양파링을 얹은 치즈 Spätzle.",
+      "pairing": "Münchner Dunkel 또는 풀바디 화이트 와인과 잘 어울립니다."
     },
     "linguine-truffles": {
       "description": "어린 시금치와 겨울 트러플을 곁들인 파스타."
     },
     "rahmschwammerl": {
-      "description": "크리미한 버섯 요리, 프레첼 덤플링과 함께 제공."
+      "description": "프레첼 만두와 함께 제공되는 크리미한 버섯 요리."
     },
     "creme-brulee": {
-      "description": "소르베와 베리를 곁들여 제공.",
-      "pairing": "Rieslaner Auslese 디저트 와인"
+      "description": "소르베와 베리를 곁들여 제공합니다.",
+      "pairing": "Rieslaner Auslese 디저트 와인과 어울립니다."
     },
     "kaiserschmarrn": {
-      "description": "건포도, 버터, 설탕, 캐러멜라이즈드 아몬드를 곁들인 Kaiserschmarrn, 사과소스와 함께 제공 — 나눠 먹기 좋습니다.",
-      "pairing": "Rieslaner Auslese 디저트 와인"
+      "description": "건포도, 버터, 설탕과 캐러멜 아몬드를 올린 Kaiserschmarrn, 사과소스와 함께 제공 — 나눠 먹기 좋습니다.",
+      "pairing": "Rieslaner Auslese 디저트 와인과 어울립니다."
     },
     "kirschmichl": {
-      "description": "따뜻한 체리 케이크와 커스터드 크림."
+      "description": "따뜻한 체리 케이크에 커스터드를 곁들여 제공합니다."
     },
     "apple-strudel": {
-      "description": "클래식 애플 스트루델, 커스터드와 함께 제공.",
-      "pairing": "Milchkaffee"
+      "description": "클래식 애플 스트루델을 커스터드와 함께 제공합니다.",
+      "pairing": "Milchkaffee와 잘 어울립니다."
     },
     "muenchner-hell": {
-      "description": "하단 발효, 은은한 쓴맛 홉 향과 약간의 몰티함. 도수 5.0%."
+      "description": "저온 발효, 은은한 쌉쌀한 홉 향과 약간의 몰트감. 5.0% vol."
     },
     "beer-light-alcohol-free": {
-      "description": "자연스럽게 탁한 외관, 캐러멜과 꿀 향. 도수 <0.5%."
+      "description": "자연스럽게 탁한 바디, 캐러멜과 꿀 노트. <0.5% vol."
     },
     "muenchner-radler": {
-      "description": "미묘한 레모네이드를 더한 Munich Helles, 과하지 않게 달콤합니다."
+      "description": "Munich Helles와 라이트 레모네이드의 조합, 과하지 않게 달콤합니다."
     },
     "muenchner-dunkel": {
-      "description": "섬세한 쓴맛과 로스트 몰트, 캐러멜과 캔디드 프루트 향. 도수 5.0%."
+      "description": "은은한 쌉쌀함과 로스티드 몰트, 캐러멜과 캔디드 프루트의 향. 5.0% vol."
     },
     "hefeweizen": {
-      "description": "상면 발효 밀맥주, 바나나와 꿀 향이 특징."
+      "description": "상면 발효 밀맥주로 바나나와 꿀 노트가 특징입니다."
     },
     "russn": {
-      "description": "부드러운 레모네이드를 곁들인 Hefeweizen, 과하지 않음."
+      "description": "섬세한 레모네이드를 더한 Hefeweizen, 과하지 않게 달콤합니다."
     },
     "cola-wheat": {
-      "description": "Hefeweizen과 코카콜라의 조합."
+      "description": "Hefeweizen에 Coca-Cola를 섞은 음료."
     },
     "non-alcoholic-wheat": {
-      "description": "충분히 숙성 후 알코올을 제거, 향을 잘 유지합니다."
+      "description": "완전 숙성 후 가벼운 탈알코올 처리로 아로마를 유지한 무알코올 밀맥주."
     },
     "salvator": {
       "description": "강한 맥주(Starkbier), 시즌 한정 — 2월/3월 제공. 0.5l."
@@ -223,16 +256,16 @@
       "description": "시즌 한정 — 6/7/8월(여름철) 제공. 0.5l."
     },
     "wiesnbier": {
-      "description": "옥토버페스트 비어, 시즌 한정 — 9/10월 제공. 0.5l."
+      "description": "오ktoberfest 전용 맥주, 시즌 한정 — 9/10월 제공. 0.5l."
     },
     "weissweinschorle": {
       "description": "화이트 와인 스프리처. 0.3l."
     },
     "pinot-gris-glass": {
-      "description": "Hirschmüller 와이너리, Württemberg — 가벼운 마시기 좋은 스타일."
+      "description": "Hirschmüller 와이너리, Württemberg — 가볍고 마시기 쉬움."
     },
     "primitivo-glass": {
-      "description": "Sir of the Faun, Puglia — 다크 베리, 체리, 은은한 향신료."
+      "description": "Sir of the Faun, Puglia — 다크 베리와 체리, 은은한 향신료."
     },
     "prodry-frizzante": {
       "description": "Motelvini, Veneto, Italy. 0.1l."
@@ -241,108 +274,120 @@
       "description": "Champagne Premier Cru, Champagne, France. 0.75l 병."
     },
     "taittinger-rose": {
-      "description": "Taittinger 로제 샴페인, 프랑스. 0.75l 병."
+      "description": "Champagne Taittinger, France. 0.75l 병."
     },
     "valdo-prosecco": {
-      "description": "Valdo, Veneto — 클래식 이탈리아 스파클링. 0.75l 병."
+      "description": "Valdo, Veneto — 클래식 이탈리안 스파클링. 0.75l 병."
     },
     "winzersekt": {
-      "description": "Pfaffmann 와이너리, 팔라티네이트, 독일. 0.75l 병."
+      "description": "Pfaffmann 와이너리, Palatinate, Germany. 0.75l 병."
     },
     "chardonnay-bottle": {
-      "description": "Hirschmüller 와이너리, Württemberg — 패션프루트, 망고, 파인애플 풍미. 0.75l 병."
+      "description": "Hirschmüller 와이너리, Württemberg — 패션프루트, 망고, 파인애플 향. 0.75l 병."
+    },
+    "chardonnay-glass": {
+      "description": "Hirschmüller 와이너리, Württemberg. 0.1l."
     },
     "chardonnay-macon-ige": {
-      "description": "Domaine Fichet, Burgundy — 사과, 배, 흰 복숭아, 은은한 미네랄감. 0.75l 병."
+      "description": "Domaine Fichet, Burgundy — 사과, 배, 화이트 피치와 은은한 미네랄감. 0.75l 병."
     },
     "pinot-gris-tradition": {
-      "description": "Bott Frères, Burgundy — 살구, 사과, 헤이즐넛, 은은한 스모크. 0.75l 병."
+      "description": "Bott Frères 와이너리, Burgundy — 살구, 사과, 헤이즐넛과 은은한 스모크. 0.75l 병."
     },
     "pinot-gris-oetinger": {
-      "description": "Oetinger, Rheingau — 잘 익은 배, 노란 사과, 아몬드 힌트. 0.75l 병."
+      "description": "Oetinger 와이너리, Rheingau — 잘 익은 배, 노란 사과와 아몬드 향 힌트. 0.75l 병."
     },
     "pinot-gris-reserve-pauline": {
-      "description": "Pfaffmann, Palatinate — 배, 파인애플, 넥타린, 레몬그라스, 플로럴. 0.75l 병."
+      "description": "Pfaffmann 와이너리, Palatinate — 배, 파인애플, 넥타린, 레몬그라스와 플로럴 노트. 0.75l 병."
     },
     "pinot-blanc-grand-reserve": {
-      "description": "Taubenschuss, 오스트리아 Weinviertel — 멜론, 헤이즐넛, 건초, 캐러멜. 0.75l 병."
+      "description": "Taubenschuss 와이너리, 오스트리아 Weinviertel — 멜론, 헤이즐넛, 건초, 캐러멜. 0.75l 병."
     },
     "trebbiano-di-lugana": {
-      "description": "Zenato, Veneto, Italy — 신선한 산미, 미네랄, 시트러스, 그린애플, 배. 0.75l 병."
+      "description": "Zenato 와이너리, Veneto, Italy — 산뜻한 산미, 미네랄, 시트러스, 풋사과와 배. 0.75l 병."
+    },
+    "lugana-glass": {
+      "description": "Zenato 와이너리, Veneto, Italy. 0.1l."
     },
     "riesling-easy-white": {
-      "description": "Oetinger, Rheingau — 라임, 사과, 흰 복숭아, 전채로 이상적. 0.75l 병.",
-      "pairing": "Wiener Schnitzel"
+      "description": "Oetinger 와이너리, Rheingau — 라임, 사과, 화이트 피치, 훌륭한 아페리티프.",
+      "pairing": "Wiener Schnitzel과 잘 어울립니다."
     },
     "riesling-gottloos": {
-      "description": "Dr. Loosen, Mosel — 시트러스, 사과, 우아한 미네랄감. 0.75l 병."
+      "description": "Dr. Loosen 와이너리, Mosel — 시트러스, 사과와 우아한 미네랄감. 0.75l 병."
     },
     "riesling-heiligenstein": {
-      "description": "Bründlmayer, Langenlois, Kamptal, Austria — 상큼한 시트러스, 사과, 허브 향신료. 0.75l 병."
+      "description": "Bründlmayer 와이너리, Langenlois, Kamptal, Austria — 상큼한 시트러스, 사과와 허브 스파이스. 0.75l 병."
     },
     "riesling-smoky-dry": {
-      "description": "Weingut Oetinger, Rheingau — 스모키한 미네랄감, 즙 있는 사과와 시트러스. 0.75l 병."
+      "description": "Weingut Oetinger, Rheingau — 스모키한 미네랄감과 과즙한 사과, 시트러스. 0.75l 병."
     },
     "riesling-bright-side-of-life": {
-      "description": "Stahl, Franconia — 과즙감 있고 신선하며 부담 없는 스타일. 0.75l 병."
+      "description": "Stahl 와이너리, 프랑코니아 — 과일향 가득, 상쾌하고 부담 없는 스타일. 0.75l 병."
+    },
+    "riesling-nachschlag-glass": {
+      "description": "Stahl 와이너리, 프랑코니아. 0.1l."
     },
     "sauvignon-blanc": {
-      "description": "Chateau de la Chaise, Loire — 구스베리, 그린애플, 이국적 과일. 0.75l 병."
+      "description": "Chateau de la Chaise, Loire — 구스베리, 풋사과, 이국적 과일 향. 0.75l 병."
     },
     "sauvignon-blanc-reserve": {
-      "description": "Taubenschuss, Weinviertel — 라임, 구스베리, 이국적 과일. 0.75l 병."
+      "description": "Taubenschuss 와이너리, 오스트리아 Weinviertel — 라임, 구스베리, 이국적 과일. 0.75l 병."
     },
     "silvaner-easy-white": {
-      "description": "Weingut am Stein, Franconia — 그린애플, 배, 은은한 허브. 0.75l 병."
+      "description": "Weingut am Stein, 프랑코니아 — 풋사과, 배와 은은한 허브감. 0.75l 병."
     },
     "gruener-veltliner-tenn": {
-      "description": "Taubenschuss, Weinviertel — 사과, 화이트페퍼, 허브 향신료. 0.75l 병."
+      "description": "Taubenschuss 와이너리, 오스트리아 Weinviertel — 사과, 화이트 페퍼와 허브 스파이스. 0.75l 병."
     },
     "riesling-gottloos-3l": {
-      "description": "Dr. Loosen, Mosel. 3.0l 병."
+      "description": "Dr. Loosen 와이너리, Mosel. 3.0l 병."
     },
     "gruener-veltliner-steinberg": {
-      "description": "Karl Fritsch, Burgenland, Austria. 1.5l 병."
+      "description": "Karl Fritsch 와이너리, Burgenland, Austria. 1.5l 병."
     },
     "chardonnay-morillon": {
-      "description": "Lackner-Tinnacher, Southern Styria, Austria. 1.5l 병."
+      "description": "Lackner-Tinnacher 와이너리, Southern Styria, Austria. 1.5l 병."
     },
     "cuvee-adrian-sangiovese": {
-      "description": "레드 큐베, Toscana Rosso, Tuscany. 1.5l 병."
+      "description": "레드 쿠베, Toscana Rosso, Tuscany. 1.5l 병."
     },
     "primitivo-bottle": {
-      "description": "Barbanera, Apulia, Italy — 다크 베리, 체리, 은은한 향신료. 0.75l 병."
+      "description": "Barbanera 와이너리, Apulia, Italy — 다크 베리, 체리, 은은한 향신료. 0.75l 병."
     },
     "herrgott-cuvee": {
-      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Palatinate — 체리, 레드 베리. 0.75l 병."
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Palatinate — 체리와 레드 베리. 0.75l 병."
+    },
+    "herrgott-cuvee-glass": {
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Palatinate. 0.1l."
     },
     "tuscany-red-cuvee": {
-      "description": "Duca di Salangane, Toscana — 체리, 다크 베리. 0.75l 병."
+      "description": "Duca di Salangane, Toscana — 체리와 다크 베리. 0.75l 병."
     },
     "pinot-noir-goldberg": {
-      "description": "Toni Hartl, Burgenland — 레드 베리, 체리, 은은한 향신료. 0.75l 병."
+      "description": "Toni Hartl 와이너리, Burgenland — 레드 베리, 체리와 은은한 향신료. 0.75l 병."
     },
     "merlot": {
-      "description": "Chateau Gensac, Gascony — 다크 체리, 자두, 향신료. 0.75l 병."
+      "description": "Chateau Gensac, Gascony — 다크 체리, 자두와 향신료. 0.75l 병."
     },
     "brunello-di-montalcino": {
-      "description": "Tenuta Corte Pavone, Sangiovese, Tuscany — 다크 베리, 체리, 초콜릿. 0.75l 병."
+      "description": "Tenuta Corte Pavone 와이너리, Sangiovese, Tuscany — 다크 베리, 체리, 초콜릿. 0.75l 병."
     },
     "black-ox-cuvee": {
-      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Palatinate — 다크 베리, 체리, 향신료. 0.75l 병."
+      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Palatinate — 다크 베리, 체리, 스파이스. 0.75l 병."
     },
     "rose-lime-stone": {
-      "description": "Unger, Neusiedl 호수 지역 — 레드 베리, 딸기, 라즈베리, 시트러스. 0.75l 병."
+      "description": "Unger 와이너리, Neusiedl 호수 — 레드 베리, 딸기, 라즈베리와 시트러스. 0.75l 병."
     },
     "torres-natureo": {
       "description": "Miguel Torres, Vilafranca del Penedès — 시트러스, 사과, 라이트 바디. 0.75l 병."
     },
     "rieslaner-auslese": {
-      "description": "Juliusspital, Franconia — 디저트 와인. 0.5l 병.",
-      "pairing": "Kaiserschmarrn 또는 Crème brûlée"
+      "description": "Juliusspital 와이너리, 프랑코니아 — 디저트 와인. 0.5l 병.",
+      "pairing": "Kaiserschmarrn 또는 Crème brûlée와 잘 어울립니다."
     },
     "aperol-spritz": {
-      "description": "클래식 이탈리아 아페리티프. 0.2l."
+      "description": "클래식 이탈리안 아페리티프. 0.2l."
     },
     "hugo": {
       "description": "엘더플라워 스프리츠. 0.2l."
@@ -363,28 +408,28 @@
       "description": "13cl."
     },
     "hirschkuss": {
-      "description": "도수 38%, 스윙탑 병, 4cl."
+      "description": "38% vol., 스윙탑 병, 4cl."
     },
     "vodka-redbull": {
       "description": "0.27l."
     },
     "williams-christ-pear": {
-      "description": "40% vol. Edelbrand, Sigi Herzog 증류주. 2cl."
+      "description": "40% vol. Edelbrand, Sigi Herzog 증류. 2cl."
     },
     "farm-fruit-growers": {
-      "description": "Linster 과실 증류소, 오크 통 1년 숙성. 2cl."
+      "description": "Linster 고급 과일 증류, 오크통에서 1년 숙성. 2cl."
     },
     "feiner-mirabell": {
-      "description": "Linster 과실 증류소, 잘 익은 살구 향. 2cl."
+      "description": "Linster 고급 과일 증류, 잘 익은 살구 풍미. 2cl."
     },
     "enzian-gentian-brandy": {
-      "description": "Wilhelm Marx 증류 공방 제품. 2cl."
+      "description": "Wilhelm Marx 수제 증류주. 2cl."
     },
     "raspberry-pulp-brandy": {
-      "description": "40% vol. Wilhelm Marx 공방. 2cl."
+      "description": "40% vol. Wilhelm Marx Edelmanufaktur. 2cl."
     },
     "grappa-chardonnay": {
-      "description": "할아버지표 그라파. 2cl."
+      "description": "Grandfather. 2cl."
     },
     "paulaner-spezi": {
       "description": "0.4l."
@@ -408,10 +453,10 @@
       "description": "0.25l."
     },
     "bad-brambacher": {
-      "description": "무탄산 또는 중탄산. 0.5l."
+      "description": "무가스 또는 중탄산. 0.5l."
     },
     "table-water": {
-      "description": "무탄산 또는 탄산."
+      "description": "생수 또는 탄산수."
     },
     "apple-spritzer": {
       "description": "0.4l."
@@ -441,25 +486,25 @@
       "description": ""
     },
     "milchkaffee": {
-      "description": "우유를 넣은 커피."
+      "description": "밀크가 들어간 커피."
     },
     "haferl-kaffee-creme": {
       "description": "Haferl Kaffee Creme."
     },
     "drinking-chocolate": {
-      "description": "우유와 함께 제공."
+      "description": "우유와 함께 제공됩니다."
     },
     "tea-ronnefeldt": {
       "description": "Darjeeling, Mountain Herbs, Sweet Berries, Green Dragon Lung Ching, Refreshing Mint 또는 Fruity Camomile 중 선택."
     },
     "kids-potato-dumplings": {
-      "description": "돼지 로스트 그레이비를 곁들인 감자 덤플링."
+      "description": "포크 로스트 그레이비를 곁들인 감자 만두."
     },
     "kids-kaesspatzn": {
-      "description": "어린이용 치즈 스파츨레."
+      "description": "어린이용 치즈 Spätzle."
     },
     "kids-rostbratwuerstl": {
-      "description": "감자튀김 또는 감자-오이 샐러드와 함께 제공되는 어린이용 소시지."
+      "description": "감자튀김 또는 감자-오이 샐러드와 함께 제공되는 어린이 소시지."
     },
     "kids-fries": {
       "description": ""

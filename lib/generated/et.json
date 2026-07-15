@@ -1,21 +1,23 @@
 {
   "strings": {
-    "welcome": "Sirvige allolevat menüüd või küsige meie tehisintellektilt soovitust.",
+    "welcome": "Sirvige allolevat menüüd või küsige soovitust meie AI-abilt.",
     "categoriesTitle": "Menüü",
     "featuredTitle": "Soovitatud",
-    "askAi": "Küsi AI-lt",
+    "askAi": "Küsige AI-lt",
     "chatTitle": "DonislKI",
     "discussing": "Arutatakse",
-    "askAboutThis": "Küsi AI-lt selle kohta",
-    "askAboutDishTemplate": "Räägi mulle {dish} kohta",
+    "askAboutThis": "Küsige AI-lt selle kohta",
+    "askAboutDishTemplate": "Rääkige mulle {dish} kohta",
     "pairing": "Sobib hästi koos",
+    "fromPricePrefix": "alates ",
     "allergensLabel": "Allergeenid",
-    "allergensUnknown": "Palun kinnitage töötajalt",
-    "composerPlaceholder": "Küsi menüü kohta…",
+    "allergensUnknown": "Küsige palun teenindajalt kinnitust",
+    "composerPlaceholder": "Küsige menüü kohta…",
     "send": "Saada",
     "close": "Sulge",
-    "noInfo": "Mul pole hetkel selle kohta menüüs infot.",
+    "noInfo": "Seda teavet ei ole praeguses menüüs.",
     "categories": {
+      "weekly": "Nädalapakkumised",
       "traditional": "Traditsiooniline",
       "sausages": "Vorstid",
       "starters": "Eelroad",
@@ -25,21 +27,21 @@
       "wine": "Vein",
       "aperitif": "Aperitiiv",
       "spirits": "Kangemad joogid",
-      "drinks": "Alkoholivabad joogid & kohv",
+      "drinks": "Alkohoolsed mittemidagi & kohv",
       "kids": "Lastele"
     },
     "tagLabels": {
       "sharing": "jagamiseks",
-      "signature": "majarestoran",
-      "hearty": "tõhus",
+      "signature": "signatuur",
+      "hearty": "toekas",
       "classic": "klassika",
       "light": "kerge",
       "seasonal": "hooajaline",
-      "strong": "tugev",
+      "strong": "tugeva maitsega",
       "non-alcoholic": "alkoholivaba",
-      "vegetarian": "lõikus",
+      "vegetarian": "vegetaarne",
       "vegan": "vegan",
-      "spirit": "kange jook",
+      "spirit": "kange",
       "water": "vesi",
       "coffee": "kohv",
       "hot-drink": "kuum jook",
@@ -47,165 +49,196 @@
       "bowl": "kauss",
       "white": "valge",
       "red": "punane",
-      "rose": "roosa",
+      "rose": "rosé",
       "sparkling": "vahuvein",
-      "dessert-wine": "magustoiduvein",
+      "dessert-wine": "magustoitvein",
       "by-glass": "klaasiga",
-      "bottle": "pudel"
+      "bottle": "pudel",
+      "lunch-special": "lõunapakkumine"
     },
     "quickSuggestions": [
       "Mida soovitate?",
-      "Milline jook sobib sellele toidule?",
-      "Näita vegan-valikuid",
+      "Milline jook sobib selle roaga?",
+      "Näita vegani valikuid",
       "Mis sisaldab allergeene?",
       "Midagi kerget",
       "Midagi traditsioonilist"
     ]
   },
   "items": {
+    "chanterelle-soup": {
+      "description": "Kõrge koorega kukeseenepüreesupp Tyrooli peekonipalliga."
+    },
+    "romaine-chanterelle-salad": {
+      "description": "Romaine-salatikesed vaarika-vinaigretiga, punane sibul, redis ja röstitud kukeseened."
+    },
+    "veal-steak-chanterelle": {
+      "description": "Vasikalihasteak kukeseenede, herneste ja kooreste kartulitega."
+    },
+    "chanterelle-linguine": {
+      "description": "Linguine kukeseente, koore, tüümiani ja Bergkäse mägijuustuga."
+    },
+    "chanterelle-cream": {
+      "description": "Kerstene kukeseened koores, tüümiani ja pretzeli-nõrutisega."
+    },
+    "lunch-monday-asparagus-linguine": {
+      "description": "Argipäeva lõunapakkumine, serveeritakse 12:00–15:30, kohv kaasas. Linguine spargli, murulaugu-koore, roast-beefi ja tomatiga."
+    },
+    "lunch-tuesday-bratengroestl": {
+      "description": "Argipäeva lõunapakkumine, serveeritakse 12:00–15:30, kohv kaasas. Segaroog valgest kapsast, kartulipalliga ja praemunaga."
+    },
+    "lunch-wednesday-strindberg-steak": {
+      "description": "Argipäeva lõunapakkumine, serveeritakse 12:00–15:30, kohv kaasas. Sealiha välisfileesteak roheliste ubade ja kartuligratiiniga."
+    },
+    "lunch-thursday-chicken-geschnetzeltes": {
+      "description": "Argipäeva lõunapakkumine, serveeritakse 12:00–15:30, kohv kaasas. Kanafilee viilud seenekastmes ürdispätzlega."
+    },
+    "lunch-friday-fish-fillet": {
+      "description": "Argipäeva lõunapakkumine, serveeritakse 12:00–15:30, kohv kaasas. Päeva värske praad remoulade’i ja kartuli-kurgisalatiga."
+    },
     "donisl-roasting-pan": {
-      "description": "Veiseliha, part, seakondikas ja vorstid punase kapsa, kartuli-kobarpallide ja juustuspätzlega — jagamiseks.",
+      "description": "Veis, part, seakannake ja vorstid punase kapsa, kartulipallide ja juustustega Spätzle'ga — jagamiseks.",
       "pairing": "Münchner Dunkel"
     },
     "roast-pork": {
-      "description": "Bayerni sigaõlg ja -ribi krõbeda kooriku, loomuliku kastme, kartulipudru ja kapsasalatiga.",
+      "description": "Bavaria seapraad õliga, loomulik kaste, kartulipallid ja kapsasalat.",
       "pairing": "Münchner Dunkel"
     },
     "schweinshaxe": {
-      "description": "Krõbe röstitud seajalg, serveeritud loomuliku kastme, kartuli-kobarpallide ja kapsasalatiga.",
-      "pairing": "Sobib hästi Dunkel-õllega."
+      "description": "Röstitud krõbedaks küpsetatud seakannake naturaal kastmega, kartulipallide ja kapsasalatiga.",
+      "pairing": "Best with Dunkel beer."
     },
     "wiener-schnitzel": {
-      "description": "Bavaria teraviljasöödatud seavõileib (Wiener Schnitzel) friikartulite või kartuli-kurgisalati ja jõhvikatega.",
-      "pairing": "Riesling Easy-White või Radler"
+      "description": "Bavaria rohumaal kasvanud sealiha schnitzel friikartulite või kartuli-kurgisalati ja pohlamoosiga.",
+      "pairing": "Riesling Easy-White or a Radler"
     },
     "farm-duck": {
-      "description": "Rohmariinikaste, kartuli-kobarpallid ja punane kapsas.",
+      "description": "Rostiroosmariinikaste, kartulipallid ja punane kapsas.",
       "pairing": "Münchner Dunkel"
     },
     "backhendl": {
-      "description": "Luudeta paneeritud kanakints, friikartulite või kartuli-kurgisalati valikuga."
+      "description": "Luuvaba paneeritud kanakoiv friikartulite või kartuli-kurgisalati valikuga."
     },
     "duet-of-the-ox": {
-      "description": "Põrsa ja põsesaiakõrva veiseliha, punaveini jus, väike spinat, koorene kartulipüree."
+      "description": "Oksa õlg ja põsk, punase veini kaste, noor spinat, koorekartulid."
     },
     "veal-steak": {
-      "description": "Värvikas piprakoore-kreemikaste, flambeeritud kaalikas (kohlrabi), kartuli-rösti."
+      "description": "Värviline piprakoorakaste, flambeeritud kaalikas, kartuli rösti."
     },
     "veal-meatballs": {
-      "description": "Köögiviljad, rosmariini-kartulid."
+      "description": "Köpidetud köögiviljad, rosmariinkartulid."
     },
     "white-sausage": {
-      "description": "Kaks tükki, serveeritud peenleiva ja sinepiga."
+      "description": "Kaks tükki, serveeritud pretzeli ja sinepiga."
     },
     "white-sausage-piece": {
       "description": "Üksik valge vorst."
     },
     "polish-sausage": {
-      "description": "Serveeritud peenleiva ja sinepiga."
+      "description": "Serveeritud pretzeli ja sinepiga."
     },
     "currywurst": {
-      "description": "Karrivorst friikartulitega.",
-      "pairing": "Hefeweizen nisuõlu"
+      "description": "Curryvorst friikartulitega.",
+      "pairing": "Hefeweizen wheat beer"
     },
     "bratwurstreindl": {
-      "description": "Vorstide pann röstitud kapsa või kartulisalatiga — jagamiseks.",
-      "pairing": "Russn (kerge Hefeweizen)"
+      "description": "Praetud vorstide pann happekapsa või kartulisalati jaotusega — jagamiseks.",
+      "pairing": "Russn (light Hefeweizen)"
     },
     "rump-steak": {
-      "description": "Murnau veis, punaveini-sibulajus, praetud sibul, käsespätzle."
+      "description": "Murnau veis veini-sibula vaseljookiga, praetud sibul, käseSpätzle."
     },
     "ribeye-300g": {
-      "description": "Murnau veise rasvakiht, Café de Paris kaste, grillitud köögiviljad, kartuli-gratiin."
+      "description": "Murnau veise rasvakork, Café de Paris kaste, grillitud köögiviljad, kartuligratiin."
     },
     "deluxe-burger": {
-      "description": "200g Werdenfelser veis, cheddar, salat, tomat, marineeritud kurk, sibul, omatehtud Donisl-kaste.",
+      "description": "200g Werdenfelser veis, cheddar, salat, tomat, marineeritud kurgid, sibul, kodune Donisl-kaste.",
       "pairing": "Münchner Hell"
     },
     "icefish": {
-      "description": "Aedtüüm, ratatouille-köögiviljad, kartuli-gratiin."
+      "description": "Tüümian, ratatouille-köögiviljad, kartuligratiin."
     },
     "brotzeitbrettl": {
-      "description": "Talupedalt suitsutatud lihad, peekonvorst, maksavorst, külm röstliha, O'gmachter, mägijuust, mädarõigas, leib."
+      "description": "Taluniku suitsuliha, peekonvorst, maksavorst, külm röstveise, O'gmachter, mägijuust, mädarõigas, leib."
     },
     "donisl-4erlei": {
-      "description": "Hummus, majategu juust, soolatud või ja maitseroheline hapukoor, serveeritud leivakorviga."
+      "description": "Hummus, kodujuust, soolatud või ja ürdis mascarpone, serveeritud leivakorviga."
     },
     "beef-tartare": {
-      "description": "Trühvlikreem, ahjus küpsetatud mahemunakollane."
+      "description": "Trühvikreem, küpsetatud mahe muna."
     },
     "calfs-head-carpaccio": {
       "description": "Granaatõun, mädarõigas, kurk."
     },
     "ogmachter-kas": {
-      "description": "Kreemjas juust sibularõngaste, rediste, salati ja marjadega."
+      "description": "Kooreline juust sibularõngaste, rediste, salaadi ja marjadega."
     },
     "sausage-salad": {
-      "description": "Majakaste, sibularõngad, marineeritud kurk, tomat, marjad (+1.90 mägijuusturibadega)."
+      "description": "Kodu kaste, sibularõngad, marineeritud kurgike, tomat, marjad (+1.90 juusturibadega)."
     },
     "donisl-salad": {
-      "description": "Lehtsalat, tomat, kurk, majakaste, seemned ja krutoonid."
+      "description": "Lehtsalat, tomat, kurk, kodune kaste, seemned ja krutoonid."
     },
     "bread-basket": {
       "description": "Värske leivakorv."
     },
     "brezn": {
-      "description": "Bavaria soolapretzel."
+      "description": "Baieri pretzel."
     },
     "oxen-consomme": {
-      "description": "Selge veiselihapuljong maksapallide või pannkoogiribade, köögiviljade ja murulauguga."
+      "description": "Selge veisepuljong maksapallide või pannkoogiribade, köögiviljade ja murulauguga."
     },
     "tomato-soup": {
-      "description": "Siidine tomatisupp burrata-basiilikukreemiga."
+      "description": "Silky tomatisupp burrata-basiiliku koorega."
     },
     "classic-sides": {
-      "description": "Hapukapsas, punane kapsas, peekoni- ja kapsasalat, koorene kartulipüree, kartuli-kobarpallid, väiksed röstitud kartulid, spätzle või friikartulid — igaüks eraldi."
+      "description": "Hapukapsas, punane kapsas, peekoni-kapsasalat, koorekartulid, kartulipallid, väikesed röstitud kartulid, Spätzle või friikartulid — igaüks eraldi."
     },
     "vegetable-sides": {
-      "description": "Köögiviljakaas või kartuli-kurk-salat — igaüks eraldi."
+      "description": "Köögiviljalisand või kartuli- ja kurgisalat — igaüks eraldi."
     },
     "power-bowl": {
       "description": "Aroomikas riis, avokaado, edamame, kikerherned, porgand, tomat, kurk, maapähklid, apelsini-mündi-laimi kaste."
     },
     "kaesespaetzle": {
-      "description": "Juustuspätzle sibularõngastega.",
-      "pairing": "Münchner Dunkel või täidlane valge vein"
+      "description": "Juustu-Spätzle sibularõngastega.",
+      "pairing": "Münchner Dunkel or a full-bodied white wine"
     },
     "linguine-truffles": {
-      "description": "Pasta baby spinati ja talvise trühvliga."
+      "description": "Pasta beebispinatiga ja talvetrühvliga."
     },
     "rahmschwammerl": {
-      "description": "Kreemised seened serveeritud pretzli-kuparditega."
+      "description": "Kooreste seentega, serveeritud pretzeli-nõrutistega."
     },
     "creme-brulee": {
       "description": "Serveeritud sorbeti ja marjadega.",
-      "pairing": "Rieslaner Auslese magustoiduvein"
+      "pairing": "Rieslaner Auslese dessert wine"
     },
     "kaiserschmarrn": {
-      "description": "Rosinatega, või, suhkur ja karamelliseeritud mandlid, serveeritud õunakastmega — ideaalne jagamiseks.",
-      "pairing": "Rieslaner Auslese magustoiduvein"
+      "description": "Rosinate, või, suhkur ja karamelliseeritud mandlid, serveeritud õunakastmega — ideaalne jagamiseks.",
+      "pairing": "Rieslaner Auslese dessert wine"
     },
     "kirschmichl": {
-      "description": "Soe kirsikook vaniljakastmega."
+      "description": "Soe kirsi-kook vanillikastmega."
     },
     "apple-strudel": {
-      "description": "Klassikaline õunastruudel vaniljakastmega.",
+      "description": "Klassikaline õunastruudel vanillikastmega.",
       "pairing": "Milchkaffee"
     },
     "muenchner-hell": {
-      "description": "Altfermenteeritud, peenelt mõru humalanuanss, veidi linnane. 5.0% vol."
+      "description": "Põhjafermenteeritud, õrnalt kibe humalatoon, kergelt linnaseline. 5.0% vol."
     },
     "beer-light-alcohol-free": {
-      "description": "Looduslikult udune, karamelli- ja mesi-noodid. <0.5% vol."
+      "description": "Looduslikult hägune, karamelli- ja mesi noodid. <0.5% vol."
     },
     "muenchner-radler": {
       "description": "Müncheni Helles peene limonaadiga, mitte liiga magus."
     },
     "muenchner-dunkel": {
-      "description": "Peenelt mõru, röstitud linnane karamelli ja kandiseeritud puuvilja nüanssidega. 5.0% vol."
+      "description": "Peenelt kibedam, röstitud linnas ja karamelli-kompoti noodid. 5.0% vol."
     },
     "hefeweizen": {
-      "description": "Ülafermenteeritud nisuõlu banaani- ja mesi-nootidega."
+      "description": "Ülefermenteeritud nisubier banaani- ja mesi-nootidega."
     },
     "russn": {
       "description": "Hefeweizen peene limonaadiga, mitte liiga magus."
@@ -214,7 +247,7 @@
       "description": "Hefeweizen Coca-Colaga."
     },
     "non-alcoholic-wheat": {
-      "description": "Õrnalt dealkoholliseeritud pärast täielikku küpsemist, säilitab aroomi."
+      "description": "Pärast täismaitset dealkoholiseeritud õrnalt, säilitab aroomi."
     },
     "salvator": {
       "description": "Tugev õlu (Starkbier), hooajaline — saadaval veebruar/märts. 0.5l."
@@ -223,16 +256,16 @@
       "description": "Hooajaline — saadaval juuni/juuli/august (suveperiood). 0.5l."
     },
     "wiesnbier": {
-      "description": "Oktoobrifestivali õlu, hooajaline — saadaval september/oktoober. 0.5l."
+      "description": "Oktoberfest-õlu, hooajaline — saadaval september/oktoober. 0.5l."
     },
     "weissweinschorle": {
-      "description": "Valge veiniseltspritser. 0.3l."
+      "description": "Valge veiniga long drink. 0.3l."
     },
     "pinot-gris-glass": {
-      "description": "Hirschmüller veinikoda, Württemberg — kerge, lihtsasti joodav."
+      "description": "Hirschmüller, Württemberg — kerge, jookseks meeldiv."
     },
     "primitivo-glass": {
-      "description": "Sir of the Faun, Puglia — tumedad marjad, kirss, peen vürts."
+      "description": "Sir of the Faun, Puglia — tumedad marjad, kirss, õrn vürtsikus."
     },
     "prodry-frizzante": {
       "description": "Motelvini, Veneto, Itaalia. 0.1l."
@@ -241,111 +274,123 @@
       "description": "Champagne Premier Cru, Champagne, Prantsusmaa. 0.75l pudel."
     },
     "taittinger-rose": {
-      "description": "Champagne Taittinger, Prantsusmaa. 0.75l pudel."
+      "description": "Taittinger šampanja, Prantsusmaa. 0.75l pudel."
     },
     "valdo-prosecco": {
       "description": "Valdo, Veneto — klassikaline Itaalia vahuvein. 0.75l pudel."
     },
     "winzersekt": {
-      "description": "Pfaffmann veinikoda, Pfalz, Saksamaa. 0.75l pudel."
+      "description": "Pfaffmann, Pfalzi veinitööstus, Saksamaa. 0.75l pudel."
     },
     "chardonnay-bottle": {
-      "description": "Hirschmüller veinikoda, Württemberg — passionsfrukt, mango, ananass. 0.75l pudel."
+      "description": "Hirschmüller, Württemberg — passionfruit, mango, ananass. 0.75l pudel."
+    },
+    "chardonnay-glass": {
+      "description": "Hirschmüller, Württemberg. 0.1l."
     },
     "chardonnay-macon-ige": {
-      "description": "Domaine Fichet, Bourgogne — õun, pirn, valge virsik, õrn mineraalsus. 0.75l pudel."
+      "description": "Domaine Fichet, Bourgogne — õun, pirn, valge virsik, peen mineraalsus. 0.75l pudel."
     },
     "pinot-gris-tradition": {
-      "description": "Bott Frères veinikoda, Bourgogne — aprikoos, Viini õun, sarapuupähkel, õrn suitsusus. 0.75l pudel."
+      "description": "Bott Frères, Bourgogne — aprikoos, Viini õun, sarapuupähkel, õrn suitsusus. 0.75l pudel."
     },
     "pinot-gris-oetinger": {
-      "description": "Oetinger veinikoda, Rheingau — küps pirn, kollane õun, mandli viide. 0.75l pudel."
+      "description": "Oetinger, Rheingau — küps pirn, kollane õun, mandlilõhn. 0.75l pudel."
     },
     "pinot-gris-reserve-pauline": {
-      "description": "Pfaffmann veinikoda, Pfalz — pirn, ananass, nektariin, sidrunhein, lilleline. 0.75l pudel."
+      "description": "Pfaffmann, Pfalz — pirn, ananass, nektariin, sidrunhein, lilleline iseloom. 0.75l pudel."
     },
     "pinot-blanc-grand-reserve": {
-      "description": "Taubenschuss veinikoda, Austria Weinviertel — melon, sarapuupähkel, hein, karamell. 0.75l pudel."
+      "description": "Taubenschuss, Austria Weinviertel — melon, sarapuupähkel, hein, karamell. 0.75l pudel."
     },
     "trebbiano-di-lugana": {
-      "description": "Zenato veinikoda, Veneto, Itaalia — värske happesus, mineraalne, tsitrus, roheline õun, pirn. 0.75l pudel."
+      "description": "Zenato, Veneto, Itaalia — värske happesus, mineraalne, tsitrus, rohelise õun, pirn. 0.75l pudel."
+    },
+    "lugana-glass": {
+      "description": "Zenato, Veneto, Itaalia. 0.1l."
     },
     "riesling-easy-white": {
-      "description": "Oetinger veinikoda, Rheingau — laim, õun, valge virsik, ideaalne aperitiiv. 0.75l pudel.",
+      "description": "Oetinger, Rheingau — laim, õun, valge virsik, ideaalne aperitiiv. 0.75l pudel.",
       "pairing": "Wiener Schnitzel"
     },
     "riesling-gottloos": {
-      "description": "Dr. Loosen veinikoda, Mosel — tsitrus, õun, elegantne mineraalsus. 0.75l pudel."
+      "description": "Dr. Loosen, Mosel — tsitrus, õun, elegantne mineraalsus. 0.75l pudel."
     },
     "riesling-heiligenstein": {
-      "description": "Bründlmayer veinikoda, Langenlois, Kamptal, Austria — värske tsitrus, õun, ürdine vürts. 0.75l pudel."
+      "description": "Bründlmayer, Langenlois, Kamptal, Austria — värske tsitrus, õun, ürdine vürts. 0.75l pudel."
     },
     "riesling-smoky-dry": {
       "description": "Weingut Oetinger, Rheingau — suitsune mineraalsus, mahlane õun, tsitrus. 0.75l pudel."
     },
     "riesling-bright-side-of-life": {
-      "description": "Stahl veinikoda, Franconia — marjane, värske, lihtne. 0.75l pudel."
+      "description": "Stahl, Franken, Saksamaa — puuviljane, värske, lihtne nautida. 0.75l pudel."
+    },
+    "riesling-nachschlag-glass": {
+      "description": "Stahl, Franken, Saksamaa. 0.1l."
     },
     "sauvignon-blanc": {
-      "description": "Chateau de la Chaise, Loire — karusmari, roheline õun, eksootiline puuvili. 0.75l pudel."
+      "description": "Chateau de la Chaise, Loire — murakas, roheline õun, eksootilised viljad. 0.75l pudel."
     },
     "sauvignon-blanc-reserve": {
-      "description": "Taubenschuss veinikoda, Austria Weinviertel — laim, karusmari, eksootiline puuvili. 0.75l pudel."
+      "description": "Taubenschuss, Austria Weinviertel — laim, murakas, eksootilised viljad. 0.75l pudel."
     },
     "silvaner-easy-white": {
-      "description": "Weingut am Stein, Franconia — roheline õun, pirn, õrnad ürdid. 0.75l pudel."
+      "description": "Weingut am Stein, Franken — roheline õun, pirn, peened ürdinoodid. 0.75l pudel."
     },
     "gruener-veltliner-tenn": {
-      "description": "Taubenschuss veinikoda, Austria Weinviertel — õun, valge pipar, ürdine vürts. 0.75l pudel."
+      "description": "Taubenschuss, Austria Weinviertel — õun, valge pipar, ürdine vürts. 0.75l pudel."
     },
     "riesling-gottloos-3l": {
-      "description": "Dr. Loosen veinikoda, Mosel. 3.0l pudel."
+      "description": "Dr. Loosen, Mosel. 3.0l pudel."
     },
     "gruener-veltliner-steinberg": {
-      "description": "Karl Fritsch veinikoda, Burgenland, Austria. 1.5l pudel."
+      "description": "Karl Fritsch, Burgenland, Austria. 1.5l pudel."
     },
     "chardonnay-morillon": {
-      "description": "Lackner-Tinnacher veinikoda, Lõuna Stüüria, Austria. 1.5l pudel."
+      "description": "Lackner-Tinnacher, Lõuna Stüraagia, Austria. 1.5l pudel."
     },
     "cuvee-adrian-sangiovese": {
       "description": "Punane cuvée, Toscana Rosso, Toscana. 1.5l pudel."
     },
     "primitivo-bottle": {
-      "description": "Barbanera veinikoda, Apulia, Itaalia — tumedad marjad, kirss, peen vürts. 0.75l pudel."
+      "description": "Barbanera, Apulia, Itaalia — tumedad marjad, kirss, õrn vürts. 0.75l pudel."
     },
     "herrgott-cuvee": {
       "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz — kirsid, punased marjad. 0.75l pudel."
+    },
+    "herrgott-cuvee-glass": {
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz. 0.1l."
     },
     "tuscany-red-cuvee": {
       "description": "Duca di Salangane, Toscana — kirsid, tumedad marjad. 0.75l pudel."
     },
     "pinot-noir-goldberg": {
-      "description": "Toni Hartl veinikoda, Burgenland — punased marjad, kirsid, peen vürts. 0.75l pudel."
+      "description": "Toni Hartl, Burgenland — punased marjad, kirsid, õrn vürts. 0.75l pudel."
     },
     "merlot": {
       "description": "Chateau Gensac, Gascogne — tumedad kirsid, ploomid, vürts. 0.75l pudel."
     },
     "brunello-di-montalcino": {
-      "description": "Tenuta Corte Pavone, Sangiovese, Toscana — tumedamarja, kirss, šokolaad. 0.75l pudel."
+      "description": "Tenuta Corte Pavone, Sangiovese, Toscana — tumedad marjad, kirss, šokolaad. 0.75l pudel."
     },
     "black-ox-cuvee": {
       "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Pfalz — tumedad marjad, kirss, vürts. 0.75l pudel."
     },
     "rose-lime-stone": {
-      "description": "Unger veinikoda, Neusiedler järv — punased marjad, maasikas, vaarikas, tsitrus. 0.75l pudel."
+      "description": "Unger, Neusiedler järv — punased marjad, maasikas, vaarikas, tsitrus. 0.75l pudel."
     },
     "torres-natureo": {
       "description": "Miguel Torres, Vilafranca del Penedès — tsitrus, õun, kerge. 0.75l pudel."
     },
     "rieslaner-auslese": {
-      "description": "Juliusspital veinikoda, Franconia — magustoiduvein. 0.5l pudel.",
-      "pairing": "Kaiserschmarrn või Crème brûlée"
+      "description": "Juliusspital, Franken — magustoitvein. 0.5l pudel.",
+      "pairing": "Kaiserschmarrn or Crème brûlée"
     },
     "aperol-spritz": {
       "description": "Klassikaline Itaalia aperitiiv. 0.2l."
     },
     "hugo": {
-      "description": "Suvine leedripuu spritz. 0.2l."
+      "description": "Suurõie spritz. 0.2l."
     },
     "campari-soda": {
       "description": "0.2l."
@@ -354,7 +399,7 @@
       "description": "0.2l."
     },
     "sanbitter": {
-      "description": "Alkoholivaba mõru aperitiiv. 0.2l."
+      "description": "Alkoholivaba kibe aperitiiv. 0.2l."
     },
     "nut-in-a-bottle": {
       "description": "2cl."
@@ -372,19 +417,19 @@
       "description": "40% vol. Edelbrand, Sigi Herzog destillaat. 2cl."
     },
     "farm-fruit-growers": {
-      "description": "Linster peenviljade destilleerimine, laagerdatud 1 aasta tammevaatides. 2cl."
+      "description": "Linster puuviljadest destillaat, laagerdatud 1 aasta tammevaadis. 2cl."
     },
     "feiner-mirabell": {
-      "description": "Linster peenviljade destilleerimine, küps aprikoosi maitse. 2cl."
+      "description": "Linster, küps aprikoosi maitse. 2cl."
     },
     "enzian-gentian-brandy": {
       "description": "Wilhelm Marx Fine Spirits Manufactory. 2cl."
     },
     "raspberry-pulp-brandy": {
-      "description": "40% vol. Wilhelm Marx Edelmanufaktur. 2cl."
+      "description": "40% vol. Wilhelm Marx. 2cl."
     },
     "grappa-chardonnay": {
-      "description": "Grandfather. 2cl."
+      "description": "Omapärane grappa. 2cl."
     },
     "paulaner-spezi": {
       "description": "0.4l."
@@ -408,37 +453,37 @@
       "description": "0.25l."
     },
     "bad-brambacher": {
-      "description": "Vesi ilma või kerge mulliga. 0.5l."
+      "description": "Vesi: mittegaasiga või kergegaasiga. 0.5l."
     },
     "table-water": {
-      "description": "Vesi — ilma või gaseeritud."
+      "description": "Lauavesi: ilma või vahuveega."
     },
     "apple-spritzer": {
-      "description": "Õuna spritzer. 0.4l."
+      "description": "Õunajook, 0.4l."
     },
     "johannisbeerschorle": {
-      "description": "Mustsõstra spritzer. 0.4l."
+      "description": "Sõstraschorle. 0.4l."
     },
     "maracujaschorle": {
-      "description": "Passioonivilja spritzer. 0.4l."
+      "description": "Passioonvilja schorle. 0.4l."
     },
     "wolfra-orange-juice": {
       "description": "Apelsinimahl. 0.2l."
     },
     "espresso": {
-      "description": "Espresso."
+      "description": ""
     },
     "double-espresso": {
-      "description": "Topeltespresso."
+      "description": " "
     },
     "espresso-macchiato": {
-      "description": "Espresso macchiato."
+      "description": ""
     },
     "cappuccino": {
-      "description": "Cappuccino."
+      "description": ""
     },
     "latte-macchiato": {
-      "description": "Latte macchiato."
+      "description": ""
     },
     "milchkaffee": {
       "description": "Kohv piimaga."
@@ -447,19 +492,19 @@
       "description": "Haferl Kaffee Creme."
     },
     "drinking-chocolate": {
-      "description": "Soojendav kakao piimaga."
+      "description": "Piimaga."
     },
     "tea-ronnefeldt": {
       "description": "Darjeeling, Mountain Herbs, Sweet Berries, Green Dragon Lung Ching, Refreshing Mint või Fruity Camomile."
     },
     "kids-potato-dumplings": {
-      "description": "Serveeritud searoogakastmega."
+      "description": "Kartulipallid seaprae kastmega."
     },
     "kids-kaesspatzn": {
-      "description": "Juustuspätzle, lasteportsjon."
+      "description": "Juustu-Spätzle, laste portsjon."
     },
     "kids-rostbratwuerstl": {
-      "description": "Serveeritud friikartulite või kartuli-kurgisalatiga."
+      "description": "Vorst friikartulite või kartuli-kurgisalati valikuga."
     },
     "kids-fries": {
       "description": ""

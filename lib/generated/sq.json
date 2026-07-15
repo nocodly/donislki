@@ -1,61 +1,64 @@
 {
   "strings": {
-    "welcome": "Shfletoni menynë më poshtë, ose pyesni asistentin tonë AI për një rekomandim.",
+    "welcome": "Shfleto menynë më poshtë, ose pyesni asistentin tonë AI për një rekomandim.",
     "categoriesTitle": "Menu",
     "featuredTitle": "Të veçuar",
-    "askAi": "Pyet AI",
+    "askAi": "Pyesni AI",
     "chatTitle": "DonislKI",
-    "discussing": "Duke biseduar",
-    "askAboutThis": "Pyet AI për këtë",
+    "discussing": "Duke diskutuar",
+    "askAboutThis": "Pyete AI për këtë",
     "askAboutDishTemplate": "Më trego për {dish}",
-    "pairing": "Shkon mirë me",
-    "allergensLabel": "Alergjenët",
+    "pairing": "I përshtatshëm me",
+    "fromPricePrefix": "nga ",
+    "allergensLabel": "Alergjene",
     "allergensUnknown": "Ju lutem konfirmoni me stafin",
     "composerPlaceholder": "Pyet për menynë…",
     "send": "Dërgo",
     "close": "Mbyll",
-    "noInfo": "Nuk kam atë informacion në menynë aktuale.",
+    "noInfo": "Nuk kam këtë informacion në menynë aktuale.",
     "categories": {
+      "weekly": "Specialitetet e javës",
       "traditional": "Tradicionale",
       "sausages": "Salsiçe",
-      "starters": "Paraprake",
+      "starters": "Paraprija",
       "vegan": "Vegan",
       "desserts": "Ëmbëlsira",
-      "beer": "Birrë",
-      "wine": "Vërtu/Verë",
+      "beer": "Birra",
+      "wine": "Verë",
       "aperitif": "Aperitiv",
-      "spirits": "Pije të forta",
+      "spirits": "Pijet e forta",
       "drinks": "Pije pa alkool & kafe",
-      "kids": "Fëmijë"
+      "kids": "Fëmijët"
     },
     "tagLabels": {
       "sharing": "për ndarje",
-      "signature": "shenjë e shtëpisë",
-      "hearty": "i ngopshëm",
+      "signature": "shenja",
+      "hearty": "i plotë",
       "classic": "klasik",
       "light": "i lehtë",
-      "seasonal": "sezonal",
+      "seasonal": "sezonale",
       "strong": "i fortë",
       "non-alcoholic": "pa alkool",
       "vegetarian": "vegetarian",
       "vegan": "vegan",
-      "spirit": "spirith",
+      "spirit": "pië e fortë",
       "water": "ujë",
       "coffee": "kafe",
       "hot-drink": "pije e ngrohtë",
       "aperitif": "aperitiv",
-      "bowl": "kazan",
-      "white": "i bardhë",
-      "red": "i kuq",
+      "bowl": "kallanë",
+      "white": "e bardhë",
+      "red": "e kuqe",
       "rose": "rosé",
-      "sparkling": "meymësuese",
-      "dessert-wine": "verë për ëmbëlsirë",
+      "sparkling": "me gaz",
+      "dessert-wine": "verë ëmbëlsire",
       "by-glass": "nga gota",
-      "bottle": "shishe"
+      "bottle": "shishe",
+      "lunch-special": "specialitet drekë"
     },
     "quickSuggestions": [
-      "Çfarë rekomandon?",
-      "Cila pije i shkon këtij pjate?",
+      "Çfarë rekomandoni?",
+      "Cila pije i shkon këtij piate?",
       "Trego opsionet vegane",
       "Çfarë përmban alergjene?",
       "Diçka e lehtë",
@@ -63,176 +66,206 @@
     ]
   },
   "items": {
+    "chanterelle-soup": {
+      "description": "Krem supe me kërpudha kantarelle dhe një knödel (gjalpër) me bacon tiroles."
+    },
+    "romaine-chanterelle-salad": {
+      "description": "Bima romaine me vinaigrette frutash pylli, qepë të kuqe, rradhiqe dhe kantarelle të pjekura."
+    },
+    "veal-steak-chanterelle": {
+      "description": "Steak viçi me kantarelle, bizele dhe patate kremi."
+    },
+    "chanterelle-linguine": {
+      "description": "Linguine me kantarelle, krem, rigon dhe djathë malor Bergkäse."
+    },
+    "chanterelle-cream": {
+      "description": "Kantarelle të kremuara me rigon dhe një knödel preceli."
+    },
+    "lunch-monday-asparagus-linguine": {
+      "description": "Specialitet drekë për ditët e javës, shërbehet 12:00–15:30, përfshin një kafe. Linguine me asparagus, krem qepësh të njomë, roast beef dhe domate."
+    },
+    "lunch-tuesday-bratengroestl": {
+      "description": "Specialitet drekë për ditët e javës, shërbehet 12:00–15:30, përfshin një kafe. Përzierje e pjekur me lakër të bardhë, knödel patatesh dhe vezë e ferguar."
+    },
+    "lunch-wednesday-strindberg-steak": {
+      "description": "Specialitet drekë për ditët e javës, shërbehet 12:00–15:30, përfshin një kafe. Steak fileto derri me fasule jeshile dhe gratinë patatesh."
+    },
+    "lunch-thursday-chicken-geschnetzeltes": {
+      "description": "Specialitet drekë për ditët e javës, shërbehet 12:00–15:30, përfshin një kafe. Copëza pule në salcë kërpudhash me spätzle me erëza."
+    },
+    "lunch-friday-fish-fillet": {
+      "description": "Specialitet drekë për ditët e javës, shërbehet 12:00–15:30, përfshin një kafe. Fileto peshku e ferguar me remoulade dhe sallatë patate-kastraveci."
+    },
     "donisl-roasting-pan": {
-      "description": "Mish viçi, rosë, shpatull derri dhe salsiçe me lakër të kuqe, topa patatesh dhe käsespätzle — për të ndarë.",
+      "description": "Vazon me mish lope, rosë, gjuhe derri dhe salsiçe me lakër të kuqe, knödel patatesh dhe käsespätzle me djath — për t’u ndarë.",
       "pairing": "Münchner Dunkel"
     },
     "roast-pork": {
-      "description": "Krah dhe bark derri bavarez me lëkurë të krokante, salcë natyrale, topa patatesh dhe sallatë lakre.",
+      "description": "Shpatull dhe bark derri bavarez me lëkurë krokante, salcë natyrale, knödel patatesh dhe sallatë lakre.",
       "pairing": "Münchner Dunkel"
     },
     "schweinshaxe": {
-      "description": "Gju derri e pjekur krokante, shërbyer me salcë natyrale, topa patatesh dhe sallatë lakre.",
-      "pairing": "Best with Dunkel beer."
+      "description": "Knebel derri i pjekur krokant, shërbehet me salcë natyrale, knödel patatesh dhe sallatë lakre.",
+      "pairing": "I përshtatshëm me birrë Dunkel."
     },
     "wiener-schnitzel": {
-      "description": "Schnitzel derri nga farat bavareze me patate të skuqura ose sallatë patate-kastravec dhe boronicë të thatë.",
-      "pairing": "Riesling Easy-White or a Radler"
+      "description": "Schnitzel bavarez nga derr i ushqyer me kashtë, shërbehet me patate të skuqura ose sallatë patate-kastraveci dhe rrush të egër.",
+      "pairing": "Riesling Easy-White ose një Radler"
     },
     "farm-duck": {
-      "description": "Rosmarinë salcë, topa patatesh dhe lakër e kuqe.",
+      "description": "Rosmarinë salcë, knödel patatesh dhe lakër e kuqe.",
       "pairing": "Münchner Dunkel"
     },
     "backhendl": {
-      "description": "Këmb pulë pa kockë e panko-zier me patate të skuqura ose sallatë patate-kastravec."
+      "description": "Kofshë pule pa kockë të mbështjellë me bukë, shërbehet me patate të skuqura ose sallatë patate-kastraveci."
     },
     "duet-of-the-ox": {
-      "description": "Shpatull dhe faqe dhi qëndrore, jus me verë të kuqe, spinaq i ri, patate kremozë."
+      "description": "Shpatull dhe faqe lope, jus me verë të kuqe, spinaq i ri, patate kremi."
     },
     "veal-steak": {
-      "description": "Salcë krem me kokrriza piperash ngjyra, kohlrabi i flakur, rösti patatesh."
+      "description": "Salcë kremi me shumë lloj piperash, kohlrabi i karamelizuar me flakë, rösti patatesh."
     },
     "veal-meatballs": {
-      "description": "Perime të rregulluara, patate me rozmarinë."
+      "description": "Tërshëra me perime të veshura, patate me rozmarinë."
     },
     "white-sausage": {
-      "description": "Dy copë, shërbyer me breznjë dhe mustardë."
+      "description": "Dy copa, shërbehen me precel dhe mustardë."
     },
     "white-sausage-piece": {
-      "description": "Një salsiçe e bardhë."
+      "description": "Një salsiçë e vetme White Sausage."
     },
     "polish-sausage": {
-      "description": "Me breznjë dhe mustardë."
+      "description": "Me precel dhe mustardë."
     },
     "currywurst": {
-      "description": "Salsiçe curry e shërbyer me patate të skuqura.",
-      "pairing": "Hefeweizen wheat beer"
+      "description": "Salsiçe curry shërbuar me patate të skuqura.",
+      "pairing": "Hefeweizen"
     },
     "bratwurstreindl": {
-      "description": "Tava me salsiçe të pjekura me sauerkraut ose sallatë patatesh — për ndarje.",
-      "pairing": "Russn (light Hefeweizen)"
+      "description": "Tigan me salsiçe të pjekura me sauerkraut ose sallatë patatesh — pjesë për ndarje.",
+      "pairing": "Russn (Hefeweizen i lehtë)"
     },
     "rump-steak": {
       "description": "Biftek Murnau me jus verë të kuqe dhe qepë, qepë të skuqura, käsespätzle."
     },
     "ribeye-300g": {
-      "description": "Kapak yndyre nga viçi Murnau, salcë café de paris, perime të pjekura, gratinë patatesh."
+      "description": "Pjesa me dhjamë nga Murnau, salcë Café de Paris, perime të pjekura, gratinë patatesh."
     },
     "deluxe-burger": {
-      "description": "200g mish Werdenfelser, cheddar, sallatë, domate, speca të turshi, qepë, salcë shtëpie Donisl.",
+      "description": "200g mish Werdenfelser, cheddar, sallatë, domate, speca të pickluar, qepë, salcë Donisl shtëpie.",
       "pairing": "Münchner Hell"
     },
     "icefish": {
-      "description": "Rigon, perime ratatouille, gratinë patatesh."
+      "description": "Me rigon, perime ratatouille, gratinë patatesh."
     },
     "brotzeitbrettl": {
-      "description": "Mishra të tymosura të fermës, salsiçe bacon, suxhuk mëlçie, rostbeef i ftohtë, O'gmachter, djath malor, senape, bukë."
+      "description": "Produkte të tymosura fermere, salsiçë me bacon, salsiçë mëlçie, roast beef i ftohtë, O'gmachter, djath malor, rrepkë e bardhë, bukë."
     },
     "donisl-4erlei": {
-      "description": "Hummus, djath i bërë, gjalp i kripur dhe krem i thartë me barishte, shërbyer me një korb buke."
+      "description": "Hummus, djath i bërë, gjalp i kriposur dhe krem të thartë me barishte, shërbehen me një shportë buke."
     },
     "beef-tartare": {
-      "description": "Krem trufe, vezë organike e pjekur."
+      "description": "Krem trufash, vezë organike e pjekur."
     },
     "calfs-head-carpaccio": {
-      "description": "Shegë, rafano, kastravec."
+      "description": "Me rrush të pjekur, rrepkë horseradish, kastravec."
     },
     "ogmachter-kas": {
-      "description": "Djath kremoze me rreze qepësh, rrepa të vogla, sallatë dhe fruta pylli."
+      "description": "Djath kremoz me rrathë qepësh, rradhiqe, sallatë dhe fruta pylli."
     },
     "sausage-salad": {
-      "description": "Dressing shtëpie, rreze qepësh, turshi, domate, fruta pylli (+1.90 me shirita djathi malor)."
+      "description": "Dressing shtëpie, rrathë qepësh, spec pickles, domate, fruta pylli (+1.90 me shirita djathi malor)."
     },
     "donisl-salad": {
       "description": "Gjethe sallate, domate, kastravec, dressing shtëpie, fara dhe krutonë."
     },
     "bread-basket": {
-      "description": "Korbe me bukë të freskët."
+      "description": "Shportë bukësh të freskëta."
     },
     "brezn": {
-      "description": "Breznje bavareze."
+      "description": "Precel bavarez."
     },
     "oxen-consomme": {
-      "description": "Supë e pastër mishi me qofte mëlçie ose feta pulepancake, perime dhe qepë të gjelbërta."
+      "description": "Supë e qartë mish lope me knödel mëlçie ose shirita pancakes, perime dhe qepë të njoma."
     },
     "tomato-soup": {
-      "description": "Supë e lëmuar domatesh me krem burrata-bazilika."
+      "description": "Supë e trashë domateje me krem burrata dhe majdanoz."
     },
     "classic-sides": {
-      "description": "Sauerkraut, lakër e kuqe, sallatë me bacon dhe lakër, patate kremozë, topa patatesh, patate të vogla të pjekura, spätzle ose patate të skuqura — secila."
+      "description": "Sauerkraut, lakër e kuqe, sallatë me bacon dhe lakër, patate krem, knödel patatesh, patate të vogla të pjekura, spätzle ose patate të skuqura — secili."
     },
     "vegetable-sides": {
-      "description": "Pjatë perimesh ose sallatë patate-kastravec — secila."
+      "description": "Guarnitur me perime ose sallatë patate-kastraveci — secili."
     },
     "power-bowl": {
-      "description": "Oriz aromatik, avokado, edamame, bizele të vërdha, karrota, domate, kastravec, kikirikë, dressings portokalli-mëndër-limë."
+      "description": "Oriz aromatik, avokado, edamame, bizele të njoma, karrota, domate, kastravec, kikirikë, dressing portokalli-mëndër-limë."
     },
     "kaesespaetzle": {
-      "description": "Käsespätzle me rreze qepësh.",
-      "pairing": "Münchner Dunkel or a full-bodied white wine"
+      "description": "Käsespätzle me rrathë qepësh.",
+      "pairing": "Münchner Dunkel ose një verë e bardhë me trup të plotë"
     },
     "linguine-truffles": {
-      "description": "Pasta me spinaq të ri dhe tartuf dimri."
+      "description": "Pasta me spinaq të ri dhe tartuf dimëror."
     },
     "rahmschwammerl": {
-      "description": "Kërpudha kremoze të shërbyera me Knödel breznje."
+      "description": "Kërpudha kremuara shërbyer me knödel preceli."
     },
     "creme-brulee": {
-      "description": "Shërbyer me sorbet dhe fruta pylli.",
-      "pairing": "Rieslaner Auslese dessert wine"
+      "description": "Shërbehet me sorbet dhe fruta pylli.",
+      "pairing": "Rieslaner Auslese"
     },
     "kaiserschmarrn": {
-      "description": "Krahashe, gjalp, sheqer dhe bajame karamelizuara, shërbyer me pure molle — ideal për të ndarë.",
-      "pairing": "Rieslaner Auslese dessert wine"
+      "description": "Kështjella e copëtuar me rrush të thatë, gjalp, sheqer dhe bajame të karamelizuara, shërbehet me sos mollësh — ideale për ndarje.",
+      "pairing": "Rieslaner Auslese"
     },
     "kirschmichl": {
-      "description": "Tortë e ngrohtë qershie e shërbyer me krem zbutës."
+      "description": "Tortë e ngrohtë me qershi, shërbehet me krem vanilje."
     },
     "apple-strudel": {
-      "description": "Strudel klasik molle i shërbyer me krem zbutës.",
+      "description": "Strudel klasik molle, shërbehet me krem vanilje.",
       "pairing": "Milchkaffee"
     },
     "muenchner-hell": {
-      "description": "Fermentim në fund, notë e hollë hapi, pak malti. 5.0% vol."
+      "description": "Fermentim në pjesën e poshtme, nuancë delikate hiri, pak malti. 5.0% vol."
     },
     "beer-light-alcohol-free": {
-      "description": "Natyralisht i turbullt, nota karamele dhe mjaltë. <0.5% vol."
+      "description": "Natyrshëm i turbullt, nuanca karamele dhe mjaltë. <0.5% vol."
     },
     "muenchner-radler": {
-      "description": "Helles i Mynihut me limonadë të hollë, jo shumë i ëmbël."
+      "description": "Helles i Mynihut me limonatë të hollë, jo shumë i ëmbël."
     },
     "muenchner-dunkel": {
-      "description": "Shije delikate hidhërëse, malt i pjekur me nota karamele dhe fruta të kandizuara. 5.0% vol."
+      "description": "Lehtë i hidhur, malt i pjekur me nuanca karamele dhe fruta të kandizuara. 5.0% vol."
     },
     "hefeweizen": {
-      "description": "Birrë gruri me fermentim të sipërm, me nota banane dhe mjaltë."
+      "description": "Birrë me maja të sipërme, me nuanca banane dhe mjaltë."
     },
     "russn": {
-      "description": "Hefeweizen me limonadë të hollë, jo shumë i ëmbël."
+      "description": "Hefeweizen me limonatë të hollë, jo shumë i ëmbël."
     },
     "cola-wheat": {
-      "description": "Hefeweizen me Coca-Cola."
+      "description": "Hefeweizen me Coca‑Cola."
     },
     "non-alcoholic-wheat": {
-      "description": "E dealkoluar butësisht pas pjekjes së plotë, ruan aromën."
+      "description": "Dealkolizuar lehtë pas maturimit të plotë, ruan aromën e tij."
     },
     "salvator": {
-      "description": "Birrë e fortë (Starkbier), sezonal — në dispozicion Shkurt/Mars. 0.5l."
+      "description": "Birrë e fortë (Starkbier), sezonal — në dispozicion shkurti/mars. 0.5l."
     },
     "kellerbier": {
-      "description": "Sezonal — në dispozicion Qershor/Korrik/Gusht (verë e verës). 0.5l."
+      "description": "Sezonal — në dispozicion qershor/korrik/gusht (verë e verës). 0.5l."
     },
     "wiesnbier": {
-      "description": "Birrë Oktoberfest, sezonal — në dispozicion Shtator/Tetor. 0.5l."
+      "description": "Birrë Oktoberfest, sezonal — në dispozicion shtator/tetor. 0.5l."
     },
     "weissweinschorle": {
       "description": "Spritz verë e bardhë. 0.3l."
     },
     "pinot-gris-glass": {
-      "description": "Vreshtaria Hirschmüller, Württemberg — e lehtë, e freskët për të pirë."
+      "description": "Hirschmüller Winery, Württemberg — i lehtë, i lehtë për t’u pirë."
     },
     "primitivo-glass": {
-      "description": "Sir of the Faun, Puglia — fruta të errëta, kumbulla, nuanca erëzash."
+      "description": "Sir of the Faun, Puglia — fruta të errëta pylli, rrush i kuq, nuanca të lehta erëzash."
     },
     "prodry-frizzante": {
       "description": "Motelvini, Veneto, Itali. 0.1l."
@@ -244,108 +277,120 @@
       "description": "Champagne Taittinger, Francë. Shishe 0.75l."
     },
     "valdo-prosecco": {
-      "description": "Valdo, Veneto — verë klasike italiane me fizz. Shishe 0.75l."
+      "description": "Valdo, Veneto — prosecco klasik italian. Shishe 0.75l."
     },
     "winzersekt": {
-      "description": "Vreshtaria Pfaffmann, Pfalz, Gjermani. Shishe 0.75l."
+      "description": "Pfaffmann Winery, Pfalz, Gjermani. Shishe 0.75l."
     },
     "chardonnay-bottle": {
-      "description": "Vreshtaria Hirschmüller, Württemberg — frutë pasioni, mango, ananas. Shishe 0.75l."
+      "description": "Hirschmüller Winery, Württemberg — fruta eksotike: pasion, mango, ananas. Shishe 0.75l."
+    },
+    "chardonnay-glass": {
+      "description": "Hirschmüller Winery, Württemberg. 0.1l."
     },
     "chardonnay-macon-ige": {
-      "description": "Domaine Fichet, Burgundi — mollë, dardhë, pjeshkë e bardhë, minerali i lehtë. Shishe 0.75l."
+      "description": "Domaine Fichet, Burgundy — mollë, dardhë, pjeshkë e bardhë, mineralitet i hollë. Shishe 0.75l."
     },
     "pinot-gris-tradition": {
-      "description": "Vreshtaria Bott Frères, Burgundi — kajsi, mollë vjeneze, lajthi, nuanca tymi. Shishe 0.75l."
+      "description": "Bott Frères Winery, Burgundy — kajsi, mollë viennese, lajthi, nuancë tymi. Shishe 0.75l."
     },
     "pinot-gris-oetinger": {
-      "description": "Vreshtaria Oetinger, Rheingau — dardhë e pjekur, mollë e verdhë, nuancë bajame. Shishe 0.75l."
+      "description": "Oetinger Winery, Rheingau — dardhë e pjekur, mollë e verdhë, shenja bajame. Shishe 0.75l."
     },
     "pinot-gris-reserve-pauline": {
-      "description": "Vreshtaria Pfaffmann, Pfalz — dardhë, ananas, nektarinë, limon-gras, nuancë lulesh. Shishe 0.75l."
+      "description": "Pfaffmann Winery, Pfalz — dardhë, ananas, nektarinë, limonelë, aromë lulesh. Shishe 0.75l."
     },
     "pinot-blanc-grand-reserve": {
-      "description": "Vreshtaria Taubenschuss, Weinviertel austriak — kumbull, lajthi, barishte, karamele. Shishe 0.75l."
+      "description": "Taubenschuss Winery, Weinviertel, Austri — melon, lajthi, barishte e thatë, karamele. Shishe 0.75l."
     },
     "trebbiano-di-lugana": {
-      "description": "Vreshtaria Zenato, Veneto, Itali — aciditet i freskët, mineral, agrume, mollë jeshile, dardhë. Shishe 0.75l."
+      "description": "Zenato Winery, Veneto, Itali — aciditet i freskët, mineral, citrus, mollë jeshile, dardhë. Shishe 0.75l."
+    },
+    "lugana-glass": {
+      "description": "Zenato Winery, Veneto, Itali. 0.1l."
     },
     "riesling-easy-white": {
-      "description": "Vreshtaria Oetinger, Rheingau — limon, mollë, pjeshkë e bardhë, aperitiv ideal. Shishe 0.75l.",
+      "description": "Oetinger Winery, Rheingau — lime, mollë, pjeshkë e bardhë, perfekt si aperitiv. Shishe 0.75l.",
       "pairing": "Wiener Schnitzel"
     },
     "riesling-gottloos": {
-      "description": "Vreshtaria Dr. Loosen, Mosel — agrume, mollë, mineralitet elegant. Shishe 0.75l."
+      "description": "Dr. Loosen Winery, Mosel — citrus, mollë, minerale elegante. Shishe 0.75l."
     },
     "riesling-heiligenstein": {
-      "description": "Vreshtaria Bründlmayer, Langenlois, Kamptal, Austri — agrume i freskët, mollë, erëza bimore. Shishe 0.75l."
+      "description": "Bründlmayer Winery, Langenlois, Kamptal, Austri — citrus i freskët, mollë, erëza bimore. Shishe 0.75l."
     },
     "riesling-smoky-dry": {
-      "description": "Weingut Oetinger, Rheingau — minerali tymor, mollë e lëngshme, agrume. Shishe 0.75l."
+      "description": "Weingut Oetinger, Rheingau — minerale me nuancë tymi, mollë e lëngshme, citrus. Shishe 0.75l."
     },
     "riesling-bright-side-of-life": {
-      "description": "Vreshtaria Stahl, Franconia — i frutshëm, i freskët, i thjeshtë. Shishe 0.75l."
+      "description": "Stahl Winery, Franconia, Gjermani — frutë, i freskët, i pakomplikuar. Shishe 0.75l."
+    },
+    "riesling-nachschlag-glass": {
+      "description": "Stahl Winery, Franconia, Gjermani. 0.1l."
     },
     "sauvignon-blanc": {
-      "description": "Chateau de la Chaise, Loire — kadife, mollë jeshile, fruta ekzotike. Shishe 0.75l."
+      "description": "Chateau de la Chaise, Loire — grozdhanë, mollë jeshile, fruta ekzotike. Shishe 0.75l."
     },
     "sauvignon-blanc-reserve": {
-      "description": "Vreshtaria Taubenschuss, Weinviertel austriak — limë, kadife, fruta ekzotike. Shishe 0.75l."
+      "description": "Taubenschuss Winery, Weinviertel, Austri — lime, grozdhanë, fruta ekzotike. Shishe 0.75l."
     },
     "silvaner-easy-white": {
-      "description": "Weingut am Stein, Franconia — mollë jeshile, dardhë, barishte të lehta. Shishe 0.75l."
+      "description": "Weingut am Stein, Franconia — mollë jeshile, dardhë, barishte të holla. Shishe 0.75l."
     },
     "gruener-veltliner-tenn": {
-      "description": "Vreshtaria Taubenschuss, Weinviertel austriak — mollë, piper i bardhë, erëza bimore. Shishe 0.75l."
+      "description": "Taubenschuss Winery, Weinviertel, Austri — mollë, piper i bardhë, erëza bimore. Shishe 0.75l."
     },
     "riesling-gottloos-3l": {
-      "description": "Vreshtaria Dr. Loosen, Mosel. Shishe 3.0l."
+      "description": "Dr. Loosen Winery, Mosel. Shishe 3.0l."
     },
     "gruener-veltliner-steinberg": {
-      "description": "Vreshtaria Karl Fritsch, Burgenland, Austri. Shishe 1.5l."
+      "description": "Karl Fritsch Winery, Burgenland, Austri. Shishe 1.5l."
     },
     "chardonnay-morillon": {
-      "description": "Vreshtaria Lackner-Tinnacher, Styria Jugore, Austri. Shishe 1.5l."
+      "description": "Lackner-Tinnacher Winery, Southern Styria, Austri. Shishe 1.5l."
     },
     "cuvee-adrian-sangiovese": {
-      "description": "Cuvée i kuq, Toscana Rosso, Toskana. Shishe 1.5l."
+      "description": "Cuvee e kuqe, Toscana Rosso, Toscana. Shishe 1.5l."
     },
     "primitivo-bottle": {
-      "description": "Vreshtaria Barbanera, Puglia, Itali — fruta të errëta, kumbull, nuanca erëzash. Shishe 0.75l."
+      "description": "Barbanera Winery, Puglia, Itali — fruta të errëta pylli, rrush i kuq, nuanca erëzash. Shishe 0.75l."
     },
     "herrgott-cuvee": {
-      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz — qershi, fruta të kuqe. Shishe 0.75l."
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz — qershi, fruta të kuqe pylli. Shishe 0.75l."
+    },
+    "herrgott-cuvee-glass": {
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz. 0.1l."
     },
     "tuscany-red-cuvee": {
-      "description": "Duca di Salangane, Toskana — qershi, fruta të errëta. Shishe 0.75l."
+      "description": "Duca di Salangane, Toscana — qershi, fruta të errëta pylli. Shishe 0.75l."
     },
     "pinot-noir-goldberg": {
-      "description": "Vreshtaria Toni Hartl, Burgenland — fruta të kuqe, qershi, nuancë erëzash. Shishe 0.75l."
+      "description": "Toni Hartl Winery, Burgenland — fruta të kuqe pylli, qershi, nuancë erëze. Shishe 0.75l."
     },
     "merlot": {
-      "description": "Chateau Gensac, Gaskoni — qershi të errëta, kumbulla, erëza. Shishe 0.75l."
+      "description": "Chateau Gensac, Gascony — qershi të errëta, kumbulla, erëza. Shishe 0.75l."
     },
     "brunello-di-montalcino": {
-      "description": "Tenuta Corte Pavone, Sangiovese, Toskana — fruta të errëta, qershi, çokollatë. Shishe 0.75l."
+      "description": "Tenuta Corte Pavone, Sangiovese, Toscana — fruta pylli të errëta, qershi, çokollatë. Shishe 0.75l."
     },
     "black-ox-cuvee": {
-      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Pfalz — fruta të errëta, qershi, erëza. Shishe 0.75l."
+      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Pfalz — fruta të errëta pylli, qershi, erëza. Shishe 0.75l."
     },
     "rose-lime-stone": {
-      "description": "Vreshtaria Unger, Liqeni Neusiedl — fruta të kuqe, luleshtrydhe, mjedër, agrume. Shishe 0.75l."
+      "description": "Unger Winery, Liqeni Neusiedl — fruta të kuqe pylli, luleshtrydhe, manaferra, citrus. Shishe 0.75l."
     },
     "torres-natureo": {
-      "description": "Miguel Torres, Vilafranca del Penedès — agrume, mollë, i lehtë. Shishe 0.75l."
+      "description": "Miguel Torres, Vilafranca del Penedès — citrus, mollë, i lehtë. Shishe 0.75l."
     },
     "rieslaner-auslese": {
-      "description": "Vreshtaria Juliusspital, Franconia — verë për ëmbëlsirë. Shishe 0.5l.",
+      "description": "Juliusspital Winery, Franconia — verë ëmbëlsire. Shishe 0.5l.",
       "pairing": "Kaiserschmarrn or Crème brûlée"
     },
     "aperol-spritz": {
-      "description": "Aperitiv klasik italian. 0.2l."
+      "description": "Aperitiv italian klasik. 0.2l."
     },
     "hugo": {
-      "description": "Spritz me lule shege. 0.2l."
+      "description": "Spritz me lule të shelgut. 0.2l."
     },
     "campari-soda": {
       "description": "0.2l."
@@ -363,19 +408,19 @@
       "description": "13cl."
     },
     "hirschkuss": {
-      "description": "38% vol., shishe me kapak hedhës, 4cl."
+      "description": "38% vol., shishe me kapak të kllapët, 4cl."
     },
     "vodka-redbull": {
       "description": "0.27l."
     },
     "williams-christ-pear": {
-      "description": "40% vol. Edelbrand, destilat Sigi Herzog. 2cl."
+      "description": "40% vol. Edelbrand, Sigi Herzog Distillate. 2cl."
     },
     "farm-fruit-growers": {
-      "description": "Distileri Linster, pjekur 1 vit në fuçi druri. 2cl."
+      "description": "Linster fine fruit distillery, i pjekur 1 vit në fuçi dheri. 2cl."
     },
     "feiner-mirabell": {
-      "description": "Distileri Linster, aromë dredhë molle e pjekur. 2cl."
+      "description": "Linster fine fruit distillery, aromë të pjekur kajsie. 2cl."
     },
     "enzian-gentian-brandy": {
       "description": "Wilhelm Marx Fine Spirits Manufactory. 2cl."
@@ -384,7 +429,7 @@
       "description": "40% vol. Edelmanufaktur Wilhelm Marx. 2cl."
     },
     "grappa-chardonnay": {
-      "description": "Gjyshi. 2cl."
+      "description": "Grappa Grandfather. 2cl."
     },
     "paulaner-spezi": {
       "description": "0.4l."
@@ -408,7 +453,7 @@
       "description": "0.25l."
     },
     "bad-brambacher": {
-      "description": "Pa gaz ose me gaz të lehtë. 0.5l."
+      "description": "Njerëzim ose me pak gaz. 0.5l."
     },
     "table-water": {
       "description": "Pa gaz ose me gaz."
@@ -417,28 +462,28 @@
       "description": "0.4l."
     },
     "johannisbeerschorle": {
-      "description": "Spritz rrush i zi. 0.4l."
+      "description": "Spritz sherebele të zeza. 0.4l."
     },
     "maracujaschorle": {
-      "description": "Spritz pasion-fruit. 0.4l."
+      "description": "Spritz me fruta pasion. 0.4l."
     },
     "wolfra-orange-juice": {
       "description": "0.2l."
     },
     "espresso": {
-      "description": ""
+      "description": "Espresso i fortë, shije intensive."
     },
     "double-espresso": {
-      "description": ""
+      "description": "Dopio espresso për një shije më të fuqishme."
     },
     "espresso-macchiato": {
-      "description": ""
+      "description": "Espresso me pak qull qumështi."
     },
     "cappuccino": {
-      "description": ""
+      "description": "Espresso me qumësht të shkumëzuar."
     },
     "latte-macchiato": {
-      "description": ""
+      "description": "Shtresa qumështi me një shënim espresso."
     },
     "milchkaffee": {
       "description": "Kafe me qumësht."
@@ -453,16 +498,16 @@
       "description": "Darjeeling, Mountain Herbs, Sweet Berries, Green Dragon Lung Ching, Refreshing Mint, ose Fruity Camomile."
     },
     "kids-potato-dumplings": {
-      "description": "Me salcë nga rostberi i derrit."
+      "description": "Me salcë roast pork."
     },
     "kids-kaesspatzn": {
       "description": "Käsespätzle, porcion për fëmijë."
     },
     "kids-rostbratwuerstl": {
-      "description": "Me patate të skuqura ose sallatë patate-kastravec."
+      "description": "Me patate të skuqura ose sallatë patate-kastraveci."
     },
     "kids-fries": {
-      "description": ""
+      "description": "Patate të skuqura."
     }
   }
 }

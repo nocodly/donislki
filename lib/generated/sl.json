@@ -1,21 +1,23 @@
 {
   "strings": {
-    "welcome": "Prebrskajte po meniju spodaj ali prosite našo AI pomočnico za priporočilo.",
+    "welcome": "Prebrskajte meni spodaj ali vprašajte našega AI pomočnika za priporočilo.",
     "categoriesTitle": "Meni",
-    "featuredTitle": "Izpostavljeno",
+    "featuredTitle": "Priporočamo",
     "askAi": "Vprašaj AI",
     "chatTitle": "DonislKI",
-    "discussing": "Razprava",
+    "discussing": "Pogovarjanje",
     "askAboutThis": "Vprašajte AI o tem",
-    "askAboutDishTemplate": "Povej mi več o {dish}",
+    "askAboutDishTemplate": "Povejte mi o {dish}",
     "pairing": "Najboljše s",
+    "fromPricePrefix": "od ",
     "allergensLabel": "Alergeni",
-    "allergensUnknown": "Prosimo, potrdite pri osebju",
+    "allergensUnknown": "Prosimo potrdite pri osebju",
     "composerPlaceholder": "Povprašajte o meniju…",
     "send": "Pošlji",
     "close": "Zapri",
-    "noInfo": "Te informacije nimam v trenutnem meniju.",
+    "noInfo": "Te informacije v trenutnem meniju nimam.",
     "categories": {
+      "weekly": "Tedenske posebne ponudbe",
       "traditional": "Tradicionalno",
       "sausages": "Klobase",
       "starters": "Predjedi",
@@ -23,20 +25,20 @@
       "desserts": "Sladice",
       "beer": "Pivo",
       "wine": "Vino",
-      "aperitif": "Aperitivi",
+      "aperitif": "Aperitiv",
       "spirits": "Žgane pijače",
       "drinks": "Brezalkoholne pijače in kava",
-      "kids": "Za otroke"
+      "kids": "Otroški meni"
     },
     "tagLabels": {
-      "sharing": "za deliti",
-      "signature": "znamenitost",
+      "sharing": "za deljenje",
+      "signature": "značilno",
       "hearty": "bogato",
       "classic": "klasično",
       "light": "lahko",
       "seasonal": "sezonsko",
       "strong": "močno",
-      "non-alcoholic": "brez alkohola",
+      "non-alcoholic": "brezalkoholno",
       "vegetarian": "vegetarijansko",
       "vegan": "vegansko",
       "spirit": "žganje",
@@ -48,10 +50,11 @@
       "white": "belo",
       "red": "rdeče",
       "rose": "rožnato",
-      "sparkling": "penina",
-      "dessert-wine": "desertno vino",
+      "sparkling": " peneče",
+      "dessert-wine": "sladko vino",
       "by-glass": "na kozarec",
-      "bottle": "steklenica"
+      "bottle": "steklenica",
+      "lunch-special": "kosilna ponudba"
     },
     "quickSuggestions": [
       "Kaj priporočate?",
@@ -63,20 +66,50 @@
     ]
   },
   "items": {
+    "chanterelle-soup": {
+      "description": "Kremna juha iz lisičk s tirolsko slaninsko cmokom."
+    },
+    "romaine-chanterelle-salad": {
+      "description": "Srčke rimske solate z malinovim vinjegretom, rdečo čebulo, redkvico in praženimi lisičkami."
+    },
+    "veal-steak-chanterelle": {
+      "description": "Telečji zrezek z lisičkami, grahom in kremastim pire krompirjem."
+    },
+    "chanterelle-linguine": {
+      "description": "Linguine z lisičkami, smetano, timijanom in bergkäse gorskim sirom."
+    },
+    "chanterelle-cream": {
+      "description": "Kremne lisičke s timijanom in precljevim cmokom."
+    },
+    "lunch-monday-asparagus-linguine": {
+      "description": "Tedenska kosilna ponudba, postrežena 12:00–15:30, vključen espresso. Linguine z beluši, drobnjakovo kremo, pečenim govedom in paradižnikom."
+    },
+    "lunch-tuesday-bratengroestl": {
+      "description": "Tedenska kosilna ponudba, postrežena 12:00–15:30, vključen espresso. Mešana pečenka z rdečim zeljem, krompirjevim cmokom in ocvrtim jajcem."
+    },
+    "lunch-wednesday-strindberg-steak": {
+      "description": "Tedenska kosilna ponudba, postrežena 12:00–15:30, vključen espresso. Svinjski zrezek z zelenimi fižoli in gratiniranim krompirjem."
+    },
+    "lunch-thursday-chicken-geschnetzeltes": {
+      "description": "Tedenska kosilna ponudba, postrežena 12:00–15:30, vključen espresso. Narezano piščančje meso v gobji omaki s zeliščnimi Spätzle."
+    },
+    "lunch-friday-fish-fillet": {
+      "description": "Tedenska kosilna ponudba, postrežena 12:00–15:30, vključen espresso. Ocvrta dnevna riba z remolado in krompirjevo–kumarično solato."
+    },
     "donisl-roasting-pan": {
-      "description": "Govedina, raca, pečena svinjska kolena in klobase z rdečim zeljem, krompirjevimi cmoki in cheese spaetzle — za deliti.",
+      "description": "Govedina, raca, svinjska kolena in klobase z rdečim zeljem, krompirjevimi cmoki in kaesespaetzle — za deljenje.",
       "pairing": "Münchner Dunkel"
     },
     "roast-pork": {
-      "description": "Bavarska svinjska pleča in trebušček s hrustljavo kožico, osveženo omako, krompirjevimi cmoki in zeljem v coleslawu.",
+      "description": "Bavarsko pečeno pleče in slanina s hrustljavo skorjico, naravno omako, krompirjevimi cmoki in coleslaw solato.",
       "pairing": "Münchner Dunkel"
     },
     "schweinshaxe": {
-      "description": "Hrskavo pečeno svinjsko koleno, postreženo z naravno omako, krompirjevimi cmoki in coleslawom.",
+      "description": "Hruskajoče pečeno svinjsko koleno, postreženo z naravno omako, krompirjevimi cmoki in coleslaw solato.",
       "pairing": "Najbolje s pivom Dunkel."
     },
     "wiener-schnitzel": {
-      "description": "Bavarski vikinjski prašičji zrezek z ocvrtim krompirjem ali krompirjevo–kumaričnim solatom in brusnicami.",
+      "description": "Wiener Schnitzel iz bavarskega svinjskega mesa, postreženo s pomfrijem ali krompirjevo–kumarično solato in brusnicami.",
       "pairing": "Riesling Easy-White ali Radler"
     },
     "farm-duck": {
@@ -84,137 +117,137 @@
       "pairing": "Münchner Dunkel"
     },
     "backhendl": {
-      "description": "Oščepek piščančje stegenske mesnine brez kosti, paniran, s pomfrijem ali krompirjevo–kumaričnim solatom."
+      "description": "Brezkostni paniran piščančji zabek s pomfrijem ali krompirjevo–kumarično solato."
     },
     "duet-of-the-ox": {
-      "description": "Ramen in lica vola v rdečem vinu, zimski špinačni mlad list in kremast krompir."
+      "description": "Ramenica in lice vola v rdečem vinu, špinača, kremast krompir."
     },
     "veal-steak": {
-      "description": "Telečji zrezek s pisanimi poprovimi kremno omako, flambeiran kohlrabi, krompirjev rösti."
+      "description": "Telečji zrezek z barvno omako iz zelenega popra, flambeiran kohlrabi, krompirjev rösti."
     },
     "veal-meatballs": {
-      "description": "Telečji polpeti z oblaganimi zelenjavami in rožmarinovimi krompirji."
+      "description": "Telečje polpete z obloženim zelenjem in rožmarinovim krompirjem."
     },
     "white-sausage": {
-      "description": "Dve bele klobase, postreženi z precljem in gorčico."
+      "description": "Dve beli klobasi, postreženi s precljem in gorčico."
     },
     "white-sausage-piece": {
-      "description": "En sam beli klobas."
+      "description": "En sam bel klobas."
     },
     "polish-sausage": {
       "description": "Poljska klobasa s precljem in gorčico."
     },
     "currywurst": {
-      "description": "Curry klobasa, postrežena s pomfrijem.",
-      "pairing": "Hefeweizen wheat beer"
+      "description": "Currywurst klobasa, postrežena s pomfrijem.",
+      "pairing": "Hefeweizen pšenično pivo"
     },
     "bratwurstreindl": {
-      "description": "Ponvi pečene klobase s kislim zeljem ali krompirjevo solato — razdelitvena porcija.",
+      "description": "Ponev pečenih klobas z zeljem ali krompirjevo solato — porcija za deljenje.",
       "pairing": "Russn (lahek Hefeweizen)"
     },
     "rump-steak": {
-      "description": "Govedina iz Murnaua z rdečim vinom in omako iz čebule, ocvrta čebula, käsespätzle."
+      "description": "Rump steak Murnau z omako iz rdečega vina in čebule, ocvrta čebula, käsespätzle."
     },
     "ribeye-300g": {
-      "description": "Maščobni pokrov govedine Murnau, omaka Café de Paris, žarano zelenjavo, krompirjev gratin."
+      "description": "Ribeye (maščobni rob) iz Murnau goveda, café de Paris omaka, pečeno zelenjavo, gratiniran krompir."
     },
     "deluxe-burger": {
-      "description": "200 g govedine Werdenfelser, cheddar, solata, paradižnik, kumarice, čebula, domača Donisl omaka.",
+      "description": "200g Werdenfelser govedine, cheddar, solata, paradižnik, kislci, čebula, domača Donisl omaka.",
       "pairing": "Münchner Hell"
     },
     "icefish": {
-      "description": "Timijan, ratatouille zelenjava, krompirjev gratin."
+      "description": "Postrv ali izlov dneva z timijanom, ratatouille zelenjavo in gratiniranim krompirjem."
     },
     "brotzeitbrettl": {
-      "description": "Kmečke prekajene mesnine, slanina klobasa, jetrenka, hladno pečeno govedino, O'gmachter, planinski sir, hren, kruh."
+      "description": "Kmečke dimljene mesnine, slaninska klobasa, pašteta, hladna pečenka, O'gmachter, gorski sir, hren, kruh."
     },
     "donisl-4erlei": {
-      "description": "Hummus, domač sir, soljeno maslo in zeliščna kisla smetana, postreženo z košaro kruha."
+      "description": "Hummus, narejen sir, soljeno maslo in zeliščen kisla smetana, postreženo s košaro kruha."
     },
     "beef-tartare": {
-      "description": "Goveji tatarski biftek s tartufato in pečenim ekološkim jajcem."
+      "description": "Tatar z bučnim kremnim namazom in pečenim ekološkim jajcem."
     },
     "calfs-head-carpaccio": {
-      "description": "Telečji carpaccio z granatnim jabolkom, hrenom in kumaro."
+      "description": "Telečje carpaccio, granatno jabolko, hren, kumara."
     },
     "ogmachter-kas": {
-      "description": "Kremni sir z ocvrtimi čebulnimi obročki, redkvicami, solato in jagodičjem."
+      "description": "Kremast sir z obročki čebule, redkvicami, solato in jagodičevjem."
     },
     "sausage-salad": {
-      "description": "Solata s klobaso v hišni prelivu, čebulni obročki, vložena kumarica, paradižnik, jagodičje (+1,90 z rezinami planinskega sira)."
+      "description": "Klobasna solata z domačo prelivom, obročki čebule, kiselcem, paradižnikom, jagodičevjem (+1,90 z rezinami gorskega sira)."
     },
     "donisl-salad": {
-      "description": "Mešana zelena solata, paradižnik, kumara, hišni preliv, semena in kruhovi krutončki."
+      "description": "Mešana listnata solata, paradižnik, kumara, domači preliv, semena in kruhovi koščki."
     },
     "bread-basket": {
-      "description": "Košara svežega kruha."
+      "description": "Sveža košara kruha."
     },
     "brezn": {
-      "description": "Bavarski prekelj (preclj)."
+      "description": "Bavarski preclj."
     },
     "oxen-consomme": {
-      "description": "Bistra goveja juha z jetrenimi cmoki ali palačinkinimi trakci, zelenjavo in drobnjakom."
+      "description": "Bistra goveja juha z jeternimi cmoki ali palačinkinimi trakci, zelenjavo in drobnjakom."
     },
     "tomato-soup": {
-      "description": "Gladek paradižnikov crm s kremno burrato in baziliko."
+      "description": "Gladek paradižnikov krem z burrata–bazilikinim smetanovim prelivom."
     },
     "classic-sides": {
-      "description": "Kislo zelje, rdeče zelje, solata iz slanine in zelja, kremast krompir, krompirjevi cmoki, majhni pečeni krompirčki, spätzle ali pomfrij — za izbiro."
+      "description": "Kislo zelje, rdeče zelje, solata z blazinicami slanine, kremast krompir, krompirjevi cmoki, majhni pečeni krompirčki, spätzle ali pomfri — posamezno."
     },
     "vegetable-sides": {
-      "description": "Zelenjavna priloga ali krompirjevo–kumarični solatni izbor — za izbiro."
+      "description": "Zelenjavna priloga ali krompirjevo–kumarična solata — posamezno."
     },
     "power-bowl": {
-      "description": "Dišeča riževa skleda z avokadom, edamame, čičeriko, korenčkom, paradižnikom, kumaro, arašidi in pomarančno-metino-limino polivko."
+      "description": "Dišeča riževa skleda z avokadom, edamame, čičeriko, korenčkom, paradižnikom, kumaro, arašidi in prelivom iz pomaranče, mete in limete."
     },
     "kaesespaetzle": {
-      "description": "Käsespätzle z ocvrtimi čebulnimi obročki.",
-      "pairing": "Münchner Dunkel ali polno telo belo vino"
+      "description": "Kaesespaetzle z obročki čebule.",
+      "pairing": "Münchner Dunkel ali polno belo vino"
     },
     "linguine-truffles": {
-      "description": "Testenine z mladim špinačo in zimskim tartufom."
+      "description": "Linguine z mlado špinačo in zimskimi tartufi."
     },
     "rahmschwammerl": {
-      "description": "Kremne gobice, postrežene s precljevimi cmoki."
+      "description": "Kremne gobice, postrežene s precljevim cmokom."
     },
     "creme-brulee": {
-      "description": "Postreženo z sorbetom in jagodičjem.",
-      "pairing": "Rieslaner Auslese desertno vino"
+      "description": "Servirano s sorbetom in jagodičevjem.",
+      "pairing": "Rieslaner Auslese sladko vino"
     },
     "kaiserschmarrn": {
-      "description": "Kaiserschmarrn z rozinami, maslom, sladkorjem in karameliziranimi mandlji, postrežen z jabolčnim pirejem — idealno za deliti.",
-      "pairing": "Rieslaner Auslese desertno vino"
+      "description": "Kaiserschmarrn z rozinami, maslom, sladkorjem in karameliziranimi mandlji, postrežen z jabolčnim čežano — odlično za deljenje.",
+      "pairing": "Rieslaner Auslese sladko vino"
     },
     "kirschmichl": {
-      "description": "Topel češnjev kolač, postrežen s vaniljevo kremo."
+      "description": "Topla češnjeva torta, postrežena s vanilijevo kremo."
     },
     "apple-strudel": {
-      "description": "Klasičen jabolčni štrudelj, postrežen s vaniljevo kremo.",
+      "description": "Klasičen jabolčni zavitek, postrežen s vanilijevo kremo.",
       "pairing": "Milchkaffee"
     },
     "muenchner-hell": {
-      "description": "Spodnje fermentirano, nežno grenak hmeljni pridih, rahlo sladkast. 5,0 % vol."
+      "description": "Spodnje kvašeno, nežno grenek hmeljni pridih, rahlo sladkašna. 5,0 % vol."
     },
     "beer-light-alcohol-free": {
-      "description": "Naravno zamegljeno, s karamelno in medeno noto. <0,5 % vol."
+      "description": "Naravno motno, note karamele in medu. <0,5 % vol."
     },
     "muenchner-radler": {
-      "description": "Münchner Helles z drobno limonado, ne preveč sladko."
+      "description": "Münchner Helles z nežno limonado, ni prevsečen."
     },
     "muenchner-dunkel": {
-      "description": "Nežno grenka, pražen slad z notami karamela in kandiranega sadja. 5,0 % vol."
+      "description": "Nežno grenak, pečen sladniška nota s karamelo in kandiranim sadjem. 5,0 % vol."
     },
     "hefeweizen": {
-      "description": "Vrhnje fermentirano pšenično pivo z notami banane in medu."
+      "description": "Zgornje kvašeno pšenično pivo z vonjem po banani in medu."
     },
     "russn": {
-      "description": "Hefeweizen z nežno limonado, ne preveč sladko."
+      "description": "Hefeweizen z nežno limonado, ni prevsečen."
     },
     "cola-wheat": {
       "description": "Hefeweizen z Coca-Colo."
     },
     "non-alcoholic-wheat": {
-      "description": "Nežno dealkoholizirano po popolni zrelosti, ohranja aromo."
+      "description": "Nežno dealkoholizirano po polnem zorjenju, ohrani aromo."
     },
     "salvator": {
       "description": "Močno pivo (Starkbier), sezonsko — na voljo februar/marec. 0,5 l."
@@ -223,129 +256,141 @@
       "description": "Sezonsko — na voljo junij/julij/avgust (poletni čas). 0,5 l."
     },
     "wiesnbier": {
-      "description": "Pivo Oktoberfesta, sezonsko — na voljo september/oktober. 0,5 l."
+      "description": "Oktoberfest pivo, sezonsko — na voljo september/oktober. 0,5 l."
     },
     "weissweinschorle": {
-      "description": "Bel vinski špricer. 0,3 l."
+      "description": "Beli vinski razredčenec. 0,3 l."
     },
     "pinot-gris-glass": {
-      "description": "Vinarija Hirschmüller, Württemberg — lahko, pitno."
+      "description": "Hirschmüller, Württemberg — lahko in pitno."
     },
     "primitivo-glass": {
-      "description": "Sir of the Faun, Puglia — temne jagode, češnja, subtilna začimba."
+      "description": "Sir of the Faun, Puglia — temno jagodičevje, češnja, subtilna začimbnost."
     },
     "prodry-frizzante": {
       "description": "Motelvini, Veneto, Italija. 0,1 l."
     },
     "paul-michel-champagne": {
-      "description": "Champagne Premier Cru, Champagne, Francija. 0,75 l steklenica."
+      "description": "Champagne Premier Cru, Champagne, Francija. 0,75 l."
     },
     "taittinger-rose": {
-      "description": "Champagne Taittinger, Francija. 0,75 l steklenica."
+      "description": "Champagne Taittinger, Francija. 0,75 l."
     },
     "valdo-prosecco": {
-      "description": "Valdo, Veneto — klasična italijanska penina. 0,75 l steklenica."
+      "description": "Valdo, Veneto — klasično italijansko peneče vino. 0,75 l."
     },
     "winzersekt": {
-      "description": "Vinarija Pfaffmann, Pfalz, Nemčija. 0,75 l steklenica."
+      "description": "Pfaffmann, Pfalz, Nemčija. 0,75 l."
     },
     "chardonnay-bottle": {
-      "description": "Vinarija Hirschmüller, Württemberg — marakuja, mango, ananas. 0,75 l steklenica."
+      "description": "Hirschmüller, Württemberg — marakuja, mango, ananas. 0,75 l."
+    },
+    "chardonnay-glass": {
+      "description": "Hirschmüller, Württemberg. 0,1 l."
     },
     "chardonnay-macon-ige": {
-      "description": "Domaine Fichet, Burgundija — jabolko, hruška, bela breskev, subtilna mineralnost. 0,75 l steklenica."
+      "description": "Domaine Fichet, Burgundija — jabolko, hruška, bela breskev, nežna mineralnost. 0,75 l."
     },
     "pinot-gris-tradition": {
-      "description": "Vinarija Bott Frères, Burgundija — marelica, dunajsko jabolko, lešnik, rahla dimnost. 0,75 l steklenica."
+      "description": "Bott Frères, Burgundija — marelica, dunajska jabolka, lešnik, rahla dimnost. 0,75 l."
     },
     "pinot-gris-oetinger": {
-      "description": "Vinarija Oetinger, Rheingau — zrela hruška, rumeno jabolko, kanček mandlja. 0,75 l steklenica."
+      "description": "Oetinger, Rheingau — zrela hruška, rumeno jabolko, ton mandlja. 0,75 l."
     },
     "pinot-gris-reserve-pauline": {
-      "description": "Vinarija Pfaffmann, Pfalz — hruška, ananas, nektarina, limonska trava, cvetlične note. 0,75 l steklenica."
+      "description": "Pfaffmann, Pfalz — hruška, ananas, nektarina, limonska trava, cvetlična nota. 0,75 l."
     },
     "pinot-blanc-grand-reserve": {
-      "description": "Vinarija Taubenschuss, avstrijski Weinviertel — melon, lešnik, seno, karamel. 0,75 l steklenica."
+      "description": "Taubenschuss, Weinviertel, Avstrija — melon, lešnik, seno, karamel. 0,75 l."
     },
     "trebbiano-di-lugana": {
-      "description": "Vinarija Zenato, Veneto, Italija — sveža kislost, mineralno, citrusi, zeleno jabolko, hruška. 0,75 l steklenica."
+      "description": "Zenato, Veneto, Italija — sveža kislost, mineralnost, citrusi, zeleno jabolko, hruška. 0,75 l."
+    },
+    "lugana-glass": {
+      "description": "Zenato, Veneto, Italija. 0,1 l."
     },
     "riesling-easy-white": {
-      "description": "Vinarija Oetinger, Rheingau — limeta, jabolko, bela breskev, idealen aperitiv. 0,75 l steklenica.",
+      "description": "Oetinger, Rheingau — limeta, jabolko, bela breskev, idealno kot aperitiv. 0,75 l.",
       "pairing": "Wiener Schnitzel"
     },
     "riesling-gottloos": {
-      "description": "Vinarija Dr. Loosen, Mosel — citrusi, jabolko, elegantna mineralnost. 0,75 l steklenica."
+      "description": "Dr. Loosen, Mosel — citrusi, jabolko, elegantna mineralnost. 0,75 l."
     },
     "riesling-heiligenstein": {
-      "description": "Vinarija Bründlmayer, Langenlois, Kamptal, Avstrija — sveži citrusi, jabolko, zeliščna začimba. 0,75 l steklenica."
+      "description": "Bründlmayer, Langenlois, Kamptal, Avstrija — sveži citrusi, jabolko, zeliščna začimbnost. 0,75 l."
     },
     "riesling-smoky-dry": {
-      "description": "Weingut Oetinger, Rheingau — dimasta mineralnost, sočno jabolko, citrusi. 0,75 l steklenica."
+      "description": "Weingut Oetinger, Rheingau — dimna mineralnost, sočno jabolko, citrusi. 0,75 l."
     },
     "riesling-bright-side-of-life": {
-      "description": "Vinarija Stahl, Frankonija, Nemčija — sadno, sveže, enostavno. 0,75 l steklenica."
+      "description": "Stahl, Franken, Nemčija — sadno, sveže, direktno. 0,75 l."
+    },
+    "riesling-nachschlag-glass": {
+      "description": "Stahl, Franken, Nemčija. 0,1 l."
     },
     "sauvignon-blanc": {
-      "description": "Chateau de la Chaise, Loire — kosmulja, zeleno jabolko, eksotično sadje. 0,75 l steklenica."
+      "description": "Chateau de la Chaise, Loire — kosmulja, zeleno jabolko, eksotično sadje. 0,75 l."
     },
     "sauvignon-blanc-reserve": {
-      "description": "Vinarija Taubenschuss, avstrijski Weinviertel — limeta, kosmulja, eksotično sadje. 0,75 l steklenica."
+      "description": "Taubenschuss, Weinviertel, Avstrija — limeta, kosmulja, eksotično sadje. 0,75 l."
     },
     "silvaner-easy-white": {
-      "description": "Weingut am Stein, Frankonija — zeleno jabolko, hruška, subtilna zelišča. 0,75 l steklenica."
+      "description": "Weingut am Stein, Franken — zeleno jabolko, hruška, nežna zeliščnost. 0,75 l."
     },
     "gruener-veltliner-tenn": {
-      "description": "Vinarija Taubenschuss, avstrijski Weinviertel — jabolko, beli poper, zeliščna začimba. 0,75 l steklenica."
+      "description": "Taubenschuss, Weinviertel — jabolko, beli poper, zeliščna začimbnost. 0,75 l."
     },
     "riesling-gottloos-3l": {
-      "description": "Vinarija Dr. Loosen, Mosel. 3,0 l steklenica."
+      "description": "Dr. Loosen, Mosel. 3,0 l."
     },
     "gruener-veltliner-steinberg": {
-      "description": "Vinarija Karl Fritsch, Burgenland, Avstrija. 1,5 l steklenica."
+      "description": "Karl Fritsch, Burgenland, Avstrija. 1,5 l."
     },
     "chardonnay-morillon": {
-      "description": "Vinarija Lackner-Tinnacher, južna Štajerska, Avstrija. 1,5 l steklenica."
+      "description": "Lackner-Tinnacher, Južna Štajerska, Avstrija. 1,5 l."
     },
     "cuvee-adrian-sangiovese": {
-      "description": "Rdeča cuvée, Toscana Rosso, Toskana. 1,5 l steklenica."
+      "description": "Rdeča cuvée, Toscana Rosso, Toskana. 1,5 l."
     },
     "primitivo-bottle": {
-      "description": "Vinarija Barbanera, Apulija, Italija — temne jagode, češnja, subtilna začimba. 0,75 l steklenica."
+      "description": "Barbanera, Apulija, Italija — temno jagodičevje, češnja, subtilna začimba. 0,75 l."
     },
     "herrgott-cuvee": {
-      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz — češnje, rdeče jagodičevje. 0,75 l steklenica."
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz — češnje, rdeče jagodičevje. 0,75 l."
+    },
+    "herrgott-cuvee-glass": {
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz. 0,1 l."
     },
     "tuscany-red-cuvee": {
-      "description": "Duca di Salangane, Toskana — češnje, temne jagode. 0,75 l steklenica."
+      "description": "Duca di Salangane, Toskana — češnje, temno jagodičevje. 0,75 l."
     },
     "pinot-noir-goldberg": {
-      "description": "Vinarija Toni Hartl, Burgenland — rdeče jagodičevje, češnje, subtilna začimba. 0,75 l steklenica."
+      "description": "Toni Hartl, Burgenland — rdeče jagodičevje, češnje, subtilna začimba. 0,75 l."
     },
     "merlot": {
-      "description": "Chateau Gensac, Gaskoña — temne češnje, slive, začimbnost. 0,75 l steklenica."
+      "description": "Chateau Gensac, Gaskoñja — temne češnje, slive, začimba. 0,75 l."
     },
     "brunello-di-montalcino": {
-      "description": "Tenuta Corte Pavone, Sangiovese, Toskana — temno jagodičje, češnja, čokolada. 0,75 l steklenica."
+      "description": "Tenuta Corte Pavone, Sangiovese, Toskana — temno jagodičevje, češnja, čokolada. 0,75 l."
     },
     "black-ox-cuvee": {
-      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Pfalz — temne jagode, češnja, začimba. 0,75 l steklenica."
+      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Pfalz — temno jagodičevje, češnja, začimba. 0,75 l."
     },
     "rose-lime-stone": {
-      "description": "Vinarija Unger, Neusiedler See — rdeče jagodičevje, jagoda, malina, citrusi. 0,75 l steklenica."
+      "description": "Unger, Neusiedler See — rdeče jagodičevje, jagoda, malina, citrusi. 0,75 l."
     },
     "torres-natureo": {
-      "description": "Miguel Torres, Vilafranca del Penedès — citrusi, jabolko, lahko. 0,75 l steklenica."
+      "description": "Miguel Torres, Vilafranca del Penedès — citrusi, jabolko, lahkotno. 0,75 l."
     },
     "rieslaner-auslese": {
-      "description": "Vinarija Juliusspital, Frankonija — desertno vino. 0,5 l steklenica.",
-      "pairing": "Kaiserschmarrn ali Crème brûlée"
+      "description": "Juliusspital, Franken — sladko vino. 0,5 l.",
+      "pairing": "Kaiserschmarrn or Crème brûlée"
     },
     "aperol-spritz": {
       "description": "Klasičen italijanski aperitiv. 0,2 l."
     },
     "hugo": {
-      "description": "Bezgov spritz. 0,2 l."
+      "description": "Hugo (bazgin spritz). 0,2 l."
     },
     "campari-soda": {
       "description": "0,2 l."
@@ -363,7 +408,7 @@
       "description": "13 cl."
     },
     "hirschkuss": {
-      "description": "38 % vol., steklenica s patentnim zamaškom, 4 cl."
+      "description": "38 % vol., flaška s patentnim zamaškom, 4 cl."
     },
     "vodka-redbull": {
       "description": "0,27 l."
@@ -372,10 +417,10 @@
       "description": "40 % vol. Edelbrand, Sigi Herzog destilat. 2 cl."
     },
     "farm-fruit-growers": {
-      "description": "Linster fina sadna destilarna, eno leto zoreno v hrastovih sodih. 2 cl."
+      "description": "Linster destilarna okusnega sadja, eno leto zorjeno v hrastovih sodih. 2 cl."
     },
     "feiner-mirabell": {
-      "description": "Linster fina sadna destilarna, zrela marelična aromа. 2 cl."
+      "description": "Linster destilarna, zrel okus marelice. 2 cl."
     },
     "enzian-gentian-brandy": {
       "description": "Wilhelm Marx Fine Spirits Manufactory. 2 cl."
@@ -384,7 +429,7 @@
       "description": "40 % vol. Edelmanufaktur Wilhelm Marx. 2 cl."
     },
     "grappa-chardonnay": {
-      "description": "Dedovska grappa. 2 cl."
+      "description": "Grappa Chardonnay \"Grandfather\". 2 cl."
     },
     "paulaner-spezi": {
       "description": "0,4 l."
@@ -408,37 +453,37 @@
       "description": "0,25 l."
     },
     "bad-brambacher": {
-      "description": "Negazirana ali rahlo gazirana. 0,5 l."
+      "description": "Mirna ali srednje gazirana. 0,5 l."
     },
     "table-water": {
       "description": "Negazirana ali gazirana."
     },
     "apple-spritzer": {
-      "description": "0,4 l."
+      "description": "Jabolčni razredčenec. 0,4 l."
     },
     "johannisbeerschorle": {
-      "description": "Špricer iz ribeza. 0,4 l."
+      "description": "Rdeča breskvina/črni ribez razredčenec. 0,4 l."
     },
     "maracujaschorle": {
-      "description": "Špricer iz pasijonke. 0,4 l."
+      "description": "Razredčenec z marakujo. 0,4 l."
     },
     "wolfra-orange-juice": {
-      "description": "0,2 l."
+      "description": "Sok Wolfra pomaranča. 0,2 l."
     },
     "espresso": {
-      "description": ""
+      "description": "Espresso."
     },
     "double-espresso": {
-      "description": ""
+      "description": "Dvojni espresso."
     },
     "espresso-macchiato": {
-      "description": ""
+      "description": "Espresso macchiato."
     },
     "cappuccino": {
-      "description": ""
+      "description": "Cappuccino."
     },
     "latte-macchiato": {
-      "description": ""
+      "description": "Latte macchiato."
     },
     "milchkaffee": {
       "description": "Kava z mlekom."
@@ -447,22 +492,22 @@
       "description": "Haferl Kaffee Creme."
     },
     "drinking-chocolate": {
-      "description": "S mlekom."
+      "description": "S toplim mlekom."
     },
     "tea-ronnefeldt": {
-      "description": "Darjeeling, Mountain Herbs, Sweet Berries, Green Dragon Lung Ching, Refreshing Mint ali Fruity Camomile."
+      "description": "Darjeeling, Mountain Herbs, Sweet Berries, Green Dragon Lung Ching, osvežilna meta ali sadna kamilica."
     },
     "kids-potato-dumplings": {
-      "description": "S omako iz pečene svinjine."
+      "description": "Z omako iz pečene svinjine."
     },
     "kids-kaesspatzn": {
-      "description": "Käsespätzle, otroška porcija."
+      "description": "Kaesespaetzle, otroška porcija."
     },
     "kids-rostbratwuerstl": {
-      "description": "Z izborom pomfrija ali krompirjevo–kumaričnega solata."
+      "description": "Otroška klobasica s pomfrijem ali krompirjevo–kumarično solato."
     },
     "kids-fries": {
-      "description": ""
+      "description": "Pomfrij."
     }
   }
 }
