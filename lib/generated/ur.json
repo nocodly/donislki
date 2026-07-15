@@ -1,0 +1,513 @@
+{
+  "strings": {
+    "welcome": "نیچے مینو دیکھیں، یا ہماری AI اسسٹنٹ سے سفارش مانگیں۔",
+    "categoriesTitle": "مینُو",
+    "featuredTitle": "نمایاں",
+    "askAi": "AI سے پوچھیں",
+    "chatTitle": "DonislKI",
+    "discussing": "بات چیت جاری ہے",
+    "askAboutThis": "اس کے بارے میں AI سے پوچھیں",
+    "askAboutDishTemplate": "{dish} کے بارے میں بتائیں",
+    "pairing": "اِس کے ساتھ بہترین",
+    "fromPricePrefix": "سے ",
+    "allergensLabel": "الرجی",
+    "allergensUnknown": "براہِ مہربانی عملے سے تصدیق کریں",
+    "composerPlaceholder": "مینو کے بارے میں پوچھیں…",
+    "send": "ارسال کریں",
+    "close": "بند کریں",
+    "noInfo": "اس مینو میں میرے پاس وہ معلومات موجود نہیں ہیں۔",
+    "categories": {
+      "weekly": "ہفتہ وار اسپیشلز",
+      "traditional": "روایتی",
+      "sausages": "ساسیج",
+      "starters": "اسٹارٹر",
+      "vegan": "ویگن",
+      "desserts": "میٹھا",
+      "beer": "بیئر",
+      "wine": "شراب",
+      "aperitif": "اپیریٹیف",
+      "spirits": "اسپِرٹز",
+      "drinks": "غیر الکحل مشروبات اور کافی",
+      "kids": "بچوں کے لیے"
+    },
+    "tagLabels": {
+      "sharing": "شیئر کرنے کے لیے",
+      "signature": "دستخط",
+      "hearty": "دل بھرا",
+      "classic": "کلاسک",
+      "light": "ہلکا",
+      "seasonal": "موسمی",
+      "strong": "مضبوط",
+      "non-alcoholic": "غیر الکحل",
+      "vegetarian": "شاندار (ویجیٹیرین)",
+      "vegan": "ویگن",
+      "spirit": "اسپِرٹ",
+      "water": "پانی",
+      "coffee": "کافی",
+      "hot-drink": "گرم مشروب",
+      "aperitif": "اپیریٹیف",
+      "bowl": "باول",
+      "white": "سفید",
+      "red": "سرخ",
+      "rose": "روزے",
+      "sparkling": "چمکدار",
+      "dessert-wine": "میٹھا شراب",
+      "by-glass": "گلاس میں",
+      "bottle": "بوتل",
+      "lunch-special": "لنچ اسپیشل"
+    },
+    "quickSuggestions": [
+      "آپ کیا سفارش کریں گے؟",
+      "یہ ڈش کس مشروب کے ساتھ میل کھاتی ہے؟",
+      "ویگن اختیارات دکھائیں",
+      "کس میں الرجی ہے؟",
+      "کچھ ہلکا چاہیے",
+      "کچھ روایتی دکھائیں"
+    ]
+  },
+  "items": {
+    "chanterelle-soup": {
+      "description": "چینٹیریل مشروم کی کریمی سوپ، Tyrolean بیکن ڈمپلنگ کے ساتھ۔"
+    },
+    "romaine-chanterelle-salad": {
+      "description": "رومین لیٹش کے سینٹر، رسپبیری وینیگریٹ، سرخ پیاز، مولی اور بھنے ہوئے چینٹیریل مشروم۔"
+    },
+    "veal-steak-chanterelle": {
+      "description": "وزیری بیف اسٹیک چینٹیریل مشروم، مٹر اور کریم والی آلو کے ساتھ۔"
+    },
+    "chanterelle-linguine": {
+      "description": "لنگوئین پاستا چینٹیریل مشروم، کریم، تھائم اور Bergkäse کے ساتھ۔"
+    },
+    "chanterelle-cream": {
+      "description": "کریم میں تیار کردہ چینٹیریل مشروم، تھائم اور بریڈ پریٹزل ڈمپلنگ کے ساتھ۔"
+    },
+    "lunch-monday-asparagus-linguine": {
+      "description": "ہفتہ کے روز کا لنچ اسپیشل، 12:00–15:30 پیش کیا جاتا ہے، ایک کافی شامل ہے۔ اسپیرگس لنگوئین، چائیو کریم، روسٹ بیف اور ٹماٹر۔"
+    },
+    "lunch-tuesday-bratengroestl": {
+      "description": "ہفتہ وار لنچ اسپیشل، 12:00–15:30، ایک کافی شامل۔ مکسڈ روسٹ، سفید بند گوبی، آلو کا ڈمپلنگ اور فرائیڈ انڈا۔"
+    },
+    "lunch-wednesday-strindberg-steak": {
+      "description": "ہفتہ وار لنچ اسپیشل، 12:00–15:30، ایک کافی شامل۔ سور کا لوہم کٹا اسٹیک، سبز بیس، آلو گریٹن کے ساتھ۔"
+    },
+    "lunch-thursday-chicken-geschnetzeltes": {
+      "description": "ہفتہ وار لنچ اسپیشل، 12:00–15:30، ایک کافی شامل۔ مشروم سوس میں کٹے ہوئے چکن، ہرب Spätzle کے ساتھ۔"
+    },
+    "lunch-friday-fish-fillet": {
+      "description": "ہفتہ وار لنچ اسپیشل، 12:00–15:30، ایک کافی شامل۔ فرائی کیا گیا آج کا فِش فلے، ریمولَڈ اور آلو-کھیرا سلاد کے ساتھ۔"
+    },
+    "donisl-roasting-pan": {
+      "description": "بیف، بتّخ، سور کی ٹانگ اور ساسیجز، سرخ بند گوبی، آلو کے ڈمپلنگ اور چیز Spätzle کے ساتھ — اشتراک کے لیے۔",
+      "pairing": "Münchner Dunkel"
+    },
+    "roast-pork": {
+      "description": "بوا ریائی سور کا شولڈر اور بیلی، کرسٹی، قدرتی گریوی، آلو کے ڈمپلنگ اور کولسلا کے ساتھ۔",
+      "pairing": "Münchner Dunkel"
+    },
+    "schweinshaxe": {
+      "description": "خستہ روسٹ کی ہوئی سور کی ٹانگ، قدرتی سوس، آلو کے ڈمپلنگ اور کولسلا کے ساتھ پیش کی جاتی ہے۔",
+      "pairing": "Best with Dunkel beer."
+    },
+    "wiener-schnitzel": {
+      "description": "بوا ریائی اسٹرا-فیڈ پورک Wiener Schnitzel، فرائز یا آلو-کھیرا سلاد اور کرین بیریز کے ساتھ۔",
+      "pairing": "Riesling Easy-White or a Radler"
+    },
+    "farm-duck": {
+      "description": "روزميري سوس، آلو کے ڈمپلنگ اور سرخ بند گوبی کے ساتھ۔",
+      "pairing": "Münchner Dunkel"
+    },
+    "backhendl": {
+      "description": "ہڈی سے پاک بریڈ کیے ہوئے چکن کی ٹانگ، فرائز یا آلو-کھیرا سلاد کے ساتھ۔"
+    },
+    "duet-of-the-ox": {
+      "description": "بیل کے شولڈر اور چیک، ریڈ وائن جس، بیبی سپینچ اور کریمی آلو۔"
+    },
+    "veal-steak": {
+      "description": "رنگین پیپر کارن کریم سوس، پھونک مارا ہوا kohlrabi، آلو rösti کے ساتھ۔"
+    },
+    "veal-meatballs": {
+      "description": "سزائے شُدہ سبزیاں، روزميري آلو۔"
+    },
+    "white-sausage": {
+      "description": "دو ٹکڑے، پریٹزل اور مسٹرڈ کے ساتھ پیش کیے جاتے ہیں۔"
+    },
+    "white-sausage-piece": {
+      "description": "ایک واحد white sausage۔"
+    },
+    "polish-sausage": {
+      "description": "پریٹزل اور مسٹرڈ کے ساتھ۔"
+    },
+    "currywurst": {
+      "description": "Currywurst کے ساتھ فرنچ فرائز۔",
+      "pairing": "Hefeweizen wheat beer"
+    },
+    "bratwurstreindl": {
+      "description": "گرل شدہ ساسیج کا پین، sauerkraut یا آلو کے سلاد کے ساتھ — شیئرنگ پورشن۔",
+      "pairing": "Russn (light Hefeweizen)"
+    },
+    "rump-steak": {
+      "description": "Murnau بیف، ریڈ وائن اور پیاز کی جس، فرائڈ پیاز، KäseSpätzle کے ساتھ۔"
+    },
+    "ribeye-300g": {
+      "description": "Murnau بیف کا فیٹ کیپ، café de paris سوس، گرل کی ہوئی سبزیاں، آلو گریٹن۔"
+    },
+    "deluxe-burger": {
+      "description": "200g Werdenfelser بیف، چیڈر، لیٹش، ٹماٹر، اچار، پیاز، گھر کا Donisl سوس۔",
+      "pairing": "Münchner Hell"
+    },
+    "icefish": {
+      "description": "تھائم، راتاٹُوئے سبزیاں، آلو گریٹن۔"
+    },
+    "brotzeitbrettl": {
+      "description": "فارمر کے سگری ہوئی گوشت، بیکن ساسیج، لیور ورسٹ، سرد روسٹ بیف، O'gmachter، ماؤنٹین چیز، ہارس ریڈش، بریڈ۔"
+    },
+    "donisl-4erlei": {
+      "description": "ہمس، بنانے والا پنیر، نمکین مکھن اور ہربڈ سَو کریم، بریڈ باسکٹ کے ساتھ پیش کیا جاتا ہے۔"
+    },
+    "beef-tartare": {
+      "description": "ٹرفل کریم، اوون میں پکا ہوا آرگینک انڈا۔"
+    },
+    "calfs-head-carpaccio": {
+      "description": "انار، ہارس ریڈش، ککڑی۔"
+    },
+    "ogmachter-kas": {
+      "description": "کریمی پنیر، پیاز کے حلقے، مولی، لیٹش اور بیریز کے ساتھ۔"
+    },
+    "sausage-salad": {
+      "description": "ہاؤس ڈریسنگ، پیاز کے حلقے، اچار، ٹماٹر، بیری (ملائی پنیر کے ٹکڑوں کے ساتھ +1.90)۔"
+    },
+    "donisl-salad": {
+      "description": "پتے دار سبزیاں، ٹماٹر، ککڑی، ہاؤس ڈریسنگ، بیج اور کروٹونز۔"
+    },
+    "bread-basket": {
+      "description": "تازہ بریڈ باسکٹ۔"
+    },
+    "brezn": {
+      "description": "بوارین پریٹزل۔"
+    },
+    "oxen-consomme": {
+      "description": "صاف بیف بروتھ، لیور ڈمپلنگ یا پینکیک کے ٹکڑے، سبزیاں اور چائیو۔"
+    },
+    "tomato-soup": {
+      "description": "ملائم ٹماٹر سوپ، بُراٹا-تلسی کریم کے ساتھ۔"
+    },
+    "classic-sides": {
+      "description": "Sauerkraut، سرخ بند گوبی، بیکن اور بند گوبی سالاد، کریمی آلو، آلو کے ڈمپلنگ، چھوٹے روسٹ کیے آلو، Spätzle یا فرنچ فرائز — ہر ایک۔"
+    },
+    "vegetable-sides": {
+      "description": "سبزیوں والا سائیڈ ڈش یا آلو اور کھیرا سلاد — ہر ایک۔"
+    },
+    "power-bowl": {
+      "description": "خوشبودار چاول، ایواکاڈو، ایڈامامی، چنے، گاجر، ٹماٹر، ککڑی، مونگ پھلی، اورنج-پودینہ-لیم ڈریسنگ۔"
+    },
+    "kaesespaetzle": {
+      "description": "Käsespätzle پنیر کے ساتھ، پیاز کے حلقے کے ساتھ۔",
+      "pairing": "Münchner Dunkel or a full-bodied white wine"
+    },
+    "linguine-truffles": {
+      "description": "پاستا بیبی سپینچ اور سرما ئی ٹرفل کے ساتھ۔"
+    },
+    "rahmschwammerl": {
+      "description": "کریم والے مشروم پریٹزل ڈمپلنگ کے ساتھ۔"
+    },
+    "creme-brulee": {
+      "description": "سوربیٹ اور بیریز کے ساتھ پیش کیا جاتا ہے۔",
+      "pairing": "Rieslaner Auslese dessert wine"
+    },
+    "kaiserschmarrn": {
+      "description": "Kaiserschmarrn کشمش، مکھن، چینی اور کیریملائزڈ بادام کے ساتھ، سیب کی چٹنی کے ساتھ پیش — شیئر کرنے کے لیے موزوں۔",
+      "pairing": "Rieslaner Auslese dessert wine"
+    },
+    "kirschmichl": {
+      "description": "گرم چیری کیک، کسٹرڈ کے ساتھ پیش۔"
+    },
+    "apple-strudel": {
+      "description": "روایتی ایپل اسٹرڈل، کسٹرڈ کے ساتھ۔",
+      "pairing": "Milchkaffee"
+    },
+    "muenchner-hell": {
+      "description": "نیچے خمیر والی، ہلکی تلخی والی ہاپ نوٹ، ہلکا مالٹی۔ 5.0% vol."
+    },
+    "beer-light-alcohol-free": {
+      "description": "قدرتی طور پر دھندلا، کیفیر اور شہد کے نوٹس۔ <0.5% vol."
+    },
+    "muenchner-radler": {
+      "description": "Munich Helles اور نفیس لیمنیڈ کا امتزاج، بہت میٹھا نہیں۔"
+    },
+    "muenchner-dunkel": {
+      "description": "ہلکی تلخی، روسٹڈ مالٹ کے ساتھ کیفیر، کارمل اور قندیل پھل کے نوٹس۔ 5.0% vol."
+    },
+    "hefeweizen": {
+      "description": "ٹاپ-فرمنٹڈ ویٹ بیئر، کیلا اور شہد کے نوٹس کے ساتھ۔"
+    },
+    "russn": {
+      "description": "Hefeweizen اور نفیس لیمنیڈ، بہت میٹھا نہیں۔"
+    },
+    "cola-wheat": {
+      "description": "Hefeweizen کے ساتھ Coca-Cola۔"
+    },
+    "non-alcoholic-wheat": {
+      "description": "مکمل مچوریشن کے بعد نرمی سے ڈی الکحلائزڈ، اپنا خوشبو برقرار رکھتا ہے۔"
+    },
+    "salvator": {
+      "description": "مضبوط بیئر (Starkbier)، موسمی — فروری/مارچ دستیاب۔ 0.5l."
+    },
+    "kellerbier": {
+      "description": "موسمی — جون/جولائی/اگست (گرمیوں میں) دستیاب۔ 0.5l."
+    },
+    "wiesnbier": {
+      "description": "Oktoberfest بیئر، موسمی — ستمبر/اکتوبر میں دستیاب۔ 0.5l."
+    },
+    "weissweinschorle": {
+      "description": "سفید شراب اسپرِٹزر۔ 0.3l."
+    },
+    "pinot-gris-glass": {
+      "description": "Hirschmüller Winery، Württemberg — ہلکا، آسانی سے پینے کے قابل۔"
+    },
+    "primitivo-glass": {
+      "description": "Sir of the Faun، Puglia — گہرے بیریز، چیری، ہلکا مصالحہ۔"
+    },
+    "prodry-frizzante": {
+      "description": "Motelvini، Veneto، Italy۔ 0.1l."
+    },
+    "paul-michel-champagne": {
+      "description": "Champagne Premier Cru، Champagne، France۔ 0.75l بوتل۔"
+    },
+    "taittinger-rose": {
+      "description": "Champagne Taittinger، France۔ 0.75l بوتل۔"
+    },
+    "valdo-prosecco": {
+      "description": "Valdo، Veneto — کلاسک اطالوی اسپرکلنگ وائن۔ 0.75l بوتل۔"
+    },
+    "winzersekt": {
+      "description": "Pfaffmann Winery، Palatinate، Germany۔ 0.75l بوتل۔"
+    },
+    "chardonnay-bottle": {
+      "description": "Hirschmüller Winery، Württemberg — پشن فروٹ، آم، اناناس کے نوٹس۔ 0.75l بوتل۔"
+    },
+    "chardonnay-glass": {
+      "description": "Hirschmüller Winery، Württemberg۔ 0.1l."
+    },
+    "chardonnay-macon-ige": {
+      "description": "Domaine Fichet، Burgundy — سیب، ناشپاتی، سفید آڑو، ہلکی معدنیات۔ 0.75l بوتل۔"
+    },
+    "pinot-gris-tradition": {
+      "description": "Bott Frères Winery، Burgundy — خوبانی، وینیسی سیب، ہیزلنٹ، ہلکا دھواں۔ 0.75l بوتل۔"
+    },
+    "pinot-gris-oetinger": {
+      "description": "Oetinger Winery، Rheingau — پکی ناشپاتی، پیلا سیب، بادام کا اشارہ۔ 0.75l بوتل۔"
+    },
+    "pinot-gris-reserve-pauline": {
+      "description": "Pfaffmann Winery، Palatinate — ناشپاتی، انناس، نیکٹارین، لیمو گھاس، پھولدار۔ 0.75l بوتل۔"
+    },
+    "pinot-blanc-grand-reserve": {
+      "description": "Taubenschuss Winery، Austrian Weinviertel — خربوزہ، ہیزلنٹ، گھاس، کارمل۔ 0.75l بوتل۔"
+    },
+    "trebbiano-di-lugana": {
+      "description": "Zenato Winery، Veneto، Italy — تازہ تیزابیت، معدنی، ترش، سبز سیب، ناشپاتی۔ 0.75l بوتل۔"
+    },
+    "lugana-glass": {
+      "description": "Zenato Winery، Veneto، Italy۔ 0.1l."
+    },
+    "riesling-easy-white": {
+      "description": "Oetinger Winery، Rheingau — لائم، سیب، سفید آڑو، شاندار اپیریٹیف۔ 0.75l بوتل۔",
+      "pairing": "Wiener Schnitzel"
+    },
+    "riesling-gottloos": {
+      "description": "Dr. Loosen Winery، Mosel — ترش، سیب، نفیس معدنیات۔ 0.75l بوتل۔"
+    },
+    "riesling-heiligenstein": {
+      "description": "Bründlmayer Winery، Langenlois، Kamptal، Austria — تازہ ترش، سیب، ہربل مصالحہ۔ 0.75l بوتل۔"
+    },
+    "riesling-smoky-dry": {
+      "description": "Weingut Oetinger، Rheingau — دھواں دار معدنیات، رس دار سیب، ترش۔ 0.75l بوتل۔"
+    },
+    "riesling-bright-side-of-life": {
+      "description": "Stahl Winery، Franconia، Germany — پھلدار، تازہ، سادہ۔ 0.75l بوتل۔"
+    },
+    "riesling-nachschlag-glass": {
+      "description": "Stahl Winery، Franconia، Germany۔ 0.1l."
+    },
+    "sauvignon-blanc": {
+      "description": "Chateau de la Chaise، Loire — گوز بیری، سبز سیب، Egzotic پھل۔ 0.75l بوتل۔"
+    },
+    "sauvignon-blanc-reserve": {
+      "description": "Taubenschuss Winery، Austrian Weinviertel — لائم، گوز بیری، Egzotic پھل۔ 0.75l بوتل۔"
+    },
+    "silvaner-easy-white": {
+      "description": "Weingut am Stein، Franconia — سبز سیب، ناشپاتی، ہلکے جڑی بوٹیاں۔ 0.75l بوتل۔"
+    },
+    "gruener-veltliner-tenn": {
+      "description": "Taubenschuss Winery، Austrian Weinviertel — سیب، سفید مرچ، ہربی مصالحہ۔ 0.75l بوتل۔"
+    },
+    "riesling-gottloos-3l": {
+      "description": "Dr. Loosen Winery، Mosel۔ 3.0l بوتل۔"
+    },
+    "gruener-veltliner-steinberg": {
+      "description": "Karl Fritsch Winery، Burgenland، Austria۔ 1.5l بوتل۔"
+    },
+    "chardonnay-morillon": {
+      "description": "Lackner-Tinnacher Winery، Southern Styria، Austria۔ 1.5l بوتل۔"
+    },
+    "cuvee-adrian-sangiovese": {
+      "description": "ریڈ cuvée، Toscana Rosso، Tuscany۔ 1.5l بوتل۔"
+    },
+    "primitivo-bottle": {
+      "description": "Barbanera Winery، Apulia، Italy — گہرے بیریز، چیری، ہلکا مصالحہ۔ 0.75l بوتل۔"
+    },
+    "herrgott-cuvee": {
+      "description": "Cabernet Sauvignon/Franc، Merlot، Weingut am Nil، Palatinate — چیریاں، سرخ بیریز۔ 0.75l بوتل۔"
+    },
+    "herrgott-cuvee-glass": {
+      "description": "Cabernet Sauvignon/Franc، Merlot، Weingut am Nil، Palatinate۔ 0.1l."
+    },
+    "tuscany-red-cuvee": {
+      "description": "Duca di Salangane، Toscana — چیریاں، گہرے بیریز۔ 0.75l بوتل۔"
+    },
+    "pinot-noir-goldberg": {
+      "description": "Toni Hartl Winery، Burgenland — سرخ بیریز، چیریاں، ہلکا مصالحہ۔ 0.75l بوتل۔"
+    },
+    "merlot": {
+      "description": "Chateau Gensac، Gascony — گہرے چیری، آلوبخارا، مصالحہ۔ 0.75l بوتل۔"
+    },
+    "brunello-di-montalcino": {
+      "description": "Tenuta Corte Pavone Winery، Sangiovese، Tuscany — گہرا بیری، چیری، چاکلیٹ۔ 0.75l بوتل۔"
+    },
+    "black-ox-cuvee": {
+      "description": "Cabernet Sauvignon، Dornfelder، Tempranillo، Weingut Lergenmüller، Palatinate — گہرے بیریز، چیری، مصالحہ۔ 0.75l بوتل۔"
+    },
+    "rose-lime-stone": {
+      "description": "Unger Winery، Lake Neusiedl — سرخ بیریز، اسٹرابیری، رسبیری، ترش۔ 0.75l بوتل۔"
+    },
+    "torres-natureo": {
+      "description": "Miguel Torres، Vilafranca del Penedès — ترش، سیب، ہلکا۔ 0.75l بوتل۔"
+    },
+    "rieslaner-auslese": {
+      "description": "Juliusspital Winery، Franconia — میٹھا ڈیزرٹ وائن۔ 0.5l بوتل۔",
+      "pairing": "Kaiserschmarrn or Crème brûlée"
+    },
+    "aperol-spritz": {
+      "description": "کلاسک اطالوی اپیریٹیف۔ 0.2l."
+    },
+    "hugo": {
+      "description": "ایلدرفل\u0012ور اسپریٹز۔ 0.2l."
+    },
+    "campari-soda": {
+      "description": "0.2l."
+    },
+    "campari-orange": {
+      "description": "0.2l."
+    },
+    "sanbitter": {
+      "description": "غیر الکحل تلخ اپیریٹیف۔ 0.2l."
+    },
+    "nut-in-a-bottle": {
+      "description": "2cl."
+    },
+    "ruescherl": {
+      "description": "13cl."
+    },
+    "hirschkuss": {
+      "description": "38% vol., سگ-ٹاپ بوتل، 4cl."
+    },
+    "vodka-redbull": {
+      "description": "0.27l."
+    },
+    "williams-christ-pear": {
+      "description": "40% vol. Edelbrand، Sigi Herzog Distillate۔ 2cl."
+    },
+    "farm-fruit-growers": {
+      "description": "Linster فائن فرٹ ڈسٹیلری، اوک بیرلز میں 1 سال عمر یافتہ۔ 2cl."
+    },
+    "feiner-mirabell": {
+      "description": "Linster فائن فرٹ ڈسٹیلری، پکے خوبانی کا ذائقہ۔ 2cl."
+    },
+    "enzian-gentian-brandy": {
+      "description": "Wilhelm Marx Fine Spirits Manufactory۔ 2cl."
+    },
+    "raspberry-pulp-brandy": {
+      "description": "40% vol. Edelmanufaktur Wilhelm Marx۔ 2cl."
+    },
+    "grappa-chardonnay": {
+      "description": "دادا جی کی گرپا۔ 2cl."
+    },
+    "paulaner-spezi": {
+      "description": "0.4l."
+    },
+    "coca-cola": {
+      "description": "0.4l."
+    },
+    "coca-cola-zero": {
+      "description": "0.4l."
+    },
+    "paulaner-lemonade": {
+      "description": "0.33l."
+    },
+    "paulaner-orange-lemonade": {
+      "description": "0.33l."
+    },
+    "tonic": {
+      "description": "0.2l."
+    },
+    "red-bull": {
+      "description": "0.25l."
+    },
+    "bad-brambacher": {
+      "description": "میٹھا یا ساکت۔ 0.5l."
+    },
+    "table-water": {
+      "description": "ساکت یا چمکدار۔"
+    },
+    "apple-spritzer": {
+      "description": "0.4l."
+    },
+    "johannisbeerschorle": {
+      "description": "بلیک کرنٹ اسپرِٹزر۔ 0.4l."
+    },
+    "maracujaschorle": {
+      "description": "پیشن فروٹ اسپرِٹزر۔ 0.4l."
+    },
+    "wolfra-orange-juice": {
+      "description": "0.2l."
+    },
+    "espresso": {
+      "description": "ایسپریسو۔"
+    },
+    "double-espresso": {
+      "description": "ڈبل ایسپریسو۔"
+    },
+    "espresso-macchiato": {
+      "description": "ایسپریسو ماکیاتو۔"
+    },
+    "cappuccino": {
+      "description": "کیپوچینو۔"
+    },
+    "latte-macchiato": {
+      "description": "لاٹے ماکیاتو۔"
+    },
+    "milchkaffee": {
+      "description": "دودھ کے ساتھ کافی۔"
+    },
+    "haferl-kaffee-creme": {
+      "description": "Haferl Kaffee Creme۔"
+    },
+    "drinking-chocolate": {
+      "description": "دودھ کے ساتھ چاکلیٹ۔"
+    },
+    "tea-ronnefeldt": {
+      "description": "Darjeeling، Mountain Herbs، Sweet Berries، Green Dragon Lung Ching، Refreshing Mint، یا Fruity Camomile۔"
+    },
+    "kids-potato-dumplings": {
+      "description": "سور کے روسٹ کی گریوی کے ساتھ آلو کے ڈمپلنگ۔"
+    },
+    "kids-kaesspatzn": {
+      "description": "بچوں کے حصے کے لیے Käse Spätzle۔"
+    },
+    "kids-rostbratwuerstl": {
+      "description": "فرائز یا آلو-کھیرا سلاد کے ساتھ۔"
+    },
+    "kids-fries": {
+      "description": "فرائز۔"
+    }
+  }
+}

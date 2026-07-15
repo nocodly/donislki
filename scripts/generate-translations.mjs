@@ -1,5 +1,5 @@
 // One-off generator: translates the base (English) UI strings and menu item
-// descriptions/pairings into each supported language via the Anthropic API,
+// descriptions/pairings into each supported language via the OpenAI API,
 // and writes the result as static JSON under lib/generated/. Run manually
 // with `npm run generate:translations` whenever menuData.ts or the English
 // strings in i18n.ts change — the app itself never calls the AI for this,
@@ -19,15 +19,52 @@ try {
     if (m && !process.env[m[1]]) process.env[m[1]] = m[2].trim();
   }
 } catch {
-  // no .env file — rely on the environment already having ANTHROPIC_API_KEY
+  // no .env file — rely on the environment already having OPENAI_API_KEY
 }
 
+const MODEL = 'gpt-5-mini';
+
 const LANGUAGES = {
-  de: 'German',
   uk: 'Ukrainian',
-  it: 'Italian',
+  de: 'German',
   fr: 'French',
   es: 'Spanish',
+  it: 'Italian',
+  pl: 'Polish',
+  cs: 'Czech',
+  sk: 'Slovak',
+  hu: 'Hungarian',
+  ro: 'Romanian',
+  bg: 'Bulgarian',
+  el: 'Greek',
+  tr: 'Turkish',
+  pt: 'Portuguese',
+  nl: 'Dutch',
+  da: 'Danish',
+  sv: 'Swedish',
+  no: 'Norwegian',
+  fi: 'Finnish',
+  lt: 'Lithuanian',
+  lv: 'Latvian',
+  et: 'Estonian',
+  sr: 'Serbian',
+  hr: 'Croatian',
+  sl: 'Slovenian',
+  sq: 'Albanian',
+  ru: 'Russian',
+  ar: 'Arabic',
+  he: 'Hebrew',
+  fa: 'Persian (Farsi)',
+  hi: 'Hindi',
+  ur: 'Urdu',
+  'zh-hans': 'Chinese (Simplified)',
+  'zh-hant': 'Chinese (Traditional)',
+  ja: 'Japanese',
+  ko: 'Korean',
+  th: 'Thai',
+  vi: 'Vietnamese',
+  id: 'Indonesian',
+  ms: 'Malay',
 };
 
 const translatableItems = menuItems.map((item) => ({
@@ -57,33 +94,30 @@ Rules:
 Input:
 ${JSON.stringify(sourcePayload)}`;
 
-  const res = await fetch('https://api.anthropic.com/v1/messages', {
+  const res = await fetch('https://api.openai.com/v1/chat/completions', {
     method: 'POST',
     headers: {
       'content-type': 'application/json',
-      'x-api-key': process.env.ANTHROPIC_API_KEY,
-      'anthropic-version': '2023-06-01',
+      authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
     },
     body: JSON.stringify({
-      model: 'claude-sonnet-5',
-      max_tokens: 16000,
-      thinking: { type: 'disabled' },
+      model: MODEL,
+      max_completion_tokens: 20000,
+      reasoning_effort: 'low',
+      response_format: { type: 'json_object' },
       messages: [{ role: 'user', content: prompt }],
     }),
   });
 
   if (!res.ok) {
-    throw new Error(`Anthropic API error ${res.status}: ${await res.text()}`);
+    throw new Error(`OpenAI API error ${res.status}: ${await res.text()}`);
   }
 
   const data = await res.json();
-  console.error(`\n[debug] stop_reason=${data.stop_reason} usage=${JSON.stringify(data.usage)}`);
-  const text = data.content?.find((b) => b.type === 'text')?.text ?? '';
-  const jsonStart = text.indexOf('{');
-  const jsonEnd = text.lastIndexOf('}');
-  const jsonText = text.slice(jsonStart, jsonEnd + 1);
+  console.error(`\n[debug] finish_reason=${data.choices?.[0]?.finish_reason} usage=${JSON.stringify(data.usage)}`);
+  const text = data.choices?.[0]?.message?.content ?? '';
   try {
-    return JSON.parse(jsonText);
+    return JSON.parse(text);
   } catch (err) {
     const debugPath = path.join(__dirname, '..', 'lib', 'generated', `_debug-${languageName}.txt`);
     writeFileSync(debugPath, text);
@@ -92,15 +126,31 @@ ${JSON.stringify(sourcePayload)}`;
   }
 }
 
+// The model occasionally ignores the "items is a dict keyed by id" instruction
+// and returns an array of {id, description, pairing} instead, or sets pairing
+// to null rather than omitting it — normalize both back to the documented shape.
+function normalizeItems(items) {
+  const entries = Array.isArray(items)
+    ? items.map(({ id, ...rest }) => [id, rest])
+    : Object.entries(items).map(([id, rest]) => [id, { ...rest }]);
+  const out = {};
+  for (const [id, rest] of entries) {
+    if (rest.pairing === null || rest.pairing === undefined) delete rest.pairing;
+    out[id] = rest;
+  }
+  return out;
+}
+
 async function main() {
-  if (!process.env.ANTHROPIC_API_KEY) {
-    console.error('ANTHROPIC_API_KEY is not set');
+  if (!process.env.OPENAI_API_KEY) {
+    console.error('OPENAI_API_KEY is not set');
     process.exit(1);
   }
 
   for (const [code, name] of Object.entries(LANGUAGES)) {
     process.stdout.write(`Translating to ${name}... `);
     const result = await translate(name);
+    result.items = normalizeItems(result.items);
     const outPath = path.join(__dirname, '..', 'lib', 'generated', `${code}.json`);
     writeFileSync(outPath, JSON.stringify(result, null, 2) + '\n');
     console.log(`done (${outPath})`);

@@ -2,6 +2,7 @@ import {
   Baby,
   Beer,
   Cake,
+  CalendarDays,
   Coffee,
   FlaskConical,
   Ham,
@@ -14,6 +15,7 @@ import {
 } from 'lucide-react';
 
 export const CATEGORY_ICONS: Record<string, LucideIcon> = {
+  CalendarDays,
   UtensilsCrossed,
   Ham,
   Salad,

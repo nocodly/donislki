@@ -1,0 +1,512 @@
+{
+  "strings": {
+    "welcome": "Selaa alla olevaa ruokalistaa tai pyydä suositusta tekoälyltämme.",
+    "categoriesTitle": "Ruokalista",
+    "featuredTitle": "Suositeltua",
+    "askAi": "Kysy tekoälyltä",
+    "chatTitle": "DonislKI",
+    "discussing": "Keskustellaan",
+    "askAboutThis": "Kysy tekoälyltä tästä",
+    "askAboutDishTemplate": "Kerro minulle tästä: {dish}",
+    "pairing": "Pariton kanssa",
+    "fromPricePrefix": "alk. ",
+    "allergensLabel": "Allergeenit",
+    "allergensUnknown": "Vahvista henkilökunnalta",
+    "composerPlaceholder": "Kysy ruokalistasta…",
+    "send": "Lähetä",
+    "close": "Sulje",
+    "noInfo": "Minulla ei ole sitä tietoa nykyisestä ruokalistasta.",
+    "categories": {
+      "weekly": "Viikon erikoisuudet",
+      "traditional": "Perinteiset",
+      "sausages": "Makkarat",
+      "starters": "Alkuruoat",
+      "vegan": "Vegaaninen",
+      "desserts": "Jälkiruoat",
+      "beer": "Oluet",
+      "wine": "Viinit",
+      "aperitif": "Aperitiivit",
+      "spirits": "Väkevät",
+      "drinks": "Alkoholittomat & kahvi",
+      "kids": "Lapset"
+    },
+    "tagLabels": {
+      "sharing": "jaettavaksi",
+      "signature": "talon erikoisuus",
+      "hearty": "täyteläinen",
+      "classic": "klassikko",
+      "light": "kevyt",
+      "seasonal": "kausituote",
+      "strong": "väkevä",
+      "non-alcoholic": "alkoholittom a",
+      "vegetarian": "kasviperäinen",
+      "vegan": "vegaaninen",
+      "spirit": "väkevä",
+      "water": "vesi",
+      "coffee": "kahvi",
+      "hot-drink": "kuuma juoma",
+      "aperitif": "aperitiivi",
+      "bowl": "kulho",
+      "white": "valkoviini",
+      "red": "punaviini",
+      "rose": "rosé",
+      "sparkling": "kuohuviini",
+      "dessert-wine": "jälkiruokaviini",
+      "by-glass": "lasillinen",
+      "bottle": "pullo",
+      "lunch-special": "lounastarjous"
+    },
+    "quickSuggestions": [
+      "Mitäs suosittelette?",
+      "Mikä juoma sopii tälle ruoalle?",
+      "Näytä vegaaniset vaihtoehdot",
+      "Mikä sisältää allergeeneja?",
+      "Jotain kevyttä",
+      "Jotain perinteistä"
+    ]
+  },
+  "items": {
+    "chanterelle-soup": {
+      "description": "Kanttarellikeitto, tarjoillaan tyrolilaisella pekoniknödelillä."
+    },
+    "romaine-chanterelle-salad": {
+      "description": "Romaine-salaatin sydämiä vadelmavinegretillä, punasipulilla, retikalla ja paahdetuilla kanttarelleilla."
+    },
+    "veal-steak-chanterelle": {
+      "description": "Vasikapihvi kanttarellien, herneiden ja kermaisten perunoiden kera."
+    },
+    "chanterelle-linguine": {
+      "description": "Linguine-pastaa kanttarelleilla, kermalla, timjamilla ja Bergkäse-juustolla."
+    },
+    "chanterelle-cream": {
+      "description": "Kermainen kanttarellimuhennos timjamilla ja pretzel-nyytillä."
+    },
+    "lunch-monday-asparagus-linguine": {
+      "description": "Arkilounastarjous, tarjolla 12:00–15:30, kahvi sisältyy. Linguine-parsoilla, ruohosipulikermalla, roastbeefillä ja tomaatilla."
+    },
+    "lunch-tuesday-bratengroestl": {
+      "description": "Arkilounastarjous, tarjolla 12:00–15:30, kahvi sisältyy. Sekapannu valkokaalilla, perunanyytillä ja paistetulla kananmunalla."
+    },
+    "lunch-wednesday-strindberg-steak": {
+      "description": "Arkilounastarjous, tarjolla 12:00–15:30, kahvi sisältyy. Possun ulkofilee vihreillä pavuilla ja perunagratiinilla."
+    },
+    "lunch-thursday-chicken-geschnetzeltes": {
+      "description": "Arkilounastarjous, tarjolla 12:00–15:30, kahvi sisältyy. Viipaloitua kanaa sienikastikkeessa yrttispätzlen kanssa."
+    },
+    "lunch-friday-fish-fillet": {
+      "description": "Arkilounastarjous, tarjolla 12:00–15:30, kahvi sisältyy. Paistettu päivän saalis remouladen ja peruna-kurkkusalaatin kera."
+    },
+    "donisl-roasting-pan": {
+      "description": "Naudanlihaa, ankkaa, sianpotkaa ja makkaroita punakaalin, perunanyyttien ja juustospätzlen kera — jaettavaksi.",
+      "pairing": "Münchner Dunkel"
+    },
+    "roast-pork": {
+      "description": "Bayerilaista porsaan lavan ja vatsan osaa rapealla pinnalla, luonnollisella kastikkeella, perunanyytillä ja kaalisalaatilla.",
+      "pairing": "Münchner Dunkel"
+    },
+    "schweinshaxe": {
+      "description": "Rapea paistettua sianpotkaa tarjoiltuna luonnollisen kastikkeen, perunanyyttien ja kaalisalaatin kanssa.",
+      "pairing": "Parhaiten Dunkel-oluen kanssa."
+    },
+    "wiener-schnitzel": {
+      "description": "Bayerilainen laidunpossun paneroitu leike, ranskalaisten tai peruna-kurkkusalaatin ja karpalon kanssa.",
+      "pairing": "Riesling Easy-White tai Radler"
+    },
+    "farm-duck": {
+      "description": "Ankkaa rosmariinikastikkeella, perunanyytit ja punakaali."
+    },
+    "backhendl": {
+      "description": "Luuton leivitetty kanankoipi, tarjoillaan ranskalaisten tai peruna-kurkkusalaatin kanssa."
+    },
+    "duet-of-the-ox": {
+      "description": "Härän olkaa ja poskea, punaviinikastike, baby-pinaatti ja kermaiset perunat."
+    },
+    "veal-steak": {
+      "description": "Värikäs pippurikermakastike, flambrattu kaalikaali, perunarösti."
+    },
+    "veal-meatballs": {
+      "description": "Pukeutuneita kasviksia, rosmariiniperunoita."
+    },
+    "white-sausage": {
+      "description": "Kaksi kappaletta, tarjoillaan pretzelin ja sinapin kanssa."
+    },
+    "white-sausage-piece": {
+      "description": "Yksi valkoinen makkara."
+    },
+    "polish-sausage": {
+      "description": "Tarjoillaan pretzelin ja sinapin kanssa."
+    },
+    "currywurst": {
+      "description": "Curry-makkara tarjoillaan ranskalaisten kanssa.",
+      "pairing": "Hefeweizen wheat beer"
+    },
+    "bratwurstreindl": {
+      "description": "Paistettuja makkaroita pannulla hapankaalin tai perunasalaatin kanssa — jaettavaksi.",
+      "pairing": "Russn (kevyt Hefeweizen)"
+    },
+    "rump-steak": {
+      "description": "Murnau-naudan ulkofilee punaviini- ja sipulikastikkeella, paistetut sipulit, käsespätzle."
+    },
+    "ribeye-300g": {
+      "description": "Murnau-naudan rasvakaistale, Café de Paris -kastike, grillatut vihannekset, perunagratiini."
+    },
+    "deluxe-burger": {
+      "description": "200 g Werdenfelser-nautaa, cheddar, salaatti, tomaatti, suolakurkku, sipulit, itsetehty Donisl-kastike.",
+      "pairing": "Münchner Hell"
+    },
+    "icefish": {
+      "description": "Tymiankastike, ratatouille-vihannekset, perunagratiini."
+    },
+    "brotzeitbrettl": {
+      "description": "Maanviljelijän savulihoja, pekonimakkara, maksamakkara, kylmä paahdettu naudanliha, O'gmachter, vuorijuusto, piparjuuri, leipä."
+    },
+    "donisl-4erlei": {
+      "description": "Hummus, tehdasjuusto, suolattu voi ja yrttinen kermaviili, tarjoillaan leipäkori kanssa."
+    },
+    "beef-tartare": {
+      "description": "Tryffelikreemi, paistettu luomumuna."
+    },
+    "calfs-head-carpaccio": {
+      "description": "Granaattiomena, piparjuuri, kurkku."
+    },
+    "ogmachter-kas": {
+      "description": "Kermainen juusto sipulirenkailla, retiiseillä, salaatilla ja marjoilla."
+    },
+    "sausage-salad": {
+      "description": "Talon kastike, sipulirenkaat, suolakurkku, tomaatti, marja (+1,90 juustostrippien kanssa)."
+    },
+    "donisl-salad": {
+      "description": "Lehtivihanneksia, tomaattia, kurkkua, talon kastike, siemeniä ja krutonkeja."
+    },
+    "bread-basket": {
+      "description": "Tuore leipäkori."
+    },
+    "brezn": {
+      "description": "Bayerilainen pretzel."
+    },
+    "oxen-consomme": {
+      "description": "Kirkas lihaliemi maksanyytillä tai lettuviipaleilla, vihanneksia ja ruohosipulia."
+    },
+    "tomato-soup": {
+      "description": "Silkkinen tomaattikeitto burrata-basilikakreemin kanssa."
+    },
+    "classic-sides": {
+      "description": "Hapankaali, punakaali, pekoni-kaalisalaatti, kermaiset perunat, perunanyytit, pienet paistetut perunat, spätzle tai ranskalaiset — jokainen erikseen."
+    },
+    "vegetable-sides": {
+      "description": "Vihanneslisuke tai peruna- ja kurkkusalaatti — jokainen erikseen."
+    },
+    "power-bowl": {
+      "description": "Aromikas riisi, avokado, edamame, kikherneet, porkkana, tomaatti, kurkku, maapähkinät, appelsiini-minttu-lime-kastike."
+    },
+    "kaesespaetzle": {
+      "description": "Käsespätzle juustolla ja sipulirenkailla.",
+      "pairing": "Münchner Dunkel tai täyteläinen valkoviini"
+    },
+    "linguine-truffles": {
+      "description": "Pasta baby-pinaatin ja talvitryffelin kanssa."
+    },
+    "rahmschwammerl": {
+      "description": "Kermaiset sienet tarjoiltuna pretzel-nyytin kanssa."
+    },
+    "creme-brulee": {
+      "description": "Tarjoillaan sorbetin ja marjojen kanssa.",
+      "pairing": "Rieslaner Auslese dessert wine"
+    },
+    "kaiserschmarrn": {
+      "description": "Rusinoita, voita, sokeria ja karamellisoituja manteleita, tarjoillaan omenahillon kanssa — erinomainen jaettavaksi.",
+      "pairing": "Rieslaner Auslese dessert wine"
+    },
+    "kirschmichl": {
+      "description": "Lämmin kirsikkakakku tarjoillaan vaniljakastikkeen kanssa."
+    },
+    "apple-strudel": {
+      "description": "Klassinen omenastruudeli tarjoiltuna vaniljakastikkeen kanssa.",
+      "pairing": "Milchkaffee"
+    },
+    "muenchner-hell": {
+      "description": "Pohjahiivainen, hienosti katkera humalanuotti, hieman maltaisuutta. 5,0 % vol."
+    },
+    "beer-light-alcohol-free": {
+      "description": "Luonnollisesti samea, karamelli- ja hunajanuotteja. <0,5 % vol."
+    },
+    "muenchner-radler": {
+      "description": "Munich Helles ja hieno sitruunalimonadi, ei liian makea."
+    },
+    "muenchner-dunkel": {
+      "description": "Hienosti katkera, paahdettu mallas karamelli- ja makeutettujen hedelmien vivahtein. 5,0 % vol."
+    },
+    "hefeweizen": {
+      "description": "Päällihiivainen vehnäolut banaani- ja hunajanuotein."
+    },
+    "russn": {
+      "description": "Hefeweizen ja hieno sitruunalimonadi, ei liian makea."
+    },
+    "cola-wheat": {
+      "description": "Hefeweizen ja Coca-Cola."
+    },
+    "non-alcoholic-wheat": {
+      "description": "Kevyesti alkoholiton täyden kypsymisen jälkeen, säilyttää arominsa."
+    },
+    "salvator": {
+      "description": "Väkevä olut (Starkbier), sesonkituote — saatavilla helmikuu/maaliskuu. 0,5 l."
+    },
+    "kellerbier": {
+      "description": "Sesonkituote — saatavilla kesäkuussa/heinäkuussa/elokuussa. 0,5 l."
+    },
+    "wiesnbier": {
+      "description": "Oktoberfest-olut, sesonkituote — saatavilla syyskuu/ lokakuu. 0,5 l."
+    },
+    "weissweinschorle": {
+      "description": "Valkoviinispritzer. 0,3 l."
+    },
+    "pinot-gris-glass": {
+      "description": "Hirschmüller -viinitila, Württemberg — kevyt, helppojuotoinen."
+    },
+    "primitivo-glass": {
+      "description": "Sir of the Faun, Puglia — tummia marjoja, kirsikkaa, hieno mausteisuus."
+    },
+    "prodry-frizzante": {
+      "description": "Motelvini, Veneto, Italia. 0,1 l."
+    },
+    "paul-michel-champagne": {
+      "description": "Champagne Premier Cru, Champagne, Ranska. 0,75 l pullo."
+    },
+    "taittinger-rose": {
+      "description": "Champagne Taittinger, Ranska. 0,75 l pullo."
+    },
+    "valdo-prosecco": {
+      "description": "Valdo, Veneto — klassinen italialainen kuohuviini. 0,75 l pullo."
+    },
+    "winzersekt": {
+      "description": "Pfaffmann-viinitila, Pfalz, Saksa. 0,75 l pullo."
+    },
+    "chardonnay-bottle": {
+      "description": "Hirschmüller -viinitila, Württemberg — passionhedelmä, mango, ananas. 0,75 l pullo."
+    },
+    "chardonnay-glass": {
+      "description": "Hirschmüller -viinitila, Württemberg. 0,1 l."
+    },
+    "chardonnay-macon-ige": {
+      "description": "Domaine Fichet, Bourgogne — omena, päärynä, valkoinen persikka, hieno mineraalisuus. 0,75 l pullo."
+    },
+    "pinot-gris-tradition": {
+      "description": "Bott Frères -viinitila, Bourgogne — aprikoosi, viennalainen omena, hasselpähkinä, hentoa savua. 0,75 l pullo."
+    },
+    "pinot-gris-oetinger": {
+      "description": "Oetinger-viinitila, Rheingau — kypsä päärynä, keltainen omena, mantelin vivahde. 0,75 l pullo."
+    },
+    "pinot-gris-reserve-pauline": {
+      "description": "Pfaffmann-viinitila, Pfalz — päärynä, ananas, nektariini, sitruunaruoho, kukkaisuutta. 0,75 l pullo."
+    },
+    "pinot-blanc-grand-reserve": {
+      "description": "Taubenschuss-viinitila, itävaltalainen Weinviertel — meloni, hasselpähkinä, seiväs, karamelli. 0,75 l pullo."
+    },
+    "trebbiano-di-lugana": {
+      "description": "Zenato-viinitila, Veneto, Italia — raikas happamuus, mineraalisuutta, sitrusta, vihreää omenaa, päärynää. 0,75 l pullo."
+    },
+    "lugana-glass": {
+      "description": "Zenato-viinitila, Veneto, Italia. 0,1 l."
+    },
+    "riesling-easy-white": {
+      "description": "Oetinger-viinitila, Rheingau — limeä, omenaa, valkoista persikkaa, ihanteellinen aperitiiviksi. 0,75 l pullo.",
+      "pairing": "Wiener Schnitzel"
+    },
+    "riesling-gottloos": {
+      "description": "Dr. Loosen -viinitila, Mosel — sitrusta, omenaa, arvokasta mineraalisuutta. 0,75 l pullo."
+    },
+    "riesling-heiligenstein": {
+      "description": "Bründlmayer -viinitila, Langenlois, Kamptal, Itävalta — raikasta sitrusta, omenaa, yrttistä maustetta. 0,75 l pullo."
+    },
+    "riesling-smoky-dry": {
+      "description": "Weingut Oetinger, Rheingau — savuisaa mineralisuutta, mehukasta omenaa, sitrusta. 0,75 l pullo."
+    },
+    "riesling-bright-side-of-life": {
+      "description": "Stahl-viinitila, Franken, Saksa — hedelmäinen, raikas, mutkaton. 0,75 l pullo."
+    },
+    "riesling-nachschlag-glass": {
+      "description": "Stahl-viinitila, Franken, Saksa. 0,1 l."
+    },
+    "sauvignon-blanc": {
+      "description": "Chateau de la Chaise, Loire — karviaista, vihreää omenaa, eksoottista hedelmää. 0,75 l pullo."
+    },
+    "sauvignon-blanc-reserve": {
+      "description": "Taubenschuss-viinitila, itävaltalainen Weinviertel — limeä, karviaista, eksoottista hedelmää. 0,75 l pullo."
+    },
+    "silvaner-easy-white": {
+      "description": "Weingut am Stein, Franken — vihreää omenaa, päärynää, hentoa yrttisyyttä. 0,75 l pullo."
+    },
+    "gruener-veltliner-tenn": {
+      "description": "Taubenschuss-viinitila, Weinviertel — omenaa, valkopippuria, yrttistä maustetta. 0,75 l pullo."
+    },
+    "riesling-gottloos-3l": {
+      "description": "Dr. Loosen -viinitila, Mosel. 3,0 l pullo."
+    },
+    "gruener-veltliner-steinberg": {
+      "description": "Karl Fritsch -viinitila, Burgenland, Itävalta. 1,5 l pullo."
+    },
+    "chardonnay-morillon": {
+      "description": "Lackner-Tinnacher -viinitila, Etelä-Styria, Itävalta. 1,5 l pullo."
+    },
+    "cuvee-adrian-sangiovese": {
+      "description": "Punainen cuvée, Toscana Rosso, Toscana. 1,5 l pullo."
+    },
+    "primitivo-bottle": {
+      "description": "Barbanera-viinitila, Apulia, Italia — tummia marjoja, kirsikkaa, hieno mausteisuus. 0,75 l pullo."
+    },
+    "herrgott-cuvee": {
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz — kirsikoita, punaisia marjoja. 0,75 l pullo."
+    },
+    "herrgott-cuvee-glass": {
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz. 0,1 l."
+    },
+    "tuscany-red-cuvee": {
+      "description": "Duca di Salangane, Toscana — kirsikoita, tummia marjoja. 0,75 l pullo."
+    },
+    "pinot-noir-goldberg": {
+      "description": "Toni Hartl -viinitila, Burgenland — punaisia marjoja, kirsikkaa, hienoa mausteisuutta. 0,75 l pullo."
+    },
+    "merlot": {
+      "description": "Chateau Gensac, Gaskonja — tummia kirsikoita, luumuja, mausteisuutta. 0,75 l pullo."
+    },
+    "brunello-di-montalcino": {
+      "description": "Tenuta Corte Pavone -viinitila, Sangiovese, Toscana — tummia marjoja, kirsikkaa, suklaata. 0,75 l pullo."
+    },
+    "black-ox-cuvee": {
+      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Pfalz — tummia marjoja, kirsikkaa, mausteisuutta. 0,75 l pullo."
+    },
+    "rose-lime-stone": {
+      "description": "Unger-viinitila, Neusiedler-järvi — punaisia marjoja, mansikkaa, vadelmaa, sitrusta. 0,75 l pullo."
+    },
+    "torres-natureo": {
+      "description": "Miguel Torres, Vilafranca del Penedès — sitrusta, omenaa, kevyt. 0,75 l pullo."
+    },
+    "rieslaner-auslese": {
+      "description": "Juliusspital-viinitila, Franken — jälkiruokaviini. 0,5 l pullo.",
+      "pairing": "Kaiserschmarrn or Crème brûlée"
+    },
+    "aperol-spritz": {
+      "description": "Klassinen italialainen aperitiivi. 0,2 l."
+    },
+    "hugo": {
+      "description": "Katajanmarja-hugo (elderflower) spritz. 0,2 l."
+    },
+    "campari-soda": {
+      "description": "0,2 l."
+    },
+    "campari-orange": {
+      "description": "0,2 l."
+    },
+    "sanbitter": {
+      "description": "Alkoholittoman bitter-aperitiivi. 0,2 l."
+    },
+    "nut-in-a-bottle": {
+      "description": "2 cl."
+    },
+    "ruescherl": {
+      "description": "13 cl."
+    },
+    "hirschkuss": {
+      "description": "38 % vol., patenttikorkillinen pullo, 4 cl."
+    },
+    "vodka-redbull": {
+      "description": "0,27 l."
+    },
+    "williams-christ-pear": {
+      "description": "40 % vol. Edelbrand, Sigi Herzog -tisle. 2 cl."
+    },
+    "farm-fruit-growers": {
+      "description": "Linster-hienot tisleet, kypsytetty 1 vuoden tammitynnyrissä. 2 cl."
+    },
+    "feiner-mirabell": {
+      "description": "Linster-hienot tisleet, kypsä aprikoosin maku. 2 cl."
+    },
+    "enzian-gentian-brandy": {
+      "description": "Wilhelm Marx Fine Spirits -manufaktuurilta. 2 cl."
+    },
+    "raspberry-pulp-brandy": {
+      "description": "40 % vol. Wilhelm Marx -edelmanufaktuuri. 2 cl."
+    },
+    "grappa-chardonnay": {
+      "description": "Isoisän grappa. 2 cl."
+    },
+    "paulaner-spezi": {
+      "description": "0,4 l."
+    },
+    "coca-cola": {
+      "description": "0,4 l."
+    },
+    "coca-cola-zero": {
+      "description": "0,4 l."
+    },
+    "paulaner-lemonade": {
+      "description": "0,33 l."
+    },
+    "paulaner-orange-lemonade": {
+      "description": "0,33 l."
+    },
+    "tonic": {
+      "description": "0,2 l."
+    },
+    "red-bull": {
+      "description": "0,25 l."
+    },
+    "bad-brambacher": {
+      "description": "Lista tai keskitäyteläinen. 0,5 l."
+    },
+    "table-water": {
+      "description": "Vichy tai hiilihapoton."
+    },
+    "apple-spritzer": {
+      "description": "0,4 l."
+    },
+    "johannisbeerschorle": {
+      "description": "Tyrni- tai mustaherukkaspritzer. 0,4 l."
+    },
+    "maracujaschorle": {
+      "description": "Passionhedelmä-spritzer. 0,4 l."
+    },
+    "wolfra-orange-juice": {
+      "description": "0,2 l."
+    },
+    "espresso": {
+      "description": ""
+    },
+    "double-espresso": {
+      "description": ""
+    },
+    "espresso-macchiato": {
+      "description": ""
+    },
+    "cappuccino": {
+      "description": ""
+    },
+    "latte-macchiato": {
+      "description": ""
+    },
+    "milchkaffee": {
+      "description": "Kahvia maidolla."
+    },
+    "haferl-kaffee-creme": {
+      "description": "Haferl Kaffee Creme."
+    },
+    "drinking-chocolate": {
+      "description": "Maidolla."
+    },
+    "tea-ronnefeldt": {
+      "description": "Darjeeling, Mountain Herbs, Sweet Berries, Green Dragon Lung Ching, Refreshing Mint tai Fruity Camomile."
+    },
+    "kids-potato-dumplings": {
+      "description": "Possunpaistin kastikkeella."
+    },
+    "kids-kaesspatzn": {
+      "description": "Käsespätzle, lasten annos."
+    },
+    "kids-rostbratwuerstl": {
+      "description": "Tarjoillaan ranskalaisten tai peruna-kurkkusalaatin kanssa."
+    },
+    "kids-fries": {
+      "description": ""
+    }
+  }
+}

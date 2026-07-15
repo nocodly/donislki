@@ -1,0 +1,513 @@
+{
+  "strings": {
+    "welcome": "تصفح القائمة أدناه، أو اطلب توصية من مساعدنا الذكي.",
+    "categoriesTitle": "القائمة",
+    "featuredTitle": "متميز",
+    "askAi": "اسأل الذكاء الاصطناعي",
+    "chatTitle": "DonislKI",
+    "discussing": "جارٍ المناقشة",
+    "askAboutThis": "اسأل الذكاء الاصطناعي عن هذا",
+    "askAboutDishTemplate": "أخبرني عن {dish}",
+    "pairing": "الأفضل مع",
+    "fromPricePrefix": "من ",
+    "allergensLabel": "التحسّسات",
+    "allergensUnknown": "يرجى التأكيد مع العاملين",
+    "composerPlaceholder": "اسأل عن القائمة…",
+    "send": "إرسال",
+    "close": "إغلاق",
+    "noInfo": "ليس لدي هذه المعلومات في القائمة الحالية.",
+    "categories": {
+      "weekly": "عروض الأسبوع",
+      "traditional": "تقليدية",
+      "sausages": "نقانق",
+      "starters": "مقبلات",
+      "vegan": "نباتي",
+      "desserts": "حلويات",
+      "beer": "بيرة",
+      "wine": "نبيذ",
+      "aperitif": "مشروبات فاتحة",
+      "spirits": "مشروبات روحية",
+      "drinks": "مشروبات غير كحولية وقهوة",
+      "kids": "أطفال"
+    },
+    "tagLabels": {
+      "sharing": "مشاركة",
+      "signature": "توقيع المطعم",
+      "hearty": "مشبع",
+      "classic": "تقليدي",
+      "light": "خفيف",
+      "seasonal": "موسمي",
+      "strong": "قوي",
+      "non-alcoholic": "خالٍ من الكحول",
+      "vegetarian": "نباتي",
+      "vegan": "نباتي صارم",
+      "spirit": "روحي",
+      "water": "ماء",
+      "coffee": "قهوة",
+      "hot-drink": "مشروب ساخن",
+      "aperitif": "فاتح",
+      "bowl": "وعاء",
+      "white": "أبيض",
+      "red": "أحمر",
+      "rose": "روزé",
+      "sparkling": "مُنسَجِم",
+      "dessert-wine": "نبيذ حلويات",
+      "by-glass": "كأس",
+      "bottle": "زجاجة",
+      "lunch-special": "عرض غداء"
+    },
+    "quickSuggestions": [
+      "ماذا توصي؟",
+      "أي مشروب يناسب هذا الطبق؟",
+      "أرني الخيارات النباتية",
+      "ما الذي يحتوي على مواد مسببة للحساسية؟",
+      "شيء خفيف",
+      "شيء تقليدي"
+    ]
+  },
+  "items": {
+    "chanterelle-soup": {
+      "description": "شوربة كريمية من الفطر الحُرِّي مع نقش‌ة بيكون تيرولية."
+    },
+    "romaine-chanterelle-salad": {
+      "description": "قلوب خس رومين مع تتبيلة توت العليق، بصل أحمر، فجل وفطر حُرِّي محمّص."
+    },
+    "veal-steak-chanterelle": {
+      "description": "شريحة عجل مع فطر حُرِّي، بازلاء وبطاطس كريمية."
+    },
+    "chanterelle-linguine": {
+      "description": "لنجويني مع فطر حُرِّي، كريمة، زعتر وجبنة Bergkäse الجبلية."
+    },
+    "chanterelle-cream": {
+      "description": "فطر حُرِّي مطهو بالكريمة مع زعتر وزلابية البريتزل."
+    },
+    "lunch-monday-asparagus-linguine": {
+      "description": "عرض غداء في أيام الأسبوع، يقدم 12:00–15:30 مع قهوة مرفقة. لنجويني بالهليون، كريمة ثوم المعمر، لحم مدخن وطماطم."
+    },
+    "lunch-tuesday-bratengroestl": {
+      "description": "عرض غداء في أيام الأسبوع، يقدم 12:00–15:30 مع قهوة مرفقة. طبق مشكل من اللحم المتقلب مع ملفوف أبيض، زلابية بطاطس وبيضة مقلية."
+    },
+    "lunch-wednesday-strindberg-steak": {
+      "description": "عرض غداء في أيام الأسبوع، يقدم 12:00–15:30 مع قهوة مرفقة. شريحة لحم خنزير مع فاصوليا خضراء وغراتان البطاطس."
+    },
+    "lunch-thursday-chicken-geschnetzeltes": {
+      "description": "عرض غداء في أيام الأسبوع، يقدم 12:00–15:30 مع قهوة مرفقة. شرائح دجاج في صلصة فطر مع سباتزل بالأعشاب."
+    },
+    "lunch-friday-fish-fillet": {
+      "description": "عرض غداء في أيام الأسبوع، يقدم 12:00–15:30 مع قهوة مرفقة. شرحة سمك مقلي حسب الصيد اليومي مع ريمولاد وسلطة بطاطس وخيار."
+    },
+    "donisl-roasting-pan": {
+      "description": "لحم بقر، بطة، كتف خنزير ونقانق مع ملفوف أحمر، زلابية بطاطس وكäsespätzle — للحصة الجماعية.",
+      "pairing": "Münchner Dunkel"
+    },
+    "roast-pork": {
+      "description": "كتف وبطن خنزير بايرني مع قشرة مقرمشة، مرق طبيعي، زلابية بطاطس وسلطة الكرنب.",
+      "pairing": "Münchner Dunkel"
+    },
+    "schweinshaxe": {
+      "description": "ركبة خنزير محمّرة ومقرمشة، تقدم مع صلصة طبيعية، زلابية بطاطس وسلطة كرنب.",
+      "pairing": "أفضل مع بيرة Dunkel."
+    },
+    "wiener-schnitzel": {
+      "description": "شنيتزل خنزيري بايرني مُربى على القش مع بطاطس مقلية أو سلطة بطاطس وخيار وتوت بري.",
+      "pairing": "Riesling Easy-White أو Radler"
+    },
+    "farm-duck": {
+      "description": "بطة مزينة بصلصة إكليل الجبل، زلابية بطاطس وملفوف أحمر.",
+      "pairing": "Münchner Dunkel"
+    },
+    "backhendl": {
+      "description": "فخذ دجاج مخلي ومغلف بالبقسماط مع بطاطس مقلية أو سلطة بطاطس وخيار."
+    },
+    "duet-of-the-ox": {
+      "description": "كتف وخد الثور، عصارة نبيذ أحمر، سبانخ صغيرة وبطاطس كريمية."
+    },
+    "veal-steak": {
+      "description": "صلصة كريمة بالفلفل الملون، كرنب نابّذ مشتعِل، روستي البطاطس."
+    },
+    "veal-meatballs": {
+      "description": "خضروات متبّلة وبطاطس بالروزماري."
+    },
+    "white-sausage": {
+      "description": "قطعتان، تقدم مع بريتزل وخردل."
+    },
+    "white-sausage-piece": {
+      "description": "قطعة نقانق بيضاء واحدة."
+    },
+    "polish-sausage": {
+      "description": "تقدم مع بريتزل وخردل."
+    },
+    "currywurst": {
+      "description": "نقانق بالكاري تقدم مع بطاطس مقلية.",
+      "pairing": "Hefeweizen wheat beer"
+    },
+    "bratwurstreindl": {
+      "description": "مقلاة نقانق مشوية مع مخلل ملفوف أو سلطة بطاطس — حصة للمشاركة.",
+      "pairing": "Russn (light Hefeweizen)"
+    },
+    "rump-steak": {
+      "description": "لحم Murnau مع عصارة نبيذ أحمر وبصل مقلي، بصرف käsespätzle."
+    },
+    "ribeye-300g": {
+      "description": "قطع دهن من لحم Murnau، صلصة café de paris، خضروات مشوية وغراتان بطاطس."
+    },
+    "deluxe-burger": {
+      "description": "برغر 200غم لحم Werdenfelser، شيدر، خس، طماطم، مخللات، بصل وصلصة Donisl المنزلية.",
+      "pairing": "Münchner Hell"
+    },
+    "icefish": {
+      "description": "زعتر، خضروات راتاتوي، غراتان بطاطس."
+    },
+    "brotzeitbrettl": {
+      "description": "قطع لحم مدخن ريفي، نقانق لحم مقدد، كبدة، لحم مشوي بارد، O'gmachter، جبنة جبلية، فجل حار، خبز."
+    },
+    "donisl-4erlei": {
+      "description": "حمص، جبنة مصنوعة، زبدة مملّحة وكريمة حامضة بالأعشاب، تقدم مع سلة خبز."
+    },
+    "beef-tartare": {
+      "description": "كريمة الكمأ وبيضة عضوية مخبوزة."
+    },
+    "calfs-head-carpaccio": {
+      "description": "رمان، فجل حار وخيار."
+    },
+    "ogmachter-kas": {
+      "description": "جبنة كريمية مع حلقات بصل، فجل، خس وتوت."
+    },
+    "sausage-salad": {
+      "description": "صلصة المطعم، حلقات بصل، مخلل، طماطم وتوت (+1.90 مع شرائح جبنة جبلية)."
+    },
+    "donisl-salad": {
+      "description": "خس، طماطم، خيار، صلصة المطعم، بذور وكرات الخبز المقرمشة."
+    },
+    "bread-basket": {
+      "description": "سلة خبز طازج."
+    },
+    "brezn": {
+      "description": "بريتزل بايرني."
+    },
+    "oxen-consomme": {
+      "description": "مرق لحم بقر صافي مع زلابية كبد أو شرائح فطيرة، خضروات وثوم المعمر."
+    },
+    "tomato-soup": {
+      "description": "شوربة طماطم ناعمة مع كريمة بوراتا وريحان."
+    },
+    "classic-sides": {
+      "description": "مخلل الملفوف، ملفوف أحمر، سلطة لحم مقدد وكرنب، بطاطس كريمية، زلابية بطاطس، بطاطس مشوية صغيرة، سباتزل أو بطاطس مقلية — لكل حصة."
+    },
+    "vegetable-sides": {
+      "description": "طبق جانبي من الخضروات أو سلطة بطاطس وخيار — لكل حصة."
+    },
+    "power-bowl": {
+      "description": "أرز معطر، أفوكادو، ادامامي، حمص، جزر، طماطم، خيار، فول سوداني وتتبيلة برتقال-نعناع-لايم."
+    },
+    "kaesespaetzle": {
+      "description": "كäsespätzle بالجبن مع حلقات بصل.",
+      "pairing": "Münchner Dunkel أو نبيذ أبيض ممتلئ الجسم"
+    },
+    "linguine-truffles": {
+      "description": "معكرونة مع سبانخ صغيرة وكمأة شتوية."
+    },
+    "rahmschwammerl": {
+      "description": "فطر بالكريمة تقدم مع زلابية البريتزل."
+    },
+    "creme-brulee": {
+      "description": "تقدم مع سوربيه وتوت.",
+      "pairing": "Rieslaner Auslese dessert wine"
+    },
+    "kaiserschmarrn": {
+      "description": "مع زبيب، زبدة، سكر ولوز مكرمل، تقدم مع صلصة تفاح — مثالية للمشاركة.",
+      "pairing": "Rieslaner Auslese dessert wine"
+    },
+    "kirschmichl": {
+      "description": "كيك الكرز الدافئ يقدم مع كسترد."
+    },
+    "apple-strudel": {
+      "description": "فطيرة تفاح كلاسيكية تقدم مع كسترد.",
+      "pairing": "Milchkaffee"
+    },
+    "muenchner-hell": {
+      "description": "تخمير قاع، نفحة هوب معتدلة المَرارة، مذاق قليل الحلاوة. 5.0% فولت."
+    },
+    "beer-light-alcohol-free": {
+      "description": "عكر طبيعي، نغمات كراميل وعسل. <0.5% فولت."
+    },
+    "muenchner-radler": {
+      "description": "Helles ميونيخ مع ليمونادة رقيقة، غير حلوة جداً."
+    },
+    "muenchner-dunkel": {
+      "description": "مَرارة رقيقة، شعور بالمالت المحمص مع نغمات كراميل وفواكه مسكرة. 5.0% فولت."
+    },
+    "hefeweizen": {
+      "description": "بيرة قمح مخمرة علوياً بنغمات موز وعسل."
+    },
+    "russn": {
+      "description": "Hefeweizen مع ليمونادة خفيفة، غير حلوة جداً."
+    },
+    "cola-wheat": {
+      "description": "Hefeweizen مع كوكاكولا."
+    },
+    "non-alcoholic-wheat": {
+      "description": "مزالة الكحول برفق بعد النضج الكامل، تحافظ على عطرها."
+    },
+    "salvator": {
+      "description": "بيرة قوية (Starkbier)، موسمية — متوفرة فبراير/مارس. 0.5ل."
+    },
+    "kellerbier": {
+      "description": "موسمي — متوفر يونيو/يوليو/أغسطس (وقت الصيف). 0.5ل."
+    },
+    "wiesnbier": {
+      "description": "بيرة مهرجان أكتوبر، موسمية — متوفرة سبتمبر/أكتوبر. 0.5ل."
+    },
+    "weissweinschorle": {
+      "description": "سبريتزر نبيذ أبيض. 0.3ل."
+    },
+    "pinot-gris-glass": {
+      "description": "مصنعية Hirschmüller، Württemberg — خفيف وسهل الشرب."
+    },
+    "primitivo-glass": {
+      "description": "Sir of the Faun، Puglia — توت داكن، كرز وتوابل رقيقة."
+    },
+    "prodry-frizzante": {
+      "description": "Motelvini، Veneto، إيطاليا. 0.1ل."
+    },
+    "paul-michel-champagne": {
+      "description": "شامبانيا Premier Cru، Champagne، فرنسا. زجاجة 0.75ل."
+    },
+    "taittinger-rose": {
+      "description": "شامبانيا Taittinger، فرنسا. زجاجة 0.75ل."
+    },
+    "valdo-prosecco": {
+      "description": "Valdo، Veneto — نبيذ إيطالي فوار كلاسيكي. زجاجة 0.75ل."
+    },
+    "winzersekt": {
+      "description": "مصنعية Pfaffmann، Palatinate، ألمانيا. زجاجة 0.75ل."
+    },
+    "chardonnay-bottle": {
+      "description": "مصنعية Hirschmüller، Württemberg — فاكهة العاطفة، مانجو وأناناس. زجاجة 0.75ل."
+    },
+    "chardonnay-glass": {
+      "description": "مصنعية Hirschmüller، Württemberg. 0.1ل."
+    },
+    "chardonnay-macon-ige": {
+      "description": "Domaine Fichet، Burgundy — تفاح، كمثرى، خوخ أبيض ولمسة معدنية. زجاجة 0.75ل."
+    },
+    "pinot-gris-tradition": {
+      "description": "Bott Frères، Burgundy — مشمش، تفاح فييني، بندق ولمسة دخان. زجاجة 0.75ل."
+    },
+    "pinot-gris-oetinger": {
+      "description": "مصنعية Oetinger، Rheingau — كمثرى ناضجة، تفاح أصفر ولمسة لوز. زجاجة 0.75ل."
+    },
+    "pinot-gris-reserve-pauline": {
+      "description": "مصنعية Pfaffmann، Palatinate — كمثرى، أناناس، نكتارين، عشب الليمون وزهري. زجاجة 0.75ل."
+    },
+    "pinot-blanc-grand-reserve": {
+      "description": "مصنعية Taubenschuss، Weinviertel النمساوي — شمام، بندق، تبن وكراميل. زجاجة 0.75ل."
+    },
+    "trebbiano-di-lugana": {
+      "description": "Zenato، Veneto، إيطاليا — حمضية منعشة، معدنية، حمضيات، تفاح أخضر وكمثرى. زجاجة 0.75ل."
+    },
+    "lugana-glass": {
+      "description": "Zenato، Veneto، إيطاليا. 0.1ل."
+    },
+    "riesling-easy-white": {
+      "description": "مصنعية Oetinger، Rheingau — ليم، تفاح، خوخ أبيض، مثالي كمقبلات. زجاجة 0.75ل.",
+      "pairing": "Wiener Schnitzel"
+    },
+    "riesling-gottloos": {
+      "description": "مصنعية Dr. Loosen، Mosel — حمضيات، تفاح ومعدنية أنيقة. زجاجة 0.75ل."
+    },
+    "riesling-heiligenstein": {
+      "description": "مصنعية Bründlmayer، Langenlois، Kamptal، النمسا — حمضيات منعشة، تفاح وتوابل عشبية. زجاجة 0.75ل."
+    },
+    "riesling-smoky-dry": {
+      "description": "Weingut Oetinger، Rheingau — معدنية مدخنة، تفاح عصيري وحمضيات. زجاجة 0.75ل."
+    },
+    "riesling-bright-side-of-life": {
+      "description": "مصنعية Stahl، Franconia، ألمانيا — فاكهي، منعش وغير معقّد. زجاجة 0.75ل."
+    },
+    "riesling-nachschlag-glass": {
+      "description": "مصنعية Stahl، Franconia، ألمانيا. 0.1ل."
+    },
+    "sauvignon-blanc": {
+      "description": "Chateau de la Chaise، Loire — عنب الثعلب، تفاح أخضر وفاكهة غريبة. زجاجة 0.75ل."
+    },
+    "sauvignon-blanc-reserve": {
+      "description": "Taubenschuss، Weinviertel النمساوي — ليم، عنب الثعلب وفواكه غريبة. زجاجة 0.75ل."
+    },
+    "silvaner-easy-white": {
+      "description": "Weingut am Stein، Franconia — تفاح أخضر، كمثرى وأعشاب خفيفة. زجاجة 0.75ل."
+    },
+    "gruener-veltliner-tenn": {
+      "description": "Taubenschuss، Weinviertel النمساوي — تفاح، فلفل أبيض وتوابل عشبية. زجاجة 0.75ل."
+    },
+    "riesling-gottloos-3l": {
+      "description": "مصنعية Dr. Loosen، Mosel. زجاجة 3.0ل."
+    },
+    "gruener-veltliner-steinberg": {
+      "description": "مصنعية Karl Fritsch، Burgenland، النمسا. زجاجة 1.5ل."
+    },
+    "chardonnay-morillon": {
+      "description": "مصنعية Lackner-Tinnacher، Southern Styria، النمسا. زجاجة 1.5ل."
+    },
+    "cuvee-adrian-sangiovese": {
+      "description": "كوفيه أحمر، Toscana Rosso، توسكانا. زجاجة 1.5ل."
+    },
+    "primitivo-bottle": {
+      "description": "مصنعية Barbanera، Apulia، إيطاليا — توت داكن، كرز وتوابل رقيقة. زجاجة 0.75ل."
+    },
+    "herrgott-cuvee": {
+      "description": "Cabernet Sauvignon/Franc، Merlot، Weingut am Nil، Palatinate — كرز وتوت أحمر. زجاجة 0.75ل."
+    },
+    "herrgott-cuvee-glass": {
+      "description": "Cabernet Sauvignon/Franc، Merlot، Weingut am Nil، Palatinate. 0.1ل."
+    },
+    "tuscany-red-cuvee": {
+      "description": "Duca di Salangane، Toscana — كرز وتوت داكن. زجاجة 0.75ل."
+    },
+    "pinot-noir-goldberg": {
+      "description": "مصنعية Toni Hartl، Burgenland — توت أحمر، كرز وتوابل رقيقة. زجاجة 0.75ل."
+    },
+    "merlot": {
+      "description": "Chateau Gensac، Gascony — كرز داكن، برقوق وتوابل. زجاجة 0.75ل."
+    },
+    "brunello-di-montalcino": {
+      "description": "Tenuta Corte Pavone، Sangiovese، Tuscany — توت داكن، كرز وشوكولاتة. زجاجة 0.75ل."
+    },
+    "black-ox-cuvee": {
+      "description": "Cabernet Sauvignon، Dornfelder، Tempranillo، Weingut Lergenmüller، Palatinate — توت داكن، كرز وتوابل. زجاجة 0.75ل."
+    },
+    "rose-lime-stone": {
+      "description": "Unger، بحيرة Neusiedl — توت أحمر، فراولة، توت العليق وحمضيات. زجاجة 0.75ل."
+    },
+    "torres-natureo": {
+      "description": "Miguel Torres، Vilafranca del Penedès — حمضي، تفاح وخفيف. زجاجة 0.75ل."
+    },
+    "rieslaner-auslese": {
+      "description": "مصنعية Juliusspital، Franconia — نبيذ حلويات. زجاجة 0.5ل.",
+      "pairing": "Kaiserschmarrn or Crème brûlée"
+    },
+    "aperol-spritz": {
+      "description": "مشروب فاتح إيطالي كلاسيكي. 0.2ل."
+    },
+    "hugo": {
+      "description": "سبريتز زهرة الباتشولي (الشمرة). 0.2ل."
+    },
+    "campari-soda": {
+      "description": "0.2ل."
+    },
+    "campari-orange": {
+      "description": "0.2ل."
+    },
+    "sanbitter": {
+      "description": "فاتح مُر خالٍ من الكحول. 0.2ل."
+    },
+    "nut-in-a-bottle": {
+      "description": "2cl."
+    },
+    "ruescherl": {
+      "description": "13cl."
+    },
+    "hirschkuss": {
+      "description": "38% فولت، زجاجة بقنينة قابلة للإغلاق، 4cl."
+    },
+    "vodka-redbull": {
+      "description": "0.27ل."
+    },
+    "williams-christ-pear": {
+      "description": "40% فولت. Edelbrand، Sigi Herzog Distillate. 2cl."
+    },
+    "farm-fruit-growers": {
+      "description": "معصرة Linster للفواكه الفاخرة، معتّق سنة في براميل بلوط. 2cl."
+    },
+    "feiner-mirabell": {
+      "description": "معصرة Linster، نكهة مشمش ناضج. 2cl."
+    },
+    "enzian-gentian-brandy": {
+      "description": "مصنعية Wilhelm Marx للمشروبات الروحية الفاخرة. 2cl."
+    },
+    "raspberry-pulp-brandy": {
+      "description": "40% فولت. Edelmanufaktur Wilhelm Marx. 2cl."
+    },
+    "grappa-chardonnay": {
+      "description": "جدِّي. 2cl."
+    },
+    "paulaner-spezi": {
+      "description": "0.4ل."
+    },
+    "coca-cola": {
+      "description": "0.4ل."
+    },
+    "coca-cola-zero": {
+      "description": "0.4ل."
+    },
+    "paulaner-lemonade": {
+      "description": "0.33ل."
+    },
+    "paulaner-orange-lemonade": {
+      "description": "0.33ل."
+    },
+    "tonic": {
+      "description": "0.2ل."
+    },
+    "red-bull": {
+      "description": "0.25ل."
+    },
+    "bad-brambacher": {
+      "description": "ماء ساكن أو متوسط الفوارة. 0.5ل."
+    },
+    "table-water": {
+      "description": "ماء ساكن أو فوار."
+    },
+    "apple-spritzer": {
+      "description": "0.4ل."
+    },
+    "johannisbeerschorle": {
+      "description": "سبريتزر الكشمش الأسود. 0.4ل."
+    },
+    "maracujaschorle": {
+      "description": "سبريتزر فاكهة العاطفة. 0.4ل."
+    },
+    "wolfra-orange-juice": {
+      "description": "0.2ل."
+    },
+    "espresso": {
+      "description": ""
+    },
+    "double-espresso": {
+      "description": ""
+    },
+    "espresso-macchiato": {
+      "description": ""
+    },
+    "cappuccino": {
+      "description": ""
+    },
+    "latte-macchiato": {
+      "description": ""
+    },
+    "milchkaffee": {
+      "description": "قهوة مع الحليب."
+    },
+    "haferl-kaffee-creme": {
+      "description": "Haferl Kaffee Creme."
+    },
+    "drinking-chocolate": {
+      "description": "مع الحليب."
+    },
+    "tea-ronnefeldt": {
+      "description": "دارجيلنغ، أعشاب الجبل، توت حلو، شاي أخضر Long Jing، نعناع منعش أو بابونج فاكهي."
+    },
+    "kids-potato-dumplings": {
+      "description": "مع مرق لحم الخنزير المشوي."
+    },
+    "kids-kaesspatzn": {
+      "description": "كäsespätzle، حصة أطفال."
+    },
+    "kids-rostbratwuerstl": {
+      "description": "تقدم مع بطاطس مقلية أو سلطة بطاطس وخيار."
+    },
+    "kids-fries": {
+      "description": ""
+    }
+  }
+}

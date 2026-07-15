@@ -27,7 +27,7 @@ export function MenuItemCard({ item, language, onAskAi, compact }: Props) {
       <div className="flex items-start justify-between gap-2">
         <h3 className="text-[15px] font-medium leading-snug text-ink">{item.name}</h3>
         <span className="shrink-0 text-[15px] font-medium text-accent">
-          {item.sizes ? 'from ' : ''}
+          {item.sizes ? t.fromPricePrefix : ''}
           {fromPrice.toFixed(2)}&nbsp;€
         </span>
       </div>

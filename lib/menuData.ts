@@ -3,12 +3,132 @@ import type { MenuCategory, MenuItem } from './types';
 /**
  * Full menu, ported 1:1 from the real Donisl Sommerkarte (see data/menu.json
  * for the raw source with the restaurant's own 23 section headings — this
- * file just regroups the same items into the app's 10 browsing categories).
+ * file just regroups the same items into the app's 11 browsing categories).
  * Allergens are left empty on purpose: the restaurant has no verified
  * per-dish allergen data, and inventing any would violate the "never
  * invent" rule the AI assistant also follows.
+ *
+ * The "weekly" category is ported separately from the restaurant's physical
+ * Wochenkarte (weekly specials card) rather than the Sommerkarte — a rotating
+ * chanterelle-season menu plus Monday-Friday lunch specials. There's no
+ * day-of-week filtering in the app; each lunch special just states its day
+ * in the name/description.
  */
 export const menuItems: MenuItem[] = [
+  // ================= weekly =================
+  // -- Pfifferlinge (chanterelle season) --
+  {
+    id: 'chanterelle-soup',
+    categories: ['weekly'],
+    name: 'Pfifferlingsamtsuppe',
+    description: 'Cream of chanterelle soup with a Tyrolean bacon dumpling.',
+    price: 12.9,
+    currency: 'EUR',
+    tags: ['seasonal'],
+    allergens: [],
+    available: true,
+  },
+  {
+    id: 'romaine-chanterelle-salad',
+    categories: ['weekly'],
+    name: 'Romanaherzen',
+    description: 'Romaine lettuce hearts with raspberry vinaigrette, red onion, radish and roasted chanterelles.',
+    price: 19.9,
+    currency: 'EUR',
+    tags: ['seasonal', 'light'],
+    allergens: [],
+    available: true,
+  },
+  {
+    id: 'veal-steak-chanterelle',
+    categories: ['weekly'],
+    name: 'Steak vom Milchkalb',
+    description: 'Veal steak with chanterelles, peas and creamed potatoes.',
+    price: 35.9,
+    currency: 'EUR',
+    tags: ['seasonal', 'signature'],
+    allergens: [],
+    available: true,
+  },
+  {
+    id: 'chanterelle-linguine',
+    categories: ['weekly'],
+    name: 'Pfifferling-Linguine',
+    description: 'Linguine with chanterelles, cream, thyme and Bergkäse mountain cheese.',
+    price: 22.9,
+    currency: 'EUR',
+    tags: ['seasonal', 'vegetarian'],
+    allergens: [],
+    available: true,
+  },
+  {
+    id: 'chanterelle-cream',
+    categories: ['weekly'],
+    name: 'Pfifferlingsrahm',
+    description: 'Creamed chanterelles with thyme and a pretzel dumpling.',
+    price: 22.9,
+    currency: 'EUR',
+    tags: ['seasonal', 'vegetarian'],
+    allergens: [],
+    available: true,
+  },
+  // -- Mittagsangebot (Mon-Fri, 12:00-15:30, includes a coffee) --
+  {
+    id: 'lunch-monday-asparagus-linguine',
+    categories: ['weekly'],
+    name: 'Spargel-Linguine (Monday)',
+    description: 'Weekday lunch special, served 12:00–15:30 with a coffee included. Linguine with asparagus, chive cream, roast beef and tomato.',
+    price: 16,
+    currency: 'EUR',
+    tags: ['lunch-special'],
+    allergens: [],
+    available: true,
+  },
+  {
+    id: 'lunch-tuesday-bratengroestl',
+    categories: ['weekly'],
+    name: 'Donisl Bratengröstl (Tuesday)',
+    description: 'Weekday lunch special, served 12:00–15:30 with a coffee included. Mixed roast with white cabbage, potato dumpling and a fried egg.',
+    price: 16,
+    currency: 'EUR',
+    tags: ['lunch-special'],
+    allergens: [],
+    available: true,
+  },
+  {
+    id: 'lunch-wednesday-strindberg-steak',
+    categories: ['weekly'],
+    name: 'Schweinerückensteak "Strindberg" (Wednesday)',
+    description: 'Weekday lunch special, served 12:00–15:30 with a coffee included. Pork loin steak with green beans and potato gratin.',
+    price: 16,
+    currency: 'EUR',
+    tags: ['lunch-special'],
+    allergens: [],
+    available: true,
+  },
+  {
+    id: 'lunch-thursday-chicken-geschnetzeltes',
+    categories: ['weekly'],
+    name: 'Hähnchengeschnetzeltes (Thursday)',
+    description: 'Weekday lunch special, served 12:00–15:30 with a coffee included. Sliced chicken in mushroom sauce with herb spätzle.',
+    price: 16,
+    currency: 'EUR',
+    tags: ['lunch-special'],
+    allergens: [],
+    available: true,
+  },
+  {
+    id: 'lunch-friday-fish-fillet',
+    categories: ['weekly'],
+    name: 'Gebackenes Fischfilet (Friday)',
+    description: "Weekday lunch special, served 12:00–15:30 with a coffee included. Fried catch of the day with remoulade and potato-cucumber salad.",
+    price: 16,
+    currency: 'EUR',
+    tags: ['lunch-special'],
+    allergens: [],
+    available: true,
+  },
+
   // ================= traditional =================
   // -- Traditional Bavarian Cuisine --
   {
@@ -742,6 +862,17 @@ export const menuItems: MenuItem[] = [
     available: true,
   },
   {
+    id: 'chardonnay-glass',
+    categories: ['wine'],
+    name: 'Chardonnay (by the glass)',
+    description: 'Hirschmüller Winery, Württemberg. 0.1l.',
+    price: 6,
+    currency: 'EUR',
+    tags: ['white', 'by-glass'],
+    allergens: [],
+    available: true,
+  },
+  {
     id: 'chardonnay-macon-ige',
     categories: ['wine'],
     name: 'Chardonnay Mâcon-Igé La Cra',
@@ -808,6 +939,17 @@ export const menuItems: MenuItem[] = [
     available: true,
   },
   {
+    id: 'lugana-glass',
+    categories: ['wine'],
+    name: 'Lugana (by the glass)',
+    description: 'Zenato Winery, Veneto, Italy. 0.1l.',
+    price: 6.5,
+    currency: 'EUR',
+    tags: ['white', 'by-glass'],
+    allergens: [],
+    available: true,
+  },
+  {
     id: 'riesling-easy-white',
     categories: ['wine'],
     name: 'Riesling Easy-White',
@@ -860,6 +1002,17 @@ export const menuItems: MenuItem[] = [
     price: 29,
     currency: 'EUR',
     tags: ['white', 'bottle'],
+    allergens: [],
+    available: true,
+  },
+  {
+    id: 'riesling-nachschlag-glass',
+    categories: ['wine'],
+    name: 'Riesling "Nachschlag – Bright Side of Life" 2024 (by the glass)',
+    description: 'Stahl Winery, Franconia, Germany. 0.1l.',
+    price: 5.5,
+    currency: 'EUR',
+    tags: ['white', 'by-glass'],
     allergens: [],
     available: true,
   },
@@ -972,6 +1125,17 @@ export const menuItems: MenuItem[] = [
     price: 38,
     currency: 'EUR',
     tags: ['red', 'bottle'],
+    allergens: [],
+    available: true,
+  },
+  {
+    id: 'herrgott-cuvee-glass',
+    categories: ['wine'],
+    name: 'Herrgott Cuvée (by the glass)',
+    description: 'Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Palatinate. 0.1l.',
+    price: 6.5,
+    currency: 'EUR',
+    tags: ['red', 'by-glass'],
     allergens: [],
     available: true,
   },
@@ -1532,6 +1696,7 @@ export const menuItems: MenuItem[] = [
 ];
 
 export const categoryMeta: Record<MenuCategory, { icon: string }> = {
+  weekly: { icon: 'CalendarDays' },
   traditional: { icon: 'UtensilsCrossed' },
   sausages: { icon: 'Ham' },
   starters: { icon: 'Salad' },
@@ -1546,6 +1711,7 @@ export const categoryMeta: Record<MenuCategory, { icon: string }> = {
 };
 
 export const categoryOrder: MenuCategory[] = [
+  'weekly',
   'traditional',
   'sausages',
   'starters',

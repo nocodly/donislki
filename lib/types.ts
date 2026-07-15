@@ -1,4 +1,5 @@
 export type MenuCategory =
+  | 'weekly'
   | 'traditional'
   | 'sausages'
   | 'starters'
@@ -41,8 +42,53 @@ export type MenuItem = {
  * Detected phone locales outside this set fall back to 'en' for the UI
  * chrome, but the AI chat itself is not limited to this list — see
  * lib/systemPrompt.ts, which answers in whatever raw language code it's given.
+ *
+ * 'zh-hans' / 'zh-hant' cover Simplified/Traditional Chinese — see
+ * normalizeToSupported in lib/i18n.ts for the region-based disambiguation
+ * (navigator.language rarely carries a bare 'zh').
  */
-export type SupportedLanguage = 'en' | 'de' | 'uk' | 'it' | 'fr' | 'es';
+export type SupportedLanguage =
+  | 'en'
+  | 'uk'
+  | 'de'
+  | 'fr'
+  | 'es'
+  | 'it'
+  | 'pl'
+  | 'cs'
+  | 'sk'
+  | 'hu'
+  | 'ro'
+  | 'bg'
+  | 'el'
+  | 'tr'
+  | 'pt'
+  | 'nl'
+  | 'da'
+  | 'sv'
+  | 'no'
+  | 'fi'
+  | 'lt'
+  | 'lv'
+  | 'et'
+  | 'sr'
+  | 'hr'
+  | 'sl'
+  | 'sq'
+  | 'ru'
+  | 'ar'
+  | 'he'
+  | 'fa'
+  | 'hi'
+  | 'ur'
+  | 'zh-hans'
+  | 'zh-hant'
+  | 'ja'
+  | 'ko'
+  | 'th'
+  | 'vi'
+  | 'id'
+  | 'ms';
 
 /** Free-form BCP-47-ish language code/tag, e.g. from navigator.language. */
 export type Language = string;
