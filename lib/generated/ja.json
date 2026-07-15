@@ -1,4 +1,468 @@
 {
-  "strings": {},
-  "items": {}
+  "strings": {
+    "welcome": "下のメニューを閲覧するか、AIアシスタントにおすすめを聞いてください。",
+    "categoriesTitle": "メニュー",
+    "featuredTitle": "おすすめ",
+    "askAi": "AIに聞く",
+    "chatTitle": "DonislKI",
+    "discussing": "相談中",
+    "askAboutThis": "これについてAIに聞く",
+    "askAboutDishTemplate": "{dish}について教えてください",
+    "pairing": "相性のおすすめ",
+    "allergensLabel": "アレルゲン",
+    "allergensUnknown": "スタッフにご確認ください",
+    "composerPlaceholder": "メニューについて聞いてみて…",
+    "send": "送信",
+    "close": "閉じる",
+    "noInfo": "現在のメニューにはその情報がありません。",
+    "categories": {
+      "traditional": "伝統料理",
+      "sausages": "ソーセージ",
+      "starters": "前菜",
+      "vegan": "ビーガン",
+      "desserts": "デザート",
+      "beer": "ビール",
+      "wine": "ワイン",
+      "aperitif": "アペリティフ",
+      "spirits": "蒸留酒",
+      "drinks": "ノンアルコール・コーヒー",
+      "kids": "お子様"
+    },
+    "tagLabels": {
+      "sharing": "シェア向け",
+      "signature": "シグネチャー",
+      "hearty": "しっかり",
+      "classic": "定番",
+      "light": "あっさり",
+      "seasonal": "季節限定",
+      "strong": "アルコール強め",
+      "non-alcoholic": "ノンアルコール",
+      "vegetarian": "ベジタリアン",
+      "vegan": "ヴィーガン",
+      "spirit": "スピリッツ",
+      "water": "ミネラルウォーター",
+      "coffee": "コーヒー",
+      "hot-drink": "ホットドリンク",
+      "aperitif": "アペリティフ",
+      "bowl": "ボウル",
+      "white": "白ワイン",
+      "red": "赤ワイン",
+      "rose": "ロゼ",
+      "sparkling": "スパークリング",
+      "dessert-wine": "デザートワイン",
+      "by-glass": "グラス提供",
+      "bottle": "ボトル"
+    },
+    "quickSuggestions": [
+      "おすすめは？",
+      "この料理に合う飲み物は？",
+      "ビーガンのメニューを見せて",
+      "アレルゲンは何が入っていますか？",
+      "軽めのものが欲しい",
+      "伝統的な料理を何か"
+    ]
+  },
+  "items": {
+    "donisl-roasting-pan": {
+      "description": "牛肉、鴨、豚膝、ソーセージを赤キャベツ、ポテト団子、チーズ入りSpätzleと一緒に盛り合わせたシェアプレート。",
+      "pairing": "Münchner Dunkel"
+    },
+    "roast-pork": {
+      "description": "バイエルン風豚肩ロースとバラ肉にパリパリの皮、ナチュラルグレイビー、ジャガイモ団子、コールスローを添えて。",
+      "pairing": "Münchner Dunkel"
+    },
+    "schweinshaxe": {
+      "description": "外はカリッと焼いた豚膝（Schweinshaxe）。ナチュラルソース、ジャガイモ団子、コールスローを添えます。",
+      "pairing": "Dunkelビールと相性が良いです。"
+    },
+    "wiener-schnitzel": {
+      "description": "藁で育てられた豚のウィーナーシュニッツェル。フライドポテトまたはジャガイモときゅうりのサラダ、クランベリー添え。",
+      "pairing": "Riesling Easy-White または Radler"
+    },
+    "farm-duck": {
+      "description": "ローズマリーソース、ジャガイモ団子、赤キャベツ添えのローストダック。",
+      "pairing": "Münchner Dunkel"
+    },
+    "backhendl": {
+      "description": "骨なしのパン粉揚げチキンレッグ。フライドポテトまたはジャガイモときゅうりのサラダ付き。"
+    },
+    "duet-of-the-ox": {
+      "description": "牛の肩肉と頬肉のデュエット、赤ワインジュ、ベビースピナッチ、クリーミーなポテト添え。"
+    },
+    "veal-steak": {
+      "description": "色とりどりの胡椒クリームソース、フランベしたコールラビ、ポテトロスティ添え。"
+    },
+    "veal-meatballs": {
+      "description": "盛り野菜とローズマリーポテトの仔牛ミートボール。"
+    },
+    "white-sausage": {
+      "description": "2本入り。プレッツェルとマスタードを添えて。"
+    },
+    "white-sausage-piece": {
+      "description": "白ソーセージ1本。"
+    },
+    "polish-sausage": {
+      "description": "プレッツェルとマスタード付きのポーランドソーセージ。"
+    },
+    "currywurst": {
+      "description": "カレーソーセージ、フライドポテト添え。",
+      "pairing": "Hefeweizen（ヴァイツェン）"
+    },
+    "bratwurstreindl": {
+      "description": "ソーセージをグリルしたパン（Reindl）にザワークラウトかポテトサラダを添えたシェアサイズ。",
+      "pairing": "Russn（軽めのHefeweizen）"
+    },
+    "rump-steak": {
+      "description": "Murnau牛のランプステーキ、赤ワインと玉ねぎのジュ、フライドオニオン、Käsespätzle添え。"
+    },
+    "ribeye-300g": {
+      "description": "Murnau牛の脂身の多いリブアイ（300g）、Café de Parisソース、グリル野菜、ポテトグラタン添え。"
+    },
+    "deluxe-burger": {
+      "description": "200g Werdenfelser牛、チェダー、レタス、トマト、ピクルス、玉ねぎ、自家製Donislソースのデラックスバーガー。",
+      "pairing": "Münchner Hell"
+    },
+    "icefish": {
+      "description": "タイム、ラタトゥイユの野菜、ポテトグラタン添えのアイスフィッシュ。"
+    },
+    "brotzeitbrettl": {
+      "description": "農家風の燻製肉、ベーコンソーセージ、レバーソーセージ、ローストビーフ冷製、O'gmachter、山のチーズ、ホースラディッシュ、パンの盛り合わせ。"
+    },
+    "donisl-4erlei": {
+      "description": "フムス、自家製チーズ、塩バター、ハーブ入りサワークリームをパンバスケットと一緒に。"
+    },
+    "beef-tartare": {
+      "description": "トリュフクリームと焼き卵のオーガニック仕立てのビーフタルタル。"
+    },
+    "calfs-head-carpaccio": {
+      "description": "仔牛の頭肉カルパッチョ、ザクロ、ホースラディッシュ、きゅうり添え。"
+    },
+    "ogmachter-kas": {
+      "description": "玉ねぎリング、ラディッシュ、レタス、ベリーを添えたクリーミーなチーズ（Ogmachter Kas）。"
+    },
+    "sausage-salad": {
+      "description": "自家製ドレッシング、玉ねぎリング、ピクルス、トマト、ベリー入りのソーセージサラダ（山のチーズの細切り +1.90）。"
+    },
+    "donisl-salad": {
+      "description": "葉物、トマト、きゅうり、自家製ドレッシング、シードとクルトンのDonislサラダ。"
+    },
+    "bread-basket": {
+      "description": "焼きたてパンの盛り合わせ。"
+    },
+    "brezn": {
+      "description": "バイエルンのプレッツェル（Brezn）。"
+    },
+    "oxen-consomme": {
+      "description": "澄んだ牛だしのコンソメ。レバーダンプリングまたはパンケーキの細切り、野菜、チャイブ入り。"
+    },
+    "tomato-soup": {
+      "description": "滑らかなトマトスープにブッラータとバジルクリームをのせて。"
+    },
+    "classic-sides": {
+      "description": "ザワークラウト、赤キャベツ、ベーコンとキャベツのサラダ、クリーミーポテト、ジャガイモ団子、小さなローストポテト、Spätzle、またはフライドポテト — 各種。"
+    },
+    "vegetable-sides": {
+      "description": "季節の野菜の付け合わせ、またはジャガイモときゅうりのサラダ — 各種。"
+    },
+    "power-bowl": {
+      "description": "香り高いライス、アボカド、枝豆、ひよこ豆、にんじん、トマト、きゅうり、ピーナッツ、オレンジ・ミント・ライムドレッシング。"
+    },
+    "kaesespaetzle": {
+      "description": "玉ねぎリングを添えたチーズSpätzle。",
+      "pairing": "Münchner Dunkel または コクのある白ワイン"
+    },
+    "linguine-truffles": {
+      "description": "ベビースピナッチと冬トリュフを使ったリングイネ。"
+    },
+    "rahmschwammerl": {
+      "description": "クリーミーなきのこ（Rahmschwammerl）、プレッツェルダンプリング添え。"
+    },
+    "creme-brulee": {
+      "description": "ソルベとベリーを添えたクレームブリュレ。",
+      "pairing": "Rieslaner Auslese デザートワイン"
+    },
+    "kaiserschmarrn": {
+      "description": "ラムレーズン、バター、砂糖、キャラメリゼしたアーモンド、アップルソース添えのKaiserschmarrn（シェアに最適）。",
+      "pairing": "Rieslaner Auslese デザートワイン"
+    },
+    "kirschmichl": {
+      "description": "温かいチェリーケーキにカスタードを添えて。"
+    },
+    "apple-strudel": {
+      "description": "クラシックなアップルストゥルーデル、カスタード添え。",
+      "pairing": "Milchkaffee"
+    },
+    "muenchner-hell": {
+      "description": "底発酵、繊細な苦味とほのかなモルト感。アルコール5.0% vol。"
+    },
+    "beer-light-alcohol-free": {
+      "description": "自然に濁ったタイプ、カラメルとハチミツのニュアンス。<0.5% vol。"
+    },
+    "muenchner-radler": {
+      "description": "Munich Hellesと上品なレモネードのブレンド、甘すぎない味わい。"
+    },
+    "muenchner-dunkel": {
+      "description": "繊細な苦味とローストモルト、カラメルやコンポート香。アルコール5.0% vol。"
+    },
+    "hefeweizen": {
+      "description": "上面発酵のヴァイツェン。バナナやハチミツの香り。"
+    },
+    "russn": {
+      "description": "軽めのレモネードを合わせたHefeweizen、甘さ控えめ。"
+    },
+    "cola-wheat": {
+      "description": "Hefeweizenにコカ・コーラを合わせたドリンク。"
+    },
+    "non-alcoholic-wheat": {
+      "description": "完全成熟後に丁寧に脱アルコール処理。香りが残っています。"
+    },
+    "salvator": {
+      "description": "強いビール（Starkbier）、季節限定 — 2月/3月頃の提供。0.5l。"
+    },
+    "kellerbier": {
+      "description": "季節限定 — 6月/7月/8月（夏期）の提供。0.5l。"
+    },
+    "wiesnbier": {
+      "description": "オクトーバーフェスト用ビール、季節限定 — 9月/10月の提供。0.5l。"
+    },
+    "weissweinschorle": {
+      "description": "白ワインのシュワっとしたスプリッツァー。0.3l。"
+    },
+    "pinot-gris-glass": {
+      "description": "Hirschmüller ワイナリー（Württemberg）— 軽やかで飲みやすい。"
+    },
+    "primitivo-glass": {
+      "description": "Sir of the Faun（Puglia）— 濃いベリー、チェリー、ほのかなスパイス。"
+    },
+    "prodry-frizzante": {
+      "description": "Motelvini（Veneto, Italy）。0.1l。"
+    },
+    "paul-michel-champagne": {
+      "description": "Champagne Premier Cru（シャンパーニュ、フランス）。0.75lボトル。"
+    },
+    "taittinger-rose": {
+      "description": "Taittinger（シャンパーニュ、フランス）。0.75lボトル。"
+    },
+    "valdo-prosecco": {
+      "description": "Valdo（Veneto）— クラシックなイタリアのスパークリング。0.75lボトル。"
+    },
+    "winzersekt": {
+      "description": "Pfaffmann ワイナリー（Pfalz、ドイツ）。0.75lボトル。"
+    },
+    "chardonnay-bottle": {
+      "description": "Hirschmüller（Württemberg）— パッションフルーツ、マンゴー、パイナップル。0.75lボトル。"
+    },
+    "chardonnay-macon-ige": {
+      "description": "Domaine Fichet（ブルゴーニュ）— りんご、洋梨、白桃、控えめなミネラリティ。0.75lボトル。"
+    },
+    "pinot-gris-tradition": {
+      "description": "Bott Frères（ブルゴーニュ）— アプリコット、リンゴ、ヘーゼルナッツ、ほのかなスモーク。0.75lボトル。"
+    },
+    "pinot-gris-oetinger": {
+      "description": "Oetinger（ラインガウ）— 熟した洋梨、黄色いリンゴ、ほのかなアーモンド。0.75lボトル。"
+    },
+    "pinot-gris-reserve-pauline": {
+      "description": "Pfaffmann（Pfalz）— 洋梨、パイナップル、ネクタリン、レモングラス、花の香り。0.75lボトル。"
+    },
+    "pinot-blanc-grand-reserve": {
+      "description": "Taubenschuss（オーストリア Weinviertel）— メロン、ヘーゼルナッツ、干草、カラメル。0.75lボトル。"
+    },
+    "trebbiano-di-lugana": {
+      "description": "Zenato（Veneto, Italy）— フレッシュな酸、ミネラル、柑橘、青りんご、洋梨。0.75lボトル。"
+    },
+    "riesling-easy-white": {
+      "description": "Oetinger（ラインガウ）— ライム、りんご、白桃、食前酒に最適。0.75lボトル。",
+      "pairing": "Wiener Schnitzel"
+    },
+    "riesling-gottloos": {
+      "description": "Dr. Loosen（モーゼル）— 柑橘、りんご、上品なミネラリティ。0.75lボトル。"
+    },
+    "riesling-heiligenstein": {
+      "description": "Bründlmayer（ランゲンロイス、カンプタール、オーストリア）— フレッシュな柑橘、りんご、ハーブの香り。0.75lボトル。"
+    },
+    "riesling-smoky-dry": {
+      "description": "Weingut Oetinger（ラインガウ）— 煙のようなミネラリティ、ジューシーなりんご、柑橘。0.75lボトル。"
+    },
+    "riesling-bright-side-of-life": {
+      "description": "Stahl（フランケン）— フルーティーでフレッシュ、気軽に楽しめます。0.75lボトル。"
+    },
+    "sauvignon-blanc": {
+      "description": "Chateau de la Chaise（ロワール）— グーズベリー、青りんご、エキゾチックフルーツ。0.75lボトル。"
+    },
+    "sauvignon-blanc-reserve": {
+      "description": "Taubenschuss（Weinviertel）— ライム、グーズベリー、エキゾチックフルーツ。0.75lボトル。"
+    },
+    "silvaner-easy-white": {
+      "description": "Weingut am Stein（フランケン）— 青りんご、洋梨、控えめなハーブ感。0.75lボトル。"
+    },
+    "gruener-veltliner-tenn": {
+      "description": "Taubenschuss（Weinviertel）— りんご、白胡椒、ハーブのスパイス。0.75lボトル。"
+    },
+    "riesling-gottloos-3l": {
+      "description": "Dr. Loosen（モーゼル）。3.0lボトル。"
+    },
+    "gruener-veltliner-steinberg": {
+      "description": "Karl Fritsch（ブルゲンラント、オーストリア）。1.5lボトル。"
+    },
+    "chardonnay-morillon": {
+      "description": "Lackner-Tinnacher（南シュタイヤーマルク、オーストリア）。1.5lボトル。"
+    },
+    "cuvee-adrian-sangiovese": {
+      "description": "赤のキュヴェ、Toscana Rosso（トスカーナ）。1.5lボトル。"
+    },
+    "primitivo-bottle": {
+      "description": "Barbanera（アプリア、イタリア）— 濃いベリー、チェリー、ほのかなスパイス。0.75lボトル。"
+    },
+    "herrgott-cuvee": {
+      "description": "Cabernet Sauvignon/Franc、Merlot、Weingut am Nil（Pfalz）— チェリー、赤系ベリー。0.75lボトル。"
+    },
+    "tuscany-red-cuvee": {
+      "description": "Duca di Salangane（トスカーナ）— チェリー、濃いベリー。0.75lボトル。"
+    },
+    "pinot-noir-goldberg": {
+      "description": "Toni Hartl（ブルゲンラント）— 赤いベリー、チェリー、ほのかなスパイス。0.75lボトル。"
+    },
+    "merlot": {
+      "description": "Chateau Gensac（ガスコーニュ）— 熟したチェリー、プラム、スパイス。0.75lボトル。"
+    },
+    "brunello-di-montalcino": {
+      "description": "Tenuta Corte Pavone（サンジョヴェーゼ、トスカーナ）— 濃いベリー、チェリー、チョコレート。0.75lボトル。"
+    },
+    "black-ox-cuvee": {
+      "description": "Cabernet Sauvignon、Dornfelder、Tempranillo、Weingut Lergenmüller（Pfalz）— 濃いベリー、チェリー、スパイス。0.75lボトル。"
+    },
+    "rose-lime-stone": {
+      "description": "Unger（ノイジードル湖）— 赤いベリー、いちご、ラズベリー、柑橘。0.75lボトル。"
+    },
+    "torres-natureo": {
+      "description": "Miguel Torres（Vilafranca del Penedès）— 柑橘、りんご、軽やか。0.75lボトル。"
+    },
+    "rieslaner-auslese": {
+      "description": "Juliusspital（フランケン）— デザートワイン。0.5lボトル。",
+      "pairing": "Kaiserschmarrn または Crème brûlée"
+    },
+    "aperol-spritz": {
+      "description": "イタリアの定番アペリティフ。0.2l。"
+    },
+    "hugo": {
+      "description": "エルダーフラワーのスプリッツ。0.2l。"
+    },
+    "campari-soda": {
+      "description": "0.2l。"
+    },
+    "campari-orange": {
+      "description": "0.2l。"
+    },
+    "sanbitter": {
+      "description": "アルコールフリーのビター系アペリティフ。0.2l。"
+    },
+    "nut-in-a-bottle": {
+      "description": "2cl。"
+    },
+    "ruescherl": {
+      "description": "13cl。"
+    },
+    "hirschkuss": {
+      "description": "アルコール38% vol.、スイングトップボトル。4cl。"
+    },
+    "vodka-redbull": {
+      "description": "0.27l。"
+    },
+    "williams-christ-pear": {
+      "description": "アルコール40% vol.、エーデルブランデ（Sigi Herzog蒸留）。2cl。"
+    },
+    "farm-fruit-growers": {
+      "description": "Linsterのフィーヌフルーツ蒸留、オーク樽で1年熟成。2cl。"
+    },
+    "feiner-mirabell": {
+      "description": "Linsterのフィーヌフルーツ蒸留、熟したアプリコット風味。2cl。"
+    },
+    "enzian-gentian-brandy": {
+      "description": "Wilhelm Marx フィネスピリッツマニュファクトリー製。2cl。"
+    },
+    "raspberry-pulp-brandy": {
+      "description": "アルコール40% vol.、Wilhelm Marx エーデルマヌファクトゥア製。2cl。"
+    },
+    "grappa-chardonnay": {
+      "description": "Grandfather。2cl。"
+    },
+    "paulaner-spezi": {
+      "description": "0.4l。"
+    },
+    "coca-cola": {
+      "description": "0.4l。"
+    },
+    "coca-cola-zero": {
+      "description": "0.4l。"
+    },
+    "paulaner-lemonade": {
+      "description": "0.33l。"
+    },
+    "paulaner-orange-lemonade": {
+      "description": "0.33l。"
+    },
+    "tonic": {
+      "description": "0.2l。"
+    },
+    "red-bull": {
+      "description": "0.25l。"
+    },
+    "bad-brambacher": {
+      "description": "無糖（Still）または中微炭酸（Medium）。0.5l。"
+    },
+    "table-water": {
+      "description": "Still（無炭酸）またはSparkling（炭酸）。"
+    },
+    "apple-spritzer": {
+      "description": "0.4l。"
+    },
+    "johannisbeerschorle": {
+      "description": "カシスのスプリッツァー。0.4l。"
+    },
+    "maracujaschorle": {
+      "description": "パッションフルーツのスプリッツァー。0.4l。"
+    },
+    "wolfra-orange-juice": {
+      "description": "0.2l。"
+    },
+    "espresso": {
+      "description": ""
+    },
+    "double-espresso": {
+      "description": ""
+    },
+    "espresso-macchiato": {
+      "description": ""
+    },
+    "cappuccino": {
+      "description": ""
+    },
+    "latte-macchiato": {
+      "description": ""
+    },
+    "milchkaffee": {
+      "description": "ミルク入りのコーヒー。"
+    },
+    "haferl-kaffee-creme": {
+      "description": "Haferl Kaffee Creme。"
+    },
+    "drinking-chocolate": {
+      "description": "ミルク入りのホットチョコレート。"
+    },
+    "tea-ronnefeldt": {
+      "description": "Darjeeling、Mountain herbs、Sweet Berries、Green Dragon Lung Ching、Refreshing Mint、または Fruity Camomile。"
+    },
+    "kids-potato-dumplings": {
+      "description": "ポークローストのグレイビー添えの子供用ジャガイモ団子。"
+    },
+    "kids-kaesspatzn": {
+      "description": "子供用のチーズSpätzle。"
+    },
+    "kids-rostbratwuerstl": {
+      "description": "フライドポテトまたはジャガイモときゅうりのサラダ付きの子供用ロストブラートヴルストル。"
+    },
+    "kids-fries": {
+      "description": ""
+    }
+  }
 }

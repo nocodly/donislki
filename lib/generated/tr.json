@@ -1,4 +1,468 @@
 {
-  "strings": {},
-  "items": {}
+  "strings": {
+    "welcome": "Aşağıdaki menüye göz atın veya öneri için yapay zeka asistanımıza sorun.",
+    "categoriesTitle": "Menü",
+    "featuredTitle": "Öne çıkanlar",
+    "askAi": "Yapay Zeka'ya Sor",
+    "chatTitle": "DonislKI",
+    "discussing": "Konuşuluyor",
+    "askAboutThis": "Bunun hakkında Yapay Zeka'ya sor",
+    "askAboutDishTemplate": "Bana {dish} hakkında bilgi ver",
+    "pairing": "İle iyi gider",
+    "allergensLabel": "Alerjenler",
+    "allergensUnknown": "Lütfen personelden teyit edin",
+    "composerPlaceholder": "Menü hakkında sor…",
+    "send": "Gönder",
+    "close": "Kapat",
+    "noInfo": "Mevcut menüde bu bilgi yok.",
+    "categories": {
+      "traditional": "Geleneksel",
+      "sausages": "Sosisler",
+      "starters": "Başlangıçlar",
+      "vegan": "Vegan",
+      "desserts": "Tatlılar",
+      "beer": "Bira",
+      "wine": "Şarap",
+      "aperitif": "Aperatif",
+      "spirits": "Likörler",
+      "drinks": "Alkolsüz içecekler & kahve",
+      "kids": "Çocuklar"
+    },
+    "tagLabels": {
+      "sharing": "paylaşmalık",
+      "signature": "imza",
+      "hearty": "doyurucu",
+      "classic": "klasik",
+      "light": "hafif",
+      "seasonal": "mevsimlik",
+      "strong": "güçlü",
+      "non-alcoholic": "alkolsüz",
+      "vegetarian": "vejetaryen",
+      "vegan": "vegan",
+      "spirit": "likör",
+      "water": "su",
+      "coffee": "kahve",
+      "hot-drink": "sıcak içecek",
+      "aperitif": "aperatif",
+      "bowl": "kase",
+      "white": "beyaz",
+      "red": "kırmızı",
+      "rose": "rosé",
+      "sparkling": "gazlı",
+      "dessert-wine": "tatlı şarap",
+      "by-glass": "kadeh",
+      "bottle": "şişe"
+    },
+    "quickSuggestions": [
+      "Ne önerirsiniz?",
+      "Hangi içecek bu yemeğe uyar?",
+      "Vegan seçenekleri göster",
+      "Hangi yemeklerde alerjen var?",
+      "Hafif bir şey",
+      "Geleneksel bir şey"
+    ]
+  },
+  "items": {
+    "donisl-roasting-pan": {
+      "description": "Dana, ördek, domuz incik ve sosisler; kırmızı lahana, patates mantısı ve peynirli Spätzle ile — paylaşmak için.",
+      "pairing": "Münchner Dunkel"
+    },
+    "roast-pork": {
+      "description": "Bavyera domuz omuzu ve karın kısmı, çıtırtılı kabuk, doğal sos, patates mantısı ve lahana salatası ile.",
+      "pairing": "Münchner Dunkel"
+    },
+    "schweinshaxe": {
+      "description": "Kıtır fırınlanmış domuz incik, doğal sos, patates mantısı ve lahana salatası ile servis edilir.",
+      "pairing": "Dunkel bira ile iyi gider."
+    },
+    "wiener-schnitzel": {
+      "description": "Bavyera çiftlik domuzundan ince pane schnitzel, patates kızartması veya patates-salata ile ve kızılcık reçeli eşlik eder.",
+      "pairing": "Riesling Easy-White veya bir Radler"
+    },
+    "farm-duck": {
+      "description": "Biberiyeli sos, patates mantısı ve kırmızı lahana ile.",
+      "pairing": "Münchner Dunkel"
+    },
+    "backhendl": {
+      "description": "Kemiksiz pane tavuk butu, patates kızartması veya patates-salata ile."
+    },
+    "duet-of-the-ox": {
+      "description": "Ön omuz ve yanağın duet'i, kırmızı şarap jus, bebek ıspanak, kremalı patates."
+    },
+    "veal-steak": {
+      "description": "Renkli karabiberli kremalı sos, alevlenmiş kohlrabi ve patates rösti."
+    },
+    "veal-meatballs": {
+      "description": "Servis sebzeleri ve biberiyeli patatesler."
+    },
+    "white-sausage": {
+      "description": "İki adet, pretzel ve hardal ile servis edilir."
+    },
+    "white-sausage-piece": {
+      "description": "Tek parça beyaz sosis."
+    },
+    "polish-sausage": {
+      "description": "Pretzel ve hardal ile."
+    },
+    "currywurst": {
+      "description": "Curry sosis, patates kızartması ile servis edilir.",
+      "pairing": "Hefeweizen buğday birası"
+    },
+    "bratwurstreindl": {
+      "description": "Izgara sosis tavada, lahana turşusu veya patates salatası ile — paylaşmalık porsiyon.",
+      "pairing": "Russn (hafif Hefeweizen)"
+    },
+    "rump-steak": {
+      "description": "Murnau dana, kırmızı şarap ve soğan jus, kızarmış soğan, käsespätzle ile."
+    },
+    "ribeye-300g": {
+      "description": "Murnau dana yağ kaplaması, café de paris sos, ızgara sebzeler, patates gratin."
+    },
+    "deluxe-burger": {
+      "description": "200g Werdenfelser dana, cheddar, marul, domates, turşu, soğan, ev yapımı Donisl sosu.",
+      "pairing": "Münchner Hell"
+    },
+    "icefish": {
+      "description": "Kekik, ratatouille sebzeler, patates gratin."
+    },
+    "brotzeitbrettl": {
+      "description": "Çiftçi füme etleri, domuz pastırma sosis, ciğer ezmesi, soğuk rosto, O'gmachter, dağ peyniri, yaban turpu, ekmek."
+    },
+    "donisl-4erlei": {
+      "description": "Humus, yapılmış peynir, tuzlu tereyağı ve otlu ekşi krema, ekmek sepeti ile servis edilir."
+    },
+    "beef-tartare": {
+      "description": "Trüf kreması, fırınlanmış organik yumurta."
+    },
+    "calfs-head-carpaccio": {
+      "description": "Nar, yaban turpu, salatalık."
+    },
+    "ogmachter-kas": {
+      "description": "Soğan halkaları, turp, marul ve orman meyveleri ile kremamsı peynir."
+    },
+    "sausage-salad": {
+      "description": "Ev yapımı sos, soğan halkaları, kornişon, domates, orman meyveleri (+1.90 dağ peyniri şeritleri ile)."
+    },
+    "donisl-salad": {
+      "description": "Yeşillikler, domates, salatalık, ev sosu, tohumlar ve krutonlar."
+    },
+    "bread-basket": {
+      "description": "Taze ekmek sepeti."
+    },
+    "brezn": {
+      "description": "Bavyera pretzeli."
+    },
+    "oxen-consomme": {
+      "description": "Temiz dana suyu, ciğer köftesi veya krep şeritleri, sebzeler ve frenk soğanı ile."
+    },
+    "tomato-soup": {
+      "description": "Pürüzsüz domates çorbası, burrata-fesleğen kreması ile."
+    },
+    "classic-sides": {
+      "description": "Lahana turşusu, kırmızı lahana, pastırmalı lahana salatası, kremalı patates, patates mantısı, küçük fırınlanmış patatesler, Spätzle veya patates kızartması — her biri."
+    },
+    "vegetable-sides": {
+      "description": "Sebze garnitürü veya patates-salata — her biri."
+    },
+    "power-bowl": {
+      "description": "Aromatik pilav, avokado, edamame, nohut, havuç, domates, salatalık, yer fıstığı, portakal-nane-lime sosu."
+    },
+    "kaesespaetzle": {
+      "description": "Soğan halkalı peynirli Spätzle.",
+      "pairing": "Münchner Dunkel veya gövdeli bir beyaz şarap"
+    },
+    "linguine-truffles": {
+      "description": "Bebek ıspanak ve kış trüfü ile makarna."
+    },
+    "rahmschwammerl": {
+      "description": "Kremalı mantarlar, pretzel köftesi ile servis edilir."
+    },
+    "creme-brulee": {
+      "description": "Sorbet ve orman meyveleri ile servis edilir.",
+      "pairing": "Rieslaner Auslese tatlı şarabı"
+    },
+    "kaiserschmarrn": {
+      "description": "Kuru üzüm, tereyağı, şeker ve karamelize bademler, elma püresi ile servis edilir — paylaşmak için ideal.",
+      "pairing": "Rieslaner Auslese tatlı şarabı"
+    },
+    "kirschmichl": {
+      "description": "Sıcak vişneli kek, kremayla servis edilir."
+    },
+    "apple-strudel": {
+      "description": "Klasik elmalı strudel, kremayla servis edilir.",
+      "pairing": "Milchkaffee"
+    },
+    "muenchner-hell": {
+      "description": "Dipten fermante, hafif acı şerbetçiotu notası, biraz maltlı. %5.0 vol."
+    },
+    "beer-light-alcohol-free": {
+      "description": "Doğal bulanık, karamel ve bal notaları. <0.5% vol."
+    },
+    "muenchner-radler": {
+      "description": "Munich Helles ve ince limonata karışımı, çok tatlı değil."
+    },
+    "muenchner-dunkel": {
+      "description": "Hafif acı, kavrulmuş malt, karamel ve şekerli meyve notaları. %5.0 vol."
+    },
+    "hefeweizen": {
+      "description": "Top-fermente buğday birası, muz ve bal notaları."
+    },
+    "russn": {
+      "description": "Hefeweizen ile ince limonata, çok tatlı değil."
+    },
+    "cola-wheat": {
+      "description": "Hefeweizen ile Coca-Cola karışımı."
+    },
+    "non-alcoholic-wheat": {
+      "description": "Tam olgunlaşmanın ardından hafifçe alkolsüzleştirilmiş, aromasını korur."
+    },
+    "salvator": {
+      "description": "Güçlü bira (Starkbier), mevsimlik — Şubat/Mart ayında mevcut. 0.5l."
+    },
+    "kellerbier": {
+      "description": "Mevsimlik — Haziran/Temmuz/Ağustos (yaz zamanı) mevcut. 0.5l."
+    },
+    "wiesnbier": {
+      "description": "Oktoberfest birası, mevsimlik — Eylül/Ekim aylarında mevcut. 0.5l."
+    },
+    "weissweinschorle": {
+      "description": "Beyaz şarap şorlesi. 0.3l."
+    },
+    "pinot-gris-glass": {
+      "description": "Hirschmüller Bağcılık, Württemberg — hafif, kolay içimli."
+    },
+    "primitivo-glass": {
+      "description": "Sir of the Faun, Puglia — koyu orman meyveleri, kiraz, hafif baharat."
+    },
+    "prodry-frizzante": {
+      "description": "Motelvini, Veneto, İtalya. 0.1l."
+    },
+    "paul-michel-champagne": {
+      "description": "Champagne Premier Cru, Champagne, Fransa. 0.75l şişe."
+    },
+    "taittinger-rose": {
+      "description": "Champagne Taittinger, Fransa. 0.75l şişe."
+    },
+    "valdo-prosecco": {
+      "description": "Valdo, Veneto — klasik İtalyan köpüklü şarap. 0.75l şişe."
+    },
+    "winzersekt": {
+      "description": "Pfaffmann Bağcılık, Pfalz, Almanya. 0.75l şişe."
+    },
+    "chardonnay-bottle": {
+      "description": "Hirschmüller Bağcılık, Württemberg — passion fruit, mango, ananas. 0.75l şişe."
+    },
+    "chardonnay-macon-ige": {
+      "description": "Domaine Fichet, Burgonya — elma, armut, beyaz şeftali, ince minerallik. 0.75l şişe."
+    },
+    "pinot-gris-tradition": {
+      "description": "Bott Frères Bağcılık, Burgonya — kayısı, Viyana elması, fındık, hafif tütsü. 0.75l şişe."
+    },
+    "pinot-gris-oetinger": {
+      "description": "Oetinger Bağcılık, Rheingau — olgun armut, sarı elma, badem dokunuşu. 0.75l şişe."
+    },
+    "pinot-gris-reserve-pauline": {
+      "description": "Pfaffmann Bağcılık, Pfalz — armut, ananas, nektarin, limon otu, çiçeksi. 0.75l şişe."
+    },
+    "pinot-blanc-grand-reserve": {
+      "description": "Taubenschuss Bağcılık, Avusturya Weinviertel — kavun, fındık, saman, karamel. 0.75l şişe."
+    },
+    "trebbiano-di-lugana": {
+      "description": "Zenato Bağcılık, Veneto, İtalya — taze asidite, mineral, narenciye, yeşil elma, armut. 0.75l şişe."
+    },
+    "riesling-easy-white": {
+      "description": "Oetinger Bağcılık, Rheingau — misket limonu, elma, beyaz şeftali, ideal aperitif.",
+      "pairing": "Wiener Schnitzel"
+    },
+    "riesling-gottloos": {
+      "description": "Dr. Loosen Bağcılık, Mosel — narenciye, elma, zarif minerallik. 0.75l şişe."
+    },
+    "riesling-heiligenstein": {
+      "description": "Bründlmayer Bağcılık, Langenlois, Kamptal, Avusturya — taze narenciye, elma, bitkisel baharat. 0.75l şişe."
+    },
+    "riesling-smoky-dry": {
+      "description": "Weingut Oetinger, Rheingau — isli minerallik, sulu elma, narenciye. 0.75l şişe."
+    },
+    "riesling-bright-side-of-life": {
+      "description": "Stahl Bağcılık, Franken, Almanya — meyvemsi, ferah, sorunsuz. 0.75l şişe."
+    },
+    "sauvignon-blanc": {
+      "description": "Chateau de la Chaise, Loire — bektaşi üzümü, yeşil elma, egzotik meyve. 0.75l şişe."
+    },
+    "sauvignon-blanc-reserve": {
+      "description": "Taubenschuss Bağcılık, Avusturya Weinviertel — misket limonu, bektaşi üzümü, egzotik meyve. 0.75l şişe."
+    },
+    "silvaner-easy-white": {
+      "description": "Weingut am Stein, Franken — yeşil elma, armut, hafif otlar. 0.75l şişe."
+    },
+    "gruener-veltliner-tenn": {
+      "description": "Taubenschuss Bağcılık, Avusturya Weinviertel — elma, beyaz biber, bitkisel baharat. 0.75l şişe."
+    },
+    "riesling-gottloos-3l": {
+      "description": "Dr. Loosen Bağcılık, Mosel. 3.0l şişe."
+    },
+    "gruener-veltliner-steinberg": {
+      "description": "Karl Fritsch Bağcılık, Burgenland, Avusturya. 1.5l şişe."
+    },
+    "chardonnay-morillon": {
+      "description": "Lackner-Tinnacher Bağcılık, Güney Styria, Avusturya. 1.5l şişe."
+    },
+    "cuvee-adrian-sangiovese": {
+      "description": "Kırmızı cuvée, Toscana Rosso, Toskana. 1.5l şişe."
+    },
+    "primitivo-bottle": {
+      "description": "Barbanera Bağcılık, Apulia, İtalya — koyu orman meyveleri, kiraz, hafif baharat. 0.75l şişe."
+    },
+    "herrgott-cuvee": {
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz — kiraz, kırmızı meyveler. 0.75l şişe."
+    },
+    "tuscany-red-cuvee": {
+      "description": "Duca di Salangane, Toskana — kiraz, koyu orman meyveleri. 0.75l şişe."
+    },
+    "pinot-noir-goldberg": {
+      "description": "Toni Hartl Bağcılık, Burgenland — kırmızı meyveler, kiraz, hafif baharat. 0.75l şişe."
+    },
+    "merlot": {
+      "description": "Chateau Gensac, Gascogne — koyu kiraz, erik, baharat. 0.75l şişe."
+    },
+    "brunello-di-montalcino": {
+      "description": "Tenuta Corte Pavone Bağcılık, Sangiovese, Toskana — koyu meyve, kiraz, çikolata. 0.75l şişe."
+    },
+    "black-ox-cuvee": {
+      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Pfalz — koyu orman meyveleri, kiraz, baharat. 0.75l şişe."
+    },
+    "rose-lime-stone": {
+      "description": "Unger Bağcılık, Neusiedl Gölü — kırmızı meyveler, çilek, ahududu, narenciye. 0.75l şişe."
+    },
+    "torres-natureo": {
+      "description": "Miguel Torres, Vilafranca del Penedès — narenciye, elma, hafif. 0.75l şişe."
+    },
+    "rieslaner-auslese": {
+      "description": "Juliusspital Bağcılık, Franken — tatlı şarap. 0.5l şişe.",
+      "pairing": "Kaiserschmarrn veya Crème brûlée"
+    },
+    "aperol-spritz": {
+      "description": "Klasik İtalyan aperitifi. 0.2l."
+    },
+    "hugo": {
+      "description": "Yabanmersini çiçeği spritzi. 0.2l."
+    },
+    "campari-soda": {
+      "description": "0.2l."
+    },
+    "campari-orange": {
+      "description": "0.2l."
+    },
+    "sanbitter": {
+      "description": "Alkolsüz acı aperitif. 0.2l."
+    },
+    "nut-in-a-bottle": {
+      "description": "2cl."
+    },
+    "ruescherl": {
+      "description": "13cl."
+    },
+    "hirschkuss": {
+      "description": "%38 vol., kapaklı şişe, 4cl."
+    },
+    "vodka-redbull": {
+      "description": "0.27l."
+    },
+    "williams-christ-pear": {
+      "description": "%40 vol. Edelbrand, Sigi Herzog Distillate. 2cl."
+    },
+    "farm-fruit-growers": {
+      "description": "Linster ince meyve damıtımı, 1 yıl meşe fıçılarda dinlendirilmiş. 2cl."
+    },
+    "feiner-mirabell": {
+      "description": "Linster ince meyve damıtımı, olgun kayısı aroması. 2cl."
+    },
+    "enzian-gentian-brandy": {
+      "description": "Wilhelm Marx Fine Spirits Manufactory. 2cl."
+    },
+    "raspberry-pulp-brandy": {
+      "description": "%40 vol. Edelmanufaktur Wilhelm Marx. 2cl."
+    },
+    "grappa-chardonnay": {
+      "description": "Grandfather. 2cl."
+    },
+    "paulaner-spezi": {
+      "description": "0.4l."
+    },
+    "coca-cola": {
+      "description": "0.4l."
+    },
+    "coca-cola-zero": {
+      "description": "0.4l."
+    },
+    "paulaner-lemonade": {
+      "description": "0.33l."
+    },
+    "paulaner-orange-lemonade": {
+      "description": "0.33l."
+    },
+    "tonic": {
+      "description": "0.2l."
+    },
+    "red-bull": {
+      "description": "0.25l."
+    },
+    "bad-brambacher": {
+      "description": "Durgun veya orta gazlı. 0.5l."
+    },
+    "table-water": {
+      "description": "Durgun veya gazlı."
+    },
+    "apple-spritzer": {
+      "description": "0.4l."
+    },
+    "johannisbeerschorle": {
+      "description": "Karadut şorlesi. 0.4l."
+    },
+    "maracujaschorle": {
+      "description": "Tutku meyveli şorle. 0.4l."
+    },
+    "wolfra-orange-juice": {
+      "description": "0.2l."
+    },
+    "espresso": {
+      "description": ""
+    },
+    "double-espresso": {
+      "description": ""
+    },
+    "espresso-macchiato": {
+      "description": ""
+    },
+    "cappuccino": {
+      "description": ""
+    },
+    "latte-macchiato": {
+      "description": ""
+    },
+    "milchkaffee": {
+      "description": "Sütlü kahve."
+    },
+    "haferl-kaffee-creme": {
+      "description": "Haferl Kaffee Creme."
+    },
+    "drinking-chocolate": {
+      "description": "Süt ile."
+    },
+    "tea-ronnefeldt": {
+      "description": "Darjeeling, Mountain herbs, Sweet Berries, Green Dragon Lung Ching, Refreshing Mint veya Fruity Camomile."
+    },
+    "kids-potato-dumplings": {
+      "description": "Domuz rosto soslu patates mantısı."
+    },
+    "kids-kaesspatzn": {
+      "description": "Peynirli Spätzle, çocuk porsiyonu."
+    },
+    "kids-rostbratwuerstl": {
+      "description": "Patates kızartması veya patates-salata ile."
+    },
+    "kids-fries": {
+      "description": ""
+    }
+  }
 }

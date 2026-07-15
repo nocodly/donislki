@@ -1,4 +1,468 @@
 {
-  "strings": {},
-  "items": {}
+  "strings": {
+    "welcome": "Jelajahi menu di bawah ini, atau tanyakan rekomendasi ke asisten AI kami.",
+    "categoriesTitle": "Menu",
+    "featuredTitle": "Unggulan",
+    "askAi": "Tanya AI",
+    "chatTitle": "DonislKI",
+    "discussing": "Mendiskusikan",
+    "askAboutThis": "Tanyakan AI tentang ini",
+    "askAboutDishTemplate": "Ceritakan tentang {dish}",
+    "pairing": "Cocok dipadukan dengan",
+    "allergensLabel": "Alergen",
+    "allergensUnknown": "Harap konfirmasi ke staf",
+    "composerPlaceholder": "Tanyakan tentang menu…",
+    "send": "Kirim",
+    "close": "Tutup",
+    "noInfo": "Saya tidak memiliki informasi itu di menu saat ini.",
+    "categories": {
+      "traditional": "Tradisional",
+      "sausages": "Sosis",
+      "starters": "Pembuka",
+      "vegan": "Vegan",
+      "desserts": "Pencuci mulut",
+      "beer": "Bir",
+      "wine": "Anggur",
+      "aperitif": "Aperitif",
+      "spirits": "Minuman keras",
+      "drinks": "Minuman non-alkohol & kopi",
+      "kids": "Anak-anak"
+    },
+    "tagLabels": {
+      "sharing": "untuk dibagi",
+      "signature": "khas",
+      "hearty": "berisi",
+      "classic": "klasik",
+      "light": "ringan",
+      "seasonal": "musiman",
+      "strong": "kuat",
+      "non-alcoholic": "tanpa alkohol",
+      "vegetarian": "vegetarian",
+      "vegan": "vegan",
+      "spirit": "minuman keras",
+      "water": "air",
+      "coffee": "kopi",
+      "hot-drink": "minuman panas",
+      "aperitif": "aperitif",
+      "bowl": "mangkuk",
+      "white": "putih",
+      "red": "merah",
+      "rose": "rosé",
+      "sparkling": "berkilau",
+      "dessert-wine": "anggur pencuci mulut",
+      "by-glass": "per gelas",
+      "bottle": "botol"
+    },
+    "quickSuggestions": [
+      "Apa yang Anda rekomendasikan?",
+      "Minuman apa yang cocok dengan hidangan ini?",
+      "Tunjukkan pilihan vegan",
+      "Apa yang mengandung alergen?",
+      "Yang ringan dong",
+      "Yang tradisional"
+    ]
+  },
+  "items": {
+    "donisl-roasting-pan": {
+      "description": "Daging sapi, bebek, babi panggang dan sosis dengan kol merah, knödel kentang dan Käsespätzle — untuk disantap bersama.",
+      "pairing": "Münchner Dunkel"
+    },
+    "roast-pork": {
+      "description": "Babi panggang khas Bavaria (bahu dan perut) dengan kulit renyah, saus alami, knödel kentang dan salad kol.",
+      "pairing": "Münchner Dunkel"
+    },
+    "schweinshaxe": {
+      "description": "Schweinshaxe panggang renyah disajikan dengan saus alami, knödel kentang dan salad kol.",
+      "pairing": "Best with Dunkel beer."
+    },
+    "wiener-schnitzel": {
+      "description": "Wiener Schnitzel babi (diberi pakan jerami) dengan kentang goreng atau salad kentang-timun dan cranberry.",
+      "pairing": "Riesling Easy-White atau Radler"
+    },
+    "farm-duck": {
+      "description": "Bebek peternakan dengan saus rosemary, knödel kentang dan kol merah.",
+      "pairing": "Münchner Dunkel"
+    },
+    "backhendl": {
+      "description": "Paha ayam tanpa tulang berbalut tepung roti, disajikan dengan kentang goreng atau salad kentang-timun."
+    },
+    "duet-of-the-ox": {
+      "description": "Duet bahu dan pipi sapi, jus anggur merah, bayam baby, kentang krim."
+    },
+    "veal-steak": {
+      "description": "Steak sapi muda dengan saus krim lada warna-warni, kohlrabi flambé, rösti kentang."
+    },
+    "veal-meatballs": {
+      "description": "Bakso daging sapi muda dengan sayuran segar dan kentang rosemary."
+    },
+    "white-sausage": {
+      "description": "Dua buah Weißwurst, disajikan dengan pretzel dan mustard."
+    },
+    "white-sausage-piece": {
+      "description": "Satu buah Weißwurst."
+    },
+    "polish-sausage": {
+      "description": "Sosis Polandia, disajikan dengan pretzel dan mustard."
+    },
+    "currywurst": {
+      "description": "Currywurst disajikan dengan kentang goreng.",
+      "pairing": "Hefeweizen wheat beer"
+    },
+    "bratwurstreindl": {
+      "description": "Panci sosis bakar dengan sauerkraut atau salad kentang — porsi untuk berbagi.",
+      "pairing": "Russn (light Hefeweizen)"
+    },
+    "rump-steak": {
+      "description": "Rump steak Murnau dengan jus anggur merah dan bawang, bawang goreng, Käsespätzle."
+    },
+    "ribeye-300g": {
+      "description": "Irisan lemak dari daging Murnau, saus café de paris, sayuran panggang, gratin kentang."
+    },
+    "deluxe-burger": {
+      "description": "Burger 200g daging Werdenfelser, cheddar, selada, tomat, acar, bawang, saus Donisl buatan sendiri.",
+      "pairing": "Münchner Hell"
+    },
+    "icefish": {
+      "description": "Ikan es dengan thyme, sayuran ratatouille, gratin kentang."
+    },
+    "brotzeitbrettl": {
+      "description": "Papan daging asap petani: sosis bacon, liverwurst, roast beef dingin, O'gmachter, keju gunung, wasabi lobak, roti."
+    },
+    "donisl-4erlei": {
+      "description": "Hummus, keju olahan, mentega asin dan krim asam berherba, disajikan dengan keranjang roti."
+    },
+    "beef-tartare": {
+      "description": "Beef tartare dengan krim truffle dan telur organik panggang."
+    },
+    "calfs-head-carpaccio": {
+      "description": "Carpaccio kepala anak sapi dengan delima, wasabi lobak, timun."
+    },
+    "ogmachter-kas": {
+      "description": "Keju krimi dengan cincin bawang, lobak, selada dan beri."
+    },
+    "sausage-salad": {
+      "description": "Salad sosis dengan saus rumah, cincin bawang, acar, tomat, beri (tambahkan 1,90 untuk irisan keju gunung)."
+    },
+    "donisl-salad": {
+      "description": "Sayuran daun, tomat, timun, saus rumah, biji-bijian dan crouton."
+    },
+    "bread-basket": {
+      "description": "Keranjang roti segar."
+    },
+    "brezn": {
+      "description": "Brezn (pretzel Bavaria)."
+    },
+    "oxen-consomme": {
+      "description": "Kaldu sapi bening dengan dumpling hati atau irisan pancake, sayuran dan daun bawang."
+    },
+    "tomato-soup": {
+      "description": "Sup tomat halus dengan krim burrata-basil."
+    },
+    "classic-sides": {
+      "description": "Sauerkraut, kol merah, salad bacon-kol, kentang krim, knödel kentang, kentang panggang kecil, Spätzle atau kentang goreng — masing-masing."
+    },
+    "vegetable-sides": {
+      "description": "Lauk sayuran atau salad kentang-timun — masing-masing."
+    },
+    "power-bowl": {
+      "description": "Nasi harum, alpukat, edamame, kacang chickpea, wortel, tomat, timun, kacang tanah, dressing jeruk-mint-lime."
+    },
+    "kaesespaetzle": {
+      "description": "Käsespätzle dengan cincin bawang.",
+      "pairing": "Münchner Dunkel or a full-bodied white wine"
+    },
+    "linguine-truffles": {
+      "description": "Linguine dengan bayam baby dan truffle musim dingin."
+    },
+    "rahmschwammerl": {
+      "description": "Jamur krim disajikan dengan Knödel pretzel."
+    },
+    "creme-brulee": {
+      "description": "Crème brûlée disajikan dengan sorbet dan beri.",
+      "pairing": "Rieslaner Auslese dessert wine"
+    },
+    "kaiserschmarrn": {
+      "description": "Kaiserschmarrn dengan kismis, mentega, gula dan almond karamel, disajikan dengan saus apel — cocok untuk dibagi.",
+      "pairing": "Rieslaner Auslese dessert wine"
+    },
+    "kirschmichl": {
+      "description": "Kue ceri hangat disajikan dengan custard."
+    },
+    "apple-strudel": {
+      "description": "Apfelstrudel klasik disajikan dengan custard.",
+      "pairing": "Milchkaffee"
+    },
+    "muenchner-hell": {
+      "description": "Bottom-fermented, aroma hop yang halus dan sedikit pahit, sedikit malt. 5.0% vol."
+    },
+    "beer-light-alcohol-free": {
+      "description": "Alami keruh, aroma karamel dan madu. <0.5% vol."
+    },
+    "muenchner-radler": {
+      "description": "Helles Munich dicampur lemonade lembut, tidak terlalu manis."
+    },
+    "muenchner-dunkel": {
+      "description": "Sedikit pahit, malt panggang dengan aroma karamel dan buah kering. 5.0% vol."
+    },
+    "hefeweizen": {
+      "description": "Bir gandum fermentasi atas dengan aroma pisang dan madu."
+    },
+    "russn": {
+      "description": "Hefeweizen dengan sedikit lemonade, tidak terlalu manis."
+    },
+    "cola-wheat": {
+      "description": "Hefeweizen dicampur Coca-Cola."
+    },
+    "non-alcoholic-wheat": {
+      "description": "Didealkoholkan ringan setelah pematangan penuh, tetap mempertahankan aroma."
+    },
+    "salvator": {
+      "description": "Bir kuat (Starkbier), musiman — tersedia Februari/Maret. 0.5l."
+    },
+    "kellerbier": {
+      "description": "Musiman — tersedia Juni/Juli/Agustus (waktu musim panas). 0.5l."
+    },
+    "wiesnbier": {
+      "description": "Bir Oktoberfest, musiman — tersedia September/Oktober. 0.5l."
+    },
+    "weissweinschorle": {
+      "description": "Weissweinschorle (spritzer anggur putih). 0.3l."
+    },
+    "pinot-gris-glass": {
+      "description": "Hirschmüller, Württemberg — ringan, mudah diminum."
+    },
+    "primitivo-glass": {
+      "description": "Sir of the Faun, Puglia — beri gelap, ceri, rempah halus."
+    },
+    "prodry-frizzante": {
+      "description": "Motelvini, Veneto, Italia. 0.1l."
+    },
+    "paul-michel-champagne": {
+      "description": "Champagne Premier Cru, Champagne, Prancis. Botol 0.75l."
+    },
+    "taittinger-rose": {
+      "description": "Champagne Taittinger, Prancis. Botol 0.75l."
+    },
+    "valdo-prosecco": {
+      "description": "Valdo, Veneto — prosecco Italia klasik. Botol 0.75l."
+    },
+    "winzersekt": {
+      "description": "Pfaffmann, Pfalz, Jerman. Botol 0.75l."
+    },
+    "chardonnay-bottle": {
+      "description": "Hirschmüller, Württemberg — markisa, mangga, nanas. Botol 0.75l."
+    },
+    "chardonnay-macon-ige": {
+      "description": "Domaine Fichet, Burgundy — apel, pir, persik putih, mineral halus. Botol 0.75l."
+    },
+    "pinot-gris-tradition": {
+      "description": "Bott Frères, Burgundy — aprikot, apel Viennese, kenari, sentuhan asap. Botol 0.75l."
+    },
+    "pinot-gris-oetinger": {
+      "description": "Oetinger, Rheingau — pir matang, apel kuning, sentuhan almond. Botol 0.75l."
+    },
+    "pinot-gris-reserve-pauline": {
+      "description": "Pfaffmann, Pfalz — pir, nanas, nektarin, serai, floral. Botol 0.75l."
+    },
+    "pinot-blanc-grand-reserve": {
+      "description": "Taubenschuss, Weinviertel, Austria — melon, kenari, jerami, karamel. Botol 0.75l."
+    },
+    "trebbiano-di-lugana": {
+      "description": "Zenato, Veneto, Italia — keasaman segar, mineral, jeruk, apel hijau, pir. Botol 0.75l."
+    },
+    "riesling-easy-white": {
+      "description": "Oetinger, Rheingau — jeruk nipis, apel, persik putih, ideal sebagai aperitif. Botol 0.75l.",
+      "pairing": "Wiener Schnitzel"
+    },
+    "riesling-gottloos": {
+      "description": "Dr. Loosen, Mosel — jeruk, apel, mineralitas elegan. Botol 0.75l."
+    },
+    "riesling-heiligenstein": {
+      "description": "Bründlmayer, Langenlois, Kamptal, Austria — jeruk segar, apel, rempah herbal. Botol 0.75l."
+    },
+    "riesling-smoky-dry": {
+      "description": "Weingut Oetinger, Rheingau — mineral berasap, apel juicy, jeruk. Botol 0.75l."
+    },
+    "riesling-bright-side-of-life": {
+      "description": "Stahl, Franconia — buah, segar, mudah dinikmati. Botol 0.75l."
+    },
+    "sauvignon-blanc": {
+      "description": "Chateau de la Chaise, Loire — kismis, apel hijau, buah eksotis. Botol 0.75l."
+    },
+    "sauvignon-blanc-reserve": {
+      "description": "Taubenschuss, Weinviertel — jeruk nipis, kismis, buah eksotis. Botol 0.75l."
+    },
+    "silvaner-easy-white": {
+      "description": "Weingut am Stein, Franconia — apel hijau, pir, herbal halus. Botol 0.75l."
+    },
+    "gruener-veltliner-tenn": {
+      "description": "Taubenschuss, Weinviertel — apel, lada putih, rempah herbal. Botol 0.75l."
+    },
+    "riesling-gottloos-3l": {
+      "description": "Dr. Loosen, Mosel. Botol 3.0l."
+    },
+    "gruener-veltliner-steinberg": {
+      "description": "Karl Fritsch, Burgenland, Austria. Botol 1.5l."
+    },
+    "chardonnay-morillon": {
+      "description": "Lackner-Tinnacher, Southern Styria, Austria. Botol 1.5l."
+    },
+    "cuvee-adrian-sangiovese": {
+      "description": "Cuvée merah, Toscana Rosso, Tuscany. Botol 1.5l."
+    },
+    "primitivo-bottle": {
+      "description": "Barbanera, Apulia, Italia — beri gelap, ceri, rempah halus. Botol 0.75l."
+    },
+    "herrgott-cuvee": {
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz — ceri, beri merah. Botol 0.75l."
+    },
+    "tuscany-red-cuvee": {
+      "description": "Duca di Salangane, Toscana — ceri, beri gelap. Botol 0.75l."
+    },
+    "pinot-noir-goldberg": {
+      "description": "Toni Hartl, Burgenland — beri merah, ceri, rempah halus. Botol 0.75l."
+    },
+    "merlot": {
+      "description": "Chateau Gensac, Gascony — ceri gelap, plum, rempah. Botol 0.75l."
+    },
+    "brunello-di-montalcino": {
+      "description": "Tenuta Corte Pavone, Sangiovese, Tuscany — beri gelap, ceri, cokelat. Botol 0.75l."
+    },
+    "black-ox-cuvee": {
+      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Pfalz — beri gelap, ceri, rempah. Botol 0.75l."
+    },
+    "rose-lime-stone": {
+      "description": "Unger, Danau Neusiedl — beri merah, stroberi, raspberry, jeruk. Botol 0.75l."
+    },
+    "torres-natureo": {
+      "description": "Miguel Torres, Vilafranca del Penedès — jeruk, apel, ringan. Botol 0.75l."
+    },
+    "rieslaner-auslese": {
+      "description": "Juliusspital, Franconia — anggur pencuci mulut. Botol 0.5l.",
+      "pairing": "Kaiserschmarrn or Crème brûlée"
+    },
+    "aperol-spritz": {
+      "description": "Aperitif Italia klasik. 0.2l."
+    },
+    "hugo": {
+      "description": "Hugo (elderflower spritz). 0.2l."
+    },
+    "campari-soda": {
+      "description": "Campari & soda. 0.2l."
+    },
+    "campari-orange": {
+      "description": "Campari & orange. 0.2l."
+    },
+    "sanbitter": {
+      "description": "Aperitif pahit tanpa alkohol. 0.2l."
+    },
+    "nut-in-a-bottle": {
+      "description": "2cl."
+    },
+    "ruescherl": {
+      "description": "13cl."
+    },
+    "hirschkuss": {
+      "description": "38% vol., botol tutup ayun, 4cl."
+    },
+    "vodka-redbull": {
+      "description": "0.27l."
+    },
+    "williams-christ-pear": {
+      "description": "40% vol. Edelbrand, Sigi Herzog Distillate. 2cl."
+    },
+    "farm-fruit-growers": {
+      "description": "Linster, distilasi buah halus, disimpan 1 tahun di barel oak. 2cl."
+    },
+    "feiner-mirabell": {
+      "description": "Linster, distilasi buah halus, rasa aprikot matang. 2cl."
+    },
+    "enzian-gentian-brandy": {
+      "description": "Wilhelm Marx Fine Spirits Manufactory. 2cl."
+    },
+    "raspberry-pulp-brandy": {
+      "description": "40% vol. Edelmanufaktur Wilhelm Marx. 2cl."
+    },
+    "grappa-chardonnay": {
+      "description": "Grappa Chardonnay. 2cl."
+    },
+    "paulaner-spezi": {
+      "description": "0.4l."
+    },
+    "coca-cola": {
+      "description": "0.4l."
+    },
+    "coca-cola-zero": {
+      "description": "0.4l."
+    },
+    "paulaner-lemonade": {
+      "description": "0.33l."
+    },
+    "paulaner-orange-lemonade": {
+      "description": "0.33l."
+    },
+    "tonic": {
+      "description": "0.2l."
+    },
+    "red-bull": {
+      "description": "0.25l."
+    },
+    "bad-brambacher": {
+      "description": "Masih atau berkarbonasi sedang. 0.5l."
+    },
+    "table-water": {
+      "description": "Air masih atau berkarbonasi."
+    },
+    "apple-spritzer": {
+      "description": "0.4l."
+    },
+    "johannisbeerschorle": {
+      "description": "Spritzer blackcurrant. 0.4l."
+    },
+    "maracujaschorle": {
+      "description": "Spritzer markisa. 0.4l."
+    },
+    "wolfra-orange-juice": {
+      "description": "0.2l."
+    },
+    "espresso": {
+      "description": "Espresso."
+    },
+    "double-espresso": {
+      "description": "Espresso ganda."
+    },
+    "espresso-macchiato": {
+      "description": "Espresso macchiato."
+    },
+    "cappuccino": {
+      "description": "Cappuccino."
+    },
+    "latte-macchiato": {
+      "description": "Latte macchiato."
+    },
+    "milchkaffee": {
+      "description": "Kopi susu."
+    },
+    "haferl-kaffee-creme": {
+      "description": "Haferl Kaffee Creme."
+    },
+    "drinking-chocolate": {
+      "description": "Cokelat panas dengan susu."
+    },
+    "tea-ronnefeldt": {
+      "description": "Darjeeling, Mountain herbs, Sweet Berries, Green Dragon Lung Ching, Refreshing Mint, atau Fruity Camomile."
+    },
+    "kids-potato-dumplings": {
+      "description": "Disajikan dengan saus daging panggang babi."
+    },
+    "kids-kaesspatzn": {
+      "description": "Käsespätzle, porsi anak."
+    },
+    "kids-rostbratwuerstl": {
+      "description": "Dengan kentang goreng atau salad kentang-timun."
+    },
+    "kids-fries": {
+      "description": ""
+    }
+  }
 }

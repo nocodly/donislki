@@ -1,4 +1,468 @@
 {
-  "strings": {},
-  "items": {}
+  "strings": {
+    "welcome": "नीचे मेनू ब्राउज़ करें, या हमारी AI सहायक से सिफारिश पूछें।",
+    "categoriesTitle": "मेनू",
+    "featuredTitle": "विशेष",
+    "askAi": "AI से पूछें",
+    "chatTitle": "DonislKI",
+    "discussing": "चर्चा कर रहे हैं",
+    "askAboutThis": "इसके बारे में AI से पूछें",
+    "askAboutDishTemplate": "{dish} के बारे में बताइए",
+    "pairing": "सर्वश्रेष्ठ साथ",
+    "allergensLabel": "एलर्जेंस",
+    "allergensUnknown": "कृपया स्टाफ से पुष्टि करें",
+    "composerPlaceholder": "मेनू के बारे में पूछें…",
+    "send": "भेजें",
+    "close": "बंद करें",
+    "noInfo": "मेरे पास वर्तमान मेनू में यह जानकारी नहीं है।",
+    "categories": {
+      "traditional": "पारंपरिक",
+      "sausages": "सॉसेज",
+      "starters": "शुरुआत",
+      "vegan": "वेजन",
+      "desserts": "डेसर्ट",
+      "beer": "बीयर",
+      "wine": "वाइन",
+      "aperitif": "एपेरिटिफ",
+      "spirits": "शॉर्ट्स",
+      "drinks": "नॉन-अल्कोहलिक पेय & कॉफी",
+      "kids": "बच्चों के लिए"
+    },
+    "tagLabels": {
+      "sharing": "साझा करने के लिए",
+      "signature": "हाइलाइट",
+      "hearty": "भोजनयुक्‍त",
+      "classic": "क्लासिक",
+      "light": "हल्का",
+      "seasonal": "मौसमी",
+      "strong": "मजबूत",
+      "non-alcoholic": "नॉन-एल्कोहलिक",
+      "vegetarian": "शाकाहारी",
+      "vegan": "वेजन",
+      "spirit": "शॉर्ट",
+      "water": "पानी",
+      "coffee": "कॉफी",
+      "hot-drink": "गरम पेय",
+      "aperitif": "एपेरिटिफ",
+      "bowl": "बाउल",
+      "white": "सफेद",
+      "red": "लाल",
+      "rose": "रोज़े",
+      "sparkling": "स्पार्कलिंग",
+      "dessert-wine": "डेज़र्ट वाइन",
+      "by-glass": "ग्लास में",
+      "bottle": "बोतल"
+    },
+    "quickSuggestions": [
+      "आप क्या सुझाएँगे?",
+      "कौनसा पेय इस डिश के साथ सूट करेगा?",
+      "वेजन विकल्प दिखाएँ",
+      "किसमें एलर्जेन हैं?",
+      "कुछ हल्का चाहिए",
+      "कुछ पारंपरिक दिखाएँ"
+    ]
+  },
+  "items": {
+    "donisl-roasting-pan": {
+      "description": "बीफ, बत्तख, सूअर का घुटना और सॉसेज लाल गोभी, आलू के डम्पलिंग और चीज़ स्पätzle के साथ — साझा करने के लिए।",
+      "pairing": "Münchner Dunkel"
+    },
+    "roast-pork": {
+      "description": "बावेरियन पोर्क शोल्डर और बेल्ली, कुरकुरा खाल, प्राकृतिक ग्रेवी, आलू के डम्पलिंग और कोल्स्लॉ।",
+      "pairing": "Münchner Dunkel"
+    },
+    "schweinshaxe": {
+      "description": "कुरकुरा भुना हुआ सूअर का घुटना प्राकृतिक सॉस, आलू के डम्पलिंग और कोल्स्लॉ के साथ परोसा जाता है।",
+      "pairing": "Dunkel बीयर के साथ सर्वोत्तम।"
+    },
+    "wiener-schnitzel": {
+      "description": "बावेरियन स्ट्रॉ-फेड पोर्क का श्नित्ज़ल, फ्राइज़ या आलू-ककड़ी सलाद और क्रैनबेरी के साथ।",
+      "pairing": "Riesling Easy-White या एक Radler"
+    },
+    "farm-duck": {
+      "description": "रोज़मेरी सॉस, आलू के डम्पलिंग और लाल गोभी।",
+      "pairing": "Münchner Dunkel"
+    },
+    "backhendl": {
+      "description": "बोनलेस ब्रेड किया हुआ चिकन लेग, फ्रेंच फ्राइज़ या आलू-ककड़ी सलाद के साथ।"
+    },
+    "duet-of-the-ox": {
+      "description": "ऑक्स का शोल्डर और गाल, रेड वाइन जूस, बेबी पालक, क्रीमी आलू।"
+    },
+    "veal-steak": {
+      "description": "रंगीन कालीमिर्च क्रीम सॉस, फ्लेम्ड कोहलरैबी, आलू rösti।"
+    },
+    "veal-meatballs": {
+      "description": "सजाए हुए सब्ज़ियां, रोज़मेरी आलू।"
+    },
+    "white-sausage": {
+      "description": "दो पीस, प्रेट्ज़ल और मस्टर्ड के साथ परोसा जाता है।"
+    },
+    "white-sausage-piece": {
+      "description": "एक एकल Weißwurst।"
+    },
+    "polish-sausage": {
+      "description": "प्रेट्ज़ल और मस्टर्ड के साथ।"
+    },
+    "currywurst": {
+      "description": "करी सॉसेज फ्रेंच फ्राइज़ के साथ परोसा जाता है।",
+      "pairing": "Hefeweizen व्हीट बीयर"
+    },
+    "bratwurstreindl": {
+      "description": "ग्रिल किए हुए सॉसेज का पैन, सॉकरक्राउट या आलू का सलाद — साझा करने वाली प्लेट।",
+      "pairing": "Russn (हल्का Hefeweizen)"
+    },
+    "rump-steak": {
+      "description": "Murnau बीफ रेड वाइन और प्याज़ जूस के साथ, तले हुए प्याज़, käsespätzle।"
+    },
+    "ribeye-300g": {
+      "description": "Murnau बीफ का फैट कैप, Café de Paris सॉस, ग्रिल्ड सब्ज़ियाँ, आलू ग्रेटिन।"
+    },
+    "deluxe-burger": {
+      "description": "200g Werdenfelser बीफ, चेडर, लेट्यूस, टमाटर, अचार, प्याज़, घर का बनाया Donisl सॉस।",
+      "pairing": "Münchner Hell"
+    },
+    "icefish": {
+      "description": "थाइम, रताटुई सब्ज़ियाँ, आलू ग्रेटिन।"
+    },
+    "brotzeitbrettl": {
+      "description": "किसान की स्मोक्ड मीट्स, बेकन सॉसेज, लीवरवर्स्ट, ठंडी रोस्ट बीफ़, O'gmachter, माउंटेन चीज़, हॉर्सरैडिश, ब्रेड।"
+    },
+    "donisl-4erlei": {
+      "description": "हमस, मे이드 चीज़, नमकिया बटर और हर्ब्ड सॉर क्रीम, ब्रेड बास्केट के साथ परोसा गया।"
+    },
+    "beef-tartare": {
+      "description": "ट्रफल क्रीम, बेक्ड ऑर्गेनिक एग।"
+    },
+    "calfs-head-carpaccio": {
+      "description": "अनार, हॉर्सरैडिश, ककड़ी।"
+    },
+    "ogmachter-kas": {
+      "description": "क्रीमी चीज़ प्याज़ के छल्ले, मूली, लेट्यूस और बेरीज़ के साथ।"
+    },
+    "sausage-salad": {
+      "description": "हाउस ड्रेसिंग, प्याज़ के छल्ले, अचार, टमाटर, बेरी (माउंटेन चीज़ की स्ट्रिप्स के साथ +1.90)।"
+    },
+    "donisl-salad": {
+      "description": "पत्तेदार सब्ज़ियाँ, टमाटर, ककड़ी, हाउस ड्रेसिंग, बीज और क्राउटन।"
+    },
+    "bread-basket": {
+      "description": "ताज़ा ब्रेड बास्केट।"
+    },
+    "brezn": {
+      "description": "बावेरियन प्रेट्ज़ल।"
+    },
+    "oxen-consomme": {
+      "description": "साफ़ बीफ़ शोरबा, लीवर डम्पलिंग या पैनकेक स्ट्रिप्स, सब्ज़ियाँ और चाइव्स के साथ।"
+    },
+    "tomato-soup": {
+      "description": "मुलायम टमाटर की सूप, बुर्राटा-बेसिल क्रीम के साथ।"
+    },
+    "classic-sides": {
+      "description": "सॉकरक्राउट, लाल गोभी, बेकन और गोभी सलाद, क्रीमी आलू, आलू के डम्पलिंग, छोटे रोस्टेड आलू, स्पätzle या फ्रेंच फ्राइज़ — प्रत्येक।"
+    },
+    "vegetable-sides": {
+      "description": "सब्ज़ियों का साइड डिश या आलू और ककड़ी सलाद — प्रत्येक।"
+    },
+    "power-bowl": {
+      "description": "खुशबूदार चावल, एवोकाडो, एडामे, चने, गाजर, टमाटर, ककड़ी, मूंगफली, ऑरेंज-मिंट-लाइम ड्रेसिंग।"
+    },
+    "kaesespaetzle": {
+      "description": "चीज़ स्पätzle प्याज़ के छल्लों के साथ।",
+      "pairing": "Münchner Dunkel या फुल-बॉडीड सफेद वाइन"
+    },
+    "linguine-truffles": {
+      "description": "पास्ता बेबी पालक और विंटर ट्रफल के साथ।"
+    },
+    "rahmschwammerl": {
+      "description": "क्रीमी मशरूम प्रेट्ज़ल डम्पलिंग के साथ परोसे जाते हैं।"
+    },
+    "creme-brulee": {
+      "description": "सॉरबेट और बेरीज के साथ परोसा जाता है।",
+      "pairing": "Rieslaner Auslese डेज़र्ट वाइन"
+    },
+    "kaiserschmarrn": {
+      "description": "किशमिश, मक्खन, चीनी और कैरमलाइज्ड बादाम, सेब की चटनी के साथ — साझा करने के लिए आदर्श।",
+      "pairing": "Rieslaner Auslese डेज़र्ट वाइन"
+    },
+    "kirschmichl": {
+      "description": "गर्म चेरी केक कस्टर्ड के साथ परोसा जाता है।"
+    },
+    "apple-strudel": {
+      "description": "क्लासिक एप्पल स्ट्रुडल कस्टर्ड के साथ परोसा जाता है।",
+      "pairing": "Milchkaffee"
+    },
+    "muenchner-hell": {
+      "description": "बॉटम-फर्मेंटेड, कोमल कड़वाहट और हल्का माल्टी नोट। 5.0% वोल।"
+    },
+    "beer-light-alcohol-free": {
+      "description": "कुदरती रूप से क्लाउडी, कारमेल और शहद के नोट। <0.5% वोल।"
+    },
+    "muenchner-radler": {
+      "description": "Munich Helles और हल्की लेमनेड का मिश्रण, ज्यादा मीठा नहीं।"
+    },
+    "muenchner-dunkel": {
+      "description": "नाज़ुक रूप से कड़वा, रोस्टेड माल्ट के साथ कारमेल और कैंडी फलों के नोट। 5.0% वोल।"
+    },
+    "hefeweizen": {
+      "description": "टॉप-फर्मेंटेड व्हीट बीयर, केला और शहद के नोट के साथ।"
+    },
+    "russn": {
+      "description": "Hefeweizen और नाजुक लेमनेड, ज्यादा मीठा नहीं।"
+    },
+    "cola-wheat": {
+      "description": "Hefeweizen और Coca-Cola का मिश्रण।"
+    },
+    "non-alcoholic-wheat": {
+      "description": "पूरी परिपक्वता के बाद हल्का डील्कोहलाइज़्ड, अपनी खुशबू बनाए रखता है।"
+    },
+    "salvator": {
+      "description": "स्ट्रॉन्ग बीयर (Starkbier), मौसमी — फ़रवरी/मार्च में उपलब्ध। 0.5l।"
+    },
+    "kellerbier": {
+      "description": "मौसमी — जून/जुलाई/अगस्त (गर्मियाँ) में उपलब्ध। 0.5l।"
+    },
+    "wiesnbier": {
+      "description": "Oktoberfest बीयर, मौसमी — सितंबर/अक्टूबर में उपलब्ध। 0.5l।"
+    },
+    "weissweinschorle": {
+      "description": "व्हाइट वाइन स्प्रिटज़र। 0.3l।"
+    },
+    "pinot-gris-glass": {
+      "description": "Hirschmüller वाइनरी, Württemberg — हल्का, आसानी से पीने वाला।"
+    },
+    "primitivo-glass": {
+      "description": "Sir of the Faun, Puglia — गहरे बेरी, चेरी, सूक्ष्म मसाला।"
+    },
+    "prodry-frizzante": {
+      "description": "Motelvini, Veneto, Italy. 0.1l।"
+    },
+    "paul-michel-champagne": {
+      "description": "Champagne Premier Cru, Champagne, France. 0.75l बोतल।"
+    },
+    "taittinger-rose": {
+      "description": "Champagne Taittinger, France. 0.75l बोतल।"
+    },
+    "valdo-prosecco": {
+      "description": "Valdo, Veneto — क्लासिक इटालियन स्पार्कलिंग वाइन। 0.75l बोतल।"
+    },
+    "winzersekt": {
+      "description": "Pfaffmann वाइनरी, Palatinate, Germany. 0.75l बोतल।"
+    },
+    "chardonnay-bottle": {
+      "description": "Hirschmüller वाइनरी, Württemberg — पैशन फ्रूट, मैंगो, अनानास। 0.75l बोतल।"
+    },
+    "chardonnay-macon-ige": {
+      "description": "Domaine Fichet, Burgundy — सेब, नाशपाती, सफेद आड़ू, सूक्ष्म मिनरलिटी। 0.75l बोतल।"
+    },
+    "pinot-gris-tradition": {
+      "description": "Bott Frères वाइनरी, Burgundy — खुमानी, वियना एप्पल, हेज़लनट, हल्का स्मोक। 0.75l बोतल।"
+    },
+    "pinot-gris-oetinger": {
+      "description": "Oetinger वाइनरी, Rheingau — पकी नाशपाती, पीला सेब, बादाम का आभास। 0.75l बोतल।"
+    },
+    "pinot-gris-reserve-pauline": {
+      "description": "Pfaffmann वाइनरी, Palatinate — नाशपाती, अनानास, नेकटरीन, लेमनग्रास, फ्लोरल। 0.75l बोतल।"
+    },
+    "pinot-blanc-grand-reserve": {
+      "description": "Taubenschuss वाइनरी, Austrian Weinviertel — खरबूजा, हेज़लनट, घास, कारमेल। 0.75l बोतल।"
+    },
+    "trebbiano-di-lugana": {
+      "description": "Zenato वाइनरी, Veneto, Italy — ताज़ा ऐसिडिटी, मिनरल, सिट्रस, हरा सेब, नाशपाती। 0.75l बोतल।"
+    },
+    "riesling-easy-white": {
+      "description": "Oetinger वाइनरी, Rheingau — नींबू, सेब, सफेद आड़ू, आदर्श एपेरिटिफ। 0.75l बोतल।",
+      "pairing": "Wiener Schnitzel"
+    },
+    "riesling-gottloos": {
+      "description": "Dr. Loosen वाइनरी, Mosel — सिट्रस, सेब, एलिगेंट मिनरलिटी। 0.75l बोतल।"
+    },
+    "riesling-heiligenstein": {
+      "description": "Bründlmayer वाइनरी, Langenlois, Kamptal, Austria — ताज़ा सिट्रस, सेब, हर्बल मसाला। 0.75l बोतल।"
+    },
+    "riesling-smoky-dry": {
+      "description": "Weingut Oetinger, Rheingau — स्मोकी मिनरलिटी, रसीला सेब, सिट्रस। 0.75l बोतल।"
+    },
+    "riesling-bright-side-of-life": {
+      "description": "Stahl वाइनरी, Franconia, Germany — फ्रूटी, ताज़ा, सरल। 0.75l बोतल।"
+    },
+    "sauvignon-blanc": {
+      "description": "Chateau de la Chaise, Loire — गूसबेरी, हरा सेब, एक्सोटिक फल। 0.75l बोतल।"
+    },
+    "sauvignon-blanc-reserve": {
+      "description": "Taubenschuss वाइनरी, Austrian Weinviertel — नींबू, गूसबेरी, एक्सोटिक फल। 0.75l बोतल।"
+    },
+    "silvaner-easy-white": {
+      "description": "Weingut am Stein, Franconia — हरा सेब, नाशपाती, सूक्ष्म हर्ब्स। 0.75l बोतल।"
+    },
+    "gruener-veltliner-tenn": {
+      "description": "Taubenschuss वाइनरी, Austrian Weinviertel — सेब, सफेद मिर्च, हर्बल मसाला। 0.75l बोतल।"
+    },
+    "riesling-gottloos-3l": {
+      "description": "Dr. Loosen वाइनरी, Mosel. 3.0l बोतल।"
+    },
+    "gruener-veltliner-steinberg": {
+      "description": "Karl Fritsch वाइनरी, Burgenland, Austria. 1.5l बोतल।"
+    },
+    "chardonnay-morillon": {
+      "description": "Lackner-Tinnacher वाइनरी, Southern Styria, Austria. 1.5l बोतल।"
+    },
+    "cuvee-adrian-sangiovese": {
+      "description": "रेड क्यूवे, Toscana Rosso, Tuscany. 1.5l बोतल।"
+    },
+    "primitivo-bottle": {
+      "description": "Barbanera वाइनरी, Apulia, Italy — गहरे बेरी, चेरी, सूक्ष्म मसाला। 0.75l बोतल।"
+    },
+    "herrgott-cuvee": {
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Palatinate — चेरी, लाल बेरी। 0.75l बोतल।"
+    },
+    "tuscany-red-cuvee": {
+      "description": "Duca di Salangane, Toscana — चेरी, गहरे बेरी। 0.75l बोतल।"
+    },
+    "pinot-noir-goldberg": {
+      "description": "Toni Hartl वाइनरी, Burgenland — लाल बेरी, चेरी, सूक्ष्म मसाला। 0.75l बोतल।"
+    },
+    "merlot": {
+      "description": "Chateau Gensac, Gascony — गहरे चेरी, आलूबुखारा, मसाला। 0.75l बोतल।"
+    },
+    "brunello-di-montalcino": {
+      "description": "Tenuta Corte Pavone वाइनरी, Sangiovese, Tuscany — गहरा बेरी, चेरी, चॉकलेट। 0.75l बोतल।"
+    },
+    "black-ox-cuvee": {
+      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Palatinate — गहरे बेरी, चेरी, मसाला। 0.75l बोतल।"
+    },
+    "rose-lime-stone": {
+      "description": "Unger वाइनरी, Lake Neusiedl — लाल बेरी, स्ट्रॉबेरी, रसभरी, सिट्रस। 0.75l बोतल।"
+    },
+    "torres-natureo": {
+      "description": "Miguel Torres, Vilafranca del Penedès — सिट्रस, सेब, हल्का। 0.75l बोतल।"
+    },
+    "rieslaner-auslese": {
+      "description": "Juliusspital वाइनरी, Franconia — डेज़र्ट वाइन। 0.5l बोतल।",
+      "pairing": "Kaiserschmarrn या Crème brûlée"
+    },
+    "aperol-spritz": {
+      "description": "क्लासिक इटालियन एपेरिटिफ। 0.2l।"
+    },
+    "hugo": {
+      "description": "एल्डरफ़्लावर स्प्रिट्ज़। 0.2l।"
+    },
+    "campari-soda": {
+      "description": "0.2l।"
+    },
+    "campari-orange": {
+      "description": "0.2l।"
+    },
+    "sanbitter": {
+      "description": "नॉन-अल्कोहलिक बिट्टर एपेरिटिफ। 0.2l।"
+    },
+    "nut-in-a-bottle": {
+      "description": "2cl।"
+    },
+    "ruescherl": {
+      "description": "13cl।"
+    },
+    "hirschkuss": {
+      "description": "38% वोल., स्विंग-टॉप बोतल, 4cl।"
+    },
+    "vodka-redbull": {
+      "description": "0.27l।"
+    },
+    "williams-christ-pear": {
+      "description": "40% वोल. Edelbrand, Sigi Herzog डिस्टिलेट। 2cl।"
+    },
+    "farm-fruit-growers": {
+      "description": "Linster फ़ाइन फ्रूट डिस्टिलरी, oak बैरल में 1 साल पुरानी। 2cl।"
+    },
+    "feiner-mirabell": {
+      "description": "Linster फ़ाइन फ्रूट डिस्टिलरी, पकी खुबानी का स्वाद। 2cl।"
+    },
+    "enzian-gentian-brandy": {
+      "description": "Wilhelm Marx फ़ाइन स्पिरिट्स मैन्युफैक्चरि। 2cl।"
+    },
+    "raspberry-pulp-brandy": {
+      "description": "40% वोल. Edelmanufaktur Wilhelm Marx। 2cl।"
+    },
+    "grappa-chardonnay": {
+      "description": "Grandfather. 2cl।"
+    },
+    "paulaner-spezi": {
+      "description": "0.4l।"
+    },
+    "coca-cola": {
+      "description": "0.4l।"
+    },
+    "coca-cola-zero": {
+      "description": "0.4l।"
+    },
+    "paulaner-lemonade": {
+      "description": "0.33l।"
+    },
+    "paulaner-orange-lemonade": {
+      "description": "0.33l।"
+    },
+    "tonic": {
+      "description": "0.2l।"
+    },
+    "red-bull": {
+      "description": "0.25l।"
+    },
+    "bad-brambacher": {
+      "description": "स्टिल या मीडियम। 0.5l।"
+    },
+    "table-water": {
+      "description": "स्टिल या स्पार्कलिंग।"
+    },
+    "apple-spritzer": {
+      "description": "0.4l।"
+    },
+    "johannisbeerschorle": {
+      "description": "ब्लैककरंट स्प्रिट्ज़र। 0.4l।"
+    },
+    "maracujaschorle": {
+      "description": "पैशन फ्रूट स्प्रिट्ज़र। 0.4l।"
+    },
+    "wolfra-orange-juice": {
+      "description": "0.2l।"
+    },
+    "espresso": {
+      "description": ""
+    },
+    "double-espresso": {
+      "description": ""
+    },
+    "espresso-macchiato": {
+      "description": ""
+    },
+    "cappuccino": {
+      "description": ""
+    },
+    "latte-macchiato": {
+      "description": ""
+    },
+    "milchkaffee": {
+      "description": "दूध के साथ कॉफी।"
+    },
+    "haferl-kaffee-creme": {
+      "description": "Haferl Kaffee Creme।"
+    },
+    "drinking-chocolate": {
+      "description": "दूध के साथ।"
+    },
+    "tea-ronnefeldt": {
+      "description": "Darjeeling, Mountain herbs, Sweet Berries, Green Dragon Lung Ching, Refreshing Mint, या Fruity Camomile।"
+    },
+    "kids-potato-dumplings": {
+      "description": "सुअर के रोस्ट ग्रेवी के साथ।"
+    },
+    "kids-kaesspatzn": {
+      "description": "चीज़ स्पätzle, बच्चों का हिस्सा।"
+    },
+    "kids-rostbratwuerstl": {
+      "description": "फ्रेंच फ्राइज़ या आलू-ककड़ी सलाद के साथ।"
+    },
+    "kids-fries": {
+      "description": ""
+    }
+  }
 }

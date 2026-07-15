@@ -1,4 +1,468 @@
 {
-  "strings": {},
-  "items": {}
+  "strings": {
+    "welcome": "Περιηγηθείτε στο μενού παρακάτω ή ρωτήστε τον βοηθό AI για πρόταση.",
+    "categoriesTitle": "Μενού",
+    "featuredTitle": "Προτεινόμενα",
+    "askAi": "Ρώτησε AI",
+    "chatTitle": "DonislKI",
+    "discussing": "Συζητείται",
+    "askAboutThis": "Ρωτήστε το AI για αυτό",
+    "askAboutDishTemplate": "Πείτε μου για το {dish}",
+    "pairing": "Ταιριάζει με",
+    "allergensLabel": "Αλλεργιογόνα",
+    "allergensUnknown": "Επιβεβαιώστε με το προσωπικό",
+    "composerPlaceholder": "Ρωτήστε για το μενού…",
+    "send": "Αποστολή",
+    "close": "Κλείσιμο",
+    "noInfo": "Δεν έχω αυτή την πληροφορία στο παρόν μενού.",
+    "categories": {
+      "traditional": "Παραδοσιακά",
+      "sausages": "Λουκάνικα",
+      "starters": "Ορεκτικά",
+      "vegan": "Χορτοφαγικά (vegan)",
+      "desserts": "Επιδόρπια",
+      "beer": "Μπύρα",
+      "wine": "Κρασί",
+      "aperitif": "Απεριτίφ",
+      "spirits": "Ποτά",
+      "drinks": "Μη αλκοολούχα & καφέ",
+      "kids": "Παιδικά"
+    },
+    "tagLabels": {
+      "sharing": "για κοινοποίηση",
+      "signature": "υπεύθυνη επιλογή",
+      "hearty": "χορταστικό",
+      "classic": "κλασικό",
+      "light": "ελαφρύ",
+      "seasonal": "εποχιακό",
+      "strong": "ισχυρό",
+      "non-alcoholic": "χωρίς αλκοόλ",
+      "vegetarian": "χορτοφαγικό",
+      "vegan": "vegan",
+      "spirit": "ποτό",
+      "water": "νερό",
+      "coffee": "καφές",
+      "hot-drink": "ζεστό ρόφημα",
+      "aperitif": "απεριτίφ",
+      "bowl": "μπολ",
+      "white": "λευκό",
+      "red": "κόκκινο",
+      "rose": "ροζέ",
+      "sparkling": "αφρώδες",
+      "dessert-wine": "γλυκό κρασί",
+      "by-glass": "ανά ποτήρι",
+      "bottle": "φιάλη"
+    },
+    "quickSuggestions": [
+      "Τι προτείνετε;",
+      "Ποιο ποτό ταιριάζει με αυτό το πιάτο;",
+      "Δείτε επιλογές vegan",
+      "Τι περιέχει αλλεργιογόνα;",
+      "Κάτι ελαφρύ",
+      "Κάτι παραδοσιακό"
+    ]
+  },
+  "items": {
+    "donisl-roasting-pan": {
+      "description": "Μοσχάρι, πάπια, ψαρονέφρι και λουκάνικα με κόκκινο λάχανο, πατατοπληγούτσες και käsespätzle — για να μοιραστείτε.",
+      "pairing": "Münchner Dunkel"
+    },
+    "roast-pork": {
+      "description": "Βαυαριά χοιρινό από ώμο και πανσέτα με τραγανή πέτσα, φυσική σάλτσα, πατατοπληγούτσες και λάχανο σαλάτα.",
+      "pairing": "Münchner Dunkel"
+    },
+    "schweinshaxe": {
+      "description": "Τραγανό ψητό κότσι χοιρινού σερβιρισμένο με φυσική σάλτσα, πατατοπληγούτσες και λάχανο σαλάτα.",
+      "pairing": "Ταιριάζει με Dunkel μπύρα."
+    },
+    "wiener-schnitzel": {
+      "description": "Σνίτσελ από χοιρινό γαλουχημένο στη Βαυαρία, με πατάτες τηγανιτές ή πατατο-αγγουροντολάτα και κράνμπερι.",
+      "pairing": "Riesling Easy-White ή ένα Radler"
+    },
+    "farm-duck": {
+      "description": "Πάπια με σάλτσα δενδρολίβανου, πατατοπληγούτσες και κόκκινο λάχανο.",
+      "pairing": "Münchner Dunkel"
+    },
+    "backhendl": {
+      "description": "Σνίτσελ κοτόπουλου χωρίς κόκκαλο, πανέ, με πατάτες τηγανιτές ή πατατο-αγγουροντολάτα."
+    },
+    "duet-of-the-ox": {
+      "description": "Ώμος και σιαγόνα βοείου, γέμιση κρασιού, baby σπανάκι, κρεμώδεις πατάτες."
+    },
+    "veal-steak": {
+      "description": "Χρωματιστή σάλτσα κρεμμυδάκι-πιπεριού, φλεγόμενο kohlrabi, rösti πατάτας."
+    },
+    "veal-meatballs": {
+      "description": "Σαλάτα λαχανικών, πατάτες με δενδρολίβανο."
+    },
+    "white-sausage": {
+      "description": "Δύο λευκά λουκάνικα, σερβίρονται με pretzel και μουστάρδα."
+    },
+    "white-sausage-piece": {
+      "description": "Ένα λευκό λουκάνικο."
+    },
+    "polish-sausage": {
+      "description": "Με pretzel και μουστάρδα."
+    },
+    "currywurst": {
+      "description": "Currywurst σερβιρισμένο με πατάτες τηγανιτές.",
+      "pairing": "Hefeweizen wheat beer"
+    },
+    "bratwurstreindl": {
+      "description": "Προσωτρίδα με ψητά λουκάνικα, με λάχανο τουρσί ή πατατοσαλάτα — μερίδα για να μοιραστείτε.",
+      "pairing": "Russn (ελαφρύ Hefeweizen)"
+    },
+    "rump-steak": {
+      "description": "Μοσχάρι Murnau με σάλτσα κρασιού και κρεμμυδιού, τηγανητά κρεμμύδια, käsespätzle."
+    },
+    "ribeye-300g": {
+      "description": "Φέτα με λίπος από Murnau μοσχάρι, σάλτσα café de Paris, ψητά λαχανικά, πατατογκρατιν."
+    },
+    "deluxe-burger": {
+      "description": "200g βοδινό Werdenfelser, cheddar, μαρούλι, ντομάτα, τουρσί, κρεμμύδια, σπιτική σάλτσα Donisl.",
+      "pairing": "Münchner Hell"
+    },
+    "icefish": {
+      "description": "Μυρωδάτο θυμάρι, λαχανικά ratatouille, πατατογκρατιν."
+    },
+    "brotzeitbrettl": {
+      "description": "Καπνιστά κρεατικά του αγρότη, μπέικον λουκάνικο, συκωταριά, κρύο ψητό μοσχαρίσιο, O'gmachter, ορεινό τυρί, χρένι, ψωμί."
+    },
+    "donisl-4erlei": {
+      "description": "Χούμους, σπιτικό τυρί, αλατισμένο βούτυρο και κρεμώδες γιαούρτι με βότανα, σερβιρισμένα με καλάθι ψωμιού."
+    },
+    "beef-tartare": {
+      "description": "Ταρτάρ μοσχαρίσιο με κρέμα τρούφας, ψημένο βιολογικό αυγό."
+    },
+    "calfs-head-carpaccio": {
+      "description": "Ρόδι, χρένι, αγγούρι."
+    },
+    "ogmachter-kas": {
+      "description": "Κρεμώδες τυρί με κρεμμυδόχτυπες, ραπανάκια, μαρούλι και μούρα."
+    },
+    "sausage-salad": {
+      "description": "Σπιτική βινεγκρέτ, κρεμμύδι, τουρσί, ντομάτα, μούρο (+1.90 με λωρίδες ορεινού τυριού)."
+    },
+    "donisl-salad": {
+      "description": "Φύλλα σαλάτας, ντομάτα, αγγούρι, σπιτική βινεγκρέτ, σπόροι και κρουτόν."
+    },
+    "bread-basket": {
+      "description": "Φρεσκοψημένο καλάθι ψωμιού."
+    },
+    "brezn": {
+      "description": "Βαυαρικό pretzel."
+    },
+    "oxen-consomme": {
+      "description": "Διάφανος ζωμός βοδινού με χορτοτηγανίτες ή λωρίδες κρέπας, λαχανικά και σχοινόπρασο."
+    },
+    "tomato-soup": {
+      "description": "Λεία ντοματόσουπα με κρέμα burrata-βασιλικού."
+    },
+    "classic-sides": {
+      "description": "Λάχανο τουρσί, κόκκινο λάχανο, σαλάτα με μπέικον και λάχανο, κρεμώδεις πατάτες, πατατοπληγούτσες, μικρές ψητές πατάτες, spätzle ή πατάτες τηγανιτές — ανά επιλογή."
+    },
+    "vegetable-sides": {
+      "description": "Λαχανικά πλευρά ή πατατο-αγγουροσαλάτα — ανά επιλογή."
+    },
+    "power-bowl": {
+      "description": "Αρωματικό ρύζι, αβοκάντο, edamame, ρεβίθια, καρότο, ντομάτα, αγγούρι, φυστίκια, σάλτσα πορτοκάλι-μέντα-λάιμ."
+    },
+    "kaesespaetzle": {
+      "description": "Käsespätzle με κρεμμυδάκια.",
+      "pairing": "Münchner Dunkel ή ένα γεμάτο λευκό κρασί"
+    },
+    "linguine-truffles": {
+      "description": "Ζυμαρικά με baby σπανάκι και χειμερινή τρούφα."
+    },
+    "rahmschwammerl": {
+      "description": "Μανιτάρια σε κρέμα, σερβιρισμένα με Knödel pretzel."
+    },
+    "creme-brulee": {
+      "description": "Σερβίρεται με σορμπέ και μούρα.",
+      "pairing": "Rieslaner Auslese dessert wine"
+    },
+    "kaiserschmarrn": {
+      "description": "Kaiserschmarrn με σταφίδες, βούτυρο, ζάχαρη και καραμελωμένα αμύγδαλα, σερβιρισμένο με μήλο πουρέ — ιδανικό για να μοιραστείτε.",
+      "pairing": "Rieslaner Auslese dessert wine"
+    },
+    "kirschmichl": {
+      "description": "Ζεστή τάρτα κεράσι σερβιρισμένη με κρέμα βανίλιας."
+    },
+    "apple-strudel": {
+      "description": "Κλασικό Apple strudel σερβιρισμένο με κρέμα βανίλιας.",
+      "pairing": "Milchkaffee"
+    },
+    "muenchner-hell": {
+      "description": "Κάτω ζύμωσης, λεπτό πικρό άρωμα λυκίσκου, ελαφρώς μελάτο. 5.0% vol."
+    },
+    "beer-light-alcohol-free": {
+      "description": "Φυσικά θολό, νότες καραμέλας και μελιού. <0.5% vol."
+    },
+    "muenchner-radler": {
+      "description": "Munich Helles με λεμονάδα, όχι πολύ γλυκό."
+    },
+    "muenchner-dunkel": {
+      "description": "Ελαφρά πικρό, ψημένο κριθάρι με νότες καραμέλας και γλυκισμένων φρούτων. 5.0% vol."
+    },
+    "hefeweizen": {
+      "description": "Ανώτερης ζύμωσης wheat beer με νότες μπανάνας και μελιού."
+    },
+    "russn": {
+      "description": "Hefeweizen με ελαφριά λεμονάδα, όχι πολύ γλυκό."
+    },
+    "cola-wheat": {
+      "description": "Hefeweizen με Coca-Cola."
+    },
+    "non-alcoholic-wheat": {
+      "description": "Ελαφρώς απεαλκοολωμένο μετά την πλήρη ωρίμανση, διατηρεί το άρωμά του."
+    },
+    "salvator": {
+      "description": "Ισχυρή μπύρα (Starkbier), εποχιακή — διαθέσιμη Φεβρουάριο/Μάρτιο. 0.5l."
+    },
+    "kellerbier": {
+      "description": "Εποχιακή — διαθέσιμη Ιούνιο/Ιούλιο/Αύγουστο. 0.5l."
+    },
+    "wiesnbier": {
+      "description": "Oktoberfest μπύρα, εποχιακή — διαθέσιμη Σεπτέμβριο/Οκτώβριο. 0.5l."
+    },
+    "weissweinschorle": {
+      "description": "Λευκό Spritzer. 0.3l."
+    },
+    "pinot-gris-glass": {
+      "description": "Οινοποιείο Hirschmüller, Württemberg — ελαφρύ, εύκολο κρασί."
+    },
+    "primitivo-glass": {
+      "description": "Sir of the Faun, Puglia — μαύρα μούρα, κεράσι, διακριτικά μπαχαρικά."
+    },
+    "prodry-frizzante": {
+      "description": "Motelvini, Veneto, Ιταλία. 0.1l."
+    },
+    "paul-michel-champagne": {
+      "description": "Champagne Premier Cru, Champagne, Γαλλία. Φιάλη 0.75l."
+    },
+    "taittinger-rose": {
+      "description": "Champagne Taittinger, Γαλλία. Φιάλη 0.75l."
+    },
+    "valdo-prosecco": {
+      "description": "Valdo, Veneto — κλασικό ιταλικό αφρώδες. Φιάλη 0.75l."
+    },
+    "winzersekt": {
+      "description": "Pfaffmann, Pfalz, Γερμανία. Φιάλη 0.75l."
+    },
+    "chardonnay-bottle": {
+      "description": "Οινοποιείο Hirschmüller, Württemberg — φρούτα πάθους, μάνγκο, ανανά. Φιάλη 0.75l."
+    },
+    "chardonnay-macon-ige": {
+      "description": "Domaine Fichet, Burgundy — μήλο, αχλάδι, λευκό ροδάκινο, διακριτική ορυκτότητα. Φιάλη 0.75l."
+    },
+    "pinot-gris-tradition": {
+      "description": "Bott Frères, Burgundy — βερίκοκο, μήλο Vienna, φουντούκι, διακριτικός καπνός. Φιάλη 0.75l."
+    },
+    "pinot-gris-oetinger": {
+      "description": "Oetinger, Rheingau — ώριμο αχλάδι, κίτρινο μήλο, ελαφρύ αμύγδαλο. Φιάλη 0.75l."
+    },
+    "pinot-gris-reserve-pauline": {
+      "description": "Pfaffmann, Pfalz — αχλάδι, ανανάς, νεκταρίνι, λεμονόχορτο, ανθικό. Φιάλη 0.75l."
+    },
+    "pinot-blanc-grand-reserve": {
+      "description": "Taubenschuss, Weinviertel Αυστρίας — πεπόνι, φουντούκι, άχυρο, καραμέλα. Φιάλη 0.75l."
+    },
+    "trebbiano-di-lugana": {
+      "description": "Zenato, Veneto, Ιταλία — φρέσκια οξύτητα, ορυκτό, εσπεριδοειδή, πράσινο μήλο, αχλάδι. Φιάλη 0.75l."
+    },
+    "riesling-easy-white": {
+      "description": "Oetinger, Rheingau — λάιμ, μήλο, λευκό ροδάκινο, ιδανικό απεριτίφ. Φιάλη 0.75l.",
+      "pairing": "Wiener Schnitzel"
+    },
+    "riesling-gottloos": {
+      "description": "Dr. Loosen, Mosel — εσπεριδοειδή, μήλο, κομψή ορυκτότητα. Φιάλη 0.75l."
+    },
+    "riesling-heiligenstein": {
+      "description": "Bründlmayer, Kamptal, Αυστρία — φρέσκα εσπεριδοειδή, μήλο, βοτανικά μπαχάρικά. Φιάλη 0.75l."
+    },
+    "riesling-smoky-dry": {
+      "description": "Weingut Oetinger, Rheingau — καπνιστή ορυκτότητα, ζουμερό μήλο, εσπεριδοειδή. Φιάλη 0.75l."
+    },
+    "riesling-bright-side-of-life": {
+      "description": "Stahl, Franconia — φρουτώδες, φρέσκο, απλό στην απόλαυση. Φιάλη 0.75l."
+    },
+    "sauvignon-blanc": {
+      "description": "Chateau de la Chaise, Loire — φραγκοστάφυλο, πράσινο μήλο, εξωτικά φρούτα. Φιάλη 0.75l."
+    },
+    "sauvignon-blanc-reserve": {
+      "description": "Taubenschuss, Weinviertel Αυστρίας — λάιμ, φραγκοστάφυλλο, εξωτικά φρούτα. Φιάλη 0.75l."
+    },
+    "silvaner-easy-white": {
+      "description": "Weingut am Stein, Franconia — πράσινο μήλο, αχλάδι, απαλά βότανα. Φιάλη 0.75l."
+    },
+    "gruener-veltliner-tenn": {
+      "description": "Taubenschuss, Weinviertel Αυστρίας — μήλο, λευκό πιπέρι, βοτανικά μπαχάρικα. Φιάλη 0.75l."
+    },
+    "riesling-gottloos-3l": {
+      "description": "Dr. Loosen, Mosel. Φιάλη 3.0l."
+    },
+    "gruener-veltliner-steinberg": {
+      "description": "Karl Fritsch, Burgenland, Αυστρία. Φιάλη 1.5l."
+    },
+    "chardonnay-morillon": {
+      "description": "Lackner-Tinnacher, Southern Styria, Αυστρία. Φιάλη 1.5l."
+    },
+    "cuvee-adrian-sangiovese": {
+      "description": "Κόκκινο cuvée, Toscana Rosso, Τοσκάνη. Φιάλη 1.5l."
+    },
+    "primitivo-bottle": {
+      "description": "Barbanera, Apulia, Ιταλία — μαύρα μούρα, κεράσι, διακριτικά μπαχαρικά. Φιάλη 0.75l."
+    },
+    "herrgott-cuvee": {
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz — κεράσια, κόκκινα μούρα. Φιάλη 0.75l."
+    },
+    "tuscany-red-cuvee": {
+      "description": "Duca di Salangane, Toscana — κεράσια, μαύρα μούρα. Φιάλη 0.75l."
+    },
+    "pinot-noir-goldberg": {
+      "description": "Toni Hartl, Burgenland — κόκκινα μούρα, κεράσια, διακριτικά μπαχάρια. Φιάλη 0.75l."
+    },
+    "merlot": {
+      "description": "Chateau Gensac, Gascony — μαύρα κεράσια, δαμάσκηνα, μπαχαρικά. Φιάλη 0.75l."
+    },
+    "brunello-di-montalcino": {
+      "description": "Tenuta Corte Pavone, Sangiovese, Τοσκάνη — μαύρα μούρα, κεράσι, σοκολάτα. Φιάλη 0.75l."
+    },
+    "black-ox-cuvee": {
+      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Pfalz — μαύρα μούρα, κεράσι, μπαχαρικά. Φιάλη 0.75l."
+    },
+    "rose-lime-stone": {
+      "description": "Unger, Neusiedl — κόκκινα μούρα, φράουλα, βατόμουρο, εσπεριδοειδή. Φιάλη 0.75l."
+    },
+    "torres-natureo": {
+      "description": "Miguel Torres, Vilafranca del Penedès — εσπεριδοειδή, μήλο, ελαφρύ. Φιάλη 0.75l."
+    },
+    "rieslaner-auslese": {
+      "description": "Juliusspital, Franconia — γλυκό κρασί. Φιάλη 0.5l.",
+      "pairing": "Kaiserschmarrn or Crème brûlée"
+    },
+    "aperol-spritz": {
+      "description": "Κλασικό ιταλικό απεριτίφ. 0.2l."
+    },
+    "hugo": {
+      "description": "Spritz elderflower. 0.2l."
+    },
+    "campari-soda": {
+      "description": "0.2l."
+    },
+    "campari-orange": {
+      "description": "0.2l."
+    },
+    "sanbitter": {
+      "description": "Μη αλκοολούχο πικρό απεριτίφ. 0.2l."
+    },
+    "nut-in-a-bottle": {
+      "description": "2cl."
+    },
+    "ruescherl": {
+      "description": "13cl."
+    },
+    "hirschkuss": {
+      "description": "38% vol., φιάλη με καπάκι swing-top, 4cl."
+    },
+    "vodka-redbull": {
+      "description": "0.27l."
+    },
+    "williams-christ-pear": {
+      "description": "40% vol. Edelbrand, Sigi Herzog Distillates. 2cl."
+    },
+    "farm-fruit-growers": {
+      "description": "Linster, λεπτό αποσταγμα διευρυμένο για 1 χρόνο σε δρύινα βαρέλια. 2cl."
+    },
+    "feiner-mirabell": {
+      "description": "Linster, ωριμασμένη γεύση βερίκοκου. 2cl."
+    },
+    "enzian-gentian-brandy": {
+      "description": "Wilhelm Marx Fine Spirits Manufactory. 2cl."
+    },
+    "raspberry-pulp-brandy": {
+      "description": "40% vol. Wilhelm Marx Edelmanufaktur. 2cl."
+    },
+    "grappa-chardonnay": {
+      "description": "Παππούς. 2cl."
+    },
+    "paulaner-spezi": {
+      "description": "0.4l."
+    },
+    "coca-cola": {
+      "description": "0.4l."
+    },
+    "coca-cola-zero": {
+      "description": "0.4l."
+    },
+    "paulaner-lemonade": {
+      "description": "0.33l."
+    },
+    "paulaner-orange-lemonade": {
+      "description": "0.33l."
+    },
+    "tonic": {
+      "description": "0.2l."
+    },
+    "red-bull": {
+      "description": "0.25l."
+    },
+    "bad-brambacher": {
+      "description": "Με ή χωρίς ανθρακικό. 0.5l."
+    },
+    "table-water": {
+      "description": "Σιωπηλό ή ανθρακούχο."
+    },
+    "apple-spritzer": {
+      "description": "0.4l."
+    },
+    "johannisbeerschorle": {
+      "description": "Spritzer μαύρου φραγκοστάφυλου. 0.4l."
+    },
+    "maracujaschorle": {
+      "description": "Spritzer μαρακούγιας. 0.4l."
+    },
+    "wolfra-orange-juice": {
+      "description": "0.2l."
+    },
+    "espresso": {
+      "description": ""
+    },
+    "double-espresso": {
+      "description": ""
+    },
+    "espresso-macchiato": {
+      "description": ""
+    },
+    "cappuccino": {
+      "description": ""
+    },
+    "latte-macchiato": {
+      "description": ""
+    },
+    "milchkaffee": {
+      "description": "Καφές με γάλα."
+    },
+    "haferl-kaffee-creme": {
+      "description": "Haferl Kaffee Creme."
+    },
+    "drinking-chocolate": {
+      "description": "Με γάλα."
+    },
+    "tea-ronnefeldt": {
+      "description": "Darjeeling, Mountain Herbs, Sweet Berries, Green Dragon Lung Ching, Refreshing Mint ή Fruity Camomile."
+    },
+    "kids-potato-dumplings": {
+      "description": "Με ζωμό από ψητό χοιρινό."
+    },
+    "kids-kaesspatzn": {
+      "description": "Käsespätzle, παιδική μερίδα."
+    },
+    "kids-rostbratwuerstl": {
+      "description": "Με πατάτες τηγανιτές ή πατατο-αγγουροσαλάτα."
+    },
+    "kids-fries": {
+      "description": ""
+    }
+  }
 }

@@ -1,37 +1,37 @@
 {
   "strings": {
-    "welcome": "Explora el menú a continuación, o pregúntale a nuestro asistente de IA por una recomendación.",
+    "welcome": "Explora el menú a continuación o pide una recomendación a nuestro asistente IA.",
     "categoriesTitle": "Menú",
     "featuredTitle": "Destacados",
     "askAi": "Preguntar a la IA",
     "chatTitle": "DonislKI",
     "discussing": "Hablando de",
     "askAboutThis": "Preguntar a la IA sobre esto",
-    "askAboutDishTemplate": "Cuéntame sobre {dish}",
-    "pairing": "Combina bien con",
+    "askAboutDishTemplate": "Háblame de {dish}",
+    "pairing": "Mejor con",
     "allergensLabel": "Alérgenos",
-    "allergensUnknown": "Por favor, confirma con el personal",
+    "allergensUnknown": "Confirma por favor con el personal",
     "composerPlaceholder": "Pregunta sobre el menú…",
     "send": "Enviar",
     "close": "Cerrar",
     "noInfo": "No tengo esa información en el menú actual.",
     "categories": {
       "traditional": "Tradicional",
-      "sausages": "Embutidos",
+      "sausages": "Salchichas",
       "starters": "Entrantes",
       "vegan": "Vegano",
       "desserts": "Postres",
       "beer": "Cerveza",
       "wine": "Vino",
-      "aperitif": "Aperitivo",
-      "spirits": "Licores",
-      "drinks": "Bebidas sin alcohol y café",
-      "kids": "Niños"
+      "aperitif": "Aperitivos",
+      "spirits": "Destilados",
+      "drinks": "Bebidas no alcohólicas y café",
+      "kids": "Infantil"
     },
     "tagLabels": {
       "sharing": "para compartir",
-      "signature": "especialidad",
-      "hearty": "contundente",
+      "signature": "firma",
+      "hearty": "sustancioso",
       "classic": "clásico",
       "light": "ligero",
       "seasonal": "de temporada",
@@ -39,12 +39,12 @@
       "non-alcoholic": "sin alcohol",
       "vegetarian": "vegetariano",
       "vegan": "vegano",
-      "spirit": "licor",
+      "spirit": "destilado",
       "water": "agua",
       "coffee": "café",
       "hot-drink": "bebida caliente",
       "aperitif": "aperitivo",
-      "bowl": "bowl",
+      "bowl": "bol",
       "white": "blanco",
       "red": "tinto",
       "rose": "rosado",
@@ -54,9 +54,9 @@
       "bottle": "botella"
     },
     "quickSuggestions": [
-      "¿Qué me recomiendas?",
-      "¿Qué bebida combina con este plato?",
-      "Muéstrame opciones veganas",
+      "¿Qué recomiendas?",
+      "¿Qué bebida va con este plato?",
+      "Mostrar opciones veganas",
       "¿Qué contiene alérgenos?",
       "Algo ligero",
       "Algo tradicional"
@@ -64,87 +64,87 @@
   },
   "items": {
     "donisl-roasting-pan": {
-      "description": "Ternera, pato, codillo de cerdo y embutidos con lombarda, albóndigas de patata y spätzle con queso — para compartir.",
+      "description": "Carne de vaca, pato, codillo de cerdo y salchichas con lombarda, albóndigas de patata y Käse‑Spätzle — para compartir.",
       "pairing": "Münchner Dunkel"
     },
     "roast-pork": {
-      "description": "Paletilla y panceta de cerdo bávaro con chicharrones, jugo natural, albóndigas de patata y ensalada de col.",
+      "description": "Paleta y panceta de cerdo bávaro con corteza crujiente, salsa natural, albóndigas de patata y ensalada de col.",
       "pairing": "Münchner Dunkel"
     },
     "schweinshaxe": {
-      "description": "Codillo de cerdo asado y crujiente, servido con salsa natural, albóndigas de patata y ensalada de col.",
-      "pairing": "Ideal con cerveza Dunkel."
+      "description": "Codillo de cerdo asado y crujiente servido con salsa natural, albóndigas de patata y ensalada de col.",
+      "pairing": "Best with Dunkel beer."
     },
     "wiener-schnitzel": {
-      "description": "Escalope de cerdo bávaro alimentado con paja, con patatas fritas o ensalada de patata y pepino, y arándanos rojos.",
-      "pairing": "Riesling Easy-White o una Radler"
+      "description": "Schnitzel de cerdo alimentado con paja al estilo bávaro con patatas fritas o ensalada de patata y pepino, y arándanos.",
+      "pairing": "Riesling Easy-White o un Radler"
     },
     "farm-duck": {
-      "description": "Salsa de romero, albóndigas de patata y lombarda.",
+      "description": "Con salsa de romero, albóndigas de patata y lombarda.",
       "pairing": "Münchner Dunkel"
     },
     "backhendl": {
-      "description": "Muslo de pollo empanado sin hueso, con patatas fritas o ensalada de patata y pepino."
+      "description": "Muslo de pollo deshuesado empanado con patatas fritas o ensalada de patata y pepino."
     },
     "duet-of-the-ox": {
-      "description": "Paletilla y carrillera de buey, jugo de vino tinto, espinacas baby, patatas cremosas."
+      "description": "Hombro y carrillera de buey, jugo de vino tinto, espinacas tiernas, patatas cremosas."
     },
     "veal-steak": {
-      "description": "Salsa cremosa de pimienta en grano, colinabo flambeado, rösti de patata."
+      "description": "Salsa cremosa de granos de pimienta variados, kohlrabi flameado, rösti de patata."
     },
     "veal-meatballs": {
-      "description": "Guarnición de verduras, patatas al romero."
+      "description": "Verduras aliñadas, patatas al romero."
     },
     "white-sausage": {
-      "description": "Dos piezas, servidas con pretzel y mostaza."
+      "description": "Dos unidades, servidas con pretzel y mostaza."
     },
     "white-sausage-piece": {
-      "description": "Una salchicha blanca individual."
+      "description": "Una sola Weißwurst."
     },
     "polish-sausage": {
-      "description": "Con pretzel y mostaza."
+      "description": "Servida con pretzel y mostaza."
     },
     "currywurst": {
-      "description": "Salchicha al curry servida con patatas fritas.",
-      "pairing": "Cerveza de trigo Hefeweizen"
+      "description": "Currywurst acompañada de patatas fritas.",
+      "pairing": "Hefeweizen wheat beer"
     },
     "bratwurstreindl": {
-      "description": "Cazuela de salchichas a la parrilla con chucrut o ensalada de patata — porción para compartir.",
-      "pairing": "Russn (Hefeweizen ligera)"
+      "description": "Sartén de salchichas a la parrilla con chucrut o ensalada de patata — ración para compartir.",
+      "pairing": "Russn (light Hefeweizen)"
     },
     "rump-steak": {
-      "description": "Ternera Murnau con jugo de vino tinto y cebolla, cebolla frita, käsespätzle."
+      "description": "Ternera de Murnau con jugo de vino tinto y cebolla, cebolla frita, Käsespätzle."
     },
     "ribeye-300g": {
-      "description": "Corte graso de ternera Murnau, salsa café de paris, verduras a la parrilla, gratín de patata."
+      "description": "Pieza con grasa delantera de ternera Murnau, salsa café de Paris, verduras a la parrilla, gratén de patata."
     },
     "deluxe-burger": {
-      "description": "200g de ternera Werdenfelser, cheddar, lechuga, tomate, pepinillos, cebolla, salsa casera Donisl.",
+      "description": "200 g de carne Werdenfelser, cheddar, lechuga, tomate, pepinillos, cebolla, salsa Donisl casera.",
       "pairing": "Münchner Hell"
     },
     "icefish": {
-      "description": "Tomillo, verduras ratatouille, gratín de patata."
+      "description": "Merluza con tomillo, verduras ratatouille y gratén de patata."
     },
     "brotzeitbrettl": {
-      "description": "Embutidos ahumados de la casa, salchicha de tocino, embutido de hígado, rosbif frío, O'gmachter, queso de montaña, rábano picante, pan."
+      "description": "Tabla campesina de embutidos ahumados, salchicha de tocino, paté de hígado, roast beef frío, O'gmachter, queso de montaña, rábano picante, pan."
     },
     "donisl-4erlei": {
-      "description": "Hummus, queso untable, mantequilla salada y crema agria con hierbas, servido con cesta de pan."
+      "description": "Hummus, queso preparado, mantequilla salada y crema ácida con hierbas, servidos con cesta de pan."
     },
     "beef-tartare": {
-      "description": "Crema de trufa, huevo ecológico al horno."
+      "description": "Tartaleta de ternera con crema de trufa y huevo ecológico al horno."
     },
     "calfs-head-carpaccio": {
-      "description": "Granada, rábano picante, pepino."
+      "description": "Carpaccio de cabeza de ternera con granada, rábano picante y pepino."
     },
     "ogmachter-kas": {
-      "description": "Queso cremoso con aros de cebolla, rábanos, lechuga y frutos del bosque."
+      "description": "Queso cremoso con aros de cebolla, rábanos, lechuga y bayas."
     },
     "sausage-salad": {
-      "description": "Aderezo de la casa, aros de cebolla, pepinillo, tomate, frutos del bosque (+1,90 con tiras de queso de montaña)."
+      "description": "Ensalada de salchicha con aliño de la casa, aros de cebolla, pepinillo, tomate y bayas (+1,90 con tiras de queso de montaña)."
     },
     "donisl-salad": {
-      "description": "Hojas verdes, tomate, pepino, aderezo de la casa, semillas y picatostes."
+      "description": "Hojas verdes, tomate, pepino, aliño de la casa, semillas y picatostes."
     },
     "bread-basket": {
       "description": "Cesta de pan fresco."
@@ -153,80 +153,80 @@
       "description": "Pretzel bávaro."
     },
     "oxen-consomme": {
-      "description": "Caldo claro de ternera con albóndigas de hígado o tiras de crep, verduras y cebollino."
+      "description": "Consomé claro de vaca con albóndigas de hígado o tiras de crepe, verduras y cebollino."
     },
     "tomato-soup": {
-      "description": "Suave sopa de tomate con crema de burrata y albahaca."
+      "description": "Crema de tomate suave con crema de burrata y albahaca."
     },
     "classic-sides": {
-      "description": "Chucrut, lombarda, ensalada de col con panceta, patatas cremosas, albóndigas de patata, patatas pequeñas asadas, spätzle o patatas fritas — cada uno."
+      "description": "Chucrut, lombarda, ensalada de tocino y col, patatas cremosas, albóndigas de patata, pequeñas patatas asadas, Spätzle o patatas fritas — por porción."
     },
     "vegetable-sides": {
-      "description": "Guarnición de verduras o ensalada de patata y pepino — cada una."
+      "description": "Guarnición de verduras o ensalada de patata y pepino — por porción."
     },
     "power-bowl": {
-      "description": "Arroz aromático, aguacate, edamame, garbanzos, zanahoria, tomate, pepino, cacahuetes, aderezo de naranja, menta y lima."
+      "description": "Arroz aromático, aguacate, edamame, garbanzos, zanahoria, tomate, pepino, cacahuetes, aliño de naranja, menta y lima."
     },
     "kaesespaetzle": {
-      "description": "Spätzle con queso y aros de cebolla.",
-      "pairing": "Münchner Dunkel o un vino blanco con cuerpo"
+      "description": "Käse‑Spätzle con aros de cebolla.",
+      "pairing": "Münchner Dunkel or a full-bodied white wine"
     },
     "linguine-truffles": {
-      "description": "Pasta con espinacas baby y trufa de invierno."
+      "description": "Pasta con espinacas tiernas y trufa de invierno."
     },
     "rahmschwammerl": {
-      "description": "Setas cremosas servidas con albóndigas de pretzel."
+      "description": "Setas en salsa cremosa servidas con Knödel de pretzel."
     },
     "creme-brulee": {
-      "description": "Servida con sorbete y frutos del bosque.",
-      "pairing": "Vino de postre Rieslaner Auslese"
+      "description": "Servido con sorbete y frutas del bosque.",
+      "pairing": "Rieslaner Auslese dessert wine"
     },
     "kaiserschmarrn": {
-      "description": "Pasas, mantequilla, azúcar y almendras caramelizadas, servido con compota de manzana — ideal para compartir.",
-      "pairing": "Vino de postre Rieslaner Auslese"
+      "description": "Kaiserschmarrn con pasas, mantequilla, azúcar y almendras caramelizadas, servido con compota de manzana — ideal para compartir.",
+      "pairing": "Rieslaner Auslese dessert wine"
     },
     "kirschmichl": {
-      "description": "Pastel de cereza caliente servido con natillas."
+      "description": "Pastel tibio de cereza servido con natillas."
     },
     "apple-strudel": {
       "description": "Strudel de manzana clásico servido con natillas.",
       "pairing": "Milchkaffee"
     },
     "muenchner-hell": {
-      "description": "Fermentación baja, sutil toque amargo de lúpulo, ligeramente maltosa. 5,0% vol."
+      "description": "Fermentación baja, ligero amargor a lúpulo y un leve dulzor a malta. 5,0% vol."
     },
     "beer-light-alcohol-free": {
-      "description": "Turbia de forma natural, con notas de caramelo y miel. <0,5% vol."
+      "description": "Naturalmente turbia, notas de caramelo y miel. <0.5% vol."
     },
     "muenchner-radler": {
-      "description": "Münchner Hell con una fina limonada, no demasiado dulce."
+      "description": "Helles de Múnich con limonada fina, no demasiado dulce."
     },
     "muenchner-dunkel": {
-      "description": "Sutilmente amarga, malta tostada con notas de caramelo y fruta confitada. 5,0% vol."
+      "description": "Amargor delicado, malta tostada con notas de caramelo y frutas confitadas. 5,0% vol."
     },
     "hefeweizen": {
       "description": "Cerveza de trigo de fermentación alta con notas de plátano y miel."
     },
     "russn": {
-      "description": "Hefeweizen con una fina limonada, no demasiado dulce."
+      "description": "Hefeweizen con un toque de limonada, no demasiado dulce."
     },
     "cola-wheat": {
-      "description": "Hefeweizen con Coca-Cola."
+      "description": "Hefeweizen con Coca‑Cola."
     },
     "non-alcoholic-wheat": {
-      "description": "Desalcoholizada suavemente tras la maduración completa, conserva su aroma."
+      "description": "Suavemente desalcoolizada tras su maduración completa, conserva su aroma."
     },
     "salvator": {
-      "description": "Cerveza fuerte (Starkbier), de temporada — disponible en febrero/marzo. 0,5l."
+      "description": "Cerveza fuerte (Starkbier), estacional — disponible en febrero/marzo. 0,5 l."
     },
     "kellerbier": {
-      "description": "De temporada — disponible en junio/julio/agosto (Sommerzeit). 0,5l."
+      "description": "Estacional — disponible junio/julio/agosto (verano). 0,5 l."
     },
     "wiesnbier": {
-      "description": "Cerveza del Oktoberfest, de temporada — disponible en septiembre/octubre. 0,5l."
+      "description": "Cerveza de Oktoberfest, estacional — disponible septiembre/octubre. 0,5 l."
     },
     "weissweinschorle": {
-      "description": "Vino blanco con gaseosa. 0,3l."
+      "description": "Spritzer de vino blanco. 0,3 l."
     },
     "pinot-gris-glass": {
       "description": "Bodega Hirschmüller, Württemberg — ligero, fácil de beber."
@@ -235,195 +235,195 @@
       "description": "Sir of the Faun, Puglia — bayas oscuras, cereza, especias sutiles."
     },
     "prodry-frizzante": {
-      "description": "Motelvini, Véneto, Italia. 0,1l."
+      "description": "Motelvini, Veneto, Italia. 0,1 l."
     },
     "paul-michel-champagne": {
-      "description": "Champagne Premier Cru, Champagne, Francia. Botella de 0,75l."
+      "description": "Champagne Premier Cru, Champagne, Francia. Botella 0,75 l."
     },
     "taittinger-rose": {
-      "description": "Champagne Taittinger, Francia. Botella de 0,75l."
+      "description": "Champagne Taittinger, Francia. Botella 0,75 l."
     },
     "valdo-prosecco": {
-      "description": "Valdo, Véneto — vino espumoso italiano clásico. Botella de 0,75l."
+      "description": "Valdo, Veneto — prosecco italiano clásico. Botella 0,75 l."
     },
     "winzersekt": {
-      "description": "Bodega Pfaffmann, Palatinado, Alemania. Botella de 0,75l."
+      "description": "Bodega Pfaffmann, Palatinado, Alemania. Botella 0,75 l."
     },
     "chardonnay-bottle": {
-      "description": "Bodega Hirschmüller, Württemberg — fruta de la pasión, mango, piña. Botella de 0,75l."
+      "description": "Bodega Hirschmüller, Württemberg — maracuyá, mango, piña. Botella 0,75 l."
     },
     "chardonnay-macon-ige": {
-      "description": "Domaine Fichet, Borgoña — manzana, pera, melocotón blanco, sutil mineralidad. Botella de 0,75l."
+      "description": "Domaine Fichet, Borgoña — manzana, pera, melocotón blanco, mineralidad sutil. Botella 0,75 l."
     },
     "pinot-gris-tradition": {
-      "description": "Bodega Bott Frères, Borgoña — albaricoque, manzana vienesa, avellana, sutil ahumado. Botella de 0,75l."
+      "description": "Bott Frères, Borgoña — albaricoque, manzana, avellana, humo sutil. Botella 0,75 l."
     },
     "pinot-gris-oetinger": {
-      "description": "Bodega Oetinger, Rheingau — pera madura, manzana amarilla, toque de almendra. Botella de 0,75l."
+      "description": "Bodega Oetinger, Rheingau — pera madura, manzana amarilla, toque de almendra. Botella 0,75 l."
     },
     "pinot-gris-reserve-pauline": {
-      "description": "Bodega Pfaffmann, Palatinado — pera, piña, nectarina, hierba limón, floral. Botella de 0,75l."
+      "description": "Bodega Pfaffmann, Palatinado — pera, piña, nectarina, hierba limón, floral. Botella 0,75 l."
     },
     "pinot-blanc-grand-reserve": {
-      "description": "Bodega Taubenschuss, Weinviertel austríaco — melón, avellana, heno, caramelo. Botella de 0,75l."
+      "description": "Taubenschuss, Weinviertel austríaco — melón, avellana, heno, caramelo. Botella 0,75 l."
     },
     "trebbiano-di-lugana": {
-      "description": "Bodega Zenato, Véneto, Italia — acidez fresca, mineral, cítricos, manzana verde, pera. Botella de 0,75l."
+      "description": "Zenato, Veneto, Italia — acidez fresca, mineralidad, cítricos, manzana verde, pera. Botella 0,75 l."
     },
     "riesling-easy-white": {
-      "description": "Bodega Oetinger, Rheingau — lima, manzana, melocotón blanco, aperitivo ideal. Botella de 0,75l.",
+      "description": "Bodega Oetinger, Rheingau — lima, manzana, melocotón blanco, ideal como aperitivo. Botella 0,75 l.",
       "pairing": "Wiener Schnitzel"
     },
     "riesling-gottloos": {
-      "description": "Bodega Dr. Loosen, Mosela — cítricos, manzana, mineralidad elegante. Botella de 0,75l."
+      "description": "Bodega Dr. Loosen, Mosel — cítricos, manzana, mineralidad elegante. Botella 0,75 l."
     },
     "riesling-heiligenstein": {
-      "description": "Bodega Bründlmayer, Langenlois, Kamptal, Austria — cítricos frescos, manzana, especias herbales. Botella de 0,75l."
+      "description": "Bründlmayer, Langenlois, Kamptal, Austria — cítricos frescos, manzana, especias herbales. Botella 0,75 l."
     },
     "riesling-smoky-dry": {
-      "description": "Bodega Oetinger, Rheingau — mineralidad ahumada, manzana jugosa, cítricos. Botella de 0,75l."
+      "description": "Weingut Oetinger, Rheingau — mineralidad ahumada, manzana jugosa, cítricos. Botella 0,75 l."
     },
     "riesling-bright-side-of-life": {
-      "description": "Bodega Stahl, Franconia, Alemania — afrutado, fresco, sin complicaciones. Botella de 0,75l."
+      "description": "Bodega Stahl, Franconia — afrutado, fresco, sin complicaciones. Botella 0,75 l."
     },
     "sauvignon-blanc": {
-      "description": "Château de la Chaise, Loira — grosella espinosa, manzana verde, fruta exótica. Botella de 0,75l."
+      "description": "Chateau de la Chaise, Loire — grosella espinosa, manzana verde, fruta exótica. Botella 0,75 l."
     },
     "sauvignon-blanc-reserve": {
-      "description": "Bodega Taubenschuss, Weinviertel austríaco — lima, grosella espinosa, fruta exótica. Botella de 0,75l."
+      "description": "Taubenschuss, Weinviertel — lima, grosella, fruta exótica. Botella 0,75 l."
     },
     "silvaner-easy-white": {
-      "description": "Weingut am Stein, Franconia — manzana verde, pera, hierbas sutiles. Botella de 0,75l."
+      "description": "Weingut am Stein, Franconia — manzana verde, pera, hierbas sutiles. Botella 0,75 l."
     },
     "gruener-veltliner-tenn": {
-      "description": "Bodega Taubenschuss, Weinviertel austríaco — manzana, pimienta blanca, especias herbales. Botella de 0,75l."
+      "description": "Taubenschuss, Weinviertel — manzana, pimienta blanca, especias herbales. Botella 0,75 l."
     },
     "riesling-gottloos-3l": {
-      "description": "Bodega Dr. Loosen, Mosela. Botella de 3,0l."
+      "description": "Bodega Dr. Loosen, Mosel. Botella 3,0 l."
     },
     "gruener-veltliner-steinberg": {
-      "description": "Bodega Karl Fritsch, Burgenland, Austria. Botella de 1,5l."
+      "description": "Karl Fritsch, Burgenland, Austria. Botella 1,5 l."
     },
     "chardonnay-morillon": {
-      "description": "Bodega Lackner-Tinnacher, Estiria del Sur, Austria. Botella de 1,5l."
+      "description": "Lackner‑Tinnacher, Styria del Sur, Austria. Botella 1,5 l."
     },
     "cuvee-adrian-sangiovese": {
-      "description": "Cuvée tinta, Toscana Rosso, Toscana. Botella de 1,5l."
+      "description": "Cuvée tinto, Toscana Rosso, Toscana. Botella 1,5 l."
     },
     "primitivo-bottle": {
-      "description": "Bodega Barbanera, Apulia, Italia — bayas oscuras, cereza, especias sutiles. Botella de 0,75l."
+      "description": "Bodega Barbanera, Apulia, Italia — bayas oscuras, cereza, especias sutiles. Botella 0,75 l."
     },
     "herrgott-cuvee": {
-      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Palatinado — cerezas, bayas rojas. Botella de 0,75l."
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Palatinado — cerezas, frutos rojos. Botella 0,75 l."
     },
     "tuscany-red-cuvee": {
-      "description": "Duca di Salangane, Toscana — cerezas, bayas oscuras. Botella de 0,75l."
+      "description": "Duca di Salangane, Toscana — cerezas, frutos oscuros. Botella 0,75 l."
     },
     "pinot-noir-goldberg": {
-      "description": "Bodega Toni Hartl, Burgenland — bayas rojas, cerezas, especias sutiles. Botella de 0,75l."
+      "description": "Toni Hartl, Burgenland — frutos rojos, cereza, especias sutiles. Botella 0,75 l."
     },
     "merlot": {
-      "description": "Château Gensac, Gascuña — cerezas oscuras, ciruelas, especias. Botella de 0,75l."
+      "description": "Chateau Gensac, Gascuña — cerezas negras, ciruelas, especias. Botella 0,75 l."
     },
     "brunello-di-montalcino": {
-      "description": "Bodega Tenuta Corte Pavone, Sangiovese, Toscana — bayas oscuras, cereza, chocolate. Botella de 0,75l."
+      "description": "Tenuta Corte Pavone, Sangiovese, Toscana — fruto oscuro, cereza, chocolate. Botella 0,75 l."
     },
     "black-ox-cuvee": {
-      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Palatinado — bayas oscuras, cereza, especias. Botella de 0,75l."
+      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Palatinado — frutos oscuros, cereza, especias. Botella 0,75 l."
     },
     "rose-lime-stone": {
-      "description": "Bodega Unger, Lago Neusiedl — bayas rojas, fresa, frambuesa, cítricos. Botella de 0,75l."
+      "description": "Unger, Lago Neusiedl — frutos rojos, fresa, frambuesa, cítricos. Botella 0,75 l."
     },
     "torres-natureo": {
-      "description": "Miguel Torres, Vilafranca del Penedès — cítricos, manzana, ligero. Botella de 0,75l."
+      "description": "Miguel Torres, Vilafranca del Penedès — cítricos, manzana, ligero. Botella 0,75 l."
     },
     "rieslaner-auslese": {
-      "description": "Bodega Juliusspital, Franconia — vino de postre. Botella de 0,5l.",
-      "pairing": "Kaiserschmarrn o Crème brûlée"
+      "description": "Juliusspital, Franconia — vino de postre. Botella 0,5 l.",
+      "pairing": "Kaiserschmarrn or Crème brûlée"
     },
     "aperol-spritz": {
-      "description": "Aperitivo italiano clásico. 0,2l."
+      "description": "Aperitivo italiano clásico. 0,2 l."
     },
     "hugo": {
-      "description": "Spritz de flor de saúco. 0,2l."
+      "description": "Spritz de flor de saúco. 0,2 l."
     },
     "campari-soda": {
-      "description": "0,2l."
+      "description": "0,2 l."
     },
     "campari-orange": {
-      "description": "0,2l."
+      "description": "0,2 l."
     },
     "sanbitter": {
-      "description": "Aperitivo amargo sin alcohol. 0,2l."
+      "description": "Aperitivo amargo sin alcohol. 0,2 l."
     },
     "nut-in-a-bottle": {
-      "description": "2cl."
+      "description": "2 cl."
     },
     "ruescherl": {
-      "description": "13cl."
+      "description": "13 cl."
     },
     "hirschkuss": {
-      "description": "38% vol., botella con tapón de resorte, 4cl."
+      "description": "38% vol., botella con cierre hermético, 4 cl."
     },
     "vodka-redbull": {
-      "description": "0,27l."
+      "description": "0,27 l."
     },
     "williams-christ-pear": {
-      "description": "40% vol. Edelbrand, destilado Sigi Herzog. 2cl."
+      "description": "40% vol. Edelbrand, destilado Sigi Herzog. 2 cl."
     },
     "farm-fruit-growers": {
-      "description": "Destilería de frutas finas Linster, envejecido 1 año en barricas de roble. 2cl."
+      "description": "Destilería Linster, envejecido 1 año en barricas de roble. 2 cl."
     },
     "feiner-mirabell": {
-      "description": "Destilería de frutas finas Linster, sabor a albaricoque maduro. 2cl."
+      "description": "Destilería Linster, sabor a albaricoque maduro. 2 cl."
     },
     "enzian-gentian-brandy": {
-      "description": "Manufactura de licores finos Wilhelm Marx. 2cl."
+      "description": "Wilhelm Marx Fine Spirits Manufactory. 2 cl."
     },
     "raspberry-pulp-brandy": {
-      "description": "40% vol. Edelmanufaktur Wilhelm Marx. 2cl."
+      "description": "40% vol. Edelmanufaktur Wilhelm Marx. 2 cl."
     },
     "grappa-chardonnay": {
-      "description": "Grandfather. 2cl."
+      "description": "Abuelo. 2 cl."
     },
     "paulaner-spezi": {
-      "description": "0,4l."
+      "description": "0,4 l."
     },
     "coca-cola": {
-      "description": "0,4l."
+      "description": "0,4 l."
     },
     "coca-cola-zero": {
-      "description": "0,4l."
+      "description": "0,4 l."
     },
     "paulaner-lemonade": {
-      "description": "0,33l."
+      "description": "0,33 l."
     },
     "paulaner-orange-lemonade": {
-      "description": "0,33l."
+      "description": "0,33 l."
     },
     "tonic": {
-      "description": "0,2l."
+      "description": "0,2 l."
     },
     "red-bull": {
-      "description": "0,25l."
+      "description": "0,25 l."
     },
     "bad-brambacher": {
-      "description": "Sin gas o con gas moderado. 0,5l."
+      "description": "Sin gas o medio. 0,5 l."
     },
     "table-water": {
-      "description": "Con o sin gas."
+      "description": "Sin gas o con gas."
     },
     "apple-spritzer": {
-      "description": "0,4l."
+      "description": "0,4 l."
     },
     "johannisbeerschorle": {
-      "description": "Spritzer de grosella negra. 0,4l."
+      "description": "Spritzer de grosella negra. 0,4 l."
     },
     "maracujaschorle": {
-      "description": "Spritzer de fruta de la pasión. 0,4l."
+      "description": "Spritzer de maracuyá. 0,4 l."
     },
     "wolfra-orange-juice": {
-      "description": "0,2l."
+      "description": "Zumo de naranja Wolfra. 0,2 l."
     },
     "espresso": {
       "description": ""
@@ -450,13 +450,13 @@
       "description": "Con leche."
     },
     "tea-ronnefeldt": {
-      "description": "Darjeeling, hierbas de montaña, bayas dulces, Green Dragon Lung Ching, menta refrescante o manzanilla afrutada."
+      "description": "Darjeeling, Hierbas de montaña, Berries dulces, Green Dragon Lung Ching, Menta refrescante o Manzanilla afrutada."
     },
     "kids-potato-dumplings": {
-      "description": "Con jugo de asado de cerdo."
+      "description": "Con salsa de asado de cerdo."
     },
     "kids-kaesspatzn": {
-      "description": "Spätzle con queso, porción infantil."
+      "description": "Käse‑Spätzle, ración infantil."
     },
     "kids-rostbratwuerstl": {
       "description": "Con patatas fritas o ensalada de patata y pepino."

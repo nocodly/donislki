@@ -126,6 +126,21 @@ ${JSON.stringify(sourcePayload)}`;
   }
 }
 
+// The model occasionally ignores the "items is a dict keyed by id" instruction
+// and returns an array of {id, description, pairing} instead, or sets pairing
+// to null rather than omitting it — normalize both back to the documented shape.
+function normalizeItems(items) {
+  const entries = Array.isArray(items)
+    ? items.map(({ id, ...rest }) => [id, rest])
+    : Object.entries(items).map(([id, rest]) => [id, { ...rest }]);
+  const out = {};
+  for (const [id, rest] of entries) {
+    if (rest.pairing === null || rest.pairing === undefined) delete rest.pairing;
+    out[id] = rest;
+  }
+  return out;
+}
+
 async function main() {
   if (!process.env.OPENAI_API_KEY) {
     console.error('OPENAI_API_KEY is not set');
@@ -135,6 +150,7 @@ async function main() {
   for (const [code, name] of Object.entries(LANGUAGES)) {
     process.stdout.write(`Translating to ${name}... `);
     const result = await translate(name);
+    result.items = normalizeItems(result.items);
     const outPath = path.join(__dirname, '..', 'lib', 'generated', `${code}.json`);
     writeFileSync(outPath, JSON.stringify(result, null, 2) + '\n');
     console.log(`done (${outPath})`);

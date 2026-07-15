@@ -1,4 +1,468 @@
 {
-  "strings": {},
-  "items": {}
+  "strings": {
+    "welcome": "Böngésszen az alábbi étlapon, vagy kérjen ajánlást AI asszisztensünktől.",
+    "categoriesTitle": "Menü",
+    "featuredTitle": "Kiemelt",
+    "askAi": "Kérdezd az AI-t",
+    "chatTitle": "DonislKI",
+    "discussing": "Megbeszélés",
+    "askAboutThis": "Kérdezz az AI-tól erről",
+    "askAboutDishTemplate": "Mesélj nekem {dish}-ról",
+    "pairing": "Legjobb hozzá",
+    "allergensLabel": "Allergének",
+    "allergensUnknown": "Kérjük, érdeklődjön a személyzetnél",
+    "composerPlaceholder": "Kérdezz az étlapról…",
+    "send": "Küldés",
+    "close": "Bezárás",
+    "noInfo": "Erről az ételről nincs információm a jelenlegi étlapon.",
+    "categories": {
+      "traditional": "Hagyományos",
+      "sausages": "Kolbászok",
+      "starters": "Előételek",
+      "vegan": "Vegán",
+      "desserts": "Desszertek",
+      "beer": "Sörök",
+      "wine": "Borok",
+      "aperitif": "Aperitifek",
+      "spirits": "Pálinkák & szeszesitalok",
+      "drinks": "Alkoholmentes italok & kávé",
+      "kids": "Gyerekeknek"
+    },
+    "tagLabels": {
+      "sharing": "megosztható",
+      "signature": "házi specialitás",
+      "hearty": "laktató",
+      "classic": "klasszikus",
+      "light": "könnyű",
+      "seasonal": "idényjellegű",
+      "strong": "erős",
+      "non-alcoholic": "alkoholmentes",
+      "vegetarian": "vegetáriánus",
+      "vegan": "vegán",
+      "spirit": "szeszes",
+      "water": "víz",
+      "coffee": "kávé",
+      "hot-drink": "forró ital",
+      "aperitif": "aperitif",
+      "bowl": "tál",
+      "white": "fehér",
+      "red": "vörös",
+      "rose": "rozé",
+      "sparkling": "pezsgő",
+      "dessert-wine": "desszertbor",
+      "by-glass": "poharazva",
+      "bottle": "palack"
+    },
+    "quickSuggestions": [
+      "Mit ajánlasz?",
+      "Melyik ital illik ehhez az ételhez?",
+      "Mutasd a vegán lehetőségeket",
+      "Mi tartalmaz allergént?",
+      "Valami könnyűt",
+      "Valami hagyományosat"
+    ]
+  },
+  "items": {
+    "donisl-roasting-pan": {
+      "description": "Marha-, kacsa-, sertéscsülök és kolbászok vöröskáposztával, burgonyagombóccal és sajtos Spätzle-vel — megosztható adag.",
+      "pairing": "Münchner Dunkel"
+    },
+    "roast-pork": {
+      "description": "Bajor sertéslapocka és tarja ropogós bőrrel, pecsenyeszafttal, burgonyagombóccal és káposztasalátával.",
+      "pairing": "Münchner Dunkel"
+    },
+    "schweinshaxe": {
+      "description": "Ropogósra sütött sertéscsülök, pecsenyeszósz, burgonyagombóc és káposztasaláta.",
+      "pairing": "Best with Dunkel beer."
+    },
+    "wiener-schnitzel": {
+      "description": "Bajor szalmaeten tartott sertésbécsi, hasábburgonyával vagy burgonya‑uborka salátával és áfonyával.",
+      "pairing": "Riesling Easy-White or a Radler"
+    },
+    "farm-duck": {
+      "description": "Rozmaringos mártás, burgonyagombóc és vöröskáposzta.",
+      "pairing": "Münchner Dunkel"
+    },
+    "backhendl": {
+      "description": "Csont nélküli rántott csirkecomb, sültkrumplival vagy burgonya‑uborka salátával."
+    },
+    "duet-of-the-ox": {
+      "description": "Marhahát és pofa, vörösbor jus, bébispenót, krémes burgonya."
+    },
+    "veal-steak": {
+      "description": "Színes borókors borsos tejszínes mártás, flambírozott karalábé, krumplirösti."
+    },
+    "veal-meatballs": {
+      "description": "Friss zöldségek, rozmaringos burgonya."
+    },
+    "white-sausage": {
+      "description": "Két darab, pereccel és mustárral tálalva."
+    },
+    "white-sausage-piece": {
+      "description": "Egyetlen fehér kolbász."
+    },
+    "polish-sausage": {
+      "description": "Pereccel és mustárral."
+    },
+    "currywurst": {
+      "description": "Curry kolbász, sültkrumplival.",
+      "pairing": "Hefeweizen wheat beer"
+    },
+    "bratwurstreindl": {
+      "description": "Serpenyőnyi grillezett kolbászok savanyú káposztával vagy burgonyasalátával — megosztható adag.",
+      "pairing": "Russn (light Hefeweizen)"
+    },
+    "rump-steak": {
+      "description": "Murnau marha vörösboros‑hagymás jus-szal, sült hagyma, käsespätzle."
+    },
+    "ribeye-300g": {
+      "description": "Murnau marha zsírrésszel, Café de Paris mártás, grillezett zöldségek, burgonyagratin."
+    },
+    "deluxe-burger": {
+      "description": "200g Werdenfelser marhahús, cheddar, saláta, paradicsom, csemegeuborka, hagyma, házi Donisl szósz.",
+      "pairing": "Münchner Hell"
+    },
+    "icefish": {
+      "description": "Kakukkfű, ratatouille zöldségek, burgonyagratin."
+    },
+    "brotzeitbrettl": {
+      "description": "Falusi füstölt húsok, szalonnás kolbász, májkrém, hideg marhahús, O'gmachter, hegyi sajt, torma, kenyér."
+    },
+    "donisl-4erlei": {
+      "description": "Hummusz, házi sajtkrém, sózott vaj és fűszeres tejföl, kenyérkosárral."
+    },
+    "beef-tartare": {
+      "description": "Trüffelkrém, sütött bio tojás."
+    },
+    "calfs-head-carpaccio": {
+      "description": "Gránátalma, torma, uborka."
+    },
+    "ogmachter-kas": {
+      "description": "Krémes sajt hagymakarikákkal, retek, saláta és bogyós gyümölcsök."
+    },
+    "sausage-salad": {
+      "description": "Házi öntet, hagymakarikák, csemegeuborka, paradicsom, bogyósok (+1,90 hegyi sajtszeletekkel)."
+    },
+    "donisl-salad": {
+      "description": "Leveles zöldek, paradicsom, uborka, házi öntet, magvak és krutonnal."
+    },
+    "bread-basket": {
+      "description": "Friss kenyérkosár."
+    },
+    "brezn": {
+      "description": "Bajor perec."
+    },
+    "oxen-consomme": {
+      "description": "Tiszta marhahúsleves májgaluskával vagy palacsintacsíkokkal, zöldségekkel és metélőhagymával."
+    },
+    "tomato-soup": {
+      "description": "Selymes paradicsomleves burrata‑bazsalikom krémmel."
+    },
+    "classic-sides": {
+      "description": "Savanyú káposzta, vöröskáposzta, szalonnás káposztasaláta, krémes burgonya, burgonyagombóc, kis sültburgonya, Spätzle vagy sültkrumpli — darabonként."
+    },
+    "vegetable-sides": {
+      "description": "Zöldségköret vagy burgonya‑uborka saláta — darabonként."
+    },
+    "power-bowl": {
+      "description": "Illatos rizs, avokádó, edamame, csicseriborsó, sárgarépa, paradicsom, uborka, földimogyoró, narancs‑menta‑lime öntet."
+    },
+    "kaesespaetzle": {
+      "description": "Sajtos Spätzle vöröshagymakarikákkal.",
+      "pairing": "Münchner Dunkel or a full-bodied white wine"
+    },
+    "linguine-truffles": {
+      "description": "Tészta bébispenóttal és téli szarvasszal."
+    },
+    "rahmschwammerl": {
+      "description": "Tejszínes gombák pereces gombóccal tálalva."
+    },
+    "creme-brulee": {
+      "description": "Sorbettel és bogyós gyümölcsökkel.",
+      "pairing": "Rieslaner Auslese dessert wine"
+    },
+    "kaiserschmarrn": {
+      "description": "Mazsola, vaj, cukor és karamellizált mandula, almaszósszal — megoszthatóan ideális.",
+      "pairing": "Rieslaner Auslese dessert wine"
+    },
+    "kirschmichl": {
+      "description": "Meleg meggyes sütemény vaníliasodóval."
+    },
+    "apple-strudel": {
+      "description": "Hagyományos almás rétes vaníliasodóval.",
+      "pairing": "Milchkaffee"
+    },
+    "muenchner-hell": {
+      "description": "Alulerjesztett, finoman kesernyés komlóíz, enyhén malátás. 5,0% vol."
+    },
+    "beer-light-alcohol-free": {
+      "description": "Természetesen zavaros, karamell- és mézjegyek. <0.5% vol."
+    },
+    "muenchner-radler": {
+      "description": "Munich Helles finom limonádéval, nem túl édes."
+    },
+    "muenchner-dunkel": {
+      "description": "Finoman kesernyés, pörkölt maláta karamell- és kandírozott gyümölcsös jegyekkel. 5,0% vol."
+    },
+    "hefeweizen": {
+      "description": "Felüle terjesztett búzasör banános és mézes jegyekkel."
+    },
+    "russn": {
+      "description": "Hefeweizen finom limonádéval, nem túl édes."
+    },
+    "cola-wheat": {
+      "description": "Hefeweizen Coca-Colával keverve."
+    },
+    "non-alcoholic-wheat": {
+      "description": "Finoman dealkoholizált a teljes érlelés után, megőrzi aromáját."
+    },
+    "salvator": {
+      "description": "Erős sör (Starkbier), szezonális — február/márciusban kapható. 0.5l."
+    },
+    "kellerbier": {
+      "description": "Szezonális — június/július/augusztusban (nyári időszak) kapható. 0.5l."
+    },
+    "wiesnbier": {
+      "description": "Oktoberfest sör, szezonális — szeptember/októberben kapható. 0.5l."
+    },
+    "weissweinschorle": {
+      "description": "Fehérbor spritzer. 0.3l."
+    },
+    "pinot-gris-glass": {
+      "description": "Hirschmüller Pincészet, Württemberg — könnyed, könnyen fogyasztható."
+    },
+    "primitivo-glass": {
+      "description": "Sir of the Faun, Puglia — sötét bogyók, cseresznye, visszafogott fűszer."
+    },
+    "prodry-frizzante": {
+      "description": "Motelvini, Veneto, Olaszország. 0.1l."
+    },
+    "paul-michel-champagne": {
+      "description": "Champagne Premier Cru, Champagne, Franciaország. 0.75l palack."
+    },
+    "taittinger-rose": {
+      "description": "Champagne Taittinger, Franciaország. 0.75l palack."
+    },
+    "valdo-prosecco": {
+      "description": "Valdo, Veneto — klasszikus olasz pezsgő. 0.75l palack."
+    },
+    "winzersekt": {
+      "description": "Pfaffmann Pincészet, Pfalz, Németország. 0.75l palack."
+    },
+    "chardonnay-bottle": {
+      "description": "Hirschmüller Pincészet, Württemberg — guava, mangó, ananász. 0.75l palack."
+    },
+    "chardonnay-macon-ige": {
+      "description": "Domaine Fichet, Burgundia — alma, körte, fehér őszibarack, finom mineralitás. 0.75l palack."
+    },
+    "pinot-gris-tradition": {
+      "description": "Bott Frères Pincészet, Burgundia — kajszibarack, bécsi alma, mogyoró, enyhe füst. 0.75l palack."
+    },
+    "pinot-gris-oetinger": {
+      "description": "Oetinger Pincészet, Rheingau — érett körte, sárga alma, mandulaárnyalat. 0.75l palack."
+    },
+    "pinot-gris-reserve-pauline": {
+      "description": "Pfaffmann Pincészet, Pfalz — körte, ananász, nektarin, citromfű, virágos jegyek. 0.75l palack."
+    },
+    "pinot-blanc-grand-reserve": {
+      "description": "Taubenschuss Pincészet, osztrák Weinviertel — görögdinnye, mogyoró, széna, karamell. 0.75l palack."
+    },
+    "trebbiano-di-lugana": {
+      "description": "Zenato Pincészet, Veneto, Olaszország — friss sav, mineralitás, citrus, zöld alma, körte. 0.75l palack."
+    },
+    "riesling-easy-white": {
+      "description": "Oetinger Pincészet, Rheingau — lime, alma, fehér őszibarack, ideális aperitif. 0.75l palack.",
+      "pairing": "Wiener Schnitzel"
+    },
+    "riesling-gottloos": {
+      "description": "Dr. Loosen Pincészet, Mosel — citrus, alma, elegáns mineralitás. 0.75l palack."
+    },
+    "riesling-heiligenstein": {
+      "description": "Bründlmayer Pincészet, Langenlois, Kamptal, Ausztria — friss citrus, alma, gyógynövényes fűszer. 0.75l palack."
+    },
+    "riesling-smoky-dry": {
+      "description": "Weingut Oetinger, Rheingau — füstös mineralitás, zamatos alma, citrus. 0.75l palack."
+    },
+    "riesling-bright-side-of-life": {
+      "description": "Stahl Pincészet, Franconia, Németország — gyümölcsös, friss, egyszerűen szerethető. 0.75l palack."
+    },
+    "sauvignon-blanc": {
+      "description": "Chateau de la Chaise, Loire — egres, zöld alma, egzotikus gyümölcs. 0.75l palack."
+    },
+    "sauvignon-blanc-reserve": {
+      "description": "Taubenschuss Pincészet, osztrák Weinviertel — lime, egres, egzotikus gyümölcs. 0.75l palack."
+    },
+    "silvaner-easy-white": {
+      "description": "Weingut am Stein, Franconia — zöld alma, körte, finom gyógynövényes jegyek. 0.75l palack."
+    },
+    "gruener-veltliner-tenn": {
+      "description": "Taubenschuss Pincészet, osztrák Weinviertel — alma, fehér bors, gyógynövényes fűszer. 0.75l palack."
+    },
+    "riesling-gottloos-3l": {
+      "description": "Dr. Loosen Pincészet, Mosel. 3.0l palack."
+    },
+    "gruener-veltliner-steinberg": {
+      "description": "Karl Fritsch Pincészet, Burgenland, Ausztria. 1.5l palack."
+    },
+    "chardonnay-morillon": {
+      "description": "Lackner-Tinnacher Pincészet, Dél‑Stájerország, Ausztria. 1.5l palack."
+    },
+    "cuvee-adrian-sangiovese": {
+      "description": "Vörös cuvée, Toscana Rosso, Toszkána. 1.5l palack."
+    },
+    "primitivo-bottle": {
+      "description": "Barbanera Pincészet, Apulia, Olaszország — sötét bogyók, cseresznye, finom fűszer. 0.75l palack."
+    },
+    "herrgott-cuvee": {
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz — cseresznye, vörös bogyók. 0.75l palack."
+    },
+    "tuscany-red-cuvee": {
+      "description": "Duca di Salangane, Toscana — cseresznye, sötét bogyók. 0.75l palack."
+    },
+    "pinot-noir-goldberg": {
+      "description": "Toni Hartl Pincészet, Burgenland — vörös bogyók, cseresznye, finom fűszer. 0.75l palack."
+    },
+    "merlot": {
+      "description": "Chateau Gensac, Gascony — sötét cseresznye, szilva, fűszer. 0.75l palack."
+    },
+    "brunello-di-montalcino": {
+      "description": "Tenuta Corte Pavone Pincészet, Sangiovese, Toszkána — sötét bogyó, cseresznye, csokoládé. 0.75l palack."
+    },
+    "black-ox-cuvee": {
+      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Pfalz — sötét bogyók, cseresznye, fűszer. 0.75l palack."
+    },
+    "rose-lime-stone": {
+      "description": "Unger Pincészet, Fertő‑tó — vörös bogyók, eper, málna, citrus. 0.75l palack."
+    },
+    "torres-natureo": {
+      "description": "Miguel Torres, Vilafranca del Penedès — citrus, alma, könnyed. 0.75l palack."
+    },
+    "rieslaner-auslese": {
+      "description": "Juliusspital Pincészet, Franconia — desszertbor. 0.5l palack.",
+      "pairing": "Kaiserschmarrn or Crème brûlée"
+    },
+    "aperol-spritz": {
+      "description": "Klasszikus olasz aperitif. 0.2l."
+    },
+    "hugo": {
+      "description": "Bodza spritz. 0.2l."
+    },
+    "campari-soda": {
+      "description": "0.2l."
+    },
+    "campari-orange": {
+      "description": "0.2l."
+    },
+    "sanbitter": {
+      "description": "Alkoholmentes keserű aperitif. 0.2l."
+    },
+    "nut-in-a-bottle": {
+      "description": "2cl."
+    },
+    "ruescherl": {
+      "description": "13cl."
+    },
+    "hirschkuss": {
+      "description": "38% vol., patentos üveg, 4cl."
+    },
+    "vodka-redbull": {
+      "description": "0.27l."
+    },
+    "williams-christ-pear": {
+      "description": "40% vol. Edelbrand, Sigi Herzog lepárlat. 2cl."
+    },
+    "farm-fruit-growers": {
+      "description": "Linster finom gyümölcspálinka, 1 évig tölgyfahordóban érlelve. 2cl."
+    },
+    "feiner-mirabell": {
+      "description": "Linster finom gyümölcspálinka, érett sárgabarack íz. 2cl."
+    },
+    "enzian-gentian-brandy": {
+      "description": "Wilhelm Marx Fine Spirits Manufactory. 2cl."
+    },
+    "raspberry-pulp-brandy": {
+      "description": "40% vol. Edelmanufaktur Wilhelm Marx. 2cl."
+    },
+    "grappa-chardonnay": {
+      "description": "Nagypapa grappa. 2cl."
+    },
+    "paulaner-spezi": {
+      "description": "0.4l."
+    },
+    "coca-cola": {
+      "description": "0.4l."
+    },
+    "coca-cola-zero": {
+      "description": "0.4l."
+    },
+    "paulaner-lemonade": {
+      "description": "0.33l."
+    },
+    "paulaner-orange-lemonade": {
+      "description": "0.33l."
+    },
+    "tonic": {
+      "description": "0.2l."
+    },
+    "red-bull": {
+      "description": "0.25l."
+    },
+    "bad-brambacher": {
+      "description": "Csendes vagy enyhén szénsavas. 0.5l."
+    },
+    "table-water": {
+      "description": "Csendes vagy szénsavas."
+    },
+    "apple-spritzer": {
+      "description": "0.4l."
+    },
+    "johannisbeerschorle": {
+      "description": "Feketeribizli spritzer. 0.4l."
+    },
+    "maracujaschorle": {
+      "description": "Passiógyümölcs spritzer. 0.4l."
+    },
+    "wolfra-orange-juice": {
+      "description": "0.2l."
+    },
+    "espresso": {
+      "description": ""
+    },
+    "double-espresso": {
+      "description": ""
+    },
+    "espresso-macchiato": {
+      "description": ""
+    },
+    "cappuccino": {
+      "description": ""
+    },
+    "latte-macchiato": {
+      "description": ""
+    },
+    "milchkaffee": {
+      "description": "Kávé tejjel."
+    },
+    "haferl-kaffee-creme": {
+      "description": "Haferl Kaffee Creme."
+    },
+    "drinking-chocolate": {
+      "description": "Tejjel."
+    },
+    "tea-ronnefeldt": {
+      "description": "Darjeeling, Mountain Herbs, Sweet Berries, Green Dragon Lung Ching, Frissítő Mentha vagy Gyümölcsös Kamilla."
+    },
+    "kids-potato-dumplings": {
+      "description": "Sertésragu pecsenyemártással."
+    },
+    "kids-kaesspatzn": {
+      "description": "Sajtos Spätzle, gyerekadag."
+    },
+    "kids-rostbratwuerstl": {
+      "description": "Sült kolbász hasábburgonyával vagy burgonya‑uborka salátával."
+    },
+    "kids-fries": {
+      "description": ""
+    }
+  }
 }
