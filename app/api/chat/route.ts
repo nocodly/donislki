@@ -4,7 +4,7 @@ import type { ChatContext, Language } from '@/lib/types';
 
 export const runtime = 'nodejs';
 
-const OPENAI_MODEL = 'gpt-4o-mini';
+const OPENAI_MODEL = 'gpt-5-mini';
 
 type OpenAiChoice = {
   message?: { content?: string };
@@ -43,7 +43,8 @@ export async function POST(req: NextRequest) {
       },
       body: JSON.stringify({
         model: OPENAI_MODEL,
-        max_tokens: 1024,
+        max_completion_tokens: 2048,
+        reasoning_effort: 'low',
         messages: [
           { role: 'system', content: buildSystemPrompt(context ?? { category: null, dish: null }, language ?? 'en') },
           ...messages,

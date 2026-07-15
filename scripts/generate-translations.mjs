@@ -22,7 +22,7 @@ try {
   // no .env file — rely on the environment already having OPENAI_API_KEY
 }
 
-const MODEL = 'gpt-4o-mini';
+const MODEL = 'gpt-5-mini';
 
 const LANGUAGES = {
   uk: 'Ukrainian',
@@ -102,7 +102,8 @@ ${JSON.stringify(sourcePayload)}`;
     },
     body: JSON.stringify({
       model: MODEL,
-      max_tokens: 16000,
+      max_completion_tokens: 20000,
+      reasoning_effort: 'low',
       response_format: { type: 'json_object' },
       messages: [{ role: 'user', content: prompt }],
     }),
