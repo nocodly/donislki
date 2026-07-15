@@ -4,9 +4,10 @@ import type { ChatContext, Language } from '@/lib/types';
 
 export const runtime = 'nodejs';
 
-type AnthropicContentBlock = {
-  type: string;
-  text?: string;
+const OPENAI_MODEL = 'gpt-4o-mini';
+
+type OpenAiChoice = {
+  message?: { content?: string };
 };
 
 type ChatRequestBody = {
@@ -28,35 +29,36 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'messages must be a non-empty array' }, { status: 400 });
   }
 
-  const apiKey = process.env.ANTHROPIC_API_KEY;
+  const apiKey = process.env.OPENAI_API_KEY;
   if (!apiKey) {
     return NextResponse.json({ error: 'AI service not configured' }, { status: 500 });
   }
 
   try {
-    const response = await fetch('https://api.anthropic.com/v1/messages', {
+    const response = await fetch('https://api.openai.com/v1/chat/completions', {
       method: 'POST',
       headers: {
         'content-type': 'application/json',
-        'x-api-key': apiKey,
-        'anthropic-version': '2023-06-01',
+        authorization: `Bearer ${apiKey}`,
       },
       body: JSON.stringify({
-        model: 'claude-sonnet-5',
+        model: OPENAI_MODEL,
         max_tokens: 1024,
-        system: buildSystemPrompt(context ?? { category: null, dish: null }, language ?? 'en'),
-        messages,
+        messages: [
+          { role: 'system', content: buildSystemPrompt(context ?? { category: null, dish: null }, language ?? 'en') },
+          ...messages,
+        ],
       }),
     });
 
     if (!response.ok) {
       const errText = await response.text();
-      console.error('[chat] Anthropic API error', response.status, errText);
+      console.error('[chat] OpenAI API error', response.status, errText);
       return NextResponse.json({ error: 'AI service unavailable' }, { status: 502 });
     }
 
-    const data = (await response.json()) as { content?: AnthropicContentBlock[] };
-    const reply = data.content?.find((block) => block.type === 'text')?.text ?? '';
+    const data = (await response.json()) as { choices?: OpenAiChoice[] };
+    const reply = data.choices?.[0]?.message?.content ?? '';
     return NextResponse.json({ reply });
   } catch (err) {
     console.error('[chat] unexpected error', err);

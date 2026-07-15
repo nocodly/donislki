@@ -10,7 +10,7 @@ import { FloatingAiButton } from '@/components/FloatingAiButton';
 import { AiBottomSheet } from '@/components/AiBottomSheet';
 import { useVisualViewportHeight } from '@/hooks/useVisualViewportHeight';
 import { featuredItemIds, findItem } from '@/lib/menuData';
-import { getStrings, formatAskAboutDish, detectLanguage } from '@/lib/i18n';
+import { getStrings, formatAskAboutDish, detectLanguage, isRtlLanguage, normalizeToSupported } from '@/lib/i18n';
 import type { ChatContext, ChatMessage, Language, MenuCategory, MenuItem } from '@/lib/types';
 
 function newId() {
@@ -25,6 +25,7 @@ export default function Home() {
   const [language, setLanguage] = useState<Language>('en');
   useEffect(() => setLanguage(detectLanguage()), []);
   const t = getStrings(language);
+  const dir = isRtlLanguage(normalizeToSupported(language)) ? 'rtl' : 'ltr';
 
   const [activeCategory, setActiveCategory] = useState<MenuCategory | null>(null);
   const [sheetOpen, setSheetOpen] = useState(false);
@@ -98,7 +99,7 @@ export default function Home() {
   );
 
   return (
-    <div className="min-h-[100dvh] bg-bg pb-24">
+    <div dir={dir} className="min-h-[100dvh] bg-bg pb-24">
       <RestaurantHeader />
 
       <main className="mx-auto max-w-lg">
