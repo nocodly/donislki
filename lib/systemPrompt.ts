@@ -1,5 +1,6 @@
 import { menuItems } from './menuData';
 import { restaurant } from './restaurant';
+import { getTranslatedItemText } from './i18n';
 import type { ChatContext, Language } from './types';
 
 function languageName(code: Language): string {
@@ -9,6 +10,26 @@ function languageName(code: Language): string {
   } catch {
     return code;
   }
+}
+
+/**
+ * The model has to produce its reply in the guest's language regardless of
+ * what language this data is written in, but leaving that entirely to
+ * request-time translation is unreliable — it sometimes leaves the English
+ * description untranslated. Feed it the same pre-translated text the UI
+ * already shows (lib/generated/<lang>.json) so it can quote rather than
+ * translate on the fly.
+ */
+function localizedMenuItems(language: Language) {
+  return menuItems.map((item) => {
+    const translated = getTranslatedItemText(language, item.id);
+    if (!translated) return item;
+    return {
+      ...item,
+      description: translated.description,
+      pairing: translated.pairing ?? item.pairing,
+    };
+  });
 }
 
 export function buildSystemPrompt(context: ChatContext, language: Language): string {
@@ -63,7 +84,7 @@ Do not provide medical guarantees about allergies. This menu has no verified per
 Do not produce long introductions, restaurant history, jokes, or unrelated conversation.
 
 Current restaurant menu:
-${JSON.stringify(menuItems, null, 2)}
+${JSON.stringify(localizedMenuItems(language), null, 2)}
 
 Current user context:
 ${JSON.stringify(context, null, 2)}
