@@ -1,15 +1,15 @@
 {
   "strings": {
-    "welcome": "เรียกดูเมนูด้านล่าง หรือถามผู้ช่วย AI ของเราเพื่อรับคำแนะนำ",
+    "welcome": "เลือกดูเมนูด้านล่าง หรือถามผู้ช่วย AI ของเราเพื่อขอคำแนะนำ",
     "categoriesTitle": "เมนู",
     "featuredTitle": "แนะนำ",
     "askAi": "ถาม AI",
     "chatTitle": "DonislKI",
     "discussing": "กำลังพูดคุย",
     "askAboutThis": "ถาม AI เกี่ยวกับสิ่งนี้",
-    "askAboutDishTemplate": "บอกฉันเกี่ยวกับ {dish}",
-    "pairing": "เข้ากันได้ดีกับ",
-    "fromPricePrefix": "เริ่มต้นที่ ",
+    "askAboutDishTemplate": "เล่าให้ฉันฟ้าเกี่ยวกับ {dish}",
+    "pairing": "ทานคู่กับดีที่สุด",
+    "fromPricePrefix": "จาก ",
     "allergensLabel": "สารก่อภูมิแพ้",
     "allergensUnknown": "กรุณายืนยันกับพนักงาน",
     "composerPlaceholder": "ถามเกี่ยวกับเมนู…",
@@ -17,23 +17,23 @@
     "close": "ปิด",
     "noInfo": "ฉันไม่มีข้อมูลนั้นในเมนูปัจจุบัน",
     "categories": {
-      "weekly": "เมนูพิเศษประจำสัปดาห์",
-      "traditional": "แบบดั้งเดิม",
+      "weekly": "เมนูประจำสัปดาห์",
+      "traditional": "อาหารดั้งเดิม",
       "sausages": "ไส้กรอก",
-      "starters": "อาหารเรียกน้ำย่อย",
-      "vegan": "มังสวิรัติ/วีแกน",
+      "starters": "เรียกน้ำย่อย",
+      "vegan": "มังสวิรัติ",
       "desserts": "ของหวาน",
       "beer": "เบียร์",
       "wine": "ไวน์",
-      "aperitif": "อะเปอริทีฟ",
-      "spirits": "เหล้ากลั่น",
+      "aperitif": "อภารีทิฟ",
+      "spirits": "สุรา",
       "drinks": "เครื่องดื่มไม่มีแอลกอฮอล์ & กาแฟ",
-      "kids": "เด็ก"
+      "kids": "เมนูเด็ก"
     },
     "tagLabels": {
       "sharing": "สำหรับแชร์",
-      "signature": "ซิกเนเจอร์",
-      "hearty": "หนักท้อง",
+      "signature": "เมนูซิกเนเจอร์",
+      "hearty": "อิ่มท้อง",
       "classic": "คลาสสิก",
       "light": "เบา",
       "seasonal": "ตามฤดูกาล",
@@ -41,473 +41,602 @@
       "non-alcoholic": "ไม่มีแอลกอฮอล์",
       "vegetarian": "มังสวิรัติ",
       "vegan": "วีแกน",
-      "spirit": "สุรากลั่น",
+      "spirit": "สุรา",
       "water": "น้ำ",
       "coffee": "กาแฟ",
       "hot-drink": "เครื่องดื่มร้อน",
-      "aperitif": "อะเปอริทีฟ",
-      "bowl": "ชาม",
+      "aperitif": "อภารีทิฟ",
+      "bowl": "โบวล์",
       "white": "ไวน์ขาว",
       "red": "ไวน์แดง",
       "rose": "โรเซ่",
       "sparkling": "สปาร์กลิง",
       "dessert-wine": "ไวน์หวาน",
-      "by-glass": "โดยแก้ว",
+      "by-glass": "เป็นแก้ว",
       "bottle": "ขวด",
-      "lunch-special": "เมนูพิเศษกลางวัน"
+      "lunch-special": "เมนูกลางวันพิเศษ"
     },
     "quickSuggestions": [
-      "คุณแนะนำอะไรดี?",
+      "คุณแนะนำอะไร?",
       "เครื่องดื่มไหนเข้ากับจานนี้?",
-      "แสดงเมนูวีแกน",
-      "เมนูไหนมีสารก่อภูมิแพ้?",
+      "แสดงรายการวีแกน",
+      "มีอะไรที่มีสารก่อภูมิแพ้บ้าง?",
       "อะไรที่เบาๆ หน่อย",
-      "อะไรแบบดั้งเดิม?"
+      "อะไรแบบดั้งเดิม"
     ]
   },
   "items": {
     "chanterelle-soup": {
-      "description": "ครีมซุปเห็ด chanterelle พร้อมเกี๊ยวเบคอนแบบไทโรล"
+      "description": "ซุปครีมเห็ดราดน้ำมันทรัฟเฟิลเล็กน้อย พร้อมเกี๊ยวเบคอนแบบไทโรล",
+      "pairing": "Chardonnay (by the glass)"
     },
     "romaine-chanterelle-salad": {
-      "description": "หัวผักกาดโรเมนกับน้ำสลัดราสป์เบอร์รี หอมหัวแดง หัวไชเท้า และเห็ด chanterelle ย่าง"
+      "description": "หัวผักกาดโรเมน ราดวินิกราส์ราสป์เบอร์รี่ หอมแดง หัวไชเท้าและเห็ดพัฟฟร็องทอด",
+      "pairing": "Weissweinschorle"
     },
     "veal-steak-chanterelle": {
-      "description": "สเต็กveal กับเห็ด chanterelle ถั่วลันเตา และมันฝรั่งครีม"
+      "description": "สเต็กลูกวัวกับเห็ดพัฟฟร็อง ถั่วลันเตา และมันบดครีม",
+      "pairing": "Pinot Noir Ried Goldberg"
     },
     "chanterelle-linguine": {
-      "description": "ลิงกวินีผัดเห็ด chanterelle ครีม ไทม์ และชีสภูเขา Bergkäse"
+      "description": "ลิงกวินีผัดเห็ดพัฟฟร็อง ครีม ไทม์ และชีสภูเขา Bergkäse",
+      "pairing": "Chardonnay (by the glass)"
     },
     "chanterelle-cream": {
-      "description": "เห็ด chanterelle ในซอสครีมกับไทม์และเกี๊ยวเพรทเซล"
+      "description": "เห็ดพัฟฟร็องครีมกับไทม์และเกี๊ยวก้อนเพรทเซล",
+      "pairing": "Grüner Veltliner Ried Steinberg"
     },
     "lunch-monday-asparagus-linguine": {
-      "description": "เมนูกลางวันวันธรรมดา เสิร์ฟ 12:00–15:30 รวมกาแฟ ลิงกวินีกับหน่อไม้ฝรั่ง ครีมกุ้ยช่าย เนื้อย่างและมะเขือเทศ"
+      "description": "เมนูกลางวันวันธรรมดา เสิร์ฟ 12:00–15:30 รวมกาแฟ ลิงกวินีพาสต้าหน่อไม้ฝรั่ง ครีวหัวกุยช่าย เนื้อย่างและมะเขือเทศ",
+      "pairing": "Sauvignon Blanc"
     },
     "lunch-tuesday-bratengroestl": {
-      "description": "เมนูกลางวันวันธรรมดา เสิร์ฟ 12:00–15:30 รวมกาแฟ ผัดรวมจากของย่างกับกะหล่ำขาว เกี๊ยวมันฝรั่งและไข่ดาว"
+      "description": "เมนูกลางวันวันธรรมดา เสิร์ฟ 12:00–15:30 รวมกาแฟ จานผสมสไตล์ย่างกับกะหล่ำขาว เกี๊ยวมันฝรั่งและไข่ดาว",
+      "pairing": "Münchner Dunkel"
     },
     "lunch-wednesday-strindberg-steak": {
-      "description": "เมนูกลางวันวันธรรมดา เสิร์ฟ 12:00–15:30 รวมกาแฟ สเต็กหมูสันกับถั่วสีเขียวและมันฝรั่งกราแตง"
+      "description": "เมนูกลางวันวันธรรมดา เสิร์ฟ 12:00–15:30 รวมกาแฟ สเต็กสันนอกหมู กับถั่วฝักสีเขียวและกะหล่ำมันบดอบ",
+      "pairing": "Pinot Noir Ried Goldberg"
     },
     "lunch-thursday-chicken-geschnetzeltes": {
-      "description": "เมนูกลางวันวันธรรมดา เสิร์ฟ 12:00–15:30 รวมกาแฟ ไก่สไลซ์ในซอสเห็ดกับ spätzle สมุนไพร"
+      "description": "เมนูกลางวันวันธรรมดา เสิร์ฟ 12:00–15:30 รวมกาแฟ เนื้ออกไก้หั่นในซอสเห็ด กับ Spätzle สมุนไพร",
+      "pairing": "Chardonnay (by the glass)"
     },
     "lunch-friday-fish-fillet": {
-      "description": "เมนูกลางวันวันธรรมดา เสิร์ฟ 12:00–15:30 รวมกาแฟ เนื้อปลาทอดประจำวันกับเรมูแลดและสลัดมันฝรั่ง-แตงกวา"
+      "description": "เมนูกลางวันวันธรรมดา เสิร์ฟ 12:00–15:30 รวมกาแฟ เนื้อปลาทอดประจำวัน เสิร์ฟพร้อมรีมูแลดและสลัดมันฝรั่งแตงกวา",
+      "pairing": "Riesling Easy-White"
     },
     "donisl-roasting-pan": {
-      "description": "จานย่างรวมเนื้อวัว เป็ด ขาหมู และไส้กรอก เสิร์ฟพร้อมกะหล่ำแดง เกี๊ยวมันฝรั่งและKäsespätzle — สำหรับแชร์",
+      "description": "เนื้อวัว เป็ด ขาหมูและไส้กรอก พร้อมกะหล่ำแดง เกี๊ยวมันฝรั่งและKäsespätzle — สำหรับแชร์",
       "pairing": "Münchner Dunkel"
     },
     "roast-pork": {
-      "description": "สันคอและสามชั้นหมูแบบบาวาเรียกับหนังกรอบ ราดน้ำเกรวี่ธรรมชาติ เกี๊ยวมันฝรั่งและสลัดกะหล่ำ",
+      "description": "หมูย่างสไตล์บาวาเรียจากไหล่และท้อง หนังกรอบ ราดน้ำเกรวี่ เสิร์ฟกับเกี๊ยวมันฝรั่งและสลัดกะหล่ำ",
       "pairing": "Münchner Dunkel"
     },
     "schweinshaxe": {
-      "description": "ขาหมูย่างกรอบ เสิร์ฟพร้อมน้ำราดธรรมชาติ เกี๊ยวมันฝรั่งและสลัดกะหล่ำ",
-      "pairing": "เข้ากันดีกับเบียร์ Dunkel"
+      "description": "ขาหมูย่างกรอบ เสิร์ฟพร้อมซอสน้ำธรรมชาติ เกี๊ยวมันฝรั่งและสลัดกะหล่ำ",
+      "pairing": "Best with Dunkel beer."
     },
     "wiener-schnitzel": {
-      "description": "Wiener Schnitzel หมูจากการเลี้ยงแบบฟีดด้วยฟาง เสิร์ฟกับเฟรนช์ฟรายส์หรือสลัดมันฝรั่ง-แตงกวา และแครนเบอร์รี",
-      "pairing": "Riesling Easy-White หรือ Radler"
+      "description": "Wiener Schnitzel หมูเลี้ยงแบบฟาง เสิร์ฟพร้อมเฟรนช์ฟรายส์หรือสลัดมันฝรั่งแตงกวา และแครนเบอร์รี่",
+      "pairing": "Riesling Easy-White or a Radler"
     },
     "farm-duck": {
-      "description": "เป็ดฟาร์มกับซอสโรสแมรี่ เกี๊ยวมันฝรั่งและกะหล่ำแดง",
+      "description": "เป็ดฟาร์มพร้อมซอสโรสแมรี เกี๊ยวมันฝรั่งและกะหล่ำแดง",
       "pairing": "Münchner Dunkel"
     },
     "backhendl": {
-      "description": "ขาไก่ชุบเกล็ดขนมปังแบบไร้กระดูก เสิร์ฟกับเฟรนช์ฟรายส์หรือสลัดมันฝรั่ง-แตงกวา"
+      "description": "น่องไก่ชุบเกล็ดขนมปังแบบไม่มีกระดูก เสิร์ฟพร้อมเฟรนช์ฟรายส์หรือสลัดมันฝรั่งแตงกวา",
+      "pairing": "Münchner Radler"
     },
     "duet-of-the-ox": {
-      "description": "ไหล่และแก้มวัวกับจูสไวน์แดง ผักโขมอ่อน มันฝรั่งครีม"
+      "description": "สันไหล่และแก้มวัว ราดจูส์ไวน์แดง ผักโขมอ่อน มันฝรั่งครีม",
+      "pairing": "Black OX Cuvée"
     },
     "veal-steak": {
-      "description": "สเต็กveal กับซอสครีมพริกไทยหลากสี คะน้าปรุงไฟ มันฝรั่งโรสตี"
+      "description": "สเต็กลูกวัวพร้อมซอสครีมพริกไทยหลากสี กลอบ Kohlrabi ด้วยไฟ มันฝรั่งรอชตี",
+      "pairing": "Pinot Blanc Grand Reserve"
     },
     "veal-meatballs": {
-      "description": "มีทบอลveal เสิร์ฟพร้อมผักปรุงรสและมันฝรั่งโรสแมรี่"
+      "description": "ลูกชิ้นเนื้อลูกวัว เสิร์ฟกับผักแต่งและมันฝรั่งโรสมารี",
+      "pairing": "Pinot Gris Tradition"
     },
     "white-sausage": {
-      "description": "ไส้กรอกขาว 2 ชิ้น เสิร์ฟพร้อมเพรทเซลและมัสตาร์ด"
+      "description": "ไส้กรอกขาวสองชิ้น เสิร์ฟพร้อมเพรทเซลและมัสตาร์ด",
+      "pairing": "Hefeweizen (Yeast White)"
     },
     "white-sausage-piece": {
-      "description": "ไส้กรอกขาว 1 ชิ้น"
+      "description": "ไส้กรอกขาวหนึ่งชิ้น",
+      "pairing": "Hefeweizen (Yeast White)"
     },
     "polish-sausage": {
-      "description": "ไส้กรอกโปลิช เสิร์ฟพร้อมเพรทเซลและมัสตาร์ด"
+      "description": "ไส้กรอกโปแลนด์ เสิร์ฟพร้อมเพรทเซลและมัสตาร์ด",
+      "pairing": "Russn"
     },
     "currywurst": {
-      "description": "คูร์รีเวิร์สต์ เสิร์ฟพร้อมเฟรนช์ฟรายส์",
+      "description": "Currywurst ไส้กรอกแกง เสิร์ฟกับเฟรนช์ฟรายส์",
       "pairing": "Hefeweizen wheat beer"
     },
     "bratwurstreindl": {
-      "description": "กระทะไส้กรอกย่างพร้อม Sauerkraut หรือสลัดมันฝรั่ง — ขนาดสำหรับแชร์",
+      "description": "กะทะไส้กรอกย่าง เสิร์ฟกับซาวร์คราทหรือสลัดมันฝรั่ง — ขนาดสำหรับแชร์",
       "pairing": "Russn (light Hefeweizen)"
     },
     "rump-steak": {
-      "description": "เนื้อ Murnau กับจูสไวน์แดงและหอมหัวใหญ่ทอด หอมทอดและKäsespätzle"
+      "description": "เนื้อ Murnau สันใน ราดจูส์ไวน์แดงและหัวหอมทอด หัวหอมทอดและKäsespätzle",
+      "pairing": "Tuscany Red Cuvée"
     },
     "ribeye-300g": {
-      "description": "ริบอายจากเนื้อ Murnau ขอบมันชั้นดี ซอส Café de Paris ผักย่าง และมันฝรั่งกราแตง"
+      "description": "ริบอาย 300 กรัม จากวัว Murnau ชิ้นมันด้านบน ซอส Café de Paris ผักย่าง มันฝรั่งอบกราแตง",
+      "pairing": "Brunello di Montalcino DOCG"
     },
     "deluxe-burger": {
-      "description": "เบอร์เกอร์ 200g เนื้อ Werdenfelser เชดดาร์ ผักกาด มะเขือเทศ แตงกวาดอง หอมหัวใหญ่ และซอสดอนิสลทำเอง",
+      "description": "เบอร์เกอร์ 200g เนื้อ Werdenfelser เชดดาร์ ผักกาด มะเขือเทศ แตงกวาดอง หัวหอม ซอส Donisl โฮมเมด",
       "pairing": "Münchner Hell"
     },
     "icefish": {
-      "description": "ปลา Icefish กับไทม์ ผักราทาทุย และมันฝรั่งกราแตง"
+      "description": "ปลาน้ำจืด ทาร์ตไทม์ ผักราตาตุย มันฝรั่งอบกราแตง",
+      "pairing": "Sauvignon Blanc"
     },
     "brotzeitbrettl": {
-      "description": "จานสไตล์ชาวไร่ เนื้อรมควัน ไส้กรอกเบคอน เลือดหมูย่าง เนื้อย่างเย็น O'gmachter ชีสภูเขา วาซาบิสด ขนมปัง"
+      "description": "จานเนื้อรมควันชาวนา ไส้กรอกเบคอน ไส้พะโล้ เครื่องในย่าง เนื้อรมเย็น O'gmachter ชีสภูเขา วาซาบิขูด ขนมปัง",
+      "pairing": "Hefeweizen (Yeast White)"
     },
     "donisl-4erlei": {
-      "description": "ฮัมมุส ชีสโฮมเมด เนยเค็ม และซาวครีมสมุนไพร เสิร์ฟพร้อมตะกร้าขนมปัง"
+      "description": "ฮัมมุส ชีสโฮมเมด เนยเค็ม และครีมเปรี้ยวสมุนไพร เสิร์ฟพร้อมตะกร้าขนมปัง",
+      "pairing": "Weissweinschorle"
     },
     "beef-tartare": {
-      "description": "ทาร์ทาร์เนื้อวัว ครีมทรัฟเฟิล ไข่ออร์แกนิกอบ"
+      "description": "บีฟทาร์ทาร์ ครีมทรัฟเฟิล ไข่ออร์แกนิกอบ",
+      "pairing": "Pinot Noir Ried Goldberg"
     },
     "calfs-head-carpaccio": {
-      "description": "คาร์ปาชโชศีรษะลูกวัว ทับทิม วาซาบิ และแตงกวา"
+      "description": "คาร์ปาชโช้ศีรษะลูกวัว ทับทิม วาซาบิ แตงกวา",
+      "pairing": "Grüner Veltliner Ried Tenn DAC Reserve"
     },
     "ogmachter-kas": {
-      "description": "Käseครีมกับหอมทอด หัวไชเท้า ผักสลัด และเบอร์รี"
+      "description": "O'gmachter Kas ชีสครีมกับแหวนหอม หัวผักกาด ผักสลัดและเบอร์รี่",
+      "pairing": "Münchner Radler"
     },
     "sausage-salad": {
-      "description": "สลัดไส้กรอก น้ำสลัดสูตรร้าน หอมทอด แตงกวาดอง มะเขือเทศ เบอร์รี (+1.90 เพิ่มชิ้นKäsestreifen)"
+      "description": "สลัดไส้กรอก น้ำสลัดสูตรบ้าน หอมทอด แตงกวาดอง มะเขือเทศ เบอร์รี่ (+1.90 เพิ่มเส้น Käsespätzle)",
+      "pairing": "Russn"
     },
     "donisl-salad": {
-      "description": "ผักสลัด ใบสีเขียว มะเขือเทศ แตงกวา น้ำสลัดสูตรร้าน เมล็ดพืชและครูตอง"
+      "description": "ผักสลัด ใบสด มะเขือเทศ แตงกวา น้ำสลัดสูตรบ้าน เมล็ดและครูตอง",
+      "pairing": "Weissweinschorle"
     },
     "bread-basket": {
-      "description": "ตะกร้าขนมปังสด"
+      "description": "ตะกร้าขนมปังสด",
+      "pairing": "Münchner Hell"
     },
     "brezn": {
-      "description": "เพรทเซลบาวาเรียน"
+      "description": "เพรทเซลบาวาเรีย",
+      "pairing": "Münchner Hell"
     },
     "oxen-consomme": {
-      "description": "น้ำซุปเนื้อใสกับเกี๊ยวตับหรือเส้นแพนเค้ก ผักและต้นหอมชิป"
+      "description": "ซุปเนื้อใส เสิร์ฟกับเกี๊ยวไส้ตับหรือแถบเครป ผักและต้นหอมญี่ปุ่น",
+      "pairing": "Weissweinschorle"
     },
     "tomato-soup": {
-      "description": "ซุปมะเขือเทศเนียนกับครีมบูราต้าฐานโหระพา"
+      "description": "ซุปมะเขือเทศเนียน ราดครีมบูราต้ากับโหระพา",
+      "pairing": "Weissweinschorle"
     },
     "classic-sides": {
-      "description": "Sauerkraut กะหล่ำแดง สลัดเบคอนกับกะหล่ำ มันฝรั่งครีม เกี๊ยวมันฝรั่ง มันทอดเล็ก Spätzle หรือเฟรนช์ฟรายส์ — แต่ละรายการ"
+      "description": "ซาวร์คราท กะหล่ำแดง สลัดเบคอนและกะหล่ำ มันฝรั่งครีม เกี๊ยวมันฝรั่ง มันย่างเล็ก Spätzle หรือเฟรนช์ฟรายส์ — เลือกเป็นจาน",
+      "pairing": "Münchner Hell"
     },
     "vegetable-sides": {
-      "description": "เครื่องเคียงผัก หรือสลัดมันฝรั่ง-แตงกวา — แต่ละรายการ"
+      "description": "ผักเคียง หรือต้มสลัดมันฝรั่งแตงกวา — เลือกเป็นจาน",
+      "pairing": "Weissweinschorle"
     },
     "power-bowl": {
-      "description": "ข้าวหอม อะโวคาโด เอด้าเมะ ถั่วชิคพี แครอท มะเขือเทศ แตงกวา ถั่วลิสง น้ำสลัดส้ม-มินต์-มะนาว"
+      "description": "ข้าวหอมน้ำมันอะโวคาโด เอ็ดะมามิ ถั่วชิคพี แครอท มะเขือเทศ แตงกวา ถั่วลิสง น้ำสลัดส้ม-สะระแหน่-มะนาว",
+      "pairing": "Riesling Easy-White"
     },
     "kaesespaetzle": {
-      "description": "Käsespätzle ชีสเสปตเซิลกับหอมทอด",
-      "pairing": "Münchner Dunkel หรือไวน์ขาวรสเต็ม"
+      "description": "Käsespätzle (Spätzle ชีส) กับหอมทอด",
+      "pairing": "Münchner Dunkel or a full-bodied white wine"
     },
     "linguine-truffles": {
-      "description": "พาสต้า ลิงกวินี กับผักโขมอ่อนและทรัฟเฟิลฤดูหนาว"
+      "description": "พาสต้า ลอว์นผักโขมอ่อน และเห็ดทรัฟเฟิลฤดูหนาว",
+      "pairing": "Chardonnay (by the glass)"
     },
     "rahmschwammerl": {
-      "description": "เห็ดซอสครีม เสิร์ฟพร้อมเกี๊ยวเพรทเซล"
+      "description": "เห็ดครีม เสิร์ฟพร้อมเกี๊ยวเพรทเซล",
+      "pairing": "Grüner Veltliner Ried Steinberg"
     },
     "creme-brulee": {
-      "description": "เสิร์ฟพร้อมซอร์เบท์และเบอร์รี",
+      "description": "Crème brûlée เสิร์ฟพร้อมซอร์เบต์และผลเบอร์รี่",
       "pairing": "Rieslaner Auslese dessert wine"
     },
     "kaiserschmarrn": {
-      "description": "Kaiserschmarrn ใส่ลูกเกด เนย น้ำตาล และอัลมอนด์คาราเมล เสิร์ฟพร้อมซอสแอปเปิ้ล — เหมาะสำหรับแชร์",
+      "description": "Kaiserschmarrn ใส่ลูกเกด เนย น้ำตาล และอัลมอนด์คาราเมล เสิร์ฟพร้อมซอสแอปเปิล — เหมาะสำหรับแชร์",
       "pairing": "Rieslaner Auslese dessert wine"
     },
     "kirschmichl": {
-      "description": "เค้กเชอร์รีอุ่น เสิร์ฟพร้อมคัสตาร์ด"
+      "description": "เค้กเชอร์รี่อุ่น เสิร์ฟพร้อมสตูว์คัสตาร์ด",
+      "pairing": "Rieslaner Auslese"
     },
     "apple-strudel": {
-      "description": "แอปเปิลสตรูเดิลแบบคลาสสิก เสิร์ฟพร้อมคัสตาร์ด",
+      "description": "ชูสตรู้เดิ้ลแอปเปิลแบบคลาสสิก เสิร์ฟพร้อมคัสตาร์ด",
       "pairing": "Milchkaffee"
     },
     "muenchner-hell": {
-      "description": "หมักล่าง ให้ความขมฮ็อปบางเบา รสมอลต์อ่อน 5.0% vol."
+      "description": "เบียร์หมักก้นถัง กลิ่นฮอปส์อ่อนๆ รสมอลต์นิดหน่อย 5.0% vol.",
+      "pairing": "Wiener Schnitzel"
     },
     "beer-light-alcohol-free": {
-      "description": "ขุ่นตามธรรมชาติ มีโน้ตคาราเมลและน้ำผึ้ง <0.5% vol."
+      "description": "ขุ่นตามธรรมชาติ โน้ตคาราเมลและน้ำผึ้ง <0.5% vol.",
+      "pairing": "Brotzeitbrettl"
     },
     "muenchner-radler": {
-      "description": "Munich Helles ผสมเลมอนเนดละเอียด ไม่หวานเกินไป"
+      "description": "Münchner Helles ผสมด้วยเลมอนเนด บาลานซ์ ไม่หวานเกินไป",
+      "pairing": "Donisl Salad"
     },
     "muenchner-dunkel": {
-      "description": "ขมละมุน มอลต์คั่วเล็กน้อย โน้ตคาราเมลและผลไม้เชื่อม 5.0% vol."
+      "description": "รสขมนิดๆ มอลต์คั่ว พร้อมโน้ตคาราเมลและผลไม้เชื่อม 5.0% vol.",
+      "pairing": "Schweinshaxe"
     },
     "hefeweizen": {
-      "description": "เบียร์ข้าวสาลีหมักบน ให้กลิ่นกล้วยและน้ำผึ้ง"
+      "description": "Hefeweizen เบียร์หัวเชื้อกับโน้ตกล้วยและน้ำผึ้ง",
+      "pairing": "White sausage (Kesselfrisch)"
     },
     "russn": {
-      "description": "Hefeweizen เบาๆ ผสมเลมอนเนด ไม่หวานเกินไป"
+      "description": "Hefeweizen ผสมเลมอนเนดอ่อนๆ ไม่หวานเกินไป",
+      "pairing": "Bratwurstreindl"
     },
     "cola-wheat": {
-      "description": "Hefeweizen ผสม Coca-Cola"
+      "description": "Hefeweizen ผสมโคคา-โคล่า",
+      "pairing": "Currywurst"
     },
     "non-alcoholic-wheat": {
-      "description": "ลดแอลกอฮอล์อย่างอ่อนหลังการบ่มจนเต็ม กลิ่นยังคงอยู่"
+      "description": "ลดแอลกอฮอล์อย่างนุ่มหลังการบ่มเต็ม รักษากลิ่นหอมไว้",
+      "pairing": "Backhendl"
     },
     "salvator": {
-      "description": "เบียร์แรง (Starkbier) ตามฤดูกาล — มีช่วงกุมภาพันธ์/มีนาคม ขนาด 0.5l"
+      "description": "เบียร์แรง (Starkbier) ตามฤดูกาล — มีให้ในกุมภาพันธ์/มีนาคม ขนาด 0.5l",
+      "pairing": "Duet of the Ox"
     },
     "kellerbier": {
-      "description": "ตามฤดูกาล — มีช่วงมิถุนายน/กรกฎาคม/สิงหาคม (Sommerzeit) ขนาด 0.5l"
+      "description": "ตามฤดูกาล — มีให้เดือนมิถุนายน/กรกฎาคม/สิงหาคม (เวลาเทศกาลฤดูร้อน) ขนาด 0.5l",
+      "pairing": "Brotzeitbrettl"
     },
     "wiesnbier": {
-      "description": "เบียร์ Oktoberfest ตามฤดูกาล — มีช่วงกันยายน/ตุลาคม ขนาด 0.5l"
+      "description": "เบียร์งาน Oktoberfest ตามฤดูกาล — มีให้กันยายน/ตุลาคม ขนาด 0.5l",
+      "pairing": "Donisl roasting pan"
     },
     "weissweinschorle": {
-      "description": "ไวน์ขาวผสมน้ำโซดา ขนาด 0.3l"
+      "description": "ไวน์ขาวผสมโซดา ขนาด 0.3l",
+      "pairing": "Romanaherzen"
     },
     "pinot-gris-glass": {
-      "description": "Hirschmüller Winery, Württemberg — เบา ดื่มง่าย"
+      "description": "ไวน์ไร่องุ่น Hirschmüller จาก Württemberg — เบา ดื่มง่าย",
+      "pairing": "Veal meatballs"
     },
     "primitivo-glass": {
-      "description": "Sir of the Faun, Puglia — เบอร์รีเข้ม เชอร์รี เครื่องเทศแผ่วๆ"
+      "description": "Sir of the Faun, Puglia — เบอร์รี่เข้ม เชอร์รี่ เครื่องเทศอ่อนๆ",
+      "pairing": "Schweinebraten (roast pork)"
     },
     "prodry-frizzante": {
-      "description": "Motelvini, Veneto, Italy. ขนาด 0.1l"
+      "description": "Motelvini, Veneto, Italy ขนาด 0.1l",
+      "pairing": "Brotzeitbrettl"
     },
     "paul-michel-champagne": {
-      "description": "Champagne Premier Cru, Champagne, France. ขวด 0.75l"
+      "description": "Champagne Premier Cru, Champagne, France ขวด 0.75l",
+      "pairing": "Oxen consommé"
     },
     "taittinger-rose": {
-      "description": "Champagne Taittinger, France. ขวด 0.75l"
+      "description": "Champagne Taittinger, France ขวด 0.75l",
+      "pairing": "Donisl \"4erlei\""
     },
     "valdo-prosecco": {
-      "description": "Valdo, Veneto — สปาร์กลิงอิตาเลียนคลาสสิก ขวด 0.75l"
+      "description": "Valdo, Veneto — โปรเซคโคอิตาลีคลาสสิก ขวด 0.75l",
+      "pairing": "Donisl Salad"
     },
     "winzersekt": {
-      "description": "Pfaffmann Winery, Palatinate, Germany. ขวด 0.75l"
+      "description": "Pfaffmann Winery, Palatinate, Germany ขวด 0.75l",
+      "pairing": "Velvet soup from bush tomato"
     },
     "chardonnay-bottle": {
-      "description": "Hirschmüller Winery, Württemberg — มะม่วงสุก แพชชั่นฟรุต และสับปะรด ขวด 0.75l"
+      "description": "Hirschmüller Winery, Württemberg — มะม่วงพริกหวาน มะม่วงสุก แพชชั่น ฟรุต ขวด 0.75l",
+      "pairing": "Rahmschwammerl"
     },
     "chardonnay-glass": {
-      "description": "Hirschmüller Winery, Württemberg. ขนาด 0.1l"
+      "description": "Hirschmüller Winery, Württemberg ขนาด 0.1l",
+      "pairing": "Pfifferling-Linguine"
     },
     "chardonnay-macon-ige": {
-      "description": "Domaine Fichet, Burgundy — แอปเปิล ลูกแพร์ พีชขาว แร่ละเอียด ขวด 0.75l"
+      "description": "Domaine Fichet, Burgundy — แอปเปิล ลูกแพร์ พีชขาว ความเป็นแร่ละเอียด ขวด 0.75l",
+      "pairing": "Käsespätzle"
     },
     "pinot-gris-tradition": {
-      "description": "Bott Frères Winery, Burgundy — แอพริคอต แอปเปิล สไตล์เวียนนา เฮเซลนัท และควันเล็กน้อย ขวด 0.75l"
+      "description": "Bott Frères, Burgundy — แอปริคอต แอปเปิลแบบเวียนนา เฮเซลนัท ควันจางๆ ขวด 0.75l",
+      "pairing": "Veal steak"
     },
     "pinot-gris-oetinger": {
-      "description": "Oetinger Winery, Rheingau — ลูกแพร์สุก แอปเปิลเหลือง กลิ่นอัลมอนด์ ขวด 0.75l"
+      "description": "Oetinger Winery, Rheingau — ลูกแพร์สุก แอปเปิลเหลือง กลิ่นอัลมอนด์นิดๆ ขวด 0.75l",
+      "pairing": "Backhendl"
     },
     "pinot-gris-reserve-pauline": {
-      "description": "Pfaffmann Winery, Palatinate — ลูกแพร์ สับปะรด เนคตาริน ตะไคร้ กลิ่นดอกไม้ ขวด 0.75l"
+      "description": "Pfaffmann Winery, Palatinate — กลิ่นลูกแพร์ สับปะรด เนคทารีน ตะไคร้ ดอกไม้ ขวด 0.75l",
+      "pairing": "O'gmachter Kas"
     },
     "pinot-blanc-grand-reserve": {
-      "description": "Taubenschuss Winery, Austrian Weinviertel — เมลอน เฮเซลนัท หญ้าแห้ง คาราเมล ขวด 0.75l"
+      "description": "Taubenschuss Winery, Weinviertel, Austria — เมลอน เฮเซลนัท หญ้า แคราเมล ขวด 0.75l",
+      "pairing": "Donisl \"4erlei\""
     },
     "trebbiano-di-lugana": {
-      "description": "Zenato Winery, Veneto, Italy — ความเปรี้ยวสด แร่ ส้ม มะนาว แอปเปิลเขียว ลูกแพร์ ขวด 0.75l"
+      "description": "Zenato Winery, Veneto, Italy — กรดสด แร่ ผลไม้คลีน แอปเปิลเขียว ลูกแพร์ ขวด 0.75l",
+      "pairing": "Sausage salad from Regensburg"
     },
     "lugana-glass": {
-      "description": "Zenato Winery, Veneto, Italy. ขนาด 0.1l"
+      "description": "Zenato Winery, Veneto, Italy ขนาด 0.1l",
+      "pairing": "Icefish"
     },
     "riesling-easy-white": {
-      "description": "Oetinger Winery, Rheingau — มะนาว แอปเปิล พีชขาว เหมาะเป็นอะเปอริทีฟ ขวด 0.75l",
+      "description": "Oetinger Winery, Rheingau — มะนาว แอปเปิล พีชขาว เหมาะเป็นอาเพอริทิฟ ขวด 0.75l",
       "pairing": "Wiener Schnitzel"
     },
     "riesling-gottloos": {
-      "description": "Dr. Loosen Winery, Mosel — ซิตรัส แอปเปิล แร่ละเอียด ขวด 0.75l"
+      "description": "Dr. Loosen, Mosel — ซิตรัส แอปเปิล แร่เรียบหรู ขวด 0.75l",
+      "pairing": "Wiener Schnitzel"
     },
     "riesling-heiligenstein": {
-      "description": "Bründlmayer Winery, Langenlois, Kamptal, Austria — ซิตรัสสด แอปเปิล เครื่องเทศสมุนไพร ขวด 0.75l"
+      "description": "Bründlmayer, Langenlois, Kamptal, Austria — ซิตรัสสด แอปเปิล เครื่องเทศสมุนไพร ขวด 0.75l",
+      "pairing": "Donisl Salad"
     },
     "riesling-smoky-dry": {
-      "description": "Weingut Oetinger, Rheingau — แร่ควัน แอปเปิลฉ่ำ ซิตรัส ขวด 0.75l"
+      "description": "Weingut Oetinger, Rheingau — แร่ควัน แอปเปิลฉ่ำ ซิตรัส ขวด 0.75l",
+      "pairing": "Currywurst"
     },
     "riesling-bright-side-of-life": {
-      "description": "Stahl Winery, Franconia, Germany — ผลไม้ สด ดื่มง่าย ขวด 0.75l"
+      "description": "Stahl Winery, Franconia — ผลไม้ สด ดื่มง่าย ขวด 0.75l",
+      "pairing": "Gebackenes Fischfilet (Friday)"
     },
     "riesling-nachschlag-glass": {
-      "description": "Stahl Winery, Franconia, Germany. ขนาด 0.1l"
+      "description": "Stahl Winery, Franconia ขนาด 0.1l",
+      "pairing": "Gebackenes Fischfilet (Friday)"
     },
     "sauvignon-blanc": {
-      "description": "Chateau de la Chaise, Loire — กูสเบอร์รี แอปเปิลเขียว ผลไม้เอ็กโซติก ขวด 0.75l"
+      "description": "Chateau de la Chaise, Loire — กูสเบอร์รี่ แอปเปิลเขียว ผลไม้เอ็กโซติก ขวด 0.75l",
+      "pairing": "Icefish"
     },
     "sauvignon-blanc-reserve": {
-      "description": "Taubenschuss Winery, Austrian Weinviertel — มะนาว กูสเบอร์รี ผลไม้เอ็กโซติก ขวด 0.75l"
+      "description": "Taubenschuss, Weinviertel — มะนาว กูสเบอร์รี่ ผลไม้เอ็กโซติก ขวด 0.75l",
+      "pairing": "Donisl Power Bowl"
     },
     "silvaner-easy-white": {
-      "description": "Weingut am Stein, Franconia — แอปเปิลเขียว ลูกแพร์ สมุนไพรละเอียด ขวด 0.75l"
+      "description": "Weingut am Stein, Franconia — แอปเปิลเขียว ลูกแพร์ สมุนไพรจางๆ ขวด 0.75l",
+      "pairing": "Vegetable side dish"
     },
     "gruener-veltliner-tenn": {
-      "description": "Taubenschuss Winery, Austrian Weinviertel — แอปเปิล พริกไทยขาว เครื่องเทศสมุนไพร ขวด 0.75l"
+      "description": "Taubenschuss, Weinviertel — แอปเปิล พริกไทยขาว เครื่องเทศสมุนไพร ขวด 0.75l",
+      "pairing": "Lukewarm calf's head carpaccio"
     },
     "riesling-gottloos-3l": {
-      "description": "Dr. Loosen Winery, Mosel. ขวด 3.0l"
+      "description": "Dr. Loosen, Mosel ขวด 3.0l",
+      "pairing": "Wiener Schnitzel"
     },
     "gruener-veltliner-steinberg": {
-      "description": "Karl Fritsch Winery, Burgenland, Austria. ขวด 1.5l"
+      "description": "Karl Fritsch, Burgenland, Austria ขวด 1.5l",
+      "pairing": "Pfifferlingsrahm"
     },
     "chardonnay-morillon": {
-      "description": "Lackner-Tinnacher Winery, Southern Styria, Austria. ขวด 1.5l"
+      "description": "Lackner-Tinnacher, Southern Styria, Austria ขวด 1.5l",
+      "pairing": "O'gmachter Kas"
     },
     "cuvee-adrian-sangiovese": {
-      "description": "คูเว่แดง Toscana Rosso, Tuscany. ขวด 1.5l"
+      "description": "คูเว่แดง Toscana Rosso, Tuscany ขวด 1.5l",
+      "pairing": "Duet of the Ox"
     },
     "primitivo-bottle": {
-      "description": "Barbanera Winery, Apulia, Italy — เบอร์รีเข้ม เชอร์รี เครื่องเทศละเอียด ขวด 0.75l"
+      "description": "Barbanera, Apulia, Italy — เบอร์รี่เข้ม เชอร์รี่ เครื่องเทศอ่อน ขวด 0.75l",
+      "pairing": "Schweinebraten (roast pork)"
     },
     "herrgott-cuvee": {
-      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Palatinate — เชอร์รี เบอร์รีแดง ขวด 0.75l"
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Palatinate — เชอร์รี่ เบอร์รีแดง ขวด 0.75l",
+      "pairing": "Ribeye 300 grams"
     },
     "herrgott-cuvee-glass": {
-      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Palatinate. ขนาด 0.1l"
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil ขนาด 0.1l",
+      "pairing": "Donisl Bratengröstl (Tuesday)"
     },
     "tuscany-red-cuvee": {
-      "description": "Duca di Salangane, Toscana — เชอร์รี เบอร์รีเข้ม ขวด 0.75l"
+      "description": "Duca di Salangane, Toscana — เชอร์รี่ เบอร์รี่เข้ม ขวด 0.75l",
+      "pairing": "Roast beef — rump steak"
     },
     "pinot-noir-goldberg": {
-      "description": "Toni Hartl Winery, Burgenland — เบอร์รีแดง เชอร์รี เครื่องเทศละเอียด ขวด 0.75l"
+      "description": "Toni Hartl, Burgenland — เบอร์รีแดง เชอร์รี่ เครื่องเทศอ่อนๆ ขวด 0.75l",
+      "pairing": "Steak vom Milchkalb"
     },
     "merlot": {
-      "description": "Chateau Gensac, Gascony — เชอร์รีเข้ม พลัม เครื่องเทศ ขวด 0.75l"
+      "description": "Chateau Gensac, Gascony — เชอร์รี่ดำ พลัม เครื่องเทศ ขวด 0.75l",
+      "pairing": "Veal meatballs"
     },
     "brunello-di-montalcino": {
-      "description": "Tenuta Corte Pavone Winery, Sangiovese, Tuscany — เบอร์รีเข้ม เชอร์รี ช็อกโกแลต ขวด 0.75l"
+      "description": "Tenuta Corte Pavone, Sangiovese, Tuscany — เบอร์รี่เข้ม เชอร์รี่ ช็อกโกแลต ขวด 0.75l",
+      "pairing": "Ribeye 300 grams"
     },
     "black-ox-cuvee": {
-      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Palatinate — เบอร์รีเข้ม เชอร์รี เครื่องเทศ ขวด 0.75l"
+      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller — เบอร์รี่เข้ม เชอร์รี่ เครื่องเทศ ขวด 0.75l",
+      "pairing": "Duet of the Ox"
     },
     "rose-lime-stone": {
-      "description": "Unger Winery, Lake Neusiedl — เบอร์รีแดง สตรอว์เบอร์รี ราสป์เบอร์รี ซิตรัส ขวด 0.75l"
+      "description": "Unger, Lake Neusiedl — เบอร์รี่แดง สตรอว์เบอร์รี่ ราสป์เบอร์รี่ ซิตรัส ขวด 0.75l",
+      "pairing": "Donisl Salad"
     },
     "torres-natureo": {
-      "description": "Miguel Torres, Vilafranca del Penedès — ซิตรัส แอปเปิล เบา ขวด 0.75l"
+      "description": "Miguel Torres, Vilafranca del Penedès — ซิตรัส แอปเปิล เบา ขวด 0.75l",
+      "pairing": "Romanaherzen"
     },
     "rieslaner-auslese": {
-      "description": "Juliusspital Winery, Franconia — ไวน์หวานสำหรับของหวาน ขวด 0.5l",
+      "description": "Juliusspital, Franconia — ไวน์หวานของหวาน ขวด 0.5l",
       "pairing": "Kaiserschmarrn or Crème brûlée"
     },
     "aperol-spritz": {
-      "description": "อะเปอริทีฟอิตาเลียนคลาสสิก ขนาด 0.2l"
+      "description": "อิตาเลียนอภารีทิฟคลาสสิก ขนาด 0.2l",
+      "pairing": "Brotzeitbrettl"
     },
     "hugo": {
-      "description": "สปริทซ์ดอกเอลเดอร์ ขนาด 0.2l"
+      "description": "ฮิวโก้ สไปรซ์ ดอกเอลเดอร์ฟลาวเวอร์ ขนาด 0.2l",
+      "pairing": "Bread basket"
     },
     "campari-soda": {
-      "description": "ขนาด 0.2l"
+      "description": "ขนาด 0.2l",
+      "pairing": "Brezn"
     },
     "campari-orange": {
-      "description": "ขนาด 0.2l"
+      "description": "ขนาด 0.2l",
+      "pairing": "Donisl \"4erlei\""
     },
     "sanbitter": {
-      "description": "อะเปอริทีฟขม ไม่มีแอลกอฮอล์ ขนาด 0.2l"
+      "description": "อภารีทิฟขมไม่มีแอลกอฮอล์ ขนาด 0.2l",
+      "pairing": "Oxen consommé"
     },
     "nut-in-a-bottle": {
-      "description": "2cl"
+      "description": "2cl",
+      "pairing": "Kirschmichl"
     },
     "ruescherl": {
-      "description": "13cl"
+      "description": "13cl",
+      "pairing": "Apple strudel"
     },
     "hirschkuss": {
-      "description": "38% vol., ขวดฝาแบบสวิง ขนาด 4cl"
+      "description": "38% vol., ขวดปากเหวี่ยง ขนาด 4cl",
+      "pairing": "Kaiserschmarrn (large)"
     },
     "vodka-redbull": {
-      "description": "0.27l"
+      "description": "0.27l",
+      "pairing": "Donisl Deluxe Burger"
     },
     "williams-christ-pear": {
-      "description": "40% vol. Edelbrand, Sigi Herzog Distillate. 2cl"
+      "description": "40% vol. Edelbrand, Sigi Herzog Distillate. 2cl",
+      "pairing": "Apple strudel"
     },
     "farm-fruit-growers": {
-      "description": "Linster fine fruit distillery, เหล้าผลไม้บ่มในถังโอ๊ก 1 ปี. 2cl"
+      "description": "Linster ผลไม้กลั่นพิเศษ บ่ม 1 ปีในถังโอ๊ก 2cl",
+      "pairing": "Kirschmichl"
     },
     "feiner-mirabell": {
-      "description": "Linster fine fruit distillery, กลิ่นแอพริคอตสุก. 2cl"
+      "description": "Linster ผลไม้กลั่น รสแอพริคอตสุก 2cl",
+      "pairing": "Crème brûlée"
     },
     "enzian-gentian-brandy": {
-      "description": "Wilhelm Marx Fine Spirits Manufactory. 2cl"
+      "description": "Wilhelm Marx Fine Spirits Manufactory. 2cl",
+      "pairing": "Schweinshaxe"
     },
     "raspberry-pulp-brandy": {
-      "description": "40% vol. Edelmanufaktur Wilhelm Marx. 2cl"
+      "description": "40% vol. ผลิตโดย Wilhelm Marx. 2cl",
+      "pairing": "Kaiserschmarrn (large)"
     },
     "grappa-chardonnay": {
-      "description": "Grappa Chardonnay 'Grandfather'. 2cl"
+      "description": "Grappa Chardonnay 'Grandfather'. 2cl",
+      "pairing": "Crème brûlée"
     },
     "paulaner-spezi": {
-      "description": "0.4l"
+      "description": "0.4l",
+      "pairing": "Currywurst"
     },
     "coca-cola": {
-      "description": "0.4l"
+      "description": "0.4l",
+      "pairing": "2 Rostbratwürstl"
     },
     "coca-cola-zero": {
-      "description": "0.4l"
+      "description": "0.4l",
+      "pairing": "Portion of French Fries"
     },
     "paulaner-lemonade": {
-      "description": "0.33l"
+      "description": "0.33l",
+      "pairing": "Kässpatzn"
     },
     "paulaner-orange-lemonade": {
-      "description": "0.33l"
+      "description": "0.33l",
+      "pairing": "Potato dumplings"
     },
     "tonic": {
-      "description": "0.2l"
+      "description": "0.2l",
+      "pairing": "Brotzeitbrettl"
     },
     "red-bull": {
-      "description": "0.25l"
+      "description": "0.25l",
+      "pairing": "Donisl Deluxe Burger"
     },
     "bad-brambacher": {
-      "description": "น้ำดื่มยังไม่อัดลมหรือกึ่งอัดลม ขนาด 0.5l"
+      "description": "น้ำแร่ธรรมดาหรือน้ำกึ่งอัด 0.5l",
+      "pairing": "Brezn"
     },
     "table-water": {
-      "description": "น้ำแร่หรือมีฟอง"
+      "description": "น้ำดื่มธรรมดาหรือน้ำโซดา",
+      "pairing": "Bread basket"
     },
     "apple-spritzer": {
-      "description": "น้ำแอปเปิลผสมโซดา ขนาด 0.4l"
+      "description": "0.4l",
+      "pairing": "Kässpatzn"
     },
     "johannisbeerschorle": {
-      "description": "น้ำแบล็คเคอร์แรนท์ผสมโซดา ขนาด 0.4l"
+      "description": "โซดาราสป์เบอร์รี่ดำ 0.4l",
+      "pairing": "Kirschmichl"
     },
     "maracujaschorle": {
-      "description": "น้ำเสาวรสผสมโซดา ขนาด 0.4l"
+      "description": "โซดามาราคุยา 0.4l",
+      "pairing": "Donisl Power Bowl"
     },
     "wolfra-orange-juice": {
-      "description": "น้ำส้ม Wolfra ขนาด 0.2l"
+      "description": "น้ำส้ม Wolfra 0.2l",
+      "pairing": "Potato dumplings"
     },
     "espresso": {
-      "description": "เอสเปรสโซเข้มข้น"
+      "description": "",
+      "pairing": "Apple strudel"
     },
     "double-espresso": {
-      "description": "เอสเปรสโซดับเบิ้ลเข้มข้น"
+      "description": "",
+      "pairing": "Kaiserschmarrn (large)"
     },
     "espresso-macchiato": {
-      "description": "เอสเปรสโซมาร์กกิอาโต้"
+      "description": "",
+      "pairing": "Kirschmichl"
     },
     "cappuccino": {
-      "description": "คาปูชิโน่"
+      "description": "",
+      "pairing": "Crème brûlée"
     },
     "latte-macchiato": {
-      "description": "ลาเต้ มาร์กกิอาโต้"
+      "description": "",
+      "pairing": "Apple strudel"
     },
     "milchkaffee": {
-      "description": "กาแฟใส่นม"
+      "description": "กาแฟใส่นม",
+      "pairing": "Apple strudel"
     },
     "haferl-kaffee-creme": {
-      "description": "Haferl Kaffee Creme"
+      "description": "Haferl Kaffee Creme",
+      "pairing": "Kaiserschmarrn (large)"
     },
     "drinking-chocolate": {
-      "description": "ช็อกโกแลตร้อนผสมนม"
+      "description": "ช็อกโกแลตร้อนใส่นม",
+      "pairing": "Kirschmichl"
     },
     "tea-ronnefeldt": {
-      "description": "ชา Darjeeling, สมุนไพรภูเขา, เบอร์รีหวาน, Green Dragon Lung Ching, เปปเปอร์มินต์สด หรือคาโมมายล์ผลไม้"
+      "description": "ชา Ronnefeldt: Darjeeling, Mountain herbs, Sweet Berries, Green Dragon Lung Ching, Refreshing Mint, หรือ Fruity Camomile",
+      "pairing": "Apple strudel"
     },
     "kids-potato-dumplings": {
-      "description": "เกี๊ยวมันฝรั่งสำหรับเด็ก เสิร์ฟกับน้ำเกรวี่หมู"
+      "description": "เกี๊ยวมันฝรั่งสำหรับเด็ก ราดเกรวี่จากหมูย่าง",
+      "pairing": "Wolfra orange juice"
     },
     "kids-kaesspatzn": {
-      "description": "Käse Spätzle สำหรับเด็ก ขนาดเด็ก"
+      "description": "Käsespätzle ขนาดเด็ก",
+      "pairing": "Apple spritzer"
     },
     "kids-rostbratwuerstl": {
-      "description": "ไส้กรอกย่างสำหรับเด็ก เสิร์ฟกับเฟรนช์ฟรายส์หรือสลัดมันฝรั่ง-แตงกวา"
+      "description": "ไส้กรอกย่างสำหรับเด็ก เสิร์ฟพร้อมเฟรนช์ฟรายส์หรือสลัดมันฝรั่งแตงกวา",
+      "pairing": "Paulaner Spezi"
     },
     "kids-fries": {
-      "description": "เฟรนช์ฟรายส์สำหรับเด็ก"
+      "description": "",
+      "pairing": "Paulaner Lemonade"
     }
   }
 }

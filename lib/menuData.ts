@@ -26,6 +26,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['seasonal'],
     allergens: [],
+    pairing: 'Chardonnay (by the glass)',
     available: true,
   },
   {
@@ -37,6 +38,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['seasonal', 'light'],
     allergens: [],
+    pairing: 'Weissweinschorle',
     available: true,
   },
   {
@@ -48,6 +50,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['seasonal', 'signature'],
     allergens: [],
+    pairing: 'Pinot Noir Ried Goldberg',
     available: true,
   },
   {
@@ -59,6 +62,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['seasonal', 'vegetarian'],
     allergens: [],
+    pairing: 'Chardonnay (by the glass)',
     available: true,
   },
   {
@@ -70,6 +74,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['seasonal', 'vegetarian'],
     allergens: [],
+    pairing: 'Grüner Veltliner Ried Steinberg',
     available: true,
   },
   // -- Mittagsangebot (Mon-Fri, 12:00-15:30, includes a coffee) --
@@ -82,6 +87,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['lunch-special'],
     allergens: [],
+    pairing: 'Sauvignon Blanc',
     available: true,
   },
   {
@@ -93,6 +99,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['lunch-special'],
     allergens: [],
+    pairing: 'Münchner Dunkel',
     available: true,
   },
   {
@@ -104,6 +111,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['lunch-special'],
     allergens: [],
+    pairing: 'Pinot Noir Ried Goldberg',
     available: true,
   },
   {
@@ -115,6 +123,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['lunch-special'],
     allergens: [],
+    pairing: 'Chardonnay (by the glass)',
     available: true,
   },
   {
@@ -126,6 +135,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['lunch-special'],
     allergens: [],
+    pairing: 'Riesling Easy-White',
     available: true,
   },
 
@@ -212,6 +222,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: [],
     allergens: [],
+    pairing: 'Münchner Radler',
     available: true,
   },
   {
@@ -223,6 +234,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['hearty'],
     allergens: [],
+    pairing: 'Black OX Cuvée',
     available: true,
   },
   {
@@ -234,6 +246,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: [],
     allergens: [],
+    pairing: 'Pinot Blanc Grand Reserve',
     available: true,
   },
   {
@@ -245,6 +258,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: [],
     allergens: [],
+    pairing: 'Pinot Gris Tradition',
     available: true,
   },
   // -- Sausage Specialties --
@@ -257,6 +271,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['signature'],
     allergens: [],
+    pairing: 'Hefeweizen (Yeast White)',
     available: true,
   },
   {
@@ -268,6 +283,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: [],
     allergens: [],
+    pairing: 'Hefeweizen (Yeast White)',
     available: true,
   },
   {
@@ -279,6 +295,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: [],
     allergens: [],
+    pairing: 'Russn',
     available: true,
   },
   {
@@ -320,6 +337,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: [],
     allergens: [],
+    pairing: 'Tuscany Red Cuvée',
     available: true,
   },
   {
@@ -331,6 +349,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: [],
     allergens: [],
+    pairing: 'Brunello di Montalcino DOCG',
     available: true,
   },
   {
@@ -354,6 +373,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: [],
     allergens: [],
+    pairing: 'Sauvignon Blanc',
     available: true,
   },
 
@@ -372,6 +392,7 @@ export const menuItems: MenuItem[] = [
     ],
     tags: ['sharing'],
     allergens: [],
+    pairing: 'Hefeweizen (Yeast White)',
     available: true,
   },
   {
@@ -383,6 +404,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['vegetarian'],
     allergens: [],
+    pairing: 'Weissweinschorle',
     available: true,
   },
   {
@@ -398,6 +420,7 @@ export const menuItems: MenuItem[] = [
     ],
     tags: [],
     allergens: [],
+    pairing: 'Pinot Noir Ried Goldberg',
     available: true,
   },
   {
@@ -409,6 +432,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: [],
     allergens: [],
+    pairing: 'Grüner Veltliner Ried Tenn DAC Reserve',
     available: true,
   },
   {
@@ -420,6 +444,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['vegetarian'],
     allergens: [],
+    pairing: 'Münchner Radler',
     available: true,
   },
   {
@@ -431,6 +456,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: [],
     allergens: [],
+    pairing: 'Russn',
     available: true,
   },
   {
@@ -446,6 +472,7 @@ export const menuItems: MenuItem[] = [
     ],
     tags: ['vegetarian'],
     allergens: [],
+    pairing: 'Weissweinschorle',
     available: true,
   },
   {
@@ -457,6 +484,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['vegetarian'],
     allergens: [],
+    pairing: 'Münchner Hell',
     available: true,
   },
   {
@@ -468,6 +496,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['vegetarian'],
     allergens: [],
+    pairing: 'Münchner Hell',
     available: true,
   },
   // -- From the Soup Kettle --
@@ -480,6 +509,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: [],
     allergens: [],
+    pairing: 'Weissweinschorle',
     available: true,
   },
   {
@@ -491,6 +521,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['vegan'],
     allergens: [],
+    pairing: 'Weissweinschorle',
     available: true,
   },
   // -- Extra Side Dishes --
@@ -503,6 +534,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: [],
     allergens: [],
+    pairing: 'Münchner Hell',
     available: true,
   },
   {
@@ -514,6 +546,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['vegetarian'],
     allergens: [],
+    pairing: 'Weissweinschorle',
     available: true,
   },
 
@@ -532,6 +565,7 @@ export const menuItems: MenuItem[] = [
     ],
     tags: ['bowl', 'signature'],
     allergens: [],
+    pairing: 'Riesling Easy-White',
     available: true,
   },
   {
@@ -559,6 +593,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['vegan'],
     allergens: [],
+    pairing: 'Chardonnay (by the glass)',
     available: true,
   },
   {
@@ -570,6 +605,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['vegetarian'],
     allergens: [],
+    pairing: 'Grüner Veltliner Ried Steinberg',
     available: true,
   },
 
@@ -607,6 +643,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['vegetarian'],
     allergens: [],
+    pairing: 'Rieslaner Auslese',
     available: true,
   },
   {
@@ -637,6 +674,7 @@ export const menuItems: MenuItem[] = [
     ],
     tags: [],
     allergens: [],
+    pairing: 'Wiener Schnitzel',
     available: true,
   },
   {
@@ -648,6 +686,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['non-alcoholic'],
     allergens: [],
+    pairing: 'Brotzeitbrettl',
     available: true,
   },
   {
@@ -659,6 +698,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['light'],
     allergens: [],
+    pairing: 'Donisl Salad',
     available: true,
   },
   {
@@ -670,6 +710,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['hearty'],
     allergens: [],
+    pairing: 'Schweinshaxe',
     available: true,
   },
   {
@@ -681,6 +722,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: [],
     allergens: [],
+    pairing: 'White sausage (Kesselfrisch)',
     available: true,
   },
   {
@@ -692,6 +734,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['light'],
     allergens: [],
+    pairing: 'Bratwurstreindl',
     available: true,
   },
   {
@@ -703,6 +746,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: [],
     allergens: [],
+    pairing: 'Currywurst',
     available: true,
   },
   {
@@ -714,6 +758,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['non-alcoholic'],
     allergens: [],
+    pairing: 'Backhendl',
     available: true,
   },
   {
@@ -725,6 +770,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['seasonal', 'strong'],
     allergens: [],
+    pairing: 'Duet of the Ox',
     available: true,
   },
   {
@@ -736,6 +782,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['seasonal'],
     allergens: [],
+    pairing: 'Brotzeitbrettl',
     available: true,
   },
   {
@@ -747,6 +794,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['seasonal'],
     allergens: [],
+    pairing: 'Donisl roasting pan',
     available: true,
   },
 
@@ -761,6 +809,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['white', 'by-glass'],
     allergens: [],
+    pairing: 'Romanaherzen',
     available: true,
   },
   {
@@ -776,6 +825,7 @@ export const menuItems: MenuItem[] = [
     ],
     tags: ['white', 'by-glass'],
     allergens: [],
+    pairing: 'Veal meatballs',
     available: true,
   },
   {
@@ -791,6 +841,7 @@ export const menuItems: MenuItem[] = [
     ],
     tags: ['red', 'by-glass'],
     allergens: [],
+    pairing: 'Schweinebraten (roast pork)',
     available: true,
   },
   {
@@ -802,6 +853,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['sparkling', 'by-glass'],
     allergens: [],
+    pairing: 'Brotzeitbrettl',
     available: true,
   },
   // -- Champagne & Sparkling --
@@ -814,6 +866,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['sparkling', 'bottle'],
     allergens: [],
+    pairing: 'Oxen consommé',
     available: true,
   },
   {
@@ -825,6 +878,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['sparkling', 'rose', 'bottle'],
     allergens: [],
+    pairing: 'Donisl "4erlei"',
     available: true,
   },
   {
@@ -836,6 +890,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['sparkling', 'bottle'],
     allergens: [],
+    pairing: 'Donisl Salad',
     available: true,
   },
   {
@@ -847,6 +902,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['sparkling', 'bottle'],
     allergens: [],
+    pairing: 'Velvet soup from bush tomato',
     available: true,
   },
   // -- White Wine --
@@ -859,6 +915,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['white', 'bottle'],
     allergens: [],
+    pairing: 'Rahmschwammerl',
     available: true,
   },
   {
@@ -870,6 +927,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['white', 'by-glass'],
     allergens: [],
+    pairing: 'Pfifferling-Linguine',
     available: true,
   },
   {
@@ -881,6 +939,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['white', 'bottle'],
     allergens: [],
+    pairing: 'Käsespätzle',
     available: true,
   },
   {
@@ -892,6 +951,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['white', 'bottle'],
     allergens: [],
+    pairing: 'Veal steak',
     available: true,
   },
   {
@@ -903,6 +963,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['white', 'bottle'],
     allergens: [],
+    pairing: 'Backhendl',
     available: true,
   },
   {
@@ -914,6 +975,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['white', 'bottle'],
     allergens: [],
+    pairing: 'O\'gmachter Kas',
     available: true,
   },
   {
@@ -925,6 +987,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['white', 'bottle'],
     allergens: [],
+    pairing: 'Donisl "4erlei"',
     available: true,
   },
   {
@@ -936,6 +999,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['white', 'bottle'],
     allergens: [],
+    pairing: 'Sausage salad from Regensburg',
     available: true,
   },
   {
@@ -947,6 +1011,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['white', 'by-glass'],
     allergens: [],
+    pairing: 'Icefish',
     available: true,
   },
   {
@@ -970,6 +1035,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['white', 'bottle'],
     allergens: [],
+    pairing: 'Wiener Schnitzel',
     available: true,
   },
   {
@@ -981,6 +1047,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['white', 'bottle'],
     allergens: [],
+    pairing: 'Donisl Salad',
     available: true,
   },
   {
@@ -992,6 +1059,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['white', 'bottle'],
     allergens: [],
+    pairing: 'Currywurst',
     available: true,
   },
   {
@@ -1003,6 +1071,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['white', 'bottle'],
     allergens: [],
+    pairing: 'Gebackenes Fischfilet (Friday)',
     available: true,
   },
   {
@@ -1014,6 +1083,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['white', 'by-glass'],
     allergens: [],
+    pairing: 'Gebackenes Fischfilet (Friday)',
     available: true,
   },
   {
@@ -1025,6 +1095,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['white', 'bottle'],
     allergens: [],
+    pairing: 'Icefish',
     available: true,
   },
   {
@@ -1036,6 +1107,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['white', 'bottle'],
     allergens: [],
+    pairing: 'Donisl Power Bowl',
     available: true,
   },
   {
@@ -1047,6 +1119,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['white', 'bottle'],
     allergens: [],
+    pairing: 'Vegetable side dish',
     available: true,
   },
   {
@@ -1058,6 +1131,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['white', 'bottle'],
     allergens: [],
+    pairing: 'Lukewarm calf\'s head carpaccio',
     available: true,
   },
   // -- Large Bottles --
@@ -1070,6 +1144,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['white', 'bottle'],
     allergens: [],
+    pairing: 'Wiener Schnitzel',
     available: true,
   },
   {
@@ -1081,6 +1156,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['white', 'bottle'],
     allergens: [],
+    pairing: 'Pfifferlingsrahm',
     available: true,
   },
   {
@@ -1092,6 +1168,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['white', 'bottle'],
     allergens: [],
+    pairing: 'O\'gmachter Kas',
     available: true,
   },
   {
@@ -1103,6 +1180,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['red', 'bottle'],
     allergens: [],
+    pairing: 'Duet of the Ox',
     available: true,
   },
   // -- Red Wine --
@@ -1115,6 +1193,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['red', 'bottle'],
     allergens: [],
+    pairing: 'Schweinebraten (roast pork)',
     available: true,
   },
   {
@@ -1126,6 +1205,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['red', 'bottle'],
     allergens: [],
+    pairing: 'Ribeye 300 grams',
     available: true,
   },
   {
@@ -1137,6 +1217,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['red', 'by-glass'],
     allergens: [],
+    pairing: 'Donisl Bratengröstl (Tuesday)',
     available: true,
   },
   {
@@ -1148,6 +1229,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['red', 'bottle'],
     allergens: [],
+    pairing: 'Roast beef — rump steak',
     available: true,
   },
   {
@@ -1159,6 +1241,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['red', 'bottle'],
     allergens: [],
+    pairing: 'Steak vom Milchkalb',
     available: true,
   },
   {
@@ -1170,6 +1253,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['red', 'bottle'],
     allergens: [],
+    pairing: 'Veal meatballs',
     available: true,
   },
   {
@@ -1181,6 +1265,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['red', 'bottle'],
     allergens: [],
+    pairing: 'Ribeye 300 grams',
     available: true,
   },
   {
@@ -1192,6 +1277,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['red', 'bottle'],
     allergens: [],
+    pairing: 'Duet of the Ox',
     available: true,
   },
   // -- Rosé Wine --
@@ -1204,6 +1290,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['rose', 'bottle'],
     allergens: [],
+    pairing: 'Donisl Salad',
     available: true,
   },
   {
@@ -1215,6 +1302,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['rose', 'bottle', 'non-alcoholic'],
     allergens: [],
+    pairing: 'Romanaherzen',
     available: true,
   },
   // -- Dessert Wine --
@@ -1241,6 +1329,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['aperitif'],
     allergens: [],
+    pairing: 'Brotzeitbrettl',
     available: true,
   },
   {
@@ -1252,6 +1341,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['aperitif'],
     allergens: [],
+    pairing: 'Bread basket',
     available: true,
   },
   {
@@ -1263,6 +1353,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['aperitif'],
     allergens: [],
+    pairing: 'Brezn',
     available: true,
   },
   {
@@ -1274,6 +1365,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['aperitif'],
     allergens: [],
+    pairing: 'Donisl "4erlei"',
     available: true,
   },
   {
@@ -1285,6 +1377,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['aperitif', 'non-alcoholic'],
     allergens: [],
+    pairing: 'Oxen consommé',
     available: true,
   },
 
@@ -1298,6 +1391,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['spirit'],
     allergens: [],
+    pairing: 'Kirschmichl',
     available: true,
   },
   {
@@ -1309,6 +1403,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['spirit'],
     allergens: [],
+    pairing: 'Apple strudel',
     available: true,
   },
   {
@@ -1320,6 +1415,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['spirit'],
     allergens: [],
+    pairing: 'Kaiserschmarrn (large)',
     available: true,
   },
   {
@@ -1331,6 +1427,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['spirit'],
     allergens: [],
+    pairing: 'Donisl Deluxe Burger',
     available: true,
   },
   {
@@ -1342,6 +1439,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['spirit'],
     allergens: [],
+    pairing: 'Apple strudel',
     available: true,
   },
   {
@@ -1353,6 +1451,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['spirit'],
     allergens: [],
+    pairing: 'Kirschmichl',
     available: true,
   },
   {
@@ -1364,6 +1463,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['spirit'],
     allergens: [],
+    pairing: 'Crème brûlée',
     available: true,
   },
   {
@@ -1375,6 +1475,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['spirit'],
     allergens: [],
+    pairing: 'Schweinshaxe',
     available: true,
   },
   {
@@ -1386,6 +1487,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['spirit'],
     allergens: [],
+    pairing: 'Kaiserschmarrn (large)',
     available: true,
   },
   {
@@ -1397,6 +1499,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['spirit'],
     allergens: [],
+    pairing: 'Crème brûlée',
     available: true,
   },
 
@@ -1410,6 +1513,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['non-alcoholic'],
     allergens: [],
+    pairing: 'Currywurst',
     available: true,
   },
   {
@@ -1421,6 +1525,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['non-alcoholic'],
     allergens: [],
+    pairing: '2 Rostbratwürstl',
     available: true,
   },
   {
@@ -1432,6 +1537,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['non-alcoholic'],
     allergens: [],
+    pairing: 'Portion of French Fries',
     available: true,
   },
   {
@@ -1443,6 +1549,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['non-alcoholic'],
     allergens: [],
+    pairing: 'Kässpatzn',
     available: true,
   },
   {
@@ -1454,6 +1561,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['non-alcoholic'],
     allergens: [],
+    pairing: 'Potato dumplings',
     available: true,
   },
   {
@@ -1465,6 +1573,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['non-alcoholic'],
     allergens: [],
+    pairing: 'Brotzeitbrettl',
     available: true,
   },
   {
@@ -1476,6 +1585,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['non-alcoholic'],
     allergens: [],
+    pairing: 'Donisl Deluxe Burger',
     available: true,
   },
   {
@@ -1487,6 +1597,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['non-alcoholic', 'water'],
     allergens: [],
+    pairing: 'Brezn',
     available: true,
   },
   {
@@ -1502,6 +1613,7 @@ export const menuItems: MenuItem[] = [
     ],
     tags: ['non-alcoholic', 'water'],
     allergens: [],
+    pairing: 'Bread basket',
     available: true,
   },
   {
@@ -1513,6 +1625,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['non-alcoholic'],
     allergens: [],
+    pairing: 'Kässpatzn',
     available: true,
   },
   {
@@ -1524,6 +1637,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['non-alcoholic'],
     allergens: [],
+    pairing: 'Kirschmichl',
     available: true,
   },
   {
@@ -1535,6 +1649,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['non-alcoholic'],
     allergens: [],
+    pairing: 'Donisl Power Bowl',
     available: true,
   },
   {
@@ -1546,6 +1661,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['non-alcoholic'],
     allergens: [],
+    pairing: 'Potato dumplings',
     available: true,
   },
   {
@@ -1557,6 +1673,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['coffee'],
     allergens: [],
+    pairing: 'Apple strudel',
     available: true,
   },
   {
@@ -1568,6 +1685,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['coffee'],
     allergens: [],
+    pairing: 'Kaiserschmarrn (large)',
     available: true,
   },
   {
@@ -1579,6 +1697,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['coffee'],
     allergens: [],
+    pairing: 'Kirschmichl',
     available: true,
   },
   {
@@ -1590,6 +1709,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['coffee'],
     allergens: [],
+    pairing: 'Crème brûlée',
     available: true,
   },
   {
@@ -1601,6 +1721,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['coffee'],
     allergens: [],
+    pairing: 'Apple strudel',
     available: true,
   },
   {
@@ -1612,6 +1733,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['coffee'],
     allergens: [],
+    pairing: 'Apple strudel',
     available: true,
   },
   {
@@ -1623,6 +1745,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['coffee'],
     allergens: [],
+    pairing: 'Kaiserschmarrn (large)',
     available: true,
   },
   {
@@ -1634,6 +1757,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['hot-drink'],
     allergens: [],
+    pairing: 'Kirschmichl',
     available: true,
   },
   {
@@ -1645,6 +1769,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['hot-drink'],
     allergens: [],
+    pairing: 'Apple strudel',
     available: true,
   },
 
@@ -1658,6 +1783,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: [],
     allergens: [],
+    pairing: 'Wolfra orange juice',
     available: true,
   },
   {
@@ -1669,6 +1795,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['vegetarian'],
     allergens: [],
+    pairing: 'Apple spritzer',
     available: true,
   },
   {
@@ -1680,6 +1807,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: [],
     allergens: [],
+    pairing: 'Paulaner Spezi',
     available: true,
   },
   {
@@ -1691,6 +1819,7 @@ export const menuItems: MenuItem[] = [
     currency: 'EUR',
     tags: ['vegetarian'],
     allergens: [],
+    pairing: 'Paulaner Lemonade',
     available: true,
   },
 ];
