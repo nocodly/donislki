@@ -22,13 +22,17 @@ export function ChatMessages({ messages, isTyping, typingLabel }: Props) {
         {messages.map((m) => (
           <div
             key={m.id}
-            className={`max-w-[85%] rounded-2xl px-3.5 py-2.5 text-[14.5px] leading-snug whitespace-pre-wrap ${
+            className={`max-w-[85%] overflow-hidden rounded-2xl text-[14.5px] leading-snug ${
               m.role === 'user'
                 ? 'self-end rounded-br-md bg-accent text-white'
                 : 'self-start rounded-bl-md border border-border bg-card text-ink'
             }`}
           >
-            {m.text}
+            {m.dishImage && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src={m.dishImage} alt="" className="h-32 w-full object-cover" />
+            )}
+            <div className="whitespace-pre-wrap px-3.5 py-2.5">{m.text}</div>
           </div>
         ))}
         {isTyping && (

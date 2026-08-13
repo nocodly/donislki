@@ -95,6 +95,17 @@ export const BASE_STRINGS: Strings = {
     'by-glass': 'by the glass',
     bottle: 'bottle',
     'lunch-special': 'lunch special',
+    gluten: 'gluten',
+    dairy: 'dairy',
+    egg: 'egg',
+    mustard: 'mustard',
+    nuts: 'nuts',
+    peanuts: 'peanuts',
+    fish: 'fish',
+    soy: 'soy',
+    celery: 'celery',
+    sulphites: 'sulphites',
+    sesame: 'sesame',
   },
 };
 

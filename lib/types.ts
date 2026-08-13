@@ -29,6 +29,8 @@ export type MenuItem = {
   /** Present when the dish/drink comes in more than one size or portion. */
   sizes?: MenuItemSize[];
   image?: string;
+  /** 'contain' for tall product shots (e.g. a beer glass) that object-cover would crop too tightly. Defaults to 'cover'. */
+  imageFit?: 'cover' | 'contain';
   tags: string[];
   allergens: string[];
   pairing?: string;
@@ -104,4 +106,6 @@ export type ChatMessage = {
   id: string;
   role: ChatRole;
   text: string;
+  /** Set when this message was sent/answered in the context of a specific dish that has a photo. */
+  dishImage?: string;
 };

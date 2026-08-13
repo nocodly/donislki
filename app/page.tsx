@@ -8,6 +8,7 @@ import { MenuSection } from '@/components/MenuSection';
 import { MenuItemCard } from '@/components/MenuItemCard';
 import { FloatingAiButton } from '@/components/FloatingAiButton';
 import { AiBottomSheet } from '@/components/AiBottomSheet';
+import { DishDetailModal } from '@/components/DishDetailModal';
 import { useVisualViewportHeight } from '@/hooks/useVisualViewportHeight';
 import { featuredItemIds, findItem } from '@/lib/menuData';
 import { getStrings, formatAskAboutDish, detectLanguage, isRtlLanguage, normalizeToSupported } from '@/lib/i18n';
@@ -32,6 +33,7 @@ export default function Home() {
   const [context, setContext] = useState<ChatContext>({ category: null, dish: null });
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [isTyping, setIsTyping] = useState(false);
+  const [detailItem, setDetailItem] = useState<MenuItem | null>(null);
 
   const menuSectionRef = useRef<HTMLDivElement>(null);
 
@@ -62,10 +64,18 @@ export default function Home() {
   function handleAskAboutItem(item: MenuItem) {
     const nextContext: ChatContext = { category: item.categories[0] ?? null, dish: item.id };
     openSheet(nextContext);
+    setDetailItem(null);
     handleSend(formatAskAboutDish(t, item.name), nextContext);
   }
 
+  function openDetail(item: MenuItem) {
+    setDetailItem(item);
+  }
+
   async function handleSend(text: string, contextOverride?: ChatContext) {
+    const activeContext = contextOverride ?? context;
+    const dishImage = activeContext.dish ? findItem(activeContext.dish)?.image : undefined;
+
     const userMessage: ChatMessage = { id: newId(), role: 'user', text };
     const history = [...messages, userMessage];
     setMessages(history);
@@ -79,22 +89,25 @@ export default function Home() {
           messages: history
             .filter((m) => m.id !== 'greeting')
             .map((m) => ({ role: m.role, content: m.text })),
-          context: contextOverride ?? context,
+          context: activeContext,
           language,
         }),
       });
       const data = (await res.json()) as { reply?: string; error?: string };
       const replyText = res.ok && data.reply ? data.reply : t.noInfo;
-      setMessages((prev) => [...prev, { id: newId(), role: 'assistant', text: replyText }]);
+      setMessages((prev) => [...prev, { id: newId(), role: 'assistant', text: replyText, dishImage }]);
     } catch {
-      setMessages((prev) => [...prev, { id: newId(), role: 'assistant', text: t.noInfo }]);
+      setMessages((prev) => [...prev, { id: newId(), role: 'assistant', text: t.noInfo, dishImage }]);
     } finally {
       setIsTyping(false);
     }
   }
 
   const featuredItems = useMemo(
-    () => featuredItemIds.map((id) => findItem(id)).filter((item): item is MenuItem => Boolean(item)),
+    () =>
+      featuredItemIds
+        .map((id) => findItem(id))
+        .filter((item): item is MenuItem => Boolean(item?.image)),
     [],
   );
 
@@ -124,6 +137,7 @@ export default function Home() {
                   item={item}
                   language={language}
                   onAskAi={handleAskAboutItem}
+                  onOpenDetail={openDetail}
                   compact
                 />
               ))}
@@ -134,12 +148,24 @@ export default function Home() {
         {activeCategory && (
           <div ref={menuSectionRef} className="scroll-mt-16">
             <CategoryChips activeCategory={activeCategory} onSelect={selectCategory} language={language} />
-            <MenuSection category={activeCategory} language={language} onAskAi={handleAskAboutItem} />
+            <MenuSection
+              category={activeCategory}
+              language={language}
+              onAskAi={handleAskAboutItem}
+              onOpenDetail={openDetail}
+            />
           </div>
         )}
       </main>
 
       <FloatingAiButton onClick={handleAskAiGlobal} language={language} />
+
+      <DishDetailModal
+        item={detailItem}
+        language={language}
+        onClose={() => setDetailItem(null)}
+        onAskAi={handleAskAboutItem}
+      />
 
       <AiBottomSheet
         open={sheetOpen}

@@ -1,47 +1,47 @@
 {
   "strings": {
-    "welcome": "Blader hieronder door het menu of vraag onze AI-assistent om een aanbeveling.",
+    "welcome": "Bekijk het menu hieronder, of vraag onze AI-assistent om een aanbeveling.",
     "categoriesTitle": "Menu",
     "featuredTitle": "Aanbevolen",
     "askAi": "Vraag AI",
     "chatTitle": "DonislKI",
-    "discussing": "Bespreken",
+    "discussing": "Bezig met bespreken",
     "askAboutThis": "Vraag AI hierover",
     "askAboutDishTemplate": "Vertel me over {dish}",
-    "pairing": "Lekker met",
+    "pairing": "Het beste met",
     "fromPricePrefix": "vanaf ",
     "allergensLabel": "Allergenen",
-    "allergensUnknown": "Controleer dit bij het personeel",
+    "allergensUnknown": "Bevestig dit alstublieft bij het personeel",
     "composerPlaceholder": "Vraag iets over het menu…",
     "send": "Verstuur",
     "close": "Sluiten",
     "noInfo": "Die informatie staat niet in het huidige menu.",
     "categories": {
-      "weekly": "Weekaanbiedingen",
+      "weekly": "Wekelijkse specials",
       "traditional": "Traditioneel",
-      "sausages": "Worstjes",
+      "sausages": "Worstgerechten",
       "starters": "Voorgerechten",
-      "vegan": "Vegan",
-      "desserts": "Nagerechten",
+      "vegan": "Veganistisch",
+      "desserts": "Desserts",
       "beer": "Bier",
       "wine": "Wijn",
       "aperitif": "Aperitief",
-      "spirits": "Dranken",
+      "spirits": "Gedistilleerd",
       "drinks": "Alcoholvrije dranken & koffie",
       "kids": "Kindermenu"
     },
     "tagLabels": {
       "sharing": "om te delen",
       "signature": "signature",
-      "hearty": "robust",
-      "classic": "klassieker",
+      "hearty": "hartig",
+      "classic": "klassiek",
       "light": "licht",
       "seasonal": "seizoensgebonden",
       "strong": "sterk",
       "non-alcoholic": "alcoholvrij",
       "vegetarian": "vegetarisch",
-      "vegan": "vegan",
-      "spirit": "sterkedrank",
+      "vegan": "veganistisch",
+      "spirit": "gedistilleerd",
       "water": "water",
       "coffee": "koffie",
       "hot-drink": "warme drank",
@@ -50,40 +50,51 @@
       "white": "wit",
       "red": "rood",
       "rose": "rosé",
-      "sparkling": "sprankelend",
+      "sparkling": "mousserend",
       "dessert-wine": "dessertwijn",
       "by-glass": "per glas",
       "bottle": "fles",
-      "lunch-special": "lunch-aanbieding"
+      "lunch-special": "lunchaanbieding",
+      "gluten": "gluten",
+      "dairy": "zuivel",
+      "egg": "ei",
+      "mustard": "mosterd",
+      "nuts": "noten",
+      "peanuts": "pinda's",
+      "fish": "vis",
+      "soy": "soja",
+      "celery": "selderij",
+      "sulphites": "sulfieten",
+      "sesame": "sesam"
     },
     "quickSuggestions": [
       "Wat raadt u aan?",
-      "Welk drankje past bij dit gerecht?",
+      "Welk drankje past hierbij?",
       "Toon vegan opties",
       "Wat bevat allergenen?",
-      "Iets lichters",
+      "Iets lichts",
       "Iets traditioneels"
     ]
   },
   "items": {
     "chanterelle-soup": {
-      "description": "Romige vuilzwamsoep met een Tiroler spekknödel.",
+      "description": "Romige cantharellensoep met een Tiroler spekknödel.",
       "pairing": "Chardonnay (per glas)"
     },
     "romaine-chanterelle-salad": {
-      "description": "Romaine-harten met frambozendressing, rode ui, radijs en geroosterde vuilzwammen.",
+      "description": "Romaine harten met frambozendressing, rode ui, radijs en geroosterde cantharellen.",
       "pairing": "Weissweinschorle"
     },
     "veal-steak-chanterelle": {
-      "description": "Kalfseizoenbiefstuk met vuilzwammen, doperwten en romige aardappelen.",
+      "description": "Kalfssteak met cantharellen, doperwten en romige aardappelen.",
       "pairing": "Pinot Noir Ried Goldberg"
     },
     "chanterelle-linguine": {
-      "description": "Linguine met vuilzwammen, room, tijm en Bergkäse bergkaas.",
+      "description": "Linguine met cantharellen, room, tijm en Bergkäse.",
       "pairing": "Chardonnay (per glas)"
     },
     "chanterelle-cream": {
-      "description": "Romige vuilzwammen met tijm en een pretzelknödel.",
+      "description": "Cantharellen in room met tijm en een pretzelknödel.",
       "pairing": "Grüner Veltliner Ried Steinberg"
     },
     "lunch-monday-asparagus-linguine": {
@@ -91,115 +102,115 @@
       "pairing": "Sauvignon Blanc"
     },
     "lunch-tuesday-bratengroestl": {
-      "description": "Weeklunch, geserveerd 12:00–15:30 inclusief koffie. Gemengde rösti met zuurkool, aardappelknödel en een gebakken ei.",
+      "description": "Weeklunch, geserveerd 12:00–15:30 inclusief koffie. Gemengd rost met zuurkool, aardappelknödel en een spiegelei.",
       "pairing": "Münchner Dunkel"
     },
     "lunch-wednesday-strindberg-steak": {
-      "description": "Weeklunch, geserveerd 12:00–15:30 inclusief koffie. Varkenshaas met sperziebonen en aardappelgratin.",
+      "description": "Weeklunch, geserveerd 12:00–15:30 inclusief koffie. Varkenslende-steak met sperziebonen en aardappelgratin.",
       "pairing": "Pinot Noir Ried Goldberg"
     },
     "lunch-thursday-chicken-geschnetzeltes": {
-      "description": "Weeklunch, geserveerd 12:00–15:30 inclusief koffie. Gesneden kip in champignonroom met kruiden-spätzle.",
+      "description": "Weeklunch, geserveerd 12:00–15:30 inclusief koffie. Gesneden kip in champignonroomsaus met kruidige Spätzle.",
       "pairing": "Chardonnay (per glas)"
     },
     "lunch-friday-fish-fillet": {
-      "description": "Weeklunch, geserveerd 12:00–15:30 inclusief koffie. Gefrituurde dagvangst met remoulade en aardappel-komkommersalade.",
+      "description": "Weeklunch, geserveerd 12:00–15:30 inclusief koffie. Gepaneerde vis van de dag met remoulade en aardappel-komkommersalade.",
       "pairing": "Riesling Easy-White"
     },
     "donisl-roasting-pan": {
-      "description": "Rund, eend, varkenspoot en worsten met rode kool, aardappelknödel en käsespätzle — om te delen.",
+      "description": "Rund, eend, varkensschenkel en worsten met rode kool, aardappelknödel en Käsespätzle — om te delen.",
       "pairing": "Münchner Dunkel"
     },
     "roast-pork": {
-      "description": "Beierse varkenschouder en buikspek met krokant, jus, aardappelknödel en koolsla.",
+      "description": "Beiers varkensschouder en buikspek met krokant korstje, jus, aardappelknödel en koolsalade.",
       "pairing": "Münchner Dunkel"
     },
     "schweinshaxe": {
-      "description": "Knapperig geroosterde varkenspoot, geserveerd met jus, aardappelknödel en koolsla.",
-      "pairing": "Lekker met Dunkel-bier."
+      "description": "Knapperig geroosterde varkensschenkel, geserveerd met jus, aardappelknödel en koolsalade.",
+      "pairing": "Het beste met Münchner Dunkel."
     },
     "wiener-schnitzel": {
-      "description": "Beiers varkensschnitzel (straw-fed) met frietjes of aardappel-komkommersalade en veenbessen.",
+      "description": "Wienerschnitzel van Beiers varkensvlees met friet of aardappel-komkommersalade en cranberry’s.",
       "pairing": "Riesling Easy-White of een Radler"
     },
     "farm-duck": {
-      "description": "Eend met rozemarijnjus, aardappelknödel en rode kool.",
+      "description": "Boerderijeend met rozemarijnsaus, aardappelknödel en rode kool.",
       "pairing": "Münchner Dunkel"
     },
     "backhendl": {
-      "description": "Kippendij zonder bot, gepaneerd, met frietjes of aardappel-komkommersalade.",
+      "description": "Kuitloos gepaneerd kippenpootje met friet of aardappel-komkommersalade.",
       "pairing": "Münchner Radler"
     },
     "duet-of-the-ox": {
-      "description": "Schouder en wang van ossen, rode wijnjus, bladspinazie, romige aardappelen.",
+      "description": "Schouder en wang van ossen, rode wijnjus, babyspinazie, romige aardappelen.",
       "pairing": "Black OX Cuvée"
     },
     "veal-steak": {
-      "description": "Kalfsbiefstuk met kleurrijke peperroomsaus, geflambeerde koolrabi en aardappelrösti.",
+      "description": "Kleurige peperroomsaus, geflambeerde knolselderij, aardappelrösti.",
       "pairing": "Pinot Blanc Grand Reserve"
     },
     "veal-meatballs": {
-      "description": "Kalfskroketjes met gemengde groenten en rozemarijnaardappelen.",
+      "description": "Gekruide groenten, rozemarijnaardappelen.",
       "pairing": "Pinot Gris Tradition"
     },
     "white-sausage": {
       "description": "Twee stuks, geserveerd met pretzel en mosterd.",
-      "pairing": "Hefeweizen (tarwebier)"
+      "pairing": "Hefeweizen (Weißbier)"
     },
     "white-sausage-piece": {
       "description": "Een enkele Weißwurst.",
-      "pairing": "Hefeweizen (tarwebier)"
+      "pairing": "Hefeweizen (Weißbier)"
     },
     "polish-sausage": {
-      "description": "Met pretzel en mosterd.",
+      "description": "Geserveerd met pretzel en mosterd.",
       "pairing": "Russn"
     },
     "currywurst": {
-      "description": "Curryworst geserveerd met frietjes.",
-      "pairing": "Hefeweizen tarwebier"
+      "description": "Curryworst geserveerd met friet.",
+      "pairing": "Hefeweizen (Weißbier)"
     },
     "bratwurstreindl": {
-      "description": "Pan met gegrilde worsten met zuurkool of aardappelsalade — portie om te delen.",
-      "pairing": "Russn (lichte Hefeweizen)"
+      "description": "Pan met gegrilde worsten met zuurkool of aardappelsalade — gedeelde portie.",
+      "pairing": "Russn (licht Hefeweizen)"
     },
     "rump-steak": {
-      "description": "Murnau-rund met rode wijn- en uienjus, gebakken uien, käsespätzle.",
+      "description": "Murnauer rund met rode wijn- en uiensaus, gebakken uitjes, Käsespätzle.",
       "pairing": "Tuscany Red Cuvée"
     },
     "ribeye-300g": {
-      "description": "Ribeye van Murnau-rund, café de paris-saus, gegrilde groenten, aardappelgratin.",
+      "description": "Vetkap van Murnauer rund, Café de Paris saus, gegrilde groenten, aardappelgratin.",
       "pairing": "Brunello di Montalcino DOCG"
     },
     "deluxe-burger": {
-      "description": "200g Werdenfelser-rund, cheddar, sla, tomaat, augurk, ui, huisgemaakte Donisl-saus.",
+      "description": "200g Werdenfelser rund, cheddar, sla, tomaat, augurkjes, ui, huisgemaakte Donisl-saus.",
       "pairing": "Münchner Hell"
     },
     "icefish": {
-      "description": "Met tijm, ratatouillegroenten en aardappelgratin.",
+      "description": "Kruiden met tijm, ratatouillegroenten, aardappelgratin.",
       "pairing": "Sauvignon Blanc"
     },
     "brotzeitbrettl": {
-      "description": "Boerenplank met gerookte vleeswaren, Speckwurst, leverworst, koud rostbeef, O'gmachter, bergkaas, mierikswortel en brood.",
-      "pairing": "Hefeweizen (tarwebier)"
+      "description": "Boeren gerookte vleeswaren, speckwurst, leverworst, koud rostbeef, O'gmachter, bergkaas, mierikswortel, brood.",
+      "pairing": "Hefeweizen (Weißbier)"
     },
     "donisl-4erlei": {
-      "description": "Hummus, huisgemaakte kaas, gezouten boter en kruidenzure room, geserveerd met een mandje brood.",
+      "description": "Hummus, gemaakte kaas, gezouten boter en gekruide zure room, geserveerd met een broodmand.",
       "pairing": "Weissweinschorle"
     },
     "beef-tartare": {
-      "description": "Raviolitaartaar met truffelcrème en gebakken biologisch ei.",
+      "description": "Truffelcrème, gebakken biologisch ei.",
       "pairing": "Pinot Noir Ried Goldberg"
     },
     "calfs-head-carpaccio": {
-      "description": "Kalfshoof carpaccio met granaatappel, mierikswortel en komkommer.",
+      "description": "Granaatappel, mierikswortel, komkommer.",
       "pairing": "Grüner Veltliner Ried Tenn DAC Reserve"
     },
     "ogmachter-kas": {
-      "description": "Romige kaas met uienringen, radijs, sla en bessen.",
+      "description": "Romige kaas met uiringen, radijsjes, sla en bessen.",
       "pairing": "Münchner Radler"
     },
     "sausage-salad": {
-      "description": "Huisdressing, uienringen, augurk, tomaat, besjes (+€1,90 met reepjes bergkaas).",
+      "description": "Huisdressing, uiringen, augurk, tomaat, bessen (+1,90 met reepjes bergkaas).",
       "pairing": "Russn"
     },
     "donisl-salad": {
@@ -215,7 +226,7 @@
       "pairing": "Münchner Hell"
     },
     "oxen-consomme": {
-      "description": "Heldere rundbouillon met leverknödel of pannenkoekreepjes, groenten en bieslook.",
+      "description": "Heldere runderbouillon met leverknödel of pannenkoekreepjes, groenten en bieslook.",
       "pairing": "Weissweinschorle"
     },
     "tomato-soup": {
@@ -223,19 +234,19 @@
       "pairing": "Weissweinschorle"
     },
     "classic-sides": {
-      "description": "Zuurkool, rode kool, spek- en koolsalade, romige aardappelen, aardappelknödel, kleine geroosterde aardappelen, spätzle of frietjes — per stuk.",
+      "description": "Zuurkool, rode kool, spek-koolsalade, romige aardappelen, aardappelknödel, kleine gebakken aardappelen, Spätzle of friet — per stuk.",
       "pairing": "Münchner Hell"
     },
     "vegetable-sides": {
-      "description": "Groentegerecht of aardappel-komkommersalade — per stuk.",
+      "description": "Groentegerecht of aardappel- en komkommersalade — per stuk.",
       "pairing": "Weissweinschorle"
     },
     "power-bowl": {
-      "description": "Geurige rijst, avocado, edamame, kikkererwten, wortel, tomaat, komkommer, pinda’s en sinaasappel-munt-limoendressing.",
+      "description": "Geurige rijst, avocado, edamame, kikkererwten, wortel, tomaat, komkommer, pinda's, sinaasappel-munt-limoendressing.",
       "pairing": "Riesling Easy-White"
     },
     "kaesespaetzle": {
-      "description": "Käsespätzle met uienringen.",
+      "description": "KäseSpätzle met uiringen.",
       "pairing": "Münchner Dunkel of een volle witte wijn"
     },
     "linguine-truffles": {
@@ -243,7 +254,7 @@
       "pairing": "Chardonnay (per glas)"
     },
     "rahmschwammerl": {
-      "description": "Romige paddenstoelen met pretzelknödel.",
+      "description": "Romige paddenstoelen, geserveerd met pretzelknödel.",
       "pairing": "Grüner Veltliner Ried Steinberg"
     },
     "creme-brulee": {
@@ -251,19 +262,19 @@
       "pairing": "Rieslaner Auslese dessertwijn"
     },
     "kaiserschmarrn": {
-      "description": "Kaiserschmarrn met rozijnen, boter, suiker en gekarameliseerde amandelen, geserveerd met appelmoes — ideaal om te delen.",
+      "description": "Rozijnen, boter, suiker en gekarameliseerde amandelen, geserveerd met appelmoes — ideaal om te delen.",
       "pairing": "Rieslaner Auslese dessertwijn"
     },
     "kirschmichl": {
-      "description": "Warm kersentaartje, geserveerd met vanilleroom.",
+      "description": "Warme kersenkoek geserveerd met vanillesaus.",
       "pairing": "Rieslaner Auslese"
     },
     "apple-strudel": {
-      "description": "Klassieke apfelstrudel, geserveerd met vanilleroom.",
+      "description": "Klassieke apfelstrudel geserveerd met vanillesaus.",
       "pairing": "Milchkaffee"
     },
     "muenchner-hell": {
-      "description": "Ondergist, subtiel bittere hoptoon, licht moutig. 5,0% vol.",
+      "description": "Ondergist, subtiel bittere hoptonen, licht moutig. 5,0% vol.",
       "pairing": "Wiener Schnitzel"
     },
     "beer-light-alcohol-free": {
@@ -275,11 +286,11 @@
       "pairing": "Donisl Salad"
     },
     "muenchner-dunkel": {
-      "description": "Fijn bitter, geroosterd mout met tonen van karamel en gekonfijt fruit. 5,0% vol.",
+      "description": "Subtiel bitter, geroosterde mout met karamel- en gekonfijte vruchtnoten. 5,0% vol.",
       "pairing": "Schweinshaxe"
     },
     "hefeweizen": {
-      "description": "Bovenvergist tarwebier met banaan- en honingtonen.",
+      "description": "Bovengegist witbier met banaan- en honingtonen.",
       "pairing": "White sausage (Kesselfrisch)"
     },
     "russn": {
@@ -287,35 +298,35 @@
       "pairing": "Bratwurstreindl"
     },
     "cola-wheat": {
-      "description": "Hefeweizen met Coca-Cola.",
+      "description": "Hefeweizen gemixt met Coca-Cola.",
       "pairing": "Currywurst"
     },
     "non-alcoholic-wheat": {
-      "description": "Licht gedealcoholiseerd na volledige rijping, behoudt zijn aroma.",
+      "description": "Zacht gedealcoholiseerd na volledige rijping, behoudt zijn aroma.",
       "pairing": "Backhendl"
     },
     "salvator": {
-      "description": "Sterk bier (Starkbier), seizoensgebonden — beschikbaar februari/maart. 0,5l.",
+      "description": "Sterk bier (Starkbier), seizoensgebonden — verkrijgbaar februari/maart. 0,5l.",
       "pairing": "Duet of the Ox"
     },
     "kellerbier": {
-      "description": "Seizoensbier — beschikbaar juni/juli/augustus (zomertijd). 0,5l.",
+      "description": "Seizoensgebonden — verkrijgbaar juni/juli/augustus (zomertijd). 0,5l.",
       "pairing": "Brotzeitbrettl"
     },
     "wiesnbier": {
-      "description": "Oktoberfestbier, seizoensgebonden — beschikbaar september/oktober. 0,5l.",
+      "description": "Oktoberfestbier, seizoensgebonden — verkrijgbaar september/oktober. 0,5l.",
       "pairing": "Donisl roasting pan"
     },
     "weissweinschorle": {
-      "description": "Witwijndruppel (spritzer). 0,3l.",
+      "description": "Witte wijnspritzer. 0,3l.",
       "pairing": "Romanaherzen"
     },
     "pinot-gris-glass": {
-      "description": "Hirschmüller, Württemberg — licht, makkelijk drinkbaar.",
+      "description": "Hirschmüller, Württemberg — licht en gemakkelijk drinkbaar.",
       "pairing": "Veal meatballs"
     },
     "primitivo-glass": {
-      "description": "Sir of the Faun, Puglia — donkere bessen, kers, subtiele kruiden.",
+      "description": "Sir of the Faun, Puglia — donkere bessen, kers, subtiele kruidigheid.",
       "pairing": "Schweinebraten (roast pork)"
     },
     "prodry-frizzante": {
@@ -323,7 +334,7 @@
       "pairing": "Brotzeitbrettl"
     },
     "paul-michel-champagne": {
-      "description": "Champagne Premier Cru, Frankrijk. 0,75l fles.",
+      "description": "Champagne Premier Cru, Champagne, Frankrijk. 0,75l fles.",
       "pairing": "Oxen consommé"
     },
     "taittinger-rose": {
@@ -347,15 +358,15 @@
       "pairing": "Pfifferling-Linguine"
     },
     "chardonnay-macon-ige": {
-      "description": "Domaine Fichet, Bourgogne — appel, peer, witte perzik, fijne mineraliteit. 0,75l fles.",
+      "description": "Domaine Fichet, Bourgogne — appel, peer, witte perzik, subtiele mineraliteit. 0,75l fles.",
       "pairing": "Käsespätzle"
     },
     "pinot-gris-tradition": {
-      "description": "Bott Frères, Bourgogne — abrikoos, Weense appel, hazelnoot, subtiele rokerigheid. 0,75l fles.",
+      "description": "Bott Frères, Bourgogne — abrikoos, Viennese apple, hazelnoot, subtiele rook. 0,75l fles.",
       "pairing": "Veal steak"
     },
     "pinot-gris-oetinger": {
-      "description": "Oetinger, Rheingau — rijpe peer, gele appel, hint van amandel. 0,75l fles.",
+      "description": "Oetinger, Rheingau — rijpe peer, gele appel, vleugje amandel. 0,75l fles.",
       "pairing": "Backhendl"
     },
     "pinot-gris-reserve-pauline": {
@@ -363,7 +374,7 @@
       "pairing": "O'gmachter Kas"
     },
     "pinot-blanc-grand-reserve": {
-      "description": "Taubenschuss, Weinviertel, Oostenrijk — meloen, hazelnoot, hooi, karamel. 0,75l fles.",
+      "description": "Taubenschuss, Weinviertel (Oostenrijk) — meloen, hazelnoot, hooi, karamel. 0,75l fles.",
       "pairing": "Donisl \"4erlei\""
     },
     "trebbiano-di-lugana": {
@@ -383,7 +394,7 @@
       "pairing": "Wiener Schnitzel"
     },
     "riesling-heiligenstein": {
-      "description": "Bründlmayer, Langenlois, Kamptal, Oostenrijk — frisse citrus, appel, kruidige tonen. 0,75l fles.",
+      "description": "Bründlmayer, Langenlois, Kamptal (Oostenrijk) — frisse citrus, appel, kruidige tonen. 0,75l fles.",
       "pairing": "Donisl Salad"
     },
     "riesling-smoky-dry": {
@@ -391,7 +402,7 @@
       "pairing": "Currywurst"
     },
     "riesling-bright-side-of-life": {
-      "description": "Stahl, Franken — fruitig, fris, ongecompliceerd. 0,75l fles.",
+      "description": "Stahl, Franken — fruitig, fris, toegankelijk. 0,75l fles.",
       "pairing": "Gebackenes Fischfilet (Friday)"
     },
     "riesling-nachschlag-glass": {
@@ -399,11 +410,11 @@
       "pairing": "Gebackenes Fischfilet (Friday)"
     },
     "sauvignon-blanc": {
-      "description": "Chateau de la Chaise, Loire — kruisbessen, groene appel, exotisch fruit. 0,75l fles.",
+      "description": "Chateau de la Chaise, Loire — kruisbes, groene appel, exotisch fruit. 0,75l fles.",
       "pairing": "Icefish"
     },
     "sauvignon-blanc-reserve": {
-      "description": "Taubenschuss, Weinviertel — limoen, kruisbes, exotisch fruit. 0,75l fles.",
+      "description": "Taubenschuss, Weinviertel (Oostenrijk) — limoen, kruisbes, exotisch fruit. 0,75l fles.",
       "pairing": "Donisl Power Bowl"
     },
     "silvaner-easy-white": {
@@ -411,7 +422,7 @@
       "pairing": "Vegetable side dish"
     },
     "gruener-veltliner-tenn": {
-      "description": "Taubenschuss, Weinviertel — appel, witte peper, kruidigheid. 0,75l fles.",
+      "description": "Taubenschuss, Weinviertel (Oostenrijk) — appel, witte peper, kruidige tonen. 0,75l fles.",
       "pairing": "Lukewarm calf's head carpaccio"
     },
     "riesling-gottloos-3l": {
@@ -419,11 +430,11 @@
       "pairing": "Wiener Schnitzel"
     },
     "gruener-veltliner-steinberg": {
-      "description": "Karl Fritsch, Burgenland, Oostenrijk. 1,5l fles.",
+      "description": "Karl Fritsch, Burgenland (Oostenrijk). 1,5l fles.",
       "pairing": "Pfifferlingsrahm"
     },
     "chardonnay-morillon": {
-      "description": "Lackner-Tinnacher, Südsteiermark, Oostenrijk. 1,5l fles.",
+      "description": "Lackner-Tinnacher, Zuid-Stiermarken (Oostenrijk). 1,5l fles.",
       "pairing": "O'gmachter Kas"
     },
     "cuvee-adrian-sangiovese": {
@@ -431,7 +442,7 @@
       "pairing": "Duet of the Ox"
     },
     "primitivo-bottle": {
-      "description": "Barbanera, Apulië, Italië — donkere bessen, kers, subtiele kruiden. 0,75l fles.",
+      "description": "Barbanera, Apulië, Italië — donkere bessen, kers, subtiele kruidigheid. 0,75l fles.",
       "pairing": "Schweinebraten (roast pork)"
     },
     "herrgott-cuvee": {
@@ -443,23 +454,23 @@
       "pairing": "Donisl Bratengröstl (Tuesday)"
     },
     "tuscany-red-cuvee": {
-      "description": "Duca di Salangane, Toscane — kersen, donkere bessen. 0,75l fles.",
+      "description": "Duca di Salangane, Toscana — kersen, donkere bessen. 0,75l fles.",
       "pairing": "Roast beef — rump steak"
     },
     "pinot-noir-goldberg": {
-      "description": "Toni Hartl, Burgenland — rode bessen, kersen, subtiele kruiden. 0,75l fles.",
+      "description": "Toni Hartl, Burgenland — rode bessen, kersen, subtiele kruidigheid. 0,75l fles.",
       "pairing": "Steak vom Milchkalb"
     },
     "merlot": {
-      "description": "Chateau Gensac, Gascogne — donkere kersen, pruim, kruiden. 0,75l fles.",
+      "description": "Chateau Gensac, Gascogne — donkere kersen, pruimen, kruiden. 0,75l fles.",
       "pairing": "Veal meatballs"
     },
     "brunello-di-montalcino": {
-      "description": "Tenuta Corte Pavone, Sangiovese, Toscane — donkere bes, kers, chocolade. 0,75l fles.",
+      "description": "Tenuta Corte Pavone, Sangiovese, Toscane — donkere bessen, kers, chocolade. 0,75l fles.",
       "pairing": "Ribeye 300 grams"
     },
     "black-ox-cuvee": {
-      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Pfalz — donkere bessen, kers, kruiden. 0,75l fles.",
+      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Pfalz — donkere bessen, kers, kruidigheid. 0,75l fles.",
       "pairing": "Duet of the Ox"
     },
     "rose-lime-stone": {
@@ -511,19 +522,19 @@
       "pairing": "Donisl Deluxe Burger"
     },
     "williams-christ-pear": {
-      "description": "40% vol. Edelbrand, Sigi Herzog Destillaat. 2cl.",
+      "description": "40% vol. Edelbrand, Sigi Herzog distillaat. 2cl.",
       "pairing": "Apple strudel"
     },
     "farm-fruit-growers": {
-      "description": "Linster fijne vruchtenbrandewijn, 1 jaar gerijpt op eiken. 2cl.",
+      "description": "Linster fine fruit distillery, 1 jaar gerijpt op eiken vaten. 2cl.",
       "pairing": "Kirschmichl"
     },
     "feiner-mirabell": {
-      "description": "Linster fijne vruchtenbrandewijn, rijpe abrikoossmaak. 2cl.",
+      "description": "Linster fine fruit distillery, rijpe abrikoossmaak. 2cl.",
       "pairing": "Crème brûlée"
     },
     "enzian-gentian-brandy": {
-      "description": "Wilhelm Marx distilleerderij. 2cl.",
+      "description": "Wilhelm Marx Fine Spirits Manufactory. 2cl.",
       "pairing": "Schweinshaxe"
     },
     "raspberry-pulp-brandy": {
@@ -531,7 +542,7 @@
       "pairing": "Kaiserschmarrn (large)"
     },
     "grappa-chardonnay": {
-      "description": "Opa’s grappa. 2cl.",
+      "description": "Opa's grappa. 2cl.",
       "pairing": "Crème brûlée"
     },
     "paulaner-spezi": {
@@ -544,7 +555,7 @@
     },
     "coca-cola-zero": {
       "description": "0,4l.",
-      "pairing": "Portie frietjes"
+      "pairing": "Portion friet"
     },
     "paulaner-lemonade": {
       "description": "0,33l.",
@@ -563,11 +574,11 @@
       "pairing": "Donisl Deluxe Burger"
     },
     "bad-brambacher": {
-      "description": "Plat of licht bruisend. 0,5l.",
+      "description": "Stil of halfvol. 0,5l.",
       "pairing": "Brezn"
     },
     "table-water": {
-      "description": "Plat of bruisend.",
+      "description": "Stil of bruisend.",
       "pairing": "Bread basket"
     },
     "apple-spritzer": {
@@ -579,7 +590,7 @@
       "pairing": "Kirschmichl"
     },
     "maracujaschorle": {
-      "description": "Passievruchtspritzer. 0,4l.",
+      "description": "Passievrucht spritzer. 0,4l.",
       "pairing": "Donisl Power Bowl"
     },
     "wolfra-orange-juice": {
@@ -611,7 +622,7 @@
       "pairing": "Apple strudel"
     },
     "haferl-kaffee-creme": {
-      "description": "Haferl Kaffee Crème.",
+      "description": "Haferl Kaffee Creme.",
       "pairing": "Kaiserschmarrn (large)"
     },
     "drinking-chocolate": {
@@ -623,15 +634,15 @@
       "pairing": "Apple strudel"
     },
     "kids-potato-dumplings": {
-      "description": "Met varkensbraadjus.",
+      "description": "Met varkensroastjus.",
       "pairing": "Wolfra orange juice"
     },
     "kids-kaesspatzn": {
-      "description": "Kleine portie käsespätzle voor kinderen.",
+      "description": "KäseSpätzle, kinderportie.",
       "pairing": "Apple spritzer"
     },
     "kids-rostbratwuerstl": {
-      "description": "Met frietjes of aardappel-komkommersalade.",
+      "description": "Met friet of aardappel-komkommersalade.",
       "pairing": "Paulaner Spezi"
     },
     "kids-fries": {
