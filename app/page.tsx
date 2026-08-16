@@ -156,6 +156,13 @@ export default function Home() {
             />
           </div>
         )}
+
+        <p className="px-4 pb-4 pt-6 text-center text-[11px] text-muted">
+          Created by{' '}
+          <a href="https://nocodly.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-ink">
+            nocodly.com
+          </a>
+        </p>
       </main>
 
       <FloatingAiButton onClick={handleAskAiGlobal} language={language} />

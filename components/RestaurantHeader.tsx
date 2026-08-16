@@ -13,15 +13,7 @@ export function RestaurantHeader() {
           className="h-8 w-auto shrink-0"
           priority
         />
-        <p className="truncate text-xs text-muted">{restaurant.subtitle}</p>
-        <a
-          href="https://nocodly.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="ms-auto shrink-0 text-[11px] text-muted hover:text-ink hover:underline"
-        >
-          Created by nocodly.com
-        </a>
+        <p className="text-xs text-muted">{restaurant.subtitle}</p>
       </div>
     </header>
   );
