@@ -1,14 +1,20 @@
 {
   "strings": {
-    "welcome": "Pārlūkojiet ēdienkarti zemāk vai pajautājiet mūsu AI palīgam padomu.",
+    "welcome": "Pārlūkojiet ēdienkarti zemāk vai jautājiet mūsu AI padomam.",
     "categoriesTitle": "Ēdienkarte",
-    "featuredTitle": "Izceltie",
+    "featuredTitle": "Izcelts",
     "askAi": "Jautāt AI",
     "chatTitle": "DonislKI",
-    "discussing": "Apspriešana",
-    "askAboutThis": "Jautāt AI par to",
-    "askAboutDishTemplate": "Pastāstiet man par {dish}",
-    "pairing": "Vislabāk ar",
+    "discussing": "Tiek apspriests",
+    "askAboutThis": "Jautājiet AI par to",
+    "todaysLunchTitle": "Šodienas pusdienu piedāvājums",
+    "weekendLunchTitle": "Vikends Donislā",
+    "weekendLunchText": "Šodien nav ikdienas pusdienu piedāvājuma — mūsu Oktoberfest Schmankerl ir pieejami visu nedēļas nogali.",
+    "oktoberfestBadge": "Oktoberfests",
+    "oktoberfestBannerTitle": "Oktoberfest Schmankerl",
+    "oktoberfestBannerText": "Wiesn sezona sākusies — Oktoberfest piedāvājumi tagad tiek pasniegti.",
+    "askAboutDishTemplate": "Pastāsti man par {dish}",
+    "pairing": "Labāk kopā ar",
     "fromPricePrefix": "no ",
     "allergensLabel": "Alergēni",
     "allergensUnknown": "Lūdzu, apstipriniet pie personāla",
@@ -17,28 +23,29 @@
     "close": "Aizvērt",
     "noInfo": "Man šajā ēdienkartē nav šīs informācijas.",
     "categories": {
-      "weekly": "Nedēļas piedāvājumi",
+      "weekly": "Pusdienu piedāvājumi",
+      "oktoberfest": "Oktoberfest",
       "traditional": "Tradicionālie",
-      "sausages": "Desiņas",
+      "sausages": "Desas",
       "starters": "Uzkodas",
       "vegan": "Vegāns",
       "desserts": "Deserti",
       "beer": "Alus",
       "wine": "Vīns",
       "aperitif": "Aperitīvs",
-      "spirits": "Stiprie dzērieni",
+      "spirits": "Spirtotie dzērieni",
       "drinks": "Bezalkoholiskie dzērieni un kafija",
       "kids": "Bērniem"
     },
     "tagLabels": {
-      "sharing": "koplietošanai",
+      "sharing": "dalāms",
       "signature": "paraksta",
       "hearty": "sātīgs",
-      "classic": "klasisks",
+      "classic": "klasika",
       "light": "viegls",
       "seasonal": "sezonāls",
       "strong": "spēcīgs",
-      "non-alcoholic": "bezalkoholiskā",
+      "non-alcoholic": "bezalkoholiska",
       "vegetarian": "veģetārs",
       "vegan": "vegānisks",
       "spirit": "spirts",
@@ -47,18 +54,18 @@
       "hot-drink": "karsts dzēriens",
       "aperitif": "aperitīvs",
       "bowl": "bļoda",
-      "white": "baltais",
-      "red": "sarkanais",
-      "rose": "rosē",
-      "sparkling": "dzirkstošs",
+      "white": "balts",
+      "red": "sarkans",
+      "rose": "rosé",
+      "sparkling": "spīdīgs",
       "dessert-wine": "deserta vīns",
-      "by-glass": "stiklā",
+      "by-glass": "glāzē",
       "bottle": "pudele",
       "lunch-special": "pusdienu piedāvājums",
       "gluten": "glutēns",
-      "dairy": "piena produkti",
-      "egg": "olu",
-      "mustard": "sinapi",
+      "dairy": "piens",
+      "egg": "ols",
+      "mustard": "sezams",
       "nuts": "rieksti",
       "peanuts": "zemesrieksti",
       "fish": "zivs",
@@ -68,205 +75,201 @@
       "sesame": "sezams"
     },
     "quickSuggestions": [
-      "Ko jūs ieteiktu?",
-      "Kāds dzēriens garšo ar šo ēdienu?",
-      "Rādīt vegāniskās opcijas",
+      "Ko Jūs ieteiktu?",
+      "Kuru dzērienu izvēlēties pie šī ēdiena?",
+      "Rādīt vegāniskos variantus",
       "Kas satur alergēnus?",
-      "Kaut kas viegls",
-      "Kaut kas tradicionāls"
+      "Kaut ko vieglu",
+      "Kaut ko tradicionālu"
     ]
   },
   "items": {
-    "chanterelle-soup": {
-      "description": "Krēmīga gailenīšu zupa ar Tirolēnas bekona klimpām.",
-      "pairing": "Chardonnay (stiklā)"
-    },
-    "romaine-chanterelle-salad": {
-      "description": "Romas salātu sirdis ar aveņu vinigretu, sarkano sīpolu, redīsiem un ceptām gailenēm.",
-      "pairing": "Weissweinschorle"
-    },
-    "veal-steak-chanterelle": {
-      "description": "Teļa steiks ar gailenēm, zirnīšiem un krēmīgām kartupeļu biezputrām.",
-      "pairing": "Pinot Noir Ried Goldberg"
-    },
-    "chanterelle-linguine": {
-      "description": "Linguine ar gailenēm, krēmu, timiānu un Bergkäse sieru.",
-      "pairing": "Chardonnay (stiklā)"
-    },
-    "chanterelle-cream": {
-      "description": "Gailenīšu krēms ar timiānu un preclu klimpām.",
-      "pairing": "Grüner Veltliner Ried Steinberg"
-    },
-    "lunch-monday-asparagus-linguine": {
-      "description": "Pusdienu nedēļas īpašais (12:00–15:30), iekļauta kafija. Linguine ar sparģeļiem, pieneņu krēmu, antrekotu un tomātu.",
-      "pairing": "Sauvignon Blanc"
+    "lunch-monday-tagliatelle": {
+      "description": "Pirmdienas pusdienu piedāvājums, pasniedz 12:00–15:30. Tagliatelle ar meža sēnēm un pētersīļiem.",
+      "pairing": "Grauburgunder (glāzē)"
     },
     "lunch-tuesday-bratengroestl": {
-      "description": "Pusdienu nedēļas īpašais (12:00–15:30), iekļauta kafija. Maisītā cepeša panna ar baltajiem kāpostiem, kartupeļu klimpām un ceptu olu.",
+      "description": "Otrdienas pusdienu piedāvājums, pasniedz 12:00–15:30. Sajaukts cepts ēdiens ar balto kāpostu, kartupeļu klimpām un ceptu olu.",
       "pairing": "Münchner Dunkel"
     },
-    "lunch-wednesday-strindberg-steak": {
-      "description": "Pusdienu nedēļas īpašais (12:00–15:30), iekļauta kafija. Cūkgaļas filejas steiks ar zaļajiem pupiņiem un kartupeļu gratēnu.",
-      "pairing": "Pinot Noir Ried Goldberg"
+    "lunch-wednesday-leberkaese": {
+      "description": "Trešdienas pusdienu piedāvājums, pasniedz 12:00–15:30. Pannā apbrūnināts Leberkäse ar ceptām olām un kartupeļu-gurķu salātiem.",
+      "pairing": "Münchner Hell"
     },
     "lunch-thursday-chicken-geschnetzeltes": {
-      "description": "Pusdienu nedēļas īpašais (12:00–15:30), iekļauta kafija. Sagriezta vista sēņu mērces, pasniegta ar garšaugu spätzle.",
-      "pairing": "Chardonnay (stiklā)"
+      "description": "Ceturtdienas pusdienu piedāvājums, pasniedz 12:00–15:30. Sagriezta vistas gaļa sēņu mērcē ar garšaugu Spätzle.",
+      "pairing": "Münchner Radler"
     },
     "lunch-friday-fish-fillet": {
-      "description": "Pusdienu nedēļas īpašais (12:00–15:30), iekļauta kafija. Cepta dienas zivs fileja ar remulādi un kartupeļu‑gurķu salātiem.",
-      "pairing": "Riesling Easy-White"
+      "description": "Piektdienas pusdienu piedāvājums, pasniedz 12:00–15:30. Cepts dienas loms ar remoulādi un kartupeļu-gurķu salātiem.",
+      "pairing": "Riesling Smoky Dry"
+    },
+    "oktoberfest-pumpkin-soup": {
+      "description": "Samtaini bieza ķirbju zupa ar štajermarkas ķirbju sēklu eļļu un grauzdētām sēklām.",
+      "pairing": "Weissweinschorle"
+    },
+    "oktoberfest-leberkas-burger": {
+      "description": "Leberkäse burgers ar ceptu olu, frī kartupeļiem un garšaugu krējumu.",
+      "pairing": "Oktoberfestbier"
+    },
+    "oktoberfest-bauernsalat": {
+      "description": "Maisītu lapu salāti, kartupeļu salāti un coleslaw ar kraukšķīgiem cūkas vēdera strēmeliem.",
+      "pairing": "Münchner Radler"
+    },
+    "oktoberfest-milchkalb-steak": {
+      "description": "Slaucētas teļa steiks ar bekona pupiņām, sarkanvīna mērci un krēmīgajiem kartupeļiem.",
+      "pairing": "Pinot Noir Ried Goldberg"
+    },
+    "oktoberfest-half-chicken": {
+      "description": "Grilēts pusvistu gabals (½ Hendl) ar kartupeļu-gurķu salātiem vai frī kartupeļiem.",
+      "pairing": "Hefeweizen (Yeast White)"
+    },
+    "oktoberfest-boiled-beef-fillet": {
+      "description": "Vāzts liellopa filejas gabals ar liellopa smadzeņu kaulu, sakņu dārzeņiem, wasabi‑rīskāpostu un rozmarīna kartupeļiem.",
+      "pairing": "Grüner Veltliner Ried Tenn DAC Reserve"
+    },
+    "oktoberfest-wiesn-reindl": {
+      "description": "Dalāma panna pie galda: teļa kotlete, schnitzel, bratwurst, cūkas kāja un vista ar kartupeļu klimpām, skābētiem kāpostiem un siera Spätzle. Cena uz personu, minimālais pasūtījums divām personām.",
+      "pairing": "Oktoberfestbier"
+    },
+    "oktoberfestbier": {
+      "description": "Stiprāks, iesals bagāts svētku lageris, pasniegts Wiesn.",
+      "pairing": "Steak vom Milchkalb"
     },
     "donisl-roasting-pan": {
-      "description": "Cepts ēdiens ar liellopu, pīli, cūkgaļas stilbu un desiņām, pasniegts ar sarkanajiem kāpostiem, kartupeļu klimpām un sieru spätzle — koplietošanai.",
+      "description": "Liellops, pīle, cūkas kāja un desas ar sarkaniem kāpostiem, kartupeļu klimpām un siera Spätzle — domāts dalīšanai.",
       "pairing": "Münchner Dunkel"
     },
     "roast-pork": {
-      "description": "Bavārijas cepta cūkgaļas plecs un vēders ar kraukšķīgu garoziņu, dabiska mērce, kartupeļu klimpas un kāpostu salāti.",
+      "description": "Bavārijas cūkas plecs un vēders ar kraukšķi, dabīgo mērci, kartupeļu klimpām un coleslaw.",
       "pairing": "Münchner Dunkel"
     },
     "schweinshaxe": {
-      "description": "Kraukšķīgi cepts cūkgaļas stilbs, pasniegts ar dabiska mērci, kartupeļu klimpām un kāpostu salātiem.",
-      "pairing": "Best with Dunkel beer."
+      "description": "Kraukšķīgi cepta puse cūkas stilba, pasniegta ar dabīgo mērci, kartupeļu klimpām un coleslaw.",
+      "pairing": "Münchner Dunkel"
     },
     "wiener-schnitzel": {
-      "description": "Bavārijas šķirnes cūkgaļas viegli apcepts schnicers ar frī vai kartupeļu‑gurķu salātiem un dzērvenēm.",
+      "description": "Bavārijas cūkas schnitzel, pasniegts ar frī kartupeļiem vai kartupeļu‑gurķu salātiem un dzērvenēm.",
       "pairing": "Riesling Easy-White or a Radler"
     },
     "farm-duck": {
-      "description": "Pīle ar rozmarīna mērci, kartupeļu klimpām un sarkanajiem kāpostiem.",
+      "description": "Rozmarīna mērce, kartupeļu klimpas un sarkanie kāposti.",
       "pairing": "Münchner Dunkel"
     },
     "backhendl": {
-      "description": "Bezkaulu cepts panēts vistas stilbiņš ar kartupeļu frī vai kartupeļu‑gurķu salātiem.",
+      "description": "Bez kauliem breaded vistas stilbs ar frī kartupeļiem vai kartupeļu‑gurķu salātiem.",
       "pairing": "Münchner Radler"
     },
     "duet-of-the-ox": {
-      "description": "Vērša plecs un vaigs ar sarkanvīna jus, spinātiem un krēmīgiem kartupeļiem.",
+      "description": "Tvaicēts oksu gaļas gabals un grilēts oksu steiks, sarkanvīna mērce, sarkanie kāposti, krēmīgi kartupeļi.",
       "pairing": "Black OX Cuvée"
     },
-    "veal-steak": {
-      "description": "Krāsaina piparu krēmmērce, apdedzināts kolrābis, kartupeļu rösti.",
-      "pairing": "Pinot Blanc Grand Reserve"
-    },
     "veal-meatballs": {
-      "description": "Marinēti dārzeņi un rozmarīna kartupeļi.",
-      "pairing": "Pinot Gris Tradition"
+      "description": "Rokām spiestas teļa kotletes ar saliktiem dārzeņiem un rozmarīna kartupeļiem.",
+      "pairing": "Grauburgunder Tradition"
     },
     "white-sausage": {
-      "description": "Divas baltās desiņas, pasniegtas ar precli un sinepēm.",
+      "description": "Divas vienības, pasniegtas ar preteļa maizi un sinepēm.",
       "pairing": "Hefeweizen (Yeast White)"
     },
     "white-sausage-piece": {
-      "description": "Vienas baltās desiņas gabals.",
+      "description": "Viena baltā desa.",
       "pairing": "Hefeweizen (Yeast White)"
     },
     "polish-sausage": {
-      "description": "Ar precli un sinepēm.",
+      "description": "Ar preteļa maizi un sinepēm.",
       "pairing": "Russn"
     },
     "currywurst": {
-      "description": "Karija desa, pasniegta ar frī kartupeļiem.",
+      "description": "Donisl curry desas mērce, pasniegta ar frī kartupeļiem.",
       "pairing": "Hefeweizen wheat beer"
     },
     "bratwurstreindl": {
-      "description": "Panna ar grilētām desiņām, ar kāpostiem vai kartupeļu salātiem — porciju koplietošanai.",
+      "description": "Panna ar grilētām desām ar skābētiem kāpostiem vai kartupeļu salātiem — dalāma porciju plate.",
       "pairing": "Russn (light Hefeweizen)"
     },
     "rump-steak": {
-      "description": "Murnau liellopa rumpsteiks ar sarkanvīna un sīpolu jus, cepti sīpoli un käsespätzle.",
-      "pairing": "Tuscany Red Cuvée"
+      "description": "Murnau liellops ar sarkanvīna un sīpolu mērci, cepti sīpoli, käsespätzle.",
+      "pairing": "Primitivo Puglia IGT"
     },
     "ribeye-300g": {
-      "description": "Murnau liellopa ribeye ar sautētas sviesta mērci, grilēti dārzeņi un kartupeļu gratēns.",
+      "description": "Murnau liellopa tauku maliņa, Café de Paris mērce, grilēti dārzeņi, kartupeļu gratēns.",
       "pairing": "Brunello di Montalcino DOCG"
     },
     "deluxe-burger": {
-      "description": "200 g Werdenfelser liellopa, čedars, salāti, tomāts, marinēti gurķīši, sīpoli, mājas Donisl mērce.",
+      "description": "200 g Werdenfelser liellopa, čedaras siers, salāti, tomāts, marinēti gurķīši, sīpoli, mājas Donisl mērcē. +3.90 ar frī kartupeļiem.",
       "pairing": "Münchner Hell"
     },
-    "icefish": {
-      "description": "Ar timiānu, ratatouille dārzeņiem un kartupeļu gratēnu.",
+    "zanderfilet": {
+      "description": "Asara fileja zem kartupeļu garozas ar krāšņiem rudens dārzeņiem un wasabi mērci.",
       "pairing": "Sauvignon Blanc"
     },
     "brotzeitbrettl": {
-      "description": "Lauksaimnieka kūpinātas gaļas, bekona desiņa, aknu pastēte, auksti cepts antrekots, O'gmachter, kalnu siers, redīsi, maize.",
+      "description": "Lauksaimnieka kūpinātas gaļas, bekona desa, aknu desa, auksti cepts liellops, O'gmachter, kalnu siers, wasabi, maize.",
       "pairing": "Hefeweizen (Yeast White)"
     },
     "donisl-4erlei": {
-      "description": "Humuss, gatavots siers, sālīts sviests un garšaugu krējums, pasniegts ar maizes grozu.",
+      "description": "Humuss, nupat gatavots siers, sālīta sviesta un garšaugu krējums, pasniegts ar maizes grozu.",
       "pairing": "Weissweinschorle"
     },
     "beef-tartare": {
-      "description": "Liellopa tartars ar trifeļu krēmu un ceptu bioloģisku olu.",
+      "description": "Trifeļu krēms, cepts bioloģisks ola — bekss.",
       "pairing": "Pinot Noir Ried Goldberg"
     },
-    "calfs-head-carpaccio": {
-      "description": "Teļa galvas karpacio ar granātābolu, mārrutku un gurķi.",
-      "pairing": "Grüner Veltliner Ried Tenn DAC Reserve"
-    },
     "ogmachter-kas": {
-      "description": "Krēmīgs siers ar sīpolu gredzeniem, redīsiem, salātiem un ogām.",
+      "description": "Krēmīgs siers ar sīpolu gredzeniem, retušu, salātiem un ogām.",
       "pairing": "Münchner Radler"
     },
     "sausage-salad": {
-      "description": "Mājas mērce, sīpolu gredzeni, marinēts gurķītis, tomāts, ogas (+1.90 ar kalnu siera sloksnēm).",
+      "description": "Mājas mērce, sīpolu gredzeni, marinēti gurķīši, tomāts, ogas (+1.90 ar kalna siera strēmelēm).",
       "pairing": "Russn"
     },
     "donisl-salad": {
-      "description": "Lapainie salāti ar tomātu, gurķi, mājas mērci, sēklām un kruķoņiem.",
+      "description": "Lapu salāti, tomāts, gurķis, mājas mērce, sēklas un grauzdiņi.",
       "pairing": "Weissweinschorle"
     },
     "bread-basket": {
-      "description": "Svaiga maizes grozs.",
+      "description": "Svaigu maizes grozs.",
       "pairing": "Münchner Hell"
     },
     "brezn": {
-      "description": "Bavārijas precele (Brezn).",
+      "description": "Bavārijas preceļš (Brezn).",
       "pairing": "Münchner Hell"
     },
     "oxen-consomme": {
-      "description": "Caurspīdīgs liellopa buljons ar aknu klimpām vai plānu pankūkas strēmeli, dārzeņiem un lociņiem.",
-      "pairing": "Weissweinschorle"
-    },
-    "tomato-soup": {
-      "description": "Gluda tomātu zupa ar burrata–bazilika krēmu.",
+      "description": "Tīrs liellopa buljons ar aknu klimpām vai pankūku strēmelēm, dārzeņiem un pētersīļiem.",
       "pairing": "Weissweinschorle"
     },
     "classic-sides": {
-      "description": "Skābie kāposti, sarkanie kāposti, bekona un kāpostu salāti, krēmīgi kartupeļi, kartupeļu klimpas, mazie ceptie kartupeļi, spätzle vai frī — izvēlieties vienu.",
+      "description": "Skābie kāposti, sarkanie kāposti, bekona un kāposta salāti, krēmīgie kartupeļi, kartupeļu klimpas, mazas ceptas kartupeles, Spätzle vai frī — katra atsevišķi.",
       "pairing": "Münchner Hell"
     },
     "vegetable-sides": {
-      "description": "Dārzeņu piedevas vai kartupeļu un gurķu salāti — izvēlieties vienu.",
+      "description": "Dārzeņu piedeva vai kartupeļu un gurķu salāti — katra atsevišķi.",
       "pairing": "Weissweinschorle"
     },
     "power-bowl": {
-      "description": "Aromātisks rīsi, avokado, edamame, turku zirņi, burkāni, tomāts, gurķis, zemesrieksti, apelsīnu‑menta‑laima mērce.",
-      "pairing": "Riesling Easy-White"
+      "description": "Aromātiska rīsu bļoda ar avokado, edamame, turku zirņiem, burkāniem, tomātu, gurķi, zemesriekstiem un apelsīna-mētras-laima mērci.",
+      "pairing": "Sauvignon Blanc Reserve -S-"
     },
     "kaesespaetzle": {
       "description": "Käsespätzle ar sīpolu gredzeniem.",
       "pairing": "Münchner Dunkel or a full-bodied white wine"
     },
     "linguine-truffles": {
-      "description": "Makaroni ar baby spinātiem un ziemas trifatēm.",
-      "pairing": "Chardonnay (stiklā)"
-    },
-    "rahmschwammerl": {
-      "description": "Krēmīgas sēnes, pasniegtas ar preclu klimpām.",
-      "pairing": "Grüner Veltliner Ried Steinberg"
+      "description": "Makaroni ar baby spinātiem un ziemas trifelēm.",
+      "pairing": "Chardonnay (by the glass)"
     },
     "creme-brulee": {
       "description": "Pasniegts ar sorbetu un ogām.",
       "pairing": "Rieslaner Auslese dessert wine"
     },
     "kaiserschmarrn": {
-      "description": "Kaiserschmarrn ar rozīnēm, sviestu, cukuru un karamelizētām mandelēm, pasniegts ar ābolu biezeni — piemērots koplietošanai.",
+      "description": "Rozīnes, sviests, cukurs un karamelizētas mandeles, pasniegts ar ābolu biezeni — lieliski dalīšanai.",
       "pairing": "Rieslaner Auslese dessert wine"
     },
     "kirschmichl": {
-      "description": "Silta ķiršu kūka, pasniegta ar krēmu.",
+      "description": "Silts ķiršu kūkas gabaliņš, pasniegts ar vaniļas krēmu.",
       "pairing": "Rieslaner Auslese"
     },
     "apple-strudel": {
@@ -274,35 +277,35 @@
       "pairing": "Milchkaffee"
     },
     "muenchner-hell": {
-      "description": "Apatēji raugs filtrēts, smalks rūgtuma pieskāriens, viegli iesala notis. 5.0% tilp.",
+      "description": "Apatēji fermentēts, smalki rūgtena apiņaina niansē, nedaudz saldens iesals. 5.0% vol.",
       "pairing": "Wiener Schnitzel"
     },
     "beer-light-alcohol-free": {
-      "description": "Dabiski duļķains, karameles un medus notis. <0.5% tilp.",
+      "description": "Dabiski duļķaina, karameles un medus notis. <0.5% vol.",
       "pairing": "Brotzeitbrettl"
     },
     "muenchner-radler": {
-      "description": "München Helles ar smalku limonādes pieskārienu, nepārlieku salds.",
+      "description": "München Helles ar vieglu limonādi, nav pārāk salds.",
       "pairing": "Donisl Salad"
     },
     "muenchner-dunkel": {
-      "description": "Smalks rūgtums, grauzdēta iesala ar karameles un konfitēta augļa niansēm. 5.0% tilp.",
+      "description": "Maigi rūgtena, grauzdēta iesala ar karameļu un glazēta augļu notīm. 5.0% vol.",
       "pairing": "Schweinshaxe"
     },
     "hefeweizen": {
-      "description": "Augšēji raudzēts vīns ar banāna un medus notīm.",
+      "description": "Augšēji fermentēts kviešu alus ar banāna un medus notīm.",
       "pairing": "White sausage (Kesselfrisch)"
     },
     "russn": {
-      "description": "Hefeweizen ar vieglu limonādes piejaukumu, nepārlieku salds.",
+      "description": "Hefeweizen ar smalku limonādi, nav pārāk salds.",
       "pairing": "Bratwurstreindl"
     },
     "cola-wheat": {
-      "description": "Hefeweizen ar Coca‑Cola.",
+      "description": "Hefeweizen sajaukts ar Coca‑Cola.",
       "pairing": "Currywurst"
     },
     "non-alcoholic-wheat": {
-      "description": "Pēc pilnas nogatavināšanas maigi dealkoholizēts, saglabā aromātu.",
+      "description": "Maigi dealkoholizēts pēc pilnas nogatavināšanas, saglabā aromātu.",
       "pairing": "Backhendl"
     },
     "salvator": {
@@ -310,23 +313,23 @@
       "pairing": "Duet of the Ox"
     },
     "kellerbier": {
-      "description": "Sezonāls — pieejams jūnijā/jūlijā/augustā. 0.5l.",
+      "description": "Sezonāls — pieejams jūnijā/jūlijā/augustā (vasaras periods). 0.5l.",
       "pairing": "Brotzeitbrettl"
     },
     "wiesnbier": {
-      "description": "Oktoberfest alus, sezonāls — pieejams septembrī/oktobrī. 0.5l.",
+      "description": "Oktoberfest alus, sezonāls — pieejams septembrī/oktobrī.",
       "pairing": "Donisl roasting pan"
     },
     "weissweinschorle": {
-      "description": "Baltvīna spriceris. 0.3l.",
-      "pairing": "Romanaherzen"
+      "description": "Baltvīna šorle. 0.3l.",
+      "pairing": "Donisl Salad"
     },
     "pinot-gris-glass": {
-      "description": "Hirschmüller vīndare, Württemberg — viegls, viegli dzerams.",
-      "pairing": "Veal meatballs"
+      "description": "Hirschmüller vīndaris, Württemberg — viegls, viegli dzerams.",
+      "pairing": "Kalbfleischpflanzerl (hand-pressed)"
     },
     "primitivo-glass": {
-      "description": "Sir of the Faun, Puglia — tumšas ogas, ķirsis, smalks pikants raksturs.",
+      "description": "Sir of the Faun, Puglia — tumšas ogas, ķirsis, smalki pikants.",
       "pairing": "Schweinebraten (roast pork)"
     },
     "prodry-frizzante": {
@@ -334,7 +337,7 @@
       "pairing": "Brotzeitbrettl"
     },
     "paul-michel-champagne": {
-      "description": "Champagne Premier Cru, Francija. 0.75l pudele.",
+      "description": "Champagne Premier Cru, Champagne, Francija. 0.75l pudele.",
       "pairing": "Oxen consommé"
     },
     "taittinger-rose": {
@@ -342,59 +345,59 @@
       "pairing": "Donisl \"4erlei\""
     },
     "valdo-prosecco": {
-      "description": "Valdo, Veneto — klasisks itāļu dzirkstošais vīns. 0.75l pudele.",
+      "description": "Valdo, Veneto — klasiskā itāļu dzirkstošā vīna garša. 0.75l pudele.",
       "pairing": "Donisl Salad"
     },
     "winzersekt": {
-      "description": "Pfaffmann vīndare, Pfalcē, Vācija. 0.75l pudele.",
-      "pairing": "Velvet soup from bush tomato"
+      "description": "Pfaffmann vīndaris, Palatinate, Vācija. 0.75l pudele.",
+      "pairing": "Oxen consommé"
     },
     "chardonnay-bottle": {
-      "description": "Hirschmüller vīndare, Württemberg — pasifloras, mango, ananass. 0.75l pudele.",
-      "pairing": "Rahmschwammerl"
+      "description": "Hirschmüller vīndaris, Württemberg — pasiflora, mango, ananāss. 0.75l pudele.",
+      "pairing": "Käsespätzle"
     },
     "chardonnay-glass": {
-      "description": "Hirschmüller vīndare, Württemberg. 0.1l.",
-      "pairing": "Pfifferling-Linguine"
+      "description": "Hirschmüller vīndaris, Württemberg. 0.1l.",
+      "pairing": "Linguine with truffles"
     },
     "chardonnay-macon-ige": {
-      "description": "Domaine Fichet, Burgundija — ābols, bumbieris, baltais persiks, viegla minerālitāte. 0.75l pudele.",
+      "description": "Domaine Fichet, Burgundija — ābols, bumbieris, baltais persiks, smalka minerālitāte. 0.75l pudele.",
       "pairing": "Käsespätzle"
     },
     "pinot-gris-tradition": {
-      "description": "Bott Frères, Burgundija — aprikoze, Vīnes ābols, lazdu rieksts, smalks dūms.",
-      "pairing": "Veal steak"
+      "description": "Bott Frères vīndaris, Burgundija — aprikoze, vīnes ābols, lazdu rieksts, smalks dūms.",
+      "pairing": "Kalbfleischpflanzerl (hand-pressed)"
     },
     "pinot-gris-oetinger": {
-      "description": "Oetinger vīndare, Rheingau — nogatavojies bumbieris, dzeltens ābols, mandeles pieskāriens. 0.75l pudele.",
+      "description": "Oetinger vīndaris, Rheingau — gatavs bumbulis, dzeltenais ābols, neliels mandeļu pieskāriens. 0.75l pudele.",
       "pairing": "Backhendl"
     },
     "pinot-gris-reserve-pauline": {
-      "description": "Pfaffmann vīndare, Pfalce — bumbieris, ananass, nektarīns, citrona zāle, ziedains aromāts. 0.75l pudele.",
+      "description": "Pfaffmann vīndaris, Palatinate — bumbieris, ananāss, nektarīns, citronszāle, ziedains. 0.75l pudele.",
       "pairing": "O'gmachter Kas"
     },
     "pinot-blanc-grand-reserve": {
-      "description": "Taubenschuss vīndare, Austrijas Weinviertel — melone, lazdu rieksts, siens, karamele. 0.75l pudele.",
+      "description": "Taubenschuss vīndaris, Austrijas Weinviertel — melone, lazdu rieksts, siens, karamele. 0.75l pudele.",
       "pairing": "Donisl \"4erlei\""
     },
     "trebbiano-di-lugana": {
-      "description": "Zenato vīndare, Veneto, Itālija — svaiga skābe, minerāla, citrusaugļi, zaļais ābols, bumbieris. 0.75l pudele.",
+      "description": "Zenato vīndaris, Veneto, Itālija — svaiga skābe, minerāls, citrusaugļi, zaļais ābols, bumbieris. 0.75l pudele.",
       "pairing": "Sausage salad from Regensburg"
     },
     "lugana-glass": {
-      "description": "Zenato vīndare, Veneto, Itālija. 0.1l.",
-      "pairing": "Icefish"
+      "description": "Zenato vīndaris, Veneto, Itālija. 0.1l.",
+      "pairing": "Zander fillet with potato crust"
     },
     "riesling-easy-white": {
-      "description": "Oetinger vīndare, Rheingau — laims, ābols, baltais persiks, ideāls aperitīvs. 0.75l pudele.",
+      "description": "Oetinger vīndaris, Rheingau — laims, ābols, baltais persiks, ideāls aperitīvs. 0.75l pudele.",
       "pairing": "Wiener Schnitzel"
     },
     "riesling-gottloos": {
-      "description": "Dr. Loosen vīndare, Mozele — citrusaugļi, ābols, eleganta minerālitāte. 0.75l pudele.",
+      "description": "Dr. Loosen vīndaris, Mosel — citrusaugļi, ābols, eleganta minerālitāte. 0.75l pudele.",
       "pairing": "Wiener Schnitzel"
     },
     "riesling-heiligenstein": {
-      "description": "Bründlmayer, Langenlois, Kamptal, Austrija — svaigs citrusaugļu un ābola aromāts, zālains pikants raksturs. 0.75l pudele.",
+      "description": "Bründlmayer vīndaris, Langenlois, Kamptal, Austrija — svaigi citrusaugļi, ābols, zāļu pikances. 0.75l pudele.",
       "pairing": "Donisl Salad"
     },
     "riesling-smoky-dry": {
@@ -402,87 +405,87 @@
       "pairing": "Currywurst"
     },
     "riesling-bright-side-of-life": {
-      "description": "Stahl vīndare, Frankonija — augļains, svaigs un vienkāršs. 0.75l pudele.",
+      "description": "Stahl vīndaris, Franken, Vācija — augļains, svaigs, bez sarežģījumiem.",
       "pairing": "Gebackenes Fischfilet (Friday)"
     },
     "riesling-nachschlag-glass": {
-      "description": "Stahl vīndare, Frankonija. 0.1l.",
+      "description": "Stahl vīndaris, Franken, Vācija. 0.1l.",
       "pairing": "Gebackenes Fischfilet (Friday)"
     },
     "sauvignon-blanc": {
-      "description": "Chateau de la Chaise, Loire — upenes, zaļais ābols, eksotiski augļi. 0.75l pudele.",
-      "pairing": "Icefish"
+      "description": "Chateau de la Chaise, Loire — ērkšķoga, zaļais ābols, eksotiskie augļi. 0.75l pudele.",
+      "pairing": "Zander fillet with potato crust"
     },
     "sauvignon-blanc-reserve": {
-      "description": "Taubenschuss, Austrijas Weinviertel — laims, upeņu pieskāriens, eksotiski augļi. 0.75l pudele.",
+      "description": "Taubenschuss vīndaris, Austrijas Weinviertel — laims, ērkšķoga, eksotiskie augļi. 0.75l pudele.",
       "pairing": "Donisl Power Bowl"
     },
     "silvaner-easy-white": {
-      "description": "Weingut am Stein, Frankonija — zaļais ābols, bumbieris, smalkas garšaugu notis. 0.75l pudele.",
+      "description": "Weingut am Stein, Franken — zaļais ābols, bumbieris, smalkas zāļu notis. 0.75l pudele.",
       "pairing": "Vegetable side dish"
     },
     "gruener-veltliner-tenn": {
-      "description": "Taubenschuss, Weinviertel — ābols, baltie pipari, garšaugu pikants raksturs. 0.75l pudele.",
+      "description": "Taubenschuss vīndaris, Austrijas Weinviertel — ābols, baltā pipara nianses, zāļu pikances. 0.75l pudele.",
       "pairing": "Lukewarm calf's head carpaccio"
     },
     "riesling-gottloos-3l": {
-      "description": "Dr. Loosen vīndare, Mozele. 3.0l pudele.",
+      "description": "Dr. Loosen vīndaris, Mosel. 3.0l pudele.",
       "pairing": "Wiener Schnitzel"
     },
     "gruener-veltliner-steinberg": {
-      "description": "Karl Fritsch vīndare, Burgenland, Austrija. 1.5l pudele.",
-      "pairing": "Pfifferlingsrahm"
+      "description": "Karl Fritsch vīndaris, Burgenland, Austrija. 1.5l pudele.",
+      "pairing": "Käsespätzle"
     },
     "chardonnay-morillon": {
-      "description": "Lackner-Tinnacher, Dienvidstīrija, Austrija. 1.5l pudele.",
+      "description": "Lackner-Tinnacher vīndaris, Dienvidstīrija, Austrija. 1.5l pudele.",
       "pairing": "O'gmachter Kas"
     },
     "cuvee-adrian-sangiovese": {
-      "description": "Sarkanais cuvée, Toscana Rosso, Toskāna. 1.5l pudele.",
+      "description": "Sarkans cuvée, Toscana Rosso, Toskāna. 1.5l pudele.",
       "pairing": "Duet of the Ox"
     },
     "primitivo-bottle": {
-      "description": "Barbanera vīndare, Apūlija, Itālija — tumšas ogas, ķirši, smalks pikants raksturs. 0.75l pudele.",
+      "description": "Barbanera vīndaris, Apūlija, Itālija — tumšas ogas, ķirsis, smalks pikants. 0.75l pudele.",
       "pairing": "Schweinebraten (roast pork)"
     },
     "herrgott-cuvee": {
-      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalce — ķirši, sarkanas ogas. 0.75l pudele.",
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Palatinate — ķirši, sarkanas ogas. 0.75l pudele.",
       "pairing": "Ribeye 300 grams"
     },
     "herrgott-cuvee-glass": {
-      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalce. 0.1l.",
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Palatinate. 0.1l.",
       "pairing": "Donisl Bratengröstl (Tuesday)"
     },
     "tuscany-red-cuvee": {
-      "description": "Duca di Salangane, Toskāna — ķirši, tumšas ogas. 0.75l pudele.",
+      "description": "Duca di Salangane, Toscana — ķirši, tumšas ogas. 0.75l pudele.",
       "pairing": "Roast beef — rump steak"
     },
     "pinot-noir-goldberg": {
-      "description": "Toni Hartl vīndare, Burgenland — sarkanas ogas, ķirši, smalks pikants raksturs. 0.75l pudele.",
+      "description": "Toni Hartl vīndaris, Burgenland — sarkanas ogas, ķirsis, smalks pikants. 0.75l pudele.",
       "pairing": "Steak vom Milchkalb"
     },
     "merlot": {
-      "description": "Chateau Gensac, Gaskonija — tumši ķirši, plūmes, garšviela. 0.75l pudele.",
+      "description": "Chateau Gensac, Gascony — tumši ķirši, plūmes, garšviela. 0.75l pudele.",
       "pairing": "Veal meatballs"
     },
     "brunello-di-montalcino": {
-      "description": "Tenuta Corte Pavone, Sangiovese, Toskāna — tumšas ogas, ķirši, šokolāde. 0.75l pudele.",
+      "description": "Tenuta Corte Pavone vīndaris, Sangiovese, Toskāna — tumša oga, ķirsis, šokolāde. 0.75l pudele.",
       "pairing": "Ribeye 300 grams"
     },
     "black-ox-cuvee": {
-      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Pfalce — tumšas ogas, ķirši, garšviela. 0.75l pudele.",
+      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Palatinate — tumšas ogas, ķirsis, garšviela. 0.75l pudele.",
       "pairing": "Duet of the Ox"
     },
     "rose-lime-stone": {
-      "description": "Unger vīndare, Neusiedler ezers — sarkanas ogas, zemenes, avenes, citrusi. 0.75l pudele.",
+      "description": "Unger vīndaris, Neusiedler ezers — sarkanas ogas, zemenes, aveņu un citrusaugļu notis. 0.75l pudele.",
       "pairing": "Donisl Salad"
     },
     "torres-natureo": {
-      "description": "Miguel Torres, Vilafranca del Penedès — citrusi, ābols, viegls. 0.75l pudele.",
-      "pairing": "Romanaherzen"
+      "description": "Miguel Torres, Vilafranca del Penedès — citrusaugļi, ābols, viegls.",
+      "pairing": "Donisl Salad"
     },
     "rieslaner-auslese": {
-      "description": "Juliusspital vīndare, Frankonija — deserta vīns. 0.5l pudele.",
+      "description": "Juliusspital vīndaris, Franken — deserta vīns. 0.5l pudele.",
       "pairing": "Kaiserschmarrn or Crème brûlée"
     },
     "aperol-spritz": {
@@ -490,7 +493,7 @@
       "pairing": "Brotzeitbrettl"
     },
     "hugo": {
-      "description": "Cidoniju ziedu spricējs (Hugo). 0.2l.",
+      "description": "Zirņu ziedu spricētājs (Hugo). 0.2l.",
       "pairing": "Bread basket"
     },
     "campari-soda": {
@@ -502,7 +505,7 @@
       "pairing": "Donisl \"4erlei\""
     },
     "sanbitter": {
-      "description": "Bezalkoholiskā rūgtā aperitīva versija. 0.2l.",
+      "description": "Bezalkoholisks rūgtais aperitīvs. 0.2l.",
       "pairing": "Oxen consommé"
     },
     "nut-in-a-bottle": {
@@ -514,7 +517,7 @@
       "pairing": "Apple strudel"
     },
     "hirschkuss": {
-      "description": "38% tilp., pudele ar aizbāzni, 4cl.",
+      "description": "38% vol., ar stikla korķi, 4cl.",
       "pairing": "Kaiserschmarrn (large)"
     },
     "vodka-redbull": {
@@ -522,27 +525,27 @@
       "pairing": "Donisl Deluxe Burger"
     },
     "williams-christ-pear": {
-      "description": "40% tilp. Edelbrand, Sigi Herzog destilāts. 2cl.",
+      "description": "40% vol. Edelbrand, Sigi Herzog destilāts. 2cl.",
       "pairing": "Apple strudel"
     },
     "farm-fruit-growers": {
-      "description": "Linster augļu destilātu darītava, nogatavots 1 gadu ozolkoka mucās. 2cl.",
+      "description": "Linster smalko augļu destilērija, nogatavots 1 gadu ozolkoka mucās. 2cl.",
       "pairing": "Kirschmichl"
     },
     "feiner-mirabell": {
-      "description": "Linster augļu destilātu darītava, noturīgas aprikožu notis. 2cl.",
+      "description": "Linster smalko augļu destilērija, nogatavināts aprikožu aromāts. 2cl.",
       "pairing": "Crème brûlée"
     },
     "enzian-gentian-brandy": {
-      "description": "Wilhelm Marx fine spirits manufaktūra. 2cl.",
+      "description": "Wilhelm Marx smalko spiritu ražotne. 2cl.",
       "pairing": "Schweinshaxe"
     },
     "raspberry-pulp-brandy": {
-      "description": "40% tilp. Wilhelm Marx Edelmanufaktur. 2cl.",
+      "description": "40% vol. Wilhelm Marx Edelmanufaktur. 2cl.",
       "pairing": "Kaiserschmarrn (large)"
     },
     "grappa-chardonnay": {
-      "description": "Grandfather grappa. 2cl.",
+      "description": "Vecāku grappa. 2cl.",
       "pairing": "Crème brûlée"
     },
     "paulaner-spezi": {
@@ -574,11 +577,11 @@
       "pairing": "Donisl Deluxe Burger"
     },
     "bad-brambacher": {
-      "description": "Bez oglekļa vai viegli gāzēts. 0.5l.",
+      "description": "Bez gāzes vai viegli gāzēts. 0.5l.",
       "pairing": "Brezn"
     },
     "table-water": {
-      "description": "Stāvošs vai gāzēts.",
+      "description": "Bez gāzes vai gāzēts.",
       "pairing": "Bread basket"
     },
     "apple-spritzer": {
@@ -586,11 +589,11 @@
       "pairing": "Kässpatzn"
     },
     "johannisbeerschorle": {
-      "description": "Melno avenes spricējs. 0.4l.",
+      "description": "Melno jāņogu šorle. 0.4l.",
       "pairing": "Kirschmichl"
     },
     "maracujaschorle": {
-      "description": "Pasifloras spricējs. 0.4l.",
+      "description": "Pasiflora šorle. 0.4l.",
       "pairing": "Donisl Power Bowl"
     },
     "wolfra-orange-juice": {
@@ -630,19 +633,19 @@
       "pairing": "Kirschmichl"
     },
     "tea-ronnefeldt": {
-      "description": "Darjeeling, Mountain Herbs, Sweet Berries, Green Dragon Lung Ching, Refreshing Mint vai Fruity Camomile.",
+      "description": "Darjeeling, Mountain herbs, Sweet Berries, Green Dragon Lung Ching, Refreshing Mint vai Fruity Camomile.",
       "pairing": "Apple strudel"
     },
     "kids-potato-dumplings": {
-      "description": "Ar cūkgaļas cepetaja mērci.",
+      "description": "Ar cūkas cepšanas mērci.",
       "pairing": "Wolfra orange juice"
     },
     "kids-kaesspatzn": {
-      "description": "Käsespätzle, bērnu izmērs.",
+      "description": "Käsespätzle, bērnu porcija.",
       "pairing": "Apple spritzer"
     },
     "kids-rostbratwuerstl": {
-      "description": "Ar frī vai kartupeļu‑gurķu salātiem.",
+      "description": "Ar frī kartupeļiem vai kartupeļu‑gurķu salātiem.",
       "pairing": "Paulaner Spezi"
     },
     "kids-fries": {

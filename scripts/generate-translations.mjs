@@ -147,7 +147,13 @@ async function main() {
     process.exit(1);
   }
 
+  // Optional CLI args: language codes to (re)generate, e.g.
+  //   npm run generate:translations -- vi id ms
+  // With no args, every language is regenerated.
+  const only = process.argv.slice(2).filter((a) => !a.startsWith('-'));
+
   for (const [code, name] of Object.entries(LANGUAGES)) {
+    if (only.length && !only.includes(code)) continue;
     process.stdout.write(`Translating to ${name}... `);
     const result = await translate(name);
     result.items = normalizeItems(result.items);

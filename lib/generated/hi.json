@@ -1,57 +1,64 @@
 {
   "strings": {
-    "welcome": "नीचे मेन्यू देखें, या हमारी AI सहायक से सिफारिश पूछें।",
-    "categoriesTitle": "मेन्यू",
-    "featuredTitle": "विशेष",
+    "welcome": "नीचे मेनू ब्राउज़ करें, या हमारी AI सहायक से सिफारिश मांगें।",
+    "categoriesTitle": "मेनू",
+    "featuredTitle": "प्रमुख",
     "askAi": "AI से पूछें",
     "chatTitle": "DonislKI",
     "discussing": "चर्चा कर रहे हैं",
     "askAboutThis": "इसके बारे में AI से पूछें",
+    "todaysLunchTitle": "आज का लंच स्पेशल",
+    "weekendLunchTitle": "Donisl पर वीकेंड",
+    "weekendLunchText": "आज कोई वीकडे लंच स्पेशल नहीं — हमारे ऑक्टोबरफेस्ट Schmankerl पूरे वीकेंड पर परोसे जा रहे हैं।",
+    "oktoberfestBadge": "यह ऑक्टोबरफेस्ट है",
+    "oktoberfestBannerTitle": "Oktoberfest Schmankerl",
+    "oktoberfestBannerText": "Wiesn का समय शुरू हो गया है — हमारे Oktoberfest स्पेशल अब परोसे जा रहे हैं।",
     "askAboutDishTemplate": "{dish} के बारे में बताइए",
-    "pairing": "साथ में सबसे अच्छा",
+    "pairing": "इसके साथ अच्छा है",
     "fromPricePrefix": "से ",
-    "allergensLabel": "एलर्जेन्स",
+    "allergensLabel": "एलर्जी",
     "allergensUnknown": "कृपया स्टाफ से पुष्टि करें",
-    "composerPlaceholder": "मेन्यू के बारे में पूछें…",
-    "send": "ब भेजें",
+    "composerPlaceholder": "मेनू के बारे में पूछें…",
+    "send": "भेजें",
     "close": "बंद करें",
-    "noInfo": "इस मेन्यू में मेरे पास वह जानकारी नहीं है।",
+    "noInfo": "मेरे पास वर्तमान मेनू में वह जानकारी नहीं है।",
     "categories": {
-      "weekly": "साप्ताहिक विशेष",
-      "traditional": "पारंपरिक",
+      "weekly": "लंच स्पेशल",
+      "oktoberfest": "Oktoberfest",
+      "traditional": "परंपरागत",
       "sausages": "सॉसेज",
       "starters": "स्टार्टर",
-      "vegan": "वेजन",
-      "desserts": "डेसर्ट",
+      "vegan": "वीगन",
+      "desserts": "डेज़र्ट",
       "beer": "बीयर",
       "wine": "वाइन",
-      "aperitif": "एपेरिटिफ",
+      "aperitif": "अपेरिटिफ",
       "spirits": "शराब",
       "drinks": "नॉन-अल्कोहल पेय और कॉफ़ी",
       "kids": "बच्चों के लिए"
     },
     "tagLabels": {
       "sharing": "साझा करने योग्य",
-      "signature": "सिग्नेचर",
+      "signature": "दस्तख़त",
       "hearty": "भोजनपूर्ण",
       "classic": "क्लासिक",
       "light": "हल्का",
-      "seasonal": "सीज़नल",
+      "seasonal": "मौसमी",
       "strong": "मज़बूत",
-      "non-alcoholic": "बिना अल्कोहल",
+      "non-alcoholic": "नॉन-अल्कोहल",
       "vegetarian": "शाकाहारी",
-      "vegan": "वेजन",
-      "spirit": "शराब",
+      "vegan": "वीगन",
+      "spirit": "शॉट/स्ट्रॉन्ग",
       "water": "पानी",
       "coffee": "कॉफ़ी",
       "hot-drink": "गरम पेय",
-      "aperitif": "एपेरिटिफ",
+      "aperitif": "अपेरिटिफ",
       "bowl": "बाउल",
-      "white": "सफेद",
+      "white": "सफ़ेद",
       "red": "लाल",
       "rose": "रोज़े",
       "sparkling": "स्पार्कलिंग",
-      "dessert-wine": "डेसर्ट वाइन",
+      "dessert-wine": "डेज़र्ट वाइन",
       "by-glass": "ग्लास में",
       "bottle": "बोतल",
       "lunch-special": "लंच स्पेशल",
@@ -59,7 +66,7 @@
       "dairy": "डेयरी",
       "egg": "अंडा",
       "mustard": "सरसों",
-      "nuts": "नट",
+      "nuts": "नट्स",
       "peanuts": "मूंगफली",
       "fish": "मछली",
       "soy": "सोया",
@@ -68,69 +75,81 @@
       "sesame": "तिल"
     },
     "quickSuggestions": [
-      "आप क्या सुझाएंगे?",
+      "आप क्या सिफ़ारिश करते हैं?",
       "किस पेय का मेल इस डिश से होगा?",
-      "वेजन विकल्प दिखाइए",
-      "किसमें एलर्जेन हैं?",
-      "कुछ हल्का दिखाइए",
-      "कुछ पारंपरिक दिखाइए"
+      "वीगन विकल्प दिखाइए",
+      "किसमें एलर्जन हैं?",
+      "कुछ हल्का",
+      "कुछ पारंपरिक"
     ]
   },
   "items": {
-    "chanterelle-soup": {
-      "description": "कैंटरेल मशरूम की क्रीम सूप, टायरोली बेकन डम्पलिंग के साथ।",
-      "pairing": "चardonnay (ग्लास में)"
-    },
-    "romaine-chanterelle-salad": {
-      "description": "रोमेन लेटस के हार्ट, रسبेरी विनैग्रेट, कच्चा प्याज, रेड रैडिश और भुनी हुई कैंटरेल के साथ।",
-      "pairing": "Weissweinschorle"
-    },
-    "veal-steak-chanterelle": {
-      "description": "बछड़े का स्टेक, कैंटरेल, मटर और क्रीमी आलू के साथ।",
-      "pairing": "Pinot Noir Ried Goldberg"
-    },
-    "chanterelle-linguine": {
-      "description": "लिंगुइनी पास्ता कैंटरेल, क्रीम, थाइम और Bergkäse माउंटेन चीज के साथ।",
-      "pairing": "Chardonnay (ग्लास में)"
-    },
-    "chanterelle-cream": {
-      "description": "क्रीमी कैंटरेल, थाइम और प्रेट्ज़ल डम्पलिंग के साथ।",
-      "pairing": "Grüner Veltliner Ried Steinberg"
-    },
-    "lunch-monday-asparagus-linguine": {
-      "description": "वीकडे लंच स्पेशल (12:00–15:30), कॉफ़ी शामिल। ऐस्पैरेगस लिंगुइनी, चाइव क्रीम, रोस्ट बीफ और टमाटर के साथ।",
-      "pairing": "Sauvignon Blanc"
+    "lunch-monday-tagliatelle": {
+      "description": "सोमवार लंच स्पेशल, परोसा जाता है 12:00–15:30. वाइल्ड फॉरेस्ट मशरूम और धनिया के साथ टैग्लियातेली।",
+      "pairing": "Grauburgunder (ग्लास में)"
     },
     "lunch-tuesday-bratengroestl": {
-      "description": "वीकडे लंच स्पेशल (12:00–15:30), कॉफ़ी शामिल। सफेद गोभी, आलू का डम्पलिंग और फ्राइड अंडे के साथ मिक्स्ड रोस्ट।",
+      "description": "मंगलवार लंच स्पेशल, परोसा जाता है 12:00–15:30. मिक्स्ड रोस्ट, सफेद गोभी, आलू के दोमलिंग और तला हुआ अंडा।",
       "pairing": "Münchner Dunkel"
     },
-    "lunch-wednesday-strindberg-steak": {
-      "description": "वीकडे लंच स्पेशल (12:00–15:30), कॉफ़ी शामिल। हरी फली और आलू ग्रैटिन के साथ पोर्क लOIN स्टेक।",
-      "pairing": "Pinot Noir Ried Goldberg"
+    "lunch-wednesday-leberkaese": {
+      "description": "बुधवार लंच स्पेशल, परोसा जाता है 12:00–15:30. पैन-भुना Leberkäse, तले हुए अंडे और आलू-खीरा सलाद के साथ।",
+      "pairing": "Münchner Hell"
     },
     "lunch-thursday-chicken-geschnetzeltes": {
-      "description": "वीकडे लंच स्पेशल (12:00–15:30), कॉफ़ी शामिल। मशरूम सॉस में कटी हुई चिकन, हर्ब Spätzle के साथ।",
-      "pairing": "Chardonnay (ग्लास में)"
+      "description": "गुरूवार लंच स्पेशल, परोसा जाता है 12:00–15:30. मशरूम सॉस में पतले कटे हुए चिकन के टुकड़े, हर्ब स्पätzle के साथ।",
+      "pairing": "Münchner Radler"
     },
     "lunch-friday-fish-fillet": {
-      "description": "वीकडे लंच स्पेशल (12:00–15:30), कॉफ़ी शामिल। तली हुई आज की पकड़ी हुई मछली, रेमुलैड और आलू-खीरा सलाद के साथ।",
-      "pairing": "Riesling Easy-White"
+      "description": "शुक्रवार लंच स्पेशल, परोसा जाता है 12:00–15:30. तली हुई आज की पकड़ (फिश फिले) रेमोलेड और आलू-खीरा सलाद के साथ।",
+      "pairing": "Riesling Smoky Dry"
+    },
+    "oktoberfest-pumpkin-soup": {
+      "description": "मखमली कद्दू की सूप, Styrian कद्दू-बीज तेल और भुने हुए बीज के साथ।",
+      "pairing": "Weissweinschorle"
+    },
+    "oktoberfest-leberkas-burger": {
+      "description": "Leberkäse बर्गर, तला हुआ अंडा, फ्रेंच फ्राइज और हर्ब सॉर क्रीम के साथ।",
+      "pairing": "Oktoberfestbier"
+    },
+    "oktoberfest-bauernsalat": {
+      "description": "मिक्स्ड पत्तों का सलाद, आलू का सलाद और कोलस्लॉ, कुरकुरे पोर्क-बेली स्ट्रिप्स के साथ।",
+      "pairing": "Münchner Radler"
+    },
+    "oktoberfest-milchkalb-steak": {
+      "description": "दूध-पालित वील स्टेक, बेकन बीन्स, रेड वाइन जूस और क्रीमी आलू के साथ।",
+      "pairing": "Pinot Noir Ried Goldberg"
+    },
+    "oktoberfest-half-chicken": {
+      "description": "ग्रिल्ड आधा चिकन (½ Hendl) आलू-खीरा सलाद या फ्रेंच फ्राइज के साथ।",
+      "pairing": "Hefeweizen (Yeast White)"
+    },
+    "oktoberfest-boiled-beef-fillet": {
+      "description": "उबला हुआ बीफ फिलेट, बीफ मैरो बोन, रूट वेजिटेबल्स, होरसरैडिश और रोज़मेरी आलू के साथ।",
+      "pairing": "Grüner Veltliner Ried Tenn DAC Reserve"
+    },
+    "oktoberfest-wiesn-reindl": {
+      "description": "टेबल के लिए शेयरिंग पैन: veal patty, schnitzel, bratwurst, pork knuckle और चिकन आलू के डम्पलिंग, साउरक्राउट और cheese spätzle के साथ। प्रति व्यक्ति कीमत, न्यूनतम दो लोग।",
+      "pairing": "Oktoberfestbier"
+    },
+    "oktoberfestbier": {
+      "description": "Wiesn के लिए डाला गया ज़्यादा मॉल्टी और मज़बूत फेस्टिवल लेगर।",
+      "pairing": "Steak vom Milchkalb"
     },
     "donisl-roasting-pan": {
-      "description": "बीफ, बत्तख, पोर्क नट और सॉसेज के साथ रेड कैबेज, आलू के डम्पलिंग और चीज़ स्पätzle — साझा करने के लिए।",
+      "description": "बीफ, डक, पर्क नकल और सॉसेज रेड कैबेज, आलू के डम्पलिंग और cheese spaetzle के साथ — साझा करने के लिए।",
       "pairing": "Münchner Dunkel"
     },
     "roast-pork": {
-      "description": "बेवेरियन पोर्क शोल्डर और बेली, कुरकुरा परत, नैचुरल ग्रेवी, आलू के डम्पलिंग और कोलस्लॉ के साथ।",
+      "description": "बवेरियन पोर्क शोल्डर और बेली, कुरकुरी त्वचा के साथ, नैचुरल ग्रेवी, आलू के डम्पलिंग और कोलस्लॉ।",
       "pairing": "Münchner Dunkel"
     },
     "schweinshaxe": {
-      "description": "क्रिस्पी रोस्टेड पोर्क नट, नैचुरल सॉस, आलू के डम्पलिंग और कोलस्लॉ के साथ परोसा गया।",
-      "pairing": "Best with Dunkel beer."
+      "description": "कुरकुरी भुनी आधी पोर्क नकल, नैचुरल सॉस, आलू के डम्पलिंग और कोलस्लॉ के साथ परोसी जाती है।",
+      "pairing": "Münchner Dunkel"
     },
     "wiener-schnitzel": {
-      "description": "बेवेरियन स्ट्रॉ-फेड पोर्क का विंनर श्निट्ज़ल, फ्राइज या आलू-खीरा सलाद और क्रैनबेरी के साथ।",
+      "description": "बवेरियन स्ट्रॉ-फेड पोर्क श्निट्ज़ल, फ़्राइज या आलू-खीरा सलाद और क्रैनबेरी के साथ।",
       "pairing": "Riesling Easy-White or a Radler"
     },
     "farm-duck": {
@@ -142,79 +161,71 @@
       "pairing": "Münchner Radler"
     },
     "duet-of-the-ox": {
-      "description": "ऑक्स का शोल्डर और चीक, रेड वाइन जूस, बेबी स्पिनच, क्रीमी आलू।",
+      "description": "ब्रायज़्ड ऑक्स और ग्रिल्ड ऑक्स स्टेक, रेड वाइन जूस, रेड कैबेज, क्रीमी आलू के साथ।",
       "pairing": "Black OX Cuvée"
     },
-    "veal-steak": {
-      "description": "रंगीन पेपरकॉर्न क्रीम सॉस, फ्लेम्ड कोलराबी, आलू rösti के साथ।",
-      "pairing": "Pinot Blanc Grand Reserve"
-    },
     "veal-meatballs": {
-      "description": "सजी साग-सब्ज़ियाँ, रोज़मेरी आलू के साथ।",
-      "pairing": "Pinot Gris Tradition"
+      "description": "हाथ से दबाए गए veal पैटीज़, ताज़ी सब्ज़ियों के साथ और रोज़मेरी आलू।",
+      "pairing": "Grauburgunder Tradition"
     },
     "white-sausage": {
-      "description": "दो टुकड़े, प्रेट्ज़ल और सरसों के साथ परोसे जाते हैं।",
+      "description": "दो पीस, प्रेतज़ेल और सरसों के साथ परोसा जाता है।",
       "pairing": "Hefeweizen (Yeast White)"
     },
     "white-sausage-piece": {
-      "description": "एक सिंगल व्हाइट सॉसेज।",
+      "description": "एकल Weißwurst।",
       "pairing": "Hefeweizen (Yeast White)"
     },
     "polish-sausage": {
-      "description": "प्रेट्ज़ल और सरसों के साथ।",
+      "description": "प्रेतज़ेल और सरसों के साथ।",
       "pairing": "Russn"
     },
     "currywurst": {
-      "description": "करी सॉसेज, फ्रेंच फ्राइज के साथ परोसा गया।",
+      "description": "Donisl की करी सॉस में सॉसेज, फ्रेंच फ्राइज के साथ परोसा जाता है।",
       "pairing": "Hefeweizen wheat beer"
     },
     "bratwurstreindl": {
-      "description": "ग्रिल्ड सॉसेज का पैन, सॉरक्राउट या आलू सलाद के साथ — साझा करने योग्य परोस।",
+      "description": "ग्रिल्ड सॉसेज का पैन, साउरक्राउट या आलू सलाद के साथ — शेयरिंग भाग।",
       "pairing": "Russn (light Hefeweizen)"
     },
     "rump-steak": {
-      "description": "Murnau बीफ, रेड वाइन और प्याज़ जूस, तले हुए प्याज़, käsespätzle के साथ।",
-      "pairing": "Tuscany Red Cuvée"
+      "description": "Murnau बीफ, रेड वाइन और प्याज़ जूस के साथ, तले हुए प्याज़, käsespätzle।",
+      "pairing": "Primitivo Puglia IGT"
     },
     "ribeye-300g": {
-      "description": "Murnau बीफ का फैट कैप, Café de Paris सॉस, ग्रिल्ड सब्ज़ियाँ, आलू ग्रैटिन।",
+      "description": "Murnau बीफ का फैट कैप, café de paris सॉस, ग्रिल्ड सब्ज़ियाँ, आलू ग्रैटिन।",
       "pairing": "Brunello di Montalcino DOCG"
     },
     "deluxe-burger": {
-      "description": "200g Werdenfelser बीफ, चेडर, लेटस, टमाटर, पिकल, प्याज़, घर का Donisl सॉस।",
+      "description": "200g Werdenfelser बीफ, चेडर, लेट्यूस, टमाटर, पिकल्स, प्याज़, घर का बनाया Donisl सॉस। +3.90 के साथ फ्रेंच फ्राइज।",
       "pairing": "Münchner Hell"
     },
-    "icefish": {
-      "description": "थाइम, रैटटतुई सब्ज़ियाँ, आलू ग्रैटिन के साथ।",
+    "zanderfilet": {
+      "description": "आलू की क्रस्ट के नीचे पाइक-पर्च फ़िलेट, रंगीन शरद ऋतु की सब्ज़ियाँ और होरसरैडिश सॉस के साथ।",
       "pairing": "Sauvignon Blanc"
     },
     "brotzeitbrettl": {
-      "description": "फार्मर की स्मोक्ड मीट, बेकन सॉसेज, लीवरवर्स्ट, ठंडी रोस्ट बीफ, O'gmachter, माउंटेन चीज़, हॉर्सरैडिश, ब्रेड।",
+      "description": "किसान के स्मोक्ड मीट्स, बेकन सॉसेज, लीवरवुर्स्ट, कोल्ड रोस्ट बीफ, O'gmachter, पर्वतीय चीज़, होरसरैडिश, ब्रेड।",
       "pairing": "Hefeweizen (Yeast White)"
     },
     "donisl-4erlei": {
-      "description": "हम्मस, मेड चीज़, नमक वाला बटर और हर्ब्ड सॉर क्रीम, ब्रेड बास्केट के साथ।",
+      "description": "हुम्मुस, घर का चीज़, नमक हुआ बटर और हर्ब सॉर क्रीम, ब्रेड बास्केट के साथ परोसा जाता है।",
       "pairing": "Weissweinschorle"
     },
     "beef-tartare": {
-      "description": "ट्रफल क्रीम, बेक्ड ऑर्गेनिक एग के साथ।",
+      "description": "ट्रफल क्रीम, बेक्ड ऑर्गेनिक अंडा।",
       "pairing": "Pinot Noir Ried Goldberg"
     },
-    "calfs-head-carpaccio": {
-      "description": "अनार, हॉर्सरैडिश, खीरा के साथ।",
-      "pairing": "Grüner Veltliner Ried Tenn DAC Reserve"
-    },
     "ogmachter-kas": {
-      "description": "क्रीमी चीज़, प्याज़ के रिंग, रेडिश, लेटस और बेरीज़ के साथ।",
+      "description": "क्रीमी चीज़ प्याज़ के रिंग्स, मूली, सलाद पत्तियाँ और बेरीज़ के साथ।",
       "pairing": "Münchner Radler"
     },
     "sausage-salad": {
-      "description": "हाउस ड्रेसिंग, प्याज़ के रिंग, अचार, टमाटर, बेरी (+1.90 के साथ माउंटेन चीज़ के स्ट्रिप्स)।",
+      "description": "हाउस ड्रेसिंग, प्याज़ के रिंग, अचार, टमाटर, बेरी (+1.90 पर पर्वतीय चीज़ की स्ट्रिप्स)।",
       "pairing": "Russn"
     },
     "donisl-salad": {
-      "description": "लेफी ग्रीन्स, टमाटर, खीरा, हाउस ड्रेसिंग, सीड्स और क्राउटन के साथ।",
+      "description": "हरी पत्तियाँ, टमाटर, खीरा, हाउस ड्रेसिंग, बीज और क्रूटॉन्स।",
       "pairing": "Weissweinschorle"
     },
     "bread-basket": {
@@ -222,108 +233,100 @@
       "pairing": "Münchner Hell"
     },
     "brezn": {
-      "description": "बेवेरियन प्रेटज़ल।",
+      "description": "बवेरियन प्रेट्ज़ेल।",
       "pairing": "Münchner Hell"
     },
     "oxen-consomme": {
-      "description": "क्लीयर बीफ ब्रॉथ, लीवर डम्पलिंग या पैनकेक स्ट्रिप्स, सब्ज़ियाँ और चैव्स के साथ।",
-      "pairing": "Weissweinschorle"
-    },
-    "tomato-soup": {
-      "description": "सिल्की टमाटर सूप, बुर्राटा-बेसिल क्रीम के साथ।",
+      "description": "ज़्यादा साफ़ बीफ ब्रोथ, लिवर डम्पलिंग या पैनकेक स्ट्रिप्स, सब्ज़ियाँ और चैव्स के साथ।",
       "pairing": "Weissweinschorle"
     },
     "classic-sides": {
-      "description": "सॉरक्राउट, रेड कैबेज, बेकन और कैबेज सलाद, क्रीमी आलू, आलू के डम्पलिंग, छोटे रोस्ट आलू, Spätzle या फ्रेंच फ्राइज — प्रत्येक।",
+      "description": "साउरक्राउट, रेड कैबेज, बेकन और गोभी का सलाद, क्रीमी आलू, आलू के डम्पलिंग, छोटे रोस्टेड आलू, spätzle या फ्रेंच फ्राइज — प्रत्येक।",
       "pairing": "Münchner Hell"
     },
     "vegetable-sides": {
-      "description": "सब्ज़ी साइड डिश या आलू और खीरा सलाद — प्रत्येक।",
+      "description": "सब्ज़ियों का साइड डिश या आलू और खीरे का सलाद — प्रत्येक।",
       "pairing": "Weissweinschorle"
     },
     "power-bowl": {
-      "description": "खुशबूदार चावल, एवोकाडो, एडामेम, छोले, गाजर, टमाटर, खीरा, मूंगफली, ऑरेंज-पुदीना-लाइम ड्रेसिंग।",
-      "pairing": "Riesling Easy-White"
+      "description": "खुशबूदार चावल, एवोकाडो, एडामेमे, चने, गाजर, टमाटर, खीरा, मूंगफली, ऑरेंज-मिंट-लाइम ड्रेसिंग।",
+      "pairing": "Sauvignon Blanc Reserve -S-"
     },
     "kaesespaetzle": {
-      "description": "चीज़ Spätzle, प्याज़ के रिंग के साथ।",
+      "description": "प्याज़ के रिंग के साथ केज़ेस्पätzले (cheese spätzle)।",
       "pairing": "Münchner Dunkel or a full-bodied white wine"
     },
     "linguine-truffles": {
-      "description": "बेबी पालक और विंटर ट्रफल के साथ पास्ता।",
-      "pairing": "Chardonnay (ग्लास में)"
-    },
-    "rahmschwammerl": {
-      "description": "क्रीमी मशरूम, प्रेट्ज़ल डम्पलिंग के साथ परोसे गए।",
-      "pairing": "Grüner Veltliner Ried Steinberg"
+      "description": "बेबी स्पिनैच और विंटर ट्रफल के साथ पास्ता।",
+      "pairing": "Chardonnay (by the glass)"
     },
     "creme-brulee": {
-      "description": "सॉरबे और बेरीज़ के साथ परोसा गया।",
+      "description": "सॉरबे और बेरीज़ के साथ परोसा जाता है।",
       "pairing": "Rieslaner Auslese dessert wine"
     },
     "kaiserschmarrn": {
-      "description": "किशमिश, मक्खन, चीनी और करमलाइज्ड बादाम, सेब की चटनी के साथ — साझा करने के लिए आदर्श।",
+      "description": "किशमिश, मक्खन, चीनी और कारमेलाइज़्ड बादाम के साथ, सेब की चटनी के साथ परोसा जाता है — साझा करने के लिए उपयुक्त।",
       "pairing": "Rieslaner Auslese dessert wine"
     },
     "kirschmichl": {
-      "description": "गरम चेरी केक, कस्टर्ड के साथ परोसा गया।",
+      "description": "गरम चेरी केक, कस्टर्ड के साथ परोसा जाता है।",
       "pairing": "Rieslaner Auslese"
     },
     "apple-strudel": {
-      "description": "क्लासिक एप्पल स्ट्रूडेल, कस्टर्ड के साथ।",
+      "description": "क्लासिक एप्पल स्ट्रुडेल कस्टर्ड के साथ परोसा जाता है।",
       "pairing": "Milchkaffee"
     },
     "muenchner-hell": {
-      "description": "बॉटम-फ़रमेंटेड, हल्का कड़वा हॉप नोट, थोड़ा माल्टी। 5.0% वॉल।",
+      "description": "नीचे-फर्मेन्टेड, हल्का कड़वा हॉप नोट, थोड़ा माल्टी। 5.0% वॉल।",
       "pairing": "Wiener Schnitzel"
     },
     "beer-light-alcohol-free": {
-      "description": "प्राकृतिक रूप से बादल-सा, कैरेमल और शहद के नोट। <0.5% वॉल।",
+      "description": "प्राकृतिक रूप से झुंधला, करमैल और शहद के नोट। <0.5% वॉल।",
       "pairing": "Brotzeitbrettl"
     },
     "muenchner-radler": {
-      "description": "म्यूनिख हेल्लेस बियर, हल्की लेमनेड के साथ, ज़्यादा मीठा नहीं।",
+      "description": "Munich Helles और हल्की लेमनेड का मिश्रण, ज़्यादा मीठा नहीं।",
       "pairing": "Donisl Salad"
     },
     "muenchner-dunkel": {
-      "description": "नाज़ुक रूप से कड़वा, रोस्टेड माल्ट के साथ कैरेमल और कैंडी फ्रूट नोट। 5.0% वॉल।",
+      "description": "नाज़ुक रूप से कड़वा, रोस्टेड माल्ट के साथ करमैल और कैंडी किए फल के नोट। 5.0% वॉल।",
       "pairing": "Schweinshaxe"
     },
     "hefeweizen": {
-      "description": "टॉप-फ़रमेंटेड व्हीट बीयर, केले और शहद के नोट के साथ।",
+      "description": "ऊपर से फर्मेन्टेड व्हीट बीयर, केले और शहद के सार के साथ।",
       "pairing": "White sausage (Kesselfrisch)"
     },
     "russn": {
-      "description": "Hefeweizen, हल्की लेमनेड के साथ, ज़्यादा मीठा नहीं।",
+      "description": "हैफ़ेवाइज़ेन और हल्की लेमनेड का मिश्रण, ज़्यादा मीठा नहीं।",
       "pairing": "Bratwurstreindl"
     },
     "cola-wheat": {
-      "description": "Hefeweizen और कोका-कोला का मिश्रण।",
+      "description": "हैफ़ेवाइज़ेन और कोका-कोला का मिश्रण।",
       "pairing": "Currywurst"
     },
     "non-alcoholic-wheat": {
-      "description": "पूर्ण परिपक्वता के बाद हल्का डिअल्कोहलाइज़्ड, अपनी महक बरकरार रखता है।",
+      "description": "पूर्ण परिपक्वता के बाद धीरे से डी-अल्कोहल किया गया, अपनी खुशबू बनाए रखता है।",
       "pairing": "Backhendl"
     },
     "salvator": {
-      "description": "मज़बूत बीयर (Starkbier), सीज़नल — फ़रवरी/मार्च में उपलब्ध। 0.5l।",
+      "description": "मज़बूत बीयर (Starkbier), मौसमी — उपलब्ध फ़रवरी/मार्च में। 0.5l।",
       "pairing": "Duet of the Ox"
     },
     "kellerbier": {
-      "description": "सीज़नल — जून/जुलाई/अगस्त (समरटाइम) में उपलब्ध। 0.5l।",
+      "description": "मौसमी — जून/जुलाई/अगस्त (समरटाइम) में उपलब्ध। 0.5l।",
       "pairing": "Brotzeitbrettl"
     },
     "wiesnbier": {
-      "description": "ऑक्टोबरफेस्ट बीयर, सीज़नल — सितंबर/अक्टूबर में उपलब्ध। 0.5l।",
+      "description": "Oktoberfest बीयर, मौसमी — सितंबर/अक्टूबर में उपलब्ध।",
       "pairing": "Donisl roasting pan"
     },
     "weissweinschorle": {
       "description": "व्हाइट वाइन स्प्रिट्ज़र। 0.3l।",
-      "pairing": "Romanaherzen"
+      "pairing": "Donisl Salad"
     },
     "pinot-gris-glass": {
-      "description": "Hirschmüller वाइनरी, Württemberg — हल्का, आसानी से पीने लायक।",
-      "pairing": "Veal meatballs"
+      "description": "Hirschmüller Winery, Württemberg — हल्का, आसानी से पीने योग्य।",
+      "pairing": "Kalbfleischpflanzerl (hand-pressed)"
     },
     "primitivo-glass": {
       "description": "Sir of the Faun, Puglia — गहरे बेरीज़, चेरी, सूक्ष्म मसाला।",
@@ -342,107 +345,107 @@
       "pairing": "Donisl \"4erlei\""
     },
     "valdo-prosecco": {
-      "description": "Valdo, Veneto — क्लासिक इटालियन स्पार्कलिंग वाइन। 0.75l बोतल।",
+      "description": "Valdo, Veneto — क्लासिक इतालवी स्पार्कलिंग वाइन। 0.75l बोतल।",
       "pairing": "Donisl Salad"
     },
     "winzersekt": {
-      "description": "Pfaffmann वाइनरी, Palatinate, Germany. 0.75l बोतल।",
-      "pairing": "Velvet soup from bush tomato"
+      "description": "Pfaffmann Winery, Palatinate, Germany. 0.75l बोतल।",
+      "pairing": "Oxen consommé"
     },
     "chardonnay-bottle": {
-      "description": "Hirschmüller वाइनरी, Württemberg — पैशन फ्रूट, मैंगा, अनानास। 0.75l बोतल।",
-      "pairing": "Rahmschwammerl"
+      "description": "Hirschmüller Winery, Württemberg — पैशन फ्रूट, मैंगो, अनानास। 0.75l बोतल।",
+      "pairing": "Käsespätzle"
     },
     "chardonnay-glass": {
-      "description": "Hirschmüller वाइनरी, Württemberg. 0.1l।",
-      "pairing": "Pfifferling-Linguine"
+      "description": "Hirschmüller Winery, Württemberg. 0.1l।",
+      "pairing": "Linguine with truffles"
     },
     "chardonnay-macon-ige": {
-      "description": "Domaine Fichet, Burgundy — सेब, नाशपाती, सफेद आड़ू, सूक्ष्म मिनरलिटी। 0.75l बोतल।",
+      "description": "Domaine Fichet, Burgundy — सेब, नाशपाती, सफेद आड़ू, सूक्ष्म मिनरैलिटी। 0.75l बोतल।",
       "pairing": "Käsespätzle"
     },
     "pinot-gris-tradition": {
-      "description": "Bott Frères वाइनरी, Burgundy — खुबानी, Viennese सेब, हेज़लनट, हल्का धुआँ। 0.75l बोतल।",
-      "pairing": "Veal steak"
+      "description": "Bott Frères Winery, Burgundy — खुबानी, Vienna-style सेब, हेज़लनट, हल्का धुँआ। 0.75l बोतल।",
+      "pairing": "Kalbfleischpflanzerl (hand-pressed)"
     },
     "pinot-gris-oetinger": {
-      "description": "Oetinger वाइनरी, Rheingau — पका नाशपाती, पीला सेब, बादाम का संकेत। 0.75l बोतल।",
+      "description": "Oetinger Winery, Rheingau — पकी नाशपाती, पीला सेब, बादाम का संकेत। 0.75l बोतल।",
       "pairing": "Backhendl"
     },
     "pinot-gris-reserve-pauline": {
-      "description": "Pfaffmann वाइनरी, Palatinate — नाशपाती, अनानास, नेक्टरीन, लेमनग्रास, फ़्लोरल। 0.75l बोतल।",
+      "description": "Pfaffmann Winery, Palatinate — नाशपाती, अनानास, नेक्टरीन, लेमनग्रास, पुष्पी। 0.75l बोतल।",
       "pairing": "O'gmachter Kas"
     },
     "pinot-blanc-grand-reserve": {
-      "description": "Taubenschuss वाइनरी, Austrian Weinviertel — खरबूजा, हेज़लनट, घास, कैरेमल। 0.75l बोतल।",
+      "description": "Taubenschuss Winery, Austrian Weinviertel — खरबूजा, हेज़लनट, घास, करमैल। 0.75l बोतल।",
       "pairing": "Donisl \"4erlei\""
     },
     "trebbiano-di-lugana": {
-      "description": "Zenato वाइनरी, Veneto, Italy — ताज़ी एसिडिटी, मिनरल, साइट्रस, हरा सेब, नाशपाती। 0.75l बोतल।",
+      "description": "Zenato Winery, Veneto, Italy — ताज़ा अम्लता, खनिजीय, खट्टा फ़ल, हरा सेब, नाशपाती। 0.75l बोतल।",
       "pairing": "Sausage salad from Regensburg"
     },
     "lugana-glass": {
-      "description": "Zenato वाइनरी, Veneto, Italy. 0.1l।",
-      "pairing": "Icefish"
+      "description": "Zenato Winery, Veneto, Italy. 0.1l।",
+      "pairing": "Zander fillet with potato crust"
     },
     "riesling-easy-white": {
-      "description": "Oetinger वाइनरी, Rheingau — लाइम, सेब, सफेद आड़ू, आदर्श अपेरिटिफ। 0.75l बोतल।",
+      "description": "Oetinger Winery, Rheingau — लाइम, सेब, सफेद आड़ू, आदर्श अपेरिटिफ। 0.75l बोतल।",
       "pairing": "Wiener Schnitzel"
     },
     "riesling-gottloos": {
-      "description": "Dr. Loosen वाइनरी, Mosel — साइट्रस, सेब, एलीगेंट मिनरलिटी। 0.75l बोतल।",
+      "description": "Dr. Loosen Winery, Mosel — खट्टा फ़ल, सेब, सुरुचिपूर्ण मिनरैलिटी। 0.75l बोतल।",
       "pairing": "Wiener Schnitzel"
     },
     "riesling-heiligenstein": {
-      "description": "Bründlmayer वाइनरी, Langenlois, Kamptal, Austria — ताज़ा साइट्रस, सेब, हर्बल मसाला। 0.75l बोतल।",
+      "description": "Bründlmayer Winery, Langenlois, Kamptal, Austria — ताज़ा साइट्रस, सेब, हर्बल मसाला। 0.75l बोतल।",
       "pairing": "Donisl Salad"
     },
     "riesling-smoky-dry": {
-      "description": "Weingut Oetinger, Rheingau — स्मोकी मिनरलिटी, रसदार सेब, साइट्रस। 0.75l बोतल।",
+      "description": "Weingut Oetinger, Rheingau — स्मोकी मिनरैलिटी, रसदार सेब, साइट्रस। 0.75l बोतल।",
       "pairing": "Currywurst"
     },
     "riesling-bright-side-of-life": {
-      "description": "Stahl वाइनरी, फ्रैंकोनिया, Germany — फ़्रूटी, ताज़ा, सरल। 0.75l बोतल।",
+      "description": "Stahl Winery, Franconia, Germany — फलदार, ताज़ा, सरल। 0.75l बोतल।",
       "pairing": "Gebackenes Fischfilet (Friday)"
     },
     "riesling-nachschlag-glass": {
-      "description": "Stahl वाइनरी, फ्रैंकोनिया, Germany. 0.1l।",
+      "description": "Stahl Winery, Franconia, Germany. 0.1l।",
       "pairing": "Gebackenes Fischfilet (Friday)"
     },
     "sauvignon-blanc": {
-      "description": "Chateau de la Chaise, Loire — गूसबेरी, हरा सेब, एक्सोटिक फल। 0.75l बोतल।",
-      "pairing": "Icefish"
+      "description": "Chateau de la Chaise, Loire — गूसबेरी, हरा सेब, विदेशी फल। 0.75l बोतल।",
+      "pairing": "Zander fillet with potato crust"
     },
     "sauvignon-blanc-reserve": {
-      "description": "Taubenschuss वाइनरी, Austrian Weinviertel — लाइम, गूसबेरी, एक्सोटिक फल। 0.75l बोतल।",
+      "description": "Taubenschuss Winery, Austrian Weinviertel — लाइम, गूसबेरी, विदेशी फल। 0.75l बोतल।",
       "pairing": "Donisl Power Bowl"
     },
     "silvaner-easy-white": {
-      "description": "Weingut am Stein, Franconia — हरा सेब, नाशपाती, हल्की हर्ब्स। 0.75l बोतल।",
+      "description": "Weingut am Stein, Franconia — हरा सेब, नाशपाती, हल्के जड़ी-बूटी नोट। 0.75l बोतल।",
       "pairing": "Vegetable side dish"
     },
     "gruener-veltliner-tenn": {
-      "description": "Taubenschuss वाइनरी, Austrian Weinviertel — सेब, सफेद काली मिर्च, हर्बल मसाला। 0.75l बोतल।",
+      "description": "Taubenschuss Winery, Austrian Weinviertel — सेब, सफेद काली मिर्च, हर्बल मसाला। 0.75l बोतल।",
       "pairing": "Lukewarm calf's head carpaccio"
     },
     "riesling-gottloos-3l": {
-      "description": "Dr. Loosen वाइनरी, Mosel. 3.0l बोतल।",
+      "description": "Dr. Loosen Winery, Mosel. 3.0l बोतल।",
       "pairing": "Wiener Schnitzel"
     },
     "gruener-veltliner-steinberg": {
-      "description": "Karl Fritsch वाइनरी, Burgenland, Austria. 1.5l बोतल।",
-      "pairing": "Pfifferlingsrahm"
+      "description": "Karl Fritsch Winery, Burgenland, Austria. 1.5l बोतल।",
+      "pairing": "Käsespätzle"
     },
     "chardonnay-morillon": {
-      "description": "Lackner-Tinnacher वाइनरी, Southern Styria, Austria. 1.5l बोतल।",
+      "description": "Lackner-Tinnacher Winery, Southern Styria, Austria. 1.5l बोतल।",
       "pairing": "O'gmachter Kas"
     },
     "cuvee-adrian-sangiovese": {
-      "description": "रेड क्यूवée, Toscana Rosso, Tuscany. 1.5l बोतल।",
+      "description": "लाल क्यूवे, Toscana Rosso, Tuscany. 1.5l बोतल।",
       "pairing": "Duet of the Ox"
     },
     "primitivo-bottle": {
-      "description": "Barbanera वाइनरी, Apulia, Italy — गहरे बेरीज़, चेरी, सूक्ष्म मसाला। 0.75l बोतल।",
+      "description": "Barbanera Winery, Apulia, Italy — गहरे बेरीज़, चेरी, सूक्ष्म मसाला। 0.75l बोतल।",
       "pairing": "Schweinebraten (roast pork)"
     },
     "herrgott-cuvee": {
@@ -458,15 +461,15 @@
       "pairing": "Roast beef — rump steak"
     },
     "pinot-noir-goldberg": {
-      "description": "Toni Hartl वाइनरी, Burgenland — लाल बेरीज़, चेरी, सूक्ष्म मसाला। 0.75l बोतल।",
+      "description": "Toni Hartl Winery, Burgenland — लाल बेरीज़, चेरी, सूक्ष्म मसाला। 0.75l बोतल।",
       "pairing": "Steak vom Milchkalb"
     },
     "merlot": {
-      "description": "Chateau Gensac, Gascony — गहरे चेरी, आलूबुखारा, मसाला। 0.75l बोतल।",
+      "description": "Chateau Gensac, Gascony — गहरे चेरी, प्लम, मसाला। 0.75l बोतल।",
       "pairing": "Veal meatballs"
     },
     "brunello-di-montalcino": {
-      "description": "Tenuta Corte Pavone वाइनरी, Sangiovese, Tuscany — गहरा बेरी, चेरी, चॉकलेट। 0.75l बोतल।",
+      "description": "Tenuta Corte Pavone Winery, Sangiovese, Tuscany — गहरा बेरी, चेरी, चॉकलेट। 0.75l बोतल।",
       "pairing": "Ribeye 300 grams"
     },
     "black-ox-cuvee": {
@@ -474,19 +477,19 @@
       "pairing": "Duet of the Ox"
     },
     "rose-lime-stone": {
-      "description": "Unger वाइनरी, Lake Neusiedl — लाल बेरीज़, स्ट्रॉबेरी, रास्पबेरी, साइट्रस। 0.75l बोतल।",
+      "description": "Unger Winery, Lake Neusiedl — लाल बेरीज़, स्ट्रॉबेरी, रास्पबेरी, साइट्रस। 0.75l बोतल।",
       "pairing": "Donisl Salad"
     },
     "torres-natureo": {
       "description": "Miguel Torres, Vilafranca del Penedès — साइट्रस, सेब, हल्का। 0.75l बोतल।",
-      "pairing": "Romanaherzen"
+      "pairing": "Donisl Salad"
     },
     "rieslaner-auslese": {
-      "description": "Juliusspital वाइनरी, Franconia — डेसर्ट वाइन। 0.5l बोतल।",
+      "description": "Juliusspital Winery, Franconia — डेज़र्ट वाइन। 0.5l बोतल।",
       "pairing": "Kaiserschmarrn or Crème brûlée"
     },
     "aperol-spritz": {
-      "description": "क्लासिक इटालियन एपेरिटिफ। 0.2l।",
+      "description": "क्लासिक इतालवी अपेरिटिफ। 0.2l।",
       "pairing": "Brotzeitbrettl"
     },
     "hugo": {
@@ -502,7 +505,7 @@
       "pairing": "Donisl \"4erlei\""
     },
     "sanbitter": {
-      "description": "बिना अल्कोहल वाला बिट्टर एपेरिटिफ। 0.2l।",
+      "description": "अल्कोहल-फ्री बिटर अपेरिटिफ। 0.2l।",
       "pairing": "Oxen consommé"
     },
     "nut-in-a-bottle": {
@@ -522,7 +525,7 @@
       "pairing": "Donisl Deluxe Burger"
     },
     "williams-christ-pear": {
-      "description": "40% वॉल. Edelbrand, Sigi Herzog डिस्टिलेट्स। 2cl।",
+      "description": "40% वॉल. Edelbrand, Sigi Herzog Distillate. 2cl।",
       "pairing": "Apple strudel"
     },
     "farm-fruit-growers": {
@@ -530,19 +533,19 @@
       "pairing": "Kirschmichl"
     },
     "feiner-mirabell": {
-      "description": "Linster फाइन फ्रूट डिस्टिलरी, पक्व खुमानी फ्लेवर। 2cl।",
+      "description": "Linster फाइन फ्रूट डिस्टिलरी, पका हुआ खुबानी स्वाद। 2cl।",
       "pairing": "Crème brûlée"
     },
     "enzian-gentian-brandy": {
-      "description": "Wilhelm Marx फ़ाइन स्पिरिट्स मैन्युफैक्चर। 2cl।",
+      "description": "Wilhelm Marx Fine Spirits Manufactory. 2cl।",
       "pairing": "Schweinshaxe"
     },
     "raspberry-pulp-brandy": {
-      "description": "40% वॉल. Edelmanufaktur Wilhelm Marx। 2cl।",
+      "description": "40% वॉल. Edelmanufaktur Wilhelm Marx. 2cl।",
       "pairing": "Kaiserschmarrn (large)"
     },
     "grappa-chardonnay": {
-      "description": "Grandfather। 2cl।",
+      "description": "Grandfather. 2cl।",
       "pairing": "Crème brûlée"
     },
     "paulaner-spezi": {
@@ -574,11 +577,11 @@
       "pairing": "Donisl Deluxe Burger"
     },
     "bad-brambacher": {
-      "description": "सिलेंट या मीडियम। 0.5l।",
+      "description": "स्टील या मिडियम। 0.5l।",
       "pairing": "Brezn"
     },
     "table-water": {
-      "description": "सिलेंट या स्पार्क्लिंग।",
+      "description": "स्टील या स्पार्कलिंग।",
       "pairing": "Bread basket"
     },
     "apple-spritzer": {
@@ -586,11 +589,11 @@
       "pairing": "Kässpatzn"
     },
     "johannisbeerschorle": {
-      "description": "ब्लैककरन्ट स्प्रिट्ज़र। 0.4l।",
+      "description": "ब्लैककरंट स्प्रिट्ज़र। 0.4l।",
       "pairing": "Kirschmichl"
     },
     "maracujaschorle": {
-      "description": "पैशन फ्रूट स्प्रिट्ज़र। 0.4l।",
+      "description": "पास्शन फ्रूट स्प्रिट्ज़र। 0.4l।",
       "pairing": "Donisl Power Bowl"
     },
     "wolfra-orange-juice": {
@@ -634,11 +637,11 @@
       "pairing": "Apple strudel"
     },
     "kids-potato-dumplings": {
-      "description": "पोर्क रोस्ट ग्रेवी के साथ।",
+      "description": "पोरक रोस्ट ग्रेवी के साथ।",
       "pairing": "Wolfra orange juice"
     },
     "kids-kaesspatzn": {
-      "description": "किड्स पोर्शन में चीज़ Spätzle।",
+      "description": "चीज़ spätzle, बच्चों का हिस्सा।",
       "pairing": "Apple spritzer"
     },
     "kids-rostbratwuerstl": {

@@ -8,6 +8,15 @@ export type Strings = {
   chatTitle: string;
   discussing: string;
   askAboutThis: string;
+  /** Home screen — "today's lunch special" card. */
+  todaysLunchTitle: string;
+  /** Shown on weekends when there is no weekday lunch special. */
+  weekendLunchTitle: string;
+  weekendLunchText: string;
+  /** Oktoberfest home-screen banner + category badge. */
+  oktoberfestBadge: string;
+  oktoberfestBannerTitle: string;
+  oktoberfestBannerText: string;
   /** Contains the literal token `{dish}`, replaced client-side with the dish name. */
   askAboutDishTemplate: string;
   pairing: string;
@@ -39,6 +48,12 @@ export const BASE_STRINGS: Strings = {
   chatTitle: 'DonislKI',
   discussing: 'Discussing',
   askAboutThis: 'Ask AI about this',
+  todaysLunchTitle: "Today's lunch special",
+  weekendLunchTitle: 'Weekend at the Donisl',
+  weekendLunchText: 'No weekday lunch special today — our Oktoberfest Schmankerl are on all weekend.',
+  oktoberfestBadge: "It's Oktoberfest",
+  oktoberfestBannerTitle: 'Oktoberfest Schmankerl',
+  oktoberfestBannerText: "Wiesn time has started — our Oktoberfest specials are being served now.",
   askAboutDishTemplate: 'Tell me about {dish}',
   pairing: 'Best with',
   fromPricePrefix: 'from ',
@@ -57,7 +72,8 @@ export const BASE_STRINGS: Strings = {
     'Something traditional',
   ],
   categories: {
-    weekly: 'Weekly specials',
+    weekly: 'Lunch specials',
+    oktoberfest: 'Oktoberfest',
     traditional: 'Traditional',
     sausages: 'Sausages',
     starters: 'Starters',
@@ -161,7 +177,15 @@ export function isRtlLanguage(language: SupportedLanguage): boolean {
 }
 
 export type TranslatedItemText = { description: string; pairing?: string };
-type GeneratedBundle = { strings: Strings; items: Record<string, TranslatedItemText> };
+/**
+ * A pre-generated language bundle. `strings` is `Partial` because bundles are
+ * generated once and can lag behind newly-added `Strings` keys — getStrings()
+ * fills any gap from the English BASE_STRINGS.
+ */
+type GeneratedBundle = {
+  strings: Partial<Strings> & { categories?: Partial<Strings['categories']>; tagLabels?: Partial<Strings['tagLabels']> };
+  items: Record<string, TranslatedItemText>;
+};
 
 // Statically imported so translated content ships as part of the build —
 // no runtime fetch/latency for the menu UI.
@@ -207,46 +231,46 @@ import id from './generated/id.json';
 import ms from './generated/ms.json';
 
 const GENERATED: Partial<Record<SupportedLanguage, GeneratedBundle>> = {
-  uk: uk as GeneratedBundle,
-  de: de as GeneratedBundle,
-  fr: fr as GeneratedBundle,
-  es: es as GeneratedBundle,
-  it: it as GeneratedBundle,
-  pl: pl as GeneratedBundle,
-  cs: cs as GeneratedBundle,
-  sk: sk as GeneratedBundle,
-  hu: hu as GeneratedBundle,
-  ro: ro as GeneratedBundle,
-  bg: bg as GeneratedBundle,
-  el: el as GeneratedBundle,
-  tr: tr as GeneratedBundle,
-  pt: pt as GeneratedBundle,
-  nl: nl as GeneratedBundle,
-  da: da as GeneratedBundle,
-  sv: sv as GeneratedBundle,
-  no: no as GeneratedBundle,
-  fi: fi as GeneratedBundle,
-  lt: lt as GeneratedBundle,
-  lv: lv as GeneratedBundle,
-  et: et as GeneratedBundle,
-  sr: sr as GeneratedBundle,
-  hr: hr as GeneratedBundle,
-  sl: sl as GeneratedBundle,
-  sq: sq as GeneratedBundle,
-  ru: ru as GeneratedBundle,
-  ar: ar as GeneratedBundle,
-  he: he as GeneratedBundle,
-  fa: fa as GeneratedBundle,
-  hi: hi as GeneratedBundle,
-  ur: ur as GeneratedBundle,
-  'zh-hans': zhHans as GeneratedBundle,
-  'zh-hant': zhHant as GeneratedBundle,
-  ja: ja as GeneratedBundle,
-  ko: ko as GeneratedBundle,
-  th: th as GeneratedBundle,
-  vi: vi as GeneratedBundle,
-  id: id as GeneratedBundle,
-  ms: ms as GeneratedBundle,
+  uk: uk as unknown as GeneratedBundle,
+  de: de as unknown as GeneratedBundle,
+  fr: fr as unknown as GeneratedBundle,
+  es: es as unknown as GeneratedBundle,
+  it: it as unknown as GeneratedBundle,
+  pl: pl as unknown as GeneratedBundle,
+  cs: cs as unknown as GeneratedBundle,
+  sk: sk as unknown as GeneratedBundle,
+  hu: hu as unknown as GeneratedBundle,
+  ro: ro as unknown as GeneratedBundle,
+  bg: bg as unknown as GeneratedBundle,
+  el: el as unknown as GeneratedBundle,
+  tr: tr as unknown as GeneratedBundle,
+  pt: pt as unknown as GeneratedBundle,
+  nl: nl as unknown as GeneratedBundle,
+  da: da as unknown as GeneratedBundle,
+  sv: sv as unknown as GeneratedBundle,
+  no: no as unknown as GeneratedBundle,
+  fi: fi as unknown as GeneratedBundle,
+  lt: lt as unknown as GeneratedBundle,
+  lv: lv as unknown as GeneratedBundle,
+  et: et as unknown as GeneratedBundle,
+  sr: sr as unknown as GeneratedBundle,
+  hr: hr as unknown as GeneratedBundle,
+  sl: sl as unknown as GeneratedBundle,
+  sq: sq as unknown as GeneratedBundle,
+  ru: ru as unknown as GeneratedBundle,
+  ar: ar as unknown as GeneratedBundle,
+  he: he as unknown as GeneratedBundle,
+  fa: fa as unknown as GeneratedBundle,
+  hi: hi as unknown as GeneratedBundle,
+  ur: ur as unknown as GeneratedBundle,
+  'zh-hans': zhHans as unknown as GeneratedBundle,
+  'zh-hant': zhHant as unknown as GeneratedBundle,
+  ja: ja as unknown as GeneratedBundle,
+  ko: ko as unknown as GeneratedBundle,
+  th: th as unknown as GeneratedBundle,
+  vi: vi as unknown as GeneratedBundle,
+  id: id as unknown as GeneratedBundle,
+  ms: ms as unknown as GeneratedBundle,
 };
 
 /** Region subtags that mean "Traditional" for a bare 'zh' locale (navigator.language rarely omits the region for Chinese). */
@@ -268,7 +292,16 @@ export function getStrings(language: Language): Strings {
   const supported = normalizeToSupported(language);
   if (supported === 'en') return BASE_STRINGS;
   const bundle = GENERATED[supported];
-  return bundle ? { ...BASE_STRINGS, ...bundle.strings } : BASE_STRINGS;
+  if (!bundle) return BASE_STRINGS;
+  // Shallow-merge top-level strings, but deep-merge the nested label maps so a
+  // stale translation bundle (generated before a new category / tag existed)
+  // still falls back to the English label instead of rendering `undefined`.
+  return {
+    ...BASE_STRINGS,
+    ...bundle.strings,
+    categories: { ...BASE_STRINGS.categories, ...bundle.strings?.categories },
+    tagLabels: { ...BASE_STRINGS.tagLabels, ...bundle.strings?.tagLabels },
+  };
 }
 
 export function getTranslatedItemText(language: Language, itemId: string): TranslatedItemText | undefined {

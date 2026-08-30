@@ -7,21 +7,28 @@
     "chatTitle": "DonislKI",
     "discussing": "Diskuterer",
     "askAboutThis": "Spørg AI om dette",
+    "todaysLunchTitle": "Dagens frokosttilbud",
+    "weekendLunchTitle": "Weekend på Donisl",
+    "weekendLunchText": "Der er ingen hverdagsspecial i dag — vores Oktoberfest‑schmankerl serveres hele weekenden.",
+    "oktoberfestBadge": "Det er Oktoberfest",
+    "oktoberfestBannerTitle": "Oktoberfest‑schmankerl",
+    "oktoberfestBannerText": "Wiesn er begyndt — vores Oktoberfest‑specials serveres nu.",
     "askAboutDishTemplate": "Fortæl mig om {dish}",
-    "pairing": "Passer godt til",
+    "pairing": "Passer godt med",
     "fromPricePrefix": "fra ",
     "allergensLabel": "Allergener",
-    "allergensUnknown": "Kontakt venligst personalet for bekræftelse",
+    "allergensUnknown": "Bekræft venligst med personalet",
     "composerPlaceholder": "Spørg om menuen…",
     "send": "Send",
     "close": "Luk",
     "noInfo": "Jeg har ikke den information i den nuværende menu.",
     "categories": {
-      "weekly": "Ugentlige tilbud",
+      "weekly": "Frokosttilbud",
+      "oktoberfest": "Oktoberfest",
       "traditional": "Traditionelt",
       "sausages": "Pølser",
       "starters": "Forretter",
-      "vegan": "Vegan",
+      "vegan": "Vegansk",
       "desserts": "Desserter",
       "beer": "Øl",
       "wine": "Vin",
@@ -33,7 +40,7 @@
     "tagLabels": {
       "sharing": "til deling",
       "signature": "signatur",
-      "hearty": "fyldig",
+      "hearty": "kraftig",
       "classic": "klassiker",
       "light": "let",
       "seasonal": "sæson",
@@ -41,7 +48,7 @@
       "non-alcoholic": "alkoholfri",
       "vegetarian": "vegetarisk",
       "vegan": "vegansk",
-      "spirit": "spiritus",
+      "spirit": "sprit",
       "water": "vand",
       "coffee": "kaffe",
       "hot-drink": "varm drik",
@@ -50,13 +57,13 @@
       "white": "hvid",
       "red": "rød",
       "rose": "rosé",
-      "sparkling": "mousserende",
+      "sparkling": "bobler",
       "dessert-wine": "dessertvin",
-      "by-glass": "per glas",
+      "by-glass": "glas",
       "bottle": "flaske",
       "lunch-special": "frokosttilbud",
       "gluten": "gluten",
-      "dairy": "mælkeprodukter",
+      "dairy": "mælk",
       "egg": "æg",
       "mustard": "sennep",
       "nuts": "nødder",
@@ -77,60 +84,72 @@
     ]
   },
   "items": {
-    "chanterelle-soup": {
-      "description": "Kremet kantarelsuppe med en tyrolsk baconknödel.",
-      "pairing": "Chardonnay (per glas)"
-    },
-    "romaine-chanterelle-salad": {
-      "description": "Hjerter af romainesalat med hindbærvinaigrette, rødløg, radise og ristede kantareller.",
-      "pairing": "Weissweinschorle"
-    },
-    "veal-steak-chanterelle": {
-      "description": "Kalvebøf med kantareller, ærter og flødekartofler.",
-      "pairing": "Pinot Noir Ried Goldberg"
-    },
-    "chanterelle-linguine": {
-      "description": "Linguine med kantareller, fløde, timian og Bergkäse.",
-      "pairing": "Chardonnay (per glas)"
-    },
-    "chanterelle-cream": {
-      "description": "Kremede kantareller med timian og en pretzel-knödel.",
-      "pairing": "Grüner Veltliner Ried Steinberg"
-    },
-    "lunch-monday-asparagus-linguine": {
-      "description": "Hverdagsfrokost, serveres 12:00–15:30 inkl. kaffe. Linguine med asparges, purløgscreme, roastbeef og tomat.",
-      "pairing": "Sauvignon Blanc"
+    "lunch-monday-tagliatelle": {
+      "description": "Mandag frokosttilbud, serveres 12:00–15:30. Tagliatelle med vilde skovsvampe og persille.",
+      "pairing": "Grauburgunder (glas)"
     },
     "lunch-tuesday-bratengroestl": {
-      "description": "Hverdagsfrokost, serveres 12:00–15:30 inkl. kaffe. Blandt steg med hvidkål, kartoffelknödel og spejlæg.",
+      "description": "Tirsdag frokosttilbud, serveres 12:00–15:30. Bratengroestl – blandet steg med hvidkål, kartoffelknödel og spejlæg.",
       "pairing": "Münchner Dunkel"
     },
-    "lunch-wednesday-strindberg-steak": {
-      "description": "Hverdagsfrokost, serveres 12:00–15:30 inkl. kaffe. Svinekotelet med grønne bønner og kartoffelgratæn.",
-      "pairing": "Pinot Noir Ried Goldberg"
+    "lunch-wednesday-leberkaese": {
+      "description": "Onsdag frokosttilbud, serveres 12:00–15:30. Stegt Leberkäse med spejlæg og kartoffel‑agurkesalat.",
+      "pairing": "Münchner Hell"
     },
     "lunch-thursday-chicken-geschnetzeltes": {
-      "description": "Hverdagsfrokost, serveres 12:00–15:30 inkl. kaffe. Skiver af kylling i champignonsauce med urte-spätzle.",
-      "pairing": "Chardonnay (per glas)"
+      "description": "Torsdag frokosttilbud, serveres 12:00–15:30. Skiver af kylling i svampesauce med urte‑Spätzle.",
+      "pairing": "Münchner Radler"
     },
     "lunch-friday-fish-fillet": {
-      "description": "Hverdagsfrokost, serveres 12:00–15:30 inkl. kaffe. Paneret dagens fisk med remoulade og kartoffel-agurkesalat.",
-      "pairing": "Riesling Easy-White"
+      "description": "Fredag frokosttilbud, serveres 12:00–15:30. Sprødstegt dagens fangst med remoulade og kartoffel‑agurkesalat.",
+      "pairing": "Riesling Smoky Dry"
+    },
+    "oktoberfest-pumpkin-soup": {
+      "description": "Fløjlsblød græskarsuppe med østrigsk græskarkerneolie og ristede kerner.",
+      "pairing": "Weissweinschorle"
+    },
+    "oktoberfest-leberkas-burger": {
+      "description": "Leberkäse‑burger med stegt æg, pommes frites og urtecreme.",
+      "pairing": "Oktoberfestbier"
+    },
+    "oktoberfest-bauernsalat": {
+      "description": "Blandet salatblade, kartoffelsalat og coleslaw med sprøde svinekøbstrimler.",
+      "pairing": "Münchner Radler"
+    },
+    "oktoberfest-milchkalb-steak": {
+      "description": "Malkalvsteak med speck‑bønner, rødvinsjus og fløjlsbløde kartofler.",
+      "pairing": "Pinot Noir Ried Goldberg"
+    },
+    "oktoberfest-half-chicken": {
+      "description": "Grillet halv kylling (½ Hendl) med kartoffel‑agurkesalat eller pommes frites.",
+      "pairing": "Hefeweizen (gærhvid)"
+    },
+    "oktoberfest-boiled-beef-fillet": {
+      "description": "Kogt oksefilet med oksemarvben, rodfrugter, peberrod og rosmarin‑kartofler.",
+      "pairing": "Grüner Veltliner Ried Tenn DAC Reserve"
+    },
+    "oktoberfest-wiesn-reindl": {
+      "description": "Delingsgryde til bordet: kalvekødbolle, schnitzel, bratwurst, svineskank og kylling med kartoffelknödel, surkål og Käsespätzle. Pris pr. person, minimum to.",
+      "pairing": "Oktoberfestbier"
+    },
+    "oktoberfestbier": {
+      "description": "Den kraftigere, maltrige festlager, hældt til Wiesn.",
+      "pairing": "Steak vom Milchkalb"
     },
     "donisl-roasting-pan": {
-      "description": "Oksekød, and, svineskank og pølser med rødkål, kartoffelknödel og käsespätzle — til deling.",
+      "description": "Okse, and, svineskank og pølser med rødkål, kartoffelknödel og Käsespätzle — til deling.",
       "pairing": "Münchner Dunkel"
     },
     "roast-pork": {
-      "description": "Bayersk svineskulder og svinebacon med sprød svær, brunsauce, kartoffelknödel og kålsalat.",
+      "description": "Bayersk nakkesteg og svøb med sprød svær, naturlig sauce, kartoffelknödel og coleslaw.",
       "pairing": "Münchner Dunkel"
     },
     "schweinshaxe": {
-      "description": "Sprødstegt svineskank serveret med sky, kartoffelknödel og kålsalat.",
-      "pairing": "Passer godt til Dunkel beer."
+      "description": "Sprød røget svineskank serveret med sky, kartoffelknödel og coleslaw.",
+      "pairing": "Münchner Dunkel"
     },
     "wiener-schnitzel": {
-      "description": "Bayersk svinekød fra fri græsning, paneret, med pommes frites eller kartoffel-agurkesalat og tyttebær.",
+      "description": "Bayersk svinekotelet (Wiener‑stil) med pommes frites eller kartoffel‑agurkesalat og tranebær.",
       "pairing": "Riesling Easy-White eller en Radler"
     },
     "farm-duck": {
@@ -138,79 +157,71 @@
       "pairing": "Münchner Dunkel"
     },
     "backhendl": {
-      "description": "Benfrit, paneret kyllingelår med pommes frites eller kartoffel-agurkesalat.",
+      "description": "Ubenet paneret kyllingelår med pommes frites eller kartoffel‑agurkesalat.",
       "pairing": "Münchner Radler"
     },
     "duet-of-the-ox": {
-      "description": "Skulder og kind af okse, rødvinssky, babyspinach, flødekartofler.",
+      "description": "Brunet oksesteg og grillet oksestek, rødvinsjus, rødkål og fløjlsbløde kartofler.",
       "pairing": "Black OX Cuvée"
     },
-    "veal-steak": {
-      "description": "Farverig pebercrème, flamberet kålroe, kartoffelrösti.",
-      "pairing": "Pinot Blanc Grand Reserve"
-    },
     "veal-meatballs": {
-      "description": "Pyntede grøntsager, rosmarinkartofler.",
-      "pairing": "Pinot Gris Tradition"
+      "description": "Håndpressede kalvekødboller med marinerede grøntsager og rosmarin‑kartofler.",
+      "pairing": "Grauburgunder Tradition"
     },
     "white-sausage": {
-      "description": "To styk, serveret med pretzel og sennep.",
-      "pairing": "Hefeweizen (Yeast White)"
+      "description": "To stykker, serveret med pretzel og sennep.",
+      "pairing": "Hefeweizen (gærhvid)"
     },
     "white-sausage-piece": {
-      "description": "En enkelt Weißwurst.",
-      "pairing": "Hefeweizen (Yeast White)"
+      "description": "Én enkelt Weißwurst.",
+      "pairing": "Hefeweizen (gærhvid)"
     },
     "polish-sausage": {
-      "description": "Med pretzel og sennep.",
+      "description": "Serveret med pretzel og sennep.",
       "pairing": "Russn"
     },
     "currywurst": {
-      "description": "Curry-pølse serveret med pommes frites.",
-      "pairing": "Hefeweizen wheat beer"
+      "description": "Donisl’s currywurstsauce, serveret med pommes frites.",
+      "pairing": "Hefeweizen hvedeøl"
     },
     "bratwurstreindl": {
-      "description": "Pande med grillede pølser med surkål eller kartoffelsalat — en delingsportion.",
-      "pairing": "Russn (light Hefeweizen)"
+      "description": "Pande med grillede pølser med surkål eller kartoffelsalat — til deling.",
+      "pairing": "Russn (let Hefeweizen)"
     },
     "rump-steak": {
-      "description": "Murnau-oksekød med rødvin- og løvsauce, stegte løg, käsespätzle.",
-      "pairing": "Tuscany Red Cuvée"
+      "description": "Murnau‑okse med rødvins‑ og løgjus, ristede løg og Käsespätzle.",
+      "pairing": "Primitivo Puglia IGT"
     },
     "ribeye-300g": {
-      "description": "Fedtkant fra Murnau-okse, café de paris sauce, grillede grøntsager, kartoffelgratæn.",
+      "description": "Fedtkant fra Murnau‑okse, Café de Paris‑sauce, grillede grøntsager og kartoffelgratin.",
       "pairing": "Brunello di Montalcino DOCG"
     },
     "deluxe-burger": {
-      "description": "200g Werdenfelser oksekød, cheddar, salat, tomat, pickles, løg, hjemmelavet Donisl-sauce.",
+      "description": "200 g Werdenfelser‑oksekød, cheddar, salat, tomat, pickles, løg og hjemmelavet Donisl‑sauce. +3,90 med pommes frites.",
       "pairing": "Münchner Hell"
     },
-    "icefish": {
-      "description": "Timian, ratatouille-grøntsager, kartoffelgratæn.",
+    "zanderfilet": {
+      "description": "Skrubbe (Zander) filet under kartoffel‑crust med farverige efterårsgrøntsager og peberrodssauce.",
       "pairing": "Sauvignon Blanc"
     },
     "brotzeitbrettl": {
-      "description": "Bondens røgede pålæg, baconpølse, leverpostej, koldt roastbeef, O'gmachter, bergkäse, peberrod, brød.",
-      "pairing": "Hefeweizen (Yeast White)"
+      "description": "Landmandsrøget kød, baconpølse, leverpostej, kold roastbeef, O'gmachter, alpeost, peberrod og brød.",
+      "pairing": "Hefeweizen (gærhvid)"
     },
     "donisl-4erlei": {
-      "description": "Hummus, hjemmelavet ost, saltet smør og krydret kærnemælkcreme, serveret med brødkurv.",
+      "description": "Hummus, lavet ost, saltet smør og urtecreme, serveret med brødkurv.",
       "pairing": "Weissweinschorle"
     },
     "beef-tartare": {
-      "description": "Trøffelcreme, bagt økologisk æg.",
+      "description": "Tartar med trøffelcreme og bagt økologisk æg.",
       "pairing": "Pinot Noir Ried Goldberg"
     },
-    "calfs-head-carpaccio": {
-      "description": "Granatæble, peberrod, agurk.",
-      "pairing": "Grüner Veltliner Ried Tenn DAC Reserve"
-    },
     "ogmachter-kas": {
-      "description": "Kremet ost med løgringe, radiser, salat og bær.",
+      "description": "Cremet ost med løgringe, radiser, salat og bær.",
       "pairing": "Münchner Radler"
     },
     "sausage-salad": {
-      "description": "Husets dressing, løgringe, syltede agurker, tomat, bær (+1.90 med strimler af bergkäse).",
+      "description": "Husets dressing, løgringe, peberfrugt, tomat, bær (+1,90 med strimler af alpeost).",
       "pairing": "Russn"
     },
     "donisl-salad": {
@@ -226,47 +237,39 @@
       "pairing": "Münchner Hell"
     },
     "oxen-consomme": {
-      "description": "Klar oksebouillon med leverklobber eller pandekagestrimler, grøntsager og purløg.",
-      "pairing": "Weissweinschorle"
-    },
-    "tomato-soup": {
-      "description": "Silketomat-suppe med burrata-basilikumcreme.",
+      "description": "Klar oksebouillon med leverknödel eller pandekagestrimler, grøntsager og purløg.",
       "pairing": "Weissweinschorle"
     },
     "classic-sides": {
-      "description": "Surkål, rødkål, bacon- og kålsalat, flødekartofler, kartoffelknödel, små stegte kartofler, spätzle eller pommes frites — pr. ret.",
+      "description": "Surkål, rødkål, bacon‑kål‑salat, flødekartofler, kartoffelknödel, små stegte kartofler, Spätzle eller pommes frites — hvert.",
       "pairing": "Münchner Hell"
     },
     "vegetable-sides": {
-      "description": "Grøntsagsside eller kartoffel- og agurkesalat — pr. ret.",
+      "description": "Grøntsags‑tilbehør eller kartoffel‑og‑agurkesalat — hvert.",
       "pairing": "Weissweinschorle"
     },
     "power-bowl": {
-      "description": "Duftende ris, avocado, edamame, kikærter, gulerødder, tomat, agurk, peanuts, appelsin-mynte-lime dressing.",
-      "pairing": "Riesling Easy-White"
+      "description": "Duftende ris, avocado, edamame, kikærter, gulerødder, tomat, agurk, peanuts og en appelsin‑mynte‑lime dressing.",
+      "pairing": "Sauvignon Blanc Reserve -S-"
     },
     "kaesespaetzle": {
       "description": "Käsespätzle med løgringe.",
-      "pairing": "Münchner Dunkel or a full-bodied white wine"
+      "pairing": "Münchner Dunkel eller en fyldig hvidvin"
     },
     "linguine-truffles": {
-      "description": "Pasta med babyspinat og vintertrøffel.",
-      "pairing": "Chardonnay (per glas)"
-    },
-    "rahmschwammerl": {
-      "description": "Kremede svampe serveret med pretzel-knödel.",
-      "pairing": "Grüner Veltliner Ried Steinberg"
+      "description": "Pasta med babyspin og vintertrøffel.",
+      "pairing": "Chardonnay (glas)"
     },
     "creme-brulee": {
       "description": "Serveret med sorbet og bær.",
-      "pairing": "Rieslaner Auslese dessert wine"
+      "pairing": "Rieslaner Auslese dessertvin"
     },
     "kaiserschmarrn": {
-      "description": "Rosiner, smør, sukker og karamelliserede mandler, serveret med æblekompot — perfekt til deling.",
-      "pairing": "Rieslaner Auslese dessert wine"
+      "description": "Raisins, smør, sukker og karamelliserede mandler, serveret med æblemos — ideel til deling.",
+      "pairing": "Rieslaner Auslese dessertvin"
     },
     "kirschmichl": {
-      "description": "Varm kirsebærkage serveret med vaniljesauce.",
+      "description": "Varm kirsekage serveret med vaniljesauce.",
       "pairing": "Rieslaner Auslese"
     },
     "apple-strudel": {
@@ -274,327 +277,327 @@
       "pairing": "Milchkaffee"
     },
     "muenchner-hell": {
-      "description": "Bundgæret, let bitter humlenote, let maltet. 5.0% vol.",
+      "description": "Undergæret, delikat bitter humlenote, let maltet. 5,0% vol.",
       "pairing": "Wiener Schnitzel"
     },
     "beer-light-alcohol-free": {
-      "description": "Naturligt uklar, noter af karamel og honning. <0.5% vol.",
+      "description": "Naturligt uklar, noter af karamel og honning. <0,5% vol.",
       "pairing": "Brotzeitbrettl"
     },
     "muenchner-radler": {
-      "description": "Münchner Hell med fin lemonade, ikke for sød.",
+      "description": "Münchner Helles med fin lemonade, ikke for sød.",
       "pairing": "Donisl Salad"
     },
     "muenchner-dunkel": {
-      "description": "Let bitter, ristet malt med karamel- og kandiseret frugtnoter. 5.0% vol.",
+      "description": "Delikat bitter, ristet malt med noter af karamel og kandiseret frugt. 5,0% vol.",
       "pairing": "Schweinshaxe"
     },
     "hefeweizen": {
-      "description": "Overgæret hvedeøl med banan- og honningsnoter.",
+      "description": "Overgæret hvedeøl med banan‑ og honningnoter.",
       "pairing": "White sausage (Kesselfrisch)"
     },
     "russn": {
-      "description": "Hefeweizen med delikat lemonade, ikke for sød.",
+      "description": "Hefeweizen med let lemonade, ikke for sød.",
       "pairing": "Bratwurstreindl"
     },
     "cola-wheat": {
-      "description": "Hefeweizen blandet med Coca-Cola.",
+      "description": "Hefeweizen med Coca‑Cola.",
       "pairing": "Currywurst"
     },
     "non-alcoholic-wheat": {
-      "description": "Blidt aflketoliseret efter fuld modning, bevarer sin aroma.",
+      "description": "Blidt dealcoholiseret efter fuld lagring, bevarer aromaen.",
       "pairing": "Backhendl"
     },
     "salvator": {
-      "description": "Stærk øl (Starkbier), sæsonbestemt — fås februar/marts. 0.5l.",
+      "description": "Stærk øl (Starkbier), sæsonbestemt — fås februar/marts. 0,5l.",
       "pairing": "Duet of the Ox"
     },
     "kellerbier": {
-      "description": "Sæsonbestemt — fås juni/juli/august (sommer). 0.5l.",
+      "description": "Sæsonbestemt — fås juni/juli/august (sommer). 0,5l.",
       "pairing": "Brotzeitbrettl"
     },
     "wiesnbier": {
-      "description": "Oktoberfest-øl, sæsonbestemt — fås september/oktober. 0.5l.",
+      "description": "Oktoberfestøl, sæsonbestemt — fås september/oktober.",
       "pairing": "Donisl roasting pan"
     },
     "weissweinschorle": {
-      "description": "Hvidvinspritzer. 0.3l.",
-      "pairing": "Romanaherzen"
+      "description": "Hvidvins‑schorle. 0,3l.",
+      "pairing": "Donisl Salad"
     },
     "pinot-gris-glass": {
-      "description": "Hirschmüller, Württemberg — let, nem at drikke.",
-      "pairing": "Veal meatballs"
+      "description": "Hirschmüller vingård, Württemberg — let, nem at drikke.",
+      "pairing": "Kalbfleischpflanzerl (håndpresset)"
     },
     "primitivo-glass": {
       "description": "Sir of the Faun, Puglia — mørke bær, kirsebær, diskret krydderi.",
       "pairing": "Schweinebraten (roast pork)"
     },
     "prodry-frizzante": {
-      "description": "Motelvini, Veneto, Italien. 0.1l.",
+      "description": "Motelvini, Veneto, Italien. 0,1l.",
       "pairing": "Brotzeitbrettl"
     },
     "paul-michel-champagne": {
-      "description": "Champagne Premier Cru, Champagne, Frankrig. 0.75l flaske.",
+      "description": "Champagne Premier Cru, Champagne, Frankrig. 0,75l flaske.",
       "pairing": "Oxen consommé"
     },
     "taittinger-rose": {
-      "description": "Champagne Taittinger, Frankrig. 0.75l flaske.",
+      "description": "Champagne Taittinger, Frankrig. 0,75l flaske.",
       "pairing": "Donisl \"4erlei\""
     },
     "valdo-prosecco": {
-      "description": "Valdo, Veneto — klassisk italiensk mousserende. 0.75l flaske.",
+      "description": "Valdo, Veneto — klassisk italiensk mousserende vin. 0,75l flaske.",
       "pairing": "Donisl Salad"
     },
     "winzersekt": {
-      "description": "Pfaffmann, Pfalz, Tyskland. 0.75l flaske.",
-      "pairing": "Velvet soup from bush tomato"
+      "description": "Pfaffmann vingård, Pfalz, Tyskland. 0,75l flaske.",
+      "pairing": "Oxen consommé"
     },
     "chardonnay-bottle": {
-      "description": "Hirschmüller, Württemberg — passionsfrugt, mango, ananas. 0.75l flaske.",
-      "pairing": "Rahmschwammerl"
+      "description": "Hirschmüller vingård, Württemberg — passionsfrugt, mango, ananas. 0,75l flaske.",
+      "pairing": "Käsespätzle"
     },
     "chardonnay-glass": {
-      "description": "Hirschmüller, Württemberg. 0.1l.",
-      "pairing": "Pfifferling-Linguine"
+      "description": "Hirschmüller vingård, Württemberg. 0,1l.",
+      "pairing": "Linguine with truffles"
     },
     "chardonnay-macon-ige": {
-      "description": "Domaine Fichet, Bourgogne — æble, pære, hvid fersken, subtil mineralitet. 0.75l flaske.",
+      "description": "Domaine Fichet, Bourgogne — æble, pære, hvid fersken og diskret mineralitet. 0,75l flaske.",
       "pairing": "Käsespätzle"
     },
     "pinot-gris-tradition": {
-      "description": "Bott Frères, Bourgogne — abrikos, wieneræble, hasselnød, let røg. 0.75l flaske.",
-      "pairing": "Veal steak"
+      "description": "Bott Frères, Bourgogne — abrikos, æble, hasselnød og let røg. 0,75l flaske.",
+      "pairing": "Kalbfleischpflanzerl (håndpresset)"
     },
     "pinot-gris-oetinger": {
-      "description": "Oetinger, Rheingau — moden pære, gult æble, antydning af mandel. 0.75l flaske.",
+      "description": "Oetinger vingård, Rheingau — moden pære, gul æble, antydning af mandel. 0,75l flaske.",
       "pairing": "Backhendl"
     },
     "pinot-gris-reserve-pauline": {
-      "description": "Pfaffmann, Pfalz — pære, ananas, nektarin, citrongræs, blomsteragtig. 0.75l flaske.",
+      "description": "Pfaffmann vingård, Pfalz — pære, ananas, nektarin, citrongræs, blomsteragtig. 0,75l flaske.",
       "pairing": "O'gmachter Kas"
     },
     "pinot-blanc-grand-reserve": {
-      "description": "Taubenschuss, Weinviertel, Østrig — melon, hasselnød, hø, karamel. 0.75l flaske.",
+      "description": "Taubenschuss, Östrig Weinviertel — melon, hasselnød, hø og karamel. 0,75l flaske.",
       "pairing": "Donisl \"4erlei\""
     },
     "trebbiano-di-lugana": {
-      "description": "Zenato, Veneto, Italien — frisk syre, mineral, citrus, grøn æble, pære. 0.75l flaske.",
-      "pairing": "Sausage salad from Regensburg"
+      "description": "Zenato, Veneto, Italien — frisk syre, mineralitet, citrus, grøn æble og pære. 0,75l flaske.",
+      "pairing": "Pølsesalat fra Regensburg"
     },
     "lugana-glass": {
-      "description": "Zenato, Veneto, Italien. 0.1l.",
-      "pairing": "Icefish"
+      "description": "Zenato, Veneto, Italien. 0,1l.",
+      "pairing": "Zander fillet with potato crust"
     },
     "riesling-easy-white": {
-      "description": "Oetinger, Rheingau — lime, æble, hvid fersken, ideel som aperitif. 0.75l flaske.",
+      "description": "Oetinger, Rheingau — lime, æble, hvid fersken, ideel som aperitif. 0,75l flaske.",
       "pairing": "Wiener Schnitzel"
     },
     "riesling-gottloos": {
-      "description": "Dr. Loosen, Mosel — citrus, æble, elegant mineralitet. 0.75l flaske.",
+      "description": "Dr. Loosen, Mosel — citrus, æble og elegant mineralitet. 0,75l flaske.",
       "pairing": "Wiener Schnitzel"
     },
     "riesling-heiligenstein": {
-      "description": "Bründlmayer, Langenlois, Kamptal, Østrig — frisk citrus, æble, urteagtig krydderi. 0.75l flaske.",
+      "description": "Bründlmayer, Langenlois, Kamptal, Østrig — frisk citrus, æble og urteagtig krydderi. 0,75l flaske.",
       "pairing": "Donisl Salad"
     },
     "riesling-smoky-dry": {
-      "description": "Weingut Oetinger, Rheingau — røgfyldt mineralitet, saftigt æble, citrus. 0.75l flaske.",
+      "description": "Weingut Oetinger, Rheingau — røget mineralitet, saftigt æble og citrus. 0,75l flaske.",
       "pairing": "Currywurst"
     },
     "riesling-bright-side-of-life": {
-      "description": "Stahl, Franken, Tyskland — frugtig, frisk, ukompliceret. 0.75l flaske.",
+      "description": "Stahl, Franken, Tyskland — frugtig, frisk og ubesværet. 0,75l flaske.",
       "pairing": "Gebackenes Fischfilet (Friday)"
     },
     "riesling-nachschlag-glass": {
-      "description": "Stahl, Franken, Tyskland. 0.1l.",
+      "description": "Stahl, Franken, Tyskland. 0,1l.",
       "pairing": "Gebackenes Fischfilet (Friday)"
     },
     "sauvignon-blanc": {
-      "description": "Chateau de la Chaise, Loire — stikkelsbær, grøn æble, eksotisk frugt. 0.75l flaske.",
-      "pairing": "Icefish"
+      "description": "Chateau de la Chaise, Loire — stikkelsbær, grøn æble og eksotisk frugt. 0,75l flaske.",
+      "pairing": "Zander fillet with potato crust"
     },
     "sauvignon-blanc-reserve": {
-      "description": "Taubenschuss, Weinviertel, Østrig — lime, stikkelsbær, eksotisk frugt. 0.75l flaske.",
+      "description": "Taubenschuss, Östrig Weinviertel — lime, stikkelsbær og eksotisk frugt. 0,75l flaske.",
       "pairing": "Donisl Power Bowl"
     },
     "silvaner-easy-white": {
-      "description": "Weingut am Stein, Franken — grøn æble, pære, let urtetone. 0.75l flaske.",
+      "description": "Weingut am Stein, Franken — grøn æble, pære og lette urtenoter. 0,75l flaske.",
       "pairing": "Vegetable side dish"
     },
     "gruener-veltliner-tenn": {
-      "description": "Taubenschuss, Weinviertel, Østrig — æble, hvid peber, urteagtig krydderi. 0.75l flaske.",
-      "pairing": "Lukewarm calf's head carpaccio"
+      "description": "Taubenschuss, Östrig Weinviertel — æble, hvid peber og urteagtig krydderi. 0,75l flaske.",
+      "pairing": "Lunken kalvehoved‑carpaccio"
     },
     "riesling-gottloos-3l": {
-      "description": "Dr. Loosen, Mosel. 3.0l flaske.",
+      "description": "Dr. Loosen, Mosel. 3,0l flaske.",
       "pairing": "Wiener Schnitzel"
     },
     "gruener-veltliner-steinberg": {
-      "description": "Karl Fritsch, Burgenland, Østrig. 1.5l flaske.",
-      "pairing": "Pfifferlingsrahm"
+      "description": "Karl Fritsch, Burgenland, Østrig. 1,5l flaske.",
+      "pairing": "Käsespätzle"
     },
     "chardonnay-morillon": {
-      "description": "Lackner-Tinnacher, Südsteiermark, Østrig. 1.5l flaske.",
+      "description": "Lackner‑Tinnacher, Sydstyriens vinområde, Østrig. 1,5l flaske.",
       "pairing": "O'gmachter Kas"
     },
     "cuvee-adrian-sangiovese": {
-      "description": "Rød cuvée, Toscana Rosso, Toscana. 1.5l flaske.",
+      "description": "Rød cuvée, Toscana Rosso, Toscana. 1,5l flaske.",
       "pairing": "Duet of the Ox"
     },
     "primitivo-bottle": {
-      "description": "Barbanera, Apulien, Italien — mørke bær, kirsebær, diskret krydderi. 0.75l flaske.",
+      "description": "Barbanera, Apulien, Italien — mørke bær, kirsebær, diskret krydderi. 0,75l flaske.",
       "pairing": "Schweinebraten (roast pork)"
     },
     "herrgott-cuvee": {
-      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz — kirsebær, røde bær. 0.75l flaske.",
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz — kirsebær og røde bær. 0,75l flaske.",
       "pairing": "Ribeye 300 grams"
     },
     "herrgott-cuvee-glass": {
-      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz. 0.1l.",
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz. 0,1l.",
       "pairing": "Donisl Bratengröstl (Tuesday)"
     },
     "tuscany-red-cuvee": {
-      "description": "Duca di Salangane, Toscana — kirsebær, mørke bær. 0.75l flaske.",
+      "description": "Duca di Salangane, Toscana — kirsebær og mørke bær. 0,75l flaske.",
       "pairing": "Roast beef — rump steak"
     },
     "pinot-noir-goldberg": {
-      "description": "Toni Hartl, Burgenland — røde bær, kirsebær, diskret krydderi. 0.75l flaske.",
+      "description": "Toni Hartl, Burgenland — røde bær, kirsebær og diskret krydderi. 0,75l flaske.",
       "pairing": "Steak vom Milchkalb"
     },
     "merlot": {
-      "description": "Chateau Gensac, Gascony — mørke kirsebær, blommer, krydderi. 0.75l flaske.",
+      "description": "Chateau Gensac, Gascogne — mørke kirsebær, blommer og krydderi. 0,75l flaske.",
       "pairing": "Veal meatballs"
     },
     "brunello-di-montalcino": {
-      "description": "Tenuta Corte Pavone, Sangiovese, Toscana — mørke bær, kirsebær, chokolade. 0.75l flaske.",
+      "description": "Tenuta Corte Pavone, Sangiovese, Toscana — mørke bær, kirsebær og chokolade. 0,75l flaske.",
       "pairing": "Ribeye 300 grams"
     },
     "black-ox-cuvee": {
-      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Pfalz — mørke bær, kirsebær, krydderi. 0.75l flaske.",
+      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Pfalz — mørke bær, kirsebær og krydderi. 0,75l flaske.",
       "pairing": "Duet of the Ox"
     },
     "rose-lime-stone": {
-      "description": "Unger, Neusiedler See — røde bær, jordbær, hindbær, citrus. 0.75l flaske.",
+      "description": "Unger, Neusiedler See — røde bær, jordbær, hindbær og citrus. 0,75l flaske.",
       "pairing": "Donisl Salad"
     },
     "torres-natureo": {
-      "description": "Miguel Torres, Vilafranca del Penedès — citrus, æble, let. 0.75l flaske.",
-      "pairing": "Romanaherzen"
+      "description": "Miguel Torres, Vilafranca del Penedès — citrus, æble og let karakter. 0,75l flaske.",
+      "pairing": "Donisl Salad"
     },
     "rieslaner-auslese": {
-      "description": "Juliusspital, Franken — dessertvin. 0.5l flaske.",
+      "description": "Juliusspital, Franken — dessertvin. 0,5l flaske.",
       "pairing": "Kaiserschmarrn or Crème brûlée"
     },
     "aperol-spritz": {
-      "description": "Klassisk italiensk aperitif. 0.2l.",
+      "description": "Klassisk italiensk aperitif. 0,2l.",
       "pairing": "Brotzeitbrettl"
     },
     "hugo": {
-      "description": "Hyldeblomst-spritz. 0.2l.",
+      "description": "Hyldeblomst‑spritz. 0,2l.",
       "pairing": "Bread basket"
     },
     "campari-soda": {
-      "description": "0.2l.",
+      "description": "0,2l.",
       "pairing": "Brezn"
     },
     "campari-orange": {
-      "description": "0.2l.",
+      "description": "0,2l.",
       "pairing": "Donisl \"4erlei\""
     },
     "sanbitter": {
-      "description": "Alkoholfri bitter aperitif. 0.2l.",
+      "description": "Alkoholfri bitter aperitif. 0,2l.",
       "pairing": "Oxen consommé"
     },
     "nut-in-a-bottle": {
-      "description": "2cl.",
+      "description": "2 cl.",
       "pairing": "Kirschmichl"
     },
     "ruescherl": {
-      "description": "13cl.",
+      "description": "13 cl.",
       "pairing": "Apple strudel"
     },
     "hirschkuss": {
-      "description": "38% vol., patentpropflaske, 4cl.",
+      "description": "38% vol., patentpropflaske, 4 cl.",
       "pairing": "Kaiserschmarrn (large)"
     },
     "vodka-redbull": {
-      "description": "0.27l.",
+      "description": "0,27l.",
       "pairing": "Donisl Deluxe Burger"
     },
     "williams-christ-pear": {
-      "description": "40% vol. Edelbrand, Sigi Herzog destillat. 2cl.",
+      "description": "40% vol. Edelbrand, Sigi Herzog. 2 cl.",
       "pairing": "Apple strudel"
     },
     "farm-fruit-growers": {
-      "description": "Linster fine fruit destilleri, lagret 1 år på egetræsfade. 2cl.",
+      "description": "Linster fine fruit distillery, lagret 1 år på egetræsfade. 2 cl.",
       "pairing": "Kirschmichl"
     },
     "feiner-mirabell": {
-      "description": "Linster fine fruit destilleri, moden mirabelsmag. 2cl.",
+      "description": "Linster fine fruit distillery, moden abrikossmag. 2 cl.",
       "pairing": "Crème brûlée"
     },
     "enzian-gentian-brandy": {
-      "description": "Wilhelm Marx Fine Spirits Manufactory. 2cl.",
+      "description": "Wilhelm Marx Fine Spirits Manufactory. 2 cl.",
       "pairing": "Schweinshaxe"
     },
     "raspberry-pulp-brandy": {
-      "description": "40% vol. Edelmanufaktur Wilhelm Marx. 2cl.",
+      "description": "40% vol. Wilhelm Marx Edelmanufaktur. 2 cl.",
       "pairing": "Kaiserschmarrn (large)"
     },
     "grappa-chardonnay": {
-      "description": "Grandfather. 2cl.",
+      "description": "Grandfather. 2 cl.",
       "pairing": "Crème brûlée"
     },
     "paulaner-spezi": {
-      "description": "0.4l.",
+      "description": "0,4l.",
       "pairing": "Currywurst"
     },
     "coca-cola": {
-      "description": "0.4l.",
+      "description": "0,4l.",
       "pairing": "2 Rostbratwürstl"
     },
     "coca-cola-zero": {
-      "description": "0.4l.",
+      "description": "0,4l.",
       "pairing": "Portion of French Fries"
     },
     "paulaner-lemonade": {
-      "description": "0.33l.",
+      "description": "0,33l.",
       "pairing": "Kässpatzn"
     },
     "paulaner-orange-lemonade": {
-      "description": "0.33l.",
+      "description": "0,33l.",
       "pairing": "Potato dumplings"
     },
     "tonic": {
-      "description": "0.2l.",
+      "description": "0,2l.",
       "pairing": "Brotzeitbrettl"
     },
     "red-bull": {
-      "description": "0.25l.",
+      "description": "0,25l.",
       "pairing": "Donisl Deluxe Burger"
     },
     "bad-brambacher": {
-      "description": "Stille eller let perlende. 0.5l.",
+      "description": "Stille eller medium. 0,5l.",
       "pairing": "Brezn"
     },
     "table-water": {
-      "description": "Stille eller med brus.",
+      "description": "Stille eller mousserende.",
       "pairing": "Bread basket"
     },
     "apple-spritzer": {
-      "description": "0.4l.",
+      "description": "0,4l.",
       "pairing": "Kässpatzn"
     },
     "johannisbeerschorle": {
-      "description": "Solbærspritzer. 0.4l.",
+      "description": "Solbær‑spritzer. 0,4l.",
       "pairing": "Kirschmichl"
     },
     "maracujaschorle": {
-      "description": "Passionsfrugtspritzer. 0.4l.",
+      "description": "Passionsfrugt‑spritzer. 0,4l.",
       "pairing": "Donisl Power Bowl"
     },
     "wolfra-orange-juice": {
-      "description": "0.2l.",
+      "description": "0,2l.",
       "pairing": "Potato dumplings"
     },
     "espresso": {
@@ -634,7 +637,7 @@
       "pairing": "Apple strudel"
     },
     "kids-potato-dumplings": {
-      "description": "Med svinekødsauce.",
+      "description": "Med svine‑roast sauce.",
       "pairing": "Wolfra orange juice"
     },
     "kids-kaesspatzn": {
@@ -642,7 +645,7 @@
       "pairing": "Apple spritzer"
     },
     "kids-rostbratwuerstl": {
-      "description": "Med pommes frites eller kartoffel-agurkesalat.",
+      "description": "Med pommes frites eller kartoffel‑agurkesalat.",
       "pairing": "Paulaner Spezi"
     },
     "kids-fries": {

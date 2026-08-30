@@ -20,6 +20,7 @@ export function CategoryGrid({ activeCategory, onSelect, language }: Props) {
         const Icon = CATEGORY_ICONS[categoryMeta[category].icon];
         const count = itemsByCategory(category).length;
         const active = activeCategory === category;
+        const wiesn = category === 'oktoberfest';
         return (
           <button
             key={category}
@@ -27,20 +28,26 @@ export function CategoryGrid({ activeCategory, onSelect, language }: Props) {
             onClick={() => onSelect(category)}
             aria-pressed={active}
             className={`flex min-h-[44px] flex-col items-center gap-1.5 rounded-card border px-2 py-4 text-center transition-colors ${
-              active
-                ? 'border-accent bg-accent/5'
-                : 'border-border bg-card hover:border-accent/40'
+              wiesn
+                ? active
+                  ? 'border-wiesn bg-wiesn/10'
+                  : 'border-wiesn/40 bg-wiesn-tint hover:border-wiesn'
+                : active
+                  ? 'border-accent bg-accent/5'
+                  : 'border-border bg-card hover:border-accent/40'
             }`}
           >
             {Icon ? (
               <Icon
                 aria-hidden="true"
                 size={22}
-                className={active ? 'text-accent' : 'text-ink'}
+                className={wiesn ? 'text-wiesn-deep' : active ? 'text-accent' : 'text-ink'}
                 strokeWidth={1.75}
               />
             ) : null}
-            <span className="text-sm font-medium text-ink">{t.categories[category]}</span>
+            <span className={`text-sm font-medium ${wiesn ? 'text-wiesn-deep' : 'text-ink'}`}>
+              {t.categories[category]}
+            </span>
             <span className="text-[11px] text-muted">{count}</span>
           </button>
         );

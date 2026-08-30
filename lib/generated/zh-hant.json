@@ -1,26 +1,33 @@
 {
   "strings": {
-    "welcome": "瀏覽下方菜單，或向我們的 AI 助手詢問推薦。",
+    "welcome": "瀏覽下方菜單，或向我們的 AI 助手尋求推薦。",
     "categoriesTitle": "菜單",
-    "featuredTitle": "主打",
+    "featuredTitle": "精選",
     "askAi": "詢問 AI",
     "chatTitle": "DonislKI",
     "discussing": "討論中",
     "askAboutThis": "就此詢問 AI",
+    "todaysLunchTitle": "今日午餐特餐",
+    "weekendLunchTitle": "Donisl 週末特餐",
+    "weekendLunchText": "今天沒有平日午餐特餐 — 我們的慕尼黑啤酒節 Schmankerl 整個週末都有供應。",
+    "oktoberfestBadge": "慶祝慕尼黑啤酒節",
+    "oktoberfestBannerTitle": "啤酒節 Schmankerl",
+    "oktoberfestBannerText": "Wiesn 時節開始 — 我們的啤酒節特餐現在供應中。",
     "askAboutDishTemplate": "告訴我關於 {dish} 的資訊",
-    "pairing": "搭配建議",
-    "fromPricePrefix": "從 ",
+    "pairing": "最佳搭配",
+    "fromPricePrefix": "起價 ",
     "allergensLabel": "過敏原",
-    "allergensUnknown": "請向工作人員確認",
+    "allergensUnknown": "請向服務人員確認",
     "composerPlaceholder": "詢問菜單…",
     "send": "傳送",
     "close": "關閉",
-    "noInfo": "目前菜單中沒有這項資訊。",
+    "noInfo": "目前菜單中沒有相關資訊。",
     "categories": {
-      "weekly": "每週特餐",
+      "weekly": "午餐特餐",
+      "oktoberfest": "啤酒節",
       "traditional": "傳統料理",
       "sausages": "香腸類",
-      "starters": "前菜",
+      "starters": "開胃菜",
       "vegan": "純素",
       "desserts": "甜點",
       "beer": "啤酒",
@@ -31,16 +38,16 @@
       "kids": "兒童餐"
     },
     "tagLabels": {
-      "sharing": "共享",
+      "sharing": "分享",
       "signature": "招牌",
-      "hearty": "飽足",
+      "hearty": "豐盛",
       "classic": "經典",
       "light": "清爽",
-      "seasonal": "當季",
-      "strong": "烈性",
+      "seasonal": "季節限定",
+      "strong": "酒性濃",
       "non-alcoholic": "無酒精",
-      "vegetarian": "素食者可",
-      "vegan": "純素可",
+      "vegetarian": "蛋奶素",
+      "vegan": "純素",
       "spirit": "烈酒",
       "water": "礦泉水",
       "coffee": "咖啡",
@@ -49,172 +56,176 @@
       "bowl": "碗裝",
       "white": "白酒",
       "red": "紅酒",
-      "rose": "玫瑰紅",
+      "rose": "玫瑰酒",
       "sparkling": "氣泡酒",
       "dessert-wine": "甜酒",
       "by-glass": "杯裝",
       "bottle": "瓶裝",
-      "lunch-special": "商午特餐",
+      "lunch-special": "午餐特餐",
       "gluten": "含麩質",
       "dairy": "含乳製品",
       "egg": "含蛋",
-      "mustard": "芥末",
-      "nuts": "堅果",
-      "peanuts": "花生",
-      "fish": "魚類",
-      "soy": "大豆",
-      "celery": "芹菜",
-      "sulphites": "亞硫酸鹽",
-      "sesame": "芝麻"
+      "mustard": "含芥末",
+      "nuts": "含堅果",
+      "peanuts": "含花生",
+      "fish": "含魚",
+      "soy": "含大豆",
+      "celery": "含芹菜",
+      "sulphites": "含亞硫酸鹽",
+      "sesame": "含芝麻"
     },
     "quickSuggestions": [
       "你推薦什麼？",
-      "哪款飲品適合這道菜？",
+      "哪種飲料適合搭配這道？",
       "顯示純素選項",
       "哪些含有過敏原？",
-      "想吃清爽的",
-      "想吃傳統的"
+      "想吃清淡的",
+      "想吃傳統風味"
     ]
   },
   "items": {
-    "chanterelle-soup": {
-      "description": "牛肝菌奶油濃湯，搭配提洛爾培根丸子。",
-      "pairing": "杯裝 Chardonnay"
-    },
-    "romaine-chanterelle-salad": {
-      "description": "羅曼心生菜，覆盆子油醋、紅洋蔥、蘿蔔與烤牛肝菌。",
-      "pairing": "Weissweinschorle"
-    },
-    "veal-steak-chanterelle": {
-      "description": "小牛排佐牛肝菌、青豆與奶油馬鈴薯。",
-      "pairing": "Pinot Noir Ried Goldberg"
-    },
-    "chanterelle-linguine": {
-      "description": "長形扁麵與牛肝菌、奶油、百里香與Bergkäse山酪。",
-      "pairing": "杯裝 Chardonnay"
-    },
-    "chanterelle-cream": {
-      "description": "奶油牛肝菌佐百里香與椒鹽結餅丸子。",
-      "pairing": "Grüner Veltliner Ried Steinberg"
-    },
-    "lunch-monday-asparagus-linguine": {
-      "description": "平日商午供應 12:00–15:30，含一杯咖啡。蘆筍長形扁麵、段蔥奶油、烤牛肉與番茄。",
-      "pairing": "Sauvignon Blanc"
+    "lunch-monday-tagliatelle": {
+      "description": "週一午餐特餐，供應時間 12:00–15:30。與野生森林菇與香芹拌的 Tagliatelle。",
+      "pairing": "Grauburgunder（杯裝）"
     },
     "lunch-tuesday-bratengroestl": {
-      "description": "平日商午供應 12:00–15:30，含一杯咖啡。綜合烤肉配白高麗菜、馬鈴薯湯圓及荷包蛋。",
+      "description": "週二午餐特餐，供應時間 12:00–15:30。綜合烤肉配白高麗菜、馬鈴薯圓與煎蛋。",
       "pairing": "Münchner Dunkel"
     },
-    "lunch-wednesday-strindberg-steak": {
-      "description": "平日商午供應 12:00–15:30，含一杯咖啡。豬里肌排配四季豆與馬鈴薯焗烤。",
-      "pairing": "Pinot Noir Ried Goldberg"
+    "lunch-wednesday-leberkaese": {
+      "description": "週三午餐特餐，供應時間 12:00–15:30。煎至金黃的 Leberkäse 配煎蛋與馬鈴薯小黃瓜沙拉。",
+      "pairing": "Münchner Hell"
     },
     "lunch-thursday-chicken-geschnetzeltes": {
-      "description": "平日商午供應 12:00–15:30，含一杯咖啡。蘑菇醬切片雞肉配香草Spätzle。",
-      "pairing": "杯裝 Chardonnay"
+      "description": "週四午餐特餐，供應時間 12:00–15:30。蘑菇醬切片雞肉搭配香草 Spätzle。",
+      "pairing": "Münchner Radler"
     },
     "lunch-friday-fish-fillet": {
-      "description": "平日商午供應 12:00–15:30，含一杯咖啡。當日炸魚配塔塔醬與馬鈴薯小黃瓜沙拉。",
-      "pairing": "Riesling Easy-White"
+      "description": "週五午餐特餐，供應時間 12:00–15:30。現炸當日鮮魚排，附鮮味美乃滋與馬鈴薯小黃瓜沙拉。",
+      "pairing": "Riesling Smoky Dry"
+    },
+    "oktoberfest-pumpkin-soup": {
+      "description": "綿密南瓜濃湯，佐斯瓦比亞南瓜籽油與烤香籽。",
+      "pairing": "Weissweinschorle"
+    },
+    "oktoberfest-leberkas-burger": {
+      "description": "Leberkäse 漢堡，配煎蛋、薯條與香草酸奶油。",
+      "pairing": "Oktoberfestbier"
+    },
+    "oktoberfest-bauernsalat": {
+      "description": "綜合葉菜沙拉、馬鈴薯沙拉與高麗菜沙拉，配脆豬五花條。",
+      "pairing": "Münchner Radler"
+    },
+    "oktoberfest-milchkalb-steak": {
+      "description": "奶飼小牛排，配培根四季豆、紅酒肉汁與奶油馬鈴薯。",
+      "pairing": "Pinot Noir Ried Goldberg"
+    },
+    "oktoberfest-half-chicken": {
+      "description": "烤半隻雞（½ Hendl），可選馬鈴薯小黃瓜沙拉或薯條。",
+      "pairing": "Hefeweizen (Yeast White)"
+    },
+    "oktoberfest-boiled-beef-fillet": {
+      "description": "燉煮牛菲力，佐牛髓骨、根菜、辣根與迷迭香馬鈴薯。",
+      "pairing": "Grüner Veltliner Ried Tenn DAC Reserve"
+    },
+    "oktoberfest-wiesn-reindl": {
+      "description": "桌上分享鐵鍋：牛肉餅、炸肉排、香腸、豬腳與雞肉，搭配馬鈴薯圓、酸菜與起司 Spätzle。以每人計價，至少兩人。",
+      "pairing": "Oktoberfestbier"
+    },
+    "oktoberfestbier": {
+      "description": "為 Wiesn 倒上的較濃郁麥芽風味節慶拉格啤酒。",
+      "pairing": "Steak vom Milchkalb"
     },
     "donisl-roasting-pan": {
-      "description": "牛肉、鴨肉、豬肘與香腸，附紅高麗菜、馬鈴薯湯圓與起司Käsespätzle — 適合共享。",
+      "description": "牛肉、鴨肉、豬腳與香腸，配紅高麗菜、馬鈴薯圓與起司 Spätzle — 適合分享。",
       "pairing": "Münchner Dunkel"
     },
     "roast-pork": {
-      "description": "巴伐利亞烤豬肩與五花，帶脆皮、原汁醬、馬鈴薯湯圓與高麗菜沙拉。",
+      "description": "巴伐利亞烤豬肩與五花，帶酥皮，原汁肉汁、馬鈴薯圓與高麗菜沙拉。",
       "pairing": "Münchner Dunkel"
     },
     "schweinshaxe": {
-      "description": "酥脆烤豬肘，附原汁醬、馬鈴薯湯圓與高麗菜沙拉。",
-      "pairing": "適合搭配 Dunkel 啤酒。"
+      "description": "酥脆烤半隻豬腳，附原味醬汁、馬鈴薯圓與高麗菜沙拉。",
+      "pairing": "Münchner Dunkel"
     },
     "wiener-schnitzel": {
-      "description": "巴伐利亞放牧豬里肌炸排，附薯條或馬鈴薯小黃瓜沙拉與蔓越莓。",
-      "pairing": "Riesling Easy-White 或 Radler"
+      "description": "巴伐利亞草飼豬炸排，附薯條或馬鈴薯小黃瓜沙拉與蔓越莓。",
+      "pairing": "Riesling Easy-White or a Radler"
     },
     "farm-duck": {
-      "description": "迷迭香醬，馬鈴薯湯圓與紅高麗菜。",
+      "description": "農場鴨配迷迭香醬、馬鈴薯圓與紅高麗菜。",
       "pairing": "Münchner Dunkel"
     },
     "backhendl": {
-      "description": "去骨裹粉炸雞腿，附薯條或馬鈴薯小黃瓜沙拉。",
+      "description": "去骨麵包裹炸雞腿，附薯條或馬鈴薯小黃瓜沙拉。",
       "pairing": "Münchner Radler"
     },
     "duet-of-the-ox": {
-      "description": "牛肩與牛頰，紅酒汁、嫩菠菜、奶油馬鈴薯。",
+      "description": "燉牛肉與烤牛排，佐紅酒醬、紅高麗菜與奶油馬鈴薯。",
       "pairing": "Black OX Cuvée"
     },
-    "veal-steak": {
-      "description": "色彩胡椒奶油醬、火焰球莖甘藍、馬鈴薯煎餅。",
-      "pairing": "Pinot Blanc Grand Reserve"
-    },
     "veal-meatballs": {
-      "description": "配鮮蔬與迷迭香馬鈴薯。",
-      "pairing": "Pinot Gris Tradition"
+      "description": "手工成型小牛肉丸，搭配調味蔬菜與迷迭香馬鈴薯。",
+      "pairing": "Grauburgunder Tradition"
     },
     "white-sausage": {
-      "description": "兩條，附椒鹽結餅與芥末。",
+      "description": "兩條白香腸，附椒鹽卷與芥末。",
       "pairing": "Hefeweizen (Yeast White)"
     },
     "white-sausage-piece": {
-      "description": "單支白腸。",
+      "description": "單支白香腸。",
       "pairing": "Hefeweizen (Yeast White)"
     },
     "polish-sausage": {
-      "description": "附椒鹽結餅與芥末。",
+      "description": "搭配椒鹽卷與芥末。",
       "pairing": "Russn"
     },
     "currywurst": {
-      "description": "咖哩香腸，配薯條。",
-      "pairing": "Hefeweizen 小麥啤酒"
+      "description": "Donisl 風味咖哩香腸醬，配薯條。",
+      "pairing": "Hefeweizen wheat beer"
     },
     "bratwurstreindl": {
-      "description": "烤香腸鐵盤，附酸菜或馬鈴薯沙拉 — 共享份量。",
-      "pairing": "Russn (淡型 Hefeweizen)"
+      "description": "烤香腸拼盤，搭配酸菜或馬鈴薯沙拉 — 適合分享的份量。",
+      "pairing": "Russn (light Hefeweizen)"
     },
     "rump-steak": {
-      "description": "Murnau 牛肉，紅酒洋蔥醬、炸洋蔥、起司Käsespätzle。",
-      "pairing": "Tuscany Red Cuvée"
+      "description": "Murnau 牛臀肉，佐紅酒洋蔥醬、炸洋蔥與起司 käsespätzle。",
+      "pairing": "Primitivo Puglia IGT"
     },
     "ribeye-300g": {
-      "description": "Murnau 牛肉帶脂肪帽，Café de Paris 醬、烤蔬菜、馬鈴薯焗烤。",
+      "description": "Murnau 牛的帶脂肋眼 300g，配 café de paris 醬、烤蔬菜與馬鈴薯焗烤。",
       "pairing": "Brunello di Montalcino DOCG"
     },
     "deluxe-burger": {
-      "description": "200g Werdenfelser 牛肉、切達、萵苣、番茄、醃黃瓜、洋蔥、自製 Donisl 醬。",
+      "description": "200g Werdenfelser 牛肉、切達起司、生菜、番茄、醃黃瓜、洋蔥、自製 Donisl 醬。加 €3.90 可改配薯條。",
       "pairing": "Münchner Hell"
     },
-    "icefish": {
-      "description": "百里香、普羅旺斯燉菜、馬鈴薯焗烤。",
+    "zanderfilet": {
+      "description": "鱸形魚（Zander）菲力，馬鈴薯酥皮，搭配繽紛秋季蔬菜與辣根醬。",
       "pairing": "Sauvignon Blanc"
     },
     "brotzeitbrettl": {
-      "description": "農家煙燻肉、培根香腸、肝臟腸、冷烤牛肉、O'gmachter、山地起司、辣根、麵包拼盤。",
+      "description": "農家煙燻肉、培根香腸、肝腸、冷烤牛肉、O'gmachter、山區起司、辣根與麵包。",
       "pairing": "Hefeweizen (Yeast White)"
     },
     "donisl-4erlei": {
-      "description": "鷹嘴豆泥、手工起司、鹽奶油與香草酸奶油，附麵包籃。",
+      "description": "鷹嘴豆泥、手工起司、鹽味奶油與香草酸奶油，附麵包籃。",
       "pairing": "Weissweinschorle"
     },
     "beef-tartare": {
-      "description": "牛肉塔塔配松露醬、烤有機蛋。",
+      "description": "牛肉塔塔，佐松露奶油與烤有機蛋。",
       "pairing": "Pinot Noir Ried Goldberg"
     },
-    "calfs-head-carpaccio": {
-      "description": "石榴、辣根、小黃瓜。",
-      "pairing": "Grüner Veltliner Ried Tenn DAC Reserve"
-    },
     "ogmachter-kas": {
-      "description": "奶油起司配洋蔥圈、蘿蔔、萵苣與漿果。",
+      "description": "綿密起司配洋蔥圈、紅蘿蔔、萵苣與莓果。",
       "pairing": "Münchner Radler"
     },
     "sausage-salad": {
-      "description": "店家醬、洋蔥圈、醃黃瓜、番茄、漿果（加山地起司條另 +1.90）。",
+      "description": "店家醬汁、洋蔥圈、酸黃瓜、番茄與莓果（加山區起司條 +1.90）。",
       "pairing": "Russn"
     },
     "donisl-salad": {
-      "description": "綜合生菜、番茄、小黃瓜、店家醬、種子與麵包丁。",
+      "description": "葉菜、生番茄、小黃瓜、店家醬汁、種子與麵包丁。",
       "pairing": "Weissweinschorle"
     },
     "bread-basket": {
@@ -222,111 +233,103 @@
       "pairing": "Münchner Hell"
     },
     "brezn": {
-      "description": "巴伐利亞椒鹽結餅 (Brezn)。",
+      "description": "巴伐利亞椒鹽捲（Pretzel）。",
       "pairing": "Münchner Hell"
     },
     "oxen-consomme": {
-      "description": "清澈牛肉高湯，附肝丸或薄煎餅條、蔬菜與細蔥。",
-      "pairing": "Weissweinschorle"
-    },
-    "tomato-soup": {
-      "description": "細緻番茄湯搭配 burrata 與羅勒奶油。",
+      "description": "清澈牛肉高湯，配肝丸或煎餅條、蔬菜與細香蔥。",
       "pairing": "Weissweinschorle"
     },
     "classic-sides": {
-      "description": "酸菜、紅高麗菜、培根高麗菜沙拉、奶油馬鈴薯、馬鈴薯湯圓、小烤馬鈴薯、Spätzle 或薯條 — 單點。",
+      "description": "酸菜、紅高麗菜、培根高麗菜沙拉、奶油馬鈴薯、馬鈴薯圓、小烤馬鈴薯、Spätzle 或薯條 — 單點均可。",
       "pairing": "Münchner Hell"
     },
     "vegetable-sides": {
-      "description": "蔬菜配菜或馬鈴薯小黃瓜沙拉 — 單點。",
+      "description": "蔬菜配菜或馬鈴薯小黃瓜沙拉 — 單點均可。",
       "pairing": "Weissweinschorle"
     },
     "power-bowl": {
-      "description": "香料飯、酪梨、毛豆、鷹嘴豆、胡蘿蔔、番茄、小黃瓜、花生、橘子薄荷萊姆醬。",
-      "pairing": "Riesling Easy-White"
+      "description": "香飯、酪梨、毛豆、鷹嘴豆、紅蘿蔔、番茄、小黃瓜、花生，佐橙薄荷萊姆醬。",
+      "pairing": "Sauvignon Blanc Reserve -S-"
     },
     "kaesespaetzle": {
-      "description": "起司Käsespätzle，配洋蔥圈。",
-      "pairing": "Münchner Dunkel 或 酒體飽滿的白酒"
+      "description": "起司 Spätzle，配洋蔥圈。",
+      "pairing": "Münchner Dunkel or a full-bodied white wine"
     },
     "linguine-truffles": {
-      "description": "義大利扁麵配嫩菠菜與冬季黑松露。",
-      "pairing": "杯裝 Chardonnay"
-    },
-    "rahmschwammerl": {
-      "description": "奶油蘑菇佐椒鹽結餅丸子。",
-      "pairing": "Grüner Veltliner Ried Steinberg"
+      "description": "義大利麵配嫩菠菜與冬季松露。",
+      "pairing": "Chardonnay（杯裝）"
     },
     "creme-brulee": {
-      "description": "搭配雪酪與漿果。",
+      "description": "焦糖烤布蕾，佐雪酪與莓果。",
       "pairing": "Rieslaner Auslese 甜酒"
     },
     "kaiserschmarrn": {
-      "description": "葡萄乾、奶油、糖與焦糖杏仁，附蘋果醬 — 適合共享。",
+      "description": "Kaiserschmarrn（皇帝鬆餅），有葡萄乾、奶油、糖與焦糖杏仁，搭配蘋果泥 — 適合分享。",
       "pairing": "Rieslaner Auslese 甜酒"
     },
     "kirschmichl": {
-      "description": "溫熱櫻桃蛋糕，搭配卡士達醬。",
+      "description": "溫熱櫻桃蛋糕，搭配香草卡士達醬。",
       "pairing": "Rieslaner Auslese"
     },
     "apple-strudel": {
-      "description": "經典蘋果捲，搭配卡士達醬。",
+      "description": "經典蘋果捲，佐卡士達醬。",
       "pairing": "Milchkaffee"
     },
     "muenchner-hell": {
-      "description": "底部發酵，淡苦的啤酒花香，略有麥芽風味。酒精濃度 5.0%。",
+      "description": "下層發酵，帶細緻苦花香與淡淡麥芽味。酒精濃度 5.0%。",
       "pairing": "Wiener Schnitzel"
     },
     "beer-light-alcohol-free": {
-      "description": "天然混濁，焦糖與蜂蜜香調。酒精 <0.5%。",
+      "description": "天然混濁，帶焦糖與蜂蜜香。〈0.5% vol。〉",
       "pairing": "Brotzeitbrettl"
     },
     "muenchner-radler": {
-      "description": "Münchner Helles 混細檸檬水，不過甜。",
+      "description": "Munich Helles 與微爽檸檬水調和，不過甜。",
       "pairing": "Donisl Salad"
     },
     "muenchner-dunkel": {
-      "description": "微苦，烘烤麥芽，帶焦糖與蜜餞果香。酒精濃度 5.0%。",
+      "description": "帶微苦的烘焙麥芽風味，並有焦糖與蜜餞果香。酒精濃度 5.0%。",
       "pairing": "Schweinshaxe"
     },
     "hefeweizen": {
-      "description": "頂部發酵小麥啤酒，帶香蕉與蜂蜜香氣。",
+      "description": "頂層發酵小麥啤酒，帶香蕉與蜂蜜香氣。",
       "pairing": "White sausage (Kesselfrisch)"
     },
     "russn": {
-      "description": "Hefeweizen 加清爽檸檬水，不過甜。",
+      "description": "以 Hefeweizen 與淡檸檬水混和，不會過甜。",
       "pairing": "Bratwurstreindl"
     },
     "cola-wheat": {
-      "description": "Hefeweizen 加可口可樂。",
+      "description": "Hefeweizen 與可口可樂混合。",
       "pairing": "Currywurst"
     },
     "non-alcoholic-wheat": {
-      "description": "完全熟成後輕微脫酒精化，保留香氣。",
+      "description": "完全熟成後輕微脫醇，保有香氣。",
       "pairing": "Backhendl"
     },
     "salvator": {
-      "description": "強烈啤酒 (Starkbier)，季節限定 — 二月至三月供應。0.5l。",
+      "description": "強力啤酒（Starkbier），季節限定 — 於二至三月供應。0.5l。",
       "pairing": "Duet of the Ox"
     },
     "kellerbier": {
-      "description": "季節限定 — 六、七、八月（夏季供應）。0.5l。",
+      "description": "季節限定 — 於六月/七月/八月（夏季）供應。0.5l。",
       "pairing": "Brotzeitbrettl"
     },
     "wiesnbier": {
-      "description": "慕尼黑啤酒節專用啤酒，季節限定 — 九、十月供應。0.5l。",
+      "description": "啤酒節專屬啤酒，季節限定 — 於九月/十月供應。",
       "pairing": "Donisl roasting pan"
     },
     "weissweinschorle": {
-      "description": "白酒氣泡飲。0.3l。",
-      "pairing": "Romanaherzen"
+      "description": "白葡萄酒氣泡飲。0.3l。",
+      "pairing": "Donisl Salad"
     },
     "pinot-gris-glass": {
       "description": "Hirschmüller 釀酒廠，Württemberg — 清爽易飲。",
-      "pairing": "Veal meatballs"
+      "pairing": "Kalbfleischpflanzerl (hand-pressed)"
     },
     "primitivo-glass": {
-      "description": "Sir of the Faun，普利亞 — 深色漿果、櫻桃與細膩香料。",
+      "description": "Sir of the Faun，Puglia — 深色莓果、櫻桃與細緻香料。",
       "pairing": "Schweinebraten (roast pork)"
     },
     "prodry-frizzante": {
@@ -334,11 +337,11 @@
       "pairing": "Brotzeitbrettl"
     },
     "paul-michel-champagne": {
-      "description": "Champagne Premier Cru，法國香檳區。0.75l 瓶。",
+      "description": "Champagne Premier Cru，法國香檳。0.75l 瓶。",
       "pairing": "Oxen consommé"
     },
     "taittinger-rose": {
-      "description": "Taittinger 香檳，法國。0.75l 瓶。",
+      "description": "Taittinger 玫瑰香檳，法國。0.75l 瓶。",
       "pairing": "Donisl \"4erlei\""
     },
     "valdo-prosecco": {
@@ -346,79 +349,79 @@
       "pairing": "Donisl Salad"
     },
     "winzersekt": {
-      "description": "Pfaffmann 釀酒廠，德國帕拉丁納特。0.75l 瓶。",
-      "pairing": "Velvet soup from bush tomato"
+      "description": "Pfaffmann 釀酒廠，德國 Pfalz。0.75l 瓶。",
+      "pairing": "Oxen consommé"
     },
     "chardonnay-bottle": {
-      "description": "Hirschmüller 釀酒廠，Württemberg — 百香果、芒果、鳳梨風味。0.75l 瓶。",
-      "pairing": "Rahmschwammerl"
+      "description": "Hirschmüller 釀酒廠，Württemberg — 百香果、芒果、菠蘿香。0.75l 瓶。",
+      "pairing": "Käsespätzle"
     },
     "chardonnay-glass": {
       "description": "Hirschmüller 釀酒廠，Württemberg。0.1l。",
-      "pairing": "Pfifferling-Linguine"
+      "pairing": "Linguine with truffles"
     },
     "chardonnay-macon-ige": {
-      "description": "Domaine Fichet，勃根地 — 蘋果、梨、白桃，細緻礦味。0.75l 瓶。",
+      "description": "Domaine Fichet，勃根地 — 蘋果、梨、白桃與細緻礦物感。0.75l 瓶。",
       "pairing": "Käsespätzle"
     },
     "pinot-gris-tradition": {
-      "description": "Bott Frères，勃根地 — 杏子、維也納蘋果、榛果、微煙燻。0.75l 瓶。",
-      "pairing": "Veal steak"
+      "description": "Bott Frères，勃根地 — 杏子、維也納蘋果、榛果與細煙燻感。0.75l 瓶。",
+      "pairing": "Kalbfleischpflanzerl (hand-pressed)"
     },
     "pinot-gris-oetinger": {
-      "description": "Oetinger 釀酒廠，Rheingau — 熟梨、黃蘋果、杏仁香氣。0.75l 瓶。",
+      "description": "Oetinger 釀酒廠，Rheingau — 熟梨、黃蘋果與一絲杏仁。0.75l 瓶。",
       "pairing": "Backhendl"
     },
     "pinot-gris-reserve-pauline": {
-      "description": "Pfaffmann 釀酒廠，帕拉丁納特 — 梨、鳳梨、油桃、檸檬草與花香。0.75l 瓶。",
+      "description": "Pfaffmann 釀酒廠，Pfalz — 梨、鳳梨、油桃、檸檬草與花香。0.75l 瓶。",
       "pairing": "O'gmachter Kas"
     },
     "pinot-blanc-grand-reserve": {
-      "description": "Taubenschuss 釀酒廠，奧地利 Weinviertel — 哈密瓜、榛果、乾草、焦糖。0.75l 瓶。",
+      "description": "Taubenschuss 釀酒廠，奧地利 Weinviertel — 哈密瓜、榛果、乾草與焦糖。0.75l 瓶。",
       "pairing": "Donisl \"4erlei\""
     },
     "trebbiano-di-lugana": {
-      "description": "Zenato 釀酒廠，Veneto，義大利 — 清新酸度、礦物感、柑橘、青蘋果、梨。0.75l 瓶。",
+      "description": "Zenato 釀酒廠，Veneto，義大利 — 清爽酸度、礦物、柑橘、青蘋果與梨。0.75l 瓶。",
       "pairing": "Sausage salad from Regensburg"
     },
     "lugana-glass": {
       "description": "Zenato 釀酒廠，Veneto，義大利。0.1l。",
-      "pairing": "Icefish"
+      "pairing": "Zander fillet with potato crust"
     },
     "riesling-easy-white": {
-      "description": "Oetinger 釀酒廠，Rheingau — 青檸、蘋果、白桃，理想開胃酒。0.75l 瓶。",
+      "description": "Oetinger 釀酒廠，Rheingau — 青檸、蘋果、白桃，理想的開胃酒。0.75l 瓶。",
       "pairing": "Wiener Schnitzel"
     },
     "riesling-gottloos": {
-      "description": "Dr. Loosen，Mosel — 柑橘、蘋果，優雅礦感。0.75l 瓶。",
+      "description": "Dr. Loosen 釀酒廠，Mosel — 柑橘、蘋果與優雅礦感。0.75l 瓶。",
       "pairing": "Wiener Schnitzel"
     },
     "riesling-heiligenstein": {
-      "description": "Bründlmayer，Langenlois，Kamptal，奧地利 — 清新柑橘、蘋果與草本香料。0.75l 瓶。",
+      "description": "Bründlmayer 釀酒廠，Langenlois, Kamptal，奧地利 — 清新柑橘、蘋果與草本香。0.75l 瓶。",
       "pairing": "Donisl Salad"
     },
     "riesling-smoky-dry": {
-      "description": "Weingut Oetinger，Rheingau — 煙燻礦味、多汁蘋果與柑橘。0.75l 瓶。",
+      "description": "Weingut Oetinger，Rheingau — 帶煙燻礦感、多汁蘋果與柑橘。0.75l 瓶。",
       "pairing": "Currywurst"
     },
     "riesling-bright-side-of-life": {
-      "description": "Stahl 釀酒廠，Franconia — 果香、清新、輕鬆易飲。0.75l 瓶。",
+      "description": "Stahl 釀酒廠，Franconia，德國 — 果香、清新且不繁複。0.75l 瓶。",
       "pairing": "Gebackenes Fischfilet (Friday)"
     },
     "riesling-nachschlag-glass": {
-      "description": "Stahl 釀酒廠，Franconia。0.1l。",
+      "description": "Stahl 釀酒廠，Franconia，德國。0.1l。",
       "pairing": "Gebackenes Fischfilet (Friday)"
     },
     "sauvignon-blanc": {
-      "description": "Chateau de la Chaise，Loire — 魚子果、青蘋果、熱帶水果。0.75l 瓶。",
-      "pairing": "Icefish"
+      "description": "Chateau de la Chaise，Loire — 醋栗、青蘋果與異國果香。0.75l 瓶。",
+      "pairing": "Zander fillet with potato crust"
     },
     "sauvignon-blanc-reserve": {
-      "description": "Taubenschuss 釀酒廠，奧地利 Weinviertel — 青檸、魚子果、熱帶水果。0.75l 瓶。",
+      "description": "Taubenschuss 釀酒廠，奧地利 Weinviertel — 青檸、醋栗與異國果香。0.75l 瓶。",
       "pairing": "Donisl Power Bowl"
     },
     "silvaner-easy-white": {
-      "description": "Weingut am Stein，Franconia — 青蘋果、梨與細緻草本。0.75l 瓶。",
+      "description": "Weingut am Stein，Franconia — 青蘋果、梨與淡淡草本。0.75l 瓶。",
       "pairing": "Vegetable side dish"
     },
     "gruener-veltliner-tenn": {
@@ -426,39 +429,39 @@
       "pairing": "Lukewarm calf's head carpaccio"
     },
     "riesling-gottloos-3l": {
-      "description": "Dr. Loosen，Mosel。3.0l 大瓶。",
+      "description": "Dr. Loosen 釀酒廠，Mosel。3.0l 瓶。",
       "pairing": "Wiener Schnitzel"
     },
     "gruener-veltliner-steinberg": {
-      "description": "Karl Fritsch 釀酒廠，Burgenland，奧地利。1.5l 大瓶。",
-      "pairing": "Pfifferlingsrahm"
+      "description": "Karl Fritsch 釀酒廠，Burgenland，奧地利。1.5l 瓶。",
+      "pairing": "Käsespätzle"
     },
     "chardonnay-morillon": {
-      "description": "Lackner-Tinnacher 釀酒廠，南史蒂利亞，奧地利。1.5l 大瓶。",
+      "description": "Lackner-Tinnacher 釀酒廠，Southern Styria，奧地利。1.5l 瓶。",
       "pairing": "O'gmachter Kas"
     },
     "cuvee-adrian-sangiovese": {
-      "description": "紅色混釀，Toscana Rosso，托斯卡尼。1.5l 大瓶。",
+      "description": "紅色混釀，Toscana Rosso，托斯卡尼。1.5l 瓶。",
       "pairing": "Duet of the Ox"
     },
     "primitivo-bottle": {
-      "description": "Barbanera 釀酒廠，阿普利亞，義大利 — 深色漿果、櫻桃與細香料。0.75l 瓶。",
+      "description": "Barbanera 釀酒廠，Apulia，義大利 — 深色莓果、櫻桃與細緻香料。0.75l 瓶。",
       "pairing": "Schweinebraten (roast pork)"
     },
     "herrgott-cuvee": {
-      "description": "Cabernet Sauvignon/Franc、Merlot，Weingut am Nil，帕拉丁納特 — 櫻桃與紅色漿果。0.75l 瓶。",
+      "description": "Cabernet Sauvignon/Franc、Merlot，Weingut am Nil，Pfalz — 櫻桃與紅色莓果。0.75l 瓶。",
       "pairing": "Ribeye 300 grams"
     },
     "herrgott-cuvee-glass": {
-      "description": "Cabernet Sauvignon/Franc、Merlot，Weingut am Nil，帕拉丁納特。0.1l。",
+      "description": "Cabernet Sauvignon/Franc、Merlot，Weingut am Nil，Pfalz。0.1l。",
       "pairing": "Donisl Bratengröstl (Tuesday)"
     },
     "tuscany-red-cuvee": {
-      "description": "Duca di Salangane，托斯卡尼 — 櫻桃與深色漿果。0.75l 瓶。",
+      "description": "Duca di Salangane，Toscana — 櫻桃與深色莓果。0.75l 瓶。",
       "pairing": "Roast beef — rump steak"
     },
     "pinot-noir-goldberg": {
-      "description": "Toni Hartl 釀酒廠，Burgenland — 紅色漿果、櫻桃與細香料。0.75l 瓶。",
+      "description": "Toni Hartl 釀酒廠，Burgenland — 紅色莓果、櫻桃與細緻香料。0.75l 瓶。",
       "pairing": "Steak vom Milchkalb"
     },
     "merlot": {
@@ -466,20 +469,20 @@
       "pairing": "Veal meatballs"
     },
     "brunello-di-montalcino": {
-      "description": "Tenuta Corte Pavone，Sangiovese，托斯卡尼 — 深漿果、櫻桃、巧克力。0.75l 瓶。",
+      "description": "Tenuta Corte Pavone，Sangiovese，托斯卡尼 — 深色莓果、櫻桃與巧克力。0.75l 瓶。",
       "pairing": "Ribeye 300 grams"
     },
     "black-ox-cuvee": {
-      "description": "Cabernet Sauvignon、Dornfelder、Tempranillo，Weingut Lergenmüller，帕拉丁納特 — 深色漿果、櫻桃、香料。0.75l 瓶。",
+      "description": "Cabernet Sauvignon、Dornfelder、Tempranillo，Weingut Lergenmüller，Pfalz — 深色莓果、櫻桃與香料。0.75l 瓶。",
       "pairing": "Duet of the Ox"
     },
     "rose-lime-stone": {
-      "description": "Unger 釀酒廠，Neusiedl 湖 — 紅色漿果、草莓、覆盆子、柑橘。0.75l 瓶。",
+      "description": "Unger 釀酒廠，Lake Neusiedl — 紅色莓果、草莓、覆盆子與柑橘。0.75l 瓶。",
       "pairing": "Donisl Salad"
     },
     "torres-natureo": {
-      "description": "Miguel Torres，Vilafranca del Penedès — 柑橘、蘋果、清爽。0.75l 瓶。",
-      "pairing": "Romanaherzen"
+      "description": "Miguel Torres，Vilafranca del Penedès — 柑橘、蘋果、輕盈風格。0.75l 瓶。",
+      "pairing": "Donisl Salad"
     },
     "rieslaner-auslese": {
       "description": "Juliusspital 釀酒廠，Franconia — 甜酒。0.5l 瓶。",
@@ -502,7 +505,7 @@
       "pairing": "Donisl \"4erlei\""
     },
     "sanbitter": {
-      "description": "無酒精苦味開胃酒。0.2l。",
+      "description": "無酒精的苦味開胃酒。0.2l。",
       "pairing": "Oxen consommé"
     },
     "nut-in-a-bottle": {
@@ -514,7 +517,7 @@
       "pairing": "Apple strudel"
     },
     "hirschkuss": {
-      "description": "酒精濃度 38%，掀蓋瓶，4cl。",
+      "description": "酒精濃度 38%，翻蓋瓶裝，4cl。",
       "pairing": "Kaiserschmarrn (large)"
     },
     "vodka-redbull": {
@@ -522,27 +525,27 @@
       "pairing": "Donisl Deluxe Burger"
     },
     "williams-christ-pear": {
-      "description": "酒精濃度 40%，Edelbrand，Sigi Herzog 蒸餾。2cl。",
+      "description": "40% vol. Edelbrand，Sigi Herzog 蒸餾酒。2cl。",
       "pairing": "Apple strudel"
     },
     "farm-fruit-growers": {
-      "description": "Linster 精緻果酒廠，於橡木桶陳年 1 年。2cl。",
+      "description": "Linster 精釀果餚酒，在橡木桶陳放 1 年。2cl。",
       "pairing": "Kirschmichl"
     },
     "feiner-mirabell": {
-      "description": "Linster 精緻果酒廠，熟成梅子風味。2cl。",
+      "description": "Linster 精釀果餚酒，成熟杏桃風味。2cl。",
       "pairing": "Crème brûlée"
     },
     "enzian-gentian-brandy": {
-      "description": "Wilhelm Marx 精釀烈酒工坊。2cl。",
+      "description": "Wilhelm Marx 精釀烈酒。2cl。",
       "pairing": "Schweinshaxe"
     },
     "raspberry-pulp-brandy": {
-      "description": "酒精濃度 40%，Wilhelm Marx Edelmanufaktur。2cl。",
+      "description": "40% vol. Wilhelm Marx 精製臻品。2cl。",
       "pairing": "Kaiserschmarrn (large)"
     },
     "grappa-chardonnay": {
-      "description": "Grandfather。2cl。",
+      "description": "祖父款 Grappa。2cl。",
       "pairing": "Crème brûlée"
     },
     "paulaner-spezi": {
@@ -555,7 +558,7 @@
     },
     "coca-cola-zero": {
       "description": "0.4l。",
-      "pairing": "一份薯條"
+      "pairing": "Portion of French Fries"
     },
     "paulaner-lemonade": {
       "description": "0.33l。",
@@ -563,7 +566,7 @@
     },
     "paulaner-orange-lemonade": {
       "description": "0.33l。",
-      "pairing": "馬鈴薯湯圓"
+      "pairing": "Potato dumplings"
     },
     "tonic": {
       "description": "0.2l。",
@@ -578,7 +581,7 @@
       "pairing": "Brezn"
     },
     "table-water": {
-      "description": "無氣或有氣。",
+      "description": "無氣或含氣。",
       "pairing": "Bread basket"
     },
     "apple-spritzer": {
@@ -595,7 +598,7 @@
     },
     "wolfra-orange-juice": {
       "description": "0.2l。",
-      "pairing": "馬鈴薯湯圓"
+      "pairing": "Potato dumplings"
     },
     "espresso": {
       "description": "",
@@ -626,23 +629,23 @@
       "pairing": "Kaiserschmarrn (large)"
     },
     "drinking-chocolate": {
-      "description": "以牛奶調配。",
+      "description": "以牛奶調製。",
       "pairing": "Kirschmichl"
     },
     "tea-ronnefeldt": {
-      "description": "Darjeeling、山草茶、甜莓果、龍井綠茶、清爽薄荷或果味洋甘菊可選。",
+      "description": "Darjeeling、山野草本、甜莓、Green Dragon Lung Ching、清新薄荷或花果甘菊。",
       "pairing": "Apple strudel"
     },
     "kids-potato-dumplings": {
-      "description": "附豬肉烤汁。",
+      "description": "佐豬肉燉汁的兒童馬鈴薯圓。",
       "pairing": "Wolfra orange juice"
     },
     "kids-kaesspatzn": {
-      "description": "兒童份起司 Spätzle。",
+      "description": "兒童份 Käsespätzle（起司 Spätzle）。",
       "pairing": "Apple spritzer"
     },
     "kids-rostbratwuerstl": {
-      "description": "附薯條或馬鈴薯小黃瓜沙拉。",
+      "description": "配薯條或馬鈴薯小黃瓜沙拉的兒童烤香腸。",
       "pairing": "Paulaner Spezi"
     },
     "kids-fries": {

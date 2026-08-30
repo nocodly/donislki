@@ -14,6 +14,10 @@ const config: Config = {
         accent: '#9E1B1B',
         'accent-deep': '#7A1414',
         gold: '#C9A227',
+        // Oktoberfest / Wiesn accent — Bavarian meadow green
+        wiesn: '#2E7D32',
+        'wiesn-deep': '#1B5E20',
+        'wiesn-tint': '#EAF3EA',
       },
       borderRadius: {
         card: '16px',

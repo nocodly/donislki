@@ -5,10 +5,16 @@
     "featuredTitle": "Recomandate",
     "askAi": "Întreabă AI",
     "chatTitle": "DonislKI",
-    "discussing": "Discutăm",
+    "discussing": "Discuție despre",
     "askAboutThis": "Întreabă AI despre asta",
+    "todaysLunchTitle": "Special prânz de azi",
+    "weekendLunchTitle": "Weekend la Donisl",
+    "weekendLunchText": "Nu avem special de prânz în timpul săptămânii — deliciile noastre de Oktoberfest sunt servite tot weekendul.",
+    "oktoberfestBadge": "E Oktoberfest",
+    "oktoberfestBannerTitle": "Schmankerl de Oktoberfest",
+    "oktoberfestBannerText": "A început Wiesn — specialitățile de Oktoberfest sunt acum în servire.",
     "askAboutDishTemplate": "Spune-mi despre {dish}",
-    "pairing": "Se potrivește cu",
+    "pairing": "Se potrivește bine cu",
     "fromPricePrefix": "de la ",
     "allergensLabel": "Alergeni",
     "allergensUnknown": "Vă rugăm confirmați cu personalul",
@@ -17,23 +23,24 @@
     "close": "Închide",
     "noInfo": "Nu am această informație în meniul curent.",
     "categories": {
-      "weekly": "Specialități săptămânale",
-      "traditional": "Tradiționale",
-      "sausages": "Cârnați",
+      "weekly": "Specialuri prânz",
+      "oktoberfest": "Oktoberfest",
+      "traditional": "Tradiţional",
+      "sausages": "Cârnaţi",
       "starters": "Aperitive",
       "vegan": "Vegan",
       "desserts": "Deserturi",
       "beer": "Bere",
-      "wine": "Vinuri",
-      "aperitif": "Aperitive (băuturi)",
-      "spirits": "Tării",
+      "wine": "Vin",
+      "aperitif": "Aperitiv",
+      "spirits": "Distilate",
       "drinks": "Băuturi nealcoolice & cafea",
-      "kids": "Copii"
+      "kids": "Meniul copiilor"
     },
     "tagLabels": {
-      "sharing": "de împărțit",
+      "sharing": "pentru împărțit",
       "signature": "semnătură",
-      "hearty": "sățios",
+      "hearty": "săţios",
       "classic": "clasic",
       "light": "ușor",
       "seasonal": "de sezon",
@@ -41,10 +48,10 @@
       "non-alcoholic": "fără alcool",
       "vegetarian": "vegetarian",
       "vegan": "vegan",
-      "spirit": "spirtoasă",
+      "spirit": "tărie",
       "water": "apă",
       "coffee": "cafea",
-      "hot-drink": "băutură fierbinte",
+      "hot-drink": "băutură caldă",
       "aperitif": "aperitiv",
       "bowl": "bol",
       "white": "alb",
@@ -54,13 +61,13 @@
       "dessert-wine": "vin de desert",
       "by-glass": "la pahar",
       "bottle": "sticlă",
-      "lunch-special": "ofertă prânz",
+      "lunch-special": "special prânz",
       "gluten": "gluten",
       "dairy": "lactate",
       "egg": "ou",
       "mustard": "muștar",
       "nuts": "nuci",
-      "peanuts": "alune",
+      "peanuts": "arachide",
       "fish": "pește",
       "soy": "soia",
       "celery": "țelină",
@@ -70,103 +77,111 @@
     "quickSuggestions": [
       "Ce recomanzi?",
       "Ce băutură se potrivește cu acest fel?",
-      "Afișează opțiuni vegane",
+      "Arată opțiunile vegane",
       "Ce conține alergeni?",
       "Ceva ușor",
       "Ceva tradițional"
     ]
   },
   "items": {
-    "chanterelle-soup": {
-      "description": "Supă cremă de gălbiori cu gălușcă cu bacon tirolez.",
-      "pairing": "Chardonnay (la pahar)"
-    },
-    "romaine-chanterelle-salad": {
-      "description": "Inimi de romaine cu vinegretă de zmeură, ceapă roșie, ridiche și gălbiori la cuptor.",
-      "pairing": "Weissweinschorle"
-    },
-    "veal-steak-chanterelle": {
-      "description": "Cotlet de vițel cu gălbiori, mazăre și piure cremos.",
-      "pairing": "Pinot Noir Ried Goldberg"
-    },
-    "chanterelle-linguine": {
-      "description": "Linguine cu gălbiori, smântână, cimbru și brânză de munte Bergkäse.",
-      "pairing": "Chardonnay (la pahar)"
-    },
-    "chanterelle-cream": {
-      "description": "Gălbiori în smântână cu cimbru și gălușcă din covrig.",
-      "pairing": "Grüner Veltliner Ried Steinberg"
-    },
-    "lunch-monday-asparagus-linguine": {
-      "description": "Meniu de prânz (luni), servit 12:00–15:30, include o cafea. Linguine cu sparanghel, cremă cu ceapă verde, roast beef și roșii.",
-      "pairing": "Sauvignon Blanc"
+    "lunch-monday-tagliatelle": {
+      "description": "Special prânz de luni, servit 12:00–15:30. Tagliatelle cu ciuperci de pădure și pătrunjel.",
+      "pairing": "Grauburgunder (la pahar)"
     },
     "lunch-tuesday-bratengroestl": {
-      "description": "Meniu de prânz (marți), servit 12:00–15:30, include o cafea. Amestec prăjit cu varză albă, gălușcă de cartofi și ou prăjit.",
+      "description": "Special prânz de marți, servit 12:00–15:30. Amestec prăjit cu varză albă, găluște de cartofi și ou prăjit.",
       "pairing": "Münchner Dunkel"
     },
-    "lunch-wednesday-strindberg-steak": {
-      "description": "Meniu de prânz (miercuri), servit 12:00–15:30, include o cafea. Cotlet de porc cu fasole verde și gratin de cartofi.",
-      "pairing": "Pinot Noir Ried Goldberg"
+    "lunch-wednesday-leberkaese": {
+      "description": "Special prânz de miercuri, servit 12:00–15:30. Leberkäse rumenit în tigaie cu ochiuri și salată de cartofi cu castraveți.",
+      "pairing": "Münchner Hell"
     },
     "lunch-thursday-chicken-geschnetzeltes": {
-      "description": "Meniu de prânz (joi), servit 12:00–15:30, include o cafea. Fâșii de pui în sos de ciuperci cu spätzle cu ierburi.",
-      "pairing": "Chardonnay (la pahar)"
+      "description": "Special prânz de joi, servit 12:00–15:30. Piept de pui fâșiat în sos de ciuperci cu spätzle aromate cu ierburi.",
+      "pairing": "Münchner Radler"
     },
     "lunch-friday-fish-fillet": {
-      "description": "Meniu de prânz (vineri), servit 12:00–15:30, include o cafea. File de pește prăjit al zilei cu remouladă și salată de cartofi cu castraveți.",
-      "pairing": "Riesling Easy-White"
+      "description": "Special prânz de vineri, servit 12:00–15:30. File de pește prăjit, cu remouladă și salată de cartofi cu castraveți.",
+      "pairing": "Riesling Smoky Dry"
+    },
+    "oktoberfest-pumpkin-soup": {
+      "description": "Supă cremoasă de dovleac cu ulei de semințe de dovleac din Stiria și semințe prăjite.",
+      "pairing": "Weissweinschorle"
+    },
+    "oktoberfest-leberkas-burger": {
+      "description": "Burger cu Leberkäse, ou prăjit, cartofi prăjiți și smântână cu ierburi.",
+      "pairing": "Oktoberfestbier"
+    },
+    "oktoberfest-bauernsalat": {
+      "description": "Salată mixtă, salată de cartofi și coleslaw cu fâșii crocante de burtă de porc.",
+      "pairing": "Münchner Radler"
+    },
+    "oktoberfest-milchkalb-steak": {
+      "description": "Steak din vițel hrănit cu lapte, cu fasole cu speck, jus de vin roșu și piure cremos.",
+      "pairing": "Pinot Noir Ried Goldberg"
+    },
+    "oktoberfest-half-chicken": {
+      "description": "Jumătate de pui la grătar (½ Hendl) cu salată de cartofi cu castraveți sau cartofi prăjiți.",
+      "pairing": "Hefeweizen (Yeast White)"
+    },
+    "oktoberfest-boiled-beef-fillet": {
+      "description": "File de vită fiartă cu os de măduvă de vită, legume rădăcinoase, hrean și cartofi cu rozmarin.",
+      "pairing": "Grüner Veltliner Ried Tenn DAC Reserve"
+    },
+    "oktoberfest-wiesn-reindl": {
+      "description": "Tigaie pentru împărțit: chiftea de vițel, schnitzel, bratwurst, ciolan și pui cu găluște de cartofi, varză murată și Käsespätzle. Preț per persoană, minim două persoane.",
+      "pairing": "Oktoberfestbier"
+    },
+    "oktoberfestbier": {
+      "description": "Lager festiv, mai puternic și malțos, turnat pentru Wiesn.",
+      "pairing": "Steak vom Milchkalb"
     },
     "donisl-roasting-pan": {
-      "description": "Tava Donisl: vită, rață, ciolan de porc și cârnați cu varză roșie, găluște de cartofi și käsespätzle — pentru a fi împărțit.",
+      "description": "Vită, rață, ciolan de porc și cârnați cu varză roșie, găluște de cartofi și Käsespätzle — pentru împărțit.",
       "pairing": "Münchner Dunkel"
     },
     "roast-pork": {
-      "description": "Porc bavarez (muşchi și burtă) cu șorici, sos natural, găluște de cartofi și salată de varză.",
+      "description": "Umăr și burtă de porc bavarez cu coajă crocantă, sos natural, găluște de cartofi și coleslaw.",
       "pairing": "Münchner Dunkel"
     },
     "schweinshaxe": {
-      "description": "Ciolan de porc fraged și crocant, servit cu sos natural, găluște de cartofi și salată de varză.",
-      "pairing": "Se potrivește cu bere Dunkel."
+      "description": "Ciolan de porc fript, crocant, servit cu sos natural, găluște de cartofi și coleslaw.",
+      "pairing": "Münchner Dunkel"
     },
     "wiener-schnitzel": {
-      "description": "Șnițel bavarez din porc crescut pe paie, servit cu cartofi prăjiți sau salată de cartofi cu castraveți și merișoare.",
-      "pairing": "Riesling Easy-White sau un Radler"
+      "description": "Schnitzel din porc crescut pe paie, servit cu cartofi prăjiți sau salată de cartofi cu castraveți și merișoare.",
+      "pairing": "Riesling Easy-White or a Radler"
     },
     "farm-duck": {
-      "description": "Rață de fermă cu sos de rozmarin, găluște de cartofi și varză roșie.",
+      "description": "Rață cu sos de rozmarin, găluște de cartofi și varză roșie.",
       "pairing": "Münchner Dunkel"
     },
     "backhendl": {
-      "description": "Pulpe de pui dezosate, pane, servite cu cartofi prăjiți sau salată de cartofi cu castraveți.",
+      "description": "Pulpe de pui dezosate, pane, cu cartofi prăjiți sau salată de cartofi cu castraveți.",
       "pairing": "Münchner Radler"
     },
     "duet-of-the-ox": {
-      "description": "Umăr și obraz de vită, jus de vin roșu, spanac baby, cartofi cremoși.",
+      "description": "Ragu de bivol și steak de bivol la grătar, jus de vin roșu, varză roșie, piure cremos.",
       "pairing": "Black OX Cuvée"
     },
-    "veal-steak": {
-      "description": "Cotlet de vițel cu sos cremos de piper colorat, kohlrabi flambat, rösti de cartofi.",
-      "pairing": "Pinot Blanc Grand Reserve"
-    },
     "veal-meatballs": {
-      "description": "Chifteluțe de vițel cu legume asezonate și cartofi cu rozmarin.",
-      "pairing": "Pinot Gris Tradition"
+      "description": "Chiftele din vițel modelate manual, cu legume marinate și cartofi cu rozmarin.",
+      "pairing": "Grauburgunder Tradition"
     },
     "white-sausage": {
-      "description": "Două bucăți, servite cu covrig și muștar.",
+      "description": "Două bucăți, servite cu covrig sărat (Brezn) și muștar.",
       "pairing": "Hefeweizen (Yeast White)"
     },
     "white-sausage-piece": {
-      "description": "O singură cârnată albă.",
+      "description": "O singură white sausage.",
       "pairing": "Hefeweizen (Yeast White)"
     },
     "polish-sausage": {
-      "description": "Servită cu covrig și muștar.",
+      "description": "Servit cu covrig și muștar.",
       "pairing": "Russn"
     },
     "currywurst": {
-      "description": "Currywurst servit cu cartofi prăjiți.",
+      "description": "Currywurst Donisl, servit cu cartofi prăjiți.",
       "pairing": "Hefeweizen wheat beer"
     },
     "bratwurstreindl": {
@@ -174,47 +189,43 @@
       "pairing": "Russn (light Hefeweizen)"
     },
     "rump-steak": {
-      "description": "Mușchi de vită Murnau cu jus de vin roșu și ceapă, ceapă prăjită, käsespätzle.",
-      "pairing": "Tuscany Red Cuvée"
+      "description": "Rump de Murnau cu jus de vin roșu și ceapă, ceapă prăjită și Käsespätzle.",
+      "pairing": "Primitivo Puglia IGT"
     },
     "ribeye-300g": {
-      "description": "Ribeye (300g) de la vită Murnau, cap de grăsime, sos Café de Paris, legume la grătar, gratin de cartofi.",
+      "description": "Cap gras de la Murnau, sos Café de Paris, legume la grătar, gratin de cartofi.",
       "pairing": "Brunello di Montalcino DOCG"
     },
     "deluxe-burger": {
-      "description": "Burger Deluxe 200g din vită Werdenfelser, cheddar, salată, roșii, castraveți murați, ceapă, sos Donisl de casă.",
+      "description": "Burger 200g din carne Werdenfelser, cheddar, salată, roșii, castraveți murați, ceapă, sos Donisl de casă. +3,90 cu cartofi prăjiți.",
       "pairing": "Münchner Hell"
     },
-    "icefish": {
-      "description": "File de pește cu cimbru, legume ratatouille, gratin de cartofi.",
+    "zanderfilet": {
+      "description": "File de zander (șalău de Dunăre) în crustă de cartofi, cu legume colorate de toamnă și sos de hrean.",
       "pairing": "Sauvignon Blanc"
     },
     "brotzeitbrettl": {
-      "description": "Platou țăranesc cu mezeluri afumate, cârnat bacon, lebărvurst, roast beef rece, O'gmachter, brânză de munte, hrean, pâine.",
+      "description": "Plată de fermier cu mezeluri afumate, cârnat bacon, leberwurst, rostbeef rece, O'gmachter, cașcaval de munte, hrean și pâine.",
       "pairing": "Hefeweizen (Yeast White)"
     },
     "donisl-4erlei": {
-      "description": "Hummus, brânză făcută, unt sărat și smântână cu ierburi, servite cu coș de pâine.",
+      "description": "Hummus, brânză preparată, unt sărat și smântână cu ierburi, servite cu coș de pâine.",
       "pairing": "Weissweinschorle"
     },
     "beef-tartare": {
-      "description": "Tartar de vită cu cremă de trufe și ou organic copt.",
+      "description": "Cremă de trufe, ou bio copt.",
       "pairing": "Pinot Noir Ried Goldberg"
     },
-    "calfs-head-carpaccio": {
-      "description": "Carpaccio din cap de vițel cu rodie, hrean și castravete.",
-      "pairing": "Grüner Veltliner Ried Tenn DAC Reserve"
-    },
     "ogmachter-kas": {
-      "description": "Käse O'gmachter – brânză cremoasă cu inele de ceapă, ridichi, salată și fructe de pădure.",
+      "description": "Caș cremos cu rondele de ceapă, ridichi, salată și fructe de pădure.",
       "pairing": "Münchner Radler"
     },
     "sausage-salad": {
-      "description": "Salată de cârnați cu dressing casei, inele de ceapă, castravete murat, roșii, fructe de pădure (+1.90 cu fâșii de brânză de munte).",
+      "description": "Dressing casei, rondele de ceapă, castravete murat, roșii, fructe de pădure (+1,90 cu fâșii de cașcaval de munte).",
       "pairing": "Russn"
     },
     "donisl-salad": {
-      "description": "Salată mixtă, roșii, castravete, dressing casei, semințe și crutoane.",
+      "description": "Frunze verzi, roșii, castravete, dressing casei, semințe și crutoane.",
       "pairing": "Weissweinschorle"
     },
     "bread-basket": {
@@ -222,19 +233,15 @@
       "pairing": "Münchner Hell"
     },
     "brezn": {
-      "description": "Covrig bavarez.",
+      "description": "Covrig bavarez (Brezn).",
       "pairing": "Münchner Hell"
     },
     "oxen-consomme": {
-      "description": "Consommé clar de vită cu găluște de ficat sau fâșii de clătită, legume și chives.",
-      "pairing": "Weissweinschorle"
-    },
-    "tomato-soup": {
-      "description": "Supă fină de roșii cu cremă de burrata și busuioc.",
+      "description": "Supă limpede de vită cu găluște de ficat sau fâșii de clătită, legume și ceapă verde.",
       "pairing": "Weissweinschorle"
     },
     "classic-sides": {
-      "description": "Garnituri clasice: varză murată, varză roșie, salată de bacon și varză, cartofi cremoși, găluște de cartofi, cartofi mici prăjiți, spätzle sau cartofi prăjiți — fiecare.",
+      "description": "Varză murată, varză roșie, salată de bacon și varză, piure cremos, găluște de cartofi, cartofi mici prăjiți, spätzle sau cartofi prăjiți — fiecare.",
       "pairing": "Münchner Hell"
     },
     "vegetable-sides": {
@@ -242,43 +249,39 @@
       "pairing": "Weissweinschorle"
     },
     "power-bowl": {
-      "description": "Orez aromat, avocado, edamame, năut, morcovi, roșii, castravete, alune, dressing portocale-mentă-lime.",
-      "pairing": "Riesling Easy-White"
+      "description": "Orez parfumat, avocado, edamame, năut, morcov, roșii, castravete, arahide, dressing portocală-mentă-lime.",
+      "pairing": "Sauvignon Blanc Reserve -S-"
     },
     "kaesespaetzle": {
-      "description": "Käsespätzle (spätzle cu brânză) cu inele de ceapă.",
-      "pairing": "Münchner Dunkel sau un vin alb corpolent"
+      "description": "Käsespätzle cu rondele de ceapă.",
+      "pairing": "Münchner Dunkel or a full-bodied white wine"
     },
     "linguine-truffles": {
       "description": "Paste cu spanac baby și trufe de iarnă.",
-      "pairing": "Chardonnay (la pahar)"
-    },
-    "rahmschwammerl": {
-      "description": "Ciuperci în sos cremos, servite cu gălușcă din covrig.",
-      "pairing": "Grüner Veltliner Ried Steinberg"
+      "pairing": "Chardonnay (by the glass)"
     },
     "creme-brulee": {
-      "description": "Crème brûlée, servită cu sorbet și fructe de pădure.",
+      "description": "Servit cu sorbet și fructe de pădure.",
       "pairing": "Rieslaner Auslese dessert wine"
     },
     "kaiserschmarrn": {
-      "description": "Kaiserschmarrn cu stafide, unt, zahăr și migdale caramelizate, servit cu sos de mere — ideal pentru a împărți.",
+      "description": "Kaiserschmarrn cu stafide, unt, zahăr și migdale caramelizate, servit cu piure de mere — ideal pentru împărțit.",
       "pairing": "Rieslaner Auslese dessert wine"
     },
     "kirschmichl": {
-      "description": "Prăjitură caldă cu vișine, servită cu cremă de vanilie.",
+      "description": "Prăjitură caldă cu vișine, servită cu budincă (custard).",
       "pairing": "Rieslaner Auslese"
     },
     "apple-strudel": {
-      "description": "Clasicul strudel cu mere, servit cu cremă de vanilie.",
+      "description": "Clasicul ștrudel cu mere, servit cu budincă.",
       "pairing": "Milchkaffee"
     },
     "muenchner-hell": {
-      "description": "Bere fermentată jos, cu note delicate de hamei amar și ușor malțată. 5.0% vol.",
+      "description": "Bere fermentată jos, cu notă delicat amară de hamei, ușor malțată. 5.0% vol.",
       "pairing": "Wiener Schnitzel"
     },
     "beer-light-alcohol-free": {
-      "description": "Ușor tulbure, note de caramel și miere. <0.5% vol.",
+      "description": "Nefiltrată natural, cu note de caramel și miere. <0.5% vol.",
       "pairing": "Brotzeitbrettl"
     },
     "muenchner-radler": {
@@ -290,11 +293,11 @@
       "pairing": "Schweinshaxe"
     },
     "hefeweizen": {
-      "description": "Weizen (bere de grâu) fermentată sus, cu note de banană și miere.",
+      "description": "Bere de grâu, fermentată sus, cu note de banană și miere.",
       "pairing": "White sausage (Kesselfrisch)"
     },
     "russn": {
-      "description": "Hefeweizen cu limonadă delicată, nu prea dulce.",
+      "description": "Hefeweizen cu puțină limonadă, nu prea dulce.",
       "pairing": "Bratwurstreindl"
     },
     "cola-wheat": {
@@ -302,31 +305,31 @@
       "pairing": "Currywurst"
     },
     "non-alcoholic-wheat": {
-      "description": "Degazată ușor după maturare completă, își păstrează aroma.",
+      "description": "Ușor dealcoolizată după maturarea completă, își păstrează aroma.",
       "pairing": "Backhendl"
     },
     "salvator": {
-      "description": "Bere tare (Starkbier), sezonieră — disponibilă în februarie/martie. 0.5l.",
+      "description": "Bere tare (Starkbier), de sezon — disponibilă februarie/martie. 0.5l.",
       "pairing": "Duet of the Ox"
     },
     "kellerbier": {
-      "description": "Sezonier — disponibilă iunie/iulie/august (vară). 0.5l.",
+      "description": "De sezon — disponibilă iunie/iulie/august (Sommerzeit). 0.5l.",
       "pairing": "Brotzeitbrettl"
     },
     "wiesnbier": {
-      "description": "Bere Oktoberfest, sezonieră — disponibilă septembrie/octombrie. 0.5l.",
+      "description": "Bere de Oktoberfest, de sezon — disponibilă septembrie/octombrie.",
       "pairing": "Donisl roasting pan"
     },
     "weissweinschorle": {
-      "description": "Spritzer din vin alb. 0.3l.",
-      "pairing": "Romanaherzen"
+      "description": "Spritz de vin alb. 0.3l.",
+      "pairing": "Donisl Salad"
     },
     "pinot-gris-glass": {
-      "description": "Hirschmüller Winery, Württemberg — ușor, plăcut la gust.",
-      "pairing": "Veal meatballs"
+      "description": "Hirschmüller, Württemberg — lejer, ușor de băut.",
+      "pairing": "Kalbfleischpflanzerl (hand-pressed)"
     },
     "primitivo-glass": {
-      "description": "Sir of the Faun, Puglia — fructe de pădure închise, vișine, condimente subtile.",
+      "description": "Sir of the Faun, Puglia — fructe negre, vișine, condimente subtile.",
       "pairing": "Schweinebraten (roast pork)"
     },
     "prodry-frizzante": {
@@ -346,35 +349,35 @@
       "pairing": "Donisl Salad"
     },
     "winzersekt": {
-      "description": "Pfaffmann Winery, Pfalz, Germania. Sticlă 0.75l.",
-      "pairing": "Velvet soup from bush tomato"
+      "description": "Pfaffmann, Palatinat, Germania. Sticlă 0.75l.",
+      "pairing": "Oxen consommé"
     },
     "chardonnay-bottle": {
-      "description": "Hirschmüller Winery, Württemberg — fructe exotice: fructul pasiunii, mango, ananas. Sticlă 0.75l.",
-      "pairing": "Rahmschwammerl"
+      "description": "Hirschmüller, Württemberg — fructe tropicale: fructul-pasiunii, mango, ananas. Sticlă 0.75l.",
+      "pairing": "Käsespätzle"
     },
     "chardonnay-glass": {
-      "description": "Hirschmüller Winery, Württemberg. 0.1l.",
-      "pairing": "Pfifferling-Linguine"
+      "description": "Hirschmüller, Württemberg. 0.1l.",
+      "pairing": "Linguine with truffles"
     },
     "chardonnay-macon-ige": {
-      "description": "Domaine Fichet, Burgundia — măr, pară, piersică albă, mineralitate subtilă. Sticlă 0.75l.",
+      "description": "Domaine Fichet, Burgundia — măr, pară, piersică albă, mineraliate subtilă. Sticlă 0.75l.",
       "pairing": "Käsespätzle"
     },
     "pinot-gris-tradition": {
-      "description": "Bott Frères, Burgundia — caise, măr vienez, alun, fum subtil. Sticlă 0.75l.",
-      "pairing": "Veal steak"
+      "description": "Bott Frères, Burgundia — caisă, măr austriac, alun, ușoară afumare. Sticlă 0.75l.",
+      "pairing": "Kalbfleischpflanzerl (hand-pressed)"
     },
     "pinot-gris-oetinger": {
-      "description": "Oetinger, Rheingau — pară coaptă, măr galben, hint de migdală. Sticlă 0.75l.",
+      "description": "Oetinger, Rheingau — pară coaptă, măr galben, ușor de migdală. Sticlă 0.75l.",
       "pairing": "Backhendl"
     },
     "pinot-gris-reserve-pauline": {
-      "description": "Pfaffmann, Pfalz — pară, ananas, nectarină, lemongrass, floral. Sticlă 0.75l.",
+      "description": "Pfaffmann, Palatinat — pară, ananas, nectarină, lemongrass, floral. Sticlă 0.75l.",
       "pairing": "O'gmachter Kas"
     },
     "pinot-blanc-grand-reserve": {
-      "description": "Taubenschuss, Weinviertel (Austria) — pepene galben, alun, fân, caramel. Sticlă 0.75l.",
+      "description": "Taubenschuss, Weinviertel, Austria — pepene, alun, fân, caramel. Sticlă 0.75l.",
       "pairing": "Donisl \"4erlei\""
     },
     "trebbiano-di-lugana": {
@@ -383,38 +386,38 @@
     },
     "lugana-glass": {
       "description": "Zenato, Veneto, Italia. 0.1l.",
-      "pairing": "Icefish"
+      "pairing": "Zander fillet with potato crust"
     },
     "riesling-easy-white": {
       "description": "Oetinger, Rheingau — lime, măr, piersică albă, aperitiv ideal. Sticlă 0.75l.",
       "pairing": "Wiener Schnitzel"
     },
     "riesling-gottloos": {
-      "description": "Dr. Loosen, Mosel — citrice, măr, minerality elegantă. Sticlă 0.75l.",
+      "description": "Dr. Loosen, Mosel — citrice, măr, mineralitate elegantă. Sticlă 0.75l.",
       "pairing": "Wiener Schnitzel"
     },
     "riesling-heiligenstein": {
-      "description": "Bründlmayer, Langenlois, Kamptal (Austria) — citrice proaspete, măr, condimente ierboase. Sticlă 0.75l.",
+      "description": "Bründlmayer, Langenlois, Kamptal, Austria — citrice proaspete, măr, condimente ierboase. Sticlă 0.75l.",
       "pairing": "Donisl Salad"
     },
     "riesling-smoky-dry": {
-      "description": "Weingut Oetinger, Rheingau — mineralitate fumurie, măr suculent, citrice. Sticlă 0.75l.",
+      "description": "Weingut Oetinger, Rheingau — mineralitate afumată, măr suculent, citrice. Sticlă 0.75l.",
       "pairing": "Currywurst"
     },
     "riesling-bright-side-of-life": {
-      "description": "Stahl, Franconia, Germania — fructuos, proaspăt, necomplicat. Sticlă 0.75l.",
+      "description": "Stahl, Franconia — fructuos, proaspăt, necomplicat. Sticlă 0.75l.",
       "pairing": "Gebackenes Fischfilet (Friday)"
     },
     "riesling-nachschlag-glass": {
-      "description": "Stahl, Franconia, Germania. 0.1l.",
+      "description": "Stahl, Franconia. 0.1l.",
       "pairing": "Gebackenes Fischfilet (Friday)"
     },
     "sauvignon-blanc": {
-      "description": "Chateau de la Chaise, Loire — agrișe, măr verde, fructe exotice. Sticlă 0.75l.",
-      "pairing": "Icefish"
+      "description": "Chateau de la Chaise, Loire — coacăză de pădure, măr verde, fructe exotice. Sticlă 0.75l.",
+      "pairing": "Zander fillet with potato crust"
     },
     "sauvignon-blanc-reserve": {
-      "description": "Taubenschuss, Weinviertel (Austria) — lime, agrișă, fructe exotice. Sticlă 0.75l.",
+      "description": "Taubenschuss, Weinviertel, Austria — lime, coacăză, fructe exotice. Sticlă 0.75l.",
       "pairing": "Donisl Power Bowl"
     },
     "silvaner-easy-white": {
@@ -422,7 +425,7 @@
       "pairing": "Vegetable side dish"
     },
     "gruener-veltliner-tenn": {
-      "description": "Taubenschuss, Weinviertel (Austria) — măr, piper alb, condimente ierboase. Sticlă 0.75l.",
+      "description": "Taubenschuss, Weinviertel, Austria — măr, piper alb, condimente ierboase. Sticlă 0.75l.",
       "pairing": "Lukewarm calf's head carpaccio"
     },
     "riesling-gottloos-3l": {
@@ -430,31 +433,31 @@
       "pairing": "Wiener Schnitzel"
     },
     "gruener-veltliner-steinberg": {
-      "description": "Karl Fritsch, Burgenland (Austria). Sticlă 1.5l.",
-      "pairing": "Pfifferlingsrahm"
+      "description": "Karl Fritsch, Burgenland, Austria. Sticlă 1.5l.",
+      "pairing": "Käsespätzle"
     },
     "chardonnay-morillon": {
-      "description": "Lackner-Tinnacher, Stiria de Sud (Austria). Sticlă 1.5l.",
+      "description": "Lackner-Tinnacher, Stiria de Sud, Austria. Sticlă 1.5l.",
       "pairing": "O'gmachter Kas"
     },
     "cuvee-adrian-sangiovese": {
-      "description": "Cuvée roșu, Toscana Rosso, Toscana. Sticlă 1.5l.",
+      "description": "Cuvee roșu, Toscana Rosso, Toscana. Sticlă 1.5l.",
       "pairing": "Duet of the Ox"
     },
     "primitivo-bottle": {
-      "description": "Barbanera, Puglia, Italia — fructe de pădure închise, vișine, condimente subtile. Sticlă 0.75l.",
+      "description": "Barbanera, Puglia, Italia — fructe negre, vișine, condimente subtile. Sticlă 0.75l.",
       "pairing": "Schweinebraten (roast pork)"
     },
     "herrgott-cuvee": {
-      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz — cireșe, fructe roșii. Sticlă 0.75l.",
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Palatinat — cireșe, fructe roșii. Sticlă 0.75l.",
       "pairing": "Ribeye 300 grams"
     },
     "herrgott-cuvee-glass": {
-      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz. 0.1l.",
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Palatinat. 0.1l.",
       "pairing": "Donisl Bratengröstl (Tuesday)"
     },
     "tuscany-red-cuvee": {
-      "description": "Duca di Salangane, Toscana — cireșe, fructe roșii închise. Sticlă 0.75l.",
+      "description": "Duca di Salangane, Toscana — cireșe, fructe negre. Sticlă 0.75l.",
       "pairing": "Roast beef — rump steak"
     },
     "pinot-noir-goldberg": {
@@ -462,15 +465,15 @@
       "pairing": "Steak vom Milchkalb"
     },
     "merlot": {
-      "description": "Chateau Gensac, Gascogne — cireșe închise, prune, condimente. Sticlă 0.75l.",
+      "description": "Chateau Gensac, Gascony — cireșe negre, prune, condimente. Sticlă 0.75l.",
       "pairing": "Veal meatballs"
     },
     "brunello-di-montalcino": {
-      "description": "Tenuta Corte Pavone, Sangiovese, Toscana — fructe de pădure închise, vișine, ciocolată. Sticlă 0.75l.",
+      "description": "Tenuta Corte Pavone, Sangiovese, Toscana — fructe negre, vișine, ciocolată. Sticlă 0.75l.",
       "pairing": "Ribeye 300 grams"
     },
     "black-ox-cuvee": {
-      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Pfalz — fructe de pădure închise, vișine, condimente. Sticlă 0.75l.",
+      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Palatinat — fructe negre, vișine, condimente. Sticlă 0.75l.",
       "pairing": "Duet of the Ox"
     },
     "rose-lime-stone": {
@@ -479,7 +482,7 @@
     },
     "torres-natureo": {
       "description": "Miguel Torres, Vilafranca del Penedès — citrice, măr, ușor. Sticlă 0.75l.",
-      "pairing": "Romanaherzen"
+      "pairing": "Donisl Salad"
     },
     "rieslaner-auslese": {
       "description": "Juliusspital, Franconia — vin de desert. Sticlă 0.5l.",
@@ -490,15 +493,15 @@
       "pairing": "Brotzeitbrettl"
     },
     "hugo": {
-      "description": "Hugo — spritz cu florile de soc. 0.2l.",
+      "description": "Spritz cu soc. 0.2l.",
       "pairing": "Bread basket"
     },
     "campari-soda": {
-      "description": "Campari cu sodă. 0.2l.",
+      "description": "0.2l.",
       "pairing": "Brezn"
     },
     "campari-orange": {
-      "description": "Campari cu portocală. 0.2l.",
+      "description": "0.2l.",
       "pairing": "Donisl \"4erlei\""
     },
     "sanbitter": {
@@ -514,7 +517,7 @@
       "pairing": "Apple strudel"
     },
     "hirschkuss": {
-      "description": "38% vol., sticlă cu capac tip swing, 4cl.",
+      "description": "38% vol., sticlă cu dop tip swing, 4cl.",
       "pairing": "Kaiserschmarrn (large)"
     },
     "vodka-redbull": {
@@ -526,11 +529,11 @@
       "pairing": "Apple strudel"
     },
     "farm-fruit-growers": {
-      "description": "Distileria Linster, fructe fine, maturat 1 an în butoaie de stejar. 2cl.",
+      "description": "Distileria Linster, învechit 1 an în butoaie de stejar. 2cl.",
       "pairing": "Kirschmichl"
     },
     "feiner-mirabell": {
-      "description": "Linster, aromă de caise coapte. 2cl.",
+      "description": "Linster, cu aromă de caisă coaptă. 2cl.",
       "pairing": "Crème brûlée"
     },
     "enzian-gentian-brandy": {
@@ -542,7 +545,7 @@
       "pairing": "Kaiserschmarrn (large)"
     },
     "grappa-chardonnay": {
-      "description": "Grappa din Chardonnay. 2cl.",
+      "description": "Grappa 'Grandfather'. 2cl.",
       "pairing": "Crème brûlée"
     },
     "paulaner-spezi": {
@@ -555,7 +558,7 @@
     },
     "coca-cola-zero": {
       "description": "0.4l.",
-      "pairing": "Porție de cartofi prăjiți"
+      "pairing": "Portion of French Fries"
     },
     "paulaner-lemonade": {
       "description": "0.33l.",
@@ -563,7 +566,7 @@
     },
     "paulaner-orange-lemonade": {
       "description": "0.33l.",
-      "pairing": "Găluște de cartofi"
+      "pairing": "Potato dumplings"
     },
     "tonic": {
       "description": "0.2l.",
@@ -574,11 +577,11 @@
       "pairing": "Donisl Deluxe Burger"
     },
     "bad-brambacher": {
-      "description": "Apă plată sau minerală ușor carbogazoasă. 0.5l.",
+      "description": "Plată sau efervescentă. 0.5l.",
       "pairing": "Brezn"
     },
     "table-water": {
-      "description": "Apă plată sau carbogazoasă.",
+      "description": "Plată sau carbogazificată.",
       "pairing": "Bread basket"
     },
     "apple-spritzer": {
@@ -586,16 +589,16 @@
       "pairing": "Kässpatzn"
     },
     "johannisbeerschorle": {
-      "description": "Spritzer de coacăze negre. 0.4l.",
+      "description": "Spritz de coacăze negre. 0.4l.",
       "pairing": "Kirschmichl"
     },
     "maracujaschorle": {
-      "description": "Spritzer de fructul pasiunii. 0.4l.",
+      "description": "Spritz de fructul pasiunii. 0.4l.",
       "pairing": "Donisl Power Bowl"
     },
     "wolfra-orange-juice": {
-      "description": "Suc de portocale Wolfra. 0.2l.",
-      "pairing": "Găluște de cartofi"
+      "description": "0.2l.",
+      "pairing": "Potato dumplings"
     },
     "espresso": {
       "description": "",
@@ -626,23 +629,23 @@
       "pairing": "Kaiserschmarrn (large)"
     },
     "drinking-chocolate": {
-      "description": "Ciocolată caldă cu lapte.",
+      "description": "Cu lapte.",
       "pairing": "Kirschmichl"
     },
     "tea-ronnefeldt": {
-      "description": "Ceai Ronnefeldt: Darjeeling, Mountain herbs, Sweet Berries, Green Dragon Lung Ching, Refreshing Mint sau Fruity Camomile.",
+      "description": "Darjeeling, Mountain herbs, Sweet Berries, Green Dragon Lung Ching, Refreshing Mint sau Fruity Camomile.",
       "pairing": "Apple strudel"
     },
     "kids-potato-dumplings": {
-      "description": "Găluște de cartofi pentru copii cu sos de roast pork.",
+      "description": "Cu sos de rostbeef de porc.",
       "pairing": "Wolfra orange juice"
     },
     "kids-kaesspatzn": {
-      "description": "Porție pentru copii de Käsespätzle.",
+      "description": "Käsespätzle, porție pentru copii.",
       "pairing": "Apple spritzer"
     },
     "kids-rostbratwuerstl": {
-      "description": "Cârnați mici pentru copii, serviți cu cartofi prăjiți sau salată de cartofi cu castraveți.",
+      "description": "Cu cartofi prăjiți sau salată de cartofi cu castraveți.",
       "pairing": "Paulaner Spezi"
     },
     "kids-fries": {

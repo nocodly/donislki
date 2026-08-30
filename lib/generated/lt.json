@@ -1,47 +1,54 @@
 {
   "strings": {
-    "welcome": "Peržiūrėkite meniu žemiau arba paprašykite mūsų AI pagalbos rekomendacijos.",
+    "welcome": "Peržiūrėkite meniu žemiau arba paprašykite mūsų AI asistentės rekomendacijos.",
     "categoriesTitle": "Meniu",
-    "featuredTitle": "Rekomenduojame",
-    "askAi": "Paklausti AI",
+    "featuredTitle": "Išskirtiniai",
+    "askAi": "Klausk AI",
     "chatTitle": "DonislKI",
-    "discussing": "Aptariama",
+    "discussing": "aptariama",
     "askAboutThis": "Paklausk AI apie tai",
-    "askAboutDishTemplate": "Papasakok man apie {dish}",
-    "pairing": "Gerai dera su",
+    "todaysLunchTitle": "Šiandienos pietų pasiūlymas",
+    "weekendLunchTitle": "Šeštadienio–sekmadienio pasiūlymai Donisl",
+    "weekendLunchText": "Šiandien nėra savaitės pietų specialio — mūsų Oktoberfest gėrybės tiekiamos visą savaitgalį.",
+    "oktoberfestBadge": "Oktoberfest'as",
+    "oktoberfestBannerTitle": "Oktoberfest gėrybės",
+    "oktoberfestBannerText": "Wiesn sezono pradžia — dabar tiekiami Oktoberfest špecialai.",
+    "askAboutDishTemplate": "Papasakok apie {dish}",
+    "pairing": "Geriausiai su",
     "fromPricePrefix": "nuo ",
     "allergensLabel": "Alergenai",
-    "allergensUnknown": "Patikrinkite su personalu",
-    "composerPlaceholder": "Klausk apie meniu…",
+    "allergensUnknown": "Patikrinkite pas aptarnaujantį personalą",
+    "composerPlaceholder": "Klauskite apie meniu…",
     "send": "Siųsti",
     "close": "Uždaryti",
-    "noInfo": "Neturiu šios informacijos dabartiniame meniu.",
+    "noInfo": "Šios informacijos dabartiniame meniu neturiu.",
     "categories": {
-      "weekly": "Savaitės pasiūlymai",
-      "traditional": "Tradiciniai",
-      "sausages": "Dešros",
+      "weekly": "Pietų pasiūlymai",
+      "oktoberfest": "Oktoberfest",
+      "traditional": "Tradiciškai",
+      "sausages": "Dešrelės",
       "starters": "Užkandžiai",
-      "vegan": "Vegan",
+      "vegan": "Veganiški",
       "desserts": "Desertai",
       "beer": "Alus",
       "wine": "Vynas",
       "aperitif": "Aperityvas",
-      "spirits": "Girtaujimai",
-      "drinks": "Nealkoholiniai gėrimai & kava",
+      "spirits": "Stiprieji gėrimai",
+      "drinks": "Nealkoholinis & kava",
       "kids": "Vaikams"
     },
     "tagLabels": {
-      "sharing": "dalintis",
-      "signature": "firminis",
-      "hearty": "sotus",
+      "sharing": "dalijimuisi",
+      "signature": "namų specialas",
+      "hearty": "sotūs",
       "classic": "klasika",
       "light": "lengvas",
       "seasonal": "sezoninis",
       "strong": "stiprus",
       "non-alcoholic": "nealkoholinis",
       "vegetarian": "vegetariškas",
-      "vegan": "vegan",
-      "spirit": "girtaujimas",
+      "vegan": "veganiškas",
+      "spirit": "traukta",
       "water": "vanduo",
       "coffee": "kava",
       "hot-drink": "karštas gėrimas",
@@ -52,169 +59,173 @@
       "rose": "rožinis",
       "sparkling": "putojantis",
       "dessert-wine": "desertinis vynas",
-      "by-glass": "stiklinė",
+      "by-glass": "taurei",
       "bottle": "butelis",
-      "lunch-special": "pietų pasiūlymas",
-      "gluten": "glutenas",
+      "lunch-special": "pietų specialas",
+      "gluten": "glitimas",
       "dairy": "pieno produktai",
       "egg": "kiaušinis",
       "mustard": "garstyčios",
       "nuts": "riešutai",
       "peanuts": "žemės riešutai",
       "fish": "žuvis",
-      "soy": "soja",
+      "soy": "sojos",
       "celery": "salierai",
       "sulphites": "sulfitai",
       "sesame": "sezamas"
     },
     "quickSuggestions": [
       "Ką rekomenduojate?",
-      "Koks gėrimas tinka prie šio patiekalo?",
-      "Rodyk veganiškus pasirinkimus",
-      "Ką sudaro alergiją keliantys ingredientai?",
-      "Noriu ko nors lengvo",
-      "Ką nors tradicinio"
+      "Kuris gėrimas tinka prie šio patiekalo?",
+      "Rodyti veganiškus patiekalus",
+      "Ką sudaro alergenai?",
+      "Kažką lengvo",
+      "Kažką tradicinio"
     ]
   },
   "items": {
-    "chanterelle-soup": {
-      "description": "Grybų (liuoforų) kremas su Tirolio šoninės kukuliu.",
-      "pairing": "Chardonnay (stiklinė)"
-    },
-    "romaine-chanterelle-salad": {
-      "description": "Romaine salotų širdelės su aviečių vinaigrette, raudonu svogūnu, ridikėliais ir skrudintais luoforais.",
-      "pairing": "Weissweinschorle"
-    },
-    "veal-steak-chanterelle": {
-      "description": "Veršienos kepsnys su luoforais, žirneliais ir kreminėmis bulvėmis.",
-      "pairing": "Pinot Noir Ried Goldberg"
-    },
-    "chanterelle-linguine": {
-      "description": "Linguine su luoforais, grietinėle, čiobreliais ir Bergkäse kalnų sūriu.",
-      "pairing": "Chardonnay (stiklinė)"
-    },
-    "chanterelle-cream": {
-      "description": "Grietinėje troškinti luoforai su čiobreliais ir pretzelio kukuliu.",
-      "pairing": "Grüner Veltliner Ried Steinberg"
-    },
-    "lunch-monday-asparagus-linguine": {
-      "description": "Pietų savaitės pasiūlymas (12:00–15:30), į kainą įskaičiuota kava. Linguine su smidrais, chivio kremu, kepta jautiena ir pomidoru.",
-      "pairing": "Sauvignon Blanc"
+    "lunch-monday-tagliatelle": {
+      "description": "Pirmadienio pietų specialus, tiekiama 12:00–15:30. Tagliatelle su miško grybais ir petražolėmis.",
+      "pairing": "Grauburgunder (taurei)"
     },
     "lunch-tuesday-bratengroestl": {
-      "description": "Pietų savaitės pasiūlymas (12:00–15:30), į kainą įskaičiuota kava. Mišrūs kepti patiekalai su raugintais kopūstais, bulvių kukuliu ir keptu kiaušiniu.",
+      "description": "Antradienio pietų specialus, tiekiama 12:00–15:30. Mišrūs keptinukai su baltąja kopūstų salotą, bulvių kukuliu ir keptu kiaušiniu.",
       "pairing": "Münchner Dunkel"
     },
-    "lunch-wednesday-strindberg-steak": {
-      "description": "Pietų savaitės pasiūlymas (12:00–15:30), į kainą įskaičiuota kava. Kiaulienos nugarinės kepsnys su žaliaisiais pupelėmis ir bulvių gratinu.",
-      "pairing": "Pinot Noir Ried Goldberg"
+    "lunch-wednesday-leberkaese": {
+      "description": "Trečiadienio pietų specialus, tiekiama 12:00–15:30. Keptas Leberkäse su keptais kiaušiniais ir bulvių–agurkų salotomis.",
+      "pairing": "Münchner Hell"
     },
     "lunch-thursday-chicken-geschnetzeltes": {
-      "description": "Pietų savaitės pasiūlymas (12:00–15:30), į kainą įskaičiuota kava. Smulkinta vištiena grybų padaže su žolelių spätzle.",
-      "pairing": "Chardonnay (stiklinė)"
+      "description": "Ketvirtadienio pietų specialus, tiekiama 12:00–15:30. Supjaustyta vištiena grybų padaže su žolelių spätzle.",
+      "pairing": "Münchner Radler"
     },
     "lunch-friday-fish-fillet": {
-      "description": "Pietų savaitės pasiūlymas (12:00–15:30), į kainą įskaičiuota kava. Keptas dienos laimikis su remouladu ir bulvių-agurkų salotomis.",
-      "pairing": "Riesling Easy-White"
+      "description": "Penktadienio pietų specialus, tiekiama 12:00–15:30. Keptas dienos laimikis su remoulade ir bulvių–agurkų salotomis.",
+      "pairing": "Riesling Smoky Dry"
+    },
+    "oktoberfest-pumpkin-soup": {
+      "description": "Švelni moliūgų sriuba su Štirmos moliūgų aliejumi ir skrudintais sėklomis.",
+      "pairing": "Weissweinschorle"
+    },
+    "oktoberfest-leberkas-burger": {
+      "description": "Leberkäse burgeris su keptu kiaušiniu, fri bulvytėmis ir žolelių grietine.",
+      "pairing": "Oktoberfestbier"
+    },
+    "oktoberfest-bauernsalat": {
+      "description": "Mišrios salotos, bulvių salotos ir kopūstų salotos su traškiais šoninės juostelėmis.",
+      "pairing": "Münchner Radler"
+    },
+    "oktoberfest-milchkalb-steak": {
+      "description": "Pieninės veršienos kepsnys su šoninės pupelėmis, raudono vyno sultiniu ir kreminėmis bulvėmis.",
+      "pairing": "Pinot Noir Ried Goldberg"
+    },
+    "oktoberfest-half-chicken": {
+      "description": "Kepta pusė vištos (½ Hendl) su bulvių–agurkų salotomis arba fri bulvytėmis.",
+      "pairing": "Hefeweizen (Yeast White)"
+    },
+    "oktoberfest-boiled-beef-fillet": {
+      "description": "Virtas jautienos filė su kaulo smegenimis, šakninėmis daržovėmis, krienais ir rozmarininėmis bulvėmis.",
+      "pairing": "Grüner Veltliner Ried Tenn DAC Reserve"
+    },
+    "oktoberfest-wiesn-reindl": {
+      "description": "Dalijamuisi keptuvė: veršienos kukulys, šnicelis, bratwurst, kiaulės koja ir vištiena su bulvių kukuliais, raugintais kopūstais ir Käsespätzle. Kaina nurodyta nuo asmens, min. dviems.",
+      "pairing": "Oktoberfestbier"
+    },
+    "oktoberfestbier": {
+      "description": "Stiprintas, saldus festivalinis lageris, pilstomas Wiesn laikotarpiu.",
+      "pairing": "Steak vom Milchkalb"
     },
     "donisl-roasting-pan": {
-      "description": "Jautiena, antis, kiaulės raktikaulis ir dešrelės su raudonaisiais kopūstais, bulvių kukuliais ir sūrio spätzle — dalijimuisi.",
+      "description": "Jautiena, antis, kiaulės koja ir dešrelės su raudonaisiais kopūstais, bulvių kukuliais ir Käsespätzle — dalijimuisi.",
       "pairing": "Münchner Dunkel"
     },
     "roast-pork": {
-      "description": "Bavarijos kiaulienos pečialka ir pilvas su traškia plutele, natūraliu padažu, bulvių kukuliais ir coleslaw salotomis.",
+      "description": "Bavarijos kiaulienos sprandinė ir pilvas su traškia plutele, natūraliu padažu, bulvių kukuliais ir kopūstų salotomis.",
       "pairing": "Münchner Dunkel"
     },
     "schweinshaxe": {
-      "description": "Traški kepta kiaulės raktikaulis, patiekiama su natūraliu padažu, bulvių kukuliais ir coleslaw salotomis.",
-      "pairing": "Gerai dera su Dunkel alus."
+      "description": "Traški kepta kiaulės koja, patiekiama su natūraliu padažu, bulvių kukuliais ir kopūstų salotomis.",
+      "pairing": "Münchner Dunkel"
     },
     "wiener-schnitzel": {
-      "description": "Bavarijos laisvės ėrienos stiliaus kiaulienos šnicelis su bulvytėmis arba bulvių-agurkų salotomis ir spanguolėmis.",
-      "pairing": "Riesling Easy-White arba Radler"
+      "description": "Bavarijos kiaulienos šnicelis, patiekiamas su fri arba bulvių–agurkų salotomis ir spanguolėmis.",
+      "pairing": "Riesling Easy-White or a Radler"
     },
     "farm-duck": {
-      "description": "Rozmarino padažas, bulvių kukuliai ir raudonieji kopūstai.",
+      "description": "Antiena su rozmarino padažu, bulvių kukuliais ir raudonaisiais kopūstais.",
       "pairing": "Münchner Dunkel"
     },
     "backhendl": {
-      "description": "Be kaulų džiovinta kepta vištos koja su fri arba bulvių-agurkų salotomis.",
+      "description": "Be kaulų, džiūvėsėliu apvoliota vištos kulšelė su fri arba bulvių–agurkų salotomis.",
       "pairing": "Münchner Radler"
     },
     "duet-of-the-ox": {
-      "description": "Jautienos petys ir žandai, raudono vyno sultinys, kūdikių špinatai, kreminės bulvės.",
+      "description": "Troškinta jaučio dalis ir keptas jaučio steikas, raudono vyno sultinys, raudonieji kopūstai, kreminės bulvės.",
       "pairing": "Black OX Cuvée"
     },
-    "veal-steak": {
-      "description": "Spalvingas pipirų kremas, užgesintas kohlrabi, bulvių rösti.",
-      "pairing": "Pinot Blanc Grand Reserve"
-    },
     "veal-meatballs": {
-      "description": "Patiekiama su žalumynais ir rozmarino bulvėmis.",
-      "pairing": "Pinot Gris Tradition"
+      "description": "Rankomis formuoti veršienos kepsneliai su marinuotomis daržovėmis ir rozmarino bulvėmis.",
+      "pairing": "Grauburgunder Tradition"
     },
     "white-sausage": {
-      "description": "Du vnt., pateikiama su pretzeliu ir garstyčiomis.",
+      "description": "Du vienetai, patiekiami su precele ir garstyčiomis.",
       "pairing": "Hefeweizen (Yeast White)"
     },
     "white-sausage-piece": {
-      "description": "Viena baltosios dešros porcija.",
+      "description": "Vienas baltasis dešrelių vienetas.",
       "pairing": "Hefeweizen (Yeast White)"
     },
     "polish-sausage": {
-      "description": "Patiekiama su pretzeliu ir garstyčiomis.",
+      "description": "Patiekiama su precele ir garstyčiomis.",
       "pairing": "Russn"
     },
     "currywurst": {
-      "description": "Curry dešra, patiekiama su fri.",
+      "description": "Donisl stiliaus curry padažas su dešrele, patiekiama su fri bulvytėmis.",
       "pairing": "Hefeweizen wheat beer"
     },
     "bratwurstreindl": {
-      "description": "Kepsnio keptuvė su grilintomis dešrelėmis, raugintais kopūstais arba bulvių salotomis — dalijimosi porcija.",
-      "pairing": "Russn (švelnus Hefeweizen)"
+      "description": "Keptuvė su griliaus dešrelėmis ir raugintais kopūstais arba bulvių salotomis — dalijimuisi.",
+      "pairing": "Russn (light Hefeweizen)"
     },
     "rump-steak": {
-      "description": "Murnau jautiena su raudono vyno ir svogūnų sultiniu, keptu svogūnu, käsespätzle.",
-      "pairing": "Tuscany Red Cuvée"
+      "description": "Murnau jautiena su raudono vyno ir svogūnų sultiniu, keptais svogūnais, Käsespätzle.",
+      "pairing": "Primitivo Puglia IGT"
     },
     "ribeye-300g": {
-      "description": "Riebalinė Murnau jautienos dalis, café de paris padažas, grilintos daržovės, bulvių gratinas.",
+      "description": "Murnau jautienos riebalinis kraštas, Café de Paris padažas, keptos daržovės, bulvių gratinas.",
       "pairing": "Brunello di Montalcino DOCG"
     },
     "deluxe-burger": {
-      "description": "200 g Werdenfelser jautienos, čederis, salotos, pomidoras, agurkėliai, svogūnai, naminė Donisl padažas.",
+      "description": "200 g Werdenfelser jautienos, čederis, lapinės salotos, pomidoras, marinatai, svogūnai, naminė Donisl padažas. +3,90 su fri bulvytėmis.",
       "pairing": "Münchner Hell"
     },
-    "icefish": {
-      "description": "Su čiobreliais, ratatouille daržovėmis ir bulvių gratinu.",
+    "zanderfilet": {
+      "description": "Lydekos upėtakio filė su bulvių plutele, spalvotos rudens daržovės ir krienų padažas.",
       "pairing": "Sauvignon Blanc"
     },
     "brotzeitbrettl": {
-      "description": "Ūkininko rūkytiena, lašinukų dešra, kepenų dešra, šaltai riebintos jautienos kepsnys, O'gmachter, kalnų sūris, krienai, duona.",
+      "description": "Ūkininko rūkytiena, šoninės dešra, kepenų dešra, šaltai rūkytas jautienos kumpis, O'gmachter, kalnų sūris, krienai, duona.",
       "pairing": "Hefeweizen (Yeast White)"
     },
     "donisl-4erlei": {
-      "description": "Humusas, naminė sūrio užtepėlė, sūdyto sviesto riekelės ir žolelių grietinė, patiekiama su duonos krepšeliu.",
+      "description": "Hummus, naminė sūrio pasta, sūdyta sviestas ir žolelių grietinėlė, patiekiama su duonos krepšeliu.",
       "pairing": "Weissweinschorle"
     },
     "beef-tartare": {
-      "description": "Tartaras su trumų kremu ir keptu ekologišku kiaušiniu.",
+      "description": "Trumų kremas, keptas ekologiškas kiaušinis.",
       "pairing": "Pinot Noir Ried Goldberg"
-    },
-    "calfs-head-carpaccio": {
-      "description": "Kalakutų granatų sėklos, krienai, agurkas.",
-      "pairing": "Grüner Veltliner Ried Tenn DAC Reserve"
     },
     "ogmachter-kas": {
       "description": "Kreminis sūris su svogūnų žiedais, ridikėliais, salotomis ir uogomis.",
       "pairing": "Münchner Radler"
     },
     "sausage-salad": {
-      "description": "Namų padažas, svogūnų žiedai, marinuotas agurkas, pomidoras, uoga (+1,90 su kalnų sūrio juostelėmis).",
+      "description": "Naminis padažas, svogūnų žiedai, marinuotukas, pomidoras, uogos (+1,90 su kalnų sūrio juostelėmis).",
       "pairing": "Russn"
     },
     "donisl-salad": {
-      "description": "Lapinės salotos, pomidoras, agurkas, namų padažas, sėklos ir krutonai.",
+      "description": "Lapinės salotos, pomidoras, agurkas, naminė užpilo, sėklos ir duonos skrebučiai.",
       "pairing": "Weissweinschorle"
     },
     "bread-basket": {
@@ -222,19 +233,15 @@
       "pairing": "Münchner Hell"
     },
     "brezn": {
-      "description": "Bavarijos pretzelis.",
+      "description": "Bavarijos precelė.",
       "pairing": "Münchner Hell"
     },
     "oxen-consomme": {
-      "description": "Skaidrus jautienos sultinys su kepenų kukuliais arba blynų juostelėmis, daržovėmis ir svogūnų laiškais.",
-      "pairing": "Weissweinschorle"
-    },
-    "tomato-soup": {
-      "description": "Sutrinta pomidorų sriuba su burrata–bazilikų kremu.",
+      "description": "Skaidrus jautienos sultinys su kepenų kukulėliais arba blynų juostelėmis, daržovėmis ir svogūnų laiškais.",
       "pairing": "Weissweinschorle"
     },
     "classic-sides": {
-      "description": "Rauginti kopūstai, raudoni kopūstai, lašinukų ir kopūstų salotos, kreminės bulvės, bulvių kukuliai, mažos keptos bulvės, spätzle arba fri — po vieną.",
+      "description": "Rauginti kopūstai, raudonieji kopūstai, šoninės ir kopūstų salotos, kreminės bulvės, bulvių kukuliai, mažos keptos bulvytės, spätzle arba fri — po vieną.",
       "pairing": "Münchner Hell"
     },
     "vegetable-sides": {
@@ -242,55 +249,51 @@
       "pairing": "Weissweinschorle"
     },
     "power-bowl": {
-      "description": "Aromatingi ryžiai, avokadas, edamame, avinžirniai, morkos, pomidoras, agurkas, žemės riešutai, apelsinų-mėtų-laimo padažas.",
-      "pairing": "Riesling Easy-White"
+      "description": "Aromatingi ryžiai, avokadas, edamame, avinžirniai, morkos, pomidoras, agurkas, žemės riešutai, apelsinų–mėtų–laimų užpilas.",
+      "pairing": "Sauvignon Blanc Reserve -S-"
     },
     "kaesespaetzle": {
       "description": "Sūrio spätzle su svogūnų žiedais.",
-      "pairing": "Münchner Dunkel arba pilno kūno baltasis vynas"
+      "pairing": "Münchner Dunkel or a full-bodied white wine"
     },
     "linguine-truffles": {
       "description": "Makaronai su kūdikių špinatais ir žieminiais trumais.",
-      "pairing": "Chardonnay (stiklinė)"
-    },
-    "rahmschwammerl": {
-      "description": "Grietinėje troškinti miško grybai, patiekiami su pretzelio kukuliais.",
-      "pairing": "Grüner Veltliner Ried Steinberg"
+      "pairing": "Chardonnay (by the glass)"
     },
     "creme-brulee": {
-      "description": "Patiekiamas su sorbetu ir uogomis.",
-      "pairing": "Rieslaner Auslese desertinis vynas"
+      "description": "Patiekiama su sorbetu ir uogomis.",
+      "pairing": "Rieslaner Auslese dessert wine"
     },
     "kaiserschmarrn": {
-      "description": "Su razinomis, sviestu, cukrumi ir karamelizuotais migdolais, patiekiamas su obuolių tyre — puikiai tinka dalytis.",
-      "pairing": "Rieslaner Auslese desertinis vynas"
+      "description": "Raušutai, sviestas, cukrus ir karamelizuoti migdolai, patiekiamas su obuolių tyre — puikiai tinka dalijimuisi.",
+      "pairing": "Rieslaner Auslese dessert wine"
     },
     "kirschmichl": {
-      "description": "Šiltas vyšnių pyragas, patiekiamas su krėmbe.",
+      "description": "Šiltas vyšnių pyragas, patiekiamas su vaniliniu padažu.",
       "pairing": "Rieslaner Auslese"
     },
     "apple-strudel": {
-      "description": "Klasikinis obuolių strudelis, patiekiamas su krėmbe.",
+      "description": "Klasikinis obuolių štrudelis su vaniliniu padažu.",
       "pairing": "Milchkaffee"
     },
     "muenchner-hell": {
-      "description": "Apačioje fermentuotas, švelniai kartus apynių tonas, šiek tiek saldus. 5.0% tūrio.",
+      "description": "Apačioje fermentuotas, švelniai kartus apynių akcentas, truputį saldus. 5,0 % tūrio.",
       "pairing": "Wiener Schnitzel"
     },
     "beer-light-alcohol-free": {
-      "description": "Natūraliai drumstas, su karameline ir medaus natomis. <0.5% tūrio.",
+      "description": "Natūraliai drumstas, karamelės ir medaus natos. <0.5% tūrio.",
       "pairing": "Brotzeitbrettl"
     },
     "muenchner-radler": {
-      "description": "München Helles su švelnia limonada, ne per saldu.",
+      "description": "München Helles su subtilia limonados nata, ne per saldu.",
       "pairing": "Donisl Salad"
     },
     "muenchner-dunkel": {
-      "description": "Švelniai kartus, skrudinto salyklo su karamelės ir kandytų vaisių natomis. 5.0% tūrio.",
+      "description": "Švelniai kartus, kepintų salyklo natų su karamelės ir kandiruotų vaisių gaidomis. 5,0 % tūrio.",
       "pairing": "Schweinshaxe"
     },
     "hefeweizen": {
-      "description": "Viršutinės fermentacijos kvietinis alus su bananų ir medaus natomis.",
+      "description": "Viršutinėje fermentacijoje raugintas kvietinis alus su bananais ir medaus natomis.",
       "pairing": "White sausage (Kesselfrisch)"
     },
     "russn": {
@@ -298,32 +301,32 @@
       "pairing": "Bratwurstreindl"
     },
     "cola-wheat": {
-      "description": "Hefeweizen su Coca-Cola.",
+      "description": "Hefeweizen su Coca‑Cola.",
       "pairing": "Currywurst"
     },
     "non-alcoholic-wheat": {
-      "description": "Lengvai dealkoholizuotas po pilnos brandos, išlaiko aromatą.",
+      "description": "Lengvai dealkoholizuotas po pilno brandinimo, išlaiko aromatą.",
       "pairing": "Backhendl"
     },
     "salvator": {
-      "description": "Stiprus alus (Starkbier), sezoninis — prieinamas vasario/kovo mėn. 0.5l.",
+      "description": "Stiprus alus (Starkbier), sezoninis — prieinamas vasarį/kovą. 0.5l.",
       "pairing": "Duet of the Ox"
     },
     "kellerbier": {
-      "description": "Sezoninis — prieinamas birželio/liepos/rugpjūčio mėn. 0.5l.",
+      "description": "Sezoninis — prieinamas birželį/liepą/rugpjūtį. 0.5l.",
       "pairing": "Brotzeitbrettl"
     },
     "wiesnbier": {
-      "description": "Oktoberfest alus, sezoninis — prieinamas rugsėjo/spalio mėn. 0.5l.",
+      "description": "Oktoberfest alus, sezoninis — prieinamas rugsėjį/spalį.",
       "pairing": "Donisl roasting pan"
     },
     "weissweinschorle": {
-      "description": "Baltasis vyno špricas. 0.3l.",
-      "pairing": "Romanaherzen"
+      "description": "Baltasis vyno ir mineralinio gėrimas. 0.3l.",
+      "pairing": "Donisl Salad"
     },
     "pinot-gris-glass": {
-      "description": "Hirschmüller vyninė, Württemberg — lengvas, malonus gerti.",
-      "pairing": "Veal meatballs"
+      "description": "Hirschmüller vyninė, Württemberg — lengvas, lengvai geriamas.",
+      "pairing": "Kalbfleischpflanzerl (hand-pressed)"
     },
     "primitivo-glass": {
       "description": "Sir of the Faun, Puglia — tamsios uogos, vyšnia, subtilus prieskonis.",
@@ -346,31 +349,31 @@
       "pairing": "Donisl Salad"
     },
     "winzersekt": {
-      "description": "Pfaffmann vyninė, Palatinate, Vokietija. 0.75l butelis.",
-      "pairing": "Velvet soup from bush tomato"
+      "description": "Pfaffmann vyninė, Pfalcis, Vokietija. 0.75l butelis.",
+      "pairing": "Oxen consommé"
     },
     "chardonnay-bottle": {
-      "description": "Hirschmüller vyninė, Württemberg — pasifloros, mangų, ananasų natos. 0.75l butelis.",
-      "pairing": "Rahmschwammerl"
+      "description": "Hirschmüller vyninė, Württemberg — pasifloros, mango, ananasas. 0.75l butelis.",
+      "pairing": "Käsespätzle"
     },
     "chardonnay-glass": {
       "description": "Hirschmüller vyninė, Württemberg. 0.1l.",
-      "pairing": "Pfifferling-Linguine"
+      "pairing": "Linguine with truffles"
     },
     "chardonnay-macon-ige": {
-      "description": "Domaine Fichet, Burgundija — obuolys, kriaušė, baltasis persikas, subtili mineralika. 0.75l butelis.",
+      "description": "Domaine Fichet, Burgundija — obuolys, kriaušė, baltoji persika, subtili mineralija. 0.75l butelis.",
       "pairing": "Käsespätzle"
     },
     "pinot-gris-tradition": {
-      "description": "Bott Frères vyninė, Burgundija — abrikosas, vokiškas obuolys, lazdyno riešutas, švelnus dūmas. 0.75l butelis.",
-      "pairing": "Veal steak"
+      "description": "Bott Frères, Burgundija — abrikosas, vyno obuolys, lazdyno riešutas, lengvas dūmas. 0.75l butelis.",
+      "pairing": "Kalbfleischpflanzerl (hand-pressed)"
     },
     "pinot-gris-oetinger": {
-      "description": "Oetinger vyninė, Rheingau — prinokusi kriaušė, geltonas obuolys, migdolo užuomina. 0.75l butelis.",
+      "description": "Oetinger vyninė, Rheingau — prinokusi kriaušė, geltonasis obuolys, migdolo užuomina. 0.75l butelis.",
       "pairing": "Backhendl"
     },
     "pinot-gris-reserve-pauline": {
-      "description": "Pfaffmann vyninė, Palatinate — kriaušė, ananasas, nektarinas, citrinos žolė, gėliškas. 0.75l butelis.",
+      "description": "Pfaffmann vyninė, Pfalcis — kriaušė, ananasas, nektarinas, citrininė žolė, gėlės. 0.75l butelis.",
       "pairing": "O'gmachter Kas"
     },
     "pinot-blanc-grand-reserve": {
@@ -378,51 +381,51 @@
       "pairing": "Donisl \"4erlei\""
     },
     "trebbiano-di-lugana": {
-      "description": "Zenato vyninė, Veneto, Italija — šviežias rūgštumas, mineralika, citrusai, žalias obuolys, kriaušė. 0.75l butelis.",
+      "description": "Zenato vyninė, Veneto, Italija — gaivi rūgštis, mineralumas, citrusai, žalias obuolys, kriaušė. 0.75l butelis.",
       "pairing": "Sausage salad from Regensburg"
     },
     "lugana-glass": {
       "description": "Zenato vyninė, Veneto, Italija. 0.1l.",
-      "pairing": "Icefish"
+      "pairing": "Zander fillet with potato crust"
     },
     "riesling-easy-white": {
-      "description": "Oetinger vyninė, Rheingau — laimas, obuolys, baltasis persikas, idealus kaip aperityvas. 0.75l butelis.",
+      "description": "Oetinger vyninė, Rheingau — laimas, obuolys, baltoji persika, idealus aperityvas. 0.75l butelis.",
       "pairing": "Wiener Schnitzel"
     },
     "riesling-gottloos": {
-      "description": "Dr. Loosen vyninė, Mosel — citrusai, obuolys, elegantiška mineralika. 0.75l butelis.",
+      "description": "Dr. Loosen vyninė, Mosel — citrusai, obuolys, elegantiška mineralija. 0.75l butelis.",
       "pairing": "Wiener Schnitzel"
     },
     "riesling-heiligenstein": {
-      "description": "Bründlmayer vyninė, Langenlois, Kamptal, Austrija — gaivūs citrusai, obuolys, žolinė prieskonė. 0.75l butelis.",
+      "description": "Bründlmayer vyninė, Langenlois, Kamptal, Austrija — gaivūs citrusai, obuolys, žoliniai prieskoniai. 0.75l butelis.",
       "pairing": "Donisl Salad"
     },
     "riesling-smoky-dry": {
-      "description": "Weingut Oetinger, Rheingau — dūminė mineralika, sultingas obuolys, citrusai. 0.75l butelis.",
+      "description": "Weingut Oetinger, Rheingau — dūminė mineralija, sultingas obuolys, citrusai. 0.75l butelis.",
       "pairing": "Currywurst"
     },
     "riesling-bright-side-of-life": {
-      "description": "Stahl vyninė, Frankonija, Vokietija — vaisingas, gaivus, paprastas gerti. 0.75l butelis.",
+      "description": "Stahl vyninė, Frankenas, Vokietija — vaisinis, gaivus, paprastas ir skanus. 0.75l butelis.",
       "pairing": "Gebackenes Fischfilet (Friday)"
     },
     "riesling-nachschlag-glass": {
-      "description": "Stahl vyninė, Frankonija, Vokietija. 0.1l.",
+      "description": "Stahl vyninė, Frankenas, Vokietija. 0.1l.",
       "pairing": "Gebackenes Fischfilet (Friday)"
     },
     "sauvignon-blanc": {
       "description": "Chateau de la Chaise, Loire — agrastai, žalias obuolys, egzotiniai vaisiai. 0.75l butelis.",
-      "pairing": "Icefish"
+      "pairing": "Zander fillet with potato crust"
     },
     "sauvignon-blanc-reserve": {
-      "description": "Taubenschuss vyninė, Austrijos Weinviertel — laimas, agrastai, egzotiniai vaisiai. 0.75l butelis.",
+      "description": "Taubenschuss vyninė, Austrijos Weinviertel — laimas, agrastas, egzotiniai vaisiai. 0.75l butelis.",
       "pairing": "Donisl Power Bowl"
     },
     "silvaner-easy-white": {
-      "description": "Weingut am Stein, Frankonija — žalias obuolys, kriaušė, subtilios žolės natelės. 0.75l butelis.",
+      "description": "Weingut am Stein, Frankenas — žalias obuolys, kriaušė, subtilios žolės natos. 0.75l butelis.",
       "pairing": "Vegetable side dish"
     },
     "gruener-veltliner-tenn": {
-      "description": "Taubenschuss vyninė, Austrijos Weinviertel — obuolys, baltieji pipirai, žolinė prieskonė. 0.75l butelis.",
+      "description": "Taubenschuss vyninė, Austrijos Weinviertel — obuolys, baltasis pipiras, žoliniai prieskoniai. 0.75l butelis.",
       "pairing": "Lukewarm calf's head carpaccio"
     },
     "riesling-gottloos-3l": {
@@ -430,15 +433,15 @@
       "pairing": "Wiener Schnitzel"
     },
     "gruener-veltliner-steinberg": {
-      "description": "Karl Fritsch vyninė, Burgenland, Austrija. 1.5l butelis.",
-      "pairing": "Pfifferlingsrahm"
+      "description": "Karl Fritsch vyninė, Burgenlandas, Austrija. 1.5l butelis.",
+      "pairing": "Käsespätzle"
     },
     "chardonnay-morillon": {
-      "description": "Lackner-Tinnacher vyninė, Pietų Štirija, Austrija. 1.5l butelis.",
+      "description": "Lackner‑Tinnacher vyninė, Pietų Štirija, Austrija. 1.5l butelis.",
       "pairing": "O'gmachter Kas"
     },
     "cuvee-adrian-sangiovese": {
-      "description": "Raudonas cuvée, Toscana Rosso, Toskana. 1.5l butelis.",
+      "description": "Raudona cuvée, Toscana Rosso, Toskana. 1.5l butelis.",
       "pairing": "Duet of the Ox"
     },
     "primitivo-bottle": {
@@ -446,11 +449,11 @@
       "pairing": "Schweinebraten (roast pork)"
     },
     "herrgott-cuvee": {
-      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Palatinate — vyšnios, raudonos uogos. 0.75l butelis.",
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalcis — vyšnios, raudonos uogos. 0.75l butelis.",
       "pairing": "Ribeye 300 grams"
     },
     "herrgott-cuvee-glass": {
-      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Palatinate. 0.1l.",
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalcis. 0.1l.",
       "pairing": "Donisl Bratengröstl (Tuesday)"
     },
     "tuscany-red-cuvee": {
@@ -458,7 +461,7 @@
       "pairing": "Roast beef — rump steak"
     },
     "pinot-noir-goldberg": {
-      "description": "Toni Hartl vyninė, Burgenland — raudonos uogos, vyšnia, subtilus prieskonis. 0.75l butelis.",
+      "description": "Toni Hartl vyninė, Burgenlandas — raudonos uogos, vyšnios, subtilus prieskonis. 0.75l butelis.",
       "pairing": "Steak vom Milchkalb"
     },
     "merlot": {
@@ -466,23 +469,23 @@
       "pairing": "Veal meatballs"
     },
     "brunello-di-montalcino": {
-      "description": "Tenuta Corte Pavone vyninė, Sangiovese, Toskana — tamsios uogos, vyšnia, šokoladas. 0.75l butelis.",
+      "description": "Tenuta Corte Pavone, Sangiovese, Toskana — tamsios uogos, vyšnia, šokoladas. 0.75l butelis.",
       "pairing": "Ribeye 300 grams"
     },
     "black-ox-cuvee": {
-      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Palatinate — tamsios uogos, vyšnia, prieskonis. 0.75l butelis.",
+      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Pfalcis — tamsios uogos, vyšnia, prieskonis. 0.75l butelis.",
       "pairing": "Duet of the Ox"
     },
     "rose-lime-stone": {
-      "description": "Unger vyninė, Neusidler ežeras — raudonos uogos, braškė, avietė, citrusai. 0.75l butelis.",
+      "description": "Unger vyninė, Neusiedlio ežeras — raudonos uogos, braškė, avietė, citrusai. 0.75l butelis.",
       "pairing": "Donisl Salad"
     },
     "torres-natureo": {
       "description": "Miguel Torres, Vilafranca del Penedès — citrusai, obuolys, lengvas. 0.75l butelis.",
-      "pairing": "Romanaherzen"
+      "pairing": "Donisl Salad"
     },
     "rieslaner-auslese": {
-      "description": "Juliusspital vyninė, Frankonija — desertinis vynas. 0.5l butelis.",
+      "description": "Juliusspital vyninė, Frankenas — desertinis vynas. 0.5l butelis.",
       "pairing": "Kaiserschmarrn or Crème brûlée"
     },
     "aperol-spritz": {
@@ -490,7 +493,7 @@
       "pairing": "Brotzeitbrettl"
     },
     "hugo": {
-      "description": "Gelsvainių špricas. 0.2l.",
+      "description": "Uosio žiedų spritzas. 0.2l.",
       "pairing": "Bread basket"
     },
     "campari-soda": {
@@ -502,7 +505,7 @@
       "pairing": "Donisl \"4erlei\""
     },
     "sanbitter": {
-      "description": "Nealkoholinis kartus aperityvas. 0.2l.",
+      "description": "Bealkoholinis karčias aperityvas. 0.2l.",
       "pairing": "Oxen consommé"
     },
     "nut-in-a-bottle": {
@@ -514,7 +517,7 @@
       "pairing": "Apple strudel"
     },
     "hirschkuss": {
-      "description": "38% tūrio, butelis su užsukamu kamščiu, 4cl.",
+      "description": "38% tūrio, užveržiamas butelis, 4cl.",
       "pairing": "Kaiserschmarrn (large)"
     },
     "vodka-redbull": {
@@ -522,19 +525,19 @@
       "pairing": "Donisl Deluxe Burger"
     },
     "williams-christ-pear": {
-      "description": "40% tūrio Edelbrand, Sigi Herzog distiliatai. 2cl.",
+      "description": "40% tūrio Edelbrand, Sigi Herzog distiliatas. 2cl.",
       "pairing": "Apple strudel"
     },
     "farm-fruit-growers": {
-      "description": "Linster aukštos kokybės vaisių destilerija, brandinta 1 metus ąžuolo statinėse. 2cl.",
+      "description": "Linster distiliatas, brandintas 1 metus ąžuolo statinėse. 2cl.",
       "pairing": "Kirschmichl"
     },
     "feiner-mirabell": {
-      "description": "Linster aukštos kokybės vaisių destilerija, prinokusių abrikosų aromatas. 2cl.",
+      "description": "Linster distiliatas, prinokusio abrikoso skonis. 2cl.",
       "pairing": "Crème brûlée"
     },
     "enzian-gentian-brandy": {
-      "description": "Wilhelm Marx Fine Spirits manufaktūra. 2cl.",
+      "description": "Wilhelm Marx Spirits manufaktūra. 2cl.",
       "pairing": "Schweinshaxe"
     },
     "raspberry-pulp-brandy": {
@@ -574,7 +577,7 @@
       "pairing": "Donisl Deluxe Burger"
     },
     "bad-brambacher": {
-      "description": "Stiprus ar švelnus (negazuotas arba šiek tiek gazuotas). 0.5l.",
+      "description": "Vanduo: negazuotas arba šiek tiek gazuotas. 0.5l.",
       "pairing": "Brezn"
     },
     "table-water": {
@@ -582,19 +585,19 @@
       "pairing": "Bread basket"
     },
     "apple-spritzer": {
-      "description": "0.4l.",
+      "description": "Obuolių vėsus gėrimas. 0.4l.",
       "pairing": "Kässpatzn"
     },
     "johannisbeerschorle": {
-      "description": "Juodųjų serbentų špricas. 0.4l.",
+      "description": "Juodųjų serbentų spritzeris. 0.4l.",
       "pairing": "Kirschmichl"
     },
     "maracujaschorle": {
-      "description": "Pasiflorų špricas. 0.4l.",
+      "description": "Gvazdikų vaisių (pasifloros) spritzeris. 0.4l.",
       "pairing": "Donisl Power Bowl"
     },
     "wolfra-orange-juice": {
-      "description": "0.2l.",
+      "description": "Apelsinų sultys. 0.2l.",
       "pairing": "Potato dumplings"
     },
     "espresso": {
@@ -634,15 +637,15 @@
       "pairing": "Apple strudel"
     },
     "kids-potato-dumplings": {
-      "description": "Patiekiama su kiaulienos padažu.",
+      "description": "Su kiaulienos padažu.",
       "pairing": "Wolfra orange juice"
     },
     "kids-kaesspatzn": {
-      "description": "Sūrio spätzle, vaikų porcija.",
+      "description": "Kässpatzle vaikams, mažesnė porcija.",
       "pairing": "Apple spritzer"
     },
     "kids-rostbratwuerstl": {
-      "description": "Patiekiama su fri arba bulvių‑agurkų salotomis.",
+      "description": "Su fri arba bulvių–agurkų salotomis.",
       "pairing": "Paulaner Spezi"
     },
     "kids-fries": {

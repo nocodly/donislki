@@ -9,6 +9,7 @@ import {
   Leaf,
   Martini,
   Salad,
+  Tent,
   UtensilsCrossed,
   Wine,
   type LucideIcon,
@@ -16,6 +17,7 @@ import {
 
 export const CATEGORY_ICONS: Record<string, LucideIcon> = {
   CalendarDays,
+  Tent,
   UtensilsCrossed,
   Ham,
   Salad,

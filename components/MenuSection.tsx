@@ -18,6 +18,11 @@ export function MenuSection({ category, language, onAskAi, onOpenDetail }: Props
 
   return (
     <section aria-label={t.categories[category]} className="flex flex-col gap-3 px-4">
+      {category === 'oktoberfest' && (
+        <p className="rounded-card border border-wiesn/30 bg-wiesn-tint px-3.5 py-2.5 text-[13px] leading-snug text-wiesn-deep">
+          {t.oktoberfestBannerText}
+        </p>
+      )}
       {items.map((item) => (
         <MenuItemCard
           key={item.id}

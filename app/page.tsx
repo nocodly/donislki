@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useMemo, useRef, useState } from 'react';
+import { Tent } from 'lucide-react';
 import { RestaurantHeader } from '@/components/RestaurantHeader';
 import { CategoryGrid } from '@/components/CategoryGrid';
 import { CategoryChips } from '@/components/CategoryChips';
@@ -10,7 +11,13 @@ import { FloatingAiButton } from '@/components/FloatingAiButton';
 import { AiBottomSheet } from '@/components/AiBottomSheet';
 import { DishDetailModal } from '@/components/DishDetailModal';
 import { useVisualViewportHeight } from '@/hooks/useVisualViewportHeight';
-import { featuredItemIds, findItem } from '@/lib/menuData';
+import {
+  categoryOrder,
+  featuredItemIds,
+  findItem,
+  lunchSpecialForDay,
+  oktoberfestItems,
+} from '@/lib/menuData';
 import { getStrings, formatAskAboutDish, detectLanguage, isRtlLanguage, normalizeToSupported } from '@/lib/i18n';
 import type { ChatContext, ChatMessage, Language, MenuCategory, MenuItem } from '@/lib/types';
 
@@ -25,10 +32,22 @@ export default function Home() {
 
   const [language, setLanguage] = useState<Language>('en');
   useEffect(() => setLanguage(detectLanguage()), []);
+
+  // Resolved after mount so the server-rendered markup stays deterministic.
+  const [weekday, setWeekday] = useState<number | null>(null);
+  useEffect(() => setWeekday(new Date().getDay()), []);
   const t = getStrings(language);
   const dir = isRtlLanguage(normalizeToSupported(language)) ? 'rtl' : 'ltr';
 
   const [activeCategory, setActiveCategory] = useState<MenuCategory | null>(null);
+  // Deep link: /?category=oktoberfest opens straight into a section (handy for
+  // QR codes that should land on a specific card, and for previews).
+  useEffect(() => {
+    const requested = new URLSearchParams(window.location.search).get('category');
+    if (requested && categoryOrder.includes(requested as MenuCategory)) {
+      setActiveCategory(requested as MenuCategory);
+    }
+  }, []);
   const [sheetOpen, setSheetOpen] = useState(false);
   const [context, setContext] = useState<ChatContext>({ category: null, dish: null });
   const [messages, setMessages] = useState<ChatMessage[]>([]);
@@ -111,12 +130,73 @@ export default function Home() {
     [],
   );
 
+  const todaysLunch = weekday === null ? null : lunchSpecialForDay(weekday);
+  const isWeekend = weekday !== null && (weekday === 0 || weekday === 6);
+  const hasOktoberfest = oktoberfestItems().length > 0;
+
   return (
     <div dir={dir} className="min-h-[100dvh] bg-bg pb-24">
       <RestaurantHeader />
 
       <main className="mx-auto max-w-lg">
         <p className="px-4 pb-2 pt-4 text-[13.5px] text-muted">{t.welcome}</p>
+
+        {hasOktoberfest && (
+          <section className="px-4 pb-5">
+            <button
+              type="button"
+              onClick={() => selectCategory('oktoberfest')}
+              className="flex w-full items-center gap-3 rounded-card border border-wiesn/40 bg-wiesn-tint px-4 py-3 text-left transition-colors hover:border-wiesn"
+            >
+              <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-wiesn text-white">
+                <Tent aria-hidden="true" size={18} strokeWidth={1.75} />
+              </span>
+              <span className="flex min-w-0 flex-1 flex-col">
+                <span className="flex flex-wrap items-center gap-x-2 gap-y-1">
+                  <span className="shrink-0 rounded-full bg-wiesn px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-white">
+                    {t.oktoberfestBadge}
+                  </span>
+                  <span className="text-[15px] font-semibold text-wiesn-deep">{t.oktoberfestBannerTitle}</span>
+                </span>
+                <span className="mt-0.5 text-[12.5px] leading-snug text-wiesn-deep/80">
+                  {t.oktoberfestBannerText}
+                </span>
+              </span>
+            </button>
+          </section>
+        )}
+
+        {todaysLunch && (
+          <section className="pb-5">
+            <h2 className="px-4 pb-2.5 text-[13px] font-semibold uppercase tracking-wide text-muted">
+              {t.todaysLunchTitle}
+            </h2>
+            <div className="px-4">
+              <MenuItemCard
+                item={todaysLunch}
+                language={language}
+                onAskAi={handleAskAboutItem}
+                onOpenDetail={openDetail}
+              />
+            </div>
+            <button
+              type="button"
+              onClick={() => selectCategory('weekly')}
+              className="mt-2 px-4 text-[12.5px] font-medium text-accent-deep underline"
+            >
+              {t.categories.weekly}
+            </button>
+          </section>
+        )}
+
+        {isWeekend && (
+          <section className="px-4 pb-5">
+            <div className="rounded-card border border-border bg-card px-4 py-3">
+              <p className="text-[13px] font-semibold text-ink">{t.weekendLunchTitle}</p>
+              <p className="mt-0.5 text-[12.5px] leading-snug text-muted">{t.weekendLunchText}</p>
+            </div>
+          </section>
+        )}
 
         <section className="px-4 pb-5">
           <h2 className="pb-2.5 text-[13px] font-semibold uppercase tracking-wide text-muted">

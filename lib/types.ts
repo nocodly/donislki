@@ -1,5 +1,6 @@
 export type MenuCategory =
   | 'weekly'
+  | 'oktoberfest'
   | 'traditional'
   | 'sausages'
   | 'starters'
@@ -31,6 +32,12 @@ export type MenuItem = {
   image?: string;
   /** 'contain' for tall product shots (e.g. a beer glass) that object-cover would crop too tightly. Defaults to 'cover'. */
   imageFit?: 'cover' | 'contain';
+  /**
+   * For the weekly "Mittagsangebot" lunch specials only: which weekday this dish
+   * is served on (1 = Monday … 5 = Friday). Drives the "today's lunch special"
+   * card on the home screen.
+   */
+  weekday?: 1 | 2 | 3 | 4 | 5;
   tags: string[];
   allergens: string[];
   pairing?: string;

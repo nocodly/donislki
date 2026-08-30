@@ -23,6 +23,7 @@ export function CategoryChips({ activeCategory, onSelect, language }: Props) {
       {categoryOrder.map((category) => {
         const Icon = CATEGORY_ICONS[categoryMeta[category].icon];
         const active = activeCategory === category;
+        const wiesn = category === 'oktoberfest';
         return (
           <button
             key={category}
@@ -31,9 +32,13 @@ export function CategoryChips({ activeCategory, onSelect, language }: Props) {
             aria-selected={active}
             onClick={() => onSelect(category)}
             className={`flex min-h-[44px] shrink-0 items-center gap-1.5 rounded-full border px-3.5 text-sm font-medium transition-colors ${
-              active
-                ? 'border-accent bg-accent text-white'
-                : 'border-border bg-card text-ink hover:border-accent/40'
+              wiesn
+                ? active
+                  ? 'border-wiesn bg-wiesn text-white'
+                  : 'border-wiesn/40 bg-wiesn-tint text-wiesn-deep hover:border-wiesn'
+                : active
+                  ? 'border-accent bg-accent text-white'
+                  : 'border-border bg-card text-ink hover:border-accent/40'
             }`}
           >
             {Icon ? <Icon aria-hidden="true" size={16} strokeWidth={1.75} /> : null}
