@@ -1,6 +1,6 @@
 {
   "strings": {
-    "welcome": "Bläddra i menyn nedan eller be vår AI-assistent om en rekommendation.",
+    "welcome": "Bläddra i menyn nedan eller fråga vår AI-assistent om en rekommendation.",
     "categoriesTitle": "Meny",
     "featuredTitle": "Utvalda",
     "askAi": "Fråga AI",
@@ -9,10 +9,12 @@
     "askAboutThis": "Fråga AI om detta",
     "todaysLunchTitle": "Dagens lunch",
     "weekendLunchTitle": "Helg på Donisl",
-    "weekendLunchText": "Ingen vardagslunchspecial idag — våra Oktoberfest‑schmankerl serveras hela helgen.",
-    "oktoberfestBadge": "Det är Oktoberfest",
-    "oktoberfestBannerTitle": "Oktoberfest‑schmankerl",
-    "oktoberfestBannerText": "Wiesn är igång — våra Oktoberfest‑specialiteter serveras nu.",
+    "weekendLunchText": "Ingen vardagslunch idag – våra Wiesn‑specialiteter serveras hela helgen.",
+    "oktoberfestBadge": "Wiesn‑meny",
+    "oktoberfestBannerTitle": "Oktoberfest‑Schmankerl",
+    "oktoberfestBannerText": "Vår Wiesn‑meny serveras redan.",
+    "oktoberfestBannerStarted": "Wiesn‑tid är här — Oktoberfest‑specialiteterna serveras nu.",
+    "oktoberfestBannerCountdown": "Oktoberfest öppnar om {days} dagar — men vår Wiesn‑meny serveras redan.",
     "askAboutDishTemplate": "Berätta om {dish}",
     "pairing": "Passar bäst med",
     "fromPricePrefix": "från ",
@@ -21,15 +23,15 @@
     "composerPlaceholder": "Fråga om menyn…",
     "send": "Skicka",
     "close": "Stäng",
-    "noInfo": "Jag har inte den informationen i den aktuella menyn.",
+    "noInfo": "Den informationen finns inte i den aktuella menyn.",
     "categories": {
-      "weekly": "Lunchspecials",
+      "weekly": "Luncherbjudanden",
       "oktoberfest": "Oktoberfest",
       "traditional": "Traditionellt",
       "sausages": "Korvar",
       "starters": "Förrätter",
       "vegan": "Veganskt",
-      "desserts": "Desserter",
+      "desserts": "Efterrätter",
       "beer": "Öl",
       "wine": "Vin",
       "aperitif": "Aperitif",
@@ -43,9 +45,9 @@
       "hearty": "rejält",
       "classic": "klassiker",
       "light": "lätt",
-      "seasonal": "säsongsbetonad",
-      "strong": "stark",
-      "non-alcoholic": "alkoholfri",
+      "seasonal": "säsong",
+      "strong": "starkt",
+      "non-alcoholic": "alkoholfritt",
       "vegetarian": "vegetarisk",
       "vegan": "vegansk",
       "spirit": "sprit",
@@ -54,14 +56,14 @@
       "hot-drink": "varmdryck",
       "aperitif": "aperitif",
       "bowl": "skål",
-      "white": "vitt",
-      "red": "rött",
+      "white": "vit",
+      "red": "röd",
       "rose": "rosé",
       "sparkling": "mousserande",
       "dessert-wine": "dessertvin",
-      "by-glass": "glasvis",
+      "by-glass": "glas",
       "bottle": "flaska",
-      "lunch-special": "lunchspecial",
+      "lunch-special": "luncherbjudande",
       "gluten": "gluten",
       "dairy": "mjölk",
       "egg": "ägg",
@@ -85,43 +87,43 @@
   },
   "items": {
     "lunch-monday-tagliatelle": {
-      "description": "Måndagens lunchspecial, serveras 12:00–15:30. Tagliatelle med vilda skogssvampar och persilja.",
+      "description": "Måndagslunch, serveras 12:00–15:30. Tagliatelle med skogssvamp och persilja.",
       "pairing": "Grauburgunder (per glas)"
     },
     "lunch-tuesday-bratengroestl": {
-      "description": "Tisdagens lunchspecial, serveras 12:00–15:30. Blandad rostning med vitkål, potatisklöse och ett stekt ägg.",
+      "description": "Tisdagens lunch, serveras 12:00–15:30. Bratengroestl med vitkål, potatisknödel och stekt ägg.",
       "pairing": "Münchner Dunkel"
     },
     "lunch-wednesday-leberkaese": {
-      "description": "Onsdagens lunchspecial, serveras 12:00–15:30. Stekt Leberkäse med stekta ägg och potatis‑gurksallad.",
+      "description": "Onsdagens lunch, serveras 12:00–15:30. Stekt Leberkäse med stekta ägg och potatis‑gurksallad.",
       "pairing": "Münchner Hell"
     },
     "lunch-thursday-chicken-geschnetzeltes": {
-      "description": "Torsdagens lunchspecial, serveras 12:00–15:30. Strimlad kyckling i svampsås med ört‑Spätzle.",
+      "description": "Torsdagens lunch, serveras 12:00–15:30. Strimlad kyckling i svampsås med kryddade Spätzle.",
       "pairing": "Münchner Radler"
     },
     "lunch-friday-fish-fillet": {
-      "description": "Fredagens lunchspecial, serveras 12:00–15:30. Panerad dagens fångst med remoulad och potatis‑gurksallad.",
+      "description": "Fredagslunch, serveras 12:00–15:30. Friterad dagens fångst med remouladsås och potatis‑gurksallad.",
       "pairing": "Riesling Smoky Dry"
     },
     "oktoberfest-pumpkin-soup": {
-      "description": "Len pumpasoppa med styriskt pumpafröolja och rostade frön.",
+      "description": "Len pumpasoppa med styrianskt pumpafröolja och rostade frön.",
       "pairing": "Weissweinschorle"
     },
     "oktoberfest-leberkas-burger": {
-      "description": "Leberkäse‑burger med stekt ägg, pommes frites och örttyoghurt.",
+      "description": "Leberkäse‑burger med stekt ägg, pommes frites och örtkryddad crème fraîche.",
       "pairing": "Oktoberfestbier"
     },
     "oktoberfest-bauernsalat": {
-      "description": "Blandad bladgrönsallad, potatissallad och coleslaw med krispiga fläsk‑buksremsor.",
+      "description": "Blandad bladsallad, potatissallad och coleslaw med krispiga fläskläggsremsor.",
       "pairing": "Münchner Radler"
     },
     "oktoberfest-milchkalb-steak": {
-      "description": "Mjölkfödd kalvsteak med speckbönor, rödvinsjus och gräddiga potatisar.",
+      "description": "Mjölkfödd kalvstek med speckbönor, rödvinsjus och krämig potatis.",
       "pairing": "Pinot Noir Ried Goldberg"
     },
     "oktoberfest-half-chicken": {
-      "description": "Grillat halvt hendl (½ Hendl) med potatis‑gurksallad eller pommes frites.",
+      "description": "Grillat halvt Hendl med potatis‑gurksallad eller pommes frites.",
       "pairing": "Hefeweizen (Yeast White)"
     },
     "oktoberfest-boiled-beef-fillet": {
@@ -129,47 +131,47 @@
       "pairing": "Grüner Veltliner Ried Tenn DAC Reserve"
     },
     "oktoberfest-wiesn-reindl": {
-      "description": "Delningspanna för bordet: Kalvpatty, schnitzel, bratwurst, fläskknä och kyckling med potatisklöss, surkål och Käsespätzle. Pris per person, min. två personer.",
+      "description": "Dela‑panna för bordet: Kalvpatty, schnitzel, bratwurst, fläskknä och kyckling med potatisknödel, surkål och Käsespätzle. Pris per person, minst två personer.",
       "pairing": "Oktoberfestbier"
     },
     "oktoberfestbier": {
-      "description": "Det kraftigare, maltiga festölet som hälls upp för Wiesn.",
+      "description": "Den kraftigare, maltiga festival‑lagern som hälls upp för Wiesn.",
       "pairing": "Steak vom Milchkalb"
     },
     "donisl-roasting-pan": {
-      "description": "Nötkött, anka, fläskknä och korvar med rödkål, potatisklöss och Käsespätzle — för att dela.",
+      "description": "Nötkött, ankbröst, fläskknä och korvar med rödkål, potatisknödel och Käsespätzle — för att dela.",
       "pairing": "Münchner Dunkel"
     },
     "roast-pork": {
-      "description": "Bayersk fläsksida och bog med knaprig svål, sky, potatisklöss och coleslaw.",
+      "description": "Bayersk fläskkamm och buk med knaprig svål, naturlig sky, potatisknödel och coleslaw.",
       "pairing": "Münchner Dunkel"
     },
     "schweinshaxe": {
-      "description": "Krispig stekt halvt fläskknä serverad med sky, potatisklöss och coleslaw.",
+      "description": "Krispig ugnsstekt halvt fläskknä serverad med naturlig sky, potatisknödel och coleslaw.",
       "pairing": "Münchner Dunkel"
     },
     "wiener-schnitzel": {
-      "description": "Bayerskt fläsk‑wienerschnitzel med pommes eller potatis‑gurksallad och lingon.",
-      "pairing": "Riesling Easy-White eller en Radler"
+      "description": "Bayerskt fläskschnitzel panerad enligt tradition, med pommes eller potatis‑gurksallad och lingon.",
+      "pairing": "Riesling Easy-White or a Radler"
     },
     "farm-duck": {
-      "description": "Rosmarinsås, potatisklöss och rödkål.",
+      "description": "Anka med rosmarinsås, potatisknödel och rödkål.",
       "pairing": "Münchner Dunkel"
     },
     "backhendl": {
-      "description": "Benfritt panerat kycklingben med pommes eller potatis‑gurksallad.",
+      "description": "Benfri panerad kycklinglår med pommes eller potatis‑gurksallad.",
       "pairing": "Münchner Radler"
     },
     "duet-of-the-ox": {
-      "description": "Bräserad oxsvans och grillad oxstek, rödvinsjus, rödkål, gräddiga potatisar.",
+      "description": "Bräserad oxe och grillad oxstek, rödvinsjus, rödkål, krämig potatis.",
       "pairing": "Black OX Cuvée"
     },
     "veal-meatballs": {
-      "description": "Handpressade kalvköttsbiffar med grönsaksalad och rosmarinpotatis.",
+      "description": "Handpressade kalvköttsbiffar med marinerade grönsaker och rosmarinpotatis.",
       "pairing": "Grauburgunder Tradition"
     },
     "white-sausage": {
-      "description": "Två stycken, serveras med Brezn och senap.",
+      "description": "Två stycken, serveras med pretzel och senap.",
       "pairing": "Hefeweizen (Yeast White)"
     },
     "white-sausage-piece": {
@@ -177,23 +179,23 @@
       "pairing": "Hefeweizen (Yeast White)"
     },
     "polish-sausage": {
-      "description": "Serveras med Brezn och senap.",
+      "description": "Serveras med pretzel och senap.",
       "pairing": "Russn"
     },
     "currywurst": {
-      "description": "Donisl‑currywurstsås, serveras med pommes frites.",
+      "description": "Donisls currywurstsås, serveras med pommes frites.",
       "pairing": "Hefeweizen wheat beer"
     },
     "bratwurstreindl": {
-      "description": "Panna med grillade korvar med surkål eller potatissallad — en delningsportion.",
+      "description": "Panna med grillade korvar och surkål eller potatissallad — en delningsportion.",
       "pairing": "Russn (light Hefeweizen)"
     },
     "rump-steak": {
-      "description": "Murnau‑nöt med rödvin- och lökjus, stekt lök, Käsespätzle.",
+      "description": "Murnau‑nötkött med rödvins‑ och löksky, stekt lök, Käsespätzle.",
       "pairing": "Primitivo Puglia IGT"
     },
     "ribeye-300g": {
-      "description": "Fettrand från Murnau‑nöt, café de paris‑sås, grillade grönsaker, potatisgratäng.",
+      "description": "Fettkappa från Murnau‑nötkött, Café de Paris‑sås, grillade grönsaker, potatisgratäng.",
       "pairing": "Brunello di Montalcino DOCG"
     },
     "deluxe-burger": {
@@ -201,31 +203,31 @@
       "pairing": "Münchner Hell"
     },
     "zanderfilet": {
-      "description": "Gösfilé under ett potatisskal med färgsprakande höstgrönsaker och pepparrotsås.",
+      "description": "Gösfilé under en potatiskrusta med färgsprakande höstgrönsaker och pepparrotsås.",
       "pairing": "Sauvignon Blanc"
     },
     "brotzeitbrettl": {
-      "description": "Bondens rökta kött, baconkorv, leverpastej, kall rostbiff, O'gmachter, bergost, pepparrott, bröd.",
+      "description": "Bondens rökt kött, baconkorv, leverpastej, kall rostbiff, O'gmachter, bergsost, pepparrot, bröd.",
       "pairing": "Hefeweizen (Yeast White)"
     },
     "donisl-4erlei": {
-      "description": "Hummus, hemmagjord ost, saltat smör och örttyoghurt, serverat med brödkorg.",
+      "description": "Hummus, urkärnad ost, saltat smör och örtkryddad crème fraîche, serverat med brödkorg.",
       "pairing": "Weissweinschorle"
     },
     "beef-tartare": {
-      "description": "Tryffelkräm, bakat ekologiskt ägg.",
+      "description": "Tryffelkräm, ugnsbakat ekologiskt ägg.",
       "pairing": "Pinot Noir Ried Goldberg"
     },
     "ogmachter-kas": {
-      "description": "Krämig ost med lökringar, rädisor, sallad och bärodling.",
+      "description": "Krämig ost med lökringar, rädisor, sallad och bär.",
       "pairing": "Münchner Radler"
     },
     "sausage-salad": {
-      "description": "Husets dressing, lökringar, inlagd gurka, tomat, bär ( +1.90 med strimlor av bergost).",
+      "description": "Husets dressing, lökringar, inlagd gurka, tomat, bär (+1.90 med strimlor av bergsost).",
       "pairing": "Russn"
     },
     "donisl-salad": {
-      "description": "Sallad, tomat, gurka, husets dressing, frön och krutonger.",
+      "description": "Bladsallad, tomat, gurka, husets dressing, frön och krutonger.",
       "pairing": "Weissweinschorle"
     },
     "bread-basket": {
@@ -233,7 +235,7 @@
       "pairing": "Münchner Hell"
     },
     "brezn": {
-      "description": "Bayersk Brezn.",
+      "description": "Bayersk Brezn (pretzel).",
       "pairing": "Münchner Hell"
     },
     "oxen-consomme": {
@@ -241,31 +243,31 @@
       "pairing": "Weissweinschorle"
     },
     "classic-sides": {
-      "description": "Surkål, rödkål, bacon‑ och kålsallad, gräddiga potatisar, potatisklöss, små rostade potatisar, Spätzle eller pommes frites — per styck.",
+      "description": "Surkål, rödkål, bacon‑ och kålsallad, krämig potatis, potatisknödel, små rostade potatisar, Spätzle eller pommes frites — vardera.",
       "pairing": "Münchner Hell"
     },
     "vegetable-sides": {
-      "description": "Grönsaks­sidorätt eller potatis‑ och gurksallad — per styck.",
+      "description": "Grönsaks­sida eller potatis‑ och gurksallad — vardera.",
       "pairing": "Weissweinschorle"
     },
     "power-bowl": {
-      "description": "Aromatiskt ris, avokado, edamame, kikärtor, morot, tomat, gurka, jordnötter, apelsin‑mynta‑lime‑dressing.",
+      "description": "Aromatiskt ris, avokado, edamame, kikärtor, morot, tomat, gurka, jordnötter, apelsin‑mynta‑limedressing.",
       "pairing": "Sauvignon Blanc Reserve -S-"
     },
     "kaesespaetzle": {
       "description": "Käsespätzle med lökringar.",
-      "pairing": "Münchner Dunkel eller ett fylligt vitt vin"
+      "pairing": "Münchner Dunkel or a full-bodied white wine"
     },
     "linguine-truffles": {
       "description": "Pasta med babyspenat och vintertryffel.",
-      "pairing": "Chardonnay (per glas)"
+      "pairing": "Chardonnay (by the glass)"
     },
     "creme-brulee": {
       "description": "Serveras med sorbet och bär.",
       "pairing": "Rieslaner Auslese dessert wine"
     },
     "kaiserschmarrn": {
-      "description": "Russin, smör, socker och karamelliserade mandlar, serveras med äppelmos — perfekt att dela.",
+      "description": "Kaiserschmarrn med russin, smör, socker och karamelliserade mandlar, serveras med äppelmos — perfekt att dela.",
       "pairing": "Rieslaner Auslese dessert wine"
     },
     "kirschmichl": {
@@ -273,15 +275,15 @@
       "pairing": "Rieslaner Auslese"
     },
     "apple-strudel": {
-      "description": "Klassisk äppelsmörgås serverad med vaniljsås.",
+      "description": "Klassisk äppelstrudel serverad med vaniljsås.",
       "pairing": "Milchkaffee"
     },
     "muenchner-hell": {
-      "description": "Underjäst, lätt bitter humleton, lätt maltig. 5.0% vol.",
+      "description": "Underjäst, med diskret besk humleton och lätt maltighet. 5.0% vol.",
       "pairing": "Wiener Schnitzel"
     },
     "beer-light-alcohol-free": {
-      "description": "Naturligt grumlig, toner av karamell och honung. <0.5% vol.",
+      "description": "Naturligt grumlig, med karamell‑ och honungstoner. <0.5% vol.",
       "pairing": "Brotzeitbrettl"
     },
     "muenchner-radler": {
@@ -289,15 +291,15 @@
       "pairing": "Donisl Salad"
     },
     "muenchner-dunkel": {
-      "description": "Lätt bitter, rostad malt med toner av karamell och sockrade frukter. 5.0% vol.",
+      "description": "Diskret besk, rostad malt med karamell‑ och kandade fruktnoter. 5.0% vol.",
       "pairing": "Schweinshaxe"
     },
     "hefeweizen": {
-      "description": "Överjäst veteöl med aromer av banan och honung.",
+      "description": "Överjäst veteöl med banan‑ och honungsnoter.",
       "pairing": "White sausage (Kesselfrisch)"
     },
     "russn": {
-      "description": "Hefeweizen med en skonsam lemonad, inte för söt.",
+      "description": "Hefeweizen med fin lemonad, inte för söt.",
       "pairing": "Bratwurstreindl"
     },
     "cola-wheat": {
@@ -305,15 +307,15 @@
       "pairing": "Currywurst"
     },
     "non-alcoholic-wheat": {
-      "description": "Mildt dealkoholiserad efter full mognad, behåller sin arom.",
+      "description": "Varsamt dealkoholiserad efter full mognad, behåller sin arom.",
       "pairing": "Backhendl"
     },
     "salvator": {
-      "description": "Starköl (Starkbier), säsongsöl — tillgänglig februari/mars. 0.5l.",
+      "description": "Starkbier (säsongsöl), tillgänglig februari/mars. 0.5l.",
       "pairing": "Duet of the Ox"
     },
     "kellerbier": {
-      "description": "Säsongsöl — tillgänglig juni/juli/augusti (sommar). 0.5l.",
+      "description": "Säsongsöl — tillgänglig juni/juli/augusti. 0.5l.",
       "pairing": "Brotzeitbrettl"
     },
     "wiesnbier": {
@@ -365,11 +367,11 @@
       "pairing": "Käsespätzle"
     },
     "pinot-gris-tradition": {
-      "description": "Bott Frères, Bourgogne — aprikos, vienerskt äpple, hasselnöt, lätt rökighet. 0.75l flaska.",
+      "description": "Bott Frères, Bourgogne — aprikos, äpple, hasselnöt, lätt rökighet. 0.75l flaska.",
       "pairing": "Kalbfleischpflanzerl (hand-pressed)"
     },
     "pinot-gris-oetinger": {
-      "description": "Oetinger, Rheingau — mogen päron, gul äpple, ton av mandel. 0.75l flaska.",
+      "description": "Oetinger, Rheingau — mogen päron, guläpple, en ton av mandel. 0.75l flaska.",
       "pairing": "Backhendl"
     },
     "pinot-gris-reserve-pauline": {
@@ -377,19 +379,19 @@
       "pairing": "O'gmachter Kas"
     },
     "pinot-blanc-grand-reserve": {
-      "description": "Taubenschuss, Weinviertel, Österrike — melon, hasselnöt, hö, karamell. 0.75l flaska.",
+      "description": "Taubenschuss, Weinviertel — melon, hasselnöt, hö, karamell. 0.75l flaska.",
       "pairing": "Donisl \"4erlei\""
     },
     "trebbiano-di-lugana": {
-      "description": "Zenato, Veneto, Italien — fräsch syra, mineral, citrus, grönt äpple, päron. 0.75l flaska.",
-      "pairing": "Korvsallad från Regensburg"
+      "description": "Zenato, Veneto, Italien — frisk syra, mineral, citrus, grönt äpple, päron. 0.75l flaska.",
+      "pairing": "Sausage salad from Regensburg"
     },
     "lugana-glass": {
       "description": "Zenato, Veneto, Italien. 0.1l.",
       "pairing": "Zander fillet with potato crust"
     },
     "riesling-easy-white": {
-      "description": "Oetinger, Rheingau — lime, äpple, vit persika, idealisk aperitif. 0.75l flaska.",
+      "description": "Oetinger, Rheingau — lime, äpple, vit persika, ideal som aperitif. 0.75l flaska.",
       "pairing": "Wiener Schnitzel"
     },
     "riesling-gottloos": {
@@ -397,7 +399,7 @@
       "pairing": "Wiener Schnitzel"
     },
     "riesling-heiligenstein": {
-      "description": "Bründlmayer, Langenlois, Kamptal, Österrike — fräsch citrus, äpple, örtig krydda. 0.75l flaska.",
+      "description": "Bründlmayer, Kamptal, Österrike — frisk citrus, äpple, örtig krydda. 0.75l flaska.",
       "pairing": "Donisl Salad"
     },
     "riesling-smoky-dry": {
@@ -405,7 +407,7 @@
       "pairing": "Currywurst"
     },
     "riesling-bright-side-of-life": {
-      "description": "Stahl, Franken — fruktig, frisk, okomplicerad. 0.75l flaska.",
+      "description": "Stahl, Franken — fruktig, fräsch, okomplicerad. 0.75l flaska.",
       "pairing": "Gebackenes Fischfilet (Friday)"
     },
     "riesling-nachschlag-glass": {
@@ -426,7 +428,7 @@
     },
     "gruener-veltliner-tenn": {
       "description": "Taubenschuss, Weinviertel — äpple, vitpeppar, örtig krydda. 0.75l flaska.",
-      "pairing": "Ljumt kalvhuvud‑carpaccio"
+      "pairing": "Lukewarm calf's head carpaccio"
     },
     "riesling-gottloos-3l": {
       "description": "Dr. Loosen, Mosel. 3.0l flaska.",
@@ -437,7 +439,7 @@
       "pairing": "Käsespätzle"
     },
     "chardonnay-morillon": {
-      "description": "Lackner‑Tinnacher, södra Styrien, Österrike. 1.5l flaska.",
+      "description": "Lackner‑Tinnacher, södra Styria, Österrike. 1.5l flaska.",
       "pairing": "O'gmachter Kas"
     },
     "cuvee-adrian-sangiovese": {
@@ -517,7 +519,7 @@
       "pairing": "Apple strudel"
     },
     "hirschkuss": {
-      "description": "38% vol., patentkorkflaska, 4cl.",
+      "description": "38% vol., flaska med patentkork, 4cl.",
       "pairing": "Kaiserschmarrn (large)"
     },
     "vodka-redbull": {
@@ -533,7 +535,7 @@
       "pairing": "Kirschmichl"
     },
     "feiner-mirabell": {
-      "description": "Linster, mogen aprikosdoft. 2cl.",
+      "description": "Linster fine fruit distillery, mogen aprikossmak. 2cl.",
       "pairing": "Crème brûlée"
     },
     "enzian-gentian-brandy": {
@@ -541,11 +543,11 @@
       "pairing": "Schweinshaxe"
     },
     "raspberry-pulp-brandy": {
-      "description": "40% vol. Edelmanufaktur Wilhelm Marx. 2cl.",
+      "description": "40% vol. Wilhelm Marx Edelmanufaktur. 2cl.",
       "pairing": "Kaiserschmarrn (large)"
     },
     "grappa-chardonnay": {
-      "description": "Farfarens grappa. 2cl.",
+      "description": "Farfar. 2cl.",
       "pairing": "Crème brûlée"
     },
     "paulaner-spezi": {
@@ -577,7 +579,7 @@
       "pairing": "Donisl Deluxe Burger"
     },
     "bad-brambacher": {
-      "description": "Stilla eller lätt kolsyrat. 0.5l.",
+      "description": "Still eller lätt kolsyrat. 0.5l.",
       "pairing": "Brezn"
     },
     "table-water": {
@@ -589,11 +591,11 @@
       "pairing": "Kässpatzn"
     },
     "johannisbeerschorle": {
-      "description": "Svarta vinbärs‑spritzer. 0.4l.",
+      "description": "Svartvinbärsspritzer. 0.4l.",
       "pairing": "Kirschmichl"
     },
     "maracujaschorle": {
-      "description": "Passionsfrukts‑spritzer. 0.4l.",
+      "description": "Passionsfruktsspritzer. 0.4l.",
       "pairing": "Donisl Power Bowl"
     },
     "wolfra-orange-juice": {
@@ -633,7 +635,7 @@
       "pairing": "Kirschmichl"
     },
     "tea-ronnefeldt": {
-      "description": "Darjeeling, Mountain Herbs, Sweet Berries, Green Dragon Lung Ching, Refreshing Mint eller Fruity Camomile.",
+      "description": "Darjeeling, Mountain Herbs, Sweet Berries, Green Dragon Lung Ching, Uppfriskande Mint eller Fruktig Kamomill.",
       "pairing": "Apple strudel"
     },
     "kids-potato-dumplings": {
@@ -645,7 +647,7 @@
       "pairing": "Apple spritzer"
     },
     "kids-rostbratwuerstl": {
-      "description": "Med pommes eller potatis‑gurksallad.",
+      "description": "Med pommes frites eller potatis‑gurksallad.",
       "pairing": "Paulaner Spezi"
     },
     "kids-fries": {

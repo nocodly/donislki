@@ -2,19 +2,21 @@
   "strings": {
     "welcome": "Duyệt thực đơn bên dưới, hoặc hỏi trợ lý AI của chúng tôi để được gợi ý.",
     "categoriesTitle": "Thực đơn",
-    "featuredTitle": "Món tiêu biểu",
+    "featuredTitle": "Nổi bật",
     "askAi": "Hỏi AI",
     "chatTitle": "DonislKI",
     "discussing": "Đang thảo luận",
     "askAboutThis": "Hỏi AI về mục này",
     "todaysLunchTitle": "Món trưa hôm nay",
     "weekendLunchTitle": "Cuối tuần tại Donisl",
-    "weekendLunchText": "Hôm nay không có suất trưa trong tuần — các món Oktoberfest Schmankerl được phục vụ suốt cuối tuần.",
-    "oktoberfestBadge": "Đang là Oktoberfest",
-    "oktoberfestBannerTitle": "Oktoberfest Schmankerl",
-    "oktoberfestBannerText": "Mùa Wiesn đã bắt đầu — các món đặc biệt Oktoberfest đang được phục vụ.",
+    "weekendLunchText": "Hôm nay không có suất trưa trong tuần — các món Wiesn cho Oktoberfest được phục vụ suốt cuối tuần.",
+    "oktoberfestBadge": "Thực đơn Wiesn",
+    "oktoberfestBannerTitle": "Món Oktoberfest",
+    "oktoberfestBannerText": "Thực đơn Wiesn đã được phục vụ.",
+    "oktoberfestBannerStarted": "Đến giờ Wiesn — các món Oktoberfest đang được phục vụ.",
+    "oktoberfestBannerCountdown": "Oktoberfest khai mạc sau {days} ngày — nhưng thực đơn Wiesn của chúng tôi đã được phục vụ.",
     "askAboutDishTemplate": "Cho tôi biết về {dish}",
-    "pairing": "Kết hợp tốt với",
+    "pairing": "Phù hợp với",
     "fromPricePrefix": "từ ",
     "allergensLabel": "Chất gây dị ứng",
     "allergensUnknown": "Vui lòng xác nhận với nhân viên",
@@ -27,37 +29,37 @@
       "oktoberfest": "Oktoberfest",
       "traditional": "Truyền thống",
       "sausages": "Xúc xích",
-      "starters": "Khai vị",
-      "vegan": "Đồ chay",
-      "desserts": "Tráng miệng",
+      "starters": "Món khai vị",
+      "vegan": "Chay thuần",
+      "desserts": "Món tráng miệng",
       "beer": "Bia",
       "wine": "Rượu vang",
       "aperitif": "Aperitif",
-      "spirits": "Đồ mạnh",
-      "drinks": "Đồ không cồn & cà phê",
+      "spirits": "Đồ uống mạnh",
+      "drinks": "Đồ uống không cồn & cà phê",
       "kids": "Trẻ em"
     },
     "tagLabels": {
-      "sharing": "ăn chung",
+      "sharing": "chia sẻ",
       "signature": "đặc trưng",
-      "hearty": "bồi bổ",
-      "classic": "cổ điển",
+      "hearty": "béo bổ",
+      "classic": "kinh điển",
       "light": "nhẹ",
       "seasonal": "theo mùa",
       "strong": "mạnh",
       "non-alcoholic": "không cồn",
-      "vegetarian": "ăn chay",
+      "vegetarian": "chay",
       "vegan": "thuần chay",
       "spirit": "rượu mạnh",
       "water": "nước",
       "coffee": "cà phê",
       "hot-drink": "đồ nóng",
-      "aperitif": "apero",
-      "bowl": "bowl",
+      "aperitif": "aperitif",
+      "bowl": "bát",
       "white": "trắng",
       "red": "đỏ",
-      "rose": "rosé",
-      "sparkling": "sủi bọt",
+      "rose": "hồng",
+      "sparkling": "sủi",
       "dessert-wine": "rượu tráng miệng",
       "by-glass": "theo ly",
       "bottle": "chai",
@@ -85,95 +87,95 @@
   },
   "items": {
     "lunch-monday-tagliatelle": {
-      "description": "Suất trưa thứ Hai, phục vụ 12:00–15:30. Tagliatelle với nấm rừng và ngò parsley.",
+      "description": "Suất trưa thứ Hai, phục vụ 12:00–15:30. Tagliatelle với nấm rừng và mùi tây.",
       "pairing": "Grauburgunder (theo ly)"
     },
     "lunch-tuesday-bratengroestl": {
-      "description": "Suất trưa thứ Ba, phục vụ 12:00–15:30. Đĩa thịt quay trộn với bắp cải trắng, bánh bao khoai tây và trứng ốp.",
+      "description": "Suất trưa thứ Ba, phục vụ 12:00–15:30. Món thịt xào tổng hợp với bắp cải trắng, bánh bao khoai tây và trứng chiên.",
       "pairing": "Münchner Dunkel"
     },
     "lunch-wednesday-leberkaese": {
-      "description": "Suất trưa thứ Tư, phục vụ 12:00–15:30. Leberkäse áp chảo với trứng rán và salad khoai tây-dưa leo.",
+      "description": "Suất trưa thứ Tư, phục vụ 12:00–15:30. Leberkäse áp chảo với trứng ốp la và салат khoai tây-dưa leo.",
       "pairing": "Münchner Hell"
     },
     "lunch-thursday-chicken-geschnetzeltes": {
-      "description": "Suất trưa thứ Năm, phục vụ 12:00–15:30. Ức gà xắt lát sốt nấm kèm spätzle thảo mộc.",
+      "description": "Suất trưa thứ Năm, phục vụ 12:00–15:30. Gà xắt lát xốt nấm kèm spätzle thảo mộc.",
       "pairing": "Münchner Radler"
     },
     "lunch-friday-fish-fillet": {
-      "description": "Suất trưa thứ Sáu, phục vụ 12:00–15:30. Cá chiên theo ngày ăn kèm sốt remoulade và salad khoai tây-dưa leo.",
+      "description": "Suất trưa thứ Sáu, phục vụ 12:00–15:30. Filet cá chiên theo ngày với remoulade và салат khoai tây-dưa leo.",
       "pairing": "Riesling Smoky Dry"
     },
     "oktoberfest-pumpkin-soup": {
-      "description": "Súp bí mịn, thơm cùng dầu hạt bí Styrian và hạt nướng giòn.",
+      "description": "Súp bí mịn mượt với dầu hạt bí Styria và hạt nướng.",
       "pairing": "Weissweinschorle"
     },
     "oktoberfest-leberkas-burger": {
-      "description": "Burger Leberkäse kèm trứng ốp, khoai tây chiên và kem chua thảo mộc.",
+      "description": "Burger Leberkäse với trứng chiên, khoai tây chiên và kem chua thảo mộc.",
       "pairing": "Oktoberfestbier"
     },
     "oktoberfest-bauernsalat": {
-      "description": "Salad lá trộn, khoai tây trộn và coleslaw cùng miếng ba chỉ heo giòn.",
+      "description": "Salad lá trộn, салат khoai tây và coleslaw kèm dải da heo giòn.",
       "pairing": "Münchner Radler"
     },
     "oktoberfest-milchkalb-steak": {
-      "description": "Bít tết bê sữa kèm đậu speck, nước sốt rượu đỏ và khoai tây nghiền kem.",
+      "description": "Bít-tết bê bú sữa với đậu speck, nước sốt rượu vang đỏ và khoai tây nghiền béo.",
       "pairing": "Pinot Noir Ried Goldberg"
     },
     "oktoberfest-half-chicken": {
-      "description": "Gà nửa quay (½ Hendl) kèm salad khoai tây-dưa leo hoặc khoai tây chiên.",
+      "description": "Gà nửa con nướng (½ Hendl) kèm салат khoai tây-dưa leo hoặc khoai tây chiên.",
       "pairing": "Hefeweizen (Yeast White)"
     },
     "oktoberfest-boiled-beef-fillet": {
-      "description": "Thăn bò luộc kèm xương tủy bò, củ quả luộc, mù tạt và khoai tây hương rosemary.",
+      "description": "Filet bò luộc với xương tủy bò, củ quả luộc, mù tạt gừng và khoai tây hương rosemary.",
       "pairing": "Grüner Veltliner Ried Tenn DAC Reserve"
     },
     "oktoberfest-wiesn-reindl": {
-      "description": "Chảo chia sẻ cho cả bàn: thịt viên bê, schnitzel, bratwurst, chân giò và gà kèm bánh bao khoai tây, sauerkraut và Käsespätzle. Giá tính theo người, tối thiểu hai người.",
+      "description": "Chảo chia sẻ: bánh bò nhỏ, schnitzel, bratwurst, chân giò và gà kèm bánh bao khoai tây, dưa bắp cải chua và käsespätzle. Tính theo người, tối thiểu hai người.",
       "pairing": "Oktoberfestbier"
     },
     "oktoberfestbier": {
-      "description": "Lager lễ hội đậm đà, nhiều mạch nha phục vụ cho Wiesn.",
+      "description": "Lager lễ hội đậm đà, nhiều mạch nha, rót cho Wiesn.",
       "pairing": "Steak vom Milchkalb"
     },
     "donisl-roasting-pan": {
-      "description": "Bò, vịt, chân giò heo và các loại xúc xích cùng bắp cải đỏ, bánh bao khoai tây và Käsespätzle — để chia sẻ.",
+      "description": "Bò, vịt, chân giò và xúc xích kèm bắp cải đỏ, bánh bao khoai tây và käsespätzle — để chia sẻ.",
       "pairing": "Münchner Dunkel"
     },
     "roast-pork": {
-      "description": "Vai và ba chỉ heo kiểu Bavaria với da giòn, nước sốt tự nhiên, bánh bao khoai tây và coleslaw.",
+      "description": "Vai và ba chỉ heo theo phong cách Bavaria có da giòn, nước sốt tự nhiên, bánh bao khoai tây và coleslaw.",
       "pairing": "Münchner Dunkel"
     },
     "schweinshaxe": {
-      "description": "Chân giò heo nửa quay giòn, kèm sốt tự nhiên, bánh bao khoai tây và coleslaw.",
+      "description": "Chân giò heo nửa quay giòn, phục vụ với nước sốt tự nhiên, bánh bao khoai tây và coleslaw.",
       "pairing": "Münchner Dunkel"
     },
     "wiener-schnitzel": {
-      "description": "Schnitzel heo nuôi theo kiểu Bavaria, dùng kèm khoai tây chiên hoặc salad khoai tây-dưa leo và mứt nam việt quất.",
-      "pairing": "Riesling Easy-White hoặc Radler"
+      "description": "Schnitzel heo nuôi theo kiểu Bavaria, ăn kèm khoai tây chiên hoặc салат khoai tây-dưa leo và mứt nam việt quất.",
+      "pairing": "Riesling Easy-White or a Radler"
     },
     "farm-duck": {
-      "description": "Vịt quay sốt rosemary, bánh bao khoai tây và bắp cải đỏ.",
+      "description": "Sốt rosemary, bánh bao khoai tây và bắp cải đỏ.",
       "pairing": "Münchner Dunkel"
     },
     "backhendl": {
-      "description": "Đùi gà tẩm bột không xương chiên giòn, kèm khoai tây chiên hoặc salad khoai tây-dưa leo.",
+      "description": "Đùi gà không xương tẩm bột chiên giòn, kèm khoai tây chiên hoặc салат khoai tây-dưa leo.",
       "pairing": "Münchner Radler"
     },
     "duet-of-the-ox": {
-      "description": "Thịt bò hầm và bít tết bò nướng, sốt rượu vang đỏ, bắp cải đỏ, khoai tây nghiền kem.",
+      "description": "Bò hầm và bít-tết bò nướng, xốt rượu vang đỏ, bắp cải đỏ, khoai tây nghiền béo.",
       "pairing": "Black OX Cuvée"
     },
     "veal-meatballs": {
-      "description": "Bánh thịt bê nặn tay, rau trộn và khoai tây rosemary.",
+      "description": "Bánh thịt bê ép thủ công kèm rau trộn và khoai tây rosemary.",
       "pairing": "Grauburgunder Tradition"
     },
     "white-sausage": {
-      "description": "Hai cây, phục vụ kèm pretzel và mù tạt.",
+      "description": "Hai chiếc, phục vụ kèm pretzel và mù tạt.",
       "pairing": "Hefeweizen (Yeast White)"
     },
     "white-sausage-piece": {
-      "description": "Một cây Weißwurst.",
+      "description": "Một chiếc white sausage.",
       "pairing": "Hefeweizen (Yeast White)"
     },
     "polish-sausage": {
@@ -181,35 +183,35 @@
       "pairing": "Russn"
     },
     "currywurst": {
-      "description": "Xúc xích curry theo công thức Donisl, kèm khoai tây chiên.",
+      "description": "Xúc xích cà ri Donisl, phục vụ với khoai tây chiên.",
       "pairing": "Hefeweizen wheat beer"
     },
     "bratwurstreindl": {
-      "description": "Chảo xúc xích nướng kèm sauerkraut hoặc salad khoai tây — phần để chia sẻ.",
+      "description": "Chảo xúc xích nướng kèm dưa bắp cải chua hoặc салат khoai tây — phần để chia sẻ.",
       "pairing": "Russn (light Hefeweizen)"
     },
     "rump-steak": {
-      "description": "Bít tết Murnau bò với sốt rượu vang và hành, hành chiên, Käsespätzle.",
+      "description": "Thăn Murnau với xốt rượu vang và hành, hành chiên, käsespätzle.",
       "pairing": "Primitivo Puglia IGT"
     },
     "ribeye-300g": {
-      "description": "Miếng mỡ sườn từ bò Murnau, sốt café de paris, rau nướng, gratin khoai tây.",
+      "description": "Phần mỡ viền từ bò Murnau, xốt café de paris, rau nướng, khoai tây gratin.",
       "pairing": "Brunello di Montalcino DOCG"
     },
     "deluxe-burger": {
-      "description": "200g thịt Werdenfelser, cheddar, xà lách, cà chua, dưa chua, hành, sốt Donisl tự làm. +3,90 với khoai tây chiên.",
+      "description": "200g thịt Werdenfelser, cheddar, xà lách, cà chua, dưa chua, hành, sốt Donisl tự làm. +3.90 với khoai tây chiên.",
       "pairing": "Münchner Hell"
     },
     "zanderfilet": {
-      "description": "Phi lê zander (cá rô phi lớn) phủ vỏ khoai tây, kèm rau mùa thu nhiều màu và sốt mù tạt-hành tây.",
+      "description": "Filet zander (cá vược hồ) phủ vỏ khoai tây với rau mùa thu nhiều màu và sốt mù tạt-rễ cải.",
       "pairing": "Sauvignon Blanc"
     },
     "brotzeitbrettl": {
-      "description": "Đĩa thịt hun khói nông dân, xúc xích bacon, liverwurst, thịt bò nguội, O'gmachter, phô mai núi, mù tạt, bánh mì.",
+      "description": "Các món nguội hun khói của người nông dân: xúc xích bacon, liverwurst, thịt bò lạnh quay, O'gmachter, phô mai núi, mù tạt, bánh mì.",
       "pairing": "Hefeweizen (Yeast White)"
     },
     "donisl-4erlei": {
-      "description": "Hummus, phô mai tự làm, bơ mặn và kem chua thảo mộc, kèm giỏ bánh mì.",
+      "description": "Hummus, phô mai làm tại chỗ, bơ mặn và kem chua thảo mộc, phục vụ với giỏ bánh mì.",
       "pairing": "Weissweinschorle"
     },
     "beef-tartare": {
@@ -217,15 +219,15 @@
       "pairing": "Pinot Noir Ried Goldberg"
     },
     "ogmachter-kas": {
-      "description": "Phô mai mềm quyện, hành chiên, củ cải trắng, xà lách và trái mọng.",
+      "description": "Phô mai kem với vòng hành, củ cải, xà lách và quả berry.",
       "pairing": "Münchner Radler"
     },
     "sausage-salad": {
-      "description": "Nước trộn nhà, hành chiên, dưa chua, cà chua, trái mọng (+1,90 với dải phô mai núi).",
+      "description": "Sốt trộn nhà, vòng hành, dưa chua, cà chua, berry (+1.90 với dải phô mai núi).",
       "pairing": "Russn"
     },
     "donisl-salad": {
-      "description": "Rau lá trộn, cà chua, dưa leo, nước trộn nhà, hạt và bánh mì chiên giòn.",
+      "description": "Rau lá, cà chua, dưa leo, sốt trộn nhà, hạt và crouton.",
       "pairing": "Weissweinschorle"
     },
     "bread-basket": {
@@ -233,51 +235,51 @@
       "pairing": "Münchner Hell"
     },
     "brezn": {
-      "description": "Bánh pretzel kiểu Bavaria.",
+      "description": "Pretzel kiểu Bavaria.",
       "pairing": "Münchner Hell"
     },
     "oxen-consomme": {
-      "description": "Nước dùng bò trong cùng với bánh bao gan hoặc sợi bánh crepe, rau củ và hành lá.",
+      "description": "Nước dùng bò trong cùng với bánh bao gan hoặc dải bánh kếp, rau củ và hành hoa.",
       "pairing": "Weissweinschorle"
     },
     "classic-sides": {
-      "description": "Sauerkraut, bắp cải đỏ, salad bacon và bắp cải, khoai tây kem, bánh bao khoai tây, khoai tây quay nhỏ, spätzle hoặc khoai tây chiên — mỗi món.",
+      "description": "Sauerkraut, bắp cải đỏ, салат bacon và bắp cải, khoai tây kem, bánh bao khoai tây, khoai nướng nhỏ, spätzle hoặc khoai tây chiên — mỗi món.",
       "pairing": "Münchner Hell"
     },
     "vegetable-sides": {
-      "description": "Món rau trộn hoặc salad khoai tây-dưa leo — mỗi món.",
+      "description": "Món rau phụ hoặc салат khoai tây-dưa leo — mỗi món.",
       "pairing": "Weissweinschorle"
     },
     "power-bowl": {
-      "description": "Cơm thơm, bơ, edamame, đậu gà, cà rốt, cà chua, dưa leo, đậu phộng, nước sốt cam-bạc hà-chanh.",
+      "description": "Cơm thơm, bơ, edamame, đậu gà, cà rốt, cà chua, dưa leo, đậu phộng, sốt cam-húng-lime.",
       "pairing": "Sauvignon Blanc Reserve -S-"
     },
     "kaesespaetzle": {
-      "description": "Käsespätzle (spätzle phô mai) với hành chiên.",
-      "pairing": "Münchner Dunkel hoặc rượu trắng đậm đà"
+      "description": "Käsespätzle với vòng hành.",
+      "pairing": "Münchner Dunkel or a full-bodied white wine"
     },
     "linguine-truffles": {
-      "description": "Mì pasta với rau bina non và nấm truffle mùa đông.",
+      "description": "Mỳ linguine với rau chân vịt non và nấm truffle mùa đông.",
       "pairing": "Chardonnay (theo ly)"
     },
     "creme-brulee": {
-      "description": "Phục vụ kèm sorbet và trái mọng.",
-      "pairing": "Rieslaner Auslese rượu tráng miệng"
+      "description": "Phục vụ cùng sorbet và quả berry.",
+      "pairing": "Rieslaner Auslese dessert wine"
     },
     "kaiserschmarrn": {
       "description": "Kaiserschmarrn với nho khô, bơ, đường và hạnh nhân caramel, kèm sốt táo — thích hợp để chia sẻ.",
-      "pairing": "Rieslaner Auslese rượu tráng miệng"
+      "pairing": "Rieslaner Auslese dessert wine"
     },
     "kirschmichl": {
-      "description": "Bánh anh đào ấm, phục vụ kèm custard.",
+      "description": "Bánh cherry ấm phục vụ với custard.",
       "pairing": "Rieslaner Auslese"
     },
     "apple-strudel": {
-      "description": "Apple strudel cổ điển, phục vụ kèm custard.",
+      "description": "Apple strudel truyền thống, phục vụ cùng custard.",
       "pairing": "Milchkaffee"
     },
     "muenchner-hell": {
-      "description": "Bia đáy lên men, hương hoa bia nhẹ nhàng, vị malt dịu. 5.0% vol.",
+      "description": "Bia đáy lên men, vị hoa bia nhẹ, hơi mạch nha. 5.0% vol.",
       "pairing": "Wiener Schnitzel"
     },
     "beer-light-alcohol-free": {
@@ -289,7 +291,7 @@
       "pairing": "Donisl Salad"
     },
     "muenchner-dunkel": {
-      "description": "Vị đắng tinh tế, malt rang với ghi chú caramel và trái cây kẹo. 5.0% vol.",
+      "description": "Vị đắng nhẹ, mạch nha rang với ghi chú caramel và trái cây sấy. 5.0% vol.",
       "pairing": "Schweinshaxe"
     },
     "hefeweizen": {
@@ -297,15 +299,15 @@
       "pairing": "White sausage (Kesselfrisch)"
     },
     "russn": {
-      "description": "Hefeweizen với chút nước chanh, không quá ngọt.",
+      "description": "Hefeweizen với nước chanh tinh tế, không quá ngọt.",
       "pairing": "Bratwurstreindl"
     },
     "cola-wheat": {
-      "description": "Hefeweizen pha Coca‑Cola.",
+      "description": "Hefeweizen pha Coca-Cola.",
       "pairing": "Currywurst"
     },
     "non-alcoholic-wheat": {
-      "description": "Loại gần như mất cồn sau khi lên men đầy đủ, vẫn giữ hương thơm.",
+      "description": "Hơi khử cồn sau khi lên men hoàn chỉnh, vẫn giữ hương vị.",
       "pairing": "Backhendl"
     },
     "salvator": {
@@ -317,107 +319,107 @@
       "pairing": "Brotzeitbrettl"
     },
     "wiesnbier": {
-      "description": "Bia Oktoberfest, theo mùa — có vào tháng Chín/Tháng Mười.",
+      "description": "Bia Oktoberfest, theo mùa — có vào Tháng Chín/Tháng Mười.",
       "pairing": "Donisl roasting pan"
     },
     "weissweinschorle": {
-      "description": "White wine spritzer. 0.3l.",
+      "description": "Schorle rượu vang trắng. 0.3l.",
       "pairing": "Donisl Salad"
     },
     "pinot-gris-glass": {
-      "description": "Hirschmüller Winery, Württemberg — nhẹ, dễ uống.",
+      "description": "Hirschmüller, Württemberg — nhẹ, dễ uống.",
       "pairing": "Kalbfleischpflanzerl (hand-pressed)"
     },
     "primitivo-glass": {
-      "description": "Sir of the Faun, Puglia — quả rừng đậm, anh đào, gia vị nhẹ.",
+      "description": "Sir of the Faun, Puglia — trái mọng đậm, cherry, chút gia vị.",
       "pairing": "Schweinebraten (roast pork)"
     },
     "prodry-frizzante": {
-      "description": "Motelvini, Veneto, Italy. 0.1l.",
+      "description": "Motelvini, Veneto, Ý. 0.1l.",
       "pairing": "Brotzeitbrettl"
     },
     "paul-michel-champagne": {
-      "description": "Champagne Premier Cru, Champagne, France. Chai 0.75l.",
+      "description": "Champagne Premier Cru, Champagne, Pháp. Chai 0.75l.",
       "pairing": "Oxen consommé"
     },
     "taittinger-rose": {
-      "description": "Champagne Taittinger, France. Chai 0.75l.",
+      "description": "Champagne Taittinger, Pháp. Chai 0.75l.",
       "pairing": "Donisl \"4erlei\""
     },
     "valdo-prosecco": {
-      "description": "Valdo, Veneto — rượu vang sủi bọt Ý cổ điển. Chai 0.75l.",
+      "description": "Valdo, Veneto — rượu sủi Ý cổ điển. Chai 0.75l.",
       "pairing": "Donisl Salad"
     },
     "winzersekt": {
-      "description": "Pfaffmann Winery, Pfalz, Đức. Chai 0.75l.",
+      "description": "Pfaffmann, Pfalz, Đức. Chai 0.75l.",
       "pairing": "Oxen consommé"
     },
     "chardonnay-bottle": {
-      "description": "Hirschmüller Winery, Württemberg — vải thiều, xoài, dứa. Chai 0.75l.",
+      "description": "Hirschmüller, Württemberg — chanh dây, xoài, dứa. Chai 0.75l.",
       "pairing": "Käsespätzle"
     },
     "chardonnay-glass": {
-      "description": "Hirschmüller Winery, Württemberg. 0.1l.",
+      "description": "Hirschmüller, Württemberg. 0.1l.",
       "pairing": "Linguine with truffles"
     },
     "chardonnay-macon-ige": {
-      "description": "Domaine Fichet, Burgundy — táo, lê, đào trắng, vị khoáng nhẹ. Chai 0.75l.",
+      "description": "Domaine Fichet, Burgundy — táo, lê, đào trắng, khoáng nhẹ. Chai 0.75l.",
       "pairing": "Käsespätzle"
     },
     "pinot-gris-tradition": {
-      "description": "Bott Frères Winery, Burgundy — mơ, táo Viennese, hạt phỉ, khói nhẹ. Chai 0.75l.",
+      "description": "Bott Frères, Burgundy — mơ, táo Vienna, hạt phỉ, chút khói. Chai 0.75l.",
       "pairing": "Kalbfleischpflanzerl (hand-pressed)"
     },
     "pinot-gris-oetinger": {
-      "description": "Oetinger Winery, Rheingau — lê chín, táo vàng, chút hạnh nhân. Chai 0.75l.",
+      "description": "Oetinger, Rheingau — lê chín, táo vàng, thoảng hạnh nhân. Chai 0.75l.",
       "pairing": "Backhendl"
     },
     "pinot-gris-reserve-pauline": {
-      "description": "Pfaffmann Winery, Pfalz — lê, dứa, mơ, sả, hương hoa. Chai 0.75l.",
+      "description": "Pfaffmann, Pfalz — lê, dứa, mận vàng, sả, hoa. Chai 0.75l.",
       "pairing": "O'gmachter Kas"
     },
     "pinot-blanc-grand-reserve": {
-      "description": "Taubenschuss Winery, Weinviertel Áo — dưa lưới, hạt phỉ, cỏ khô, caramel. Chai 0.75l.",
+      "description": "Taubenschuss, Weinviertel Áo — dưa lưới, hạt phỉ, cỏ khô, caramel. Chai 0.75l.",
       "pairing": "Donisl \"4erlei\""
     },
     "trebbiano-di-lugana": {
-      "description": "Zenato Winery, Veneto, Italy — độ chua tươi, khoáng, cam, táo xanh, lê. Chai 0.75l.",
+      "description": "Zenato, Veneto, Ý — độ chua tươi, khoáng, cam quýt, táo xanh, lê. Chai 0.75l.",
       "pairing": "Sausage salad from Regensburg"
     },
     "lugana-glass": {
-      "description": "Zenato Winery, Veneto, Italy. 0.1l.",
+      "description": "Zenato, Veneto, Ý. 0.1l.",
       "pairing": "Zander fillet with potato crust"
     },
     "riesling-easy-white": {
-      "description": "Oetinger Winery, Rheingau — chanh xanh, táo, đào trắng, thích hợp làm aperitif. Chai 0.75l.",
+      "description": "Oetinger, Rheingau — chanh dây, táo, đào trắng, thích hợp làm aperitif. Chai 0.75l.",
       "pairing": "Wiener Schnitzel"
     },
     "riesling-gottloos": {
-      "description": "Dr. Loosen Winery, Mosel — cam, táo, khoáng tinh tế. Chai 0.75l.",
+      "description": "Dr. Loosen, Mosel — cam quýt, táo, khoáng tinh tế. Chai 0.75l.",
       "pairing": "Wiener Schnitzel"
     },
     "riesling-heiligenstein": {
-      "description": "Bründlmayer Winery, Langenlois, Kamptal, Áo — cam tươi, táo, gia vị thảo mộc. Chai 0.75l.",
+      "description": "Bründlmayer, Langenlois, Kamptal, Áo — cam quýt tươi, táo, hương thảo mộc. Chai 0.75l.",
       "pairing": "Donisl Salad"
     },
     "riesling-smoky-dry": {
-      "description": "Weingut Oetinger, Rheingau — vị khoáng hun khói, táo mọng, cam. Chai 0.75l.",
+      "description": "Weingut Oetinger, Rheingau — khoáng vị khói, táo mọng, cam quýt. Chai 0.75l.",
       "pairing": "Currywurst"
     },
     "riesling-bright-side-of-life": {
-      "description": "Stahl Winery, Franconia, Đức — trái cây, tươi, dễ chịu. Chai 0.75l.",
+      "description": "Stahl, Franconia — trái cây, tươi, dễ chịu.",
       "pairing": "Gebackenes Fischfilet (Friday)"
     },
     "riesling-nachschlag-glass": {
-      "description": "Stahl Winery, Franconia, Đức. 0.1l.",
+      "description": "Stahl, Franconia. 0.1l.",
       "pairing": "Gebackenes Fischfilet (Friday)"
     },
     "sauvignon-blanc": {
-      "description": "Chateau de la Chaise, Loire — nho rừng, táo xanh, trái cây nhiệt đới. Chai 0.75l.",
+      "description": "Chateau de la Chaise, Loire — gooseberry, táo xanh, trái nhiệt đới. Chai 0.75l.",
       "pairing": "Zander fillet with potato crust"
     },
     "sauvignon-blanc-reserve": {
-      "description": "Taubenschuss Winery, Weinviertel Áo — chanh xanh, nho tò vò, trái cây nhiệt đới. Chai 0.75l.",
+      "description": "Taubenschuss, Weinviertel Áo — chanh, gooseberry, trái nhiệt đới. Chai 0.75l.",
       "pairing": "Donisl Power Bowl"
     },
     "silvaner-easy-white": {
@@ -425,19 +427,19 @@
       "pairing": "Vegetable side dish"
     },
     "gruener-veltliner-tenn": {
-      "description": "Taubenschuss Winery, Weinviertel Áo — táo, tiêu trắng, gia vị thảo mộc. Chai 0.75l.",
+      "description": "Taubenschuss, Weinviertel Áo — táo, tiêu trắng, hương thảo mộc. Chai 0.75l.",
       "pairing": "Lukewarm calf's head carpaccio"
     },
     "riesling-gottloos-3l": {
-      "description": "Dr. Loosen Winery, Mosel. Chai 3.0l.",
+      "description": "Dr. Loosen, Mosel. Chai 3.0l.",
       "pairing": "Wiener Schnitzel"
     },
     "gruener-veltliner-steinberg": {
-      "description": "Karl Fritsch Winery, Burgenland, Áo. Chai 1.5l.",
+      "description": "Karl Fritsch, Burgenland, Áo. Chai 1.5l.",
       "pairing": "Käsespätzle"
     },
     "chardonnay-morillon": {
-      "description": "Lackner-Tinnacher Winery, Southern Styria, Áo. Chai 1.5l.",
+      "description": "Lackner-Tinnacher, Southern Styria, Áo. Chai 1.5l.",
       "pairing": "O'gmachter Kas"
     },
     "cuvee-adrian-sangiovese": {
@@ -445,11 +447,11 @@
       "pairing": "Duet of the Ox"
     },
     "primitivo-bottle": {
-      "description": "Barbanera Winery, Apulia, Ý — trái rừng đậm, anh đào, gia vị tinh tế. Chai 0.75l.",
+      "description": "Barbanera, Apulia, Ý — trái mọng đậm, cherry, chút gia vị. Chai 0.75l.",
       "pairing": "Schweinebraten (roast pork)"
     },
     "herrgott-cuvee": {
-      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz — anh đào, quả đỏ. Chai 0.75l.",
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz — cherry, quả đỏ. Chai 0.75l.",
       "pairing": "Ribeye 300 grams"
     },
     "herrgott-cuvee-glass": {
@@ -457,43 +459,43 @@
       "pairing": "Donisl Bratengröstl (Tuesday)"
     },
     "tuscany-red-cuvee": {
-      "description": "Duca di Salangane, Toscana — anh đào, quả rừng đậm. Chai 0.75l.",
+      "description": "Duca di Salangane, Toscana — cherry, trái mọng đậm. Chai 0.75l.",
       "pairing": "Roast beef — rump steak"
     },
     "pinot-noir-goldberg": {
-      "description": "Toni Hartl Winery, Burgenland — quả đỏ, anh đào, gia vị nhẹ. Chai 0.75l.",
+      "description": "Toni Hartl, Burgenland — quả đỏ, cherry, chút gia vị. Chai 0.75l.",
       "pairing": "Steak vom Milchkalb"
     },
     "merlot": {
-      "description": "Chateau Gensac, Gascony — anh đào chín, mận, gia vị. Chai 0.75l.",
+      "description": "Chateau Gensac, Gascony — cherry đậm, mận, gia vị. Chai 0.75l.",
       "pairing": "Veal meatballs"
     },
     "brunello-di-montalcino": {
-      "description": "Tenuta Corte Pavone, Sangiovese, Tuscany — trái rừng tối, anh đào, socola. Chai 0.75l.",
+      "description": "Tenuta Corte Pavone, Sangiovese, Tuscany — trái mọng đậm, cherry, socola. Chai 0.75l.",
       "pairing": "Ribeye 300 grams"
     },
     "black-ox-cuvee": {
-      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Pfalz — trái rừng tối, anh đào, gia vị. Chai 0.75l.",
+      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Pfalz — trái mọng đậm, cherry, gia vị. Chai 0.75l.",
       "pairing": "Duet of the Ox"
     },
     "rose-lime-stone": {
-      "description": "Unger Winery, hồ Neusiedl — trái đỏ, dâu tây, mâm xôi, hương cam. Chai 0.75l.",
+      "description": "Unger, Lake Neusiedl — trái đỏ, dâu tây, dâu rừng, cam quýt. Chai 0.75l.",
       "pairing": "Donisl Salad"
     },
     "torres-natureo": {
-      "description": "Miguel Torres, Vilafranca del Penedès — cam, táo, nhẹ.",
+      "description": "Miguel Torres, Vilafranca del Penedès — cam quýt, táo, nhẹ nhàng. Chai 0.75l.",
       "pairing": "Donisl Salad"
     },
     "rieslaner-auslese": {
-      "description": "Juliusspital Winery, Franconia — rượu tráng miệng. Chai 0.5l.",
-      "pairing": "Kaiserschmarrn hoặc Crème brûlée"
+      "description": "Juliusspital, Franconia — rượu tráng miệng. Chai 0.5l.",
+      "pairing": "Kaiserschmarrn or Crème brûlée"
     },
     "aperol-spritz": {
       "description": "Aperitif Ý cổ điển. 0.2l.",
       "pairing": "Brotzeitbrettl"
     },
     "hugo": {
-      "description": "Hugo hoa cơm cháy (elderflower) sủi. 0.2l.",
+      "description": "Elderflower spritz. 0.2l.",
       "pairing": "Bread basket"
     },
     "campari-soda": {
@@ -525,7 +527,7 @@
       "pairing": "Donisl Deluxe Burger"
     },
     "williams-christ-pear": {
-      "description": "40% vol. Edelbrand, Sigi Herzog Distillate. 2cl.",
+      "description": "40% vol. Edelbrand, Sigi Herzog. 2cl.",
       "pairing": "Apple strudel"
     },
     "farm-fruit-growers": {
@@ -533,7 +535,7 @@
       "pairing": "Kirschmichl"
     },
     "feiner-mirabell": {
-      "description": "Rượu mơ Linster, hương mơ chín. 2cl.",
+      "description": "Linster, hương mơ chín. 2cl.",
       "pairing": "Crème brûlée"
     },
     "enzian-gentian-brandy": {
@@ -541,7 +543,7 @@
       "pairing": "Schweinshaxe"
     },
     "raspberry-pulp-brandy": {
-      "description": "40% vol. Edelmanufaktur Wilhelm Marx. 2cl.",
+      "description": "40% vol. Wilhelm Marx. 2cl.",
       "pairing": "Kaiserschmarrn (large)"
     },
     "grappa-chardonnay": {
@@ -577,11 +579,11 @@
       "pairing": "Donisl Deluxe Burger"
     },
     "bad-brambacher": {
-      "description": "Nóng hoặc trung hòa khí (still hoặc medium). 0.5l.",
+      "description": "Nước khoáng still hoặc medium. 0.5l.",
       "pairing": "Brezn"
     },
     "table-water": {
-      "description": "Nước suối hoặc có ga.",
+      "description": "Nước suối hoặc có gas.",
       "pairing": "Bread basket"
     },
     "apple-spritzer": {
@@ -621,7 +623,7 @@
       "pairing": "Apple strudel"
     },
     "milchkaffee": {
-      "description": "Cà phê pha sữa.",
+      "description": "Cà phê với sữa.",
       "pairing": "Apple strudel"
     },
     "haferl-kaffee-creme": {
@@ -637,15 +639,15 @@
       "pairing": "Apple strudel"
     },
     "kids-potato-dumplings": {
-      "description": "Kèm nước sốt nướng thịt heo.",
+      "description": "Kèm nước sốt thịt quay heo.",
       "pairing": "Wolfra orange juice"
     },
     "kids-kaesspatzn": {
-      "description": "Käsespätzle size trẻ em.",
+      "description": "Käsespätzle, phần cho trẻ em.",
       "pairing": "Apple spritzer"
     },
     "kids-rostbratwuerstl": {
-      "description": "Kèm khoai tây chiên hoặc salad khoai tây-dưa leo.",
+      "description": "Kèm khoai tây chiên hoặc салат khoai tây-dưa leo.",
       "pairing": "Paulaner Spezi"
     },
     "kids-fries": {

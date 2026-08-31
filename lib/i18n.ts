@@ -16,7 +16,12 @@ export type Strings = {
   /** Oktoberfest home-screen banner + category badge. */
   oktoberfestBadge: string;
   oktoberfestBannerTitle: string;
+  /** Neutral line (true before and after the festival opens). */
   oktoberfestBannerText: string;
+  /** Shown once the festival has opened. */
+  oktoberfestBannerStarted: string;
+  /** Shown before the festival opens. Contains the literal token `{days}`. */
+  oktoberfestBannerCountdown: string;
   /** Contains the literal token `{dish}`, replaced client-side with the dish name. */
   askAboutDishTemplate: string;
   pairing: string;
@@ -51,9 +56,11 @@ export const BASE_STRINGS: Strings = {
   todaysLunchTitle: "Today's lunch special",
   weekendLunchTitle: 'Weekend at the Donisl',
   weekendLunchText: 'No weekday lunch special today — our Oktoberfest Schmankerl are on all weekend.',
-  oktoberfestBadge: "It's Oktoberfest",
+  oktoberfestBadge: 'Wiesn menu',
   oktoberfestBannerTitle: 'Oktoberfest Schmankerl',
-  oktoberfestBannerText: "Wiesn time has started — our Oktoberfest specials are being served now.",
+  oktoberfestBannerText: 'Our Wiesn menu is already being served.',
+  oktoberfestBannerStarted: "Wiesn time is here — the Oktoberfest specials are on now.",
+  oktoberfestBannerCountdown: 'Oktoberfest opens in {days} days — but our Wiesn menu is already being served.',
   askAboutDishTemplate: 'Tell me about {dish}',
   pairing: 'Best with',
   fromPricePrefix: 'from ',

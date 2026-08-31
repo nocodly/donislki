@@ -2,50 +2,52 @@
   "strings": {
     "welcome": "Prezrite si menu nižšie alebo sa opýtajte nášho AI asistenta na odporúčanie.",
     "categoriesTitle": "Menu",
-    "featuredTitle": "Odporúčané",
-    "askAi": "Spýtať sa AI",
+    "featuredTitle": "Vybrané",
+    "askAi": "Opýtať sa AI",
     "chatTitle": "DonislKI",
-    "discussing": "Diskutujeme o",
-    "askAboutThis": "Opýtajte sa AI na toto",
+    "discussing": "Diskutuje sa",
+    "askAboutThis": "Opýtať sa AI na toto",
     "todaysLunchTitle": "Dnešné obedové menu",
     "weekendLunchTitle": "Víkend v Donisli",
-    "weekendLunchText": "Dnes nie je pracovný obedový špeciál — naše Oktoberfest Schmankerl sú podávané celý víkend.",
-    "oktoberfestBadge": "Je Oktoberfest",
-    "oktoberfestBannerTitle": "Oktoberfestové Schmankerl",
-    "oktoberfestBannerText": "Wiesn čas začal — naše októbrové špeciality sa podávajú teraz.",
+    "weekendLunchText": "Dnes nie je pracovné obedové menu — naše Oktoberfest Schmankerl sú celý víkend.",
+    "oktoberfestBadge": "Wiesn menu",
+    "oktoberfestBannerTitle": "Oktoberfestové lahôdky",
+    "oktoberfestBannerText": "Naše Wiesn menu sa už podáva.",
+    "oktoberfestBannerStarted": "Wiesn čas je tu — Oktoberfestové špeciality sú aktuálne.",
+    "oktoberfestBannerCountdown": "Oktoberfest sa otvára o {days} dní — naše Wiesn menu sa už podáva.",
     "askAboutDishTemplate": "Povedz mi o {dish}",
     "pairing": "Najlepšie s",
     "fromPricePrefix": "od ",
     "allergensLabel": "Alergény",
-    "allergensUnknown": "Potvrďte prosím u personálu",
-    "composerPlaceholder": "Opýtajte sa na menu…",
+    "allergensUnknown": "Prosím potvrďte u personálu",
+    "composerPlaceholder": "Pýtajte sa na menu…",
     "send": "Odoslať",
     "close": "Zavrieť",
-    "noInfo": "Túto informáciu momentálne v menu nemám.",
+    "noInfo": "Nemám tú informáciu v aktuálnom menu.",
     "categories": {
-      "weekly": "Obedové špeciality",
+      "weekly": "Obedové menu",
       "oktoberfest": "Oktoberfest",
       "traditional": "Tradičné",
-      "sausages": "Klásy",
+      "sausages": "Klobásy",
       "starters": "Predjedlá",
-      "vegan": "Vegánske",
+      "vegan": "Vegan",
       "desserts": "Dezerty",
       "beer": "Pivo",
       "wine": "Víno",
       "aperitif": "Aperitív",
       "spirits": "Destiláty",
-      "drinks": "Nealkoholické nápoje a káva",
+      "drinks": "Nealko nápoje a káva",
       "kids": "Deti"
     },
     "tagLabels": {
       "sharing": "na zdieľanie",
-      "signature": "špeciál domu",
-      "hearty": "výdatné",
+      "signature": "signature",
+      "hearty": "sýte",
       "classic": "klasika",
       "light": "ľahké",
       "seasonal": "sezónne",
       "strong": "silné",
-      "non-alcoholic": "nealkoholické",
+      "non-alcoholic": "nealko",
       "vegetarian": "vegetariánske",
       "vegan": "vegánske",
       "spirit": "destilát",
@@ -53,29 +55,29 @@
       "coffee": "káva",
       "hot-drink": "teplý nápoj",
       "aperitif": "aperitív",
-      "bowl": "miska",
+      "bowl": "misa",
       "white": "biele",
       "red": "červené",
       "rose": "rosé",
       "sparkling": "šumivé",
       "dessert-wine": "dezertné víno",
-      "by-glass": "á la pohár",
+      "by-glass": "na pohár",
       "bottle": "fľaša",
-      "lunch-special": "obedový špeciál",
+      "lunch-special": "obedové menu",
       "gluten": "glutén",
       "dairy": "mliečne",
       "egg": "vajce",
       "mustard": "horčica",
       "nuts": "orechy",
       "peanuts": "arašidy",
-      "fish": "ryba",
-      "soy": "sója",
+      "fish": "ryby",
+      "soy": "sójové",
       "celery": "zeler",
       "sulphites": "sírany",
       "sesame": "sezam"
     },
     "quickSuggestions": [
-      "Čo odporúčate?",
+      "Čo by ste odporučili?",
       "Ktorý nápoj sa hodí k tomuto jedlu?",
       "Ukáž vegánske možnosti",
       "Čo obsahuje alergény?",
@@ -85,27 +87,27 @@
   },
   "items": {
     "lunch-monday-tagliatelle": {
-      "description": "Pondelkové obedové menu, podávame 12:00–15:30. Tagliatelle s lesnými hríbmi a petržlenom.",
-      "pairing": "Grauburgunder (á la pohár)"
+      "description": "Pondelkové obedové menu, podávame 12:00–15:30. Tagliatelle s lesnými hubami a petržlenom.",
+      "pairing": "Grauburgunder (na pohár)"
     },
     "lunch-tuesday-bratengroestl": {
-      "description": "Utorňajší obedový špeciál, podávame 12:00–15:30. Zmiešané pečené mäso s bielym kapustovým šalátom, zemiakovou knedľou a volským okom.",
+      "description": "Utorňajšie obedové menu, podávame 12:00–15:30. Pečené mäso s bielym kapustovým šalátom, zemiakovou knedľou a volským okom.",
       "pairing": "Münchner Dunkel"
     },
     "lunch-wednesday-leberkaese": {
-      "description": "Stredajší obedový špeciál, podávame 12:00–15:30. Na panvici opražený Leberkäse s volskými očami a zemiakovo‑uhorkovým šalátom.",
+      "description": "Stredajšie obedové menu, podávame 12:00–15:30. Na panvici opečený Leberkäse s volskými očami a zemiakovo-uhorkovým šalátom.",
       "pairing": "Münchner Hell"
     },
     "lunch-thursday-chicken-geschnetzeltes": {
-      "description": "Štvrtkový obedový špeciál, podávame 12:00–15:30. Plátky kuracieho v hríbovej omáčke s bylinkovými Spätzle.",
+      "description": "Štvrtkové obedové menu, podávame 12:00–15:30. Plátky kuracieho v hubovej omáčke s bylinkovým Spätzle.",
       "pairing": "Münchner Radler"
     },
     "lunch-friday-fish-fillet": {
-      "description": "Piatkový obedový špeciál, podávame 12:00–15:30. Vyprážaná úlovková ryba dňa s remuládou a zemiakovo‑uhorkovým šalátom.",
+      "description": "Piatkové obedové menu, podávame 12:00–15:30. Vyprážaná dnešná ryba s remuládou a zemiakovo-uhorkovým šalátom.",
       "pairing": "Riesling Smoky Dry"
     },
     "oktoberfest-pumpkin-soup": {
-      "description": "Hladká tekvicová polievka s panónskym tekvicovým olejom a praženými semienkami.",
+      "description": "Hladká tekvicová polievka so štajerským tekvicovým olejom a opraženými semiačkami.",
       "pairing": "Weissweinschorle"
     },
     "oktoberfest-leberkas-burger": {
@@ -113,15 +115,15 @@
       "pairing": "Oktoberfestbier"
     },
     "oktoberfest-bauernsalat": {
-      "description": "Miešaný listový šalát, zemiakový šalát a coleslaw s chrumkavými prúžkami bravčového boku.",
+      "description": "Zmiešaný listový šalát, zemiakový šalát a coleslaw s chrumkavými prúžkami bravčovej slaniny.",
       "pairing": "Münchner Radler"
     },
     "oktoberfest-milchkalb-steak": {
-      "description": "Steak z mliečneho teľaťa so slaninovými fazuľami, červeným vínnym jus a krémovými zemiakmi.",
+      "description": "Steak z mliečneho teľaťa so špekovými fazuľami, červeným vínnym jus a krémovými zemiakmi.",
       "pairing": "Pinot Noir Ried Goldberg"
     },
     "oktoberfest-half-chicken": {
-      "description": "Grilované polovičné kurča (½ Hendl) s zemiakovo‑uhorkovým šalátom alebo hranolkami.",
+      "description": "Grilované polovičné kura (½ Hendl) so zemiakovo-uhorkovým šalátom alebo hranolkami.",
       "pairing": "Hefeweizen (Yeast White)"
     },
     "oktoberfest-boiled-beef-fillet": {
@@ -129,27 +131,27 @@
       "pairing": "Grüner Veltliner Ried Tenn DAC Reserve"
     },
     "oktoberfest-wiesn-reindl": {
-      "description": "Spoločná panvica pre stôl: mäsová fašírka z teľaťa, rezeň, bratwurst, koleno a kurča s zemiakovými knedľami, kyslou kapustou a syrmi Spätzle. Cena za osobu, min. dve osoby.",
+      "description": "Panvica na zdieľanie: karbanátok z teľacieho, rezanec (schnitzel), bratwurst, bravčové koleno a kuracie s zemiakovými knedľami, kyslou kapustou a syrovými Spätzle. Cena na osobu, min. dvaja.",
       "pairing": "Oktoberfestbier"
     },
     "oktoberfestbier": {
-      "description": "Silnejšie, sladové festivalové pivo načapované pre Wiesn.",
+      "description": "Silnejšie, sládkové festivalové ležiak podávané na Wiesn.",
       "pairing": "Steak vom Milchkalb"
     },
     "donisl-roasting-pan": {
-      "description": "Hovädzie, kačica, bravčové koleno a klobásy s červenou kapustou, zemiakovými knedľami a syrovými Spätzle — na zdieľanie.",
+      "description": "Hovädzie, kačka, bravčové koleno a klobásy s červenou kapustou, zemiakovými knedľami a syrovým Spätzle — na zdieľanie.",
       "pairing": "Münchner Dunkel"
     },
     "roast-pork": {
-      "description": "Bavorské pečené plece a brucho s chrumkavou kôrkou, šťava z pečenia, zemiakové knedle a coleslaw.",
+      "description": "Bavorské bravčové plece a brucho s chrumkavou kôrkou, vlastná šťava, zemiakové knedle a coleslaw.",
       "pairing": "Münchner Dunkel"
     },
     "schweinshaxe": {
-      "description": "Chrumkavo pečené polovičné bravčové koleno podávané s omáčkou, zemiakovými knedľami a coleslawom.",
+      "description": "Chrumkavé pečené polovičné bravčové koleno podávané s vlastnou omáčkou, zemiakovými knedľami a coleslaw.",
       "pairing": "Münchner Dunkel"
     },
     "wiener-schnitzel": {
-      "description": "Bavorské bravčové Wiener Schnitzel so zemiakovými hranolkami alebo zemiakovo‑uhorkovým šalátom a brusnicami.",
+      "description": "Bavorské bravčové Wiener Schnitzel s hranolkami alebo zemiakovo-uhorkovým šalátom a brusnicami.",
       "pairing": "Riesling Easy-White or a Radler"
     },
     "farm-duck": {
@@ -157,15 +159,15 @@
       "pairing": "Münchner Dunkel"
     },
     "backhendl": {
-      "description": "Bez kosti obalené kuracie stehno s hranolkami alebo zemiakovo‑uhorkovým šalátom.",
+      "description": "Bez kosti obalené kuracie stehno s hranolkami alebo zemiakovo-uhorkovým šalátom.",
       "pairing": "Münchner Radler"
     },
     "duet-of-the-ox": {
-      "description": "Dusené mäso z vola a grilovaný volský steak, červený vínny jus, červená kapusta, krémové zemiaky.",
+      "description": "Dusené hovezie a grilovaný hovädzí steak, červený vínny jus, červená kapusta, krémové zemiaky.",
       "pairing": "Black OX Cuvée"
     },
     "veal-meatballs": {
-      "description": "Ručne tvarované teľacie fašírky s marinovanou zeleninou a rozmarínovými zemiakmi.",
+      "description": "Ručne tvarované teľacie fašírky s dresovanou zeleninou a rozmarínovými zemiakmi.",
       "pairing": "Grauburgunder Tradition"
     },
     "white-sausage": {
@@ -181,11 +183,11 @@
       "pairing": "Russn"
     },
     "currywurst": {
-      "description": "Donisl curry wurst omáčka, podávané s hranolkami.",
+      "description": "Donisl currywurst omáčka, podávaná s hranolkami.",
       "pairing": "Hefeweizen wheat beer"
     },
     "bratwurstreindl": {
-      "description": "Panvica grilovaných klobás s kyslou kapustou alebo zemiakovým šalátom — porcia na zdieľanie.",
+      "description": "Panvica grilovaných klobás so sauerkraut alebo zemiakovým šalátom — porcia na zdieľanie.",
       "pairing": "Russn (light Hefeweizen)"
     },
     "rump-steak": {
@@ -193,19 +195,19 @@
       "pairing": "Primitivo Puglia IGT"
     },
     "ribeye-300g": {
-      "description": "Krkovička z Murnau hovädzieho, omáčka café de Paris, grilovaná zelenina, zemiakový gratin.",
+      "description": "Tuková čiapka z Murnau hovädzieho, omáčka Café de Paris, grilovaná zelenina, zemiakový gratin.",
       "pairing": "Brunello di Montalcino DOCG"
     },
     "deluxe-burger": {
-      "description": "200 g Werdenfelser hovädzie, cheddar, šalát, paradajka, kyslé uhorky, cibuľa, domáca Donisl omáčka. +3,90 s hranolkami.",
+      "description": "200g Werdenfelser hovädzie, cheddar, šalát, paradajka, uhorky, cibuľa, domáca Donisl omáčka. +3,90 s hranolkami.",
       "pairing": "Münchner Hell"
     },
     "zanderfilet": {
-      "description": "Filé zo zubáča pod zemiakovou kôrkou s farebnou jesennou zeleninou a chrenovou omáčkou.",
+      "description": "Filé zo zubáča v zemiakovej kôrke s farebnou jesennou zeleninou a chrenovou omáčkou.",
       "pairing": "Sauvignon Blanc"
     },
     "brotzeitbrettl": {
-      "description": "Gazdovské údeniny, slaninková klobása, jaternica, studená pečená hovädzina, O'gmachter, horský syr, chren, chlieb.",
+      "description": "Farmárske údeniny, slaninová klobása, játrová paštéta, studená roštenka, O'gmachter, horský syr, chren, chlieb.",
       "pairing": "Hefeweizen (Yeast White)"
     },
     "donisl-4erlei": {
@@ -213,7 +215,7 @@
       "pairing": "Weissweinschorle"
     },
     "beef-tartare": {
-      "description": "Tartár s hľuzovkovým krémom, zapekané bio vajce.",
+      "description": "Tartare s lančmótovým krémom a zapekaným bio vajcom.",
       "pairing": "Pinot Noir Ried Goldberg"
     },
     "ogmachter-kas": {
@@ -221,7 +223,7 @@
       "pairing": "Münchner Radler"
     },
     "sausage-salad": {
-      "description": "Domáca zálievka, cibuľové krúžky, kyslý uhorka, paradajka, bobuľa (+1,90 s prúžkami horského syra).",
+      "description": "Domáca zálievka, cibuľové krúžky, nakladaná uhorka, paradajka, bobule (+1,90 s prúžkami horského syra).",
       "pairing": "Russn"
     },
     "donisl-salad": {
@@ -237,59 +239,59 @@
       "pairing": "Münchner Hell"
     },
     "oxen-consomme": {
-      "description": "Číry hovädzí vývar s pečeňovými knedličkami alebo pásikmi palacinky, zeleninou a pažítkou.",
+      "description": "Číry hovädzí vývar s pečeňovými knedličkami alebo prúžkami palacinky, zeleninou a pažítkou.",
       "pairing": "Weissweinschorle"
     },
     "classic-sides": {
-      "description": "Kyslá kapusta, červená kapusta, slanina s kapustou, krémové zemiaky, zemiakové knedle, malé pečené zemiaky, Spätzle alebo hranolky — jednotlivo.",
+      "description": "Kyslá kapusta, červená kapusta, slaninový kapustový šalát, krémové zemiaky, zemiakové knedle, malé pečené zemiaky, Spätzle alebo hranolky — každé zvlášť.",
       "pairing": "Münchner Hell"
     },
     "vegetable-sides": {
-      "description": "Zeleninová príloha alebo zemiakovo‑uhorkový šalát — jednotlivo.",
+      "description": "Zeleninová príloha alebo zemiakovo-uhorkový šalát — každé zvlášť.",
       "pairing": "Weissweinschorle"
     },
     "power-bowl": {
-      "description": "Voňavá ryža, avokádo, edamame, cícer, mrkva, paradajka, uhorka, arašidy, pomarančovo‑mäta‑limetkový dresing.",
+      "description": "Voňavá ryža, avokádo, edamame, cícer, mrkva, paradajka, uhorka, arašidy, dresing pomaranč-mäta-limetka.",
       "pairing": "Sauvignon Blanc Reserve -S-"
     },
     "kaesespaetzle": {
-      "description": "Käsespätzle so cibuľovými krúžkami.",
+      "description": "Käsespätzle so smaženou cibuľou.",
       "pairing": "Münchner Dunkel or a full-bodied white wine"
     },
     "linguine-truffles": {
       "description": "Cestoviny s mladým špenátom a zimnou hľuzovkou.",
-      "pairing": "Chardonnay (á la pohár)"
+      "pairing": "Chardonnay (by the glass)"
     },
     "creme-brulee": {
       "description": "Podávané so sorbetom a bobuľami.",
       "pairing": "Rieslaner Auslese dessert wine"
     },
     "kaiserschmarrn": {
-      "description": "Rozšírený trhaný palacinkový dezert s hrozienkami, maslom, cukrom a karamelizovanými mandľami, podávaný s jablkovým pyré — ideálne na zdieľanie.",
+      "description": "Hrozienka, maslo, cukor a karamelizované mandle, podávané s jablkovým pyré — ideálne na zdieľanie.",
       "pairing": "Rieslaner Auslese dessert wine"
     },
     "kirschmichl": {
-      "description": "Teplý čerešňový koláč podávaný s vanilkovým krémom.",
+      "description": "Teplý višňový koláč podávaný s vanilkovým krémom.",
       "pairing": "Rieslaner Auslese"
     },
     "apple-strudel": {
-      "description": "Klasický jablkový štrúdl podávaný s vanilkovým krémom.",
+      "description": "Klasický jabĺčkový štrúdl podávaný s vanilkovým krémom.",
       "pairing": "Milchkaffee"
     },
     "muenchner-hell": {
-      "description": "Spodné kvasenie, jemne horkastá chmeľová nota, mierne sladový charakter. 5,0% obj.",
+      "description": "Spodnotý fermentovaný ležiak s jemnou horkosťou chmeľu, mierne sladový. 5.0% obj.",
       "pairing": "Wiener Schnitzel"
     },
     "beer-light-alcohol-free": {
-      "description": "Prírodne zahmlené, karamelové a medové tóny. <0,5% obj.",
+      "description": "Prirodzene zakalené, tóny karamelu a medu. <0.5% obj.",
       "pairing": "Brotzeitbrettl"
     },
     "muenchner-radler": {
-      "description": "Mníchovské Helles s jemnou limonádou, nie príliš sladké.",
+      "description": "Münchener Helles s jemnou limonádou, nie príliš sladké.",
       "pairing": "Donisl Salad"
     },
     "muenchner-dunkel": {
-      "description": "Jemne horkasté, pražený slad s karamelovými a kandizovanými ovocnými tónmi. 5,0% obj.",
+      "description": "Jemne horké, pražené slady s tónmi karamelu a kandizovaného ovocia. 5.0% obj.",
       "pairing": "Schweinshaxe"
     },
     "hefeweizen": {
@@ -301,31 +303,31 @@
       "pairing": "Bratwurstreindl"
     },
     "cola-wheat": {
-      "description": "Hefeweizen s Coca‑Colou.",
+      "description": "Hefeweizen s Coca-Colou.",
       "pairing": "Currywurst"
     },
     "non-alcoholic-wheat": {
-      "description": "Jemne dealkoholizované po úplnom zrení, zachováva si arómu.",
+      "description": "Jemne dealkoholizované po úplnej zrelosti, zachováva arómu.",
       "pairing": "Backhendl"
     },
     "salvator": {
-      "description": "Silné pivo (Starkbier), sezónne — dostupné vo februári/marci. 0,5 l.",
+      "description": "Silné pivo (Starkbier), sezónne — dostupné vo februári/marci. 0.5l.",
       "pairing": "Duet of the Ox"
     },
     "kellerbier": {
-      "description": "Sezónne — dostupné jún/júl/august (letný čas). 0,5 l.",
+      "description": "Sezónne — dostupné jún/júl/august (letný čas). 0.5l.",
       "pairing": "Brotzeitbrettl"
     },
     "wiesnbier": {
-      "description": "Oktoberfest pivo, sezónne — dostupné september/október.",
+      "description": "Oktoberfestové pivo, sezónne — dostupné september/október.",
       "pairing": "Donisl roasting pan"
     },
     "weissweinschorle": {
-      "description": "Biele víno s minerálkou. 0,3 l.",
+      "description": "Víno s perlivou vodou (schorle). 0.3l.",
       "pairing": "Donisl Salad"
     },
     "pinot-gris-glass": {
-      "description": "Vinárstvo Hirschmüller, Württemberg — ľahké, dobre pitné.",
+      "description": "Pivnica Hirschmüller, Württemberg — ľahké, dobre piteľné.",
       "pairing": "Kalbfleischpflanzerl (hand-pressed)"
     },
     "primitivo-glass": {
@@ -333,251 +335,251 @@
       "pairing": "Schweinebraten (roast pork)"
     },
     "prodry-frizzante": {
-      "description": "Motelvini, Veneto, Taliansko. 0,1 l.",
+      "description": "Motelvini, Veneto, Taliansko. 0.1l.",
       "pairing": "Brotzeitbrettl"
     },
     "paul-michel-champagne": {
-      "description": "Champagne Premier Cru, Champagne, Francúzsko. Fľaša 0,75 l.",
+      "description": "Champagne Premier Cru, Champagne, Francúzsko. Fľaša 0.75l.",
       "pairing": "Oxen consommé"
     },
     "taittinger-rose": {
-      "description": "Champagne Taittinger, Francúzsko. Fľaša 0,75 l.",
+      "description": "Champagne Taittinger, Francúzsko. Fľaša 0.75l.",
       "pairing": "Donisl \"4erlei\""
     },
     "valdo-prosecco": {
-      "description": "Valdo, Veneto — klasické talianske šumivé víno. Fľaša 0,75 l.",
+      "description": "Valdo, Veneto — klasické talianske šumivé víno. Fľaša 0.75l.",
       "pairing": "Donisl Salad"
     },
     "winzersekt": {
-      "description": "Vinárstvo Pfaffmann, Pfalz, Nemecko. Fľaša 0,75 l.",
+      "description": "Pfaffmann, Pfalz, Nemecko. Fľaša 0.75l.",
       "pairing": "Oxen consommé"
     },
     "chardonnay-bottle": {
-      "description": "Vinárstvo Hirschmüller, Württemberg — maracuja, mango, ananás. Fľaša 0,75 l.",
+      "description": "Hirschmüller, Württemberg — marakuja, mango, ananás. Fľaša 0.75l.",
       "pairing": "Käsespätzle"
     },
     "chardonnay-glass": {
-      "description": "Vinárstvo Hirschmüller, Württemberg. 0,1 l.",
+      "description": "Hirschmüller, Württemberg. 0.1l.",
       "pairing": "Linguine with truffles"
     },
     "chardonnay-macon-ige": {
-      "description": "Domaine Fichet, Burgundsko — jablko, hruška, biela broskyňa, jemná mineralita. Fľaša 0,75 l.",
+      "description": "Domaine Fichet, Burgundsko — jablko, hruška, biely broskyň, jemná minerálnosť. Fľaša 0.75l.",
       "pairing": "Käsespätzle"
     },
     "pinot-gris-tradition": {
-      "description": "Vinárstvo Bott Frères, Burgundsko — marhuľa, vídeňské jablko, lieskový orech, jemný dym. Fľaša 0,75 l.",
+      "description": "Bott Frères, Burgundsko — marhuľa, vídeňské jablko, lieskový orech, jemný dym. Fľaša 0.75l.",
       "pairing": "Kalbfleischpflanzerl (hand-pressed)"
     },
     "pinot-gris-oetinger": {
-      "description": "Vinárstvo Oetinger, Rheingau — zrelá hruška, žlté jablko, náznak mandlí. Fľaša 0,75 l.",
+      "description": "Oetinger, Rheingau — zrelá hruška, žlté jablko, nádych mandle. Fľaša 0.75l.",
       "pairing": "Backhendl"
     },
     "pinot-gris-reserve-pauline": {
-      "description": "Vinárstvo Pfaffmann, Pfalz — hruška, ananás, nektárinka, citrónová tráva, kvetinové tóny. Fľaša 0,75 l.",
+      "description": "Pfaffmann, Pfalz — hruška, ananás, nektárinka, citrónová tráva, kvetinové tóny. Fľaša 0.75l.",
       "pairing": "O'gmachter Kas"
     },
     "pinot-blanc-grand-reserve": {
-      "description": "Vinárstvo Taubenschuss, Rakúske Weinviertel — melón, lieskový orech, seno, karamel. Fľaša 0,75 l.",
+      "description": "Taubenschuss, Weinviertel, Rakúsko — melón, lieskový orech, seno, karamel. Fľaša 0.75l.",
       "pairing": "Donisl \"4erlei\""
     },
     "trebbiano-di-lugana": {
-      "description": "Vinárstvo Zenato, Veneto, Taliansko — svieža kyselina, mineralita, citrusy, zelené jablko, hruška. Fľaša 0,75 l.",
+      "description": "Zenato, Veneto, Taliansko — svieža kyselinka, minerálnosť, citrusy, zelené jabĺko, hruška. Fľaša 0.75l.",
       "pairing": "Sausage salad from Regensburg"
     },
     "lugana-glass": {
-      "description": "Vinárstvo Zenato, Veneto, Taliansko. 0,1 l.",
+      "description": "Zenato, Veneto, Taliansko. 0.1l.",
       "pairing": "Zander fillet with potato crust"
     },
     "riesling-easy-white": {
-      "description": "Vinárstvo Oetinger, Rheingau — limetka, jablko, biela broskyňa, ideálne ako aperitív. Fľaša 0,75 l.",
+      "description": "Oetinger, Rheingau — limeta, jabĺko, biely broskyň, ideálny aperitív. Fľaša 0.75l.",
       "pairing": "Wiener Schnitzel"
     },
     "riesling-gottloos": {
-      "description": "Vinárstvo Dr. Loosen, Mosel — citrusy, jablko, elegantná mineralita. Fľaša 0,75 l.",
+      "description": "Dr. Loosen, Mosel — citrus, jabĺko, elegantná minerálnosť. Fľaša 0.75l.",
       "pairing": "Wiener Schnitzel"
     },
     "riesling-heiligenstein": {
-      "description": "Vinárstvo Bründlmayer, Langenlois, Kamptal, Rakúsko — svieža citrusová aróma, jablko, bylinné korenie. Fľaša 0,75 l.",
+      "description": "Bründlmayer, Langenlois, Kamptal, Rakúsko — svieže citrusy, jabĺko, bylinné korenie. Fľaša 0.75l.",
       "pairing": "Donisl Salad"
     },
     "riesling-smoky-dry": {
-      "description": "Weingut Oetinger, Rheingau — dymová mineralita, šťavnaté jablko, citrusy. Fľaša 0,75 l.",
+      "description": "Weingut Oetinger, Rheingau — dymová minerálnosť, šťavnaté jabĺko, citrusy. Fľaša 0.75l.",
       "pairing": "Currywurst"
     },
     "riesling-bright-side-of-life": {
-      "description": "Vinárstvo Stahl, Franken, Nemecko — ovocné, svieže, bez komplikácií. Fľaša 0,75 l.",
+      "description": "Stahl, Franky, Nemecko — ovocné, svieže, jednoduché. Fľaša 0.75l.",
       "pairing": "Gebackenes Fischfilet (Friday)"
     },
     "riesling-nachschlag-glass": {
-      "description": "Vinárstvo Stahl, Franken, Nemecko. 0,1 l.",
+      "description": "Stahl, Franky, Nemecko. 0.1l.",
       "pairing": "Gebackenes Fischfilet (Friday)"
     },
     "sauvignon-blanc": {
-      "description": "Chateau de la Chaise, Loire — egreš, zelené jablko, exotické ovocie. Fľaša 0,75 l.",
+      "description": "Chateau de la Chaise, Loire — egreš, zelené jabĺko, exotické ovocie. Fľaša 0.75l.",
       "pairing": "Zander fillet with potato crust"
     },
     "sauvignon-blanc-reserve": {
-      "description": "Vinárstvo Taubenschuss, Rakúske Weinviertel — limetka, egreš, exotické ovocie. Fľaša 0,75 l.",
+      "description": "Taubenschuss, Weinviertel, Rakúsko — limeta, egreš, exotické ovocie. Fľaša 0.75l.",
       "pairing": "Donisl Power Bowl"
     },
     "silvaner-easy-white": {
-      "description": "Weingut am Stein, Franken — zelené jablko, hruška, jemné bylinky. Fľaša 0,75 l.",
+      "description": "Weingut am Stein, Franky — zelené jabĺko, hruška, jemné bylinky. Fľaša 0.75l.",
       "pairing": "Vegetable side dish"
     },
     "gruener-veltliner-tenn": {
-      "description": "Vinárstvo Taubenschuss, Rakúske Weinviertel — jablko, biele korenie, bylinné tóny. Fľaša 0,75 l.",
+      "description": "Taubenschuss, Weinviertel, Rakúsko — jabĺko, biele korenie, bylinkové tóny. Fľaša 0.75l.",
       "pairing": "Lukewarm calf's head carpaccio"
     },
     "riesling-gottloos-3l": {
-      "description": "Vinárstvo Dr. Loosen, Mosel. Fľaša 3,0 l.",
+      "description": "Dr. Loosen, Mosel. Fľaša 3.0l.",
       "pairing": "Wiener Schnitzel"
     },
     "gruener-veltliner-steinberg": {
-      "description": "Vinárstvo Karl Fritsch, Burgenland, Rakúsko. Fľaša 1,5 l.",
+      "description": "Karl Fritsch, Burgenland, Rakúsko. Fľaša 1.5l.",
       "pairing": "Käsespätzle"
     },
     "chardonnay-morillon": {
-      "description": "Vinárstvo Lackner‑Tinnacher, Južná Štajersko, Rakúsko. Fľaša 1,5 l.",
+      "description": "Lackner-Tinnacher, Južná Štajersko, Rakúsko. Fľaša 1.5l.",
       "pairing": "O'gmachter Kas"
     },
     "cuvee-adrian-sangiovese": {
-      "description": "Červené cuvée, Toscana Rosso, Toskánsko. Fľaša 1,5 l.",
+      "description": "Červené cuvée, Toscana Rosso, Toskánsko. Fľaša 1.5l.",
       "pairing": "Duet of the Ox"
     },
     "primitivo-bottle": {
-      "description": "Vinárstvo Barbanera, Apúlia, Taliansko — tmavé bobule, čerešňa, jemné korenie. Fľaša 0,75 l.",
+      "description": "Barbanera, Apúlia, Taliansko — tmavé bobule, čerešňa, jemné korenie. Fľaša 0.75l.",
       "pairing": "Schweinebraten (roast pork)"
     },
     "herrgott-cuvee": {
-      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz — čerešne, červené bobule. Fľaša 0,75 l.",
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz — čerešne, červené bobule. Fľaša 0.75l.",
       "pairing": "Ribeye 300 grams"
     },
     "herrgott-cuvee-glass": {
-      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz. 0,1 l.",
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz. 0.1l.",
       "pairing": "Donisl Bratengröstl (Tuesday)"
     },
     "tuscany-red-cuvee": {
-      "description": "Duca di Salangane, Toscana — čerešne, tmavé bobule. Fľaša 0,75 l.",
+      "description": "Duca di Salangane, Toscana — čerešne, tmavé bobule. Fľaša 0.75l.",
       "pairing": "Roast beef — rump steak"
     },
     "pinot-noir-goldberg": {
-      "description": "Vinárstvo Toni Hartl, Burgenland — červené bobule, čerešne, jemné korenie. Fľaša 0,75 l.",
+      "description": "Toni Hartl, Burgenland — červené bobule, čerešne, jemné korenie. Fľaša 0.75l.",
       "pairing": "Steak vom Milchkalb"
     },
     "merlot": {
-      "description": "Chateau Gensac, Gaskoňsko — tmavé čerešne, slivky, korenie. Fľaša 0,75 l.",
+      "description": "Chateau Gensac, Gascony — tmavé čerešne, slivky, korenie. Fľaša 0.75l.",
       "pairing": "Veal meatballs"
     },
     "brunello-di-montalcino": {
-      "description": "Tenuta Corte Pavone, Sangiovese, Toskánsko — tmavé bobule, čerešňa, čokoláda. Fľaša 0,75 l.",
+      "description": "Tenuta Corte Pavone, Sangiovese, Toskánsko — tmavé bobule, čerešňa, čokoláda. Fľaša 0.75l.",
       "pairing": "Ribeye 300 grams"
     },
     "black-ox-cuvee": {
-      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Pfalz — tmavé bobule, čerešňa, korenie. Fľaša 0,75 l.",
+      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Pfalz — tmavé bobule, čerešňa, korenie. Fľaša 0.75l.",
       "pairing": "Duet of the Ox"
     },
     "rose-lime-stone": {
-      "description": "Vinárstvo Unger, Neziderské jazero — červené bobule, jahoda, malina, citrusy. Fľaša 0,75 l.",
+      "description": "Unger, Neziderské jazero — červené bobule, jahoda, malina, citrusy. Fľaša 0.75l.",
       "pairing": "Donisl Salad"
     },
     "torres-natureo": {
-      "description": "Miguel Torres, Vilafranca del Penedès — citrusy, jablko, ľahké. Fľaša 0,75 l.",
+      "description": "Miguel Torres, Vilafranca del Penedès — citrus, jabĺko, ľahké. Fľaša 0.75l.",
       "pairing": "Donisl Salad"
     },
     "rieslaner-auslese": {
-      "description": "Vinárstvo Juliusspital, Franken — dezertné víno. Fľaša 0,5 l.",
+      "description": "Juliusspital, Franky — dezertné víno. Fľaša 0.5l.",
       "pairing": "Kaiserschmarrn or Crème brûlée"
     },
     "aperol-spritz": {
-      "description": "Klasický taliansky aperitív. 0,2 l.",
+      "description": "Klasický taliansky aperitív. 0.2l.",
       "pairing": "Brotzeitbrettl"
     },
     "hugo": {
-      "description": "Hugo s bazovým sirupom. 0,2 l.",
+      "description": "Sirup z bazičkového kvetu s bublinkami. 0.2l.",
       "pairing": "Bread basket"
     },
     "campari-soda": {
-      "description": "0,2 l.",
+      "description": "0.2l.",
       "pairing": "Brezn"
     },
     "campari-orange": {
-      "description": "0,2 l.",
+      "description": "0.2l.",
       "pairing": "Donisl \"4erlei\""
     },
     "sanbitter": {
-      "description": "Nealkoholický horký aperitív. 0,2 l.",
+      "description": "Nealko horký aperitív. 0.2l.",
       "pairing": "Oxen consommé"
     },
     "nut-in-a-bottle": {
-      "description": "2 cl.",
+      "description": "2cl.",
       "pairing": "Kirschmichl"
     },
     "ruescherl": {
-      "description": "13 cl.",
+      "description": "13cl.",
       "pairing": "Apple strudel"
     },
     "hirschkuss": {
-      "description": "38% obj., fľaša so záklopkou, 4 cl.",
+      "description": "38% obj., fľaša so zátkou, 4cl.",
       "pairing": "Kaiserschmarrn (large)"
     },
     "vodka-redbull": {
-      "description": "0,27 l.",
+      "description": "0.27l.",
       "pairing": "Donisl Deluxe Burger"
     },
     "williams-christ-pear": {
-      "description": "40% obj. Edelbrand, Sigi Herzog destilát. 2 cl.",
+      "description": "40% obj. Edelbrand, Sigi Herzog destilát. 2cl.",
       "pairing": "Apple strudel"
     },
     "farm-fruit-growers": {
-      "description": "Linster jemný ovocný destilát, zrený 1 rok v dubových sudoch. 2 cl.",
+      "description": "Linster jemné ovocné destiláty, zrejúce 1 rok v dubových sudoch. 2cl.",
       "pairing": "Kirschmichl"
     },
     "feiner-mirabell": {
-      "description": "Linster jemný ovocný destilát, zrelá marhuľová aróma. 2 cl.",
+      "description": "Linster, zrelá chuť marhule. 2cl.",
       "pairing": "Crème brûlée"
     },
     "enzian-gentian-brandy": {
-      "description": "Wilhelm Marx Fine Spirits Manufactory. 2 cl.",
+      "description": "Wilhelm Marx Fine Spirits Manufactory. 2cl.",
       "pairing": "Schweinshaxe"
     },
     "raspberry-pulp-brandy": {
-      "description": "40% obj. Edelmanufaktur Wilhelm Marx. 2 cl.",
+      "description": "40% obj. Edelmanufaktur Wilhelm Marx. 2cl.",
       "pairing": "Kaiserschmarrn (large)"
     },
     "grappa-chardonnay": {
-      "description": "Dedo. 2 cl.",
+      "description": "Grandfather. 2cl.",
       "pairing": "Crème brûlée"
     },
     "paulaner-spezi": {
-      "description": "0,4 l.",
+      "description": "0.4l.",
       "pairing": "Currywurst"
     },
     "coca-cola": {
-      "description": "0,4 l.",
+      "description": "0.4l.",
       "pairing": "2 Rostbratwürstl"
     },
     "coca-cola-zero": {
-      "description": "0,4 l.",
+      "description": "0.4l.",
       "pairing": "Portion of French Fries"
     },
     "paulaner-lemonade": {
-      "description": "0,33 l.",
+      "description": "0.33l.",
       "pairing": "Kässpatzn"
     },
     "paulaner-orange-lemonade": {
-      "description": "0,33 l.",
+      "description": "0.33l.",
       "pairing": "Potato dumplings"
     },
     "tonic": {
-      "description": "0,2 l.",
+      "description": "0.2l.",
       "pairing": "Brotzeitbrettl"
     },
     "red-bull": {
-      "description": "0,25 l.",
+      "description": "0.25l.",
       "pairing": "Donisl Deluxe Burger"
     },
     "bad-brambacher": {
-      "description": "Nevyprážaná alebo stredne sýtená. 0,5 l.",
+      "description": "Nebublinková alebo jemne perlivá. 0.5l.",
       "pairing": "Brezn"
     },
     "table-water": {
@@ -585,19 +587,19 @@
       "pairing": "Bread basket"
     },
     "apple-spritzer": {
-      "description": "0,4 l.",
+      "description": "0.4l.",
       "pairing": "Kässpatzn"
     },
     "johannisbeerschorle": {
-      "description": "Ríbezľový spritzer. 0,4 l.",
+      "description": "Sirup z čiernych ríbezlí s perlivou vodou. 0.4l.",
       "pairing": "Kirschmichl"
     },
     "maracujaschorle": {
-      "description": "Maracujový spritzer. 0,4 l.",
+      "description": "Maracujový spritzer. 0.4l.",
       "pairing": "Donisl Power Bowl"
     },
     "wolfra-orange-juice": {
-      "description": "0,2 l.",
+      "description": "0.2l.",
       "pairing": "Potato dumplings"
     },
     "espresso": {
@@ -633,11 +635,11 @@
       "pairing": "Kirschmichl"
     },
     "tea-ronnefeldt": {
-      "description": "Darjeeling, Mountain Herbs, Sweet Berries, Green Dragon Lung Ching, Osviežujúca mäta alebo Ovocná harmanček.",
+      "description": "Darjeeling, Mountain Herbs, Sweet Berries, Green Dragon Lung Ching, Refreshing Mint alebo Fruity Camomile.",
       "pairing": "Apple strudel"
     },
     "kids-potato-dumplings": {
-      "description": "So šťavou z bravčového pečeného.",
+      "description": "So šťavou z bravčovej pečene.",
       "pairing": "Wolfra orange juice"
     },
     "kids-kaesspatzn": {
@@ -645,7 +647,7 @@
       "pairing": "Apple spritzer"
     },
     "kids-rostbratwuerstl": {
-      "description": "S hranolkami alebo zemiakovo‑uhorkovým šalátom.",
+      "description": "S hranolkami alebo zemiakovo-uhorkovým šalátom.",
       "pairing": "Paulaner Spezi"
     },
     "kids-fries": {

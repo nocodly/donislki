@@ -1,612 +1,614 @@
 {
   "strings": {
-    "welcome": "منوی زیر را ببینید یا از دستیار هوش مصنوعی ما پیشنهاد بخواهید.",
+    "welcome": "زیر منو را مرور کنید یا از دستیار هوش مصنوعی ما برای پیشنهاد کمک بگیرید.",
     "categoriesTitle": "منو",
     "featuredTitle": "ویژه",
-    "askAi": "از هوش مصنوعی بپرس",
+    "askAi": "پرسش از هوش مصنوعی",
     "chatTitle": "DonislKI",
     "discussing": "در حال گفتگو",
-    "askAboutThis": "در مورد این از هوش مصنوعی بپرسید",
+    "askAboutThis": "درباره این مورد از هوش مصنوعی بپرسید",
     "todaysLunchTitle": "پیشنهاد ناهار امروز",
-    "weekendLunchTitle": "آخر هفته در Donisl",
-    "weekendLunchText": "امروز پیشنهاد ناهار روزهای هفته نیست — خوراکی‌های مخصوص اکتبرفست تمام آخر هفته سرو می‌شوند.",
-    "oktoberfestBadge": "اکتبرفست است",
-    "oktoberfestBannerTitle": "خوراکی‌های اکتبرفست",
-    "oktoberfestBannerText": "زمان وِسِن آغاز شده — ویژه‌های اکتبرفست اکنون سرو می‌شوند.",
-    "askAboutDishTemplate": "درباره {dish} به من بگو",
-    "pairing": "بهترین همراه",
+    "weekendLunchTitle": "آخر هفته در دونیسل",
+    "weekendLunchText": "امروز ویژه ناهار روزهای هفته نداریم — Schmankerlهای اکتوبرفست تمام آخر هفته سرو می‌شوند.",
+    "oktoberfestBadge": "منوی ویزن",
+    "oktoberfestBannerTitle": "Schmankerlهای اکتوبرفست",
+    "oktoberfestBannerText": "منوی ویزن ما هم‌اکنون سرو می‌شود.",
+    "oktoberfestBannerStarted": "وقت ویزن است — ویژه‌های اکتوبرفست اکنون در دسترس‌اند.",
+    "oktoberfestBannerCountdown": "اکتبرفست در {days} روز باز می‌شود — اما منوی ویزن ما همین حالا سرو می‌شود.",
+    "askAboutDishTemplate": "درباره {dish} برایم بگو",
+    "pairing": "مکمل عالی با",
     "fromPricePrefix": "از ",
-    "allergensLabel": "آلرژن‌ها",
-    "allergensUnknown": "لطفاً با کارکنان تایید کنید",
-    "composerPlaceholder": "درباره منو بپرس…",
+    "allergensLabel": "حساسیت‌زاها",
+    "allergensUnknown": "لطفاً با کارکنان تأیید کنید",
+    "composerPlaceholder": "درباره منو سؤال کنید…",
     "send": "ارسال",
     "close": "بستن",
-    "noInfo": "این اطلاعات در منوی فعلی در دسترس من نیست.",
+    "noInfo": "این اطلاعات در منوی فعلی موجود نیست.",
     "categories": {
-      "weekly": "پیشنهادات ناهار",
+      "weekly": "ویژه‌های ناهار",
       "oktoberfest": "اکتبرفست",
       "traditional": "سنتی",
       "sausages": "سوسیس‌ها",
-      "starters": "پیش‌ غذاها",
+      "starters": "پیش‌غذاها",
       "vegan": "وگان",
       "desserts": "دسرها",
-      "beer": "آبجو",
+      "beer": "یکت",
       "wine": "شراب",
-      "aperitif": "آپریتیف",
-      "spirits": "نوشیدنی‌های تقطیری",
-      "drinks": "نوشیدنی‌های غیرالکلی و قهوه",
-      "kids": "کودکان"
+      "aperitif": "آپریتيف",
+      "spirits": "عرق‌ها",
+      "drinks": "نوشیدنی‌های بدون الکل و قهوه",
+      "kids": "بچه‌ها"
     },
     "tagLabels": {
-      "sharing": "مناسب برای اشتراک",
-      "signature": "ویژه‌ی خانه",
-      "hearty": "پرپُر",
+      "sharing": "مناسب اشتراک‌گذاری",
+      "signature": "مشخصه",
+      "hearty": "پُرپروتئین",
       "classic": "کلاسیک",
       "light": "سبک",
       "seasonal": "فصلی",
       "strong": "قوی",
       "non-alcoholic": "بدون الکل",
-      "vegetarian": "گیاه‌خوار",
+      "vegetarian": "گیاهی",
       "vegan": "وگان",
-      "spirit": "محصول تقطیری",
+      "spirit": "مشروب تقطیری",
       "water": "آب",
       "coffee": "قهوه",
-      "hot-drink": "نوشیدنی داغ",
-      "aperitif": "آپرتیف",
+      "hot-drink": "نوشیدنی گرم",
+      "aperitif": "آپریتيف",
       "bowl": "کاسه",
       "white": "سفید",
       "red": "قرمز",
       "rose": "رزِه",
-      "sparkling": "مُجَلد",
+      "sparkling": "گازدار",
       "dessert-wine": "شراب دسر",
       "by-glass": "به‌صورت لیوان",
       "bottle": "بطری",
-      "lunch-special": "پیشنهاد ناهار",
+      "lunch-special": "ویژه ناهار",
       "gluten": "گلوتن",
-      "dairy": "محصولات لبنی",
+      "dairy": "لبنیات",
       "egg": "تخم‌مرغ",
       "mustard": "خردل",
-      "nuts": "آجیل",
+      "nuts": "مغزها",
       "peanuts": "بادام‌زمینی",
       "fish": "ماهی",
       "soy": "سویا",
       "celery": "کرفس",
-      "sulphites": "سولفیت",
+      "sulphites": "سولفیت‌ها",
       "sesame": "کنجد"
     },
     "quickSuggestions": [
       "چه پیشنهادی دارید؟",
-      "چه نوشیدنی‌ای با این غذا می‌آید؟",
+      "کدام نوشیدنی با این غذا می‌آید؟",
       "گزینه‌های وگان را نشان بده",
-      "چه چیزهایی آلرژن دارند؟",
+      "چه چیزهایی حساسیت‌زا دارد؟",
       "چیزی سبک",
       "چیزی سنتی"
     ]
   },
   "items": {
     "lunch-monday-tagliatelle": {
-      "description": "پیشنهاد ناهار روز دوشنبه، سرو شده از ساعت 12:00 تا 15:30. تاگلیاتله با قارچ‌های وحشی جنگلی و جعفری.",
-      "pairing": "گراوبورگوندر (به‌صورت لیوان)"
+      "description": "ویژه ناهار دوشنبه، سرو از ساعت 12:00 تا 15:30. تالیاتله با قارچ‌های وحشی جنگلی و جعفری.",
+      "pairing": "Grauburgunder (به‌صورت لیوان)"
     },
     "lunch-tuesday-bratengroestl": {
-      "description": "پیشنهاد ناهار روز سه‌شنبه، سرو شده از ساعت 12:00 تا 15:30. مخلوطی از براتِن‌گْرِستل با کلم سفید، نانکِویِند (کوفته سیب‌زمینی) و یک عدد تخم‌مرغ سرخ شده.",
-      "pairing": "مِونخرِر دونکل"
+      "description": "ویژه ناهار سه‌شنبه، سرو از ساعت 12:00 تا 15:30. مخلوط برَست با کلم سفید، کُوفته سیب‌زمینی و یک تخم‌مرغ سرخ‌شده.",
+      "pairing": "Münchner Dunkel"
     },
     "lunch-wednesday-leberkaese": {
-      "description": "پیشنهاد ناهار روز چهارشنبه، سرو شده از ساعت 12:00 تا 15:30. لِبِرکَسِ سرخ‌شده در تابه با تخم‌مرغ‌های سرخ‌شده و سالاد سیب‌زمینی-خیار.",
-      "pairing": "مِونخرِر هِل"
+      "description": "ویژه ناهار چهارشنبه، سرو از ساعت 12:00 تا 15:30. لِبِرکَسسِ سرخ‌شده در تابه با تخم‌مرغ سرخ‌شده و سالاد سیب‌زمینی-خیار.",
+      "pairing": "Münchner Hell"
     },
     "lunch-thursday-chicken-geschnetzeltes": {
-      "description": "پیشنهاد ناهار روز پنج‌شنبه، سرو شده از ساعت 12:00 تا 15:30. مرغ برش‌خورده در سس قارچ با اسپَتزلِ معطر.",
-      "pairing": "مِونخرِر رادلِر"
+      "description": "ویژه ناهار پنج‌شنبه، سرو از ساعت 12:00 تا 15:30. گوشت مرغ خردشده در سس قارچ با اسپاتزلِ گیاهی معطر.",
+      "pairing": "Münchner Radler"
     },
     "lunch-friday-fish-fillet": {
-      "description": "پیشنهاد ناهار روز جمعه، سرو شده از ساعت 12:00 تا 15:30. فیله روز سرخ‌شده با رومولاد و سالاد سیب‌زمینی-خیار.",
-      "pairing": "رایسْلینگ Smoky Dry"
+      "description": "ویژه ناهار جمعه، سرو از ساعت 12:00 تا 15:30. فیله ماهی سرخ‌شده روز با رِمولاد و سالاد سیب‌زمینی-خیار.",
+      "pairing": "Riesling Smoky Dry"
     },
     "oktoberfest-pumpkin-soup": {
-      "description": "سوپ کدوِ لطیف با روغن تخم‌کدو استیریایی و دانه‌های تست‌شده.",
-      "pairing": "وایس‌واین‌شورلِه"
+      "description": "سوپ کدو کرمی با روغن تخمه کدو اشتایرمارکی و دانه‌های تست‌شده.",
+      "pairing": "Weissweinschorle"
     },
     "oktoberfest-leberkas-burger": {
-      "description": "برگر لِبِرکَس با تخم‌مرغ سرخ‌شده، سیب‌زمینی سرخ‌کرده و خامه ترش معطر.",
-      "pairing": "اُکتوبِرفست‌بیِر"
+      "description": "برگر Leberkäse با تخم‌مرغ سرخ‌شده، سیب‌زمینی سرخ‌کرده و خامه‌ترش با سبزیجات.",
+      "pairing": "Oktoberfestbier"
     },
     "oktoberfest-bauernsalat": {
-      "description": "سالاد برگ مخلوط، سالاد سیب‌زمینی و کلم با نواری‌های ترد شکم‌خوک.",
-      "pairing": "مِونخرِر رادلِر"
+      "description": "سالاد برگ مخلوط، سالاد سیب‌زمینی و کلم با نوارهای ترد شکم‌خوک.",
+      "pairing": "Münchner Radler"
     },
     "oktoberfest-milchkalb-steak": {
-      "description": "استیک گوساله تغذیه‌شده با شیر با لوبیا با بیکن، ژوسِ شراب قرمز و پوره سیب‌زمینی خامه‌ای.",
-      "pairing": "پینوت نوآر رید گولدبِرگ"
+      "description": "استیک بچه‌گاو با لوبیای اسپیِک، ژوسِ شرابِ قرمز و پورهٔ کرمی سیب‌زمینی.",
+      "pairing": "Pinot Noir Ried Goldberg"
     },
     "oktoberfest-half-chicken": {
-      "description": "نیم‌مرغ گریل‌شده (½ هِندل) با سالاد سیب‌زمینی-خیار یا سیب‌زمینی سرخ‌کرده.",
-      "pairing": "هفِوایزن (مایه‌دار سفید)"
+      "description": "نیمِ مرغ گریل‌شده (½ Hendl) با سالاد سیب‌زمینی-خیار یا سیب‌زمینی سرخ‌کرده.",
+      "pairing": "Hefeweizen (Yeast White)"
     },
     "oktoberfest-boiled-beef-fillet": {
-      "description": "فیلهٔ ران آب‌پز همراه با استخوان مغزگوشت گاوی، ریشه‌ریزیجات، تره‌فرنگیِ هویج و سیب‌زمینی‌های رُزمَری.",
-      "pairing": "گروئنِر وِلتلینِر رید تُن DAC رِزِرو"
+      "description": "فیلهٔ گوشتِ گاو پخته با استخوان مغز، ریشه‌سبزی‌ها، شلغمِ تند و سیب‌زمینی با رُزمَری.",
+      "pairing": "Grüner Veltliner Ried Tenn DAC Reserve"
     },
     "oktoberfest-wiesn-reindl": {
-      "description": "تابهٔ اشتراکی برای میز: کتلت گوساله، شنیسل، برات‌ورست، چرخال خوک و مرغ با نانکِویِند، کلم ترش و کِسپَتزلِ پنیر. قیمت به ازای هر نفر، حداقل دو نفر.",
-      "pairing": "اُکتوبِرفست‌بیِر"
+      "description": "ماهیتابهٔ اشتراکی برای میز: پتیِ بچه‌گاو، شنیسل، براتوِرست، کتفِ خوک و مرغ با کُوفتهٔ سیب‌زمینی، کِرِوتچات و käse Spätzle. قیمت برای هر نفر، حداقل دو نفر.",
+      "pairing": "Oktoberfestbier"
     },
     "oktoberfestbier": {
-      "description": "لاگر جشنِ قوی‌تر و مالتی که برای وِسِن ریخته می‌شود.",
-      "pairing": "استِیک vom Milchkalb"
+      "description": "لارگِ جشن قوی‌تر و مالت‌دار که برای ویزن ریخته می‌شود.",
+      "pairing": "Steak vom Milchkalb"
     },
     "donisl-roasting-pan": {
-      "description": "گوشت گوساله، اردک، چرخال خوک و سوسیس‌ها با کلم قرمز، نانکِویِند و کِسپَتزلِ پنیر — مناسب برای اشتراک.",
-      "pairing": "مِونخرِر دونکل"
+      "description": "گوشت گاو، اردک، کتفِ خوک و سوسیس‌ها با کلم قرمز، کُوفتهٔ سیب‌زمینی و käse spätzle — برای اشتراک‌گذاری.",
+      "pairing": "Münchner Dunkel"
     },
     "roast-pork": {
-      "description": "شانه و شکم خوکِ باواریایی با پوستِ ترد، سس طبیعی، نانکِویِند و سالاد کلم.",
-      "pairing": "مِونخرِر دونکل"
+      "description": "شانه و شکمِ خوکِ باواریا با پوستِ برشتِ ترد، سس طبیعی، کُوفتهٔ سیب‌زمینی و کِرِوتچات.",
+      "pairing": "Münchner Dunkel"
     },
     "schweinshaxe": {
-      "description": "نیم چرخال خوک سوخاری و ترد شده، سرو شده با سس طبیعی، نانکِویِند و سالاد کلم.",
-      "pairing": "مِونخرِر دونکل"
+      "description": "نیمِ کتفِ خوکِ کبابیِ ترد، سرو شده با سس طبیعی، کُوفتهٔ سیب‌زمینی و کِرِوتچات.",
+      "pairing": "Münchner Dunkel"
     },
     "wiener-schnitzel": {
-      "description": "شنیسل خوکِ باواریایی با پِر و سیب‌زمینی سرخ‌کرده یا سالاد سیب‌زمینی-خیار و زغال‌اخته.",
-      "pairing": "رایسْلینگ Easy-White یا یک رادلِر"
+      "description": "شنیتزلِ خوکِ باوارایی با سیب‌زمینی سرخ‌کرده یا سالاد سیب‌زمینی-خیار و کران‌بری.",
+      "pairing": "Riesling Easy-White or a Radler"
     },
     "farm-duck": {
-      "description": "سس رزمَری، نانکِویِند و کلم قرمز.",
-      "pairing": "مِونخرِر دونکل"
+      "description": "سُس رزماری، کُوفتهٔ سیب‌زمینی و کلم قرمز.",
+      "pairing": "Münchner Dunkel"
     },
     "backhendl": {
-      "description": "ران مرغ بدون استخوان، سوخاری با آرد سوخاری، همراه با سیب‌زمینی سرخ‌کرده یا سالاد سیب‌زمینی-خیار.",
-      "pairing": "مِونخرِر رادلِر"
+      "description": "ران مرغ بدون استخوانِ سوخاری با سیب‌زمینی سرخ‌کرده یا سالاد سیب‌زمینی-خیار.",
+      "pairing": "Münchner Radler"
     },
     "duet-of-the-ox": {
-      "description": "گوسالهٔ آب‌پز و استیک گوسالهٔ گریل‌شده، ژوسِ شراب قرمز، کلم قرمز، پورهٔ خامه‌ای سیب‌زمینی.",
+      "description": "گوشت گاوِ آب‌پز و استیک گاو گریل‌شده، ژوسِ شرابِ قرمز، کلم قرمز، پورهٔ کرمی سیب‌زمینی.",
       "pairing": "Black OX Cuvée"
     },
     "veal-meatballs": {
-      "description": "کوفته‌های گوساله دست‌فشرده با سبزیجات چاشنی‌خورده و سیب‌زمینی رُزمَری.",
-      "pairing": "گراوبورگوندر Tradition"
+      "description": "پتی‌های دست‌ساز از گوشت بچه‌گاو با سبزیجات پوشیده و سیب‌زمینی رزماری.",
+      "pairing": "Grauburgunder Tradition"
     },
     "white-sausage": {
-      "description": "دو عدد، سرو شده با پرِتْزل و خردل.",
-      "pairing": "هفِوایزن (مایه‌دار سفید)"
+      "description": "دو عدد، سرو شده با بریچن و خردل.",
+      "pairing": "Hefeweizen (Yeast White)"
     },
     "white-sausage-piece": {
-      "description": "یک سوسیس سفید.",
-      "pairing": "هفِوایزن (مایه‌دار سفید)"
+      "description": "یک عدد سوسیس سفید.",
+      "pairing": "Hefeweizen (Yeast White)"
     },
     "polish-sausage": {
-      "description": "با پرتزل و خردل.",
-      "pairing": "روسن"
+      "description": "سرو شده با بریچن و خردل.",
+      "pairing": "Russn"
     },
     "currywurst": {
-      "description": "سوسیس کاری دونیسل، سرو شده با سیب‌زمینی سرخ‌کرده.",
-      "pairing": "هفِوایزن wheat beer"
+      "description": "سس کاری مخصوص دونیسل، سرو شده با سیب‌زمینی سرخ‌کرده.",
+      "pairing": "Hefeweizen wheat beer"
     },
     "bratwurstreindl": {
-      "description": "تابه‌ای از سوسیس‌های گریل‌شده با کلم ترش یا سالاد سیب‌زمینی — سهمی برای اشتراک.",
-      "pairing": "روسن (هفِوایزن سبک)"
+      "description": "ماهیتابه‌ای از سوسیس‌های گریل‌شده با کِرِوتچات یا سالاد سیب‌زمینی — یک پرس اشتراکی.",
+      "pairing": "Russn (light Hefeweizen)"
     },
     "rump-steak": {
-      "description": "گوشت گاو Murnau با ژوسِ شراب قرمز و پیاز سرخ‌شده، پیازهای تفت‌داده، کِسپَتزلِ پنیر.",
-      "pairing": "پریمِتیوو Puglia IGT"
+      "description": "گوشت Murnau با ژوسِ شرابِ قرمز و پیاز، پیاز سرخ‌شده، käsespätzle.",
+      "pairing": "Primitivo Puglia IGT"
     },
     "ribeye-300g": {
-      "description": "قسمت چربی‌دار از گوشت Murnau، سس café de Paris، سبزیجات گریل‌شده، گراتِنِ سیب‌زمینی.",
-      "pairing": "برونِلو دی مونتالچینو DOCG"
+      "description": "قطعهٔ چربی‌دار از گوشت Murnau، سس Café de Paris، سبزیجات گریل‌شده، گراتن سیب‌زمینی.",
+      "pairing": "Brunello di Montalcino DOCG"
     },
     "deluxe-burger": {
-      "description": "۲۰۰ گرم گوشت Werdenfelser، چدار، کاهو، گوجه، خیارشور، پیاز، سس خانگی Donisl. با سیب‌زمینی سرخ‌کرده +۳٫۹۰.",
-      "pairing": "مِونخرِر هِل"
+      "description": "200 گرم گوشت Werdenfelser، چدار، کاهو، گوجه، ترشی، پیاز، سس خانگی دونیسل. +3.90 با سیب‌زمینی سرخ‌کرده.",
+      "pairing": "Münchner Hell"
     },
     "zanderfilet": {
-      "description": "فیلهٔ زاندر (pike-perch) زیر پوستهٔ سیب‌زمینی با سبزیجات پاییزی رنگی و سس هَرزَرش (هِراشِرادیش).",
-      "pairing": "سوفینیون بلانک"
+      "description": "فیلهٔ زاندر زیر پوشش سیب‌زمینی با سبزیجات رنگی پاییزی و سس شلغمِ تند.",
+      "pairing": "Sauvignon Blanc"
     },
     "brotzeitbrettl": {
-      "description": "گوشت‌دودی روستایی، سوسیس بیکن، لیورورست، سردِ راستهٔ گوساله، O'gmachter، پنیر کوهی، هَراشِرادیش، نان.",
-      "pairing": "هفِوایزن (مایه‌دار سفید)"
+      "description": "گوشت‌های دودی کشاورزی، سوسیس بیکن، کِبدِ سوسیس، راستهٔ سرد، O'gmachter، پنیر کوهستانی، شلغم تند، نان.",
+      "pairing": "Hefeweizen (Yeast White)"
     },
     "donisl-4erlei": {
-      "description": "هوموس، پنیر خانگی، کره نمکی و خامه ترش معطر، سرو شده با سبد نان.",
-      "pairing": "وایس‌واین‌شورلِه"
+      "description": "هوموس، پنیر درست‌شده، کرهٔ نمکی و خامه‌ترشِ معطر، همراه سبد نان.",
+      "pairing": "Weissweinschorle"
     },
     "beef-tartare": {
-      "description": "کِرِم ترافل، تخم‌مرغ آلی پخته‌شده در فر.",
-      "pairing": "پینوت نوآر رِید گولدبِرگ"
+      "description": "خامهٔ ترافل، تخم‌مرغ اورگانیک پخته.",
+      "pairing": "Pinot Noir Ried Goldberg"
     },
     "ogmachter-kas": {
       "description": "پنیر خامه‌ای با حلقه‌های پیاز، تربچه، کاهو و توت‌ها.",
-      "pairing": "مِونخرِر رادلِر"
+      "pairing": "Münchner Radler"
     },
     "sausage-salad": {
-      "description": "سس خانه، حلقه‌های پیاز، خیارشور، گوجه، توت (+۱٫۹۰ با نواری از پنیر کوهی).",
-      "pairing": "روسن"
+      "description": "سس خانگی، حلقه‌های پیاز، ترشی، گوجه، توت (+1.90 با نوارهای پنیر کوهستانی).",
+      "pairing": "Russn"
     },
     "donisl-salad": {
-      "description": "برگ سبزیجات، گوجه، خیار، سس خانه، دانه‌ها و کروتون.",
-      "pairing": "وایس‌واین‌شورلِه"
+      "description": "سبزیجات برگ، گوجه، خیار، سس خانگی، دانه‌ها و کروتان.",
+      "pairing": "Weissweinschorle"
     },
     "bread-basket": {
-      "description": "سبد نان تازه.",
-      "pairing": "مِونخرِر هِل"
+      "description": "سبد نانِ تازه.",
+      "pairing": "Münchner Hell"
     },
     "brezn": {
-      "description": "پرِتزلِ باواریایی.",
-      "pairing": "مِونخرِر هِل"
+      "description": "بریسلِ باواریایی (پِرتزل).",
+      "pairing": "Münchner Hell"
     },
     "oxen-consomme": {
-      "description": "آبگوشت شفاف گوشت گاو با کوفتهٔ جگر یا نوارکِِیک (پَن‌کِیک)، سبزیجات و پیازچه.",
-      "pairing": "وایس‌واین‌شورلِه"
+      "description": "آبگوشت شفاف گاو با کُوفتهٔ جگر یا نواری پنکیک، سبزیجات و پیازچه.",
+      "pairing": "Weissweinschorle"
     },
     "classic-sides": {
-      "description": "کلم ترش، کلم قرمز، سالاد کلم و بیکن، پورهٔ خامه‌ای سیب‌زمینی، نانکِویِند، سیب‌زمینی کوچک برشته، اسپَتزل یا سیب‌زمینی سرخ‌کرده — هر کدام.",
-      "pairing": "مِونخرِر هِل"
+      "description": "کِرِوتچات، کلم قرمز، سالاد کلم و بیکن، سیب‌زمینی کرمی، کُوفتهٔ سیب‌زمینی، پیازچه‌های کوچک برشته، اسپاتزل یا سیب‌زمینی سرخ‌کرده — هرکدام.",
+      "pairing": "Münchner Hell"
     },
     "vegetable-sides": {
-      "description": "پیش‌غذای سبزیجات یا سالاد سیب‌زمینی و خیار — هر کدام.",
-      "pairing": "وایس‌واین‌شورلِه"
+      "description": "پیش‌غذای سبزیجات یا سالاد سیب‌زمینی و خیار — هرکدام.",
+      "pairing": "Weissweinschorle"
     },
     "power-bowl": {
-      "description": "برنج معطر، آووکادو، ادامامه، نخود، هویج، گوجه، خیار، بادام‌زمینی، سس پرتقال-نعناع-لایم.",
-      "pairing": "سوفینیون بلانک رِزِرو -S-"
+      "description": "برنج معطر، آووکادو، ادامامه، نخود، هویج، گوجه، خیار، بادام‌زمینی، سس پرتقال-نعناع-لیمویی.",
+      "pairing": "Sauvignon Blanc Reserve -S-"
     },
     "kaesespaetzle": {
-      "description": "کِسپَتزلِ پنیر با حلقه‌های پیاز.",
-      "pairing": "مِونخرِر دونکل یا یک شراب سفید پُرُنَفَس"
+      "description": "کاسهٔ کِسِه‌اسپاتزل با حلقه‌های پیاز.",
+      "pairing": "Münchner Dunkel or a full-bodied white wine"
     },
     "linguine-truffles": {
-      "description": "پاستا با اسفناج کوچک و قارچ ترافل زمستانی.",
-      "pairing": "چاردُنِی (به‌صورت لیوان)"
+      "description": "پاستا با اسفناج کوچک و ترافلِ زمستانی.",
+      "pairing": "Chardonnay (by the glass)"
     },
     "creme-brulee": {
-      "description": "سرو شده با سُربِت و توت‌ها.",
-      "pairing": "رایسلانِر آوسلِزِه شراب دسِرت"
+      "description": "سِرو همراه با سُربِت و توت‌ها.",
+      "pairing": "Rieslaner Auslese dessert wine"
     },
     "kaiserschmarrn": {
-      "description": "کشمش، کره، شکر و بادام‌های کاراملایز شده، سرو شده با سس سیب — ایده‌آل برای اشتراک.",
-      "pairing": "رایسلانِر آوسلِزِه شراب دسِرت"
+      "description": "کشمش، کره، شکر و بادام‌های کارامل‌شده، سرو شده با سس سیب — مناسب برای اشتراک‌گذاری.",
+      "pairing": "Rieslaner Auslese dessert wine"
     },
     "kirschmichl": {
-      "description": "کیک گرمِ آلبالو سرو شده با کرم وانیلی.",
-      "pairing": "رایسلانِر آوسلِزِه"
+      "description": "کیک آلبالو گرم سرو شده با کاسترد.",
+      "pairing": "Rieslaner Auslese"
     },
     "apple-strudel": {
-      "description": "استروِدل کلاسیکِ سیب سرو شده با کرم وانیل.",
-      "pairing": "میلشکافِه"
+      "description": "استرودل سیب کلاسیک سرو شده با کاسترد.",
+      "pairing": "Milchkaffee"
     },
     "muenchner-hell": {
-      "description": "واکنش‌پایین‌تخمیری، نت‌های تلخی ظریف از هَپ، کمی مالتِی. ۵٫۰٪ حجم.",
-      "pairing": "وینِر شنیسل"
+      "description": "تصفیهٔ ته‌نشین، نتِ تلخی ملایمِ هاپ، کمی مالت. 5.0% الکل.",
+      "pairing": "Wiener Schnitzel"
     },
     "beer-light-alcohol-free": {
-      "description": "کمی کدر طبیعی، نت‌های کارامل و عسل. کمتر از ۰٫۵٪ حجم.",
-      "pairing": "بروتسایت‌بِرتل"
+      "description": "مات طبیعی، نت‌های کارامل و عسل. <0.5% الکل.",
+      "pairing": "Brotzeitbrettl"
     },
     "muenchner-radler": {
-      "description": "هِلِسِ مونیخی با لیموناد ظریف، نه چندان شیرین.",
-      "pairing": "سالاد Donisl"
+      "description": "هلزِ مونیخ با لیموناد ظریف، نه خیلی شیرین.",
+      "pairing": "Donisl Salad"
     },
     "muenchner-dunkel": {
-      "description": "تلخی لطیف، مالت روستایی با نت‌های کارامل و میوهٔ خشک. ۵٫۰٪ حجم.",
-      "pairing": "شوانشاکسه"
+      "description": "تلخی ملایم، مالت بو داده با نت‌های کارامل و میوهٔ قیصی. 5.0% الکل.",
+      "pairing": "Schweinshaxe"
     },
     "hefeweizen": {
-      "description": "آبجوی گندمی‏ِ بالاتخمیری با نت‌های موز و عسل.",
-      "pairing": "سوسیس سفید (Kesselfrisch)"
+      "description": "آبجو گندمیِ بالا-تخمیر با نت‌های موز و عسل.",
+      "pairing": "White sausage (Kesselfrisch)"
     },
     "russn": {
-      "description": "هفِوایزن با لیموناد ملایم، نه چندان شیرین.",
-      "pairing": "برات‌ورست‌رِیندل"
+      "description": "Hefeweizen با لیموناد ظریف، نه خیلی شیرین.",
+      "pairing": "Bratwurstreindl"
     },
     "cola-wheat": {
-      "description": "هفِوایزن با کوکاکولا.",
-      "pairing": "کاری‌ورست"
+      "description": "Hefeweizen با کوکاکولا.",
+      "pairing": "Currywurst"
     },
     "non-alcoholic-wheat": {
-      "description": "پس از رسیدن کامل، به آرامی الکل‌زدایی شده، عطر خود را حفظ می‌کند.",
-      "pairing": "باکهِندل"
+      "description": "به‌طور ملایم پس از بلوغ کامل بی‌الکل شده، عطر خود را حفظ می‌کند.",
+      "pairing": "Backhendl"
     },
     "salvator": {
-      "description": "آبجوی قوی (Starkbier)، فصلی — در فوریه/مارس موجود است. ۰٫۵ لیتر.",
-      "pairing": "دوئت آوِ دِ آوکس"
+      "description": "آبجوی قوی (Starkbier)، فصلی — ماه‌های فوریه/مارس موجود. 0.5l.",
+      "pairing": "Duet of the Ox"
     },
     "kellerbier": {
-      "description": "فصلی — در ژوئن/ژوئیه/اوت (تابستان) موجود است. ۰٫۵ لیتر.",
-      "pairing": "بروتسایت‌بِرتل"
+      "description": "فصلی — در ژوئن/ژوئیه/اوت (تابستان) موجود. 0.5l.",
+      "pairing": "Brotzeitbrettl"
     },
     "wiesnbier": {
-      "description": "آبجوی اکتبرفست، فصلی — در سپتامبر/اکتبر موجود است.",
-      "pairing": "تابهٔ کباب Donisl"
+      "description": "آبجوی اکتوبرفست، فصلی — در سپتامبر/اکتبر موجود.",
+      "pairing": "Donisl roasting pan"
     },
     "weissweinschorle": {
-      "description": "اسپریتزر شراب سفید. ۰٫۳ لیتر.",
-      "pairing": "سالاد Donisl"
+      "description": "اسپریتزر شراب سفید. 0.3l.",
+      "pairing": "Donisl Salad"
     },
     "pinot-gris-glass": {
-      "description": "نِگِه‌داری هیرش‌مولِر، وورتمبرگ — سبک، راحت برای نوشیدن.",
-      "pairing": "Kalbfleischpflanzerl (دست‌فشرده)"
+      "description": "Hirschmüller Winery، Württemberg — سبک و خوش‌نوش.",
+      "pairing": "Kalbfleischpflanzerl (hand-pressed)"
     },
     "primitivo-glass": {
-      "description": "Sir of the Faun، پولیا — توت‌های تیره، گیلاس، ادویهٔ ملایم.",
-      "pairing": "Schweinebraten (گوشت خوک بریان)"
+      "description": "Sir of the Faun، Puglia — توت‌های تیره، آلو، ادویهٔ ملایم.",
+      "pairing": "Schweinebraten (roast pork)"
     },
     "prodry-frizzante": {
-      "description": "Motelvini، ونِتو، ایتالیا. ۰٫۱ لیتر.",
-      "pairing": "بروتسایت‌بِرتل"
+      "description": "Motelvini، Veneto، ایتالیا. 0.1l.",
+      "pairing": "Brotzeitbrettl"
     },
     "paul-michel-champagne": {
-      "description": "شامپاین پریمیر کِرو، شامپاین، فرانسه. بطری ۰٫۷۵ لیتر.",
-      "pairing": "آبگوشت گاو شفاف"
+      "description": "Champagne Premier Cru، Champagne، فرانسه. بطری 0.75l.",
+      "pairing": "Oxen consommé"
     },
     "taittinger-rose": {
-      "description": "شامپاین Taittinger، فرانسه. بطری ۰٫۷۵ لیتر.",
+      "description": "Champagne Taittinger، فرانسه. بطری 0.75l.",
       "pairing": "Donisl \"4erlei\""
     },
     "valdo-prosecco": {
-      "description": "Valdo، ونِتو — اسپارکلینگ کلاسیک ایتالیایی. بطری ۰٫۷۵ لیتر.",
-      "pairing": "سالاد Donisl"
+      "description": "Valdo، Veneto — شراب گازدار کلاسیک ایتالیایی. بطری 0.75l.",
+      "pairing": "Donisl Salad"
     },
     "winzersekt": {
-      "description": "شراب گازدار Pfaffmann، پالِتینات، آلمان. بطری ۰٫۷۵ لیتر.",
-      "pairing": "آبگوشت گاو شفاف"
+      "description": "Pfaffmann Winery، Palatinate، آلمان. بطری 0.75l.",
+      "pairing": "Oxen consommé"
     },
     "chardonnay-bottle": {
-      "description": "شراب هیرش‌مولِر، وورتمبرگ — میوه‌های استوایی مثل پشن‌فرات، انبه، آناناس. بطری ۰٫۷۵ لیتر.",
-      "pairing": "کِسپَتزلِ پنیر"
+      "description": "Hirschmüller Winery، Württemberg — میوهٔ گل ساعتی، انبه، آناناس. بطری 0.75l.",
+      "pairing": "Käsespätzle"
     },
     "chardonnay-glass": {
-      "description": "شراب هیرش‌مولِر، وورتمبرگ. ۰٫۱ لیتر.",
-      "pairing": "لینگوئینی با ترافل"
+      "description": "Hirschmüller Winery، Württemberg. 0.1l.",
+      "pairing": "Linguine with truffles"
     },
     "chardonnay-macon-ige": {
-      "description": "Domaine Fichet، بورگُنـدی — سیب، گلابی، هلو سفید، مینرالیتهٔ ملایم. بطری ۰٫۷۵ لیتر.",
-      "pairing": "کِسپَتزلِ پنیر"
+      "description": "Domaine Fichet، Burgundy — سیب، گلابی، هلو سفید، مینرالیتی ملایم. بطری 0.75l.",
+      "pairing": "Käsespätzle"
     },
     "pinot-gris-tradition": {
-      "description": "Bott Frères، بورگُنـدی — زردآلو، سیب وینیایی، فندق، دودیِ ملایم. بطری ۰٫۷۵ لیتر.",
-      "pairing": "Kalbfleischpflanzerl (دست‌فشرده)"
+      "description": "Bott Frères Winery، Burgundy — زردآلو، سیب وینی، فندق، دودِ ملایم. بطری 0.75l.",
+      "pairing": "Kalbfleischpflanzerl (hand-pressed)"
     },
     "pinot-gris-oetinger": {
-      "description": "شراب Oetinger، رهاینگاو — گلابی رسیده، سیب زرد، اشاره‌ای از بادام. بطری ۰٫۷۵ لیتر.",
-      "pairing": "باکهِندل"
+      "description": "Oetinger Winery، Rheingau — گلابی رسیده، سیب زرد، نوای بادام. بطری 0.75l.",
+      "pairing": "Backhendl"
     },
     "pinot-gris-reserve-pauline": {
-      "description": "Pfaffmann، پالِتینات — گلابی، آناناس، نکتارین، چای لیمویی، نت‌های گلی. بطری ۰٫۷۵ لیتر.",
+      "description": "Pfaffmann Winery، Palatinate — گلابی، آناناس، نکتارین، لیمن‌گراس، گلدار. بطری 0.75l.",
       "pairing": "O'gmachter Kas"
     },
     "pinot-blanc-grand-reserve": {
-      "description": "Taubenschuss، واین‌ویِرتِلِ اتریش — خربزه، فندق، علف خشک، کارامل. بطری ۰٫۷۵ لیتر.",
+      "description": "Taubenschuss Winery، Weinviertel اتریش — خربزه، فندق، یونجه، کارامل. بطری 0.75l.",
       "pairing": "Donisl \"4erlei\""
     },
     "trebbiano-di-lugana": {
-      "description": "Zenato، ونِتو، ایتالیا — اسیدیتهٔ تازه، مینرال، مرکبات، سیب سبز، گلابی. بطری ۰٫۷۵ لیتر.",
-      "pairing": "سالاد سوسیس از رگنسبورگ"
+      "description": "Zenato Winery، Veneto، ایتالیا — اسیدیتهٔ تازه، مینرال، مرکبات، سیب سبز، گلابی. بطری 0.75l.",
+      "pairing": "Sausage salad from Regensburg"
     },
     "lugana-glass": {
-      "description": "Zenato، ونِتو، ایتالیا. ۰٫۱ لیتر.",
-      "pairing": "فیلهٔ زاندر با پوستهٔ سیب‌زمینی"
+      "description": "Zenato Winery، Veneto، ایتالیا. 0.1l.",
+      "pairing": "Zander fillet with potato crust"
     },
     "riesling-easy-white": {
-      "description": "Oetinger، رهاینگاو — لیمو، سیب، هلو سفید، آپِریتیف ایده‌آل. بطری ۰٫۷۵ لیتر.",
-      "pairing": "وینِر شنیسل"
+      "description": "Oetinger Winery، Rheingau — لیمو، سیب، هلو سفید، آپریتيف ایده‌آل. بطری 0.75l.",
+      "pairing": "Wiener Schnitzel"
     },
     "riesling-gottloos": {
-      "description": "Dr. Loosen، موزل — مرکبات، سیب، مینرالیتهٔ ظریف. بطری ۰٫۷۵ لیتر.",
-      "pairing": "وینِر شنیسل"
+      "description": "Dr. Loosen Winery، Mosel — مرکبات، سیب، مینرالیتیِ ظریف. بطری 0.75l.",
+      "pairing": "Wiener Schnitzel"
     },
     "riesling-heiligenstein": {
-      "description": "Bründlmayer، لنگن‌لواِس، کامپتال، اتریش — مرکبات تازه، سیب، ادویهٔ گیاهی. بطری ۰٫۷۵ لیتر.",
-      "pairing": "سالاد Donisl"
+      "description": "Bründlmayer Winery، Langenlois، Kamptal، اتریش — مرکبات تازه، سیب، ادویهٔ گیاهی. بطری 0.75l.",
+      "pairing": "Donisl Salad"
     },
     "riesling-smoky-dry": {
-      "description": "Weingut Oetinger، رهاینگاو — مینرالیتهٔ دودی، سیب آبدار، مرکبات. بطری ۰٫۷۵ لیتر.",
-      "pairing": "کاری‌ورست"
+      "description": "Weingut Oetinger، Rheingau — مینرالیتی دودی، سیب آبدار، مرکبات. بطری 0.75l.",
+      "pairing": "Currywurst"
     },
     "riesling-bright-side-of-life": {
-      "description": "Stahl، فرانکُنیا، آلمان — میوه‌ای، تازه، بی‌پیچ‌وخم. بطری ۰٫۷۵ لیتر.",
-      "pairing": "ماهی سرخ‌شده (جمعه)"
+      "description": "Stahl Winery، Franconia، آلمان — میوه‌ای، تازه، بی‌تشریفات. بطری 0.75l.",
+      "pairing": "Gebackenes Fischfilet (Friday)"
     },
     "riesling-nachschlag-glass": {
-      "description": "Stahl، فرانکُنیا، آلمان. ۰٫۱ لیتر.",
-      "pairing": "ماهی سرخ‌شده (جمعه)"
+      "description": "Stahl Winery، Franconia، آلمان. 0.1l.",
+      "pairing": "Gebackenes Fischfilet (Friday)"
     },
     "sauvignon-blanc": {
-      "description": "Chateau de la Chaise، لوآر — گوزبری، سیب سبز، میوهٔ استوایی. بطری ۰٫۷۵ لیتر.",
-      "pairing": "فیلهٔ زاندر با پوستهٔ سیب‌زمینی"
+      "description": "Chateau de la Chaise، Loire — گوزه‌فرنگی، سیب سبز، میوهٔ استوایی. بطری 0.75l.",
+      "pairing": "Zander fillet with potato crust"
     },
     "sauvignon-blanc-reserve": {
-      "description": "Taubenschuss، واین‌ویِرتِلِ اتریش — لیمو، گوزبری، میوهٔ استوایی. بطری ۰٫۷۵ لیتر.",
+      "description": "Taubenschuss Winery، Weinviertel اتریش — لیمو، گوزه‌فرنگی، میوهٔ استوایی. بطری 0.75l.",
       "pairing": "Donisl Power Bowl"
     },
     "silvaner-easy-white": {
-      "description": "Weingut am Stein، فرانکُنیا — سیب سبز، گلابی، سبزیجات ملایم. بطری ۰٫۷۵ لیتر.",
-      "pairing": "پیش‌غذای سبزیجات"
+      "description": "Weingut am Stein، Franconia — سیب سبز، گلابی، گیاهان ملایم. بطری 0.75l.",
+      "pairing": "Vegetable side dish"
     },
     "gruener-veltliner-tenn": {
-      "description": "Taubenschuss، واین‌ویِرتِلِ اتریش — سیب، فلفل سفید، ادویهٔ گیاهی. بطری ۰٫۷۵ لیتر.",
-      "pairing": "کارپاسیوِ گاوِ ولرم"
+      "description": "Taubenschuss Winery، Weinviertel اتریش — سیب، فلفل سفید، ادویهٔ گیاهی. بطری 0.75l.",
+      "pairing": "Lukewarm calf's head carpaccio"
     },
     "riesling-gottloos-3l": {
-      "description": "Dr. Loosen، موزل. بطری ۳٫۰ لیتر.",
-      "pairing": "وینِر شنیسل"
+      "description": "Dr. Loosen Winery، Mosel. بطری 3.0l.",
+      "pairing": "Wiener Schnitzel"
     },
     "gruener-veltliner-steinberg": {
-      "description": "Karl Fritsch، بورگن‌لند، اتریش. بطری ۱٫۵ لیتر.",
-      "pairing": "کِسپَتزلِ پنیر"
+      "description": "Karl Fritsch Winery، Burgenلand، اتریش. بطری 1.5l.",
+      "pairing": "Käsespätzle"
     },
     "chardonnay-morillon": {
-      "description": "Lackner-Tinnacher، استیریای جنوبی، اتریش. بطری ۱٫۵ لیتر.",
+      "description": "Lackner-Tinnacher Winery، Southern Styria، اتریش. بطری 1.5l.",
       "pairing": "O'gmachter Kas"
     },
     "cuvee-adrian-sangiovese": {
-      "description": "کِویهٔ قرمز، Toscana Rosso، توسکان. بطری ۱٫۵ لیتر.",
-      "pairing": "دوئت آوِ دِ آوکس"
+      "description": "کووِهٔ قرمز، Toscana Rosso، توسکانی. بطری 1.5l.",
+      "pairing": "Duet of the Ox"
     },
     "primitivo-bottle": {
-      "description": "Barbanera، پولیا، ایتالیا — توت‌های تیره، گیلاس، ادویهٔ ملایم. بطری ۰٫۷۵ لیتر.",
-      "pairing": "Schweinebraten (گوشت خوک بریان)"
+      "description": "Barbanera Winery، Apulia، ایتالیا — توت‌های تیره، آلبالو، ادویهٔ ملایم. بطری 0.75l.",
+      "pairing": "Schweinebraten (roast pork)"
     },
     "herrgott-cuvee": {
-      "description": "کابِرنه سویینیون/فرانک، مرلو، Weingut am Nil، پالِتینات — گیلاس، توت‌های قرمز. بطری ۰٫۷۵ لیتر.",
-      "pairing": "ریب‌آی ۳۰۰ گرم"
+      "description": "Cabernet Sauvignon/Franc، Merlot، Weingut am Nil، Palatinate — گیلاس، توت‌های قرمز. بطری 0.75l.",
+      "pairing": "Ribeye 300 grams"
     },
     "herrgott-cuvee-glass": {
-      "description": "کابِرنه سویینیون/فرانک، مرلو، Weingut am Nil، پالِتینات. ۰٫۱ لیتر.",
-      "pairing": "Donisl Bratengröstl (سه‌شنبه)"
+      "description": "Cabernet Sauvignon/Franc، Merlot، Weingut am Nil، Palatinate. 0.1l.",
+      "pairing": "Donisl Bratengröstl (Tuesday)"
     },
     "tuscany-red-cuvee": {
-      "description": "Duca di Salangane، توسکانا — گیلاس، توت‌های تیره. بطری ۰٫۷۵ لیتر.",
-      "pairing": "گوشت بریان — رَمپ استیک"
+      "description": "Duca di Salangane، Toscana — گیلاس، توت‌های تیره. بطری 0.75l.",
+      "pairing": "Roast beef — rump steak"
     },
     "pinot-noir-goldberg": {
-      "description": "Toni Hartl، بورگن‌لند — توت‌های قرمز، گیلاس، ادویهٔ ملایم. بطری ۰٫۷۵ لیتر.",
-      "pairing": "استیک vom Milchkalb"
+      "description": "Toni Hartl Winery، Burgenلand — توت‌های قرمز، گیلاس، ادویهٔ ملایم. بطری 0.75l.",
+      "pairing": "Steak vom Milchkalb"
     },
     "merlot": {
-      "description": "Chateau Gensac، گاسکونی — گیلاس‌های تیره، آلو، ادویه. بطری ۰٫۷۵ لیتر.",
-      "pairing": "کوفتۀ گوساله"
+      "description": "Chateau Gensac، Gascony — آلبالوی تیره، آلو، ادویه. بطری 0.75l.",
+      "pairing": "Veal meatballs"
     },
     "brunello-di-montalcino": {
-      "description": "Tenuta Corte Pavone، Sangiovese، توسکانا — توت تیره، گیلاس، شکلات. بطری ۰٫۷۵ لیتر.",
-      "pairing": "ریب‌آی ۳۰۰ گرم"
+      "description": "Tenuta Corte Pavone Winery، Sangiovese، توسکانی — توت تیره، گیلاس، شکلات. بطری 0.75l.",
+      "pairing": "Ribeye 300 grams"
     },
     "black-ox-cuvee": {
-      "description": "کابِرنه سویینیون، دورنفِلدر، تمپرانیلو، Weingut Lergenmüller، پالِتینات — توت‌های تیره، گیلاس، ادویه. بطری ۰٫۷۵ لیتر.",
-      "pairing": "دوئت آوِ دِ آوکس"
+      "description": "Cabernet Sauvignon، Dornfelder، Tempranillo، Weingut Lergenmüller، Palatinate — توت‌های تیره، گیلاس، ادویه. بطری 0.75l.",
+      "pairing": "Duet of the Ox"
     },
     "rose-lime-stone": {
-      "description": "Unger، دریاچهٔ نِویزیدل — توت‌های قرمز، توت‌فرنگی، تمشک، مرکبات. بطری ۰٫۷۵ لیتر.",
-      "pairing": "سالاد Donisl"
+      "description": "Unger Winery، دریاچهٔ Neusiedl — توت‌های قرمز، توت‌فرنگی، تمشک، مرکبات. بطری 0.75l.",
+      "pairing": "Donisl Salad"
     },
     "torres-natureo": {
-      "description": "Miguel Torres، Vilafranca del Penedès — مرکبات، سیب، سبک. بطری ۰٫۷۵ لیتر.",
-      "pairing": "سالاد Donisl"
+      "description": "Miguel Torres، Vilafranca del Penedès — مرکبات، سیب، سبک. بطری 0.75l.",
+      "pairing": "Donisl Salad"
     },
     "rieslaner-auslese": {
-      "description": "Juliusspital، فرانکُنیا — شراب دسر. بطری ۰٫۵ لیتر.",
-      "pairing": "Kaiserschmarrn یا Crème brûlée"
+      "description": "Juliusspital Winery، Franconia — شراب دسر. بطری 0.5l.",
+      "pairing": "Kaiserschmarrn or Crème brûlée"
     },
     "aperol-spritz": {
-      "description": "آپِریتیف کلاسیک ایتالیایی. ۰٫۲ لیتر.",
-      "pairing": "بروتسایت‌بِرتل"
+      "description": "آپریتيف کلاسیک ایتالیایی. 0.2l.",
+      "pairing": "Brotzeitbrettl"
     },
     "hugo": {
-      "description": "اسپریتز گل خوشرنگ (بِه‌طراوت). ۰٫۲ لیتر.",
-      "pairing": "سبد نان"
+      "description": "اسپریتز گل ساپوسِر (اِلدرفلاور). 0.2l.",
+      "pairing": "Bread basket"
     },
     "campari-soda": {
-      "description": "۰٫۲ لیتر.",
-      "pairing": "پرِتزل"
+      "description": "0.2l.",
+      "pairing": "Brezn"
     },
     "campari-orange": {
-      "description": "۰٫۲ لیتر.",
+      "description": "0.2l.",
       "pairing": "Donisl \"4erlei\""
     },
     "sanbitter": {
-      "description": "آپِریتیف تلخ بدون الکل. ۰٫۲ لیتر.",
-      "pairing": "آبگوشت گاو شفاف"
+      "description": "آپریتيف تلخ بدون الکل. 0.2l.",
+      "pairing": "Oxen consommé"
     },
     "nut-in-a-bottle": {
-      "description": "۲ کل.",
+      "description": "2cl.",
       "pairing": "Kirschmichl"
     },
     "ruescherl": {
-      "description": "۱۳ کل.",
-      "pairing": "استروِدل سیب"
+      "description": "13cl.",
+      "pairing": "Apple strudel"
     },
     "hirschkuss": {
-      "description": "۳۸٪ حجم، بطری با درپوش آونگی، ۴ کل.",
-      "pairing": "Kaiserschmarrn (بزرگ)"
+      "description": "38% الکل، بطری با درِ فنری، 4cl.",
+      "pairing": "Kaiserschmarrn (large)"
     },
     "vodka-redbull": {
-      "description": "۰٫۲۷ لیتر.",
+      "description": "0.27l.",
       "pairing": "Donisl Deluxe Burger"
     },
     "williams-christ-pear": {
-      "description": "۴۰٪ حجم. اَلدِبِرَند، تقطیر Sigi Herzog. ۲ کل.",
-      "pairing": "استروِدل سیب"
+      "description": "40% الکل. Edelbrand، تقطیر Sigi Herzog. 2cl.",
+      "pairing": "Apple strudel"
     },
     "farm-fruit-growers": {
-      "description": "آتشگاه میوهٔ Linster، یک سال در بشکهٔ بلوط مانده. ۲ کل.",
+      "description": "Linster، تقطیر میوهٔ مرغوب، یک سال در بشکهٔ بلوط بلوغ یافته. 2cl.",
       "pairing": "Kirschmichl"
     },
     "feiner-mirabell": {
-      "description": "Linster، طعم زردآلوی رسیده. ۲ کل.",
+      "description": "Linster، طعم زردآلوی رسیده. 2cl.",
       "pairing": "Crème brûlée"
     },
     "enzian-gentian-brandy": {
-      "description": "کارخانه نوشیدنی‌های ظریف Wilhelm Marx. ۲ کل.",
+      "description": "Wilhelm Marx Fine Spirits Manufactory. 2cl.",
       "pairing": "Schweinshaxe"
     },
     "raspberry-pulp-brandy": {
-      "description": "۴۰٪ حجم. Edelmanufaktur Wilhelm Marx. ۲ کل.",
-      "pairing": "Kaiserschmarrn (بزرگ)"
+      "description": "40% الکل. Edelmanufaktur Wilhelm Marx. 2cl.",
+      "pairing": "Kaiserschmarrn (large)"
     },
     "grappa-chardonnay": {
-      "description": "Grandfather. ۲ کل.",
+      "description": "Grandfather. 2cl.",
       "pairing": "Crème brûlée"
     },
     "paulaner-spezi": {
-      "description": "۰٫۴ لیتر.",
-      "pairing": "کاری‌ورست"
+      "description": "0.4l.",
+      "pairing": "Currywurst"
     },
     "coca-cola": {
-      "description": "۰٫۴ لیتر.",
-      "pairing": "۲ Rostbratwürstl"
+      "description": "0.4l.",
+      "pairing": "2 Rostbratwürstl"
     },
     "coca-cola-zero": {
-      "description": "۰٫۴ لیتر.",
-      "pairing": "پُرسِنِ سیب‌زمینی سرخ‌کرده"
+      "description": "0.4l.",
+      "pairing": "Portion of French Fries"
     },
     "paulaner-lemonade": {
-      "description": "۰٫۳۳ لیتر.",
+      "description": "0.33l.",
       "pairing": "Kässpatzn"
     },
     "paulaner-orange-lemonade": {
-      "description": "۰٫۳۳ لیتر.",
-      "pairing": "نانکِویِند"
+      "description": "0.33l.",
+      "pairing": "Potato dumplings"
     },
     "tonic": {
-      "description": "۰٫۲ لیتر.",
-      "pairing": "بروتسایت‌بِرتل"
+      "description": "0.2l.",
+      "pairing": "Brotzeitbrettl"
     },
     "red-bull": {
-      "description": "۰٫۲۵ لیتر.",
+      "description": "0.25l.",
       "pairing": "Donisl Deluxe Burger"
     },
     "bad-brambacher": {
-      "description": "آرام یا میان‌گَرد. ۰٫۵ لیتر.",
-      "pairing": "پرِتزل"
+      "description": "گازدار یا بدون گاز. 0.5l.",
+      "pairing": "Brezn"
     },
     "table-water": {
-      "description": "آرام یا گازدار.",
-      "pairing": "سبد نان"
+      "description": "بدون گاز یا گازدار.",
+      "pairing": "Bread basket"
     },
     "apple-spritzer": {
-      "description": "۰٫۴ لیتر.",
+      "description": "0.4l.",
       "pairing": "Kässpatzn"
     },
     "johannisbeerschorle": {
-      "description": "اسپریتزر شاتوت. ۰٫۴ لیتر.",
+      "description": "اسپریتزر تمشک سیاه. 0.4l.",
       "pairing": "Kirschmichl"
     },
     "maracujaschorle": {
-      "description": "اسپریتزر میوهٔ پاشِن فروت. ۰٫۴ لیتر.",
+      "description": "اسپریتزر میوهٔ پشن فروت. 0.4l.",
       "pairing": "Donisl Power Bowl"
     },
     "wolfra-orange-juice": {
-      "description": "۰٫۲ لیتر.",
-      "pairing": "نانکِویِند"
+      "description": "0.2l.",
+      "pairing": "Potato dumplings"
     },
     "espresso": {
       "description": "",
-      "pairing": "استروِدل سیب"
+      "pairing": "Apple strudel"
     },
     "double-espresso": {
       "description": "",
-      "pairing": "Kaiserschmarrn (بزرگ)"
+      "pairing": "Kaiserschmarrn (large)"
     },
     "espresso-macchiato": {
       "description": "",
@@ -618,31 +620,31 @@
     },
     "latte-macchiato": {
       "description": "",
-      "pairing": "استروِدل سیب"
+      "pairing": "Apple strudel"
     },
     "milchkaffee": {
       "description": "قهوه با شیر.",
-      "pairing": "استروِدل سیب"
+      "pairing": "Apple strudel"
     },
     "haferl-kaffee-creme": {
       "description": "Haferl Kaffee Creme.",
-      "pairing": "Kaiserschmarrn (بزرگ)"
+      "pairing": "Kaiserschmarrn (large)"
     },
     "drinking-chocolate": {
       "description": "با شیر.",
       "pairing": "Kirschmichl"
     },
     "tea-ronnefeldt": {
-      "description": "دارجلینگ، گیاهان کوهستانی، توت‌های شیرین، چای سبز Dragon Lung Ching، نعناع تازه، یا بابونه میوه‌ای.",
-      "pairing": "استروِدل سیب"
+      "description": "Darjeeling، Mountain herbs، Sweet Berries، Green Dragon Lung Ching، Refreshing Mint یا Fruity Camomile.",
+      "pairing": "Apple strudel"
     },
     "kids-potato-dumplings": {
-      "description": "با سس گوشت خوک بریان.",
+      "description": "با سسِ گوشتیِ کباب خوک.",
       "pairing": "Wolfra orange juice"
     },
     "kids-kaesspatzn": {
-      "description": "کِسپَتزلِ پنیر، سهم کودک.",
-      "pairing": "آب سیب گازدار"
+      "description": "Käsespätzle، پرس مخصوص بچه‌ها.",
+      "pairing": "Apple spritzer"
     },
     "kids-rostbratwuerstl": {
       "description": "با سیب‌زمینی سرخ‌کرده یا سالاد سیب‌زمینی-خیار.",

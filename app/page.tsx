@@ -18,6 +18,7 @@ import {
   lunchSpecialForDay,
   oktoberfestItems,
 } from '@/lib/menuData';
+import { oktoberfestPhase } from '@/lib/oktoberfest';
 import { getStrings, formatAskAboutDish, detectLanguage, isRtlLanguage, normalizeToSupported } from '@/lib/i18n';
 import type { ChatContext, ChatMessage, Language, MenuCategory, MenuItem } from '@/lib/types';
 
@@ -34,8 +35,9 @@ export default function Home() {
   useEffect(() => setLanguage(detectLanguage()), []);
 
   // Resolved after mount so the server-rendered markup stays deterministic.
-  const [weekday, setWeekday] = useState<number | null>(null);
-  useEffect(() => setWeekday(new Date().getDay()), []);
+  const [now, setNow] = useState<Date | null>(null);
+  useEffect(() => setNow(new Date()), []);
+  const weekday = now === null ? null : now.getDay();
   const t = getStrings(language);
   const dir = isRtlLanguage(normalizeToSupported(language)) ? 'rtl' : 'ltr';
 
@@ -134,6 +136,14 @@ export default function Home() {
   const isWeekend = weekday !== null && (weekday === 0 || weekday === 6);
   const hasOktoberfest = oktoberfestItems().length > 0;
 
+  const okt = now === null ? null : oktoberfestPhase(now);
+  const oktoberfestBannerText =
+    okt === null
+      ? t.oktoberfestBannerText
+      : okt.started
+        ? t.oktoberfestBannerStarted
+        : t.oktoberfestBannerCountdown.replace('{days}', String(okt.daysUntilStart));
+
   return (
     <div dir={dir} className="min-h-[100dvh] bg-bg pb-24">
       <RestaurantHeader />
@@ -159,7 +169,7 @@ export default function Home() {
                   <span className="text-[15px] font-semibold text-wiesn-deep">{t.oktoberfestBannerTitle}</span>
                 </span>
                 <span className="mt-0.5 text-[12.5px] leading-snug text-wiesn-deep/80">
-                  {t.oktoberfestBannerText}
+                  {oktoberfestBannerText}
                 </span>
               </span>
             </button>

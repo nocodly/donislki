@@ -2,28 +2,30 @@
   "strings": {
     "welcome": "Просмотрите меню ниже или спросите нашего AI‑ассистента за рекомендацией.",
     "categoriesTitle": "Меню",
-    "featuredTitle": "Рекомендуемое",
+    "featuredTitle": "Рекомендуем",
     "askAi": "Спросить AI",
     "chatTitle": "DonislKI",
-    "discussing": "Обсуждаем",
+    "discussing": "Обсуждение",
     "askAboutThis": "Спросить AI об этом",
-    "todaysLunchTitle": "Сегодняшнее ланч‑предложение",
+    "todaysLunchTitle": "Сегодняшнее блюдо дня",
     "weekendLunchTitle": "Уикенд в Donisl",
-    "weekendLunchText": "Сегодня нет будничного ланча — наши Октоберфест‑лакомства подаются весь уикенд.",
-    "oktoberfestBadge": "Это Октоберфест",
+    "weekendLunchText": "В будни специального обеденного предложения нет — наши октоберфестные Schmankerl подаются весь уикенд.",
+    "oktoberfestBadge": "Wiesn меню",
     "oktoberfestBannerTitle": "Oktoberfest Schmankerl",
-    "oktoberfestBannerText": "Wiesn начался — наши Октоберфест‑специальности уже подают.",
+    "oktoberfestBannerText": "Наше Wiesn‑меню уже подаётся.",
+    "oktoberfestBannerStarted": "Время Wiesn — специальные предложения Октоберфеста уже здесь.",
+    "oktoberfestBannerCountdown": "Oktoberfest открывается через {days} дней — но наше Wiesn‑меню уже подаётся.",
     "askAboutDishTemplate": "Расскажите мне о {dish}",
-    "pairing": "Лучше с",
+    "pairing": "Лучше всего с",
     "fromPricePrefix": "от ",
     "allergensLabel": "Аллергены",
-    "allergensUnknown": "Уточните, пожалуйста, у персонала",
+    "allergensUnknown": "Пожалуйста, уточните у персонала",
     "composerPlaceholder": "Спросите о меню…",
     "send": "Отправить",
     "close": "Закрыть",
     "noInfo": "У меня нет этой информации в текущем меню.",
     "categories": {
-      "weekly": "Ланч‑предложения",
+      "weekly": "Обеденные спецпредложения",
       "oktoberfest": "Oktoberfest",
       "traditional": "Традиционные",
       "sausages": "Колбасы",
@@ -34,21 +36,21 @@
       "wine": "Вино",
       "aperitif": "Аперитив",
       "spirits": "Крепкие напитки",
-      "drinks": "Безалкогольные напитки и кофе",
+      "drinks": "Безалкогольные и кофе",
       "kids": "Детское"
     },
     "tagLabels": {
-      "sharing": "на двоих/на троих",
+      "sharing": "на компанию",
       "signature": "фирменное",
       "hearty": "сытное",
-      "classic": "классика",
+      "classic": "классическое",
       "light": "лёгкое",
       "seasonal": "сезонное",
       "strong": "крепкое",
       "non-alcoholic": "безалкогольное",
       "vegetarian": "вегетарианское",
       "vegan": "веганское",
-      "spirit": "спиртное",
+      "spirit": "крепкий напиток",
       "water": "вода",
       "coffee": "кофе",
       "hot-drink": "тёплый напиток",
@@ -59,11 +61,11 @@
       "rose": "розе",
       "sparkling": "игристое",
       "dessert-wine": "десертное вино",
-      "by-glass": "в бокале",
-      "bottle": "в бутылке",
-      "lunch-special": "ланч‑предложение",
+      "by-glass": "по бокалам",
+      "bottle": "бутылка",
+      "lunch-special": "обеденное предложение",
       "gluten": "глютен",
-      "dairy": "молоко/молочные",
+      "dairy": "молочное",
       "egg": "яйцо",
       "mustard": "горчица",
       "nuts": "орехи",
@@ -76,8 +78,8 @@
     },
     "quickSuggestions": [
       "Что посоветуете?",
-      "Какой напиток подходит к этому блюду?",
-      "Покажите веганские варианты",
+      "Какой напиток подойдёт к этому блюду?",
+      "Показать веганские варианты",
       "Что содержит аллергены?",
       "Что‑то лёгкое",
       "Что‑то традиционное"
@@ -85,39 +87,39 @@
   },
   "items": {
     "lunch-monday-tagliatelle": {
-      "description": "Ланч‑специаль понедельника, подаётся 12:00–15:30. Тальятелле с лесными грибами и петрушкой.",
-      "pairing": "Grauburgunder (в бокале)"
+      "description": "Обед понедельника, подача 12:00–15:30. Тальятелле с лесными грибами и петрушкой.",
+      "pairing": "Grauburgunder (по бокалам)"
     },
     "lunch-tuesday-bratengroestl": {
-      "description": "Ланч‑специаль вторника, подаётся 12:00–15:30. Микс жаркого с квашеной белокочанной капустой, картофельной клецкой и жареным яйцом.",
+      "description": "Обед вторника, подача 12:00–15:30. Смешанное жаркое с белокочанной капустой, картофельным клецком и жареным яйцом.",
       "pairing": "Münchner Dunkel"
     },
     "lunch-wednesday-leberkaese": {
-      "description": "Ланч‑специаль среды, подаётся 12:00–15:30. Поджаренный Leberkäse с жареными яйцами и картофельно‑огуречным салатом.",
+      "description": "Обед среды, подача 12:00–15:30. Пан‑поджаренный Leberkäse с жареными яйцами и салатом из картофеля и огурца.",
       "pairing": "Münchner Hell"
     },
     "lunch-thursday-chicken-geschnetzeltes": {
-      "description": "Ланч‑специаль четверга, подаётся 12:00–15:30. Нарезанная курица в грибном соусе с травяными Spätzle.",
+      "description": "Обед четверга, подача 12:00–15:30. Кусочки курицы в грибном соусе с травяными Spätzle.",
       "pairing": "Münchner Radler"
     },
     "lunch-friday-fish-fillet": {
-      "description": "Ланч‑специаль пятницы, подаётся 12:00–15:30. Жареная рыба дня с ремуладом и картофельно‑огуречным салатом.",
+      "description": "Обед пятницы, подача 12:00–15:30. Жареная свежая рыба дня с ремуладом и картофельно‑огуречным салатом.",
       "pairing": "Riesling Smoky Dry"
     },
     "oktoberfest-pumpkin-soup": {
-      "description": "Нежный тыквенный суп со стеирийским тыквенным маслом и поджаренными семечками.",
+      "description": "Нежный тыквенный суп со стирийским тыквенным маслом и поджаренными семечками.",
       "pairing": "Weissweinschorle"
     },
     "oktoberfest-leberkas-burger": {
-      "description": "Бургер с Leberkäse, жареным яйцом, картофелем фри и травяной сметаной.",
+      "description": "Leberkäse‑бургер с жареным яйцом, картофелем фри и травяным сметанным соусом.",
       "pairing": "Oktoberfestbier"
     },
     "oktoberfest-bauernsalat": {
-      "description": "Микс салатных листьев, картофельный салат и капустный салат с хрустящими ломтиками свиной грудинки.",
+      "description": "Смешанный листовой салат, картофельный салат и квашеная капуста с хрустящими полосками свиной грудинки.",
       "pairing": "Münchner Radler"
     },
     "oktoberfest-milchkalb-steak": {
-      "description": "Стейк из молочного телёнка с фасолью со Speck, соусом из красного вина и картофельным пюре с маслом.",
+      "description": "Стейк из молочного телёнка со спек‑бобами, соусом из красного вина и пюре.",
       "pairing": "Pinot Noir Ried Goldberg"
     },
     "oktoberfest-half-chicken": {
@@ -125,51 +127,51 @@
       "pairing": "Hefeweizen (Yeast White)"
     },
     "oktoberfest-boiled-beef-fillet": {
-      "description": "Отварной говяжий филе с косточкой с мозгом, корневыми овощами, хреном и розмариновым картофелем.",
+      "description": "Варёное говяжье филе с костным мозгом, корнеплодами, хреном и розмариновым картофелем.",
       "pairing": "Grüner Veltliner Ried Tenn DAC Reserve"
     },
     "oktoberfest-wiesn-reindl": {
-      "description": "Сковорода на общий стол: котлета из телятины, шницель, bratwurst, свиная рулька и курица с картофельными клецками, квашеной капустой и сырными Spätzle. Цена за человека, минимум на двоих.",
+      "description": "Пан для компании: котлета из телятины, шницель, bratwurst, рулька и курица с картофельными клецками, квашеной капустой и сырными Spätzle. Цена за человека, минимум на двоих.",
       "pairing": "Oktoberfestbier"
     },
     "oktoberfestbier": {
-      "description": "Более крепкий, солодовый фестивальный лагер для Wiesn.",
+      "description": "Более крепкое, солодовое фестивальное лагерное пиво, наливаемое для Wiesn.",
       "pairing": "Steak vom Milchkalb"
     },
     "donisl-roasting-pan": {
-      "description": "Говядина, утка, свиная рулька и колбасы с красной капустой, картофельными клецками и сырными Käsespätzle — для общего стола.",
+      "description": "Говядина, утка, рулька и колбасы с красной капустой, картофельными клецками и сырными käsespätzle — на компанию.",
       "pairing": "Münchner Dunkel"
     },
     "roast-pork": {
-      "description": "Баварская свиная лопатка и живот с хрустящей корочкой, натуральный соус, картофельные клецки и капустный салат.",
+      "description": "Баварская свиная лопатка и брюшина с хрустящей корочкой, натуральным соусом, картофельными клецками и капустным салатом.",
       "pairing": "Münchner Dunkel"
     },
     "schweinshaxe": {
-      "description": "Хрустящая запечённая половина свиной рульки, подаётся с натуральным соусом, картофельными клецками и капустным салатом.",
+      "description": "Хрустящая запечённая половина свиной рульки с натуральным соусом, картофельными клецками и капустным салатом.",
       "pairing": "Münchner Dunkel"
     },
     "wiener-schnitzel": {
-      "description": "Венский шницель из баварской свинины на соломенном откорме, с картофелем фри или картофельно‑огуречным салатом и клюквой.",
-      "pairing": "Riesling Easy-White или Radler"
+      "description": "Венский шницель из баварской свинины на соломе, с картофелем фри или картофельно‑огуречным салатом и клюквой.",
+      "pairing": "Riesling Easy-White or a Radler"
     },
     "farm-duck": {
       "description": "Утка с розмариновым соусом, картофельными клецками и красной капустой.",
       "pairing": "Münchner Dunkel"
     },
     "backhendl": {
-      "description": "Куриная ножка без костей в панировке с картофелем фри или картофельно‑огуречным салатом.",
+      "description": "Курячая ножка без кости в панировке, с картофелем фри или картофельно‑огуречным салатом.",
       "pairing": "Münchner Radler"
     },
     "duet-of-the-ox": {
-      "description": "Томлёная говядина и жареный стейк из быка, соус из красного вина, красная капуста, картофельное пюре с маслом.",
+      "description": "Тушёный бык и жареный стейк из быка, соус из красного вина, красная капуста, пюре.",
       "pairing": "Black OX Cuvée"
     },
     "veal-meatballs": {
-      "description": "Ручные котлетки из телятины с заправленными овощами и розмариновым картофелем.",
+      "description": "Ручной формовки котлеты из телятины с маринованными овощами и розмариновым картофелем.",
       "pairing": "Grauburgunder Tradition"
     },
     "white-sausage": {
-      "description": "Две штуки, подаются с брецелем и горчицей.",
+      "description": "Две штуки, подаются с кренделем и горчицей.",
       "pairing": "Hefeweizen (Yeast White)"
     },
     "white-sausage-piece": {
@@ -177,27 +179,27 @@
       "pairing": "Hefeweizen (Yeast White)"
     },
     "polish-sausage": {
-      "description": "Подаётся с брецелем и горчицей.",
+      "description": "Подаётся с кренделем и горчицей.",
       "pairing": "Russn"
     },
     "currywurst": {
-      "description": "Кари‑соус от Donisl, подаётся с картофелем фри.",
+      "description": "Currywurst от Donisl с соусом, подаётся с картофелем фри.",
       "pairing": "Hefeweizen wheat beer"
     },
     "bratwurstreindl": {
-      "description": "Сковорода с жареными колбасками, с квашеной капустой или картофельным салатом — порция для совместного употребления.",
+      "description": "Пан с жареными колбасками и квашеной капустой или картофельным салатом — порция для компании.",
       "pairing": "Russn (light Hefeweizen)"
     },
     "rump-steak": {
-      "description": "Murnauer говядина с соусом из красного вина и лука, жареным луком, Käsespätzle.",
+      "description": "Говядина Murnau с соусом из красного вина и лука, жареным луком, käsespätzle.",
       "pairing": "Primitivo Puglia IGT"
     },
     "ribeye-300g": {
-      "description": "Слой жира на Ribeye из Murnau говядины, соус Café de Paris, гриль‑овощи, картофельный гратен.",
+      "description": "Поперечная часть с жировым краем от говядины Murnau, соус Café de Paris, гриль‑овощи, картофельный гратен.",
       "pairing": "Brunello di Montalcino DOCG"
     },
     "deluxe-burger": {
-      "description": "200 г говядины Werdenfelser, чеддер, салат, помидор, маринованные огурчики, лук, домашний соус Donisl. +3.90 с картофелем фри.",
+      "description": "200 г Werdenfelser beef, чеддер, салат, помидор, маринованные огурцы, лук, домашний соус Donisl. +3,90 с картофелем фри.",
       "pairing": "Münchner Hell"
     },
     "zanderfilet": {
@@ -205,15 +207,15 @@
       "pairing": "Sauvignon Blanc"
     },
     "brotzeitbrettl": {
-      "description": "Фермерская тарелка: копчёные деликатесы, беконная колбаса, Leberwurst, холодная ростбиф, O'gmachter, горный сыр, хрен, хлеб.",
+      "description": "Фермерские копчёности, бекон‑колбаска, печёночная колбаса, холодная говядина, O'gmachter, горный сыр, хрен, хлеб.",
       "pairing": "Hefeweizen (Yeast White)"
     },
     "donisl-4erlei": {
-      "description": "Хумус, домашний сыр, солёное масло и травяная сметана, подаются с хлебной корзиной.",
+      "description": "Хумус, домашний сыр, солёное масло и травяная сметана, подаются с корзиной хлеба.",
       "pairing": "Weissweinschorle"
     },
     "beef-tartare": {
-      "description": "Тартар с трюфельным кремом, запечённым органическим яйцом.",
+      "description": "Трюфельный крем, запечённое органическое яйцо.",
       "pairing": "Pinot Noir Ried Goldberg"
     },
     "ogmachter-kas": {
@@ -221,27 +223,27 @@
       "pairing": "Münchner Radler"
     },
     "sausage-salad": {
-      "description": "Домашняя заправка, кольца лука, маринованный огурец, помидор, ягоды (+1.90 с полосками горного сыра).",
+      "description": "Домашняя заправка, кольца лука, маринованный огурец, помидор, ягоды (+1,90 с ломтиками горного сыра).",
       "pairing": "Russn"
     },
     "donisl-salad": {
-      "description": "Листовой салат, помидор, огурец, домашняя заправка, семена и гренки.",
+      "description": "Листовая зелень, помидор, огурец, домашняя заправка, семена и гренки.",
       "pairing": "Weissweinschorle"
     },
     "bread-basket": {
-      "description": "Свежая хлебная корзина.",
+      "description": "Свежая корзина с хлебом.",
       "pairing": "Münchner Hell"
     },
     "brezn": {
-      "description": "Баварский брецель.",
+      "description": "Баварский крендель (Brezn).",
       "pairing": "Münchner Hell"
     },
     "oxen-consomme": {
-      "description": "Прозрачный говяжий бульон с печёночными клецками или блинными полосками, овощами и шнитт‑луком.",
+      "description": "Прозрачный говяжий бульон с печёночными клецками или блинными полосками, овощами и зелёным луком.",
       "pairing": "Weissweinschorle"
     },
     "classic-sides": {
-      "description": "Квашеная капуста, красная капуста, беконовый салат из капусты, картофельное пюре с маслом, картофельные клецки, маленький жареный картофель, Spätzle или картофель фри — по отдельности.",
+      "description": "Квашеная капуста, красная капуста, салат из бекона и капусты, сливочный картофель, картофельные клецки, маленький зажаренный картофель, Spätzle или картофель фри — по отдельности.",
       "pairing": "Münchner Hell"
     },
     "vegetable-sides": {
@@ -254,30 +256,30 @@
     },
     "kaesespaetzle": {
       "description": "Käsespätzle с кольцами жареного лука.",
-      "pairing": "Münchner Dunkel или полнотелое белое вино"
+      "pairing": "Münchner Dunkel or a full-bodied white wine"
     },
     "linguine-truffles": {
       "description": "Паста с молодым шпинатом и зимним трюфелем.",
-      "pairing": "Chardonnay (в бокале)"
+      "pairing": "Chardonnay (by the glass)"
     },
     "creme-brulee": {
       "description": "Подаётся с сорбетом и ягодами.",
       "pairing": "Rieslaner Auslese dessert wine"
     },
     "kaiserschmarrn": {
-      "description": "Изюм, масло, сахар и карамелизированный миндаль, подаётся с яблочным соусом — идеально для совместного употребления.",
+      "description": "С изюмом, маслом, сахаром и карамелизированными миндалём, подаётся с яблочным пюре — идеально для компании.",
       "pairing": "Rieslaner Auslese dessert wine"
     },
     "kirschmichl": {
-      "description": "Тёплый вишнёвый пирог, подаётся с заварным кремом.",
+      "description": "Тёплый вишнёвый пирог, подаётся с ванильным кремом.",
       "pairing": "Rieslaner Auslese"
     },
     "apple-strudel": {
-      "description": "Классический яблочный штрудель, подаётся с заварным кремом.",
+      "description": "Классический яблочный штрудель, подаётся с ванильным кремом.",
       "pairing": "Milchkaffee"
     },
     "muenchner-hell": {
-      "description": "Нижнеброженное, с деликатной горчинкой хмеля, слегка солодовое. 5.0% об.",
+      "description": "Нижнее брожение, аккуратная хмелевая горчинка, лёгкая солодовая нота. 5,0% об.",
       "pairing": "Wiener Schnitzel"
     },
     "beer-light-alcohol-free": {
@@ -285,19 +287,19 @@
       "pairing": "Brotzeitbrettl"
     },
     "muenchner-radler": {
-      "description": "Münchner Helles с лёгкой лимонадной ноткой, не слишком сладкий.",
+      "description": "Münchner Helles с тонкой лимонадной нотой, не слишком сладкий.",
       "pairing": "Donisl Salad"
     },
     "muenchner-dunkel": {
-      "description": "Деликатная горчинка, жареный солод с нотами карамели и цукатов. 5.0% об.",
+      "description": "Небольшая горчинка, жареный солод с нотами карамели и цукатов. 5,0% об.",
       "pairing": "Schweinshaxe"
     },
     "hefeweizen": {
-      "description": "Верхнеброженное пшеничное пиво с банановыми и медовыми нотами.",
+      "description": "Верховое пшеничное пиво с банановыми и медовыми нотами.",
       "pairing": "White sausage (Kesselfrisch)"
     },
     "russn": {
-      "description": "Hefeweizen с лёгкой лимонадной ноткой, не слишком сладкий.",
+      "description": "Hefeweizen с лёгким лимонадом, не слишком сладкий.",
       "pairing": "Bratwurstreindl"
     },
     "cola-wheat": {
@@ -305,7 +307,7 @@
       "pairing": "Currywurst"
     },
     "non-alcoholic-wheat": {
-      "description": "Лёгко деиалкоголизированное после полного созревания, сохраняет аромат.",
+      "description": "Слегка безалкоголенное после полной выдержки, сохраняет аромат.",
       "pairing": "Backhendl"
     },
     "salvator": {
@@ -313,179 +315,179 @@
       "pairing": "Duet of the Ox"
     },
     "kellerbier": {
-      "description": "Сезонное — доступно июнь/июль/август (летом). 0.5 л.",
+      "description": "Сезонное — доступно в июне/июле/августе (летнее время). 0.5 л.",
       "pairing": "Brotzeitbrettl"
     },
     "wiesnbier": {
-      "description": "Октоберфест‑пиво, сезонное — доступно сентябрь/октябрь.",
+      "description": "Октоберфестное пиво, сезонное — доступно в сентябре/октябре.",
       "pairing": "Donisl roasting pan"
     },
     "weissweinschorle": {
-      "description": "Вайсвайншорле (винный шприц). 0.3 л.",
+      "description": "Белый винный шприцер. 0.3 л.",
       "pairing": "Donisl Salad"
     },
     "pinot-gris-glass": {
-      "description": "Weingut Hirschmüller, Вюртемберг — лёгкое, легко пьётся.",
+      "description": "Hirschmüller Winery, Wurttemberg — лёгкое, легко пьётся.",
       "pairing": "Kalbfleischpflanzerl (hand-pressed)"
     },
     "primitivo-glass": {
-      "description": "Sir of the Faun, Пулия — тёмные ягоды, вишня, лёгкая пряность.",
+      "description": "Sir of the Faun, Puglia — тёмные ягоды, вишня, тонкие специи.",
       "pairing": "Schweinebraten (roast pork)"
     },
     "prodry-frizzante": {
-      "description": "Motelvini, Венето, Италия. 0.1 л.",
+      "description": "Motelvini, Veneto, Italy. 0.1 л.",
       "pairing": "Brotzeitbrettl"
     },
     "paul-michel-champagne": {
-      "description": "Шампань Premier Cru, Шампань, Франция. бутылка 0.75 л.",
+      "description": "Champagne Premier Cru, Champagne, France. Бутылка 0.75 л.",
       "pairing": "Oxen consommé"
     },
     "taittinger-rose": {
-      "description": "Taittinger Rosé, Франция. бутылка 0.75 л.",
+      "description": "Champagne Taittinger, France. Бутылка 0.75 л.",
       "pairing": "Donisl \"4erlei\""
     },
     "valdo-prosecco": {
-      "description": "Valdo, Венето — классическое итальянское игристое. бутылка 0.75 л.",
+      "description": "Valdo, Veneto — классическое итальянское игристое. Бутылка 0.75 л.",
       "pairing": "Donisl Salad"
     },
     "winzersekt": {
-      "description": "Weingut Pfaffmann, Пфальц, Германия. бутылка 0.75 л.",
+      "description": "Pfaffmann Winery, Pfalz, Германия. Бутылка 0.75 л.",
       "pairing": "Oxen consommé"
     },
     "chardonnay-bottle": {
-      "description": "Weingut Hirschmüller, Вюртемберг — маракуйя, манго, ананас. бутылка 0.75 л.",
+      "description": "Hirschmüller Winery, Württemberg — маракуйя, манго, ананас. Бутылка 0.75 л.",
       "pairing": "Käsespätzle"
     },
     "chardonnay-glass": {
-      "description": "Weingut Hirschmüller, Вюртемберг. 0.1 л.",
+      "description": "Hirschmüller Winery, Württemberg. 0.1 л.",
       "pairing": "Linguine with truffles"
     },
     "chardonnay-macon-ige": {
-      "description": "Domaine Fichet, Бургундия — яблоко, груша, белый персик, тонкая минерализация. бутылка 0.75 л.",
+      "description": "Domaine Fichet, Burgundy — яблоко, груша, белый персик, лёгкая минерализация. Бутылка 0.75 л.",
       "pairing": "Käsespätzle"
     },
     "pinot-gris-tradition": {
-      "description": "Bott Frères, Бургундия — абрикос, венский яблочный, фундук, лёгкий дым. бутылка 0.75 л.",
+      "description": "Bott Frères Winery, Burgundy — абрикос, венский яблочный аромат, фундук, лёгкий дым. Бутылка 0.75 л.",
       "pairing": "Kalbfleischpflanzerl (hand-pressed)"
     },
     "pinot-gris-oetinger": {
-      "description": "Weingut Oetinger, Рейнгау — спелая груша, жёлтое яблоко, намёк на миндаль. бутылка 0.75 л.",
+      "description": "Oetinger Winery, Rheingau — спелая груша, жёлтое яблоко, намёк на миндаль. Бутылка 0.75 л.",
       "pairing": "Backhendl"
     },
     "pinot-gris-reserve-pauline": {
-      "description": "Weingut Pfaffmann, Пфальц — груша, ананас, нектарин, лемонграсс, цветочные ноты. бутылка 0.75 л.",
+      "description": "Pfaffmann Winery, Pfalz — груша, ананас, нектарин, лимонная трава, цветочный характер. Бутылка 0.75 л.",
       "pairing": "O'gmachter Kas"
     },
     "pinot-blanc-grand-reserve": {
-      "description": "Weingut Taubenschuss, австрийский Weinviertel — дыня, фундук, сено, карамель. бутылка 0.75 л.",
+      "description": "Taubenschuss Winery, австрийский Weinviertel — дыня, фундук, сено, карамель. Бутылка 0.75 л.",
       "pairing": "Donisl \"4erlei\""
     },
     "trebbiano-di-lugana": {
-      "description": "Zenato, Венето, Италия — свежая кислотность, минералы, цитрус, зелёное яблоко, груша. бутылка 0.75 л.",
+      "description": "Zenato Winery, Veneto, Italy — свежая кислотность, минералы, цитрус, зелёное яблоко, груша. Бутылка 0.75 л.",
       "pairing": "Sausage salad from Regensburg"
     },
     "lugana-glass": {
-      "description": "Zenato, Венето, Италия. 0.1 л.",
+      "description": "Zenato Winery, Veneto, Italy. 0.1 л.",
       "pairing": "Zander fillet with potato crust"
     },
     "riesling-easy-white": {
-      "description": "Weingut Oetinger, Рейнгау — лайм, яблоко, белый персик, идеален как аперитив. бутылка 0.75 л.",
+      "description": "Oetinger Winery, Rheingau — лайм, яблоко, белый персик, идеален как аперитив. Бутылка 0.75 л.",
       "pairing": "Wiener Schnitzel"
     },
     "riesling-gottloos": {
-      "description": "Dr. Loosen, Мозель — цитрус, яблоко, элегантная минерализация. бутылка 0.75 л.",
+      "description": "Dr. Loosen Winery, Mosel — цитрус, яблоко, элегантная минерализация. Бутылка 0.75 л.",
       "pairing": "Wiener Schnitzel"
     },
     "riesling-heiligenstein": {
-      "description": "Bründlmayer, Langenlois, Кампталь, Австрия — свежий цитрус, яблоко, травяная пряность. бутылка 0.75 л.",
+      "description": "Bründlmayer Winery, Langenlois, Kamptal, Austria — свежие цитрусовые, яблоко, травяные ноты. Бутылка 0.75 л.",
       "pairing": "Donisl Salad"
     },
     "riesling-smoky-dry": {
-      "description": "Weingut Oetinger, Рейнгау — дымная минерализация, сочное яблоко, цитрус. бутылка 0.75 л.",
+      "description": "Weingut Oetinger, Rheingau — дымная минерализация, сочное яблоко, цитрус. Бутылка 0.75 л.",
       "pairing": "Currywurst"
     },
     "riesling-bright-side-of-life": {
-      "description": "Weingut Stahl, Франкония — фруктовый, свежий, простой в употреблении. бутылка 0.75 л.",
+      "description": "Stahl Winery, Franconia, Germany — фруктовое, свежее, простое в подаче. Бутылка 0.75 л.",
       "pairing": "Gebackenes Fischfilet (Friday)"
     },
     "riesling-nachschlag-glass": {
-      "description": "Weingut Stahl, Франкония. 0.1 л.",
+      "description": "Stahl Winery, Franconia, Germany. 0.1 л.",
       "pairing": "Gebackenes Fischfilet (Friday)"
     },
     "sauvignon-blanc": {
-      "description": "Chateau de la Chaise, Луара — крыжовник, зелёное яблоко, экзотические фрукты. бутылка 0.75 л.",
+      "description": "Chateau de la Chaise, Loire — крыжовник, зелёное яблоко, экзотические фрукты. Бутылка 0.75 л.",
       "pairing": "Zander fillet with potato crust"
     },
     "sauvignon-blanc-reserve": {
-      "description": "Weingut Taubenschuss, Weinviertel — лайм, крыжовник, экзотические фрукты. бутылка 0.75 л.",
+      "description": "Taubenschuss Winery, австрийский Weinviertel — лайм, крыжовник, экзотические фрукты. Бутылка 0.75 л.",
       "pairing": "Donisl Power Bowl"
     },
     "silvaner-easy-white": {
-      "description": "Weingut am Stein, Франкония — зелёное яблоко, груша, тонкие травяные ноты. бутылка 0.75 л.",
+      "description": "Weingut am Stein, Franconia — зелёное яблоко, груша, нежные травяные ноты. Бутылка 0.75 л.",
       "pairing": "Vegetable side dish"
     },
     "gruener-veltliner-tenn": {
-      "description": "Weingut Taubenschuss, Weinviertel — яблоко, белый перец, травяная пряность. бутылка 0.75 л.",
+      "description": "Taubenschuss Winery, австрийский Weinviertel — яблоко, белый перец, пряные травы. Бутылка 0.75 л.",
       "pairing": "Lukewarm calf's head carpaccio"
     },
     "riesling-gottloos-3l": {
-      "description": "Dr. Loosen, Мозель. бутылка 3.0 л.",
+      "description": "Dr. Loosen Winery, Mosel. Бутылка 3.0 л.",
       "pairing": "Wiener Schnitzel"
     },
     "gruener-veltliner-steinberg": {
-      "description": "Karl Fritsch, Бургенланд, Австрия. бутылка 1.5 л.",
+      "description": "Karl Fritsch Winery, Burgenland, Austria. Бутылка 1.5 л.",
       "pairing": "Käsespätzle"
     },
     "chardonnay-morillon": {
-      "description": "Lackner‑Tinnacher, Южная Штирия, Австрия. бутылка 1.5 л.",
+      "description": "Lackner‑Tinnacher Winery, Южная Штирия, Austria. Бутылка 1.5 л.",
       "pairing": "O'gmachter Kas"
     },
     "cuvee-adrian-sangiovese": {
-      "description": "Красное купажное вино, Toscana Rosso, Тоскана. бутылка 1.5 л.",
+      "description": "Красное купе, Toscana Rosso, Tuscany. Бутылка 1.5 л.",
       "pairing": "Duet of the Ox"
     },
     "primitivo-bottle": {
-      "description": "Barbanera, Апулия, Италия — тёмные ягоды, вишня, лёгкая пряность. бутылка 0.75 л.",
+      "description": "Barbanera Winery, Apulia, Italy — тёмные ягоды, вишня, тонкие специи. Бутылка 0.75 л.",
       "pairing": "Schweinebraten (roast pork)"
     },
     "herrgott-cuvee": {
-      "description": "Купаж Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Пфальц — вишня, красные ягоды. бутылка 0.75 л.",
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz — вишня, красные ягоды. Бутылка 0.75 л.",
       "pairing": "Ribeye 300 grams"
     },
     "herrgott-cuvee-glass": {
-      "description": "Купаж Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Пфальц. 0.1 л.",
+      "description": "Cabernet Sauvignon/Franc, Merlot, Weingut am Nil, Pfalz. 0.1 л.",
       "pairing": "Donisl Bratengröstl (Tuesday)"
     },
     "tuscany-red-cuvee": {
-      "description": "Duca di Salangane, Тоскана — вишня, тёмные ягоды. бутылка 0.75 л.",
+      "description": "Duca di Salangane, Toscana — вишня, тёмные ягоды. Бутылка 0.75 л.",
       "pairing": "Roast beef — rump steak"
     },
     "pinot-noir-goldberg": {
-      "description": "Weingut Toni Hartl, Бургенланд — красные ягоды, вишня, лёгкая пряность. бутылка 0.75 л.",
+      "description": "Toni Hartl Winery, Burgenland — красные ягоды, вишня, тонкие пряности. Бутылка 0.75 л.",
       "pairing": "Steak vom Milchkalb"
     },
     "merlot": {
-      "description": "Chateau Gensac, Гасконь — тёмная вишня, сливы, пряность. бутылка 0.75 л.",
+      "description": "Chateau Gensac, Gascony — тёмная вишня, сливы, пряности. Бутылка 0.75 л.",
       "pairing": "Veal meatballs"
     },
     "brunello-di-montalcino": {
-      "description": "Tenuta Corte Pavone, Sangiovese, Тоскана — тёмные ягоды, вишня, шоколад. бутылка 0.75 л.",
+      "description": "Tenuta Corte Pavone Winery, Sangiovese, Tuscany — тёмные ягоды, вишня, шоколад. Бутылка 0.75 л.",
       "pairing": "Ribeye 300 grams"
     },
     "black-ox-cuvee": {
-      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Пфальц — тёмные ягоды, вишня, пряность. бутылка 0.75 л.",
+      "description": "Cabernet Sauvignon, Dornfelder, Tempranillo, Weingut Lergenmüller, Pfalz — тёмные ягоды, вишня, пряности. Бутылка 0.75 л.",
       "pairing": "Duet of the Ox"
     },
     "rose-lime-stone": {
-      "description": "Weingut Unger, Нойзидлер‑зее — красные ягоды, клубника, малина, цитрус. бутылка 0.75 л.",
+      "description": "Unger Winery, Neusiedlersee — красные ягоды, клубника, малина, цитрус. Бутылка 0.75 л.",
       "pairing": "Donisl Salad"
     },
     "torres-natureo": {
-      "description": "Miguel Torres, Vilafranca del Penedès — цитрус, яблоко, лёгкое. бутылка 0.75 л.",
+      "description": "Miguel Torres, Vilafranca del Penedès — цитрус, яблоко, лёгкое. Бутылка 0.75 л.",
       "pairing": "Donisl Salad"
     },
     "rieslaner-auslese": {
-      "description": "Weingut Juliusspital, Франкония — десертное вино. бутылка 0.5 л.",
+      "description": "Juliusspital Winery, Franconia — десертное вино. Бутылка 0.5 л.",
       "pairing": "Kaiserschmarrn or Crème brûlée"
     },
     "aperol-spritz": {
@@ -493,7 +495,7 @@
       "pairing": "Brotzeitbrettl"
     },
     "hugo": {
-      "description": "Спритц с бузиной. 0.2 л.",
+      "description": "Освежающий сирцовый коктейль с бузиной. 0.2 л.",
       "pairing": "Bread basket"
     },
     "campari-soda": {
@@ -525,15 +527,15 @@
       "pairing": "Donisl Deluxe Burger"
     },
     "williams-christ-pear": {
-      "description": "40% об. Edelbrand, Sigi Herzog Distillate. 2 cl.",
+      "description": "40% об. Edelbrand, дистиллят Sigi Herzog. 2 cl.",
       "pairing": "Apple strudel"
     },
     "farm-fruit-growers": {
-      "description": "Linster, выдержан 1 год в дубовых бочках. 2 cl.",
+      "description": "Linster — утончённый фруктовый дистиллят, выдержан 1 год в дубовых бочках. 2 cl.",
       "pairing": "Kirschmichl"
     },
     "feiner-mirabell": {
-      "description": "Linster, аромат спелого абрикоса. 2 cl.",
+      "description": "Linster — дистиллят со вкусом спелого абрикоса. 2 cl.",
       "pairing": "Crème brûlée"
     },
     "enzian-gentian-brandy": {
@@ -558,7 +560,7 @@
     },
     "coca-cola-zero": {
       "description": "0.4 л.",
-      "pairing": "Porition of French Fries"
+      "pairing": "Portion of French Fries"
     },
     "paulaner-lemonade": {
       "description": "0.33 л.",
@@ -577,11 +579,11 @@
       "pairing": "Donisl Deluxe Burger"
     },
     "bad-brambacher": {
-      "description": "Без газа или слегка газированная. 0.5 л.",
+      "description": "Негазированная или среднегазированная. 0.5 л.",
       "pairing": "Brezn"
     },
     "table-water": {
-      "description": "Без газа или газированная.",
+      "description": "Негазированная или газированная.",
       "pairing": "Bread basket"
     },
     "apple-spritzer": {
@@ -589,11 +591,11 @@
       "pairing": "Kässpatzn"
     },
     "johannisbeerschorle": {
-      "description": "Шорле из чёрной смородины. 0.4 л.",
+      "description": "Спритцер из чёрной смородины. 0.4 л.",
       "pairing": "Kirschmichl"
     },
     "maracujaschorle": {
-      "description": "Шорле из маракуйи. 0.4 л.",
+      "description": "Спритцер из маракуйи. 0.4 л.",
       "pairing": "Donisl Power Bowl"
     },
     "wolfra-orange-juice": {
@@ -637,7 +639,7 @@
       "pairing": "Apple strudel"
     },
     "kids-potato-dumplings": {
-      "description": "С подливой от свиного ростбифа.",
+      "description": "С подливой из свиного жаркого.",
       "pairing": "Wolfra orange juice"
     },
     "kids-kaesspatzn": {
@@ -645,7 +647,7 @@
       "pairing": "Apple spritzer"
     },
     "kids-rostbratwuerstl": {
-      "description": "Подаются с картофелем фри или картофельно‑огуречным салатом.",
+      "description": "С картофелем фри или картофельно‑огуречным салатом.",
       "pairing": "Paulaner Spezi"
     },
     "kids-fries": {

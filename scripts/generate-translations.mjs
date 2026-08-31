@@ -24,6 +24,35 @@ try {
 
 const MODEL = 'gpt-5-mini';
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// The OpenAI endpoint here drops connections often enough (ECONNRESET) that a
+// 40-language run rarely finishes without a transient failure. Retry network
+// errors and 429/5xx with exponential backoff.
+async function postWithRetry(body, attempts = 5) {
+  for (let i = 1; i <= attempts; i++) {
+    try {
+      const res = await fetch('https://api.openai.com/v1/chat/completions', {
+        method: 'POST',
+        headers: {
+          'content-type': 'application/json',
+          authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
+        },
+        body: JSON.stringify(body),
+      });
+      if (res.ok) return res.json();
+      if (res.status !== 429 && res.status < 500) {
+        throw new Error(`OpenAI API error ${res.status}: ${await res.text()}`);
+      }
+      console.error(`\n[retry ${i}/${attempts}] HTTP ${res.status}`);
+    } catch (err) {
+      if (i === attempts) throw err;
+      console.error(`\n[retry ${i}/${attempts}] ${err.cause?.code ?? err.message}`);
+    }
+    await sleep(2000 * 2 ** (i - 1));
+  }
+}
+
 const LANGUAGES = {
   uk: 'Ukrainian',
   de: 'German',
@@ -85,7 +114,7 @@ async function translate(languageName) {
 
 Rules:
 - Translate every string VALUE. Never translate JSON keys/ids.
-- In "askAboutDishTemplate", keep the literal token {dish} unchanged — translate only the surrounding words.
+- Keep any literal placeholder token in curly braces unchanged (e.g. {dish} in "askAboutDishTemplate", {days} in "oktoberfestBannerCountdown") — translate only the surrounding words, and keep the token where it makes sense grammatically in the target language.
 - Keep dish/drink proper names that appear inside descriptions untranslated where they are brand/German culinary terms (e.g. "Kaiserschmarrn", "Spätzle"), but translate the descriptive words around them.
 - Keep the output natural and idiomatic, not a literal word-for-word translation.
 - Output ONLY raw JSON, no markdown code fences, no commentary, matching exactly this shape:
@@ -94,26 +123,13 @@ Rules:
 Input:
 ${JSON.stringify(sourcePayload)}`;
 
-  const res = await fetch('https://api.openai.com/v1/chat/completions', {
-    method: 'POST',
-    headers: {
-      'content-type': 'application/json',
-      authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
-    },
-    body: JSON.stringify({
-      model: MODEL,
-      max_completion_tokens: 20000,
-      reasoning_effort: 'low',
-      response_format: { type: 'json_object' },
-      messages: [{ role: 'user', content: prompt }],
-    }),
+  const data = await postWithRetry({
+    model: MODEL,
+    max_completion_tokens: 20000,
+    reasoning_effort: 'low',
+    response_format: { type: 'json_object' },
+    messages: [{ role: 'user', content: prompt }],
   });
-
-  if (!res.ok) {
-    throw new Error(`OpenAI API error ${res.status}: ${await res.text()}`);
-  }
-
-  const data = await res.json();
   console.error(`\n[debug] finish_reason=${data.choices?.[0]?.finish_reason} usage=${JSON.stringify(data.usage)}`);
   const text = data.choices?.[0]?.message?.content ?? '';
   try {
