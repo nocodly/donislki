@@ -506,7 +506,6 @@ export const menuItems: MenuItem[] = [
     id: 'sausage-salad',
     categories: ['starters'],
     name: 'Sausage salad from Regensburg',
-    image: '/assets/dishes/ogmachter-kas.jpg',
     description: 'House dressing, onion rings, pickle, tomato, berry (+1.90 with strips of mountain cheese).',
     price: 17.8,
     currency: 'EUR',
