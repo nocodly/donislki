@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
+import Image from 'next/image';
 import type { ChatMessage } from '@/lib/types';
 
 type Props = {
@@ -29,8 +30,9 @@ export function ChatMessages({ messages, isTyping, typingLabel }: Props) {
             }`}
           >
             {m.dishImage && (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img src={m.dishImage} alt="" className="h-32 w-full object-cover" />
+              <div className="relative h-32 w-full">
+                <Image src={m.dishImage} alt="" fill sizes="(min-width: 512px) 435px, 85vw" className="object-cover" />
+              </div>
             )}
             <div className="whitespace-pre-wrap px-3.5 py-2.5">{m.text}</div>
           </div>

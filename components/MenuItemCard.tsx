@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { Sparkles } from 'lucide-react';
 import type { Language, MenuItem } from '@/lib/types';
 import { getStrings, getTranslatedItemText } from '@/lib/i18n';
@@ -31,14 +32,19 @@ export function MenuItemCard({ item, language, onAskAi, onOpenDetail, compact }:
         className="flex flex-col gap-1.5 p-3.5 text-left"
       >
         {item.image && (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
-            src={item.image}
-            alt=""
-            className={`-m-3.5 mb-0 h-32 w-[calc(100%+28px)] max-w-none ${
-              item.imageFit === 'contain' ? 'bg-surface object-contain p-2' : 'object-cover'
+          <div
+            className={`relative -m-3.5 mb-0 h-32 w-[calc(100%+28px)] ${
+              item.imageFit === 'contain' ? 'bg-surface' : ''
             }`}
-          />
+          >
+            <Image
+              src={item.image}
+              alt={item.name}
+              fill
+              sizes={compact ? '256px' : '(min-width: 512px) 512px, 100vw'}
+              className={item.imageFit === 'contain' ? 'object-contain p-2' : 'object-cover'}
+            />
+          </div>
         )}
         <div className="flex items-start justify-between gap-2 pt-3">
           <h3 className="text-[15px] font-medium leading-snug text-ink">{item.name}</h3>

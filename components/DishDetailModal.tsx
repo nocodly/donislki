@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
+import Image from 'next/image';
 import { Sparkles, X } from 'lucide-react';
 import { useScrollLock } from '@/hooks/useScrollLock';
 import { getStrings, getTranslatedItemText } from '@/lib/i18n';
@@ -50,14 +51,20 @@ export function DishDetailModal({ item, language, onClose, onAskAi }: Props) {
         className="absolute inset-x-0 bottom-0 mx-auto flex max-h-[88dvh] w-full max-w-lg flex-col overflow-y-auto rounded-t-[20px] border border-border bg-surface shadow-[0_-8px_30px_rgba(0,0,0,0.12)]"
       >
         {item.image ? (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
-            src={item.image}
-            alt={item.name}
-            className={`h-56 w-full shrink-0 rounded-t-[20px] ${
-              item.imageFit === 'contain' ? 'bg-surface object-contain p-4' : 'object-cover'
+          <div
+            className={`relative h-56 w-full shrink-0 overflow-hidden rounded-t-[20px] ${
+              item.imageFit === 'contain' ? 'bg-surface' : ''
             }`}
-          />
+          >
+            <Image
+              src={item.image}
+              alt={item.name}
+              fill
+              sizes="(min-width: 512px) 512px, 100vw"
+              className={item.imageFit === 'contain' ? 'object-contain p-4' : 'object-cover'}
+              priority
+            />
+          </div>
         ) : (
           <div className="h-3 shrink-0" />
         )}
